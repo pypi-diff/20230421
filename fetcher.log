@@ -412,3 +412,79 @@
 [2023-04-21 00:31:02] INFO root fetch - main [MainThread]: End processing [fringes-gui]: success
 [2023-04-21 00:31:05] INFO root fetch - main [MainThread]: End processing [hammer-vlsi]: success
 [2023-04-21 00:31:05] INFO root fetch - main [MainThread]: Store serial: [17794892]
+[2023-04-21 00:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17794892]
+[2023-04-21 00:36:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 00:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-tvm
+[2023-04-21 00:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lift.bot
+[2023-04-21 00:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bhv
+[2023-04-21 00:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-dms
+[2023-04-21 00:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alacorder
+[2023-04-21 00:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wtfl
+[2023-04-21 00:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: helix.fhir.client.sdk
+[2023-04-21 00:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mage-ai
+[2023-04-21 00:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: z3-target-bigquery
+[2023-04-21 00:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: circuitpython-qmc5883l
+[2023-04-21 00:36:13] INFO root fetch - processPackages [circuitpython-qmc5883l]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 00:36:13] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-21 00:36:13] INFO root fetch - processPackages [alacorder]: New version: [79.5.7] Old Version: [79.5.6]
+[2023-04-21 00:36:13] INFO root fetch - processPackages [lift.bot]: New version: [21.1.5] Old Version: [21.0.1]
+[2023-04-21 00:36:13] INFO root fetch - processPackages [odoo-addon-dms]: New version: [15.0.1.7.1] Old Version: [15.0.1.7.0.1]
+[2023-04-21 00:36:13] INFO root fetch - processPackages [bhv]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-21 00:36:13] INFO root fetch - processPackages [wtfl]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-21 00:36:13] INFO root fetch - processPackages [z3-target-bigquery]: New version: [0.6.6] Old Version: [0.6.3]
+[2023-04-21 00:36:13] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.13.dev56]
+[2023-04-21 00:36:13] INFO root fetch - processPackages [helix.fhir.client.sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 00:36:13] INFO root fetch - processPackages [circuitpython-qmc5883l]: executing diffoscope
+[2023-04-21 00:36:13] INFO root fetch - processPackages [circuitpython-qmc5883l]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-qmc5883l-0.1.0.tar.gz tmp/circuitpython-qmc5883l-0.1.1.tar.gz --markdown 20230421/c/circuitpython-qmc5883l/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 00:36:13] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-04-21 00:36:13] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.8.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230421/m/mage-ai/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-21 00:36:14] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/b0/c8/80d85604ae22d941ec328092620e0e1de7fd8e7b3b8351e1e8c933e5ac55/apache_tvm-0.13.dev56-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 00:36:14] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/ae/03/2844cb5c296a18a0738cc2a211bb624aa2c849d29db1187b55bfefc6a2cf/odoo_addon_dms-15.0.1.7.0.1-py3-none-any.whl
+[2023-04-21 00:36:14] INFO root fetch - processPackages [helix.fhir.client.sdk]: Downloading https://files.pythonhosted.org/packages/d2/77/366bbdb3c956ba7ed03906f58526a212faf185d478bb5f5bfa5ca5b4940b/helix.fhir.client.sdk-1.0.8.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/87/a5/3121359e9dec55ca5349803ecfdcc7e04b3563d305ab6efa2d23828cfffb/alacorder-79.5.7.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [z3-target-bigquery]: Downloading https://files.pythonhosted.org/packages/9d/a4/ab08ac8a0e31633197b44f936291f29e6dd3d7a5e418204748fee4ad0eda/z3_target_bigquery-0.6.3.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/0c/92/ab58adcd0ef0d114215373814989054d9a25f062ccf6cb4f1f86051018c1/bhv-0.2.2.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-21 00:36:14] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.5.6.tar.gz tmp/alacorder-79.5.7.tar.gz --markdown 20230421/a/alacorder/79.5.6-79.5.7/diff.md --exclude *.pyd
+[2023-04-21 00:36:14] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 48318262>=10485760
+[2023-04-21 00:36:14] INFO root fetch - processPackages [apache-tvm]: Start processing: spycio
+[2023-04-21 00:36:14] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-04-21 00:36:14] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15617042>=10485760
+[2023-04-21 00:36:14] INFO root fetch - processPackages [odoo-addon-dms]: Start processing: gdsfactory
+[2023-04-21 00:36:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2023-04-21 00:36:14] INFO root fetch - processPackages [lift.bot]: Downloading https://files.pythonhosted.org/packages/60/fb/68aec25d8f22e787c9f162bd44d76bf633dd61f08c4de5a358b0a4598691/lift.bot-21.0.1.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [wtfl]: Downloading https://files.pythonhosted.org/packages/5b/1b/a6eedbb4583e3b3603faa3ba2c376e863f8fbf77f4c10f3e90b0d0e69797/wtfl-1.2.0.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [spycio]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-21 00:36:14] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/1e/4b/83a7dc96a4aa7b6bb126ee116c1fe81a51c52e60978afcb9936f359b70fc/bhv-0.2.3.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [gdsfactory]: New version: [6.9.0] Old Version: [6.88.1]
+[2023-04-21 00:36:14] INFO root fetch - processPackages [z3-target-bigquery]: Downloading https://files.pythonhosted.org/packages/fd/e5/fda192076090f37719cc87cf411d2fba4354a47c92c7aba647749f03513c/z3_target_bigquery-0.6.6.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [wtfl]: executing diffoscope
+[2023-04-21 00:36:14] INFO root fetch - processPackages [wtfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfl-1.1.0.tar.gz tmp/wtfl-1.2.0.tar.gz --markdown 20230421/w/wtfl/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-21 00:36:14] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-04-21 00:36:14] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.2.2.tar.gz tmp/bhv-0.2.3.tar.gz --markdown 20230421/b/bhv/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-21 00:36:14] INFO root fetch - processPackages [helix.fhir.client.sdk]: Downloading https://files.pythonhosted.org/packages/5f/43/aa9e2e2a2d91d7a3408294a3b810c0695b48c519d80dca2e315c5e435e9b/helix.fhir.client.sdk-1.0.9.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [spycio]: Downloading https://files.pythonhosted.org/packages/8a/27/8b1a4137495f17de4246eb7c4d30859a51b49254468e0cdae1a6eecd270c/spycio-0.2.4.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [z3-target-bigquery]: executing diffoscope
+[2023-04-21 00:36:14] INFO root fetch - processPackages [z3-target-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3_target_bigquery-0.6.3.tar.gz tmp/z3_target_bigquery-0.6.6.tar.gz --markdown 20230421/z/z3-target-bigquery/0.6.3-0.6.6/diff.md --exclude *.pyd
+[2023-04-21 00:36:14] INFO root fetch - processPackages [lift.bot]: Downloading https://files.pythonhosted.org/packages/ce/4a/4be78d097b81dbf7414c3bb64e31cc4c10980200445a0112626beb640b95/lift.bot-21.1.5.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/8a/8a/ad77fa6dd218ba9d97844f3015e19f620fbfde47a7d0db7e213627be8fc1/gdsfactory-6.88.1.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [lift.bot]: executing diffoscope
+[2023-04-21 00:36:14] INFO root fetch - processPackages [lift.bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lift.bot-21.0.1.tar.gz tmp/lift.bot-21.1.5.tar.gz --markdown 20230421/l/lift.bot/21.0.1-21.1.5/diff.md --exclude *.pyd
+[2023-04-21 00:36:14] INFO root fetch - processPackages [spycio]: Downloading https://files.pythonhosted.org/packages/8c/59/e75047971eab5cada7c180e5ef0293b9bb8e2522caa8781e09c051192bac/spycio-0.2.5.tar.gz
+[2023-04-21 00:36:14] INFO root fetch - processPackages [spycio]: executing diffoscope
+[2023-04-21 00:36:14] INFO root fetch - processPackages [spycio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spycio-0.2.4.tar.gz tmp/spycio-0.2.5.tar.gz --markdown 20230421/s/spycio/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-21 00:36:14] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/51/e1/bea9be10e53a3f646a2bc569ab98aa0db7b687da72ac78a2d51eac5c8a5e/gdsfactory-6.9.0.tar.gz
+[2023-04-21 00:36:15] INFO root fetch - processPackages [helix.fhir.client.sdk]: executing diffoscope
+[2023-04-21 00:36:15] INFO root fetch - processPackages [helix.fhir.client.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helix.fhir.client.sdk-1.0.8.tar.gz tmp/helix.fhir.client.sdk-1.0.9.tar.gz --markdown 20230421/h/helix.fhir.client.sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 00:36:15] WARNING root fetch - processPackages [gdsfactory]: Skipping package: exceeds size limit 11141129>=10485760
+[2023-04-21 00:36:15] INFO root fetch - main [MainThread]: End processing [gdsfactory] error
+[2023-04-21 00:36:15] INFO root fetch - main [MainThread]: End processing [circuitpython-qmc5883l]: success
+[2023-04-21 00:36:15] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-04-21 00:36:16] INFO root fetch - main [MainThread]: End processing [lift.bot]: success
+[2023-04-21 00:36:16] INFO root fetch - main [MainThread]: End processing [wtfl]: success
+[2023-04-21 00:36:16] INFO root fetch - main [MainThread]: End processing [spycio]: success
+[2023-04-21 00:36:16] INFO root fetch - main [MainThread]: End processing [z3-target-bigquery]: success
+[2023-04-21 00:36:17] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-21 00:36:17] INFO root fetch - main [MainThread]: End processing [helix.fhir.client.sdk]: success
+[2023-04-21 00:36:26] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-04-21 00:36:26] INFO root fetch - main [MainThread]: Store serial: [17794933]
