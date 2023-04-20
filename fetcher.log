@@ -64,3 +64,60 @@
 [2023-04-21 00:04:37] INFO root fetch - main [MainThread]: End processing [goodai-ltm]: success
 [2023-04-21 00:04:38] INFO root fetch - main [MainThread]: End processing [scipion-em-xmipptomo]: success
 [2023-04-21 00:04:38] INFO root fetch - main [MainThread]: Store serial: [17794663]
+[2023-04-21 00:09:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17794663]
+[2023-04-21 00:09:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-21 00:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charmr
+[2023-04-21 00:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: buildflow
+[2023-04-21 00:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volttron-lib-base-historian
+[2023-04-21 00:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-purchase-allowed-product
+[2023-04-21 00:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mrp-subcontracting-no-negative
+[2023-04-21 00:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airflow-metrics-gbq
+[2023-04-21 00:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: canopy-viz
+[2023-04-21 00:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-04-21 00:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: discord-qalib
+[2023-04-21 00:09:47] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 00:09:47] INFO root fetch - processPackages [buildflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 00:09:47] INFO root fetch - processPackages [discord-qalib]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-21 00:09:47] INFO root fetch - processPackages [volttron-lib-base-historian]: New version: [0.2.0rc2] Old Version: [0.2.0rc1]
+[2023-04-21 00:09:47] INFO root fetch - processPackages [charmr]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-21 00:09:47] WARNING root fetch - processPackages [odoo-addon-mrp-subcontracting-no-negative]: Skipping, unable to determine old version
+[2023-04-21 00:09:47] INFO root fetch - processPackages [airflow-metrics-gbq]: New version: [0.0.4a0] Old Version: [0.0.3a1]
+[2023-04-21 00:09:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-subcontracting-no-negative] error
+[2023-04-21 00:09:47] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.0.6]
+[2023-04-21 00:09:47] INFO root fetch - processPackages [canopy-viz]: New version: [0.2] Old Version: [0.1.2]
+[2023-04-21 00:09:47] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-04-21 00:09:47] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230421/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 00:09:47] INFO root fetch - processPackages [buildflow]: Downloading https://files.pythonhosted.org/packages/90/c0/5134603651f48bdedd45ca5d4d71204578188d7762c9644de64d8e20b6dc/buildflow-0.0.8.tar.gz
+[2023-04-21 00:09:47] INFO root fetch - processPackages [volttron-lib-base-historian]: Downloading https://files.pythonhosted.org/packages/cb/8b/10a9a752c68bf6a0c2e7998d1aa219f529ea064ce08201ddadc91098ab3b/volttron_lib_base_historian-0.2.0rc1.tar.gz
+[2023-04-21 00:09:47] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Downloading https://files.pythonhosted.org/packages/e1/3e/eedc69d29b682e825719164ce4a128880d1eed28a3604ad8b7ac1db56c9d/odoo_addon_purchase_allowed_product-16.0.1.0.0.6-py3-none-any.whl
+[2023-04-21 00:09:47] INFO root fetch - processPackages [canopy-viz]: Downloading https://files.pythonhosted.org/packages/aa/e9/ba0897ae580f0c02d859c803b903778ebf7754200ac4f80aa5d9fe9a898e/canopy-viz-0.1.2.tar.gz
+[2023-04-21 00:09:47] INFO root fetch - processPackages [discord-qalib]: Downloading https://files.pythonhosted.org/packages/cb/3a/11134799cfcc5a300b79e6b032e32cbdc3edc40c1b6d5a2e7001eaae92f7/discord-qalib-2.1.1.tar.gz
+[2023-04-21 00:09:47] INFO root fetch - processPackages [charmr]: Downloading https://files.pythonhosted.org/packages/d5/b6/114a8d05d7fcaf7a479f1c6df2ecb08bcae447b1935475331f6c69da54b7/charmr-1.0.7.tar.gz
+[2023-04-21 00:09:47] INFO root fetch - processPackages [airflow-metrics-gbq]: Downloading https://files.pythonhosted.org/packages/e1/1a/1be6613e1770521734977bcee91937455105e4b5db68d780cc35ebe03801/airflow_metrics_gbq-0.0.4a0.tar.gz
+[2023-04-21 00:09:47] INFO root fetch - processPackages [discord-qalib]: executing diffoscope
+[2023-04-21 00:09:47] INFO root fetch - processPackages [discord-qalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-qalib-2.1.0.tar.gz tmp/discord-qalib-2.1.1.tar.gz --markdown 20230421/d/discord-qalib/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-21 00:09:47] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Downloading https://files.pythonhosted.org/packages/4a/af/647911d190dbcf7e4c1a7163d3e309ff8f30ec8c8ed81c94951b153dee44/odoo_addon_purchase_allowed_product-16.0.2.0.0-py3-none-any.whl
+[2023-04-21 00:09:47] INFO root fetch - processPackages [buildflow]: Downloading https://files.pythonhosted.org/packages/af/35/66dba866281af8678e730ce14cf15b13dc0523c05789e775e6e9ed52507d/buildflow-0.0.9.tar.gz
+[2023-04-21 00:09:47] INFO root fetch - processPackages [charmr]: executing diffoscope
+[2023-04-21 00:09:47] INFO root fetch - processPackages [charmr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charmr-1.0.6.tar.gz tmp/charmr-1.0.7.tar.gz --markdown 20230421/c/charmr/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-21 00:09:47] INFO root fetch - processPackages [airflow-metrics-gbq]: executing diffoscope
+[2023-04-21 00:09:47] INFO root fetch - processPackages [airflow-metrics-gbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_metrics_gbq-0.0.3a1.tar.gz tmp/airflow_metrics_gbq-0.0.4a0.tar.gz --markdown 20230421/a/airflow-metrics-gbq/0.0.3a1-0.0.4a0/diff.md --exclude *.pyd
+[2023-04-21 00:09:47] INFO root fetch - processPackages [volttron-lib-base-historian]: Downloading https://files.pythonhosted.org/packages/5c/6e/3d55e6eb0502d79d3b84b8722eab46f2bd94778f073239b7bcb2d6c08473/volttron_lib_base_historian-0.2.0rc2.tar.gz
+[2023-04-21 00:09:47] INFO root fetch - processPackages [buildflow]: executing diffoscope
+[2023-04-21 00:09:47] INFO root fetch - processPackages [buildflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildflow-0.0.8.tar.gz tmp/buildflow-0.0.9.tar.gz --markdown 20230421/b/buildflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 00:09:47] INFO root fetch - processPackages [canopy-viz]: Downloading https://files.pythonhosted.org/packages/f3/39/6432aaf927972b2dd74b755acb0a44a9fe56120143827b42e8eb3f2df59b/canopy_viz-0.2.tar.gz
+[2023-04-21 00:09:47] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: executing diffoscope
+[2023-04-21 00:09:47] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_allowed_product-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_purchase_allowed_product-16.0.2.0.0-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-purchase-allowed-product/16.0.1.0.0.6-16.0.2.0.0/diff.md --exclude *.pyd
+[2023-04-21 00:09:48] INFO root fetch - processPackages [volttron-lib-base-historian]: executing diffoscope
+[2023-04-21 00:09:48] INFO root fetch - processPackages [volttron-lib-base-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_base_historian-0.2.0rc1.tar.gz tmp/volttron_lib_base_historian-0.2.0rc2.tar.gz --markdown 20230421/v/volttron-lib-base-historian/0.2.0rc1-0.2.0rc2/diff.md --exclude *.pyd
+[2023-04-21 00:09:48] INFO root fetch - processPackages [canopy-viz]: executing diffoscope
+[2023-04-21 00:09:48] INFO root fetch - processPackages [canopy-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-viz-0.1.2.tar.gz tmp/canopy_viz-0.2.tar.gz --markdown 20230421/c/canopy-viz/0.1.2-0.2/diff.md --exclude *.pyd
+[2023-04-21 00:09:49] INFO root fetch - main [MainThread]: End processing [charmr]: success
+[2023-04-21 00:09:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-04-21 00:09:49] INFO root fetch - main [MainThread]: End processing [airflow-metrics-gbq]: success
+[2023-04-21 00:09:49] INFO root fetch - main [MainThread]: End processing [discord-qalib]: success
+[2023-04-21 00:09:49] INFO root fetch - main [MainThread]: End processing [canopy-viz]: success
+[2023-04-21 00:09:49] INFO root fetch - main [MainThread]: End processing [volttron-lib-base-historian]: success
+[2023-04-21 00:09:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-allowed-product]: success
+[2023-04-21 00:10:03] INFO root fetch - main [MainThread]: End processing [buildflow]: success
+[2023-04-21 00:10:03] INFO root fetch - main [MainThread]: Store serial: [17794704]
