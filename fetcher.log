@@ -1283,3 +1283,39 @@
 [2023-04-21 01:50:21] INFO root fetch - main [MainThread]: End processing [jsonbourne]: success
 [2023-04-21 01:50:23] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-04-21 01:50:23] INFO root fetch - main [MainThread]: Store serial: [17795410]
+[2023-04-21 01:55:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17795410]
+[2023-04-21 01:55:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 01:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptographyComplements
+[2023-04-21 01:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digautoprofiler
+[2023-04-21 01:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skainet
+[2023-04-21 01:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marenan
+[2023-04-21 01:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shellfish
+[2023-04-21 01:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-audio
+[2023-04-21 01:55:31] INFO root fetch - processPackages [skainet]: New version: [0.0.0.dev4] Old Version: [0.0.0]
+[2023-04-21 01:55:31] WARNING root fetch - processPackages [marenan]: Skipping, unable to determine old version
+[2023-04-21 01:55:31] INFO root fetch - processPackages [digautoprofiler]: New version: [1.0.0] Old Version: [0.2.9]
+[2023-04-21 01:55:31] INFO root fetch - main [MainThread]: End processing [marenan] error
+[2023-04-21 01:55:31] INFO root fetch - processPackages [shellfish]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-21 01:55:31] INFO root fetch - processPackages [cryptographyComplements]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 01:55:31] INFO root fetch - processPackages [neon-audio]: New version: [1.3.2a5] Old Version: [1.3.2a4]
+[2023-04-21 01:55:32] INFO root fetch - processPackages [skainet]: Downloading https://files.pythonhosted.org/packages/05/d3/a968bde75281e83f2183cd57c52c77084919b1b07380a70a6a5173ea5f0e/skainet-0.0.0-py3-none-any.whl
+[2023-04-21 01:55:32] INFO root fetch - processPackages [neon-audio]: executing diffoscope
+[2023-04-21 01:55:32] INFO root fetch - processPackages [neon-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_audio-1.3.2a4-py3-none-any.whl.zip tmp/neon_audio-1.3.2a5-py3-none-any.whl.zip --markdown 20230421/n/neon-audio/1.3.2a4-1.3.2a5/diff.md --exclude *.pyd
+[2023-04-21 01:55:32] INFO root fetch - processPackages [shellfish]: Downloading https://files.pythonhosted.org/packages/7a/28/36a1ce7b0d1f4ba39c14383c84e6e0969a9b2614a3ee76b84c098e78fa82/shellfish-0.3.1.tar.gz
+[2023-04-21 01:55:32] INFO root fetch - processPackages [digautoprofiler]: Downloading https://files.pythonhosted.org/packages/34/35/7437250d3c6f54c7e33132d056a1bd2922fbb7b71bf9b4417bd77bee9086/digautoprofiler-1.0.0.tar.gz
+[2023-04-21 01:55:32] INFO root fetch - processPackages [cryptographyComplements]: Downloading https://files.pythonhosted.org/packages/77/84/45f06fa79dc5520ba394bcb7c76e045a542a46ad41abe26bc420cb3f7f36/cryptographyComplements-0.2.8.tar.gz
+[2023-04-21 01:55:32] INFO root fetch - processPackages [shellfish]: executing diffoscope
+[2023-04-21 01:55:32] INFO root fetch - processPackages [shellfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellfish-0.3.0.tar.gz tmp/shellfish-0.3.1.tar.gz --markdown 20230421/s/shellfish/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 01:55:32] INFO root fetch - processPackages [cryptographyComplements]: executing diffoscope
+[2023-04-21 01:55:32] INFO root fetch - processPackages [cryptographyComplements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptographyComplements-0.2.7.tar.gz tmp/cryptographyComplements-0.2.8.tar.gz --markdown 20230421/c/cryptographyComplements/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 01:55:32] INFO root fetch - processPackages [digautoprofiler]: executing diffoscope
+[2023-04-21 01:55:32] INFO root fetch - processPackages [digautoprofiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digautoprofiler-0.2.9.tar.gz tmp/digautoprofiler-1.0.0.tar.gz --markdown 20230421/d/digautoprofiler/0.2.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-21 01:55:32] INFO root fetch - processPackages [skainet]: Downloading https://files.pythonhosted.org/packages/b9/d1/ff4ff6023ad7bcb2aebfba49a66f212844dfa3900ef3ebe901276a38fa43/skainet-0.0.0.dev4.tar.gz
+[2023-04-21 01:55:32] INFO root fetch - processPackages [skainet]: executing diffoscope
+[2023-04-21 01:55:32] INFO root fetch - processPackages [skainet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skainet-0.0.0-py3-none-any.whl.zip tmp/skainet-0.0.0.dev4.tar.gz --markdown 20230421/s/skainet/0.0.0-0.0.0.dev4/diff.md --exclude *.pyd
+[2023-04-21 01:55:33] INFO root fetch - main [MainThread]: End processing [neon-audio]: success
+[2023-04-21 01:55:33] INFO root fetch - main [MainThread]: End processing [cryptographyComplements]: success
+[2023-04-21 01:55:33] INFO root fetch - main [MainThread]: End processing [shellfish]: success
+[2023-04-21 01:55:37] INFO root fetch - main [MainThread]: End processing [digautoprofiler]: success
+[2023-04-21 01:55:47] INFO root fetch - main [MainThread]: End processing [skainet]: success
+[2023-04-21 01:55:47] INFO root fetch - main [MainThread]: Store serial: [17795428]
