@@ -1138,3 +1138,55 @@
 [2023-04-21 01:39:55] INFO root fetch - main [MainThread]: End processing [neon-skill-local-music]: success
 [2023-04-21 01:39:56] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-04-21 01:39:56] INFO root fetch - main [MainThread]: Store serial: [17795337]
+[2023-04-21 01:44:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17795337]
+[2023-04-21 01:45:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtyping
+[2023-04-21 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: email-monitor
+[2023-04-21 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funkify
+[2023-04-21 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: listless
+[2023-04-21 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dingo-gw
+[2023-04-21 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fmts
+[2023-04-21 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-04-21 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nheri-simcenter
+[2023-04-21 01:45:04] INFO root fetch - processPackages [fmts]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-21 01:45:04] INFO root fetch - processPackages [xtyping]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-21 01:45:04] WARNING root fetch - processPackages [email-monitor]: Skipping, unable to determine old version
+[2023-04-21 01:45:04] INFO root fetch - main [MainThread]: End processing [email-monitor] error
+[2023-04-21 01:45:04] INFO root fetch - processPackages [dingo-gw]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-21 01:45:04] INFO root fetch - processPackages [funkify]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-04-21 01:45:04] INFO root fetch - processPackages [listless]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-21 01:45:04] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-21 01:45:04] INFO root fetch - processPackages [nheri-simcenter]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-21 01:45:04] INFO root fetch - processPackages [fmts]: Downloading https://files.pythonhosted.org/packages/84/48/a29f1feb69683a73bee8552c32030235f3655783add488c35280ae572496/fmts-0.1.4.tar.gz
+[2023-04-21 01:45:04] INFO root fetch - processPackages [xtyping]: Downloading https://files.pythonhosted.org/packages/3b/2a/b867bab120c0cea75798a336141a5cff9c6b40467eb6b9bab8f0548c14df/xtyping-0.6.2.tar.gz
+[2023-04-21 01:45:04] INFO root fetch - processPackages [funkify]: Downloading https://files.pythonhosted.org/packages/9c/a3/ba061ff6b7688759c348217f6c5830c2b3b182627b9217e92479035769ba/funkify-0.4.4.tar.gz
+[2023-04-21 01:45:04] INFO root fetch - processPackages [listless]: Downloading https://files.pythonhosted.org/packages/30/e8/783d90216fd92b7fbf3906fa060641b04332d9d7353ca314f679944a779c/listless-0.1.4.tar.gz
+[2023-04-21 01:45:04] INFO root fetch - processPackages [dingo-gw]: Downloading https://files.pythonhosted.org/packages/62/3b/c4bd1c15677808a46e01082ddb312cc0621be2733a3eacb7400b100b88f0/dingo-gw-0.5.1.tar.gz
+[2023-04-21 01:45:04] INFO root fetch - processPackages [nheri-simcenter]: Downloading https://files.pythonhosted.org/packages/6c/72/af54a2363009dbdc17ae0d9fdaab945f8b02194ced8857b590f51bee2168/nheri_simcenter-0.9.7.tar.gz
+[2023-04-21 01:45:04] INFO root fetch - processPackages [xtyping]: Downloading https://files.pythonhosted.org/packages/0e/98/bc96d1b30fb509b25a5de3b31c076b35dc8602bd9649972a1af011f9f196/xtyping-0.6.3.tar.gz
+[2023-04-21 01:45:04] INFO root fetch - processPackages [listless]: Downloading https://files.pythonhosted.org/packages/af/8d/d00642ca2bcb53b9ec1c6b7646d82bae56ac48043c551afee251a9b7e302/listless-0.1.5.tar.gz
+[2023-04-21 01:45:04] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-04-21 01:45:04] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230421/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-21 01:45:04] INFO root fetch - processPackages [fmts]: Downloading https://files.pythonhosted.org/packages/6b/54/c8d48a3da1b1fb70e745f4a9f0ac9f707a65bb42cf4e2facac1df26271b2/fmts-0.1.5.tar.gz
+[2023-04-21 01:45:04] INFO root fetch - processPackages [dingo-gw]: executing diffoscope
+[2023-04-21 01:45:04] INFO root fetch - processPackages [dingo-gw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingo-gw-0.5.0.tar.gz tmp/dingo-gw-0.5.1.tar.gz --markdown 20230421/d/dingo-gw/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-21 01:45:04] INFO root fetch - processPackages [funkify]: Downloading https://files.pythonhosted.org/packages/0b/ea/d095d1799770c9083dd8fd88e63f49f353abc0f41edb41157ac8e8ea4128/funkify-0.4.5.tar.gz
+[2023-04-21 01:45:04] INFO root fetch - processPackages [xtyping]: executing diffoscope
+[2023-04-21 01:45:04] INFO root fetch - processPackages [xtyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtyping-0.6.2.tar.gz tmp/xtyping-0.6.3.tar.gz --markdown 20230421/x/xtyping/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-21 01:45:04] INFO root fetch - processPackages [nheri-simcenter]: Downloading https://files.pythonhosted.org/packages/c1/31/4081d68d72b1f2addaadd417537c7b493f14e0ba3365c6198bc38298dc43/nheri_simcenter-0.9.8.tar.gz
+[2023-04-21 01:45:04] INFO root fetch - processPackages [funkify]: executing diffoscope
+[2023-04-21 01:45:04] INFO root fetch - processPackages [funkify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funkify-0.4.4.tar.gz tmp/funkify-0.4.5.tar.gz --markdown 20230421/f/funkify/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-04-21 01:45:04] INFO root fetch - processPackages [listless]: executing diffoscope
+[2023-04-21 01:45:04] INFO root fetch - processPackages [listless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/listless-0.1.4.tar.gz tmp/listless-0.1.5.tar.gz --markdown 20230421/l/listless/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-21 01:45:04] INFO root fetch - processPackages [fmts]: executing diffoscope
+[2023-04-21 01:45:04] INFO root fetch - processPackages [fmts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmts-0.1.4.tar.gz tmp/fmts-0.1.5.tar.gz --markdown 20230421/f/fmts/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-21 01:45:05] INFO root fetch - processPackages [nheri-simcenter]: executing diffoscope
+[2023-04-21 01:45:05] INFO root fetch - processPackages [nheri-simcenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nheri_simcenter-0.9.7.tar.gz tmp/nheri_simcenter-0.9.8.tar.gz --markdown 20230421/n/nheri-simcenter/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-21 01:45:06] INFO root fetch - main [MainThread]: End processing [xtyping]: success
+[2023-04-21 01:45:06] INFO root fetch - main [MainThread]: End processing [listless]: success
+[2023-04-21 01:45:06] INFO root fetch - main [MainThread]: End processing [funkify]: success
+[2023-04-21 01:45:06] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-04-21 01:45:06] INFO root fetch - main [MainThread]: End processing [nheri-simcenter]: success
+[2023-04-21 01:45:06] INFO root fetch - main [MainThread]: End processing [fmts]: success
+[2023-04-21 01:45:07] INFO root fetch - main [MainThread]: End processing [dingo-gw]: success
+[2023-04-21 01:45:07] INFO root fetch - main [MainThread]: Store serial: [17795368]
