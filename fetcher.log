@@ -933,3 +933,53 @@
 [2023-04-21 01:13:54] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2023-04-21 01:13:57] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python]: success
 [2023-04-21 01:13:57] INFO root fetch - main [MainThread]: Store serial: [17795203]
+[2023-04-21 01:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17795203]
+[2023-04-21 01:19:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-21 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dequeai
+[2023-04-21 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roblox-asset-publish
+[2023-04-21 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dockertown
+[2023-04-21 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudshell-networking-cisco-iosxr
+[2023-04-21 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duckietown-shell
+[2023-04-21 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: visual-novel-toolkit
+[2023-04-21 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelbit
+[2023-04-21 01:19:05] INFO root fetch - processPackages [roblox-asset-publish]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-21 01:19:05] INFO root fetch - processPackages [dockertown]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 01:19:05] INFO root fetch - processPackages [dequeai]: New version: [0.740] Old Version: [0.738]
+[2023-04-21 01:19:05] INFO root fetch - processPackages [duckietown-shell]: New version: [5.5.3] Old Version: [5.5.2]
+[2023-04-21 01:19:05] INFO root fetch - processPackages [roblox-asset-publish]: executing diffoscope
+[2023-04-21 01:19:05] INFO root fetch - processPackages [roblox-asset-publish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-asset-publish-0.2.6.tar.gz tmp/roblox-asset-publish-0.2.7.tar.gz --markdown 20230421/r/roblox-asset-publish/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-21 01:19:05] INFO root fetch - processPackages [cloudshell-networking-cisco-iosxr]: New version: [5.0.0] Old Version: [4.0.6]
+[2023-04-21 01:19:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.282] Old Version: [0.3.281]
+[2023-04-21 01:19:05] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-04-21 01:19:05] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.738.tar.gz tmp/dequeai-0.740.tar.gz --markdown 20230421/d/dequeai/0.738-0.740/diff.md --exclude *.pyd
+[2023-04-21 01:19:05] INFO root fetch - processPackages [dockertown]: executing diffoscope
+[2023-04-21 01:19:05] INFO root fetch - processPackages [dockertown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockertown-0.2.0.tar.gz tmp/dockertown-0.2.1.tar.gz --markdown 20230421/d/dockertown/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 01:19:05] INFO root fetch - processPackages [visual-novel-toolkit]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-04-21 01:19:05] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-21 01:19:05] INFO root fetch - processPackages [duckietown-shell]: executing diffoscope
+[2023-04-21 01:19:05] INFO root fetch - processPackages [duckietown-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckietown-shell-5.5.2.tar.gz tmp/duckietown-shell-5.5.3.tar.gz --markdown 20230421/d/duckietown-shell/5.5.2-5.5.3/diff.md --exclude *.pyd
+[2023-04-21 01:19:05] INFO root fetch - processPackages [cloudshell-networking-cisco-iosxr]: Downloading https://files.pythonhosted.org/packages/e1/ed/82fafaf9fabb6f15dd072bbbebaab77ac01bb85b88bac57c9f5d3c1489ea/cloudshell-networking-cisco-iosxr-4.0.6.zip
+[2023-04-21 01:19:05] INFO root fetch - processPackages [visual-novel-toolkit]: Downloading https://files.pythonhosted.org/packages/64/93/1454d59fbdbd95856687d2064512014dbe7bcc0fe3312c84a6b4d3ad22d4/visual_novel_toolkit-1.8.3.tar.gz
+[2023-04-21 01:19:05] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-04-21 01:19:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/38/ba/67083b3dc40cc2e027b1d75a79bb1e8f82e02f996a6eed6c4d53df4581e3/pepperize.cdk-ses-smtp-credentials-0.3.282.tar.gz
+[2023-04-21 01:19:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-21 01:19:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.281.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.282.tar.gz --markdown 20230421/p/pepperize.cdk-ses-smtp-credentials/0.3.281-0.3.282/diff.md --exclude *.pyd
+[2023-04-21 01:19:06] INFO root fetch - processPackages [cloudshell-networking-cisco-iosxr]: Downloading https://files.pythonhosted.org/packages/dd/43/4ad964ff4bf76dcd1f9c846b5ec6083890936bf345a5e0f38b71ec416e97/cloudshell-networking-cisco-iosxr-5.0.0.zip
+[2023-04-21 01:19:06] INFO root fetch - processPackages [cloudshell-networking-cisco-iosxr]: executing diffoscope
+[2023-04-21 01:19:06] INFO root fetch - processPackages [cloudshell-networking-cisco-iosxr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-networking-cisco-iosxr-4.0.6.zip tmp/cloudshell-networking-cisco-iosxr-5.0.0.zip --markdown 20230421/c/cloudshell-networking-cisco-iosxr/4.0.6-5.0.0/diff.md --exclude *.pyd
+[2023-04-21 01:19:06] INFO root fetch - processPackages [visual-novel-toolkit]: Downloading https://files.pythonhosted.org/packages/eb/be/1b9d8b792c36c0721411a8a4b9dcbc7cfe8d00ed737c1ebb0775042ba6dc/visual_novel_toolkit-1.9.0.tar.gz
+[2023-04-21 01:19:06] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-04-21 01:19:06] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-04-21 01:19:06] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230421/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-21 01:19:06] INFO root fetch - main [MainThread]: End processing [roblox-asset-publish]: success
+[2023-04-21 01:19:06] INFO root fetch - processPackages [visual-novel-toolkit]: executing diffoscope
+[2023-04-21 01:19:06] INFO root fetch - processPackages [visual-novel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual_novel_toolkit-1.8.3.tar.gz tmp/visual_novel_toolkit-1.9.0.tar.gz --markdown 20230421/v/visual-novel-toolkit/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 01:19:06] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-04-21 01:19:07] INFO root fetch - main [MainThread]: End processing [duckietown-shell]: success
+[2023-04-21 01:19:07] INFO root fetch - main [MainThread]: End processing [dockertown]: success
+[2023-04-21 01:19:07] INFO root fetch - main [MainThread]: End processing [cloudshell-networking-cisco-iosxr]: success
+[2023-04-21 01:19:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-21 01:19:08] INFO root fetch - main [MainThread]: End processing [visual-novel-toolkit]: success
+[2023-04-21 01:19:08] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-04-21 01:19:08] INFO root fetch - main [MainThread]: Store serial: [17795228]
