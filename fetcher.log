@@ -655,3 +655,53 @@
 [2023-04-21 00:46:54] INFO root fetch - main [MainThread]: End processing [piedomains]: success
 [2023-04-21 00:47:01] INFO root fetch - main [MainThread]: End processing [Windows-Toasts]: success
 [2023-04-21 00:47:01] INFO root fetch - main [MainThread]: Store serial: [17795033]
+[2023-04-21 00:52:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17795033]
+[2023-04-21 00:52:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-21 00:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deployfish
+[2023-04-21 00:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aerospike
+[2023-04-21 00:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mira
+[2023-04-21 00:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: UpyTest
+[2023-04-21 00:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-fastly
+[2023-04-21 00:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flowtask
+[2023-04-21 00:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easyhist
+[2023-04-21 00:52:11] INFO root fetch - processPackages [UpyTest]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-21 00:52:11] INFO root fetch - processPackages [easyhist]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 00:52:11] INFO root fetch - processPackages [pulumi-fastly]: New version: [7.3.0a1682029970] Old Version: [7.3.0a1681928591]
+[2023-04-21 00:52:11] INFO root fetch - processPackages [flowtask]: New version: [4.3.8] Old Version: [4.3.7]
+[2023-04-21 00:52:11] INFO root fetch - processPackages [mira]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-21 00:52:11] INFO root fetch - processPackages [deployfish]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-04-21 00:52:11] INFO root fetch - processPackages [aerospike]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-04-21 00:52:11] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/8d/5f/6fb0c524467bfb2c57d6ba040b676728f3ff64b8ade2ac0d76a38d4fa479/upyTest-3.0.1.tar.gz
+[2023-04-21 00:52:11] INFO root fetch - processPackages [easyhist]: Downloading https://files.pythonhosted.org/packages/d6/ef/8ccbac9e2ff153ed761cb2a3218c8d9cccb4825b71a46aefc74bf6fba544/easyhist-0.2.1.tar.gz
+[2023-04-21 00:52:11] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/9d/d7/c6216956d9be271f193368959212bc2df2a2991f5f538fc6949a9ffb5cf1/deployfish-1.9.5.tar.gz
+[2023-04-21 00:52:11] INFO root fetch - processPackages [mira]: Downloading https://files.pythonhosted.org/packages/bf/df/73b52adfbbbffc83e48db248c88729f7ece00aad22d56ed2c6f6a2e5b8c3/mira-0.9.8-py3-none-any.whl
+[2023-04-21 00:52:11] INFO root fetch - processPackages [aerospike]: Downloading https://files.pythonhosted.org/packages/18/61/bffdba7d07fb9f65db2e47fc4e0104507c4a6989ffcf296febe95c6d3e79/aerospike-8.0.0.tar.gz
+[2023-04-21 00:52:11] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/95/24/b0aa60bc863bd06f712822117e7fdeeddd0e599353c3526acad27be39c91/pulumi_fastly-7.3.0a1682029970.tar.gz
+[2023-04-21 00:52:11] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/43/e9/29a68f88e5b234637af4ae87c1ca15658f13fa4a47e54938fd0a365a4715/UpyTest-3.0.2.tar.gz
+[2023-04-21 00:52:11] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/c2/62/f46ab29a2dd82185c6bd5c9c0f318e522e6249f21eb22ea947add139e646/flowtask-4.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 00:52:11] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-04-21 00:52:11] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-7.3.0a1681928591.tar.gz tmp/pulumi_fastly-7.3.0a1682029970.tar.gz --markdown 20230421/p/pulumi-fastly/7.3.0a1681928591-7.3.0a1682029970/diff.md --exclude *.pyd
+[2023-04-21 00:52:11] INFO root fetch - processPackages [UpyTest]: executing diffoscope
+[2023-04-21 00:52:11] INFO root fetch - processPackages [UpyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upyTest-3.0.1.tar.gz tmp/UpyTest-3.0.2.tar.gz --markdown 20230421/U/UpyTest/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-21 00:52:11] INFO root fetch - processPackages [easyhist]: Downloading https://files.pythonhosted.org/packages/c9/32/ab18161f3a85a69042f92e1ea378e8d24edad2baaf0abd5360b7a4ed08b8/easyhist-0.2.2.tar.gz
+[2023-04-21 00:52:11] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-04-21 00:52:11] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.3.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230421/f/flowtask/4.3.7-4.3.8/diff.md --exclude *.pyd
+[2023-04-21 00:52:11] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/52/7d/9a175e9cf46a38849c3d62138417864d11754e457d39f248e23a1aa39c79/deployfish-1.9.6.tar.gz
+[2023-04-21 00:52:11] INFO root fetch - processPackages [easyhist]: executing diffoscope
+[2023-04-21 00:52:11] INFO root fetch - processPackages [easyhist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyhist-0.2.1.tar.gz tmp/easyhist-0.2.2.tar.gz --markdown 20230421/e/easyhist/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 00:52:11] INFO root fetch - processPackages [aerospike]: Downloading https://files.pythonhosted.org/packages/76/e2/b2b03dd789481fb087c47937f25e73455bd661edc719c50654fba8ba976b/aerospike-9.0.0.tar.gz
+[2023-04-21 00:52:12] INFO root fetch - processPackages [deployfish]: executing diffoscope
+[2023-04-21 00:52:12] INFO root fetch - processPackages [deployfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deployfish-1.9.5.tar.gz tmp/deployfish-1.9.6.tar.gz --markdown 20230421/d/deployfish/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-04-21 00:52:12] INFO root fetch - processPackages [aerospike]: executing diffoscope
+[2023-04-21 00:52:12] INFO root fetch - processPackages [aerospike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerospike-8.0.0.tar.gz tmp/aerospike-9.0.0.tar.gz --markdown 20230421/a/aerospike/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-21 00:52:13] INFO root fetch - main [MainThread]: End processing [easyhist]: success
+[2023-04-21 00:52:13] INFO root fetch - main [MainThread]: End processing [UpyTest]: success
+[2023-04-21 00:52:13] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-04-21 00:52:14] INFO root fetch - processPackages [mira]: Downloading https://files.pythonhosted.org/packages/2a/df/c8172f1a81174d69a39d253beac8eda1d4a20a29db2188d5a35b5f8d86c8/mira-0.9.9-py3-none-any.whl
+[2023-04-21 00:52:14] INFO root fetch - main [MainThread]: End processing [deployfish]: success
+[2023-04-21 00:52:14] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-04-21 00:52:16] INFO root fetch - processPackages [mira]: executing diffoscope
+[2023-04-21 00:52:16] INFO root fetch - processPackages [mira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mira-0.9.8-py3-none-any.whl.zip tmp/mira-0.9.9-py3-none-any.whl.zip --markdown 20230421/m/mira/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 00:52:19] INFO root fetch - main [MainThread]: End processing [mira]: success
+[2023-04-21 00:52:32] INFO root fetch - main [MainThread]: End processing [aerospike]: success
+[2023-04-21 00:52:32] INFO root fetch - main [MainThread]: Store serial: [17795073]
