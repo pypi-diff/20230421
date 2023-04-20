@@ -803,3 +803,69 @@
 [2023-04-21 01:03:26] INFO root fetch - processPackages [warn-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warn-scraper-1.2.8.tar.gz tmp/warn-scraper-1.2.9.tar.gz --markdown 20230421/w/warn-scraper/1.2.8-1.2.9/diff.md --exclude *.pyd
 [2023-04-21 01:03:28] INFO root fetch - main [MainThread]: End processing [warn-scraper]: success
 [2023-04-21 01:03:28] INFO root fetch - main [MainThread]: Store serial: [17795120]
+[2023-04-21 01:08:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17795120]
+[2023-04-21 01:08:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logging-basic-config
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ohmyi3
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guidance
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-pagerduty
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liebre
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certbot-onion
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ak_cache
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: devex-sdk
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geneagrapher
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logging-basic-config
+[2023-04-21 01:08:37] INFO root fetch - processPackages [devex-sdk]: New version: [1.0.1] Old Version: [0.1.0]
+[2023-04-21 01:08:37] INFO root fetch - processPackages [logging-basic-config]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-21 01:08:37] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 01:08:37] INFO root fetch - processPackages [liebre]: New version: [2.2304.3] Old Version: [2.2304.2]
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ohmyi3]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ak_cache]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 01:08:37] INFO root fetch - processPackages [certbot-onion]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 01:08:37] INFO root fetch - processPackages [geneagrapher]: New version: [2.0.0] Old Version: [1.0]
+[2023-04-21 01:08:37] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-04-21 01:08:37] INFO root fetch - processPackages [logging-basic-config]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-21 01:08:37] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-04-21 01:08:37] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230421/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 01:08:37] INFO root fetch - processPackages [logging-basic-config]: Downloading https://files.pythonhosted.org/packages/50/b8/3f00bf97a8c63f0d1f677a48173dffe1d02ccb92e8989072da5df4ba7665/logging_basic_config-1.2.0.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [certbot-onion]: Downloading https://files.pythonhosted.org/packages/bc/02/a3bc097b4f75ae479bbd6b03ca69258e28f57f92fa86f43a3cb14b0d1d93/certbot-onion-0.1.0.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [logging-basic-config]: Downloading https://files.pythonhosted.org/packages/50/b8/3f00bf97a8c63f0d1f677a48173dffe1d02ccb92e8989072da5df4ba7665/logging_basic_config-1.2.0.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ak_cache]: Downloading https://files.pythonhosted.org/packages/59/f6/ce1b00f84630b2c2511c738630542585d27b83a48a19e3245087a171f170/ak_cache-0.0.1.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [geneagrapher]: Downloading https://files.pythonhosted.org/packages/7f/b5/1f9162aeae55ec102d84fdb9edce19480954d182560559f410d0f0bedb52/geneagrapher-1.0.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [liebre]: Downloading https://files.pythonhosted.org/packages/9f/63/51869ff2ee2c0bd7d8abab8ed297298b553b1756f613c230491cce40674e/liebre-2.2304.3-py3-none-any.whl
+[2023-04-21 01:08:37] INFO root fetch - processPackages [liebre]: executing diffoscope
+[2023-04-21 01:08:37] INFO root fetch - processPackages [liebre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liebre-2.2304.2-py3-none-any.whl.zip tmp/liebre-2.2304.3-py3-none-any.whl.zip --markdown 20230421/l/liebre/2.2304.2-2.2304.3/diff.md --exclude *.pyd
+[2023-04-21 01:08:37] INFO root fetch - processPackages [devex-sdk]: Downloading https://files.pythonhosted.org/packages/c8/ef/186c764909f9b9e64d230e1bf9798478118f86ce7e3997c5c36cbdc6816b/devex_sdk-1.0.1.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [devex-sdk]: executing diffoscope
+[2023-04-21 01:08:37] INFO root fetch - processPackages [devex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devex_sdk-0.1.0.tar.gz tmp/devex_sdk-1.0.1.tar.gz --markdown 20230421/d/devex-sdk/0.1.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ohmyi3]: Downloading https://files.pythonhosted.org/packages/c3/cd/835f701e697f053c0fbbdaa93dafdd7962f93bf617ce1e46ee0d4ad712fc/ohmyi3-0.1.2.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [certbot-onion]: Downloading https://files.pythonhosted.org/packages/61/7d/b8d3565b51cb99701850ce1738943cfc590b38f64bd9ac64c63e0f478749/certbot-onion-0.1.1.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [certbot-onion]: executing diffoscope
+[2023-04-21 01:08:37] INFO root fetch - processPackages [certbot-onion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-onion-0.1.0.tar.gz tmp/certbot-onion-0.1.1.tar.gz --markdown 20230421/c/certbot-onion/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 01:08:37] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-04-21 01:08:37] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230421/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-04-21 01:08:37] INFO root fetch - processPackages [logging-basic-config]: Downloading https://files.pythonhosted.org/packages/65/87/b59a3d61b684833809d0fd1e3eb68bfd9f5d99d0615464dd43bdd909e796/logging_basic_config-1.3.0.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [logging-basic-config]: Downloading https://files.pythonhosted.org/packages/65/87/b59a3d61b684833809d0fd1e3eb68bfd9f5d99d0615464dd43bdd909e796/logging_basic_config-1.3.0.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ak_cache]: Downloading https://files.pythonhosted.org/packages/8e/d3/c4361c070d7b5c690ae072508adca5718b77be40cf6b1610d6c592b1cb7c/ak_cache-0.0.2.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [geneagrapher]: Downloading https://files.pythonhosted.org/packages/3c/a0/9294ff7accd0b28655c35f63ad1e575f481eaf321f79cbbcc557270fe011/geneagrapher-2.0.0.tar.gz
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ak_cache]: executing diffoscope
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ak_cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ak_cache-0.0.1.tar.gz tmp/ak_cache-0.0.2.tar.gz --markdown 20230421/a/ak_cache/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 01:08:37] INFO root fetch - processPackages [geneagrapher]: executing diffoscope
+[2023-04-21 01:08:37] INFO root fetch - processPackages [geneagrapher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneagrapher-1.0.tar.gz tmp/geneagrapher-2.0.0.tar.gz --markdown 20230421/g/geneagrapher/1.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-21 01:08:37] INFO root fetch - processPackages [logging-basic-config]: executing diffoscope
+[2023-04-21 01:08:37] INFO root fetch - processPackages [logging-basic-config]: executing diffoscope
+[2023-04-21 01:08:37] INFO root fetch - processPackages [logging-basic-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging_basic_config-1.2.0.tar.gz tmp/logging_basic_config-1.3.0.tar.gz --markdown 20230421/l/logging-basic-config/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-21 01:08:37] INFO root fetch - processPackages [logging-basic-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging_basic_config-1.2.0.tar.gz tmp/logging_basic_config-1.3.0.tar.gz --markdown 20230421/l/logging-basic-config/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ohmyi3]: executing diffoscope
+[2023-04-21 01:08:37] INFO root fetch - processPackages [ohmyi3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohmyi3-0.1.1.tar.gz tmp/ohmyi3-0.1.2.tar.gz --markdown 20230421/o/ohmyi3/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 01:08:38] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-04-21 01:08:38] INFO root fetch - main [MainThread]: End processing [liebre]: success
+[2023-04-21 01:08:39] INFO root fetch - main [MainThread]: End processing [devex-sdk]: success
+[2023-04-21 01:08:39] INFO root fetch - main [MainThread]: End processing [geneagrapher]: success
+[2023-04-21 01:08:39] INFO root fetch - main [MainThread]: End processing [logging-basic-config]: success
+[2023-04-21 01:08:39] INFO root fetch - main [MainThread]: End processing [ak_cache]: success
+[2023-04-21 01:08:39] INFO root fetch - main [MainThread]: End processing [logging-basic-config]: success
+[2023-04-21 01:08:40] INFO root fetch - main [MainThread]: End processing [ohmyi3]: success
+[2023-04-21 01:08:40] INFO root fetch - main [MainThread]: End processing [certbot-onion]: success
+[2023-04-21 01:08:42] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-04-21 01:08:42] INFO root fetch - main [MainThread]: Store serial: [17795147]
