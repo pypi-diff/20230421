@@ -705,3 +705,37 @@
 [2023-04-21 00:52:19] INFO root fetch - main [MainThread]: End processing [mira]: success
 [2023-04-21 00:52:32] INFO root fetch - main [MainThread]: End processing [aerospike]: success
 [2023-04-21 00:52:32] INFO root fetch - main [MainThread]: Store serial: [17795073]
+[2023-04-21 00:57:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17795073]
+[2023-04-21 00:57:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-21 00:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-phal-plugin-linear-led
+[2023-04-21 00:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-04-21 00:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taskiq-dependencies
+[2023-04-21 00:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hstestaq
+[2023-04-21 00:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nmodl-preprocessor
+[2023-04-21 00:57:41] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2023-04-21 00:57:41] INFO root fetch - processPackages [nmodl-preprocessor]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 00:57:41] INFO root fetch - processPackages [taskiq-dependencies]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-04-21 00:57:41] INFO root fetch - processPackages [hstestaq]: New version: [0.2.15] Old Version: [0.2.14]
+[2023-04-21 00:57:41] INFO root fetch - processPackages [nmodl-preprocessor]: executing diffoscope
+[2023-04-21 00:57:41] INFO root fetch - processPackages [nmodl-preprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmodl_preprocessor-1.0.2.tar.gz tmp/nmodl_preprocessor-1.0.3.tar.gz --markdown 20230421/n/nmodl-preprocessor/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 00:57:41] INFO root fetch - processPackages [moto]: New version: [4.1.8.dev9] Old Version: [4.1.8.dev8]
+[2023-04-21 00:57:41] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: Downloading https://files.pythonhosted.org/packages/1d/11/b7e82dea638cf6bae83468ea956e4c3cacef083c91d7748305eb748ea744/neon_phal_plugin_linear_led-0.1.1a0-py3-none-any.whl
+[2023-04-21 00:57:41] INFO root fetch - processPackages [hstestaq]: Downloading https://files.pythonhosted.org/packages/13/30/9e47a7e0c68aca72735bb6116f1ab4f086d8d9ae8ac82011ed24be67ff8c/hstestaq-0.2.14.tar.gz
+[2023-04-21 00:57:41] INFO root fetch - processPackages [taskiq-dependencies]: Downloading https://files.pythonhosted.org/packages/87/fa/bdc8d1ed6501f1216348a1d06cbff864f32448df3d41d20c71d496de96bd/taskiq_dependencies-1.1.2.tar.gz
+[2023-04-21 00:57:41] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: Downloading https://files.pythonhosted.org/packages/fc/e8/18e947209b0d8ba242f4a7252931415becc7a0868f882b3322daf89c0cff/neon_phal_plugin_linear_led-0.1.1a1-py3-none-any.whl
+[2023-04-21 00:57:41] INFO root fetch - processPackages [hstestaq]: Downloading https://files.pythonhosted.org/packages/c0/7f/0d91d5cb2cfb93facbad5cd32e84830ecce2f0fdbd8f1c92b26fc35ab300/hstestaq-0.2.15.tar.gz
+[2023-04-21 00:57:41] INFO root fetch - processPackages [taskiq-dependencies]: Downloading https://files.pythonhosted.org/packages/16/47/dc96cd33b80d9ebee4cc18d4033bab5b9c4d470d7d1dbecac0ce6fca0c89/taskiq_dependencies-1.2.0.tar.gz
+[2023-04-21 00:57:41] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: executing diffoscope
+[2023-04-21 00:57:41] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_linear_led-0.1.1a0-py3-none-any.whl.zip tmp/neon_phal_plugin_linear_led-0.1.1a1-py3-none-any.whl.zip --markdown 20230421/n/neon-phal-plugin-linear-led/0.1.1a0-0.1.1a1/diff.md --exclude *.pyd
+[2023-04-21 00:57:41] INFO root fetch - processPackages [hstestaq]: executing diffoscope
+[2023-04-21 00:57:41] INFO root fetch - processPackages [hstestaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstestaq-0.2.14.tar.gz tmp/hstestaq-0.2.15.tar.gz --markdown 20230421/h/hstestaq/0.2.14-0.2.15/diff.md --exclude *.pyd
+[2023-04-21 00:57:41] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-21 00:57:41] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.8.dev8.tar.gz tmp/moto-4.1.8.dev9.tar.gz --markdown 20230421/m/moto/4.1.8.dev8-4.1.8.dev9/diff.md --exclude *.pyd
+[2023-04-21 00:57:41] INFO root fetch - processPackages [taskiq-dependencies]: executing diffoscope
+[2023-04-21 00:57:41] INFO root fetch - processPackages [taskiq-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_dependencies-1.1.2.tar.gz tmp/taskiq_dependencies-1.2.0.tar.gz --markdown 20230421/t/taskiq-dependencies/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-21 00:57:42] INFO root fetch - main [MainThread]: End processing [nmodl-preprocessor]: success
+[2023-04-21 00:57:43] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-linear-led]: success
+[2023-04-21 00:57:43] INFO root fetch - main [MainThread]: End processing [taskiq-dependencies]: success
+[2023-04-21 00:57:43] INFO root fetch - main [MainThread]: End processing [hstestaq]: success
+[2023-04-21 00:58:13] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-21 00:58:13] INFO root fetch - main [MainThread]: Store serial: [17795087]
