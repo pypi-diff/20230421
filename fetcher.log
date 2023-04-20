@@ -1,0 +1,66 @@
+[2023-04-21 00:04:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17794629]
+[2023-04-21 00:04:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 00:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmake-pre-commit-hooks
+[2023-04-21 00:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jinjamator
+[2023-04-21 00:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dingo-gw
+[2023-04-21 00:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discord-qalib
+[2023-04-21 00:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scipion-em-xmipptomo
+[2023-04-21 00:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pre-commit-update
+[2023-04-21 00:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: voip-utils
+[2023-04-21 00:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lift.bot
+[2023-04-21 00:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: goodai-ltm
+[2023-04-21 00:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: faker-file
+[2023-04-21 00:04:33] INFO root fetch - processPackages [discord-qalib]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-21 00:04:33] INFO root fetch - processPackages [lift.bot]: New version: [15.5.1] Old Version: [15.3.5]
+[2023-04-21 00:04:33] INFO root fetch - processPackages [goodai-ltm]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 00:04:33] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-21 00:04:33] INFO root fetch - processPackages [voip-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 00:04:33] INFO root fetch - processPackages [cmake-pre-commit-hooks]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-04-21 00:04:33] INFO root fetch - processPackages [scipion-em-xmipptomo]: New version: [3.23.3.4] Old Version: [3.23.3.3]
+[2023-04-21 00:04:33] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-04-21 00:04:33] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230421/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-21 00:04:33] INFO root fetch - processPackages [voip-utils]: executing diffoscope
+[2023-04-21 00:04:33] INFO root fetch - processPackages [dingo-gw]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-04-21 00:04:33] INFO root fetch - processPackages [voip-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voip-utils-0.0.3.tar.gz tmp/voip-utils-0.0.4.tar.gz --markdown 20230421/v/voip-utils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 00:04:33] INFO root fetch - processPackages [jinjamator]: New version: [0.9.9] Old Version: [0.9.88.1]
+[2023-04-21 00:04:33] INFO root fetch - processPackages [pre-commit-update]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-21 00:04:33] INFO root fetch - processPackages [discord-qalib]: executing diffoscope
+[2023-04-21 00:04:33] INFO root fetch - processPackages [discord-qalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-qalib-2.0.0.tar.gz tmp/discord-qalib-2.1.0.tar.gz --markdown 20230421/d/discord-qalib/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-21 00:04:33] INFO root fetch - processPackages [lift.bot]: executing diffoscope
+[2023-04-21 00:04:33] INFO root fetch - processPackages [lift.bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lift.bot-15.3.5.tar.gz tmp/lift.bot-15.5.1.tar.gz --markdown 20230421/l/lift.bot/15.3.5-15.5.1/diff.md --exclude *.pyd
+[2023-04-21 00:04:33] INFO root fetch - processPackages [goodai-ltm]: Downloading https://files.pythonhosted.org/packages/35/24/26bf33d267c32c6f97d7b39866462c3965e6ea449df41e58a658a9f04b65/goodai-ltm-0.0.8.tar.gz
+[2023-04-21 00:04:33] INFO root fetch - processPackages [jinjamator]: Downloading https://files.pythonhosted.org/packages/78/31/b2a78792030bc87718539789ce24688e6d5246e28c8c8a6e998951871558/jinjamator-0.9.88.1-py3-none-any.whl
+[2023-04-21 00:04:33] INFO root fetch - processPackages [dingo-gw]: Downloading https://files.pythonhosted.org/packages/81/de/cb3c2db7325e5fcaa9bdcabcbc238ce069376cbf437188ab1a31683ebfe4/dingo-gw-0.4.3.tar.gz
+[2023-04-21 00:04:34] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/8e/89/ea3322bb74ee1c04d4a8695aa558cf77ebd1477b21da708d8a8da0e7a77b/pre_commit_update-0.0.5.tar.gz
+[2023-04-21 00:04:34] INFO root fetch - processPackages [cmake-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/4b/bd/74fcba577d23a2d0600674d40ba5b1b6ee5a82563294ce9b94564731cb0b/cmake_pre_commit_hooks-1.8.0.tar.gz
+[2023-04-21 00:04:34] WARNING root fetch - processPackages [jinjamator]: Skipping package: exceeds size limit 10805488>=10485760
+[2023-04-21 00:04:34] INFO root fetch - processPackages [jinjamator]: Start processing: empiric-network
+[2023-04-21 00:04:34] INFO root fetch - main [MainThread]: End processing [jinjamator] error
+[2023-04-21 00:04:34] INFO root fetch - processPackages [scipion-em-xmipptomo]: Downloading https://files.pythonhosted.org/packages/36/50/8aefa8aef28ce23ad2c782d2c9b1962d3e16f702f03f8293ed00b3d08720/scipion-em-xmipptomo-3.23.3.4.tar.gz
+[2023-04-21 00:04:34] INFO root fetch - processPackages [empiric-network]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-21 00:04:34] INFO root fetch - processPackages [goodai-ltm]: executing diffoscope
+[2023-04-21 00:04:34] INFO root fetch - processPackages [goodai-ltm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodai-ltm-0.0.7.tar.gz tmp/goodai-ltm-0.0.8.tar.gz --markdown 20230421/g/goodai-ltm/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 00:04:34] INFO root fetch - processPackages [empiric-network]: executing diffoscope
+[2023-04-21 00:04:34] INFO root fetch - processPackages [empiric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empiric_network-1.4.8.tar.gz tmp/empiric_network-1.4.9.tar.gz --markdown 20230421/e/empiric-network/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-21 00:04:34] INFO root fetch - processPackages [cmake-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/b9/29/2a2a7aebfd42ccfc94cae3a6e8abd9591860bb577de92695ef68e41ba9ac/cmake_pre_commit_hooks-1.8.1.tar.gz
+[2023-04-21 00:04:34] INFO root fetch - processPackages [scipion-em-xmipptomo]: executing diffoscope
+[2023-04-21 00:04:34] INFO root fetch - processPackages [scipion-em-xmipptomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-xmipptomo-3.23.3.3.tar.gz tmp/scipion-em-xmipptomo-3.23.3.4.tar.gz --markdown 20230421/s/scipion-em-xmipptomo/3.23.3.3-3.23.3.4/diff.md --exclude *.pyd
+[2023-04-21 00:04:34] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/da/eb/fa652ccbaa6d74fccd0ecccdc6816699e2822442c7d72baed96c5a2cbac3/pre_commit_update-0.0.6.tar.gz
+[2023-04-21 00:04:34] INFO root fetch - processPackages [dingo-gw]: Downloading https://files.pythonhosted.org/packages/0c/c7/f65b0bc9a790e402664b7fee2fe5a1830d6af10116ebafaa52d03cf6f63a/dingo-gw-0.5.0.tar.gz
+[2023-04-21 00:04:34] INFO root fetch - processPackages [cmake-pre-commit-hooks]: executing diffoscope
+[2023-04-21 00:04:34] INFO root fetch - processPackages [cmake-pre-commit-hooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmake_pre_commit_hooks-1.8.0.tar.gz tmp/cmake_pre_commit_hooks-1.8.1.tar.gz --markdown 20230421/c/cmake-pre-commit-hooks/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-04-21 00:04:34] INFO root fetch - processPackages [pre-commit-update]: executing diffoscope
+[2023-04-21 00:04:34] INFO root fetch - processPackages [pre-commit-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit_update-0.0.5.tar.gz tmp/pre_commit_update-0.0.6.tar.gz --markdown 20230421/p/pre-commit-update/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 00:04:34] INFO root fetch - processPackages [dingo-gw]: executing diffoscope
+[2023-04-21 00:04:34] INFO root fetch - processPackages [dingo-gw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingo-gw-0.4.3.tar.gz tmp/dingo-gw-0.5.0.tar.gz --markdown 20230421/d/dingo-gw/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-04-21 00:04:35] INFO root fetch - main [MainThread]: End processing [voip-utils]: success
+[2023-04-21 00:04:35] INFO root fetch - main [MainThread]: End processing [lift.bot]: success
+[2023-04-21 00:04:35] INFO root fetch - main [MainThread]: End processing [discord-qalib]: success
+[2023-04-21 00:04:36] INFO root fetch - main [MainThread]: End processing [pre-commit-update]: success
+[2023-04-21 00:04:36] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-04-21 00:04:37] INFO root fetch - main [MainThread]: End processing [cmake-pre-commit-hooks]: success
+[2023-04-21 00:04:37] INFO root fetch - main [MainThread]: End processing [dingo-gw]: success
+[2023-04-21 00:04:37] INFO root fetch - main [MainThread]: End processing [empiric-network]: success
+[2023-04-21 00:04:37] INFO root fetch - main [MainThread]: End processing [goodai-ltm]: success
+[2023-04-21 00:04:38] INFO root fetch - main [MainThread]: End processing [scipion-em-xmipptomo]: success
+[2023-04-21 00:04:38] INFO root fetch - main [MainThread]: Store serial: [17794663]
