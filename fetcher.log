@@ -983,3 +983,33 @@
 [2023-04-21 01:19:08] INFO root fetch - main [MainThread]: End processing [visual-novel-toolkit]: success
 [2023-04-21 01:19:08] INFO root fetch - main [MainThread]: End processing [modelbit]: success
 [2023-04-21 01:19:08] INFO root fetch - main [MainThread]: Store serial: [17795228]
+[2023-04-21 01:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17795228]
+[2023-04-21 01:24:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 01:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alice-and-bob3
+[2023-04-21 01:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alice-and-bob3
+[2023-04-21 01:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alice-and-bob3
+[2023-04-21 01:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blyss
+[2023-04-21 01:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: UpyTest
+[2023-04-21 01:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polymers
+[2023-04-21 01:24:16] INFO root fetch - processPackages [UpyTest]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-21 01:24:16] WARNING root fetch - processPackages [alice-and-bob3]: Skipping, unable to determine old version
+[2023-04-21 01:24:16] WARNING root fetch - processPackages [alice-and-bob3]: Skipping, unable to determine old version
+[2023-04-21 01:24:16] WARNING root fetch - processPackages [alice-and-bob3]: Skipping, unable to determine old version
+[2023-04-21 01:24:16] INFO root fetch - main [MainThread]: End processing [alice-and-bob3] error
+[2023-04-21 01:24:16] INFO root fetch - main [MainThread]: End processing [alice-and-bob3] error
+[2023-04-21 01:24:16] INFO root fetch - processPackages [UpyTest]: executing diffoscope
+[2023-04-21 01:24:16] INFO root fetch - main [MainThread]: End processing [alice-and-bob3] error
+[2023-04-21 01:24:16] INFO root fetch - processPackages [UpyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upyTest-3.0.1.tar.gz tmp/UpyTest-3.0.2.tar.gz --markdown 20230421/U/UpyTest/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-21 01:24:16] INFO root fetch - processPackages [blyss]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-21 01:24:16] INFO root fetch - processPackages [polymers]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-21 01:24:17] INFO root fetch - processPackages [blyss]: Downloading https://files.pythonhosted.org/packages/6f/76/93b13d2226639f8d3c68cc1d936244a9fe9f8e8921187672a662533a951a/blyss-0.1.7.tar.gz
+[2023-04-21 01:24:17] INFO root fetch - processPackages [polymers]: Downloading https://files.pythonhosted.org/packages/78/29/213c45b90d1d009de8da5dcd2709d3a56279f01d952d4b550d73c5949017/polymers-0.3.2-cp38-cp38-macosx_10_7_x86_64.whl
+[2023-04-21 01:24:17] INFO root fetch - processPackages [blyss]: Downloading https://files.pythonhosted.org/packages/3f/ec/84633563ae0d8b049a475bf502dde5a32a0b313ece894476bfd3c9b5ac95/blyss-0.1.8.tar.gz
+[2023-04-21 01:24:17] INFO root fetch - processPackages [blyss]: executing diffoscope
+[2023-04-21 01:24:17] INFO root fetch - processPackages [blyss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blyss-0.1.7.tar.gz tmp/blyss-0.1.8.tar.gz --markdown 20230421/b/blyss/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-21 01:24:17] INFO root fetch - processPackages [polymers]: executing diffoscope
+[2023-04-21 01:24:17] INFO root fetch - processPackages [polymers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymers-0.3.1-cp39-none-win_amd64.whl.zip tmp/polymers-0.3.2-cp38-cp38-macosx_10_7_x86_64.whl.zip --markdown 20230421/p/polymers/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-21 01:24:18] INFO root fetch - main [MainThread]: End processing [UpyTest]: success
+[2023-04-21 01:24:18] INFO root fetch - main [MainThread]: End processing [blyss]: success
+[2023-04-21 01:24:18] INFO root fetch - main [MainThread]: End processing [polymers]: success
+[2023-04-21 01:24:18] INFO root fetch - main [MainThread]: Store serial: [17795272]
