@@ -739,3 +739,67 @@
 [2023-04-21 00:57:43] INFO root fetch - main [MainThread]: End processing [hstestaq]: success
 [2023-04-21 00:58:13] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-21 00:58:13] INFO root fetch - main [MainThread]: Store serial: [17795087]
+[2023-04-21 01:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17795087]
+[2023-04-21 01:03:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-phal-plugin-linear-led
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparclclient
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alice-and-bob3
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: replit-bot
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: warn-scraper
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aftk
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt-cu101
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mb-pytorch
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ecopipeline
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tmnt
+[2023-04-21 01:03:23] INFO root fetch - processPackages [sparclclient]: New version: [1.2.0b3.dev9] Old Version: [1.2.0b3.dev8]
+[2023-04-21 01:03:23] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-04-21 01:03:23] INFO root fetch - processPackages [replit-bot]: New version: [4.2.8] Old Version: [4.2.7]
+[2023-04-21 01:03:23] WARNING root fetch - processPackages [aftk]: Skipping, unable to determine old version
+[2023-04-21 01:03:23] INFO root fetch - processPackages [aftk]: Start processing: flwr-nightly
+[2023-04-21 01:03:23] INFO root fetch - main [MainThread]: End processing [aftk] error
+[2023-04-21 01:03:23] WARNING root fetch - processPackages [alice-and-bob3]: Skipping, unable to determine old version
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 01:03:23] INFO root fetch - main [MainThread]: End processing [alice-and-bob3] error
+[2023-04-21 01:03:23] INFO root fetch - processPackages [warn-scraper]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-21 01:03:23] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304202301] Old Version: [1.0.202304202038]
+[2023-04-21 01:03:23] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230420] Old Version: [0.7.0b20230419]
+[2023-04-21 01:03:23] INFO root fetch - processPackages [flwr-nightly]: New version: [1.4.0.dev20230419] Old Version: [1.4.0.dev20230418]
+[2023-04-21 01:03:23] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230420] Old Version: [0.7.0b20230419]
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-04-21 01:03:23] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230421/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 01:03:23] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-04-21 01:03:23] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.4.0.dev20230418.tar.gz tmp/flwr_nightly-1.4.0.dev20230419.tar.gz --markdown 20230421/f/flwr-nightly/1.4.0.dev20230418-1.4.0.dev20230419/diff.md --exclude *.pyd
+[2023-04-21 01:03:23] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: Downloading https://files.pythonhosted.org/packages/bf/a7/7c7802d3c749e6c6c10a73a9d180a3bc5a33caf662fef7654af0d32bcd71/neon_phal_plugin_linear_led-0.1.1a2-py3-none-any.whl
+[2023-04-21 01:03:23] INFO root fetch - processPackages [replit-bot]: Downloading https://files.pythonhosted.org/packages/5d/2f/9c3cda26088d5dd1cde132f2900072c1c32d16889fb203a32c8c92767a90/replit-bot-4.2.8.tar.gz
+[2023-04-21 01:03:23] INFO root fetch - processPackages [warn-scraper]: Downloading https://files.pythonhosted.org/packages/e0/c6/78082c84fe2db93b0ed39a71343d447443d561043cf2679e57e033dd1461/warn-scraper-1.2.8.tar.gz
+[2023-04-21 01:03:23] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/5a/68/a740142d6bda53c2477d09e49a4b7ba496eeb71e367417b0bde819a7f805/tmnt-cu101-0.7.0b20230419.tar.gz
+[2023-04-21 01:03:23] INFO root fetch - processPackages [replit-bot]: executing diffoscope
+[2023-04-21 01:03:23] INFO root fetch - processPackages [replit-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit-bot-4.2.7.tar.gz tmp/replit-bot-4.2.8.tar.gz --markdown 20230421/r/replit-bot/4.2.7-4.2.8/diff.md --exclude *.pyd
+[2023-04-21 01:03:23] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/23/34/008dc305d0f77a85f631d187737672c4f085985d4ea799b122e95e74fdf0/tmnt-0.7.0b20230419.tar.gz
+[2023-04-21 01:03:23] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: executing diffoscope
+[2023-04-21 01:03:23] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_linear_led-0.1.1a1-py3-none-any.whl.zip tmp/neon_phal_plugin_linear_led-0.1.1a2-py3-none-any.whl.zip --markdown 20230421/n/neon-phal-plugin-linear-led/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-04-21 01:03:23] INFO root fetch - processPackages [sparclclient]: Downloading https://files.pythonhosted.org/packages/fa/7a/cdccc78ba3569e1845ccc133af143b6ba27f35c68aa4f704ad573cb8fe5a/sparclclient-1.2.0b3.dev9-py3-none-any.whl
+[2023-04-21 01:03:23] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/da/c4/d799951a77f9281b13149c1decdf3cc97fc2bd27a5f29aa42c922fe71095/mb_pytorch-1.0.202304202301-py3-none-any.whl
+[2023-04-21 01:03:23] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-21 01:03:23] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304202038-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304202301-py3-none-any.whl.zip --markdown 20230421/m/mb-pytorch/1.0.202304202038-1.0.202304202301/diff.md --exclude *.pyd
+[2023-04-21 01:03:23] INFO root fetch - processPackages [sparclclient]: executing diffoscope
+[2023-04-21 01:03:23] INFO root fetch - processPackages [sparclclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparclclient-1.2.0b3.dev8-py3-none-any.whl.zip tmp/sparclclient-1.2.0b3.dev9-py3-none-any.whl.zip --markdown 20230421/s/sparclclient/1.2.0b3.dev8-1.2.0b3.dev9/diff.md --exclude *.pyd
+[2023-04-21 01:03:23] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/ad/ae/e08e18a42db92ce453d3e5bbaf0c3bac71e37cbc77da7c42284418ed27c9/tmnt-cu101-0.7.0b20230420.tar.gz
+[2023-04-21 01:03:23] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/64/47/1b6e590f75da143792e2b793bf2777613d6feb54521f1cd4109fc14a6de8/tmnt-0.7.0b20230420.tar.gz
+[2023-04-21 01:03:23] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-04-21 01:03:23] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230419.tar.gz tmp/tmnt-cu101-0.7.0b20230420.tar.gz --markdown 20230421/t/tmnt-cu101/0.7.0b20230419-0.7.0b20230420/diff.md --exclude *.pyd
+[2023-04-21 01:03:23] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-04-21 01:03:23] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230419.tar.gz tmp/tmnt-0.7.0b20230420.tar.gz --markdown 20230421/t/tmnt/0.7.0b20230419-0.7.0b20230420/diff.md --exclude *.pyd
+[2023-04-21 01:03:24] INFO root fetch - processPackages [warn-scraper]: Downloading https://files.pythonhosted.org/packages/cd/7a/bb6f3b58470f7b98476c55086b15f7e210c85f4deeb183d40b74f760c779/warn-scraper-1.2.9.tar.gz
+[2023-04-21 01:03:24] INFO root fetch - main [MainThread]: End processing [replit-bot]: success
+[2023-04-21 01:03:25] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-linear-led]: success
+[2023-04-21 01:03:25] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-04-21 01:03:25] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-21 01:03:25] INFO root fetch - main [MainThread]: End processing [sparclclient]: success
+[2023-04-21 01:03:25] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-04-21 01:03:25] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-04-21 01:03:25] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-04-21 01:03:26] INFO root fetch - processPackages [warn-scraper]: executing diffoscope
+[2023-04-21 01:03:26] INFO root fetch - processPackages [warn-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warn-scraper-1.2.8.tar.gz tmp/warn-scraper-1.2.9.tar.gz --markdown 20230421/w/warn-scraper/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-21 01:03:28] INFO root fetch - main [MainThread]: End processing [warn-scraper]: success
+[2023-04-21 01:03:28] INFO root fetch - main [MainThread]: Store serial: [17795120]
