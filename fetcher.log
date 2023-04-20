@@ -1190,3 +1190,96 @@
 [2023-04-21 01:45:06] INFO root fetch - main [MainThread]: End processing [fmts]: success
 [2023-04-21 01:45:07] INFO root fetch - main [MainThread]: End processing [dingo-gw]: success
 [2023-04-21 01:45:07] INFO root fetch - main [MainThread]: Store serial: [17795368]
+[2023-04-21 01:50:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17795368]
+[2023-04-21 01:50:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 01:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flextoolslib
+[2023-04-21 01:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyquokka
+[2023-04-21 01:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiopen
+[2023-04-21 01:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asyncify
+[2023-04-21 01:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperfast-python-template
+[2023-04-21 01:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: erscipcard
+[2023-04-21 01:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chalkpy
+[2023-04-21 01:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: requires
+[2023-04-21 01:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neon-skill-local-music
+[2023-04-21 01:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: layermake
+[2023-04-21 01:50:16] INFO root fetch - processPackages [asyncify]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-21 01:50:16] INFO root fetch - processPackages [erscipcard]: New version: [1.17.88] Old Version: [1.17.87]
+[2023-04-21 01:50:16] INFO root fetch - processPackages [pyquokka]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-21 01:50:16] INFO root fetch - processPackages [flextoolslib]: New version: [2023.4.21] Old Version: [2023.4.18]
+[2023-04-21 01:50:16] INFO root fetch - processPackages [aiopen]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-21 01:50:16] INFO root fetch - processPackages [neon-skill-local-music]: New version: [0.2.0] Old Version: [0.1.1a7]
+[2023-04-21 01:50:16] INFO root fetch - processPackages [layermake]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 01:50:16] INFO root fetch - processPackages [requires]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-21 01:50:16] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 01:50:16] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-21 01:50:16] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-21 01:50:16] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230421/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-21 01:50:16] INFO root fetch - processPackages [asyncify]: Downloading https://files.pythonhosted.org/packages/68/c9/17678365df01e636a6fbf53cf521e13373eb46bbd5af94cec5b76b938cb7/asyncify-0.9.1.tar.gz
+[2023-04-21 01:50:16] INFO root fetch - processPackages [aiopen]: Downloading https://files.pythonhosted.org/packages/66/80/6ae5f1941c3a4314370f92b3ec55d55ff42153058a6f406d060ce49ecafe/aiopen-0.5.4.tar.gz
+[2023-04-21 01:50:16] INFO root fetch - processPackages [pyquokka]: Downloading https://files.pythonhosted.org/packages/26/92/3ff64f363619f3c21793ee9b61b9ee9bdf248af89a1d6fafea73353fe39e/pyquokka-0.2.4-py3-none-any.whl
+[2023-04-21 01:50:16] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/b8/72/0d103626583d8169b8f67c7a1eafe389f5b8a816640daea8e62a7c67f50c/hyperfast_python_template-0.2.8.tar.gz
+[2023-04-21 01:50:16] INFO root fetch - processPackages [layermake]: Downloading https://files.pythonhosted.org/packages/be/d9/2804c50f5b94ee04eb581b73c26218b1b9b529d1848bec050ff9c27b5ee9/layermake-0.0.7.tar.gz
+[2023-04-21 01:50:16] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/7e/c0/8244f5849547e28e7f6449cf388cdf868b525fb494bd2986203f51c7475d/neon_skill_local_music-0.2.0-py3-none-any.whl
+[2023-04-21 01:50:16] INFO root fetch - processPackages [requires]: Downloading https://files.pythonhosted.org/packages/b0/a7/dd9ca8f27d45ad8976e19722bf16879e3edcacd6bb15c7bc1c407a617a72/requires-0.8.1.tar.gz
+[2023-04-21 01:50:16] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-21 01:50:16] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.2.7.tar.gz tmp/hyperfast_python_template-0.2.8.tar.gz --markdown 20230421/h/hyperfast-python-template/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 01:50:16] INFO root fetch - processPackages [flextoolslib]: Downloading https://files.pythonhosted.org/packages/91/1d/5a62aeceb22bed61a7a60a98086a62bf780af92c5ee23cdc4ab1f32d3dcd/flextoolslib-2023.4.21-py36.py37.py38-none-any.whl
+[2023-04-21 01:50:17] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/45/96/48d1d46fc349d3daff9eb2ce808c8b794efecbea83ec8782bbbe59866f6d/erscipcard-1.17.88.tar.gz
+[2023-04-21 01:50:17] INFO root fetch - processPackages [neon-skill-local-music]: executing diffoscope
+[2023-04-21 01:50:17] INFO root fetch - processPackages [neon-skill-local-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_local_music-0.1.1a7-py3-none-any.whl.zip tmp/neon_skill_local_music-0.2.0-py3-none-any.whl.zip --markdown 20230421/n/neon-skill-local-music/0.1.1a7-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 01:50:17] INFO root fetch - processPackages [asyncify]: Downloading https://files.pythonhosted.org/packages/23/77/63e130b6572add8e9d368e34c23595ab87ba16c8288bd2b378177e5da2b5/asyncify-0.9.2.tar.gz
+[2023-04-21 01:50:17] INFO root fetch - processPackages [pyquokka]: Downloading https://files.pythonhosted.org/packages/1b/a2/3ed9b78d10c0946c073837c1eb890c063124f12d270ba1def46e186a189a/pyquokka-0.2.5-py3-none-any.whl
+[2023-04-21 01:50:17] INFO root fetch - processPackages [flextoolslib]: executing diffoscope
+[2023-04-21 01:50:17] INFO root fetch - processPackages [flextoolslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flextoolslib-2023.4.18-py36.py37.py38-none-any.whl.zip tmp/flextoolslib-2023.4.21-py36.py37.py38-none-any.whl.zip --markdown 20230421/f/flextoolslib/2023.4.18-2023.4.21/diff.md --exclude *.pyd
+[2023-04-21 01:50:17] INFO root fetch - processPackages [layermake]: Downloading https://files.pythonhosted.org/packages/ba/a6/3123f6fd44abc9e889b660311d2b8c7a0fc7933288ae7f00e777a799cca0/layermake-0.0.8.tar.gz
+[2023-04-21 01:50:17] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-04-21 01:50:17] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.17.87.tar.gz tmp/erscipcard-1.17.88.tar.gz --markdown 20230421/e/erscipcard/1.17.87-1.17.88/diff.md --exclude *.pyd
+[2023-04-21 01:50:17] INFO root fetch - processPackages [asyncify]: executing diffoscope
+[2023-04-21 01:50:17] INFO root fetch - processPackages [asyncify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncify-0.9.1.tar.gz tmp/asyncify-0.9.2.tar.gz --markdown 20230421/a/asyncify/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-21 01:50:17] INFO root fetch - processPackages [aiopen]: Downloading https://files.pythonhosted.org/packages/5b/91/e84d0d4c3f0c93ba3c057a0a3f19727712c06c33591ecae91d0f25947424/aiopen-0.5.5.tar.gz
+[2023-04-21 01:50:17] INFO root fetch - processPackages [pyquokka]: executing diffoscope
+[2023-04-21 01:50:17] INFO root fetch - processPackages [pyquokka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquokka-0.2.4-py3-none-any.whl.zip tmp/pyquokka-0.2.5-py3-none-any.whl.zip --markdown 20230421/p/pyquokka/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-21 01:50:17] INFO root fetch - processPackages [layermake]: executing diffoscope
+[2023-04-21 01:50:17] INFO root fetch - processPackages [layermake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layermake-0.0.7.tar.gz tmp/layermake-0.0.8.tar.gz --markdown 20230421/l/layermake/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 01:50:17] INFO root fetch - processPackages [aiopen]: executing diffoscope
+[2023-04-21 01:50:17] INFO root fetch - processPackages [aiopen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopen-0.5.4.tar.gz tmp/aiopen-0.5.5.tar.gz --markdown 20230421/a/aiopen/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-04-21 01:50:17] INFO root fetch - processPackages [requires]: Downloading https://files.pythonhosted.org/packages/bd/de/bb5b29b0dea2ec684165132aa637ace09c3d393b92afe9edd55399be7c83/requires-0.9.0.tar.gz
+[2023-04-21 01:50:17] INFO root fetch - processPackages [requires]: executing diffoscope
+[2023-04-21 01:50:17] INFO root fetch - processPackages [requires]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requires-0.8.1.tar.gz tmp/requires-0.9.0.tar.gz --markdown 20230421/r/requires/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 01:50:18] INFO root fetch - processPackages [hyperfast-python-template]: Start processing: pylumber
+[2023-04-21 01:50:18] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-21 01:50:18] INFO root fetch - processPackages [pylumber]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 01:50:18] INFO root fetch - processPackages [pylumber]: Downloading https://files.pythonhosted.org/packages/a2/69/7ffe0c6315d19c05da5fe2f096835756318ffabc7f808b104bef8faaaa50/pylumber-0.1.0.tar.gz
+[2023-04-21 01:50:18] INFO root fetch - processPackages [neon-skill-local-music]: Start processing: h5
+[2023-04-21 01:50:18] INFO root fetch - main [MainThread]: End processing [neon-skill-local-music]: success
+[2023-04-21 01:50:18] INFO root fetch - processPackages [h5]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-21 01:50:18] INFO root fetch - processPackages [pylumber]: Downloading https://files.pythonhosted.org/packages/ed/61/99e1e9756819113bb31aa58487ea7b10c0f7244ebb2a4b284f35baf6a5d4/pylumber-0.1.1.tar.gz
+[2023-04-21 01:50:18] INFO root fetch - processPackages [flextoolslib]: Start processing: lager
+[2023-04-21 01:50:18] INFO root fetch - main [MainThread]: End processing [flextoolslib]: success
+[2023-04-21 01:50:18] INFO root fetch - processPackages [h5]: Downloading https://files.pythonhosted.org/packages/bc/6a/35c599ee322a24d0dc3eba31607b73f955248a1faaa2e5d9c5856f034686/h5-0.8.8.tar.gz
+[2023-04-21 01:50:18] INFO root fetch - processPackages [lager]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-21 01:50:19] INFO root fetch - processPackages [pylumber]: executing diffoscope
+[2023-04-21 01:50:19] INFO root fetch - processPackages [pylumber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylumber-0.1.0.tar.gz tmp/pylumber-0.1.1.tar.gz --markdown 20230421/p/pylumber/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 01:50:19] INFO root fetch - processPackages [lager]: Downloading https://files.pythonhosted.org/packages/d0/46/9dc914ff567b733e64e13786013dbe0026adead87572a965300ee7b1cf3d/lager-0.3.0-py3-none-any.whl
+[2023-04-21 01:50:19] INFO root fetch - processPackages [h5]: Downloading https://files.pythonhosted.org/packages/11/d1/50913d8b9a30d7451e6e4b7e349d8032836decceec8b8a8906cede427960/h5-0.8.9.tar.gz
+[2023-04-21 01:50:19] INFO root fetch - processPackages [pyquokka]: Start processing: jsonbourne
+[2023-04-21 01:50:19] INFO root fetch - main [MainThread]: End processing [pyquokka]: success
+[2023-04-21 01:50:19] INFO root fetch - processPackages [h5]: executing diffoscope
+[2023-04-21 01:50:19] INFO root fetch - processPackages [h5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5-0.8.8.tar.gz tmp/h5-0.8.9.tar.gz --markdown 20230421/h/h5/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-21 01:50:19] INFO root fetch - main [MainThread]: End processing [aiopen]: success
+[2023-04-21 01:50:19] INFO root fetch - main [MainThread]: End processing [asyncify]: success
+[2023-04-21 01:50:19] INFO root fetch - processPackages [jsonbourne]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-21 01:50:19] INFO root fetch - main [MainThread]: End processing [requires]: success
+[2023-04-21 01:50:19] INFO root fetch - processPackages [lager]: Downloading https://files.pythonhosted.org/packages/f5/da/eb6ac11a24f04091aa378e2c60e3f0a2e2b84f414a8a05ae7d28e1bada63/lager-0.4.0-py3-none-any.whl
+[2023-04-21 01:50:19] INFO root fetch - main [MainThread]: End processing [layermake]: success
+[2023-04-21 01:50:19] INFO root fetch - processPackages [lager]: executing diffoscope
+[2023-04-21 01:50:19] INFO root fetch - processPackages [lager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lager-0.3.0-py3-none-any.whl.zip tmp/lager-0.4.0-py3-none-any.whl.zip --markdown 20230421/l/lager/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 01:50:19] INFO root fetch - processPackages [jsonbourne]: executing diffoscope
+[2023-04-21 01:50:19] INFO root fetch - processPackages [jsonbourne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonbourne-0.8.1.tar.gz tmp/jsonbourne-0.9.0.tar.gz --markdown 20230421/j/jsonbourne/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 01:50:20] INFO root fetch - main [MainThread]: End processing [pylumber]: success
+[2023-04-21 01:50:20] INFO root fetch - main [MainThread]: End processing [h5]: success
+[2023-04-21 01:50:20] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-04-21 01:50:20] INFO root fetch - main [MainThread]: End processing [lager]: success
+[2023-04-21 01:50:21] INFO root fetch - main [MainThread]: End processing [jsonbourne]: success
+[2023-04-21 01:50:23] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-21 01:50:23] INFO root fetch - main [MainThread]: Store serial: [17795410]
