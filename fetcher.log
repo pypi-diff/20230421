@@ -329,3 +329,33 @@
 [2023-04-21 00:20:30] INFO root fetch - main [MainThread]: End processing [Aruna-Python-API]: success
 [2023-04-21 00:20:39] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-21 00:20:39] INFO root fetch - main [MainThread]: Store serial: [17794838]
+[2023-04-21 00:25:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17794838]
+[2023-04-21 00:25:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ak_cache
+[2023-04-21 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbm-database-service
+[2023-04-21 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chejoLib
+[2023-04-21 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezregex
+[2023-04-21 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: symbolicai
+[2023-04-21 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vutils-yaml
+[2023-04-21 00:25:48] INFO root fetch - processPackages [vutils-yaml]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 00:25:48] WARNING root fetch - processPackages [ak_cache]: Skipping, unable to determine old version
+[2023-04-21 00:25:48] INFO root fetch - main [MainThread]: End processing [ak_cache] error
+[2023-04-21 00:25:48] WARNING root fetch - processPackages [ezregex]: Skipping, unable to determine old version
+[2023-04-21 00:25:48] INFO root fetch - main [MainThread]: End processing [ezregex] error
+[2023-04-21 00:25:48] WARNING root fetch - processPackages [chejoLib]: Skipping, unable to determine old version
+[2023-04-21 00:25:48] INFO root fetch - processPackages [dbm-database-service]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-21 00:25:48] INFO root fetch - main [MainThread]: End processing [chejoLib] error
+[2023-04-21 00:25:48] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-04-21 00:25:48] INFO root fetch - processPackages [vutils-yaml]: Downloading https://files.pythonhosted.org/packages/65/b8/66a37fb197a07156f7912e7e460b3f08f0cc69ca5ddcca523f19149a4292/vutils-yaml-0.1.2.tar.gz
+[2023-04-21 00:25:49] INFO root fetch - processPackages [dbm-database-service]: Downloading https://files.pythonhosted.org/packages/74/77/635a45e69ee299dc238e188009421dfa0d24c444354da1f1f271c3374b6f/dbm_database_service-0.2.4.tar.gz
+[2023-04-21 00:25:49] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-04-21 00:25:49] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230421/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 00:25:49] INFO root fetch - processPackages [dbm-database-service]: executing diffoscope
+[2023-04-21 00:25:49] INFO root fetch - processPackages [dbm-database-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbm_database_service-0.2.3.tar.gz tmp/dbm_database_service-0.2.4.tar.gz --markdown 20230421/d/dbm-database-service/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-21 00:25:49] INFO root fetch - processPackages [vutils-yaml]: Downloading https://files.pythonhosted.org/packages/4e/e2/22bfafca8c31abfa1989b62c1bcdf1df6027f144d5276c8e943236448922/vutils-yaml-0.1.3.tar.gz
+[2023-04-21 00:25:49] INFO root fetch - processPackages [vutils-yaml]: executing diffoscope
+[2023-04-21 00:25:49] INFO root fetch - processPackages [vutils-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vutils-yaml-0.1.2.tar.gz tmp/vutils-yaml-0.1.3.tar.gz --markdown 20230421/v/vutils-yaml/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 00:25:50] INFO root fetch - main [MainThread]: End processing [dbm-database-service]: success
+[2023-04-21 00:25:50] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-04-21 00:25:50] INFO root fetch - main [MainThread]: End processing [vutils-yaml]: success
+[2023-04-21 00:25:50] INFO root fetch - main [MainThread]: Store serial: [17794864]
