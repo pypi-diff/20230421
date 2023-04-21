@@ -9404,3 +9404,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 09:05:35] INFO root fetch - main [MainThread]: End processing [python-bale-bot]: success
 [2023-04-21 09:05:51] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-21 09:05:51] INFO root fetch - main [MainThread]: Store serial: [17800016]
+[2023-04-21 09:10:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800016]
+[2023-04-21 09:11:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sharedmap
+[2023-04-21 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inverter-connect
+[2023-04-21 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sciris
+[2023-04-21 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ybam
+[2023-04-21 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-models-nightly
+[2023-04-21 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: buvar
+[2023-04-21 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strplus
+[2023-04-21 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-04-21 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stream-zip
+[2023-04-21 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sharedmap
+[2023-04-21 09:11:01] INFO root fetch - processPackages [sharedmap]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-21 09:11:01] INFO root fetch - processPackages [strplus]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-21 09:11:01] WARNING root fetch - processPackages [inverter-connect]: Skipping, unable to determine old version
+[2023-04-21 09:11:01] INFO root fetch - processPackages [inverter-connect]: Start processing: odoo-addons-oca-stock-logistics-warehouse
+[2023-04-21 09:11:01] INFO root fetch - main [MainThread]: End processing [inverter-connect] error
+[2023-04-21 09:11:01] WARNING root fetch - processPackages [ybam]: Skipping, unable to determine old version
+[2023-04-21 09:11:01] INFO root fetch - processPackages [sharedmap]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-21 09:11:01] INFO root fetch - processPackages [ybam]: Start processing: lovehim
+[2023-04-21 09:11:01] INFO root fetch - main [MainThread]: End processing [ybam] error
+[2023-04-21 09:11:01] INFO root fetch - processPackages [sciris]: New version: [3.0.0] Old Version: [2.1.0]
+[2023-04-21 09:11:01] INFO root fetch - processPackages [buvar]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-21 09:11:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: New version: [16.0.20230420.0] Old Version: [16.0.20230412.0]
+[2023-04-21 09:11:01] INFO root fetch - processPackages [lovehim]: New version: [0.2] Old Version: [0.1]
+[2023-04-21 09:11:01] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 09:11:01] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-04-21 09:11:01] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-21 09:11:01] INFO root fetch - processPackages [sharedmap]: Downloading https://files.pythonhosted.org/packages/7f/30/249ae6a27b36e7a075fff6f76bb7d37471979beb4dba428b52f171fa4180/sharedmap-1.0.0.tar.gz
+[2023-04-21 09:11:01] INFO root fetch - processPackages [sharedmap]: Downloading https://files.pythonhosted.org/packages/7f/30/249ae6a27b36e7a075fff6f76bb7d37471979beb4dba428b52f171fa4180/sharedmap-1.0.0.tar.gz
+[2023-04-21 09:11:01] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-04-21 09:11:01] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230421/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-04-21 09:11:01] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/b7/c3/ba5eb40632e91ce7dbb1df2bb1a6636a840f4f5fe27e4a683f26a7f7b798/lovehim-0.1.tar.gz
+[2023-04-21 09:11:01] INFO root fetch - processPackages [strplus]: Downloading https://files.pythonhosted.org/packages/99/9c/a838e4ab3092f00bdf09a586bec1de2de994dfbe4c2d1fe9e400414d1b1e/strplus-1.0.5.tar.gz
+[2023-04-21 09:11:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/cd/c4/e390ec6eb4c112741255a47c00f81a1b9809eecb5b5249536e3be982a3e2/odoo_addons_oca_stock_logistics_warehouse-16.0.20230412.0-py3-none-any.whl
+[2023-04-21 09:11:01] INFO root fetch - processPackages [buvar]: Downloading https://files.pythonhosted.org/packages/af/af/ae5310306b55f44a07b20b2563ca47056335fe5ef275c0a5ea62412ed115/buvar-0.9.0.tar.gz
+[2023-04-21 09:11:01] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/4b/65/27b6998732f631a7691a5157fb51c5d5328faa138986c06684c5ae4fe771/stream-zip-0.0.8.tar.gz
+[2023-04-21 09:11:01] INFO root fetch - processPackages [sciris]: Downloading https://files.pythonhosted.org/packages/7c/6d/1b14262ff1dbc5a62bfd767e9ff7a6133bb35dba704510a4ce84152e9575/sciris-2.1.0.tar.gz
+[2023-04-21 09:11:01] INFO root fetch - processPackages [strplus]: executing diffoscope
+[2023-04-21 09:11:01] INFO root fetch - processPackages [strplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strplus-1.0.4.tar.gz tmp/strplus-1.0.5.tar.gz --markdown 20230421/s/strplus/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-21 09:11:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-04-21 09:11:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230421/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-21 09:11:02] INFO root fetch - processPackages [sharedmap]: Downloading https://files.pythonhosted.org/packages/f0/21/23af84d000b0f216379e847842ad038465044883edd71138c757d7810243/sharedmap-1.0.1.tar.gz
+[2023-04-21 09:11:02] INFO root fetch - processPackages [sharedmap]: Downloading https://files.pythonhosted.org/packages/f0/21/23af84d000b0f216379e847842ad038465044883edd71138c757d7810243/sharedmap-1.0.1.tar.gz
+[2023-04-21 09:11:02] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/76/2b/b4d00eac48a0a2b6a4f85ce60f27ed5105ba9159bed3192304bfd03d3eaf/lovehim-0.2.tar.gz
+[2023-04-21 09:11:02] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/f9/ec/6b0ed76999562fd0219c4533546a66042583a46c54a3ff93c42524741e06/odoo_addons_oca_stock_logistics_warehouse-16.0.20230420.0-py3-none-any.whl
+[2023-04-21 09:11:02] INFO root fetch - processPackages [sciris]: Downloading https://files.pythonhosted.org/packages/8b/e5/f84520a54ce26744a286e650f124379abf8ad47942076c654eac8b030914/sciris-3.0.0.tar.gz
+[2023-04-21 09:11:02] INFO root fetch - processPackages [sharedmap]: executing diffoscope
+[2023-04-21 09:11:02] INFO root fetch - processPackages [sharedmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharedmap-1.0.0.tar.gz tmp/sharedmap-1.0.1.tar.gz --markdown 20230421/s/sharedmap/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 09:11:02] INFO root fetch - processPackages [sharedmap]: executing diffoscope
+[2023-04-21 09:11:02] INFO root fetch - processPackages [sharedmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharedmap-1.0.0.tar.gz tmp/sharedmap-1.0.1.tar.gz --markdown 20230421/s/sharedmap/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 09:11:02] INFO root fetch - processPackages [lovehim]: executing diffoscope
+[2023-04-21 09:11:02] INFO root fetch - processPackages [lovehim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovehim-0.1.tar.gz tmp/lovehim-0.2.tar.gz --markdown 20230421/l/lovehim/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-21 09:11:02] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2023-04-21 09:11:02] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230412.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230420.0-py3-none-any.whl.zip --markdown 20230421/o/odoo-addons-oca-stock-logistics-warehouse/16.0.20230412.0-16.0.20230420.0/diff.md --exclude *.pyd
+[2023-04-21 09:11:02] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2023-04-21 09:11:02] INFO root fetch - processPackages [sciris]: executing diffoscope
+[2023-04-21 09:11:02] INFO root fetch - processPackages [sciris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciris-2.1.0.tar.gz tmp/sciris-3.0.0.tar.gz --markdown 20230421/s/sciris/2.1.0-3.0.0/diff.md --exclude *.pyd
+[2023-04-21 09:11:02] INFO root fetch - processPackages [buvar]: Downloading https://files.pythonhosted.org/packages/18/bd/02dba78e1d76776295cfe5d7364b4fad081db854d3aedb9ad556a8468b3f/buvar-0.9.1.tar.gz
+[2023-04-21 09:11:02] INFO root fetch - processPackages [buvar]: executing diffoscope
+[2023-04-21 09:11:02] INFO root fetch - processPackages [buvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buvar-0.9.0.tar.gz tmp/buvar-0.9.1.tar.gz --markdown 20230421/b/buvar/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-21 09:11:02] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2023-04-21 09:11:02] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-zip-0.0.8.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20230421/s/stream-zip/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 09:11:03] INFO root fetch - processPackages [strplus]: Start processing: upytl
+[2023-04-21 09:11:03] INFO root fetch - main [MainThread]: End processing [strplus]: success
+[2023-04-21 09:11:03] INFO root fetch - processPackages [upytl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 09:11:03] INFO root fetch - processPackages [upytl]: Downloading https://files.pythonhosted.org/packages/e6/d4/d2d7a8f3f50db2856224278bc36724a5dcd8727d44d43c8d9fc12633a990/upytl-0.0.8.tar.gz
+[2023-04-21 09:11:03] INFO root fetch - processPackages [sharedmap]: Start processing: zelos-demeter
+[2023-04-21 09:11:03] INFO root fetch - main [MainThread]: End processing [sharedmap]: success
+[2023-04-21 09:11:03] INFO root fetch - processPackages [zelos-demeter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 09:11:03] INFO root fetch - processPackages [upytl]: Downloading https://files.pythonhosted.org/packages/97/14/bccb7927a9e0a7ad143bb6f62aae968fba772ebdc58d26464f8009a0b69d/upytl-0.0.9.tar.gz
+[2023-04-21 09:11:03] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-warehouse]: success
+[2023-04-21 09:11:03] INFO root fetch - main [MainThread]: End processing [lovehim]: success
+[2023-04-21 09:11:04] INFO root fetch - processPackages [zelos-demeter]: executing diffoscope
+[2023-04-21 09:11:04] INFO root fetch - processPackages [zelos-demeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zelos-demeter-0.1.8.tar.gz tmp/zelos-demeter-0.1.9.tar.gz --markdown 20230421/z/zelos-demeter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 09:11:04] INFO root fetch - processPackages [upytl]: executing diffoscope
+[2023-04-21 09:11:04] INFO root fetch - processPackages [upytl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upytl-0.0.8.tar.gz tmp/upytl-0.0.9.tar.gz --markdown 20230421/u/upytl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 09:11:04] INFO root fetch - main [MainThread]: End processing [sharedmap]: success
+[2023-04-21 09:11:04] INFO root fetch - main [MainThread]: End processing [buvar]: success
+[2023-04-21 09:11:04] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2023-04-21 09:11:04] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-04-21 09:11:04] INFO root fetch - main [MainThread]: End processing [sciris]: success
+[2023-04-21 09:11:05] INFO root fetch - main [MainThread]: End processing [upytl]: success
+[2023-04-21 09:11:05] INFO root fetch - main [MainThread]: End processing [zelos-demeter]: success
+[2023-04-21 09:11:16] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-04-21 09:11:16] INFO root fetch - main [MainThread]: Store serial: [17800070]
