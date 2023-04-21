@@ -9182,3 +9182,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 08:49:52] INFO root fetch - main [MainThread]: End processing [xia-scw-vpc]: success
 [2023-04-21 08:49:56] INFO root fetch - main [MainThread]: End processing [grizzly-loadtester]: success
 [2023-04-21 08:49:56] INFO root fetch - main [MainThread]: Store serial: [17799899]
+[2023-04-21 08:55:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799899]
+[2023-04-21 08:55:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 08:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index
+[2023-04-21 08:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reg-tables
+[2023-04-21 08:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weatherly
+[2023-04-21 08:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kevin-toolbox
+[2023-04-21 08:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kevin-toolbox-dev
+[2023-04-21 08:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: envelope-ai
+[2023-04-21 08:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-vite-plugin
+[2023-04-21 08:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-base-user-locale
+[2023-04-21 08:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-base-tier-validation
+[2023-04-21 08:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-overrider
+[2023-04-21 08:55:05] INFO root fetch - processPackages [envelope-ai]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 08:55:05] INFO root fetch - processPackages [odoo14-addon-base-user-locale]: New version: [14.0.1.1.2.dev8] Old Version: [14.0.1.1.2.dev7]
+[2023-04-21 08:55:05] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-21 08:55:05] INFO root fetch - processPackages [weatherly]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-21 08:55:05] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-21 08:55:05] INFO root fetch - processPackages [reg-tables]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 08:55:05] INFO root fetch - processPackages [llama-index]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-21 08:55:05] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.3.17] Old Version: [16.0.1.0.3]
+[2023-04-21 08:55:05] WARNING root fetch - processPackages [fastapi-overrider]: Skipping, unable to determine old version
+[2023-04-21 08:55:05] INFO root fetch - processPackages [django-vite-plugin]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-21 08:55:05] INFO root fetch - processPackages [fastapi-overrider]: Start processing: dataclass-abc
+[2023-04-21 08:55:05] INFO root fetch - main [MainThread]: End processing [fastapi-overrider] error
+[2023-04-21 08:55:05] INFO root fetch - processPackages [dataclass-abc]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 08:55:05] INFO root fetch - processPackages [weatherly]: Downloading https://files.pythonhosted.org/packages/df/15/5cfca866bb49126e94a4cbafdb5b541d5f2a61ec8658c2e71711ebe58b34/weatherly-0.1.1-py3.11.egg
+[2023-04-21 08:55:05] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/88/ce/2b5ff470a7c55bab27a7c979f283a9086ee819958f4b792f7e9c74207014/kevin-toolbox-1.0.4.tar.gz
+[2023-04-21 08:55:05] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/30/07/41036fbc62f89e65dc941d5de02c1005f294831742fce0de27f1e4b1dbbc/kevin-toolbox-dev-1.0.4.tar.gz
+[2023-04-21 08:55:05] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/97/4a/98b10d72b5683cf2b661af7418451f49dbe879a6f022a68788a0b6886025/odoo_addon_base_tier_validation-16.0.1.0.3.17-py3-none-any.whl
+[2023-04-21 08:55:05] INFO root fetch - processPackages [dataclass-abc]: Downloading https://files.pythonhosted.org/packages/9f/76/27f8fdcc5e850ab694683e36072d4c51b82b163aa04f1c16d0230473de11/dataclass_abc-0.0.7.tar.gz
+[2023-04-21 08:55:05] INFO root fetch - processPackages [envelope-ai]: Downloading https://files.pythonhosted.org/packages/6f/ef/6351a78afbdc0ef63d8e72156c874e9e44fe8e99de383e31c5e1d406cac1/envelope_ai-0.0.6.tar.gz
+[2023-04-21 08:55:05] INFO root fetch - processPackages [odoo14-addon-base-user-locale]: Downloading https://files.pythonhosted.org/packages/bf/c0/ee6da69c87897fda8e3ae874f959a3f0415c0a1fe2d7c7e023659cbdd1d1/odoo14_addon_base_user_locale-14.0.1.1.2.dev8-py3-none-any.whl
+[2023-04-21 08:55:05] INFO root fetch - processPackages [django-vite-plugin]: Downloading https://files.pythonhosted.org/packages/3f/a2/3225e917008d38513778e45bef394b0cb30cae9e16be86170d3843aa5440/django_vite_plugin-1.1.1.tar.gz
+[2023-04-21 08:55:05] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-04-21 08:55:05] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.5.8.tar.gz tmp/llama_index-0.5.9.tar.gz --markdown 20230421/l/llama-index/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-21 08:55:05] INFO root fetch - processPackages [weatherly]: Downloading https://files.pythonhosted.org/packages/9f/69/bddcd7614c9da6aa07961cd2c2f1b1b40969e3e60167ed015ff582bb471c/weatherly-0.2.0-py3.11.egg
+[2023-04-21 08:55:05] INFO root fetch - processPackages [reg-tables]: executing diffoscope
+[2023-04-21 08:55:05] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-04-21 08:55:05] INFO root fetch - processPackages [reg-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reg_tables-0.1.8.tar.gz tmp/reg_tables-0.1.9.tar.gz --markdown 20230421/r/reg-tables/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 08:55:05] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.3.17-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-base-tier-validation/16.0.1.0.3-16.0.1.0.3.17/diff.md --exclude *.pyd
+[2023-04-21 08:55:05] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/47/1b/c161b60f2fefc5c48887c8fd73aa0ca2998cd63c4032b4af96107612c456/kevin-toolbox-1.0.5.tar.gz
+[2023-04-21 08:55:05] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/7e/c1/250a4d04544ce34eb5674619d0f4451993c29b54ec4ae65ef11c02ed4b68/kevin-toolbox-dev-1.0.5.tar.gz
+[2023-04-21 08:55:05] INFO root fetch - processPackages [dataclass-abc]: Downloading https://files.pythonhosted.org/packages/f1/7e/7682d3baa50e0fadc009d6093d07b457e6ccdbc2952efc6e2238cfa267b0/dataclass-abc-0.0.8.tar.gz
+[2023-04-21 08:55:05] INFO root fetch - processPackages [envelope-ai]: Downloading https://files.pythonhosted.org/packages/5c/82/9322878378bd6243a091a7273a90e4c2b652a406f5b2c564291641e6e233/envelope_ai-0.0.7.tar.gz
+[2023-04-21 08:55:05] INFO root fetch - processPackages [odoo14-addon-base-user-locale]: executing diffoscope
+[2023-04-21 08:55:05] INFO root fetch - processPackages [odoo14-addon-base-user-locale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_user_locale-14.0.1.1.2.dev7-py3-none-any.whl.zip tmp/odoo14_addon_base_user_locale-14.0.1.1.2.dev8-py3-none-any.whl.zip --markdown 20230421/o/odoo14-addon-base-user-locale/14.0.1.1.2.dev7-14.0.1.1.2.dev8/diff.md --exclude *.pyd
+[2023-04-21 08:55:05] INFO root fetch - processPackages [django-vite-plugin]: executing diffoscope
+[2023-04-21 08:55:05] INFO root fetch - processPackages [django-vite-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_vite_plugin-1.1.0.tar.gz tmp/django_vite_plugin-1.1.1.tar.gz --markdown 20230421/d/django-vite-plugin/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-21 08:55:05] INFO root fetch - processPackages [weatherly]: executing diffoscope
+[2023-04-21 08:55:05] INFO root fetch - processPackages [weatherly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weatherly-0.1.1-py3.11.egg tmp/weatherly-0.2.0-py3.11.egg --markdown 20230421/w/weatherly/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 08:55:05] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-04-21 08:55:05] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.0.4.tar.gz tmp/kevin-toolbox-dev-1.0.5.tar.gz --markdown 20230421/k/kevin-toolbox-dev/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-21 08:55:05] INFO root fetch - processPackages [dataclass-abc]: executing diffoscope
+[2023-04-21 08:55:05] INFO root fetch - processPackages [dataclass-abc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_abc-0.0.7.tar.gz tmp/dataclass-abc-0.0.8.tar.gz --markdown 20230421/d/dataclass-abc/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 08:55:05] INFO root fetch - processPackages [envelope-ai]: executing diffoscope
+[2023-04-21 08:55:05] INFO root fetch - processPackages [envelope-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envelope_ai-0.0.6.tar.gz tmp/envelope_ai-0.0.7.tar.gz --markdown 20230421/e/envelope-ai/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 08:55:05] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-04-21 08:55:05] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.0.4.tar.gz tmp/kevin-toolbox-1.0.5.tar.gz --markdown 20230421/k/kevin-toolbox/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-21 08:55:07] INFO root fetch - processPackages [reg-tables]: Start processing: PyQtGuiLib
+[2023-04-21 08:55:07] INFO root fetch - main [MainThread]: End processing [reg-tables]: success
+[2023-04-21 08:55:07] INFO root fetch - processPackages [PyQtGuiLib]: New version: [2.7.20.11] Old Version: [2.7.18.11]
+[2023-04-21 08:55:07] INFO root fetch - processPackages [PyQtGuiLib]: Downloading https://files.pythonhosted.org/packages/1a/28/d804baeca7e2c5083cc9477dca9851d11efefaebed6bf48dec2dc0f7e37a/PyQtGuiLib-2.7.18.11.tar.gz
+[2023-04-21 08:55:07] INFO root fetch - main [MainThread]: End processing [dataclass-abc]: success
+[2023-04-21 08:55:07] INFO root fetch - processPackages [PyQtGuiLib]: Downloading https://files.pythonhosted.org/packages/ac/c8/7ab7bee284a12bb43938079ea76e1ada9d3d89cfe904091b336bfc1d99e1/PyQtGuiLib-2.7.20.11.tar.gz
+[2023-04-21 08:55:07] INFO root fetch - processPackages [PyQtGuiLib]: executing diffoscope
+[2023-04-21 08:55:07] INFO root fetch - processPackages [PyQtGuiLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtGuiLib-2.7.18.11.tar.gz tmp/PyQtGuiLib-2.7.20.11.tar.gz --markdown 20230421/P/PyQtGuiLib/2.7.18.11-2.7.20.11/diff.md --exclude *.pyd
+[2023-04-21 08:55:07] INFO root fetch - main [MainThread]: End processing [django-vite-plugin]: success
+[2023-04-21 08:55:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-user-locale]: success
+[2023-04-21 08:55:08] INFO root fetch - main [MainThread]: End processing [weatherly]: success
+[2023-04-21 08:55:08] INFO root fetch - main [MainThread]: End processing [envelope-ai]: success
+[2023-04-21 08:55:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-04-21 08:55:08] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-04-21 08:55:10] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-04-21 08:55:10] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-04-21 08:55:10] INFO root fetch - main [MainThread]: End processing [PyQtGuiLib]: success
+[2023-04-21 08:55:10] INFO root fetch - main [MainThread]: Store serial: [17799933]
