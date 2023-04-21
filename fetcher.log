@@ -17581,3 +17581,85 @@ EOFError: EOF read where object expected
 [2023-04-21 17:02:42] INFO root fetch - main [MainThread]: End processing [testgear-adapter-behave]: success
 [2023-04-21 17:02:45] INFO root fetch - main [MainThread]: End processing [nextcloudtalkbot]: success
 [2023-04-21 17:02:45] INFO root fetch - main [MainThread]: Store serial: [17804928]
+[2023-04-21 17:07:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17804928]
+[2023-04-21 17:07:54] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 17:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TSInterpret
+[2023-04-21 17:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: launchflow
+[2023-04-21 17:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari-generic-SIMulator
+[2023-04-21 17:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metarclone
+[2023-04-21 17:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airunner
+[2023-04-21 17:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: saxonche-stubs
+[2023-04-21 17:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iris-pex-embedded-python
+[2023-04-21 17:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-serverless-clamscan
+[2023-04-21 17:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: up-tamer
+[2023-04-21 17:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rewards-api
+[2023-04-21 17:07:54] WARNING root fetch - processPackages [metarclone]: Skipping, unable to determine old version
+[2023-04-21 17:07:54] INFO root fetch - processPackages [metarclone]: Start processing: stlog
+[2023-04-21 17:07:54] INFO root fetch - main [MainThread]: End processing [metarclone] error
+[2023-04-21 17:07:54] INFO root fetch - processPackages [iris-pex-embedded-python]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-04-21 17:07:54] WARNING root fetch - processPackages [rewards-api]: Skipping, unable to determine old version
+[2023-04-21 17:07:54] INFO root fetch - processPackages [rewards-api]: Start processing: jittok
+[2023-04-21 17:07:54] INFO root fetch - processPackages [napari-generic-SIMulator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 17:07:54] INFO root fetch - main [MainThread]: End processing [rewards-api] error
+[2023-04-21 17:07:54] INFO root fetch - processPackages [TSInterpret]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-04-21 17:07:54] WARNING root fetch - processPackages [saxonche-stubs]: Skipping, unable to determine old version
+[2023-04-21 17:07:54] INFO root fetch - processPackages [airunner]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-04-21 17:07:54] INFO root fetch - processPackages [saxonche-stubs]: Start processing: marketplace-sdk
+[2023-04-21 17:07:54] INFO root fetch - main [MainThread]: End processing [saxonche-stubs] error
+[2023-04-21 17:07:54] INFO root fetch - processPackages [up-tamer]: New version: [0.3.1.9.dev1] Old Version: [0.3.1.7.dev1]
+[2023-04-21 17:07:54] INFO root fetch - processPackages [launchflow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 17:07:54] INFO root fetch - processPackages [stlog]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 17:07:54] INFO root fetch - processPackages [iris-pex-embedded-python]: executing diffoscope
+[2023-04-21 17:07:54] INFO root fetch - processPackages [iris-pex-embedded-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris_pex_embedded_python-2.0.3.tar.gz tmp/iris_pex_embedded_python-2.1.0.tar.gz --markdown 20230421/i/iris-pex-embedded-python/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-04-21 17:07:54] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.4.99] Old Version: [2.4.98]
+[2023-04-21 17:07:54] INFO root fetch - processPackages [jittok]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-21 17:07:54] INFO root fetch - processPackages [marketplace-sdk]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-21 17:07:54] INFO root fetch - processPackages [napari-generic-SIMulator]: Downloading https://files.pythonhosted.org/packages/db/85/a633b4a0e7a262789d58fceb70306352f6597f16b2b388ba8a6a4ec7772d/napari-generic-SIMulator-0.0.8.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [TSInterpret]: Downloading https://files.pythonhosted.org/packages/32/f6/205b64015bc5e5454b3e08281f46e4556934ea78ab853a5d829c621a27e3/TSInterpret-0.1.3.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [stlog]: Downloading https://files.pythonhosted.org/packages/5f/7f/4399c182f421624d395f15cf97efe710ab80658b45fa924e61739676676d/stlog-0.0.7.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/a7/60/6433ef4c971174413d5176e83e07155eb0773a7b083e2be59c018380db91/up_tamer-0.3.1.7.dev1.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/2a/b0/56dc7bd9ba2263bd34aa1a371f6b9c20aea5efc162d9c5179983dcd3fd1b/launchflow-0.1.8.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/d2/30/bda10d30c79882d389b2b67f3039a88bbb082288fac8e61763a067928bbd/cdk-serverless-clamscan-2.4.98.tar.gz
+[2023-04-21 17:07:54] WARNING root fetch - processPackages [launchflow]: Skipping package: exceeds size limit 96610312>=10485760
+[2023-04-21 17:07:54] INFO root fetch - processPackages [launchflow]: Start processing: MotorDeCalidad
+[2023-04-21 17:07:54] INFO root fetch - main [MainThread]: End processing [launchflow] error
+[2023-04-21 17:07:54] INFO root fetch - processPackages [jittok]: Downloading https://files.pythonhosted.org/packages/30/64/fdb0059b89a8b60138abf24325d4c1ef0e11316596a8ea32e606a042019f/jittok-0.0.4.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-21 17:07:54] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [marketplace-sdk]: Downloading https://files.pythonhosted.org/packages/f2/b6/59efe0af338d7f69357018b1cceda554d46ae49ef595f76a8c5ace56c1e2/marketplace_sdk-0.3.4.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-04-21 17:07:54] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230421/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-21 17:07:54] INFO root fetch - processPackages [stlog]: Downloading https://files.pythonhosted.org/packages/5b/68/eefd8afec27126c4c0c02643731d69929089df16757c188609c875331424/stlog-0.0.8.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [TSInterpret]: Downloading https://files.pythonhosted.org/packages/35/04/bd840072cd28e833045205e9da674ab3e3d9c012555bad3668b47469c1d9/TSInterpret-0.2.0.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [jittok]: Downloading https://files.pythonhosted.org/packages/2c/69/0a16eb2dd1caf2c35cb5083589da42bed79c3d545237bbce5736e9a63a76/jittok-0.0.5.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-04-21 17:07:54] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.3.tar.gz tmp/airunner-1.9.4.tar.gz --markdown 20230421/a/airunner/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-04-21 17:07:54] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/da/04/7612a277ea4c1eba3ffb6b9d81b43107ead3478727fb6308c0270c6cad60/up_tamer-0.3.1.9.dev1.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [napari-generic-SIMulator]: Downloading https://files.pythonhosted.org/packages/6c/6e/e80e21db32fe8f3f27bf5ff1e0382c393c2927469da8ae7d14de0584c612/napari-generic-SIMulator-0.0.9.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/c3/88/072c3034e29da4be52b0ab904d17b3173d2d1f9cbb956f5fc175f1953135/cdk-serverless-clamscan-2.4.99.tar.gz
+[2023-04-21 17:07:54] INFO root fetch - processPackages [stlog]: executing diffoscope
+[2023-04-21 17:07:54] INFO root fetch - processPackages [stlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stlog-0.0.7.tar.gz tmp/stlog-0.0.8.tar.gz --markdown 20230421/s/stlog/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 17:07:54] INFO root fetch - processPackages [TSInterpret]: executing diffoscope
+[2023-04-21 17:07:54] INFO root fetch - processPackages [TSInterpret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSInterpret-0.1.3.tar.gz tmp/TSInterpret-0.2.0.tar.gz --markdown 20230421/T/TSInterpret/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 17:07:55] INFO root fetch - processPackages [jittok]: executing diffoscope
+[2023-04-21 17:07:55] INFO root fetch - processPackages [jittok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jittok-0.0.4.tar.gz tmp/jittok-0.0.5.tar.gz --markdown 20230421/j/jittok/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 17:07:55] INFO root fetch - processPackages [marketplace-sdk]: Downloading https://files.pythonhosted.org/packages/e5/9d/8174c57baa216456d360d49b04c7a50f4ca3bacbad4a94900ff6742ba2c2/marketplace_sdk-0.3.5.tar.gz
+[2023-04-21 17:07:55] INFO root fetch - processPackages [up-tamer]: executing diffoscope
+[2023-04-21 17:07:55] INFO root fetch - processPackages [up-tamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_tamer-0.3.1.7.dev1.tar.gz tmp/up_tamer-0.3.1.9.dev1.tar.gz --markdown 20230421/u/up-tamer/0.3.1.7.dev1-0.3.1.9.dev1/diff.md --exclude *.pyd
+[2023-04-21 17:07:55] INFO root fetch - processPackages [napari-generic-SIMulator]: executing diffoscope
+[2023-04-21 17:07:55] INFO root fetch - processPackages [napari-generic-SIMulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-generic-SIMulator-0.0.8.tar.gz tmp/napari-generic-SIMulator-0.0.9.tar.gz --markdown 20230421/n/napari-generic-SIMulator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 17:07:55] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-04-21 17:07:55] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.4.98.tar.gz tmp/cdk-serverless-clamscan-2.4.99.tar.gz --markdown 20230421/c/cdk-serverless-clamscan/2.4.98-2.4.99/diff.md --exclude *.pyd
+[2023-04-21 17:07:55] INFO root fetch - processPackages [marketplace-sdk]: executing diffoscope
+[2023-04-21 17:07:55] INFO root fetch - processPackages [marketplace-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketplace_sdk-0.3.4.tar.gz tmp/marketplace_sdk-0.3.5.tar.gz --markdown 20230421/m/marketplace-sdk/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-21 17:07:56] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-04-21 17:07:56] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
+[2023-04-21 17:07:56] INFO root fetch - main [MainThread]: End processing [stlog]: success
+[2023-04-21 17:07:56] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-04-21 17:07:56] INFO root fetch - main [MainThread]: End processing [napari-generic-SIMulator]: success
+[2023-04-21 17:07:57] INFO root fetch - main [MainThread]: End processing [jittok]: success
+[2023-04-21 17:07:57] INFO root fetch - main [MainThread]: End processing [marketplace-sdk]: success
+[2023-04-21 17:07:57] INFO root fetch - main [MainThread]: End processing [up-tamer]: success
+[2023-04-21 17:07:57] INFO root fetch - main [MainThread]: End processing [TSInterpret]: success
+[2023-04-21 17:07:57] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-04-21 17:07:57] INFO root fetch - main [MainThread]: Store serial: [17804985]
