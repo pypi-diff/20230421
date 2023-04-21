@@ -13337,3 +13337,147 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 13:16:35] INFO root fetch - main [MainThread]: End processing [syngen]: success
 [2023-04-21 13:16:37] INFO root fetch - main [MainThread]: End processing [mite]: success
 [2023-04-21 13:16:37] INFO root fetch - main [MainThread]: Store serial: [17802220]
+[2023-04-21 13:21:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802220]
+[2023-04-21 13:21:46] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-21 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psgtest
+[2023-04-21 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funasr
+[2023-04-21 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mikro
+[2023-04-21 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dask4dvc
+[2023-04-21 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bacteria
+[2023-04-21 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funasr-onnx
+[2023-04-21 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cardano-clusterlib
+[2023-04-21 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-app-rdm
+[2023-04-21 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-dllib
+[2023-04-21 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-orca
+[2023-04-21 13:21:46] INFO root fetch - processPackages [bacteria]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 13:21:46] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 13:21:46] INFO root fetch - processPackages [bigdl-orca]: New version: [2.3.0b20230420] Old Version: [2.3.0b20230418]
+[2023-04-21 13:21:46] INFO root fetch - processPackages [dask4dvc]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 13:21:46] INFO root fetch - processPackages [funasr]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-21 13:21:46] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:21:46] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2023-04-21 13:21:46] INFO root fetch - processPackages [cardano-clusterlib]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-04-21 13:21:46] INFO root fetch - processPackages [funasr-onnx]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-21 13:21:46] INFO root fetch - processPackages [psgtest]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-21 13:21:46] INFO root fetch - processPackages [bacteria]: Downloading https://files.pythonhosted.org/packages/34/66/fc495dc6ca7ee9b6593859a5c0fc932799e60ecda76f5a492ae45845d720/bacteria-0.0.1.tar.gz
+[2023-04-21 13:21:46] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/74/f7/2e03b5bef092f221c23ecfb4dbe1acaf8031194fb31211b6188c47a028bb/bigdl_orca-2.3.0b20230418-py3-none-manylinux1_x86_64.whl
+[2023-04-21 13:21:46] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-04-21 13:21:46] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230421/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 13:21:46] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20367738>=10485760
+[2023-04-21 13:21:46] INFO root fetch - processPackages [bigdl-orca]: Start processing: amino.api
+[2023-04-21 13:21:46] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-04-21 13:21:46] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/74/24/627f900161272bf271de9f2c2ac9411c7434b7221383b16da0261927d71c/bigdl-dllib-2.3.0b20230420.tar.gz
+[2023-04-21 13:21:46] INFO root fetch - processPackages [psgtest]: Downloading https://files.pythonhosted.org/packages/e1/73/f6330f0565e63b5ca052ebc0f7d3cefec0f5bed84e2983474194a6537bf4/psgtest-3.0.1.tar.gz
+[2023-04-21 13:21:46] INFO root fetch - processPackages [amino.api]: New version: [1.0b2] Old Version: [1.0]
+[2023-04-21 13:21:46] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2023-04-21 13:21:47] INFO root fetch - processPackages [amino.api]: executing diffoscope
+[2023-04-21 13:21:47] INFO root fetch - processPackages [amino.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.api-1.0.tar.gz tmp/amino.api-1.0b2.tar.gz --markdown 20230421/a/amino.api/1.0-1.0b2/diff.md --exclude *.pyd
+[2023-04-21 13:21:47] INFO root fetch - processPackages [dask4dvc]: Downloading https://files.pythonhosted.org/packages/3d/e5/5089dcc2ec420883716684a245f9989ef8c32e71428408623b84e10a51c6/dask4dvc-0.2.1.tar.gz
+[2023-04-21 13:21:47] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559961>=10485760
+[2023-04-21 13:21:47] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl-friesian
+[2023-04-21 13:21:47] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-04-21 13:21:47] INFO root fetch - processPackages [cardano-clusterlib]: Downloading https://files.pythonhosted.org/packages/32/d6/69c803958a4b9e1a5a6a8f1c148c17d74cb8663bcfaf39b00f9c62c12494/cardano-clusterlib-0.4.5.tar.gz
+[2023-04-21 13:21:47] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/42/c6/6e8a41fbd23ced661ce264fa97c23c0d0dbc8154d875a0878ac3fa301747/funasr-0.4.2.tar.gz
+[2023-04-21 13:21:47] INFO root fetch - processPackages [funasr-onnx]: Downloading https://files.pythonhosted.org/packages/5f/fa/b73775fe7336dacac4222ef7e9406cbf41201f9dac2fdfe50ee4f2b883e6/funasr_onnx-0.0.6.tar.gz
+[2023-04-21 13:21:47] INFO root fetch - processPackages [bacteria]: Downloading https://files.pythonhosted.org/packages/2b/0e/ab009d7dd5fc6f8b0fb0ffbc679fc7d9710a38cde9f588aef33ceb715068/bacteria-0.0.2.tar.gz
+[2023-04-21 13:21:47] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:21:47] INFO root fetch - processPackages [dask4dvc]: executing diffoscope
+[2023-04-21 13:21:47] INFO root fetch - processPackages [dask4dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask4dvc-0.2.0.tar.gz tmp/dask4dvc-0.2.1.tar.gz --markdown 20230421/d/dask4dvc/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 13:21:47] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2023-04-21 13:21:47] INFO root fetch - processPackages [cardano-clusterlib]: executing diffoscope
+[2023-04-21 13:21:47] INFO root fetch - processPackages [cardano-clusterlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardano-clusterlib-0.4.4.tar.gz tmp/cardano-clusterlib-0.4.5.tar.gz --markdown 20230421/c/cardano-clusterlib/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-04-21 13:21:47] INFO root fetch - processPackages [funasr-onnx]: executing diffoscope
+[2023-04-21 13:21:47] INFO root fetch - processPackages [funasr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr_onnx-0.0.5.tar.gz tmp/funasr_onnx-0.0.6.tar.gz --markdown 20230421/f/funasr-onnx/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 13:21:47] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-04-21 13:21:47] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.4.1.tar.gz tmp/funasr-0.4.2.tar.gz --markdown 20230421/f/funasr/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-21 13:21:47] INFO root fetch - processPackages [bacteria]: executing diffoscope
+[2023-04-21 13:21:47] INFO root fetch - processPackages [bacteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacteria-0.0.1.tar.gz tmp/bacteria-0.0.2.tar.gz --markdown 20230421/b/bacteria/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 13:21:47] INFO root fetch - processPackages [psgtest]: Downloading https://files.pythonhosted.org/packages/6d/79/aa702d2bf0b77e8046ac5189c82a0f48c8c06b9b88decfd38c51bc3af919/psgtest-3.0.2.tar.gz
+[2023-04-21 13:21:47] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2023-04-21 13:21:47] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20230421/i/invenio-app-rdm/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2023-04-21 13:21:47] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/af/c3/4097a9d5caa6e02c36e4deee5a6d1d0f7377f18a46f2bbe0e9bd7c0afd14/bigdl_friesian-2.4.0b20230421-py3-none-manylinux1_x86_64.whl
+[2023-04-21 13:21:47] INFO root fetch - processPackages [psgtest]: executing diffoscope
+[2023-04-21 13:21:47] INFO root fetch - processPackages [psgtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psgtest-3.0.1.tar.gz tmp/psgtest-3.0.2.tar.gz --markdown 20230421/p/psgtest/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-21 13:21:47] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-04-21 13:21:47] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.3.0b20230420-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230421-py3-none-manylinux1_x86_64.whl.zip --markdown 20230421/b/bigdl-friesian/2.3.0b20230420-2.4.0b20230421/diff.md --exclude *.pyd
+[2023-04-21 13:21:48] INFO root fetch - processPackages [amino.api]: Start processing: dipex
+[2023-04-21 13:21:48] INFO root fetch - main [MainThread]: End processing [amino.api]: success
+[2023-04-21 13:21:48] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-04-21 13:21:48] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-04-21 13:21:48] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230421/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-04-21 13:21:48] INFO root fetch - processPackages [dask4dvc]: Start processing: bigdl
+[2023-04-21 13:21:48] INFO root fetch - main [MainThread]: End processing [dask4dvc]: success
+[2023-04-21 13:21:48] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:21:48] INFO root fetch - processPackages [funasr-onnx]: Start processing: tb-nightly
+[2023-04-21 13:21:48] INFO root fetch - main [MainThread]: End processing [funasr-onnx]: success
+[2023-04-21 13:21:48] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-04-21 13:21:49] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-04-21 13:21:49] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230421/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-04-21 13:21:49] INFO root fetch - processPackages [bacteria]: Start processing: bigdl-dllib-spark2
+[2023-04-21 13:21:49] INFO root fetch - main [MainThread]: End processing [bacteria]: success
+[2023-04-21 13:21:49] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:21:49] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/1b/53/5ef183cc04ea27332848761622587d236ef846c10232f547c6e4650505bc/bigdl-2.4.0b20230421-py3-none-manylinux1_x86_64.whl
+[2023-04-21 13:21:49] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-04-21 13:21:49] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.3.0b20230420-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230421-py3-none-manylinux1_x86_64.whl.zip --markdown 20230421/b/bigdl/2.3.0b20230420-2.4.0b20230421/diff.md --exclude *.pyd
+[2023-04-21 13:21:49] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/85/69/ff07f09b80c939041f75a918774257324183286340d080f39be6bb015d69/bigdl-dllib-spark2-2.3.0b20230420.tar.gz
+[2023-04-21 13:21:49] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53559967>=10485760
+[2023-04-21 13:21:49] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: girdgui
+[2023-04-21 13:21:49] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-04-21 13:21:49] WARNING root fetch - processPackages [girdgui]: Skipping, unable to determine old version
+[2023-04-21 13:21:49] INFO root fetch - processPackages [girdgui]: Start processing: bigdl-orca-spark2
+[2023-04-21 13:21:49] INFO root fetch - main [MainThread]: End processing [girdgui] error
+[2023-04-21 13:21:49] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:21:49] INFO root fetch - processPackages [cardano-clusterlib]: Start processing: bigdl-friesian-spark2
+[2023-04-21 13:21:49] INFO root fetch - main [MainThread]: End processing [cardano-clusterlib]: success
+[2023-04-21 13:21:49] INFO root fetch - processPackages [psgtest]: Start processing: vidis-algorithms-api
+[2023-04-21 13:21:49] INFO root fetch - main [MainThread]: End processing [psgtest]: success
+[2023-04-21 13:21:49] INFO root fetch - processPackages [vidis-algorithms-api]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-21 13:21:49] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:21:49] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/f5/25/8bd8820ae29cff0c2b43a2cda0b70f4ebbbd1233a6751b4b830079a65001/bigdl_orca_spark2-2.3.0b20230420-py3-none-manylinux1_x86_64.whl
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-friesian]: Start processing: bigdl-chronos-spark2
+[2023-04-21 13:21:50] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-04-21 13:21:50] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369264>=10485760
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: ansible-lint
+[2023-04-21 13:21:50] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-04-21 13:21:50] INFO root fetch - processPackages [mikro]: Start processing: bigdl-spark2
+[2023-04-21 13:21:50] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-04-21 13:21:50] INFO root fetch - processPackages [vidis-algorithms-api]: Downloading https://files.pythonhosted.org/packages/16/53/9fa76bf1f8cda369fe29759708ac0413134d461c8d6c29813c20042deb1f/vidis_algorithms_api-0.4.1.tar.gz
+[2023-04-21 13:21:50] INFO root fetch - processPackages [ansible-lint]: New version: [6.9.1] Old Version: [6.9.0]
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/2a/a8/33bb5f805371b7a90b9106f662343ff357c836540681011403a49c089012/bigdl_friesian_spark2-2.4.0b20230421-py3-none-manylinux1_x86_64.whl
+[2023-04-21 13:21:50] INFO root fetch - processPackages [vidis-algorithms-api]: executing diffoscope
+[2023-04-21 13:21:50] INFO root fetch - processPackages [vidis-algorithms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidis_algorithms_api-0.4.0.tar.gz tmp/vidis_algorithms_api-0.4.1.tar.gz --markdown 20230421/v/vidis-algorithms-api/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-21 13:21:50] INFO root fetch - processPackages [ansible-lint]: Downloading https://files.pythonhosted.org/packages/59/c9/bebba18cfb0eb91208fbfaf44156225aa55bfe7f2dbd5afeb6f020fa5dcb/ansible-lint-6.9.0.tar.gz
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.3.0b20230420-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230421-py3-none-manylinux1_x86_64.whl.zip --markdown 20230421/b/bigdl-friesian-spark2/2.3.0b20230420-2.4.0b20230421/diff.md --exclude *.pyd
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/71/e0/582de5ce6010c780cd4ffcb2d98aa7b6e83baed5a753382aad65771e6226/bigdl_chronos_spark2-2.4.0b20230421-py3-none-manylinux1_x86_64.whl
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/23/dd/c5d541e44bdc33f540749cffee13d6521487575ff7a0ef4e0f184a2d1c29/bigdl_spark2-2.4.0b20230421-py3-none-manylinux1_x86_64.whl
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl]: Start processing: asimov
+[2023-04-21 13:21:50] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.3.0b20230420-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230421-py3-none-manylinux1_x86_64.whl.zip --markdown 20230421/b/bigdl-chronos-spark2/2.3.0b20230420-2.4.0b20230421/diff.md --exclude *.pyd
+[2023-04-21 13:21:50] INFO root fetch - processPackages [asimov]: New version: [0.6.0a2] Old Version: [0.6.0a1]
+[2023-04-21 13:21:50] INFO root fetch - processPackages [ansible-lint]: Downloading https://files.pythonhosted.org/packages/fb/c0/915c941753e6ef9ca998621a5ee07a812a07d674cf5bb759de0488f1325d/ansible-lint-6.9.1.tar.gz
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-04-21 13:21:50] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.3.0b20230420-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230421-py3-none-manylinux1_x86_64.whl.zip --markdown 20230421/b/bigdl-spark2/2.3.0b20230420-2.4.0b20230421/diff.md --exclude *.pyd
+[2023-04-21 13:21:51] INFO root fetch - processPackages [ansible-lint]: executing diffoscope
+[2023-04-21 13:21:51] INFO root fetch - processPackages [ansible-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-lint-6.9.0.tar.gz tmp/ansible-lint-6.9.1.tar.gz --markdown 20230421/a/ansible-lint/6.9.0-6.9.1/diff.md --exclude *.pyd
+[2023-04-21 13:21:51] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-04-21 13:21:51] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a1-py2.py3-none-any.whl.zip tmp/asimov-0.6.0a2-py2.py3-none-any.whl.zip --markdown 20230421/a/asimov/0.6.0a1-0.6.0a2/diff.md --exclude *.pyd
+[2023-04-21 13:21:51] INFO root fetch - processPackages [vidis-algorithms-api]: Start processing: psgtest
+[2023-04-21 13:21:51] INFO root fetch - main [MainThread]: End processing [vidis-algorithms-api]: success
+[2023-04-21 13:21:51] INFO root fetch - processPackages [psgtest]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-21 13:21:51] INFO root fetch - processPackages [psgtest]: executing diffoscope
+[2023-04-21 13:21:51] INFO root fetch - processPackages [psgtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psgtest-3.0.1.tar.gz tmp/psgtest-3.0.2.tar.gz --markdown 20230421/p/psgtest/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-21 13:21:52] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2023-04-21 13:21:52] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-04-21 13:21:52] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-04-21 13:21:52] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-04-21 13:21:53] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-04-21 13:21:53] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-04-21 13:21:53] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-04-21 13:21:53] INFO root fetch - main [MainThread]: End processing [psgtest]: success
+[2023-04-21 13:21:53] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-04-21 13:21:57] INFO root fetch - main [MainThread]: End processing [ansible-lint]: success
+[2023-04-21 13:21:57] INFO root fetch - main [MainThread]: Store serial: [17802288]
