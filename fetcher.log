@@ -11806,3 +11806,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 11:29:35] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-04-21 11:29:36] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-21 11:29:36] INFO root fetch - main [MainThread]: Store serial: [17801297]
+[2023-04-21 11:34:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17801297]
+[2023-04-21 11:34:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 11:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fireorm-repository
+[2023-04-21 11:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydvma
+[2023-04-21 11:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nlpaf
+[2023-04-21 11:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyxxl
+[2023-04-21 11:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nn-module
+[2023-04-21 11:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: up-aries
+[2023-04-21 11:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: setuptools
+[2023-04-21 11:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycloudlib
+[2023-04-21 11:34:45] INFO root fetch - processPackages [pydvma]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-21 11:34:45] INFO root fetch - processPackages [up-aries]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 11:34:45] INFO root fetch - processPackages [fireorm-repository]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 11:34:45] INFO root fetch - processPackages [pyxxl]: New version: [0.3.1] Old Version: [0.3.0a3]
+[2023-04-21 11:34:45] INFO root fetch - processPackages [nn-module]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-21 11:34:45] INFO root fetch - processPackages [nlpaf]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-04-21 11:34:45] INFO root fetch - processPackages [setuptools]: New version: [9.1] Old Version: [9.0.1]
+[2023-04-21 11:34:45] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2023-04-21 11:34:45] INFO root fetch - processPackages [setuptools]: executing diffoscope
+[2023-04-21 11:34:45] INFO root fetch - processPackages [setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-9.0.1.zip tmp/setuptools-9.1.zip --markdown 20230421/s/setuptools/9.0.1-9.1/diff.md --exclude *.pyd
+[2023-04-21 11:34:45] INFO root fetch - processPackages [pyxxl]: Downloading https://files.pythonhosted.org/packages/b0/75/5aab81ffe72a8b5af48c31ddc3135691c4e7884fa5cb99387dafca2a0f19/pyxxl-0.3.0a3.tar.gz
+[2023-04-21 11:34:46] INFO root fetch - processPackages [up-aries]: Downloading https://files.pythonhosted.org/packages/41/91/ee7425eda60b490d8ef2d238458ebfc3be211c8ae204a4d611c47352299c/up_aries-v0.0.7.tar.gz
+[2023-04-21 11:34:46] INFO root fetch - processPackages [nn-module]: Downloading https://files.pythonhosted.org/packages/28/7b/6d91006642ebb2b1bd981b87fbf510f08245c66cd7deba39164a037a4a3a/nn-module-0.0.5.tar.gz
+[2023-04-21 11:34:46] INFO root fetch - processPackages [nlpaf]: Downloading https://files.pythonhosted.org/packages/5d/da/1b92550f6bc1e7b62d9eca934cf2d4d57ebcc3fb29072424036f138d98af/nlpaf-2.8.7.tar.gz
+[2023-04-21 11:34:46] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2023-04-21 11:34:46] INFO root fetch - processPackages [pydvma]: Downloading https://files.pythonhosted.org/packages/ec/81/f1d6762b90950b833221707444459ebefc56ac6ca2d80d5f9471ab751b37/pydvma-0.9.1.tar.gz
+[2023-04-21 11:34:46] INFO root fetch - processPackages [fireorm-repository]: executing diffoscope
+[2023-04-21 11:34:46] INFO root fetch - processPackages [fireorm-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireorm-repository-1.0.8.tar.gz tmp/fireorm-repository-1.0.9.tar.gz --markdown 20230421/f/fireorm-repository/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 11:34:46] INFO root fetch - processPackages [nn-module]: Downloading https://files.pythonhosted.org/packages/d3/09/a66cbeaef702201c5888695b8dbe3b40f5b9032f22f65d8c1d19c3a83446/nn-module-0.0.6.tar.gz
+[2023-04-21 11:34:46] INFO root fetch - processPackages [pydvma]: executing diffoscope
+[2023-04-21 11:34:46] INFO root fetch - processPackages [pydvma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydvma-0.9.0.tar.gz tmp/pydvma-0.9.1.tar.gz --markdown 20230421/p/pydvma/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-21 11:34:46] INFO root fetch - processPackages [nn-module]: executing diffoscope
+[2023-04-21 11:34:46] INFO root fetch - processPackages [nn-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nn-module-0.0.5.tar.gz tmp/nn-module-0.0.6.tar.gz --markdown 20230421/n/nn-module/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 11:34:46] INFO root fetch - processPackages [pyxxl]: Downloading https://files.pythonhosted.org/packages/98/64/0086bcc9a9f1333f4cc830296bfb814ebd340dd347017165ecca41fd5e23/pyxxl-0.3.1.tar.gz
+[2023-04-21 11:34:46] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2023-04-21 11:34:46] INFO root fetch - processPackages [pyxxl]: executing diffoscope
+[2023-04-21 11:34:46] INFO root fetch - processPackages [pyxxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxxl-0.3.0a3.tar.gz tmp/pyxxl-0.3.1.tar.gz --markdown 20230421/p/pyxxl/0.3.0a3-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 11:34:46] WARNING root fetch - processPackages [nlpaf]: Skipping package: exceeds size limit 24324747>=10485760
+[2023-04-21 11:34:46] INFO root fetch - main [MainThread]: End processing [nlpaf] error
+[2023-04-21 11:34:46] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2023-04-21 11:34:46] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20230421/p/pycloudlib/18.7-18.8/diff.md --exclude *.pyd
+[2023-04-21 11:34:47] INFO root fetch - main [MainThread]: End processing [fireorm-repository]: success
+[2023-04-21 11:34:47] INFO root fetch - processPackages [up-aries]: Downloading https://files.pythonhosted.org/packages/35/6b/424755f203c8ec2426c071560ac333f249b36b88e890253d3685fdd721c7/up_aries-v0.0.8.tar.gz
+[2023-04-21 11:34:47] INFO root fetch - main [MainThread]: End processing [nn-module]: success
+[2023-04-21 11:34:47] INFO root fetch - processPackages [up-aries]: executing diffoscope
+[2023-04-21 11:34:47] INFO root fetch - processPackages [up-aries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_aries-v0.0.7.tar.gz tmp/up_aries-v0.0.8.tar.gz --markdown 20230421/u/up-aries/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 11:34:47] INFO root fetch - main [MainThread]: End processing [pydvma]: success
+[2023-04-21 11:34:48] INFO root fetch - main [MainThread]: End processing [pyxxl]: success
+[2023-04-21 11:34:48] INFO root fetch - main [MainThread]: End processing [setuptools]: success
+[2023-04-21 11:34:48] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2023-04-21 11:36:23] INFO root fetch - main [MainThread]: End processing [up-aries]: success
+[2023-04-21 11:36:23] INFO root fetch - main [MainThread]: Store serial: [17801322]
