@@ -17232,3 +17232,181 @@ EOFError: EOF read where object expected
 [2023-04-21 16:46:53] ERROR root fetch - processPackages [resotocore]: Timeout during execution of pkgdiff
 [2023-04-21 16:46:53] INFO root fetch - main [MainThread]: End processing [resotocore] error
 [2023-04-21 16:46:53] INFO root fetch - main [MainThread]: Store serial: [17804743]
+[2023-04-21 16:51:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17804743]
+[2023-04-21 16:52:03] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gocart
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-data-services-lwdp
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: niet
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dj-test-queries
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ethereal
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scimap
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tarp
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: firepup650
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: db-loader
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: compoundwidgets
+[2023-04-21 16:52:03] INFO root fetch - processPackages [gocart]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 16:52:03] INFO root fetch - processPackages [firepup650]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-21 16:52:03] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.2.0.dev4766015884] Old Version: [2.0.2.0.dev4742507433]
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ethereal]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 16:52:03] INFO root fetch - processPackages [dj-test-queries]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-21 16:52:03] WARNING root fetch - processPackages [db-loader]: Skipping, unable to determine old version
+[2023-04-21 16:52:03] INFO root fetch - processPackages [tarp]: New version: [0.0.2] Old Version: [0.0.1a0]
+[2023-04-21 16:52:03] INFO root fetch - processPackages [db-loader]: Start processing: spiderYdb
+[2023-04-21 16:52:03] INFO root fetch - main [MainThread]: End processing [db-loader] error
+[2023-04-21 16:52:03] INFO root fetch - processPackages [compoundwidgets]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-21 16:52:03] INFO root fetch - processPackages [niet]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-04-21 16:52:03] INFO root fetch - processPackages [scimap]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-21 16:52:03] INFO root fetch - processPackages [spiderYdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 16:52:03] INFO root fetch - processPackages [firepup650]: Downloading https://files.pythonhosted.org/packages/40/07/870de57e9a4e75a562a62e4f839cf9a62c1e4adb95402252665b0cbcf35c/firepup650-1.0.3.tar.gz
+[2023-04-21 16:52:03] INFO root fetch - processPackages [dj-test-queries]: Downloading https://files.pythonhosted.org/packages/19/cb/3e113abd3ad5a4bbe00c300c876d9d39277368e2a0a4b10c47c8499724f9/dj-test-queries-0.1.3.tar.gz
+[2023-04-21 16:52:03] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/1d/9b/952cb57a695bde6cfdf814c9bf99228b2788c3c9fc239eb476cc03107079/compoundwidgets-0.2.5.tar.gz
+[2023-04-21 16:52:03] INFO root fetch - processPackages [tarp]: Downloading https://files.pythonhosted.org/packages/ba/4b/569c0bca6d589cfc5825d255daa3d971292a5196a2ede1e289063d71d4cc/tarp-0.0.1a0.tar.gz
+[2023-04-21 16:52:03] INFO root fetch - processPackages [gocart]: executing diffoscope
+[2023-04-21 16:52:03] INFO root fetch - processPackages [gocart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocart-0.1.8.tar.gz tmp/gocart-0.1.9.tar.gz --markdown 20230421/g/gocart/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 16:52:03] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/d1/2d/4f3b5f616ec6266485b57d5e8fb80b0f5a30de9306520539479ca9b32830/th2_data_services_lwdp-2.0.2.0.dev4766015884.tar.gz
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ethereal]: Downloading https://files.pythonhosted.org/packages/84/2d/449929143790e49de85fe5a4bf882fbaca987e31f04a696a28f56eebe7bb/ethereal-0.1.6.tar.gz
+[2023-04-21 16:52:03] INFO root fetch - processPackages [firepup650]: Downloading https://files.pythonhosted.org/packages/d7/4c/eb0c0f1a5cfc83af6fc2f49e73b02b7442295e69882c208314446bac4276/firepup650-1.0.4.tar.gz
+[2023-04-21 16:52:03] INFO root fetch - processPackages [scimap]: Downloading https://files.pythonhosted.org/packages/ad/8e/92cd3b3f4feb6d2432154fa4a60df65f00c684cf17ac53ad5d264f5d9f8f/scimap-1.0.2.tar.gz
+[2023-04-21 16:52:03] INFO root fetch - processPackages [dj-test-queries]: Downloading https://files.pythonhosted.org/packages/98/65/fec3d229411e8c9aeafde58c82cdcea7b9ce08a3a91ac01b6d9ec441aac7/dj-test-queries-0.1.4.tar.gz
+[2023-04-21 16:52:03] INFO root fetch - processPackages [niet]: Downloading https://files.pythonhosted.org/packages/c0/45/2464f29051b7d23893c2deb51f7c28d48956e3eb0f371441af1a74a82519/niet-3.2.0.tar.gz
+[2023-04-21 16:52:03] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-04-21 16:52:03] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.2.0.dev4742507433.tar.gz tmp/th2_data_services_lwdp-2.0.2.0.dev4766015884.tar.gz --markdown 20230421/t/th2-data-services-lwdp/2.0.2.0.dev4742507433-2.0.2.0.dev4766015884/diff.md --exclude *.pyd
+[2023-04-21 16:52:03] INFO root fetch - processPackages [ethereal]: executing diffoscope
+[2023-04-21 16:52:04] INFO root fetch - processPackages [ethereal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethereal-0.1.5.tar.gz tmp/ethereal-0.1.6.tar.gz --markdown 20230421/e/ethereal/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 16:52:04] INFO root fetch - processPackages [dj-test-queries]: executing diffoscope
+[2023-04-21 16:52:04] INFO root fetch - processPackages [dj-test-queries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-test-queries-0.1.3.tar.gz tmp/dj-test-queries-0.1.4.tar.gz --markdown 20230421/d/dj-test-queries/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-21 16:52:04] INFO root fetch - processPackages [firepup650]: executing diffoscope
+[2023-04-21 16:52:04] INFO root fetch - processPackages [firepup650]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firepup650-1.0.3.tar.gz tmp/firepup650-1.0.4.tar.gz --markdown 20230421/f/firepup650/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-21 16:52:04] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/cb/ed/b88fdc4606542235308c581b80b1a48ccf3fcf6865829bce6baba33fb815/compoundwidgets-0.2.6.tar.gz
+[2023-04-21 16:52:04] INFO root fetch - processPackages [tarp]: Downloading https://files.pythonhosted.org/packages/db/3d/b276017dc8790ad24ee4127581711a6f8b4d50f727aeac9735ccc7216380/tarp-0.0.2.tar.gz
+[2023-04-21 16:52:04] INFO root fetch - processPackages [spiderYdb]: executing diffoscope
+[2023-04-21 16:52:04] INFO root fetch - processPackages [spiderYdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderYdb-0.1.8-py3-none-any.whl.zip tmp/spiderYdb-0.1.9-py3-none-any.whl.zip --markdown 20230421/s/spiderYdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 16:52:04] INFO root fetch - processPackages [niet]: executing diffoscope
+[2023-04-21 16:52:04] INFO root fetch - processPackages [niet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niet-3.1.0.tar.gz tmp/niet-3.2.0.tar.gz --markdown 20230421/n/niet/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-04-21 16:52:04] INFO root fetch - processPackages [tarp]: executing diffoscope
+[2023-04-21 16:52:04] INFO root fetch - processPackages [tarp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarp-0.0.1a0.tar.gz tmp/tarp-0.0.2.tar.gz --markdown 20230421/t/tarp/0.0.1a0-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 16:52:04] INFO root fetch - processPackages [compoundwidgets]: executing diffoscope
+[2023-04-21 16:52:04] INFO root fetch - processPackages [compoundwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compoundwidgets-0.2.5.tar.gz tmp/compoundwidgets-0.2.6.tar.gz --markdown 20230421/c/compoundwidgets/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-21 16:52:04] INFO root fetch - processPackages [scimap]: executing diffoscope
+[2023-04-21 16:52:04] INFO root fetch - processPackages [scimap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scimap-1.0.1.tar.gz tmp/scimap-1.0.2.tar.gz --markdown 20230421/s/scimap/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-21 16:52:05] INFO root fetch - processPackages [gocart]: Start processing: roof-mask-Yv8
+[2023-04-21 16:52:05] INFO root fetch - main [MainThread]: End processing [gocart]: success
+[2023-04-21 16:52:05] INFO root fetch - processPackages [roof-mask-Yv8]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-04-21 16:52:05] INFO root fetch - processPackages [roof-mask-Yv8]: Downloading https://files.pythonhosted.org/packages/ab/95/dbf33cd77cb0c7e4b2c78c28c1b530deea1bb57e05e45a91ca434e1a68e8/roof_mask_Yv8-0.5.6.tar.gz
+[2023-04-21 16:52:05] INFO root fetch - processPackages [roof-mask-Yv8]: executing diffoscope
+[2023-04-21 16:52:05] INFO root fetch - processPackages [roof-mask-Yv8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roof_mask_Yv8-0.5.5.tar.gz tmp/roof_mask_Yv8-0.5.6.tar.gz --markdown 20230421/r/roof-mask-Yv8/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-04-21 16:52:05] INFO root fetch - processPackages [ethereal]: Start processing: auraboros
+[2023-04-21 16:52:05] INFO root fetch - main [MainThread]: End processing [ethereal]: success
+[2023-04-21 16:52:05] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-21 16:52:05] INFO root fetch - processPackages [firepup650]: Start processing: python-ote
+[2023-04-21 16:52:05] INFO root fetch - main [MainThread]: End processing [firepup650]: success
+[2023-04-21 16:52:05] INFO root fetch - processPackages [dj-test-queries]: Start processing: rewards-api
+[2023-04-21 16:52:05] INFO root fetch - main [MainThread]: End processing [dj-test-queries]: success
+[2023-04-21 16:52:05] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-21 16:52:05] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230421/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-21 16:52:05] INFO root fetch - processPackages [python-ote]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 16:52:06] WARNING root fetch - processPackages [rewards-api]: Skipping, unable to determine old version
+[2023-04-21 16:52:06] INFO root fetch - processPackages [rewards-api]: Start processing: flow-pilot
+[2023-04-21 16:52:06] INFO root fetch - main [MainThread]: End processing [rewards-api] error
+[2023-04-21 16:52:06] INFO root fetch - processPackages [flow-pilot]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-21 16:52:06] INFO root fetch - processPackages [python-ote]: Downloading https://files.pythonhosted.org/packages/e9/bd/9d5669561b151848fd79a8f91e75649242576ac878609398da50ae33d1d2/python-ote-0.1.0.tar.gz
+[2023-04-21 16:52:06] INFO root fetch - processPackages [flow-pilot]: Downloading https://files.pythonhosted.org/packages/66/78/1009d1715f697b097ad90eb3bc7696248cabf30b687902ef25f69b5582ba/flow_pilot-0.1.4.tar.gz
+[2023-04-21 16:52:06] INFO root fetch - processPackages [tarp]: Start processing: Plone
+[2023-04-21 16:52:06] INFO root fetch - main [MainThread]: End processing [tarp]: success
+[2023-04-21 16:52:06] INFO root fetch - processPackages [spiderYdb]: Start processing: annotation-tool
+[2023-04-21 16:52:06] INFO root fetch - main [MainThread]: End processing [spiderYdb]: success
+[2023-04-21 16:52:06] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: bacteria
+[2023-04-21 16:52:06] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-04-21 16:52:06] INFO root fetch - processPackages [niet]: Start processing: spacesense
+[2023-04-21 16:52:06] INFO root fetch - main [MainThread]: End processing [niet]: success
+[2023-04-21 16:52:06] INFO root fetch - processPackages [flow-pilot]: executing diffoscope
+[2023-04-21 16:52:06] INFO root fetch - processPackages [flow-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow_pilot-0.1.3.tar.gz tmp/flow_pilot-0.1.4.tar.gz --markdown 20230421/f/flow-pilot/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-21 16:52:06] INFO root fetch - processPackages [bacteria]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 16:52:06] INFO root fetch - processPackages [Plone]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-04-21 16:52:06] INFO root fetch - processPackages [python-ote]: Downloading https://files.pythonhosted.org/packages/3b/a3/67a64310b3bd89b6edf48e238d64f82271661319aac69532f102f75e95b7/python-ote-0.1.1.tar.gz
+[2023-04-21 16:52:06] INFO root fetch - processPackages [annotation-tool]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-21 16:52:06] INFO root fetch - processPackages [bacteria]: executing diffoscope
+[2023-04-21 16:52:06] INFO root fetch - processPackages [bacteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacteria-0.0.7.tar.gz tmp/bacteria-0.0.8.tar.gz --markdown 20230421/b/bacteria/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 16:52:06] INFO root fetch - processPackages [spacesense]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-21 16:52:06] INFO root fetch - processPackages [python-ote]: executing diffoscope
+[2023-04-21 16:52:06] INFO root fetch - processPackages [python-ote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ote-0.1.0.tar.gz tmp/python-ote-0.1.1.tar.gz --markdown 20230421/p/python-ote/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 16:52:06] INFO root fetch - processPackages [annotation-tool]: Downloading https://files.pythonhosted.org/packages/eb/cc/d86fcd0cd621ac5a1995ee429f11e7e900e80cae3dff57c1d62cf7d3d461/annotation_tool-0.8.1.tar.gz
+[2023-04-21 16:52:06] INFO root fetch - processPackages [spacesense]: Downloading https://files.pythonhosted.org/packages/b8/4d/b5d60f4b1379f00ab87dae95d1cb7759f3219aac1e4d63f060d32eeb4f32/spacesense-0.8.1-py3-none-any.whl
+[2023-04-21 16:52:06] INFO root fetch - processPackages [Plone]: Downloading https://files.pythonhosted.org/packages/52/83/96b8fab283840c05141e582dc436848df3b290017bec7af344b87ed75db8/Plone-6.0.4.tar.gz
+[2023-04-21 16:52:06] INFO root fetch - processPackages [Plone]: executing diffoscope
+[2023-04-21 16:52:06] INFO root fetch - processPackages [Plone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Plone-6.0.3.tar.gz tmp/Plone-6.0.4.tar.gz --markdown 20230421/P/Plone/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-04-21 16:52:06] INFO root fetch - processPackages [annotation-tool]: Downloading https://files.pythonhosted.org/packages/5f/b3/86ec5baad808ebcff1e81ba9c9e41b40fcf67ebc41d1db432434b5fc5727/annotation_tool-0.8.2.tar.gz
+[2023-04-21 16:52:06] INFO root fetch - processPackages [spacesense]: Downloading https://files.pythonhosted.org/packages/51/ce/906a6aea86b2bc434c91a0e4e8bcf714ecc89892f65ad71f6cca27e08d3d/spacesense-0.8.2-py3-none-any.whl
+[2023-04-21 16:52:07] INFO root fetch - processPackages [spacesense]: executing diffoscope
+[2023-04-21 16:52:07] INFO root fetch - processPackages [spacesense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacesense-0.8.1-py3-none-any.whl.zip tmp/spacesense-0.8.2-py3-none-any.whl.zip --markdown 20230421/s/spacesense/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-21 16:52:07] INFO root fetch - processPackages [annotation-tool]: executing diffoscope
+[2023-04-21 16:52:07] INFO root fetch - processPackages [annotation-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annotation_tool-0.8.1.tar.gz tmp/annotation_tool-0.8.2.tar.gz --markdown 20230421/a/annotation-tool/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-21 16:52:07] INFO root fetch - processPackages [compoundwidgets]: Start processing: flow-pilot
+[2023-04-21 16:52:07] INFO root fetch - main [MainThread]: End processing [compoundwidgets]: success
+[2023-04-21 16:52:07] INFO root fetch - processPackages [flow-pilot]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 16:52:07] INFO root fetch - processPackages [flow-pilot]: Downloading https://files.pythonhosted.org/packages/c8/a8/46f74c43d70291b0b2109ba8f710c01ae1756ad3a1b488f9d2b869dc6a09/flow_pilot-0.1.5-py2.py3-none-any.whl
+[2023-04-21 16:52:07] INFO root fetch - processPackages [flow-pilot]: Downloading https://files.pythonhosted.org/packages/8f/ed/71412fef274137eecc048e66ff4b7a9a8e4b219988ca41bc9ba462a97316/flow_pilot-0.1.6.tar.gz
+[2023-04-21 16:52:07] INFO root fetch - processPackages [flow-pilot]: Start processing: wds-client
+[2023-04-21 16:52:07] INFO root fetch - main [MainThread]: End processing [flow-pilot]: success
+[2023-04-21 16:52:07] INFO root fetch - processPackages [flow-pilot]: executing diffoscope
+[2023-04-21 16:52:07] INFO root fetch - processPackages [flow-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow_pilot-0.1.5-py2.py3-none-any.whl.zip tmp/flow_pilot-0.1.6.tar.gz --markdown 20230421/f/flow-pilot/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 16:52:07] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 16:52:08] INFO root fetch - processPackages [python-ote]: Start processing: corsika-panama
+[2023-04-21 16:52:08] INFO root fetch - main [MainThread]: End processing [python-ote]: success
+[2023-04-21 16:52:08] INFO root fetch - processPackages [bacteria]: Start processing: lpdraw
+[2023-04-21 16:52:08] INFO root fetch - main [MainThread]: End processing [bacteria]: success
+[2023-04-21 16:52:08] INFO root fetch - processPackages [corsika-panama]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-21 16:52:08] WARNING root fetch - processPackages [lpdraw]: Skipping, unable to determine old version
+[2023-04-21 16:52:08] INFO root fetch - processPackages [lpdraw]: Start processing: pydmt
+[2023-04-21 16:52:08] INFO root fetch - main [MainThread]: End processing [lpdraw] error
+[2023-04-21 16:52:08] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-04-21 16:52:08] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.7.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230421/w/wds-client/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 16:52:08] INFO root fetch - processPackages [pydmt]: New version: [0.1.79] Old Version: [0.1.78]
+[2023-04-21 16:52:08] INFO root fetch - processPackages [Plone]: Start processing: kaiju-db
+[2023-04-21 16:52:08] INFO root fetch - main [MainThread]: End processing [Plone]: success
+[2023-04-21 16:52:08] INFO root fetch - processPackages [kaiju-db]: New version: [2.0.11] Old Version: [2.0.10]
+[2023-04-21 16:52:08] INFO root fetch - processPackages [corsika-panama]: Downloading https://files.pythonhosted.org/packages/cc/fb/6cea76bb805e6376305e7c5dfcae4eb7b7c9952f65c3f1fb4249755dc260/corsika_panama-0.5.0.tar.gz
+[2023-04-21 16:52:08] INFO root fetch - processPackages [auraboros]: Start processing: globus-cli
+[2023-04-21 16:52:08] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-21 16:52:08] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/91/a2/18096983acc2ce09e9ae83875306291c8502b53a587fb3efeafbd04729bc/pydmt-0.1.78.tar.gz
+[2023-04-21 16:52:08] INFO root fetch - processPackages [corsika-panama]: executing diffoscope
+[2023-04-21 16:52:08] INFO root fetch - processPackages [corsika-panama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corsika_panama-0.4.0.tar.gz tmp/corsika_panama-0.5.0.tar.gz --markdown 20230421/c/corsika-panama/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-21 16:52:08] INFO root fetch - processPackages [globus-cli]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-04-21 16:52:08] INFO root fetch - processPackages [kaiju-db]: Downloading https://files.pythonhosted.org/packages/6e/1b/8c1c6cf82bd2e2edf5ff6f263d8d8640fdd98cdb40fff94fbaf3742f2480/kaiju_db-2.0.10-py3-none-any.whl
+[2023-04-21 16:52:08] INFO root fetch - processPackages [globus-cli]: Downloading https://files.pythonhosted.org/packages/d5/d8/27f835433b8c898dca58e900b1de06ac3f3f919459bdb8602c924ab58c3a/globus-cli-3.8.0.tar.gz
+[2023-04-21 16:52:08] INFO root fetch - processPackages [spacesense]: Start processing: postgres-export
+[2023-04-21 16:52:08] INFO root fetch - main [MainThread]: End processing [spacesense]: success
+[2023-04-21 16:52:08] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/53/dc/ed8046aaeacd234592747391f8fb7dc8ba0890dce9f05b459fce95ef8935/pydmt-0.1.79.tar.gz
+[2023-04-21 16:52:09] WARNING root fetch - processPackages [postgres-export]: Skipping, unable to determine old version
+[2023-04-21 16:52:09] INFO root fetch - processPackages [postgres-export]: Start processing: prq
+[2023-04-21 16:52:09] INFO root fetch - main [MainThread]: End processing [postgres-export] error
+[2023-04-21 16:52:09] INFO root fetch - processPackages [kaiju-db]: Downloading https://files.pythonhosted.org/packages/60/ed/b1458138fc56971e01a118538b59a137672a3797447d6c6c061c05bd80d9/kaiju_db-2.0.11-py3-none-any.whl
+[2023-04-21 16:52:09] INFO root fetch - processPackages [pydmt]: executing diffoscope
+[2023-04-21 16:52:09] INFO root fetch - processPackages [pydmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmt-0.1.78.tar.gz tmp/pydmt-0.1.79.tar.gz --markdown 20230421/p/pydmt/0.1.78-0.1.79/diff.md --exclude *.pyd
+[2023-04-21 16:52:09] INFO root fetch - processPackages [prq]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-04-21 16:52:09] INFO root fetch - processPackages [annotation-tool]: Start processing: Products.CMFPlone
+[2023-04-21 16:52:09] INFO root fetch - main [MainThread]: End processing [annotation-tool]: success
+[2023-04-21 16:52:09] INFO root fetch - processPackages [kaiju-db]: executing diffoscope
+[2023-04-21 16:52:09] INFO root fetch - processPackages [kaiju-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_db-2.0.10-py3-none-any.whl.zip tmp/kaiju_db-2.0.11-py3-none-any.whl.zip --markdown 20230421/k/kaiju-db/2.0.10-2.0.11/diff.md --exclude *.pyd
+[2023-04-21 16:52:09] INFO root fetch - processPackages [Products.CMFPlone]: New version: [6.0.4rc1] Old Version: [6.0.3rc1]
+[2023-04-21 16:52:09] INFO root fetch - main [MainThread]: End processing [scimap]: success
+[2023-04-21 16:52:09] INFO root fetch - processPackages [prq]: Downloading https://files.pythonhosted.org/packages/e3/1d/d76db7ae42dd174dcbc8067125448af29a27c1c90c75a759a12ab468e7ef/prq-0.0.20.tar.gz
+[2023-04-21 16:52:09] INFO root fetch - main [MainThread]: End processing [flow-pilot]: success
+[2023-04-21 16:52:09] INFO root fetch - processPackages [globus-cli]: Downloading https://files.pythonhosted.org/packages/de/fa/da98936aee96ae00e00b7a7dc6518818564f031ba512a6a4dc67421ec511/globus-cli-3.9.0.tar.gz
+[2023-04-21 16:52:09] INFO root fetch - processPackages [prq]: Downloading https://files.pythonhosted.org/packages/7a/17/25f17db29cabbeab4774d837e9115138e96f8129f035ce40d59dbb7e3e0a/prq-0.0.21.tar.gz
+[2023-04-21 16:52:09] INFO root fetch - processPackages [globus-cli]: executing diffoscope
+[2023-04-21 16:52:09] INFO root fetch - processPackages [globus-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-cli-3.8.0.tar.gz tmp/globus-cli-3.9.0.tar.gz --markdown 20230421/g/globus-cli/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-04-21 16:52:09] INFO root fetch - processPackages [prq]: executing diffoscope
+[2023-04-21 16:52:09] INFO root fetch - processPackages [prq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prq-0.0.20.tar.gz tmp/prq-0.0.21.tar.gz --markdown 20230421/p/prq/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-04-21 16:52:09] INFO root fetch - processPackages [Products.CMFPlone]: Downloading https://files.pythonhosted.org/packages/db/28/27149a15d732e244bcb5acd2bf8041d668871cd77def8819aa80c3452db5/Products.CMFPlone-6.0.4rc1.tar.gz
+[2023-04-21 16:52:10] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-04-21 16:52:10] INFO root fetch - processPackages [Products.CMFPlone]: executing diffoscope
+[2023-04-21 16:52:10] INFO root fetch - processPackages [Products.CMFPlone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.CMFPlone-6.0.3rc1.tar.gz tmp/Products.CMFPlone-6.0.4rc1.tar.gz --markdown 20230421/P/Products.CMFPlone/6.0.3rc1-6.0.4rc1/diff.md --exclude *.pyd
+[2023-04-21 16:52:10] INFO root fetch - main [MainThread]: End processing [corsika-panama]: success
+[2023-04-21 16:52:10] INFO root fetch - main [MainThread]: End processing [kaiju-db]: success
+[2023-04-21 16:52:10] INFO root fetch - main [MainThread]: End processing [pydmt]: success
+[2023-04-21 16:52:11] INFO root fetch - main [MainThread]: End processing [prq]: success
+[2023-04-21 16:52:11] INFO root fetch - main [MainThread]: End processing [globus-cli]: success
+[2023-04-21 16:52:14] INFO root fetch - main [MainThread]: End processing [roof-mask-Yv8]: success
+[2023-04-21 16:52:15] INFO root fetch - main [MainThread]: End processing [Products.CMFPlone]: success
+[2023-04-21 16:52:15] INFO root fetch - main [MainThread]: Store serial: [17804836]
