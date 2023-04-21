@@ -22849,3 +22849,71 @@ EOFError: EOF read where object expected
 [2023-04-21 22:24:51] INFO root fetch - main [MainThread]: End processing [theseus-ai-nightly]: success
 [2023-04-21 22:25:02] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-04-21 22:25:02] INFO root fetch - main [MainThread]: Store serial: [17808402]
+[2023-04-21 22:30:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808402]
+[2023-04-21 22:30:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 22:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strawberry-graphql
+[2023-04-21 22:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-inline-tabs
+[2023-04-21 22:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mgen
+[2023-04-21 22:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-sqlite-vss
+[2023-04-21 22:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlite-vss
+[2023-04-21 22:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Products.CMFPlone
+[2023-04-21 22:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: calpis
+[2023-04-21 22:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipyreact
+[2023-04-21 22:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: naturalspeech2-pytorch
+[2023-04-21 22:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asyncsleepiq
+[2023-04-21 22:30:12] INFO root fetch - processPackages [sphinx-inline-tabs]: New version: [2022.1.2b11] Old Version: [2021.8.17b10]
+[2023-04-21 22:30:12] INFO root fetch - processPackages [sqlite-vss]: New version: [0.0.4a6] Old Version: [0.0.4a5]
+[2023-04-21 22:30:12] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.0.4a6] Old Version: [0.0.4a5]
+[2023-04-21 22:30:12] INFO root fetch - processPackages [Products.CMFPlone]: New version: [6.0.4rc1] Old Version: [6.0.3rc1]
+[2023-04-21 22:30:12] INFO root fetch - processPackages [mgen]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-21 22:30:12] INFO root fetch - processPackages [asyncsleepiq]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-21 22:30:12] WARNING root fetch - processPackages [naturalspeech2-pytorch]: Skipping, unable to determine old version
+[2023-04-21 22:30:12] INFO root fetch - processPackages [ipyreact]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-21 22:30:12] INFO root fetch - processPackages [naturalspeech2-pytorch]: Start processing: pulumi-oci
+[2023-04-21 22:30:12] INFO root fetch - main [MainThread]: End processing [naturalspeech2-pytorch] error
+[2023-04-21 22:30:12] WARNING root fetch - processPackages [calpis]: Skipping, unable to determine old version
+[2023-04-21 22:30:12] INFO root fetch - processPackages [calpis]: Start processing: twot
+[2023-04-21 22:30:12] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-04-21 22:30:12] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.0.4a5-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.0.4a6-py3-none-any.whl.zip --markdown 20230421/d/datasette-sqlite-vss/0.0.4a5-0.0.4a6/diff.md --exclude *.pyd
+[2023-04-21 22:30:12] INFO root fetch - main [MainThread]: End processing [calpis] error
+[2023-04-21 22:30:12] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-04-21 22:30:12] INFO root fetch - processPackages [twot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 22:30:12] INFO root fetch - processPackages [sphinx-inline-tabs]: Downloading https://files.pythonhosted.org/packages/47/a2/0c7446af6f1b771036a080c857bd62c2bd36b5111b784f179b28eb4f8db6/sphinx_inline_tabs-2021.8.17b10.tar.gz
+[2023-04-21 22:30:12] INFO root fetch - processPackages [Products.CMFPlone]: executing diffoscope
+[2023-04-21 22:30:12] INFO root fetch - processPackages [Products.CMFPlone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.CMFPlone-6.0.3rc1.tar.gz tmp/Products.CMFPlone-6.0.4rc1.tar.gz --markdown 20230421/P/Products.CMFPlone/6.0.3rc1-6.0.4rc1/diff.md --exclude *.pyd
+[2023-04-21 22:30:12] INFO root fetch - processPackages [pulumi-oci]: New version: [0.9.1a1677791364] Old Version: [0.9.0]
+[2023-04-21 22:30:12] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-04-21 22:30:12] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.0.4a5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.0.4a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230421/s/sqlite-vss/0.0.4a5-0.0.4a6/diff.md --exclude *.pyd
+[2023-04-21 22:30:13] INFO root fetch - processPackages [mgen]: Downloading https://files.pythonhosted.org/packages/88/71/c28f42dd68760e1daabcdf33e79a69af7face57e0128c2b001783e28ca1f/mgen-1.2.0.tar.gz
+[2023-04-21 22:30:13] INFO root fetch - processPackages [ipyreact]: Downloading https://files.pythonhosted.org/packages/55/08/7706ce9985ac5cb72c0092d30f6c4ee79be72e5427ee2f90ee6a23680239/ipyreact-0.1.0.tar.gz
+[2023-04-21 22:30:13] INFO root fetch - processPackages [twot]: Downloading https://files.pythonhosted.org/packages/5c/d8/5ad4de8e2c2272b4bce07092706d59b99ed55b9ea7586d6c72675f3c6db2/twot-0.0.1.tar.gz
+[2023-04-21 22:30:13] INFO root fetch - processPackages [asyncsleepiq]: Downloading https://files.pythonhosted.org/packages/e5/97/b1f13a182afbb5a1d9b6f68ad85fc5f208eddd0f76d5bd1c9ec0d53488fe/asyncsleepiq-1.3.4.tar.gz
+[2023-04-21 22:30:13] INFO root fetch - processPackages [mgen]: Downloading https://files.pythonhosted.org/packages/70/fc/bfc86ce96aab74cb61ed26b8242897a2b87c88dddca673e75c229d2511a6/mgen-1.2.1.tar.gz
+[2023-04-21 22:30:13] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-04-21 22:30:13] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230421/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-04-21 22:30:13] INFO root fetch - processPackages [ipyreact]: Downloading https://files.pythonhosted.org/packages/ea/3a/7553421aa26a59249521ead1ad9d63696e2c758193ed25488f119abc5a5b/ipyreact-0.2.0.tar.gz
+[2023-04-21 22:30:13] INFO root fetch - processPackages [asyncsleepiq]: executing diffoscope
+[2023-04-21 22:30:13] INFO root fetch - processPackages [asyncsleepiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncsleepiq-1.3.3.tar.gz tmp/asyncsleepiq-1.3.4.tar.gz --markdown 20230421/a/asyncsleepiq/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-21 22:30:13] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-04-21 22:30:13] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-0.9.0.tar.gz tmp/pulumi_oci-0.9.1a1677791364.tar.gz --markdown 20230421/p/pulumi-oci/0.9.0-0.9.1a1677791364/diff.md --exclude *.pyd
+[2023-04-21 22:30:13] INFO root fetch - processPackages [mgen]: executing diffoscope
+[2023-04-21 22:30:13] INFO root fetch - processPackages [mgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgen-1.2.0.tar.gz tmp/mgen-1.2.1.tar.gz --markdown 20230421/m/mgen/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-21 22:30:13] INFO root fetch - processPackages [twot]: Downloading https://files.pythonhosted.org/packages/66/1c/0c880601d1db77db508f8d30a59d1e83abc210136c907222d137a290a743/twot-0.0.2.tar.gz
+[2023-04-21 22:30:13] INFO root fetch - processPackages [sphinx-inline-tabs]: Downloading https://files.pythonhosted.org/packages/65/ed/120f0f62243aa3fbb6a22fb28940ffdfa783013700c82d445e687b86f0bb/sphinx_inline_tabs-2022.1.2b11.tar.gz
+[2023-04-21 22:30:13] INFO root fetch - processPackages [ipyreact]: executing diffoscope
+[2023-04-21 22:30:13] INFO root fetch - processPackages [ipyreact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyreact-0.1.0.tar.gz tmp/ipyreact-0.2.0.tar.gz --markdown 20230421/i/ipyreact/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 22:30:13] INFO root fetch - processPackages [sphinx-inline-tabs]: executing diffoscope
+[2023-04-21 22:30:13] INFO root fetch - processPackages [sphinx-inline-tabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_inline_tabs-2021.8.17b10.tar.gz tmp/sphinx_inline_tabs-2022.1.2b11.tar.gz --markdown 20230421/s/sphinx-inline-tabs/2021.8.17b10-2022.1.2b11/diff.md --exclude *.pyd
+[2023-04-21 22:30:13] INFO root fetch - processPackages [twot]: executing diffoscope
+[2023-04-21 22:30:13] INFO root fetch - processPackages [twot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twot-0.0.1.tar.gz tmp/twot-0.0.2.tar.gz --markdown 20230421/t/twot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 22:30:14] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-04-21 22:30:14] INFO root fetch - main [MainThread]: End processing [asyncsleepiq]: success
+[2023-04-21 22:30:15] INFO root fetch - main [MainThread]: End processing [twot]: success
+[2023-04-21 22:30:15] INFO root fetch - main [MainThread]: End processing [mgen]: success
+[2023-04-21 22:30:15] INFO root fetch - main [MainThread]: End processing [sphinx-inline-tabs]: success
+[2023-04-21 22:30:16] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-04-21 22:30:21] INFO root fetch - main [MainThread]: End processing [Products.CMFPlone]: success
+[2023-04-21 22:30:32] INFO root fetch - main [MainThread]: End processing [ipyreact]: success
+[2023-04-21 22:30:51] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-04-21 22:30:58] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-04-21 22:30:58] INFO root fetch - main [MainThread]: Store serial: [17808448]
