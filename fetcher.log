@@ -21025,3 +21025,83 @@ EOFError: EOF read where object expected
 [2023-04-21 20:45:30] INFO root fetch - main [MainThread]: End processing [torchmanager]: success
 [2023-04-21 20:45:31] INFO root fetch - main [MainThread]: End processing [pymedquery]: success
 [2023-04-21 20:45:31] INFO root fetch - main [MainThread]: Store serial: [17807262]
+[2023-04-21 20:50:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807262]
+[2023-04-21 20:50:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 20:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-mq-connector
+[2023-04-21 20:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odeanimate
+[2023-04-21 20:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygqlc
+[2023-04-21 20:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itk-ultrasound
+[2023-04-21 20:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chalk-harness
+[2023-04-21 20:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pvmodule
+[2023-04-21 20:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prodia-python
+[2023-04-21 20:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terrario
+[2023-04-21 20:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: excel-sql-engine
+[2023-04-21 20:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: np-queuey
+[2023-04-21 20:50:40] INFO root fetch - processPackages [neon-mq-connector]: New version: [0.6.1a4] Old Version: [0.6.1a3]
+[2023-04-21 20:50:40] INFO root fetch - processPackages [odeanimate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 20:50:40] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 20:50:40] INFO root fetch - processPackages [pygqlc]: New version: [3.1.0] Old Version: [3.0.5]
+[2023-04-21 20:50:40] INFO root fetch - processPackages [excel-sql-engine]: New version: [1.6] Old Version: [1.4]
+[2023-04-21 20:50:40] WARNING root fetch - processPackages [prodia-python]: Skipping, unable to determine old version
+[2023-04-21 20:50:40] INFO root fetch - processPackages [prodia-python]: Start processing: flowws-keras-geometry
+[2023-04-21 20:50:40] INFO root fetch - processPackages [np-queuey]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-21 20:50:40] INFO root fetch - processPackages [itk-ultrasound]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-21 20:50:40] INFO root fetch - main [MainThread]: End processing [prodia-python] error
+[2023-04-21 20:50:40] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 20:50:40] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-21 20:50:40] INFO root fetch - processPackages [flowws-keras-geometry]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-21 20:50:40] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-04-21 20:50:40] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230421/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 20:50:40] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 20:50:40] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 20:50:40] INFO root fetch - processPackages [pygqlc]: Downloading https://files.pythonhosted.org/packages/01/d5/cb360ac7dccc899269c57074acce0d4c157c366238c925f02b56047b49c5/pygqlc-3.0.5.tar.gz
+[2023-04-21 20:50:40] INFO root fetch - processPackages [neon-mq-connector]: Downloading https://files.pythonhosted.org/packages/89/7a/f4350786525b8ee112fb404bab5d0a68ac09acb9a4f5acf6144f1e739a99/neon_mq_connector-0.6.1a4-py3-none-any.whl
+[2023-04-21 20:50:40] INFO root fetch - processPackages [itk-ultrasound]: Downloading https://files.pythonhosted.org/packages/06/07/5cf71c92efd490839fdaa46498439eb7f3d48f8dee4245043e1aba2608a8/itk_ultrasound-0.6.0-cp39-cp39-win_amd64.whl
+[2023-04-21 20:50:40] INFO root fetch - processPackages [flowws-keras-geometry]: Downloading https://files.pythonhosted.org/packages/c0/16/889ae8453714790b9fe61a6b107d3d4167a47ee0dceb604bff8406416fe4/flowws-keras-geometry-0.3.0.tar.gz
+[2023-04-21 20:50:40] INFO root fetch - processPackages [excel-sql-engine]: Downloading https://files.pythonhosted.org/packages/44/78/45b12ead6192046c81bea526fbdda45b346c57e2da47511ef93672f0928b/excel-sql-engine-1.4.tar.gz
+[2023-04-21 20:50:40] INFO root fetch - processPackages [np-queuey]: Downloading https://files.pythonhosted.org/packages/eb/55/e3aaebf1335dc92e7cc223e8ff2317075c3fe2ab4aa2e457eb66dc6008c8/np_queuey-0.1.8.tar.gz
+[2023-04-21 20:50:40] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-04-21 20:50:40] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.1.7.tar.gz tmp/np_queuey-0.1.8.tar.gz --markdown 20230421/n/np-queuey/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-21 20:50:40] INFO root fetch - processPackages [neon-mq-connector]: executing diffoscope
+[2023-04-21 20:50:40] INFO root fetch - processPackages [neon-mq-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mq_connector-0.6.1a3-py3-none-any.whl.zip tmp/neon_mq_connector-0.6.1a4-py3-none-any.whl.zip --markdown 20230421/n/neon-mq-connector/0.6.1a3-0.6.1a4/diff.md --exclude *.pyd
+[2023-04-21 20:50:40] INFO root fetch - processPackages [odeanimate]: executing diffoscope
+[2023-04-21 20:50:40] INFO root fetch - processPackages [odeanimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odeanimate-0.0.8.tar.gz tmp/odeanimate-0.0.9.tar.gz --markdown 20230421/o/odeanimate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 20:50:40] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-04-21 20:50:40] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230421/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 20:50:40] INFO root fetch - processPackages [excel-sql-engine]: Downloading https://files.pythonhosted.org/packages/57/68/c5a5bcbfaa5f45272859f773916870811e77b8b54f254b5a90b98543dc2c/excel-sql-engine-1.6.tar.gz
+[2023-04-21 20:50:40] INFO root fetch - processPackages [excel-sql-engine]: executing diffoscope
+[2023-04-21 20:50:40] INFO root fetch - processPackages [excel-sql-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel-sql-engine-1.4.tar.gz tmp/excel-sql-engine-1.6.tar.gz --markdown 20230421/e/excel-sql-engine/1.4-1.6/diff.md --exclude *.pyd
+[2023-04-21 20:50:40] INFO root fetch - processPackages [pygqlc]: Downloading https://files.pythonhosted.org/packages/e3/ad/28599ee3c72754caaf1080cc9c2bf66d0ea675acb8f91ccafb75d99ccff0/pygqlc-3.1.0.tar.gz
+[2023-04-21 20:50:40] INFO root fetch - processPackages [flowws-keras-geometry]: Downloading https://files.pythonhosted.org/packages/28/02/c78a87e612bbe666b27affe2936ae141af696dc68b51232af90c5dfc7487/flowws-keras-geometry-0.4.0.tar.gz
+[2023-04-21 20:50:40] INFO root fetch - processPackages [pygqlc]: executing diffoscope
+[2023-04-21 20:50:40] INFO root fetch - processPackages [pygqlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygqlc-3.0.5.tar.gz tmp/pygqlc-3.1.0.tar.gz --markdown 20230421/p/pygqlc/3.0.5-3.1.0/diff.md --exclude *.pyd
+[2023-04-21 20:50:41] INFO root fetch - processPackages [flowws-keras-geometry]: executing diffoscope
+[2023-04-21 20:50:41] INFO root fetch - processPackages [flowws-keras-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowws-keras-geometry-0.3.0.tar.gz tmp/flowws-keras-geometry-0.4.0.tar.gz --markdown 20230421/f/flowws-keras-geometry/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 20:50:41] INFO root fetch - processPackages [itk-ultrasound]: Downloading https://files.pythonhosted.org/packages/65/08/6de3a73107c4ff4fb18e727ee84893fbd1b64cbf5cbcf9d0ab9252e106b0/itk_ultrasound-0.6.1-cp39-cp39-win_amd64.whl
+[2023-04-21 20:50:42] INFO root fetch - processPackages [itk-ultrasound]: executing diffoscope
+[2023-04-21 20:50:42] INFO root fetch - processPackages [itk-ultrasound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_ultrasound-0.6.0-cp39-cp39-win_amd64.whl.zip tmp/itk_ultrasound-0.6.1-cp39-cp39-win_amd64.whl.zip --markdown 20230421/i/itk-ultrasound/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-21 20:50:42] INFO root fetch - processPackages [terrario]: Start processing: SAPsim
+[2023-04-21 20:50:42] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 20:50:42] INFO root fetch - processPackages [SAPsim]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 20:50:42] INFO root fetch - processPackages [SAPsim]: Downloading https://files.pythonhosted.org/packages/8f/1b/2b63b223c62dd5cbb8003a6bcb9234da80b1a448b827e3b2a4a03064ba51/SAPsim-0.0.2.tar.gz
+[2023-04-21 20:50:42] INFO root fetch - processPackages [np-queuey]: Start processing: Circles-Logger
+[2023-04-21 20:50:42] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-04-21 20:50:42] INFO root fetch - processPackages [SAPsim]: executing diffoscope
+[2023-04-21 20:50:42] INFO root fetch - processPackages [SAPsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAPsim-0.0.1.tar.gz tmp/SAPsim-0.0.2.tar.gz --markdown 20230421/S/SAPsim/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 20:50:42] WARNING root fetch - processPackages [Circles-Logger]: Skipping, unable to determine old version
+[2023-04-21 20:50:42] INFO root fetch - processPackages [Circles-Logger]: Start processing: markit-realsense-recorder
+[2023-04-21 20:50:42] INFO root fetch - main [MainThread]: End processing [Circles-Logger] error
+[2023-04-21 20:50:42] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-04-21 20:50:42] INFO root fetch - processPackages [markit-realsense-recorder]: New version: [1.8.0] Old Version: [1.6]
+[2023-04-21 20:50:42] INFO root fetch - processPackages [markit-realsense-recorder]: executing diffoscope
+[2023-04-21 20:50:42] INFO root fetch - processPackages [markit-realsense-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markit-realsense-recorder-1.6.tar.gz tmp/markit-realsense-recorder-1.8.0.tar.gz --markdown 20230421/m/markit-realsense-recorder/1.6-1.8.0/diff.md --exclude *.pyd
+[2023-04-21 20:50:42] INFO root fetch - main [MainThread]: End processing [neon-mq-connector]: success
+[2023-04-21 20:50:42] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-04-21 20:50:42] INFO root fetch - main [MainThread]: End processing [odeanimate]: success
+[2023-04-21 20:50:43] INFO root fetch - main [MainThread]: End processing [excel-sql-engine]: success
+[2023-04-21 20:50:43] INFO root fetch - main [MainThread]: End processing [pygqlc]: success
+[2023-04-21 20:50:43] INFO root fetch - main [MainThread]: End processing [flowws-keras-geometry]: success
+[2023-04-21 20:50:44] INFO root fetch - main [MainThread]: End processing [SAPsim]: success
+[2023-04-21 20:50:44] INFO root fetch - main [MainThread]: End processing [markit-realsense-recorder]: success
+[2023-04-21 20:50:48] INFO root fetch - main [MainThread]: End processing [itk-ultrasound]: success
+[2023-04-21 20:50:48] INFO root fetch - main [MainThread]: Store serial: [17807331]
