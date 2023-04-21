@@ -9533,3 +9533,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 09:16:27] INFO root fetch - main [MainThread]: End processing [macrometa-source-mongo]: success
 [2023-04-21 09:16:32] INFO root fetch - main [MainThread]: End processing [digautoprofiler]: success
 [2023-04-21 09:16:32] INFO root fetch - main [MainThread]: Store serial: [17800103]
+[2023-04-21 09:21:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800103]
+[2023-04-21 09:21:41] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-21 09:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2023-04-21 09:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kkpyutil
+[2023-04-21 09:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-sale-timesheet-order-line-no-update
+[2023-04-21 09:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Remilia
+[2023-04-21 09:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: avplib
+[2023-04-21 09:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sciopy
+[2023-04-21 09:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazylinop
+[2023-04-21 09:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yyperf
+[2023-04-21 09:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: voronoi-diagram-for-polygons
+[2023-04-21 09:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xklb
+[2023-04-21 09:21:41] INFO root fetch - processPackages [avplib]: New version: [1.4.5] Old Version: [1.4.1]
+[2023-04-21 09:21:41] INFO root fetch - processPackages [xklb]: New version: [1.25.1] Old Version: [1.24.9]
+[2023-04-21 09:21:41] INFO root fetch - processPackages [avplib]: executing diffoscope
+[2023-04-21 09:21:41] INFO root fetch - processPackages [avplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avplib-1.4.1.tar.gz tmp/avplib-1.4.5.tar.gz --markdown 20230421/a/avplib/1.4.1-1.4.5/diff.md --exclude *.pyd
+[2023-04-21 09:21:41] INFO root fetch - processPackages [Remilia]: New version: [1.1.5] Old Version: [1.1.3]
+[2023-04-21 09:21:41] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev2]
+[2023-04-21 09:21:41] INFO root fetch - processPackages [sciopy]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-21 09:21:41] INFO root fetch - processPackages [lazylinop]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 09:21:41] INFO root fetch - processPackages [voronoi-diagram-for-polygons]: New version: [0.1.6] Old Version: [0.1.3]
+[2023-04-21 09:21:41] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-04-21 09:21:41] INFO root fetch - processPackages [yyperf]: New version: [0.6.9.dev2] Old Version: [0.6.9]
+[2023-04-21 09:21:41] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-04-21 09:21:41] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.24.9.tar.gz tmp/xklb-1.25.1.tar.gz --markdown 20230421/x/xklb/1.24.9-1.25.1/diff.md --exclude *.pyd
+[2023-04-21 09:21:41] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-04-21 09:21:41] INFO root fetch - processPackages [sciopy]: Downloading https://files.pythonhosted.org/packages/60/12/45e91b3e94d72ca9024b40fea3e6933b065cec39ec7207e10801080c4543/sciopy-0.6.2-py3-none-any.whl
+[2023-04-21 09:21:41] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: Downloading https://files.pythonhosted.org/packages/55/f4/fec77f51a7e85a861eae131c9bb8a06826d1eb3cfdb2b6aa51b12f151d93/odoo14_addon_sale_timesheet_order_line_no_update-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-04-21 09:21:41] INFO root fetch - processPackages [yyperf]: Downloading https://files.pythonhosted.org/packages/01/56/8d1cfb1ce995c585d9c70c5a9b7760fbdefdbec743e277a0d10d1c706e26/yyperf-0.6.9.tar.gz
+[2023-04-21 09:21:41] INFO root fetch - processPackages [Remilia]: Downloading https://files.pythonhosted.org/packages/a5/55/8a0199e6a2e6392bd038181fef78d700ea871b51461401797ec7ed63ae31/Remilia-1.1.5.tar.gz
+[2023-04-21 09:21:41] INFO root fetch - processPackages [voronoi-diagram-for-polygons]: Downloading https://files.pythonhosted.org/packages/18/8a/e4b1ea7936e4ed44ef0e6183ed47555cf7a0d05cd1f09b456d492b4819a6/voronoi-diagram-for-polygons-0.1.6.tar.gz
+[2023-04-21 09:21:41] WARNING root fetch - processPackages [yyperf]: Skipping package: exceeds size limit 15809435>=10485760
+[2023-04-21 09:21:41] INFO root fetch - processPackages [yyperf]: Start processing: Jvav
+[2023-04-21 09:21:41] INFO root fetch - main [MainThread]: End processing [yyperf] error
+[2023-04-21 09:21:41] INFO root fetch - processPackages [Remilia]: executing diffoscope
+[2023-04-21 09:21:41] INFO root fetch - processPackages [Remilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Remilia-1.1.3.tar.gz tmp/Remilia-1.1.5.tar.gz --markdown 20230421/R/Remilia/1.1.3-1.1.5/diff.md --exclude *.pyd
+[2023-04-21 09:21:41] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-04-21 09:21:41] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230421/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-04-21 09:21:41] INFO root fetch - processPackages [Jvav]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-21 09:21:41] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: Downloading https://files.pythonhosted.org/packages/93/e3/0ec5d91f4f19912ea77c4ac40befc28471bb7adefe96dfbea140d8477c4d/odoo14_addon_sale_timesheet_order_line_no_update-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-04-21 09:21:41] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-04-21 09:21:41] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230421/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-04-21 09:21:42] INFO root fetch - processPackages [lazylinop]: executing diffoscope
+[2023-04-21 09:21:42] INFO root fetch - processPackages [lazylinop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinop-1.0.8-py3-none-any.whl.zip tmp/lazylinop-1.0.9-py3-none-any.whl.zip --markdown 20230421/l/lazylinop/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 09:21:42] INFO root fetch - processPackages [sciopy]: Downloading https://files.pythonhosted.org/packages/51/e9/0873410e3fe4e541ea7dcc2654f4f81009454d17d8cfb45fb1468d94664a/sciopy-0.6.3-py3-none-any.whl
+[2023-04-21 09:21:42] INFO root fetch - processPackages [Jvav]: executing diffoscope
+[2023-04-21 09:21:42] INFO root fetch - processPackages [Jvav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jvav-1.2.8.tar.gz tmp/Jvav-1.2.9.tar.gz --markdown 20230421/J/Jvav/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-21 09:21:42] INFO root fetch - processPackages [voronoi-diagram-for-polygons]: executing diffoscope
+[2023-04-21 09:21:42] INFO root fetch - processPackages [voronoi-diagram-for-polygons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voronoi-diagram-for-polygons-0.1.3.tar.gz tmp/voronoi-diagram-for-polygons-0.1.6.tar.gz --markdown 20230421/v/voronoi-diagram-for-polygons/0.1.3-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 09:21:42] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: executing diffoscope
+[2023-04-21 09:21:42] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_timesheet_order_line_no_update-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_timesheet_order_line_no_update-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230421/o/odoo14-addon-sale-timesheet-order-line-no-update/14.0.1.0.1.dev2-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-04-21 09:21:42] INFO root fetch - processPackages [sciopy]: executing diffoscope
+[2023-04-21 09:21:42] INFO root fetch - processPackages [sciopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciopy-0.6.2-py3-none-any.whl.zip tmp/sciopy-0.6.3-py3-none-any.whl.zip --markdown 20230421/s/sciopy/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-21 09:21:42] INFO root fetch - processPackages [avplib]: Start processing: carrot-rpc
+[2023-04-21 09:21:42] INFO root fetch - main [MainThread]: End processing [avplib]: success
+[2023-04-21 09:21:43] INFO root fetch - processPackages [carrot-rpc]: New version: [0.3] Old Version: [0.2.8]
+[2023-04-21 09:21:43] INFO root fetch - processPackages [carrot-rpc]: Downloading https://files.pythonhosted.org/packages/67/d7/398b9bde3136837489834e526dc3d5af67db3d5a5b473920e08cc3b58eb0/carrot_rpc-0.2.8-py3-none-any.whl
+[2023-04-21 09:21:43] INFO root fetch - processPackages [carrot-rpc]: Downloading https://files.pythonhosted.org/packages/9f/92/0da70c2a82e84cbbf46efc76b9be96a07c0068b7a1e9ece9c6dbf526ab74/carrot_rpc-0.3-py3-none-any.whl
+[2023-04-21 09:21:43] INFO root fetch - processPackages [Remilia]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-21 09:21:43] INFO root fetch - main [MainThread]: End processing [Remilia]: success
+[2023-04-21 09:21:43] INFO root fetch - processPackages [kkpyutil]: Start processing: DLMS-SPODES
+[2023-04-21 09:21:43] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-04-21 09:21:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-21 09:21:43] INFO root fetch - processPackages [carrot-rpc]: executing diffoscope
+[2023-04-21 09:21:43] INFO root fetch - processPackages [carrot-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carrot_rpc-0.2.8-py3-none-any.whl.zip tmp/carrot_rpc-0.3-py3-none-any.whl.zip --markdown 20230421/c/carrot-rpc/0.2.8-0.3/diff.md --exclude *.pyd
+[2023-04-21 09:21:43] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-21 09:21:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-21 09:21:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230421/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 09:21:43] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-04-21 09:21:43] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230421/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 09:21:43] INFO root fetch - processPackages [lazylinop]: Start processing: arkdata
+[2023-04-21 09:21:43] INFO root fetch - main [MainThread]: End processing [lazylinop]: success
+[2023-04-21 09:21:44] INFO root fetch - processPackages [arkdata]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-21 09:21:44] INFO root fetch - processPackages [tf-hub-nightly]: Start processing: ssppy
+[2023-04-21 09:21:44] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-04-21 09:21:44] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: Start processing: ybam
+[2023-04-21 09:21:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-timesheet-order-line-no-update]: success
+[2023-04-21 09:21:44] INFO root fetch - processPackages [ybam]: New version: [1.1.1] Old Version: [0.1.0]
+[2023-04-21 09:21:44] INFO root fetch - processPackages [Jvav]: Start processing: gt4sd
+[2023-04-21 09:21:44] INFO root fetch - main [MainThread]: End processing [Jvav]: success
+[2023-04-21 09:21:44] INFO root fetch - main [MainThread]: End processing [voronoi-diagram-for-polygons]: success
+[2023-04-21 09:21:44] WARNING root fetch - processPackages [ssppy]: Skipping, unable to determine old version
+[2023-04-21 09:21:44] INFO root fetch - main [MainThread]: End processing [ssppy] error
+[2023-04-21 09:21:44] ERROR root fetch - processPackages [ybam]: Unable to fetch info: No such project/version 'ybam' 0.1.0
+[2023-04-21 09:21:44] INFO root fetch - main [MainThread]: End processing [ybam] error
+[2023-04-21 09:21:44] INFO root fetch - processPackages [arkdata]: Downloading https://files.pythonhosted.org/packages/77/86/04bc80b43bfd87098dc76e379c29d1dd6f9b7ccbcbf7c6940ceadc52fd60/arkdata-1.0.6.tar.gz
+[2023-04-21 09:21:44] INFO root fetch - processPackages [gt4sd]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-21 09:21:44] INFO root fetch - main [MainThread]: End processing [sciopy]: success
+[2023-04-21 09:21:44] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-21 09:21:44] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.5.tar.gz tmp/arkdata-1.0.6.tar.gz --markdown 20230421/a/arkdata/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-21 09:21:44] INFO root fetch - processPackages [gt4sd]: Downloading https://files.pythonhosted.org/packages/1c/66/30f21a0b2c4550e2783c1abbbf33300561a56f934bf6ddc93a4e44b967c8/gt4sd-1.2.0.tar.gz
+[2023-04-21 09:21:44] INFO root fetch - processPackages [gt4sd]: Downloading https://files.pythonhosted.org/packages/ac/70/0ec4fd221a299b9bdb05f57b9c685971e2a7827eaea53ac17b6db67d7305/gt4sd-1.2.1.tar.gz
+[2023-04-21 09:21:45] INFO root fetch - processPackages [gt4sd]: executing diffoscope
+[2023-04-21 09:21:45] INFO root fetch - processPackages [gt4sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gt4sd-1.2.0.tar.gz tmp/gt4sd-1.2.1.tar.gz --markdown 20230421/g/gt4sd/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-21 09:21:45] INFO root fetch - main [MainThread]: End processing [carrot-rpc]: success
+[2023-04-21 09:21:45] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-04-21 09:21:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-21 09:21:45] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-04-21 09:21:46] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-21 09:21:48] INFO root fetch - main [MainThread]: End processing [gt4sd]: success
+[2023-04-21 09:21:48] INFO root fetch - main [MainThread]: Store serial: [17800153]
