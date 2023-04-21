@@ -10445,3 +10445,142 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 10:14:19] INFO root fetch - main [MainThread]: End processing [tendril-filestore]: success
 [2023-04-21 10:14:33] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-21 10:14:33] INFO root fetch - main [MainThread]: Store serial: [17800573]
+[2023-04-21 10:19:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800573]
+[2023-04-21 10:19:43] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-21 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lovehim
+[2023-04-21 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gspWeb
+[2023-04-21 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-mapper
+[2023-04-21 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: always-updates
+[2023-04-21 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emmett-prometheus
+[2023-04-21 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ybam
+[2023-04-21 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kafka-slurm-agent
+[2023-04-21 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shimoku-api-python
+[2023-04-21 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eos-downloader
+[2023-04-21 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hiddifypanel
+[2023-04-21 10:19:43] INFO root fetch - processPackages [django-mapper]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-21 10:19:43] INFO root fetch - processPackages [lovehim]: New version: [0.57] Old Version: [0.56]
+[2023-04-21 10:19:43] INFO root fetch - processPackages [gspWeb]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 10:19:43] INFO root fetch - processPackages [ybam]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-04-21 10:19:43] INFO root fetch - processPackages [kafka-slurm-agent]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-21 10:19:43] INFO root fetch - processPackages [eos-downloader]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-04-21 10:19:43] INFO root fetch - processPackages [emmett-prometheus]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 10:19:43] INFO root fetch - processPackages [shimoku-api-python]: New version: [0.9] Old Version: [0.8.1]
+[2023-04-21 10:19:43] INFO root fetch - processPackages [hiddifypanel]: New version: [4.2.3] Old Version: [4.2.2]
+[2023-04-21 10:19:43] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-21 10:19:44] INFO root fetch - processPackages [django-mapper]: executing diffoscope
+[2023-04-21 10:19:44] INFO root fetch - processPackages [django-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mapper-1.1.8.tar.gz tmp/django-mapper-1.1.9.tar.gz --markdown 20230421/d/django-mapper/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-21 10:19:44] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/ac/9b/38f104b0cbe961e897b5bf0637dffe8ee1eda847817116150b24639c7016/lovehim-0.57.tar.gz
+[2023-04-21 10:19:44] INFO root fetch - processPackages [gspWeb]: Downloading https://files.pythonhosted.org/packages/8f/a4/79c15aaa1ea88f6a3fa150d098c25e9ee628fb03a4ead8f0295f4ee64ebc/gspWeb-0.0.6.tar.gz
+[2023-04-21 10:19:44] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/60/5b/f3bc84f8c58ef12328b2790d67122f9be7de812e5ce8c86e47d5b4daa82d/hiddifypanel-4.2.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-21 10:19:44] INFO root fetch - processPackages [ybam]: Downloading https://files.pythonhosted.org/packages/da/0b/2267940d21e6cd84b2f41a737eaa3a8a9bfe3f85d744876b7a4fcf444673/ybam-2.1.4.tar.gz
+[2023-04-21 10:19:44] INFO root fetch - processPackages [eos-downloader]: Downloading https://files.pythonhosted.org/packages/66/e0/21dfadb8d4e1f5527ab879373f0d74ea1b25832bcbdec97c8e2eef1b7d23/eos_downloader-0.7.1.tar.gz
+[2023-04-21 10:19:44] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-21 10:19:44] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230421/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-21 10:19:44] INFO root fetch - processPackages [shimoku-api-python]: Downloading https://files.pythonhosted.org/packages/42/3f/4290b9a3337285a102de498320b93987bc5037f1ddc2b42d2228557d3399/shimoku_api_python-0.8.1-py2.py3-none-any.whl
+[2023-04-21 10:19:44] INFO root fetch - processPackages [kafka-slurm-agent]: Downloading https://files.pythonhosted.org/packages/dc/7b/84bf073bb9df69f8c1fa7fb332be54a966c4fc342ddf07b1c8d5329feb05/kafka_slurm_agent-1.0.0-py3-none-any.whl
+[2023-04-21 10:19:44] INFO root fetch - processPackages [lovehim]: executing diffoscope
+[2023-04-21 10:19:44] INFO root fetch - processPackages [lovehim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovehim-0.56.tar.gz tmp/lovehim-0.57.tar.gz --markdown 20230421/l/lovehim/0.56-0.57/diff.md --exclude *.pyd
+[2023-04-21 10:19:44] INFO root fetch - processPackages [emmett-prometheus]: Downloading https://files.pythonhosted.org/packages/a5/60/0d1a47ce1341ae4c3010bc61aff996790b9c686252fbf486705c56b150d7/emmett_prometheus-0.1.3.tar.gz
+[2023-04-21 10:19:44] INFO root fetch - processPackages [gspWeb]: Downloading https://files.pythonhosted.org/packages/2d/06/1aebe47ccdf9d75eb39b437ced3d9ff987307e20462e7e1a690acb157d75/gspWeb-0.0.7.tar.gz
+[2023-04-21 10:19:44] INFO root fetch - processPackages [kafka-slurm-agent]: Downloading https://files.pythonhosted.org/packages/54/13/8218f0d40d086e7bc78739a017f43a6e318a41ac4c24aa97cfd386c613b4/kafka_slurm_agent-1.0.1-py3-none-any.whl
+[2023-04-21 10:19:44] INFO root fetch - processPackages [ybam]: Downloading https://files.pythonhosted.org/packages/36/cd/1f212a915098463b19943b960dbd4fe37d1e46e17fee272ae32a6e0bdcc8/ybam-2.1.5.tar.gz
+[2023-04-21 10:19:44] INFO root fetch - processPackages [eos-downloader]: Downloading https://files.pythonhosted.org/packages/e6/cd/877cddf4f4e7c0f0436dfc731f5de237f7c57feb82033dba2bd5c3c5178e/eos_downloader-0.8.0.tar.gz
+[2023-04-21 10:19:44] INFO root fetch - processPackages [gspWeb]: executing diffoscope
+[2023-04-21 10:19:44] INFO root fetch - processPackages [shimoku-api-python]: Downloading https://files.pythonhosted.org/packages/12/3e/ec83bde96fc66f5775191c2bd6152638642b5c194b6da3e82971cea702aa/shimoku_api_python-0.9-py2.py3-none-any.whl
+[2023-04-21 10:19:44] INFO root fetch - processPackages [gspWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspWeb-0.0.6.tar.gz tmp/gspWeb-0.0.7.tar.gz --markdown 20230421/g/gspWeb/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 10:19:44] INFO root fetch - processPackages [emmett-prometheus]: executing diffoscope
+[2023-04-21 10:19:44] INFO root fetch - processPackages [emmett-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett_prometheus-0.1.2.tar.gz tmp/emmett_prometheus-0.1.3.tar.gz --markdown 20230421/e/emmett-prometheus/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 10:19:44] INFO root fetch - processPackages [kafka-slurm-agent]: executing diffoscope
+[2023-04-21 10:19:44] INFO root fetch - processPackages [kafka-slurm-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka_slurm_agent-1.0.0-py3-none-any.whl.zip tmp/kafka_slurm_agent-1.0.1-py3-none-any.whl.zip --markdown 20230421/k/kafka-slurm-agent/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 10:19:44] INFO root fetch - processPackages [ybam]: executing diffoscope
+[2023-04-21 10:19:44] INFO root fetch - processPackages [ybam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ybam-2.1.4.tar.gz tmp/ybam-2.1.5.tar.gz --markdown 20230421/y/ybam/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-04-21 10:19:44] INFO root fetch - processPackages [eos-downloader]: executing diffoscope
+[2023-04-21 10:19:44] INFO root fetch - processPackages [eos-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eos_downloader-0.7.1.tar.gz tmp/eos_downloader-0.8.0.tar.gz --markdown 20230421/e/eos-downloader/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-04-21 10:19:44] INFO root fetch - processPackages [shimoku-api-python]: executing diffoscope
+[2023-04-21 10:19:44] INFO root fetch - processPackages [shimoku-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimoku_api_python-0.8.1-py2.py3-none-any.whl.zip tmp/shimoku_api_python-0.9-py2.py3-none-any.whl.zip --markdown 20230421/s/shimoku-api-python/0.8.1-0.9/diff.md --exclude *.pyd
+[2023-04-21 10:19:45] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/c8/0f/faa0049898144dd7c77ef3c81167e128337a22284150ebf46eff29062fc4/hiddifypanel-4.2.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-21 10:19:45] INFO root fetch - processPackages [django-mapper]: Start processing: hiddifypanel
+[2023-04-21 10:19:45] INFO root fetch - main [MainThread]: End processing [django-mapper]: success
+[2023-04-21 10:19:45] INFO root fetch - processPackages [hiddifypanel]: New version: [4.2.3] Old Version: [4.2.2]
+[2023-04-21 10:19:45] INFO root fetch - processPackages [always-updates]: Start processing: scipion-em-reliontomo
+[2023-04-21 10:19:45] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-21 10:19:45] INFO root fetch - processPackages [scipion-em-reliontomo]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-04-21 10:19:45] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/c8/0f/faa0049898144dd7c77ef3c81167e128337a22284150ebf46eff29062fc4/hiddifypanel-4.2.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-21 10:19:45] INFO root fetch - processPackages [lovehim]: Start processing: msaBase
+[2023-04-21 10:19:45] INFO root fetch - main [MainThread]: End processing [lovehim]: success
+[2023-04-21 10:19:45] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 10:19:45] INFO root fetch - processPackages [scipion-em-reliontomo]: Downloading https://files.pythonhosted.org/packages/51/ca/f352a13f74e2ebbb41aa5d7ec8e9e8c86191e53255e94bf8dd383643b2ff/scipion-em-reliontomo-3.1.5.tar.gz
+[2023-04-21 10:19:45] INFO root fetch - processPackages [scipion-em-reliontomo]: executing diffoscope
+[2023-04-21 10:19:45] INFO root fetch - processPackages [scipion-em-reliontomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-reliontomo-3.1.4.tar.gz tmp/scipion-em-reliontomo-3.1.5.tar.gz --markdown 20230421/s/scipion-em-reliontomo/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-04-21 10:19:46] INFO root fetch - processPackages [emmett-prometheus]: Start processing: testit-adapter-behave
+[2023-04-21 10:19:46] INFO root fetch - main [MainThread]: End processing [emmett-prometheus]: success
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-behave]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-04-21 10:19:46] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-04-21 10:19:46] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230421/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 10:19:46] INFO root fetch - processPackages [gspWeb]: Start processing: testit-adapter-nose
+[2023-04-21 10:19:46] INFO root fetch - main [MainThread]: End processing [gspWeb]: success
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-nose]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-04-21 10:19:46] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-21 10:19:46] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.2.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.2.3-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230421/h/hiddifypanel/4.2.2-4.2.3/diff.md --exclude *.pyd
+[2023-04-21 10:19:46] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-21 10:19:46] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.2.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.2.3-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230421/h/hiddifypanel/4.2.2-4.2.3/diff.md --exclude *.pyd
+[2023-04-21 10:19:46] INFO root fetch - processPackages [kafka-slurm-agent]: Start processing: testit-adapter-pytest
+[2023-04-21 10:19:46] INFO root fetch - main [MainThread]: End processing [kafka-slurm-agent]: success
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/ad/20/76c1b7ddd2fe92b1321d6be8f5af208df753f28744560d72b78f13743431/testit-adapter-behave-2.1.6.tar.gz
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-pytest]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-04-21 10:19:46] INFO root fetch - processPackages [ybam]: Start processing: testit-adapter-robotframework
+[2023-04-21 10:19:46] INFO root fetch - main [MainThread]: End processing [ybam]: success
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/4e/7f/5e8b6e84f514de5b59c851a31f53ff2505674c6670ae07cdf22bf7ad78bb/testit-adapter-nose-2.1.6.tar.gz
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-robotframework]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/da/d9/1fff14c2b29266dd9100ff098f36325d322d0e0a1213e08b7a005ec4d95e/testit-adapter-pytest-2.1.6.tar.gz
+[2023-04-21 10:19:46] INFO root fetch - processPackages [eos-downloader]: Start processing: testit-python-commons
+[2023-04-21 10:19:46] INFO root fetch - main [MainThread]: End processing [eos-downloader]: success
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-python-commons]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/d8/99/c7aa0bf425b8a4046dd65c5d3ce0e0358ddb97d43f15eae186e5a6307b05/testit-adapter-behave-2.1.7.tar.gz
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/94/eb/6aef4017a9b59c4d8cd836c1f734eabdc48124c6a8f56fb1b053d1bc4df7/testit-adapter-robotframework-2.1.6.tar.gz
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/5f/27/cd274b06bc419c3d92697876e94e63593ba7f2720fb0f6a71dac6ab1e362/testit-python-commons-2.1.6.tar.gz
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/72/05/4b5e79e767eebc4e9e4e35b9737969228978fc6d32cdb83e857432aab1ce/testit-adapter-nose-2.1.7.tar.gz
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-behave]: executing diffoscope
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-behave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-behave-2.1.6.tar.gz tmp/testit-adapter-behave-2.1.7.tar.gz --markdown 20230421/t/testit-adapter-behave/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/66/59/57dc68a65e8050ff19607a78478919d3036d6df936a64403a1e8c4a9dd7b/testit-adapter-pytest-2.1.7.tar.gz
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/56/29/7d6e4b34d75f929eb3e76ebf3119b415cf4dedcde8e07caf2c809c98b685/testit-adapter-robotframework-2.1.7.tar.gz
+[2023-04-21 10:19:46] INFO root fetch - processPackages [shimoku-api-python]: Start processing: ybam
+[2023-04-21 10:19:46] INFO root fetch - main [MainThread]: End processing [shimoku-api-python]: success
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-nose]: executing diffoscope
+[2023-04-21 10:19:46] INFO root fetch - processPackages [testit-adapter-nose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-nose-2.1.6.tar.gz tmp/testit-adapter-nose-2.1.7.tar.gz --markdown 20230421/t/testit-adapter-nose/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-04-21 10:19:47] INFO root fetch - processPackages [ybam]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-04-21 10:19:47] INFO root fetch - processPackages [testit-adapter-pytest]: executing diffoscope
+[2023-04-21 10:19:47] INFO root fetch - processPackages [testit-adapter-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-pytest-2.1.6.tar.gz tmp/testit-adapter-pytest-2.1.7.tar.gz --markdown 20230421/t/testit-adapter-pytest/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-04-21 10:19:47] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/14/3a/6e83830f00c8e5c3f75f3e31210fc3ddb987d39ad5db92cb9ef37c722b00/testit-python-commons-2.1.7.tar.gz
+[2023-04-21 10:19:47] INFO root fetch - processPackages [ybam]: executing diffoscope
+[2023-04-21 10:19:47] INFO root fetch - processPackages [ybam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ybam-2.1.4.tar.gz tmp/ybam-2.1.5.tar.gz --markdown 20230421/y/ybam/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-04-21 10:19:47] INFO root fetch - processPackages [testit-adapter-robotframework]: executing diffoscope
+[2023-04-21 10:19:47] INFO root fetch - processPackages [testit-adapter-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-robotframework-2.1.6.tar.gz tmp/testit-adapter-robotframework-2.1.7.tar.gz --markdown 20230421/t/testit-adapter-robotframework/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-04-21 10:19:47] INFO root fetch - processPackages [testit-python-commons]: executing diffoscope
+[2023-04-21 10:19:47] INFO root fetch - processPackages [testit-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-python-commons-2.1.6.tar.gz tmp/testit-python-commons-2.1.7.tar.gz --markdown 20230421/t/testit-python-commons/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-04-21 10:19:47] INFO root fetch - processPackages [scipion-em-reliontomo]: Start processing: ngits-users
+[2023-04-21 10:19:47] INFO root fetch - main [MainThread]: End processing [scipion-em-reliontomo]: success
+[2023-04-21 10:19:48] INFO root fetch - processPackages [ngits-users]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-21 10:19:48] INFO root fetch - processPackages [ngits-users]: Downloading https://files.pythonhosted.org/packages/e2/d6/0b5cc1a81f11b304b5b28aeedffd1019096d2099af748a630ef404983c92/ngits-users-1.0.5.tar.gz
+[2023-04-21 10:19:48] INFO root fetch - processPackages [testit-adapter-behave]: Start processing: linkedin-pdf-extractor
+[2023-04-21 10:19:48] INFO root fetch - main [MainThread]: End processing [testit-adapter-behave]: success
+[2023-04-21 10:19:48] ERROR root fetch - processPackages [linkedin-pdf-extractor]: Unable to get metadata: No such project 'linkedin-pdf-extractor'
+[2023-04-21 10:19:48] INFO root fetch - processPackages [linkedin-pdf-extractor]: Start processing: stashlib
+[2023-04-21 10:19:48] INFO root fetch - main [MainThread]: End processing [linkedin-pdf-extractor] error
+[2023-04-21 10:19:48] INFO root fetch - processPackages [stashlib]: New version: [0.0.7.1] Old Version: [0.0.7.0]
+[2023-04-21 10:19:48] INFO root fetch - processPackages [stashlib]: executing diffoscope
+[2023-04-21 10:19:48] INFO root fetch - processPackages [stashlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stashlib-0.0.7.0.tar.gz tmp/stashlib-0.0.7.1.tar.gz --markdown 20230421/s/stashlib/0.0.7.0-0.0.7.1/diff.md --exclude *.pyd
+[2023-04-21 10:19:48] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-04-21 10:19:48] INFO root fetch - processPackages [ngits-users]: Downloading https://files.pythonhosted.org/packages/d6/76/52b99fbbb344082e3652cff623125d6dd130c402ef93714b3ea2d777ac40/ngits-users-1.0.6.tar.gz
+[2023-04-21 10:19:48] INFO root fetch - processPackages [ngits-users]: executing diffoscope
+[2023-04-21 10:19:48] INFO root fetch - processPackages [ngits-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngits-users-1.0.5.tar.gz tmp/ngits-users-1.0.6.tar.gz --markdown 20230421/n/ngits-users/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-21 10:19:48] INFO root fetch - main [MainThread]: End processing [testit-adapter-nose]: success
+[2023-04-21 10:19:49] INFO root fetch - main [MainThread]: End processing [testit-adapter-pytest]: success
+[2023-04-21 10:19:49] INFO root fetch - main [MainThread]: End processing [testit-python-commons]: success
+[2023-04-21 10:19:49] INFO root fetch - main [MainThread]: End processing [testit-adapter-robotframework]: success
+[2023-04-21 10:19:49] INFO root fetch - main [MainThread]: End processing [ybam]: success
+[2023-04-21 10:19:49] INFO root fetch - main [MainThread]: End processing [stashlib]: success
+[2023-04-21 10:19:50] INFO root fetch - main [MainThread]: End processing [ngits-users]: success
+[2023-04-21 10:20:02] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-21 10:20:03] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-21 10:20:03] INFO root fetch - main [MainThread]: Store serial: [17800642]
