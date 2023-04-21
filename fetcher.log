@@ -8150,3 +8150,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 07:06:52] INFO root fetch - main [MainThread]: End processing [PySDM]: success
 [2023-04-21 07:09:41] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-04-21 07:09:41] INFO root fetch - main [MainThread]: Store serial: [17799253]
+[2023-04-21 07:14:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799253]
+[2023-04-21 07:14:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm4gpt
+[2023-04-21 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx-simplifier
+[2023-04-21 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxsim
+[2023-04-21 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sa-package
+[2023-04-21 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MeUtils
+[2023-04-21 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llm4gpt
+[2023-04-21 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cwsearch-utils
+[2023-04-21 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsptrain
+[2023-04-21 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dxsp
+[2023-04-21 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NikeCA
+[2023-04-21 07:14:50] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.21.13.7.20] Old Version: [2023.4.20.20.13.57]
+[2023-04-21 07:14:50] INFO root fetch - processPackages [sa-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 07:14:50] INFO root fetch - processPackages [lsptrain]: New version: [0.0.47] Old Version: [0.0.4]
+[2023-04-21 07:14:50] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 07:14:50] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.21.13.7.20] Old Version: [2023.4.20.20.13.57]
+[2023-04-21 07:14:50] INFO root fetch - processPackages [NikeCA]: New version: [0.1.71] Old Version: [0.1.70]
+[2023-04-21 07:14:50] INFO root fetch - processPackages [onnxsim]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-21 07:14:50] INFO root fetch - processPackages [onnx-simplifier]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-21 07:14:50] INFO root fetch - processPackages [MeUtils]: New version: [2023.4.6.14.28.33] Old Version: [2023.4.6.14.19.58]
+[2023-04-21 07:14:50] INFO root fetch - processPackages [dxsp]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-21 07:14:50] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-04-21 07:14:50] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230421/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 07:14:50] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-21 07:14:50] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.70.tar.gz tmp/NikeCA-0.1.71.tar.gz --markdown 20230421/N/NikeCA/0.1.70-0.1.71/diff.md --exclude *.pyd
+[2023-04-21 07:14:50] INFO root fetch - processPackages [onnxsim]: Downloading https://files.pythonhosted.org/packages/e7/b9/202cc2584a4ec999caa935e7e0fdb09bedec99bf28f3a8b35455ff6864eb/onnxsim-0.4.8.tar.gz
+[2023-04-21 07:14:50] INFO root fetch - processPackages [onnx-simplifier]: Downloading https://files.pythonhosted.org/packages/d6/bb/4883248b3354d146d32371ede26d0194526a8c138b74c45fbaca5af54651/onnx-simplifier-0.4.8.tar.gz
+[2023-04-21 07:14:50] WARNING root fetch - processPackages [onnx-simplifier]: Skipping package: exceeds size limit 18116655>=10485760
+[2023-04-21 07:14:50] INFO root fetch - processPackages [onnx-simplifier]: Start processing: metarclone
+[2023-04-21 07:14:50] INFO root fetch - main [MainThread]: End processing [onnx-simplifier] error
+[2023-04-21 07:14:50] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/f3/9f/7d3850573a1ee22c26d4bc87e142e1bc323a4f9d7a77bd79a49087698b60/llm4gpt-2023.4.21.13.7.20.tar.gz
+[2023-04-21 07:14:50] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/f3/9f/7d3850573a1ee22c26d4bc87e142e1bc323a4f9d7a77bd79a49087698b60/llm4gpt-2023.4.21.13.7.20.tar.gz
+[2023-04-21 07:14:50] INFO root fetch - processPackages [sa-package]: executing diffoscope
+[2023-04-21 07:14:50] INFO root fetch - processPackages [sa-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sa_package-0.0.8.tar.gz tmp/sa_package-0.0.9.tar.gz --markdown 20230421/s/sa-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 07:14:50] ERROR root fetch - processPackages [lsptrain]: Unable to fetch info: No such project/version 'lsptrain' 0.0.47
+[2023-04-21 07:14:50] INFO root fetch - main [MainThread]: End processing [lsptrain] error
+[2023-04-21 07:14:50] WARNING root fetch - processPackages [onnxsim]: Skipping package: exceeds size limit 18121422>=10485760
+[2023-04-21 07:14:50] INFO root fetch - main [MainThread]: End processing [onnxsim] error
+[2023-04-21 07:14:50] WARNING root fetch - processPackages [metarclone]: Skipping, unable to determine old version
+[2023-04-21 07:14:50] INFO root fetch - main [MainThread]: End processing [metarclone] error
+[2023-04-21 07:14:50] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-04-21 07:14:50] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.4.6.14.19.58.tar.gz tmp/MeUtils-2023.4.6.14.28.33.tar.gz --markdown 20230421/M/MeUtils/2023.4.6.14.19.58-2023.4.6.14.28.33/diff.md --exclude *.pyd
+[2023-04-21 07:14:50] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-04-21 07:14:50] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.2.8.tar.gz tmp/dxsp-1.2.9.tar.gz --markdown 20230421/d/dxsp/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-21 07:14:51] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-21 07:14:51] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.20.20.13.57.tar.gz tmp/llm4gpt-2023.4.21.13.7.20.tar.gz --markdown 20230421/l/llm4gpt/2023.4.20.20.13.57-2023.4.21.13.7.20/diff.md --exclude *.pyd
+[2023-04-21 07:14:51] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-21 07:14:51] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.20.20.13.57.tar.gz tmp/llm4gpt-2023.4.21.13.7.20.tar.gz --markdown 20230421/l/llm4gpt/2023.4.20.20.13.57-2023.4.21.13.7.20/diff.md --exclude *.pyd
+[2023-04-21 07:14:51] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-04-21 07:14:52] INFO root fetch - main [MainThread]: End processing [sa-package]: success
+[2023-04-21 07:14:52] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-21 07:14:52] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-04-21 07:14:53] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-04-21 07:14:53] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-21 07:14:53] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-21 07:14:53] INFO root fetch - main [MainThread]: Store serial: [17799316]
