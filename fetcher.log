@@ -7613,3 +7613,28 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 06:09:16] INFO root fetch - main [MainThread]: End processing [arkdata]: success
 [2023-04-21 06:09:18] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-04-21 06:09:18] INFO root fetch - main [MainThread]: Store serial: [17798904]
+[2023-04-21 06:14:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798904]
+[2023-04-21 06:14:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-21 06:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pit30m
+[2023-04-21 06:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstructured-inference
+[2023-04-21 06:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuromeka-clients
+[2023-04-21 06:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-versionizer
+[2023-04-21 06:14:27] INFO root fetch - processPackages [unstructured-inference]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-21 06:14:27] INFO root fetch - processPackages [fastapi-versionizer]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 06:14:27] WARNING root fetch - processPackages [pit30m]: Skipping, unable to determine old version
+[2023-04-21 06:14:27] INFO root fetch - processPackages [neuromeka-clients]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 06:14:27] INFO root fetch - main [MainThread]: End processing [pit30m] error
+[2023-04-21 06:14:27] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/d4/c4/50a2cf36ccf32f3883d906a27200d96ed9a8979b156a2b62a0f9e8da52ad/unstructured_inference-0.4.2.tar.gz
+[2023-04-21 06:14:27] INFO root fetch - processPackages [neuromeka-clients]: Downloading https://files.pythonhosted.org/packages/30/22/cf3b577e2254f893ed221946f51952577ec7bacc25f3b4e9c2c42715370b/neuromeka-clients-0.1.2.tar.gz
+[2023-04-21 06:14:27] INFO root fetch - processPackages [fastapi-versionizer]: Downloading https://files.pythonhosted.org/packages/e0/95/1de997e0ccde4c945160e4d7219439b708caa00c1172647e4ebcda8c4748/fastapi_versionizer-0.1.6.tar.gz
+[2023-04-21 06:14:27] INFO root fetch - processPackages [unstructured-inference]: executing diffoscope
+[2023-04-21 06:14:27] INFO root fetch - processPackages [unstructured-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured_inference-0.4.1.tar.gz tmp/unstructured_inference-0.4.2.tar.gz --markdown 20230421/u/unstructured-inference/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-21 06:14:28] INFO root fetch - processPackages [fastapi-versionizer]: executing diffoscope
+[2023-04-21 06:14:28] INFO root fetch - processPackages [fastapi-versionizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_versionizer-0.1.5.tar.gz tmp/fastapi_versionizer-0.1.6.tar.gz --markdown 20230421/f/fastapi-versionizer/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 06:14:28] INFO root fetch - processPackages [neuromeka-clients]: Downloading https://files.pythonhosted.org/packages/51/d6/3da5a5891507ddaff08715d9517bf530cb66ec28783dffdbc6aeeee2498f/neuromeka-clients-0.1.3.tar.gz
+[2023-04-21 06:14:28] INFO root fetch - processPackages [neuromeka-clients]: executing diffoscope
+[2023-04-21 06:14:28] INFO root fetch - processPackages [neuromeka-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuromeka-clients-0.1.2.tar.gz tmp/neuromeka-clients-0.1.3.tar.gz --markdown 20230421/n/neuromeka-clients/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 06:14:29] INFO root fetch - main [MainThread]: End processing [unstructured-inference]: success
+[2023-04-21 06:14:29] INFO root fetch - main [MainThread]: End processing [fastapi-versionizer]: success
+[2023-04-21 06:14:29] INFO root fetch - main [MainThread]: End processing [neuromeka-clients]: success
+[2023-04-21 06:14:29] INFO root fetch - main [MainThread]: Store serial: [17798916]
