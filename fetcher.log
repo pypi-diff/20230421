@@ -6495,3 +6495,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 04:12:46] INFO root fetch - main [MainThread]: End processing [dragon-city-utils]: success
 [2023-04-21 04:12:47] INFO root fetch - main [MainThread]: End processing [lektor-responsive-image]: success
 [2023-04-21 04:12:47] INFO root fetch - main [MainThread]: Store serial: [17798255]
+[2023-04-21 04:17:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798255]
+[2023-04-21 04:17:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gnutools-python
+[2023-04-21 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: a-pandas-ex-inspect2df
+[2023-04-21 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaml-update-last-modified-date
+[2023-04-21 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viper-ic
+[2023-04-21 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogpt-plugins
+[2023-04-21 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raster2dggs
+[2023-04-21 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tzconv
+[2023-04-21 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: my-latest-hello-world
+[2023-04-21 04:17:56] INFO root fetch - processPackages [gnutools-python]: New version: [2.3.4] Old Version: [2.3.3a3]
+[2023-04-21 04:17:56] WARNING root fetch - processPackages [my-latest-hello-world]: Skipping, unable to determine old version
+[2023-04-21 04:17:56] INFO root fetch - main [MainThread]: End processing [my-latest-hello-world] error
+[2023-04-21 04:17:56] WARNING root fetch - processPackages [viper-ic]: Skipping, unable to determine old version
+[2023-04-21 04:17:56] INFO root fetch - main [MainThread]: End processing [viper-ic] error
+[2023-04-21 04:17:56] WARNING root fetch - processPackages [autogpt-plugins]: Skipping, unable to determine old version
+[2023-04-21 04:17:56] INFO root fetch - processPackages [raster2dggs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 04:17:56] WARNING root fetch - processPackages [a-pandas-ex-inspect2df]: Skipping, unable to determine old version
+[2023-04-21 04:17:56] INFO root fetch - main [MainThread]: End processing [autogpt-plugins] error
+[2023-04-21 04:17:56] WARNING root fetch - processPackages [yaml-update-last-modified-date]: Skipping, unable to determine old version
+[2023-04-21 04:17:56] INFO root fetch - main [MainThread]: End processing [a-pandas-ex-inspect2df] error
+[2023-04-21 04:17:56] WARNING root fetch - processPackages [tzconv]: Skipping, unable to determine old version
+[2023-04-21 04:17:56] INFO root fetch - main [MainThread]: End processing [yaml-update-last-modified-date] error
+[2023-04-21 04:17:56] INFO root fetch - main [MainThread]: End processing [tzconv] error
+[2023-04-21 04:17:56] INFO root fetch - processPackages [gnutools-python]: Downloading https://files.pythonhosted.org/packages/a8/5a/23d4939e1a9f0ffbc2d0dbc541ea841bbd8c0d80cdb05e0de6584cc1aafd/gnutools_python-2.3.3a3-py3-none-any.whl
+[2023-04-21 04:17:56] INFO root fetch - processPackages [raster2dggs]: Downloading https://files.pythonhosted.org/packages/d1/8d/e62c82332cff2a45cccb0132eca4d9a9c54cfaf262151f0123fb6e6ad393/raster2dggs-0.1.1.tar.gz
+[2023-04-21 04:17:56] INFO root fetch - processPackages [raster2dggs]: Downloading https://files.pythonhosted.org/packages/6b/a3/7aa4afdc290092578610bcbaa7f86e61cdfb3e95478194812da9cd0efa01/raster2dggs-0.1.2.tar.gz
+[2023-04-21 04:17:56] INFO root fetch - processPackages [gnutools-python]: Downloading https://files.pythonhosted.org/packages/18/21/784d11b0135d085d78fb000a4b245f6f8cc16a27ad4a163326c44c6c4558/gnutools_python-2.3.4-py3-none-any.whl
+[2023-04-21 04:17:56] INFO root fetch - processPackages [raster2dggs]: executing diffoscope
+[2023-04-21 04:17:56] INFO root fetch - processPackages [raster2dggs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster2dggs-0.1.1.tar.gz tmp/raster2dggs-0.1.2.tar.gz --markdown 20230421/r/raster2dggs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 04:17:56] INFO root fetch - processPackages [gnutools-python]: executing diffoscope
+[2023-04-21 04:17:56] INFO root fetch - processPackages [gnutools-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnutools_python-2.3.3a3-py3-none-any.whl.zip tmp/gnutools_python-2.3.4-py3-none-any.whl.zip --markdown 20230421/g/gnutools-python/2.3.3a3-2.3.4/diff.md --exclude *.pyd
+[2023-04-21 04:17:57] INFO root fetch - main [MainThread]: End processing [raster2dggs]: success
+[2023-04-21 04:17:57] INFO root fetch - main [MainThread]: End processing [gnutools-python]: success
+[2023-04-21 04:17:57] INFO root fetch - main [MainThread]: Store serial: [17798303]
