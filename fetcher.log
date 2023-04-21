@@ -23493,3 +23493,60 @@ EOFError: EOF read where object expected
 [2023-04-21 23:03:51] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
 [2023-04-21 23:03:52] INFO root fetch - main [MainThread]: End processing [bumble]: success
 [2023-04-21 23:03:52] INFO root fetch - main [MainThread]: Store serial: [17808755]
+[2023-04-21 23:08:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808755]
+[2023-04-21 23:09:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-21 23:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ZaidPy
+[2023-04-21 23:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raster-tools
+[2023-04-21 23:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-dzne-tsv
+[2023-04-21 23:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: benchmark-runner
+[2023-04-21 23:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prettyqt
+[2023-04-21 23:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: teselagen
+[2023-04-21 23:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: freemocap
+[2023-04-21 23:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cugraph-cu11
+[2023-04-21 23:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wordflow
+[2023-04-21 23:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cesium
+[2023-04-21 23:09:01] INFO root fetch - processPackages [freemocap]: New version: [1.0.9rc0] Old Version: [1.0.8rc0]
+[2023-04-21 23:09:01] WARNING root fetch - processPackages [wordflow]: Skipping, unable to determine old version
+[2023-04-21 23:09:01] INFO root fetch - main [MainThread]: End processing [wordflow] error
+[2023-04-21 23:09:01] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-21 23:09:01] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-21 23:09:01] INFO root fetch - processPackages [lib-dzne-tsv]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-21 23:09:01] INFO root fetch - processPackages [cugraph-cu11]: New version: [23.4.1] Old Version: [23.4.0.1681369743]
+[2023-04-21 23:09:01] WARNING root fetch - processPackages [ZaidPy]: Skipping, unable to determine old version
+[2023-04-21 23:09:01] INFO root fetch - main [MainThread]: End processing [ZaidPy] error
+[2023-04-21 23:09:01] INFO root fetch - processPackages [raster-tools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-21 23:09:01] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-04-21 23:09:01] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230421/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-21 23:09:01] INFO root fetch - processPackages [teselagen]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-04-21 23:09:01] INFO root fetch - processPackages [freemocap]: executing diffoscope
+[2023-04-21 23:09:01] INFO root fetch - processPackages [freemocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freemocap-1.0.8rc0.tar.gz tmp/freemocap-1.0.9rc0.tar.gz --markdown 20230421/f/freemocap/1.0.8rc0-1.0.9rc0/diff.md --exclude *.pyd
+[2023-04-21 23:09:01] INFO root fetch - processPackages [cesium]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-04-21 23:09:01] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-04-21 23:09:01] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230421/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-21 23:09:01] INFO root fetch - processPackages [lib-dzne-tsv]: Downloading https://files.pythonhosted.org/packages/83/23/d199570e67c816ceac3acc1c9be834d8092442e9a66c7f647efbb1f53422/lib-dzne-tsv-0.1.4.tar.gz
+[2023-04-21 23:09:01] INFO root fetch - processPackages [teselagen]: Downloading https://files.pythonhosted.org/packages/ed/08/2cddf53296f2a3f95b9f963f61e1f9b80e39a0f6f8f65a463ca22827429a/teselagen-0.4.7.tar.gz
+[2023-04-21 23:09:01] INFO root fetch - processPackages [cesium]: Downloading https://files.pythonhosted.org/packages/55/34/8b747da19a771256f9e0e14e04da385798ef8f90a6edbfc7104a663cf89c/cesium-0.9.7.tar.gz
+[2023-04-21 23:09:01] INFO root fetch - processPackages [raster-tools]: Downloading https://files.pythonhosted.org/packages/9e/a2/72f915ed7171e6120cc551d315ecc14f5f967ceb9ccdccd43260dd4efdd1/raster-tools-0.1.5.tar.gz
+[2023-04-21 23:09:01] INFO root fetch - processPackages [cugraph-cu11]: Downloading https://files.pythonhosted.org/packages/9e/f5/17020ae23fd05e33ef871291aa7b952455a6f1f16906897e21e3e6e89e63/cugraph_cu11-23.4.1.tar.gz
+[2023-04-21 23:09:01] INFO root fetch - processPackages [lib-dzne-tsv]: Downloading https://files.pythonhosted.org/packages/46/fc/5950fd1cb895c31644a52b731695791b1468e5e6d42c1784b31414c8c0ff/lib-dzne-tsv-0.1.5.tar.gz
+[2023-04-21 23:09:01] INFO root fetch - processPackages [cugraph-cu11]: executing diffoscope
+[2023-04-21 23:09:01] INFO root fetch - processPackages [cugraph-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cugraph_cu11-23.4.0.1681369743.tar.gz tmp/cugraph_cu11-23.4.1.tar.gz --markdown 20230421/c/cugraph-cu11/23.4.0.1681369743-23.4.1/diff.md --exclude *.pyd
+[2023-04-21 23:09:01] INFO root fetch - processPackages [raster-tools]: executing diffoscope
+[2023-04-21 23:09:01] INFO root fetch - processPackages [teselagen]: Downloading https://files.pythonhosted.org/packages/9e/df/6321ed19bc4908dca8032e9ef250fe9b84b41e2af1b44ec733e05fa612dd/teselagen-0.4.8.tar.gz
+[2023-04-21 23:09:01] INFO root fetch - processPackages [raster-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster-tools-0.1.4.tar.gz tmp/raster-tools-0.1.5.tar.gz --markdown 20230421/r/raster-tools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-21 23:09:02] INFO root fetch - processPackages [lib-dzne-tsv]: executing diffoscope
+[2023-04-21 23:09:02] INFO root fetch - processPackages [lib-dzne-tsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-dzne-tsv-0.1.4.tar.gz tmp/lib-dzne-tsv-0.1.5.tar.gz --markdown 20230421/l/lib-dzne-tsv/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-21 23:09:02] INFO root fetch - processPackages [teselagen]: executing diffoscope
+[2023-04-21 23:09:02] INFO root fetch - processPackages [teselagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teselagen-0.4.7.tar.gz tmp/teselagen-0.4.8.tar.gz --markdown 20230421/t/teselagen/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-04-21 23:09:02] INFO root fetch - processPackages [cesium]: Downloading https://files.pythonhosted.org/packages/06/88/49786f6ea5ddcb7347672ae61e782b06c6c2618eade9a3e87091311c962f/cesium-0.9.9.tar.gz
+[2023-04-21 23:09:02] INFO root fetch - processPackages [cesium]: executing diffoscope
+[2023-04-21 23:09:02] INFO root fetch - processPackages [cesium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cesium-0.9.7.tar.gz tmp/cesium-0.9.9.tar.gz --markdown 20230421/c/cesium/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 23:09:03] INFO root fetch - main [MainThread]: End processing [cugraph-cu11]: success
+[2023-04-21 23:09:03] INFO root fetch - main [MainThread]: End processing [lib-dzne-tsv]: success
+[2023-04-21 23:09:03] INFO root fetch - main [MainThread]: End processing [raster-tools]: success
+[2023-04-21 23:09:03] INFO root fetch - main [MainThread]: End processing [teselagen]: success
+[2023-04-21 23:09:03] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-04-21 23:09:04] INFO root fetch - main [MainThread]: End processing [cesium]: success
+[2023-04-21 23:09:06] INFO root fetch - main [MainThread]: End processing [freemocap]: success
+[2023-04-21 23:09:10] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-04-21 23:09:10] INFO root fetch - main [MainThread]: Store serial: [17808797]
