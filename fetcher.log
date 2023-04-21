@@ -12513,3 +12513,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 12:19:32] INFO root fetch - main [MainThread]: End processing [generic-output-manager]: success
 [2023-04-21 12:19:57] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-04-21 12:19:57] INFO root fetch - main [MainThread]: Store serial: [17801723]
+[2023-04-21 12:25:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17801723]
+[2023-04-21 12:25:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 12:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hiddifypanel
+[2023-04-21 12:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbox
+[2023-04-21 12:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jina
+[2023-04-21 12:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openknowit-kalm-common
+[2023-04-21 12:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gm
+[2023-04-21 12:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipyreact
+[2023-04-21 12:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abst
+[2023-04-21 12:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assisted-service-client
+[2023-04-21 12:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flim-labs-api
+[2023-04-21 12:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: camerahub
+[2023-04-21 12:25:07] INFO root fetch - processPackages [openknowit-kalm-common]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-21 12:25:07] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-04-21 12:25:07] INFO root fetch - processPackages [camerahub]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-21 12:25:07] INFO root fetch - processPackages [gm]: New version: [3.0.154] Old Version: [3.0.153]
+[2023-04-21 12:25:07] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-21 12:25:07] INFO root fetch - processPackages [hiddifypanel]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-04-21 12:25:07] WARNING root fetch - processPackages [flim-labs-api]: Skipping, unable to determine old version
+[2023-04-21 12:25:07] INFO root fetch - processPackages [flim-labs-api]: Start processing: hiddifypanel
+[2023-04-21 12:25:07] INFO root fetch - main [MainThread]: End processing [flim-labs-api] error
+[2023-04-21 12:25:07] WARNING root fetch - processPackages [ipyreact]: Skipping, unable to determine old version
+[2023-04-21 12:25:07] INFO root fetch - processPackages [ipyreact]: Start processing: converter-package
+[2023-04-21 12:25:07] INFO root fetch - main [MainThread]: End processing [ipyreact] error
+[2023-04-21 12:25:07] INFO root fetch - processPackages [abst]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-04-21 12:25:07] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-04-21 12:25:07] INFO root fetch - processPackages [openknowit-kalm-common]: Downloading https://files.pythonhosted.org/packages/1a/fb/9fec91de628d829acf81fae3be3cdc5710e7d41158711c9e5976302a4807/openknowit_kalm_common-1.0.0.tar.gz
+[2023-04-21 12:25:07] INFO root fetch - processPackages [hiddifypanel]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-04-21 12:25:07] INFO root fetch - processPackages [camerahub]: executing diffoscope
+[2023-04-21 12:25:07] INFO root fetch - processPackages [camerahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub-0.9.7.tar.gz tmp/camerahub-0.9.8.tar.gz --markdown 20230421/c/camerahub/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-21 12:25:07] INFO root fetch - processPackages [gm]: Downloading https://files.pythonhosted.org/packages/40/5a/7175bb8854ef59063f3c24921bb1945c94d95d9c7b4ca24cdccfc96da739/gm-3.0.153-cp39-cp39-win_amd64.whl
+[2023-04-21 12:25:07] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-04-21 12:25:07] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230421/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-04-21 12:25:07] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/72/4a/3326c6716c6d1ba98dc111008dac595bb41be8a0dae68fe79e9ffedc2540/hiddifypanel-4.2.4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-21 12:25:07] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-21 12:25:07] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230421/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-21 12:25:07] INFO root fetch - processPackages [converter-package]: New version: [2.6] Old Version: [2.5]
+[2023-04-21 12:25:07] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/72/4a/3326c6716c6d1ba98dc111008dac595bb41be8a0dae68fe79e9ffedc2540/hiddifypanel-4.2.4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-21 12:25:07] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-04-21 12:25:07] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230421/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-04-21 12:25:07] INFO root fetch - processPackages [openknowit-kalm-common]: Downloading https://files.pythonhosted.org/packages/ae/7c/f6c10678c0e6bce93634ec69a6a01a3e1659a094ba28a38300b3b07cbf68/openknowit_kalm_common-1.0.1.tar.gz
+[2023-04-21 12:25:07] INFO root fetch - processPackages [abst]: Downloading https://files.pythonhosted.org/packages/95/d0/28a11c5b3561f1e0af84e44b93a26135e11284dd0be32b2e4744b1de24f3/abst-1.9.4.tar.gz
+[2023-04-21 12:25:07] INFO root fetch - processPackages [converter-package]: Downloading https://files.pythonhosted.org/packages/76/65/44e1c672e2c24c08a579a0f2eb2e74d6c438527c4ca4247c81d0724bf2d1/converter_package-2.5.tar.gz
+[2023-04-21 12:25:08] INFO root fetch - processPackages [openknowit-kalm-common]: executing diffoscope
+[2023-04-21 12:25:08] INFO root fetch - processPackages [openknowit-kalm-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openknowit_kalm_common-1.0.0.tar.gz tmp/openknowit_kalm_common-1.0.1.tar.gz --markdown 20230421/o/openknowit-kalm-common/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 12:25:08] INFO root fetch - processPackages [abst]: executing diffoscope
+[2023-04-21 12:25:08] INFO root fetch - processPackages [abst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abst-1.9.3.tar.gz tmp/abst-1.9.4.tar.gz --markdown 20230421/a/abst/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-04-21 12:25:08] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/0c/57/9dc14d2e57fdd68f6e869fb9e4f4cbc0854279e2bd8b004b4cc5089b2880/hiddifypanel-4.2.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-21 12:25:08] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/0c/57/9dc14d2e57fdd68f6e869fb9e4f4cbc0854279e2bd8b004b4cc5089b2880/hiddifypanel-4.2.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-21 12:25:08] INFO root fetch - processPackages [converter-package]: Downloading https://files.pythonhosted.org/packages/9f/1d/c1eb1a63edc9f9d9a535c705163dbd2027deb1311d032374c43e9e675c01/converter_package-2.6.tar.gz
+[2023-04-21 12:25:08] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-21 12:25:08] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.2.4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.2.5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230421/h/hiddifypanel/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-04-21 12:25:08] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-21 12:25:08] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.2.4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.2.5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230421/h/hiddifypanel/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-04-21 12:25:08] INFO root fetch - processPackages [converter-package]: executing diffoscope
+[2023-04-21 12:25:08] INFO root fetch - processPackages [converter-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/converter_package-2.5.tar.gz tmp/converter_package-2.6.tar.gz --markdown 20230421/c/converter-package/2.5-2.6/diff.md --exclude *.pyd
+[2023-04-21 12:25:08] INFO root fetch - processPackages [gm]: Downloading https://files.pythonhosted.org/packages/41/3d/bacbfa88fffacce1007df67dd2426f608370be88406a864361de02f1666a/gm-3.0.154-cp39-cp39-win_amd64.whl
+[2023-04-21 12:25:09] INFO root fetch - main [MainThread]: End processing [openknowit-kalm-common]: success
+[2023-04-21 12:25:09] INFO root fetch - main [MainThread]: End processing [abst]: success
+[2023-04-21 12:25:09] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-04-21 12:25:09] INFO root fetch - processPackages [gm]: executing diffoscope
+[2023-04-21 12:25:09] INFO root fetch - processPackages [gm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gm-3.0.153-cp39-cp39-win_amd64.whl.zip tmp/gm-3.0.154-cp39-cp39-win_amd64.whl.zip --markdown 20230421/g/gm/3.0.153-3.0.154/diff.md --exclude *.pyd
+[2023-04-21 12:25:10] INFO root fetch - main [MainThread]: End processing [converter-package]: success
+[2023-04-21 12:25:11] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-04-21 12:25:12] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-21 12:25:12] INFO root fetch - main [MainThread]: End processing [camerahub]: success
+[2023-04-21 12:25:24] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-21 12:25:24] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-21 12:25:45] INFO root fetch - main [MainThread]: End processing [gm]: success
+[2023-04-21 12:25:45] INFO root fetch - main [MainThread]: Store serial: [17801773]
