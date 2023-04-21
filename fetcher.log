@@ -6701,3 +6701,28 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 04:33:36] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
 [2023-04-21 04:33:36] INFO root fetch - main [MainThread]: End processing [JustDeepIt]: success
 [2023-04-21 04:33:36] INFO root fetch - main [MainThread]: Store serial: [17798394]
+[2023-04-21 04:38:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798394]
+[2023-04-21 04:38:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-21 04:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-animus
+[2023-04-21 04:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ats-case
+[2023-04-21 04:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agpt-plugins
+[2023-04-21 04:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itkwasm
+[2023-04-21 04:38:45] INFO root fetch - processPackages [py-animus]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 04:38:45] INFO root fetch - processPackages [ats-case]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-21 04:38:45] WARNING root fetch - processPackages [agpt-plugins]: Skipping, unable to determine old version
+[2023-04-21 04:38:45] INFO root fetch - main [MainThread]: End processing [agpt-plugins] error
+[2023-04-21 04:38:45] INFO root fetch - processPackages [itkwasm]: New version: [1.0b96] Old Version: [1.0b94]
+[2023-04-21 04:38:45] INFO root fetch - processPackages [py-animus]: Downloading https://files.pythonhosted.org/packages/e5/fa/7364cee42c144e604e244323f847586bf0aff605bf0c6ffa328dd8638ca3/py_animus-1.0.8.tar.gz
+[2023-04-21 04:38:45] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/77/627e077ce06ec635aff4a6c33aea55bd25dd343588dd08d7a7f106c16ab4/ats_case-0.5.1.tar.gz
+[2023-04-21 04:38:45] INFO root fetch - processPackages [itkwasm]: Downloading https://files.pythonhosted.org/packages/ce/5a/66f656528264d9b1ba8b51bd7abbc8a904e1ec403dd8c5c211707ff70c86/itkwasm-1.0b96-py3-none-any.whl
+[2023-04-21 04:38:45] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-04-21 04:38:45] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.5.0.tar.gz tmp/ats_case-0.5.1.tar.gz --markdown 20230421/a/ats-case/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-21 04:38:45] INFO root fetch - processPackages [py-animus]: Downloading https://files.pythonhosted.org/packages/d0/f2/ad85921f027bfea132df7280af98bacb101900532efd1d6e0a3cf1407033/py_animus-1.0.9.tar.gz
+[2023-04-21 04:38:45] INFO root fetch - processPackages [itkwasm]: executing diffoscope
+[2023-04-21 04:38:45] INFO root fetch - processPackages [itkwasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm-1.0b94.tar.gz tmp/itkwasm-1.0b96-py3-none-any.whl.zip --markdown 20230421/i/itkwasm/1.0b94-1.0b96/diff.md --exclude *.pyd
+[2023-04-21 04:38:45] INFO root fetch - processPackages [py-animus]: executing diffoscope
+[2023-04-21 04:38:45] INFO root fetch - processPackages [py-animus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_animus-1.0.8.tar.gz tmp/py_animus-1.0.9.tar.gz --markdown 20230421/p/py-animus/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 04:38:46] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-04-21 04:38:46] INFO root fetch - main [MainThread]: End processing [itkwasm]: success
+[2023-04-21 04:38:47] INFO root fetch - main [MainThread]: End processing [py-animus]: success
+[2023-04-21 04:38:47] INFO root fetch - main [MainThread]: Store serial: [17798407]
