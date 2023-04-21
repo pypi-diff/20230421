@@ -6119,3 +6119,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 03:30:44] INFO root fetch - main [MainThread]: End processing [hera-workflows]: success
 [2023-04-21 03:31:02] INFO root fetch - main [MainThread]: End processing [amaranth-yosys]: success
 [2023-04-21 03:31:02] INFO root fetch - main [MainThread]: Store serial: [17797940]
+[2023-04-21 03:36:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17797940]
+[2023-04-21 03:36:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 03:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tgbox-cli
+[2023-04-21 03:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-wget
+[2023-04-21 03:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-04-21 03:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-rancher2
+[2023-04-21 03:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tulp
+[2023-04-21 03:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazycsv
+[2023-04-21 03:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dedscumulus
+[2023-04-21 03:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hat-syslog
+[2023-04-21 03:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-numpy
+[2023-04-21 03:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multicall
+[2023-04-21 03:36:13] WARNING root fetch - processPackages [tgbox-cli]: Skipping, unable to determine old version
+[2023-04-21 03:36:13] INFO root fetch - processPackages [tgbox-cli]: Start processing: PySide6-Fluent-Widgets
+[2023-04-21 03:36:13] INFO root fetch - main [MainThread]: End processing [tgbox-cli] error
+[2023-04-21 03:36:13] INFO root fetch - processPackages [multicall]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-21 03:36:13] INFO root fetch - processPackages [tulp]: New version: [0.4.7] Old Version: [0.4.5]
+[2023-04-21 03:36:13] INFO root fetch - processPackages [dedscumulus]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-21 03:36:13] INFO root fetch - processPackages [lazycsv]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 03:36:13] INFO root fetch - processPackages [hat-syslog]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-21 03:36:13] INFO root fetch - processPackages [pulumi-rancher2]: New version: [4.0.0a1682018036] Old Version: [4.0.0]
+[2023-04-21 03:36:13] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-04-21 03:36:13] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 03:36:13] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 03:36:13] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-21 03:36:13] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-04-21 03:36:13] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230421/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 03:36:13] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-04-21 03:36:13] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230421/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 03:36:13] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-04-21 03:36:13] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230421/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-21 03:36:13] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/45/62/43ed00a465ecbf56484b427251284823167ddf7164e4600e5227a4179583/pulumi_rancher2-4.0.0.tar.gz
+[2023-04-21 03:36:13] INFO root fetch - processPackages [multicall]: Downloading https://files.pythonhosted.org/packages/17/04/4fb063b74504f709165e27d5130f984827956deb2d69f5eccb32b3316391/multicall-0.7.3.tar.gz
+[2023-04-21 03:36:14] INFO root fetch - processPackages [tulp]: Downloading https://files.pythonhosted.org/packages/3f/ff/897c295c057fac3209bc1be28c07af2ddb4405317f4abd515403890957fa/tulp-0.4.7.tar.gz
+[2023-04-21 03:36:14] INFO root fetch - processPackages [lazycsv]: Downloading https://files.pythonhosted.org/packages/93/9e/aa484fd1561faa277bbab132431e668f4ab2f1db02984460ece9bd187c61/lazycsv-1.0.3.tar.gz
+[2023-04-21 03:36:14] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/e2/96/15534d4d075bedf6fc773069b25e4cb419b5e6fca510eb51fd8ab2b566a2/PySide6-Fluent-Widgets-0.7.2.tar.gz
+[2023-04-21 03:36:14] INFO root fetch - processPackages [multicall]: executing diffoscope
+[2023-04-21 03:36:14] INFO root fetch - processPackages [multicall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicall-0.7.2.tar.gz tmp/multicall-0.7.3.tar.gz --markdown 20230421/m/multicall/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-21 03:36:14] INFO root fetch - processPackages [dedscumulus]: Downloading https://files.pythonhosted.org/packages/f1/95/6beba12842e593accaa06ba23ae5cbac5c22f30daf6dcb4b0101180e66c7/dedscumulus-0.0.3.tar.gz
+[2023-04-21 03:36:14] INFO root fetch - processPackages [hat-syslog]: Downloading https://files.pythonhosted.org/packages/9b/f5/f8f03a30771d7edd5e5b7b9e55bb6d88dbc9032e6dd7819afa026417a60c/hat_syslog-0.7.3-cp38.cp39.cp310.cp311-none-any.whl
+[2023-04-21 03:36:14] INFO root fetch - processPackages [tulp]: executing diffoscope
+[2023-04-21 03:36:14] INFO root fetch - processPackages [tulp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulp-0.4.5.tar.gz tmp/tulp-0.4.7.tar.gz --markdown 20230421/t/tulp/0.4.5-0.4.7/diff.md --exclude *.pyd
+[2023-04-21 03:36:14] INFO root fetch - processPackages [lazycsv]: executing diffoscope
+[2023-04-21 03:36:14] INFO root fetch - processPackages [lazycsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazycsv-1.0.2.tar.gz tmp/lazycsv-1.0.3.tar.gz --markdown 20230421/l/lazycsv/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 03:36:14] INFO root fetch - processPackages [dedscumulus]: executing diffoscope
+[2023-04-21 03:36:14] INFO root fetch - processPackages [dedscumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dedscumulus-0.0.1.tar.gz tmp/dedscumulus-0.0.3.tar.gz --markdown 20230421/d/dedscumulus/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 03:36:14] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/fc/00/59a9bbff594ec853b64b3170983059a87b4059abf7b49c66cbac31bd22af/pulumi_rancher2-4.0.0a1682018036.tar.gz
+[2023-04-21 03:36:14] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-04-21 03:36:14] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.7.1.tar.gz tmp/PySide6-Fluent-Widgets-0.7.2.tar.gz --markdown 20230421/P/PySide6-Fluent-Widgets/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-04-21 03:36:14] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2023-04-21 03:36:14] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-4.0.0.tar.gz tmp/pulumi_rancher2-4.0.0a1682018036.tar.gz --markdown 20230421/p/pulumi-rancher2/4.0.0-4.0.0a1682018036/diff.md --exclude *.pyd
+[2023-04-21 03:36:14] INFO root fetch - processPackages [hat-syslog]: executing diffoscope
+[2023-04-21 03:36:14] INFO root fetch - processPackages [hat-syslog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_syslog-0.7.2-cp38.cp39.cp310.cp311-none-any.whl.zip tmp/hat_syslog-0.7.3-cp38.cp39.cp310.cp311-none-any.whl.zip --markdown 20230421/h/hat-syslog/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-21 03:36:15] INFO root fetch - processPackages [multicall]: Start processing: aiohttp-deps
+[2023-04-21 03:36:15] INFO root fetch - main [MainThread]: End processing [multicall]: success
+[2023-04-21 03:36:15] WARNING root fetch - processPackages [aiohttp-deps]: Skipping, unable to determine old version
+[2023-04-21 03:36:15] INFO root fetch - main [MainThread]: End processing [aiohttp-deps] error
+[2023-04-21 03:36:15] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-04-21 03:36:15] INFO root fetch - main [MainThread]: End processing [tulp]: success
+[2023-04-21 03:36:15] INFO root fetch - main [MainThread]: End processing [dedscumulus]: success
+[2023-04-21 03:36:15] INFO root fetch - main [MainThread]: End processing [lazycsv]: success
+[2023-04-21 03:36:16] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-04-21 03:36:16] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2023-04-21 03:36:17] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-04-21 03:36:17] INFO root fetch - main [MainThread]: End processing [hat-syslog]: success
+[2023-04-21 03:36:18] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-04-21 03:36:18] INFO root fetch - main [MainThread]: Store serial: [17798083]
