@@ -20363,3 +20363,61 @@ EOFError: EOF read where object expected
 [2023-04-21 20:06:33] WARNING root fetch - processPackages [openmsistream]: Skipping package: exceeds size limit 12282581>=10485760
 [2023-04-21 20:06:33] INFO root fetch - main [MainThread]: End processing [openmsistream] error
 [2023-04-21 20:06:33] INFO root fetch - main [MainThread]: Store serial: [17806847]
+[2023-04-21 20:11:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806847]
+[2023-04-21 20:11:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-21 20:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-datamodel
+[2023-04-21 20:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acryl-datahub
+[2023-04-21 20:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdp-data
+[2023-04-21 20:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub-airflow-plugin
+[2023-04-21 20:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydra-zen
+[2023-04-21 20:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geostat
+[2023-04-21 20:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tank-wars-iit
+[2023-04-21 20:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: histomicsui
+[2023-04-21 20:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spark-etl
+[2023-04-21 20:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: astrodbkit2
+[2023-04-21 20:11:41] INFO root fetch - processPackages [geostat]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-04-21 20:11:41] WARNING root fetch - processPackages [tank-wars-iit]: Skipping, unable to determine old version
+[2023-04-21 20:11:41] INFO root fetch - main [MainThread]: End processing [tank-wars-iit] error
+[2023-04-21 20:11:41] INFO root fetch - processPackages [python-datamodel]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-21 20:11:41] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-04-21 20:11:41] INFO root fetch - processPackages [hydra-zen]: New version: [0.9.1] Old Version: [0.9.0rc5]
+[2023-04-21 20:11:41] INFO root fetch - processPackages [cdp-data]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 20:11:41] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-04-21 20:11:41] INFO root fetch - processPackages [histomicsui]: New version: [1.4.3.dev8] Old Version: [1.4.3.dev5]
+[2023-04-21 20:11:42] INFO root fetch - processPackages [spark-etl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 20:11:42] INFO root fetch - processPackages [astrodbkit2]: New version: [0.5.1] Old Version: [0.5]
+[2023-04-21 20:11:42] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-04-21 20:11:42] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230421/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-04-21 20:11:42] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-04-21 20:11:42] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230421/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-04-21 20:11:42] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2023-04-21 20:11:42] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.4.3.dev5.tar.gz tmp/histomicsui-1.4.3.dev8.tar.gz --markdown 20230421/h/histomicsui/1.4.3.dev5-1.4.3.dev8/diff.md --exclude *.pyd
+[2023-04-21 20:11:42] INFO root fetch - processPackages [cdp-data]: Downloading https://files.pythonhosted.org/packages/75/24/dcb7fa8e352c116b45b0c87f7c53d2e05b075b38b39723b3b694a6534a6e/cdp-data-0.0.8.tar.gz
+[2023-04-21 20:11:42] INFO root fetch - processPackages [spark-etl]: Downloading https://files.pythonhosted.org/packages/f6/be/7e08c267f5123631b2088717c2f3e8d79bc4f043484419afb99c3bd25456/spark-etl-0.0.98.tar.gz
+[2023-04-21 20:11:42] INFO root fetch - processPackages [astrodbkit2]: Downloading https://files.pythonhosted.org/packages/5f/c2/e3444fd2c00296ec1cff999b519b9cb684d3fe684ae127b39431dde30e52/astrodbkit2-0.5.tar.gz
+[2023-04-21 20:11:42] INFO root fetch - processPackages [geostat]: Downloading https://files.pythonhosted.org/packages/b7/b4/a9a6771a795469b3f60d62850edb18358b411ffb886455b61f86335842c7/geostat-0.8.3.tar.gz
+[2023-04-21 20:11:42] INFO root fetch - processPackages [python-datamodel]: executing diffoscope
+[2023-04-21 20:11:42] INFO root fetch - processPackages [python-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_datamodel-0.3.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_datamodel-0.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230421/p/python-datamodel/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-21 20:11:42] INFO root fetch - processPackages [hydra-zen]: executing diffoscope
+[2023-04-21 20:11:42] INFO root fetch - processPackages [hydra-zen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra_zen-0.9.0rc5.tar.gz tmp/hydra_zen-0.9.1.tar.gz --markdown 20230421/h/hydra-zen/0.9.0rc5-0.9.1/diff.md --exclude *.pyd
+[2023-04-21 20:11:42] INFO root fetch - processPackages [geostat]: executing diffoscope
+[2023-04-21 20:11:42] INFO root fetch - processPackages [geostat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geostat-0.8.2.tar.gz tmp/geostat-0.8.3.tar.gz --markdown 20230421/g/geostat/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-04-21 20:11:42] INFO root fetch - processPackages [astrodbkit2]: Downloading https://files.pythonhosted.org/packages/e5/84/a10e07af547ad7abf5f4648b0f960bd0846219c29c143780389ddcfe8aa7/astrodbkit2-0.5.1.tar.gz
+[2023-04-21 20:11:42] INFO root fetch - processPackages [cdp-data]: Downloading https://files.pythonhosted.org/packages/09/bc/9213484e12b52d5e7f2d95a597d59ae7116283b83fa3c07444037e4930ec/cdp-data-0.0.9.tar.gz
+[2023-04-21 20:11:42] INFO root fetch - processPackages [spark-etl]: Downloading https://files.pythonhosted.org/packages/7e/c5/872f0d9faab27544d5ecd31bfa811ab5f0d250333f8f1e6b04bf662c59a0/spark-etl-0.0.99.tar.gz
+[2023-04-21 20:11:42] INFO root fetch - processPackages [astrodbkit2]: executing diffoscope
+[2023-04-21 20:11:42] INFO root fetch - processPackages [astrodbkit2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrodbkit2-0.5.tar.gz tmp/astrodbkit2-0.5.1.tar.gz --markdown 20230421/a/astrodbkit2/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-04-21 20:11:42] INFO root fetch - processPackages [cdp-data]: executing diffoscope
+[2023-04-21 20:11:42] INFO root fetch - processPackages [cdp-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdp-data-0.0.8.tar.gz tmp/cdp-data-0.0.9.tar.gz --markdown 20230421/c/cdp-data/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 20:11:42] INFO root fetch - processPackages [spark-etl]: executing diffoscope
+[2023-04-21 20:11:42] INFO root fetch - processPackages [spark-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-etl-0.0.98.tar.gz tmp/spark-etl-0.0.99.tar.gz --markdown 20230421/s/spark-etl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 20:11:43] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-04-21 20:11:44] INFO root fetch - main [MainThread]: End processing [geostat]: success
+[2023-04-21 20:11:44] INFO root fetch - main [MainThread]: End processing [spark-etl]: success
+[2023-04-21 20:11:44] INFO root fetch - main [MainThread]: End processing [hydra-zen]: success
+[2023-04-21 20:11:44] INFO root fetch - main [MainThread]: End processing [astrodbkit2]: success
+[2023-04-21 20:11:47] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2023-04-21 20:11:48] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
+[2023-04-21 20:11:50] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-04-21 20:11:57] INFO root fetch - main [MainThread]: End processing [cdp-data]: success
+[2023-04-21 20:11:57] INFO root fetch - main [MainThread]: Store serial: [17806880]
