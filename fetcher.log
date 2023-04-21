@@ -8852,3 +8852,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 08:18:18] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
 [2023-04-21 08:18:22] INFO root fetch - main [MainThread]: End processing [pkgcore]: success
 [2023-04-21 08:18:22] INFO root fetch - main [MainThread]: Store serial: [17799671]
+[2023-04-21 08:23:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799671]
+[2023-04-21 08:23:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recon-lw
+[2023-04-21 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-periphery
+[2023-04-21 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vcsc-data-common
+[2023-04-21 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-04-21 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bp-data-visualization
+[2023-04-21 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Scrappers-dev
+[2023-04-21 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CnkiPythonMeta
+[2023-04-21 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bp-data-fabric
+[2023-04-21 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gwlandscape-python
+[2023-04-21 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kkpyutil
+[2023-04-21 08:23:30] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4757666702] Old Version: [2.0.0.dev4747760172]
+[2023-04-21 08:23:30] WARNING root fetch - processPackages [Scrappers-dev]: Skipping, unable to determine old version
+[2023-04-21 08:23:31] INFO root fetch - processPackages [Scrappers-dev]: Start processing: waveforms
+[2023-04-21 08:23:31] INFO root fetch - main [MainThread]: End processing [Scrappers-dev] error
+[2023-04-21 08:23:31] INFO root fetch - processPackages [gwlandscape-python]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-21 08:23:31] INFO root fetch - processPackages [python-periphery]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-04-21 08:23:31] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 08:23:31] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230421] Old Version: [1.5.3.dev20230420]
+[2023-04-21 08:23:31] INFO root fetch - processPackages [bp-data-fabric]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 08:23:31] WARNING root fetch - processPackages [CnkiPythonMeta]: Skipping, unable to determine old version
+[2023-04-21 08:23:31] INFO root fetch - main [MainThread]: End processing [CnkiPythonMeta] error
+[2023-04-21 08:23:31] INFO root fetch - processPackages [bp-data-visualization]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 08:23:31] INFO root fetch - processPackages [waveforms]: New version: [1.5.89] Old Version: [1.5.87]
+[2023-04-21 08:23:31] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-04-21 08:23:31] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/6d/5f/82e37440f9d5d85a5ce43ac4d042a573f284b5c8804a3b3462fe37fa206d/recon_lw-2.0.0.dev4747760172.tar.gz
+[2023-04-21 08:23:31] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-04-21 08:23:31] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp-data-visualization-0.0.8.tar.gz tmp/bp-data-visualization-0.0.9.tar.gz --markdown 20230421/b/bp-data-visualization/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 08:23:31] INFO root fetch - processPackages [bp-data-fabric]: Downloading https://files.pythonhosted.org/packages/4f/5e/d5f0aafb829f3e76f5bbf987b8a8dbb0ac8946d99d2a096ac07c37f1958a/bp_data_fabric-0.0.8.tar.gz
+[2023-04-21 08:23:31] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/5d/72/cf2095d37c2156627431f71eeeacc40d830d6221208f55b8543f6774c18f/pretext-1.5.3.dev20230421.tar.gz
+[2023-04-21 08:23:31] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/d4/d6/25f3b3b222959e84866b80f3b897419cf277e6449d62a6b9b608a7beb6c0/vcsc_data_common-0.1.3.tar.gz
+[2023-04-21 08:23:31] INFO root fetch - processPackages [gwlandscape-python]: Downloading https://files.pythonhosted.org/packages/c9/72/db39140ec42920f28747194918099e11b8b5386168d5ce1d908991b7de39/gwlandscape-python-0.3.1.tar.gz
+[2023-04-21 08:23:31] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/7a/7f/43293f9f6cd6615177e728db3ce2448a151d741b24665e08a870ecbe4d5a/waveforms-1.5.89.tar.gz
+[2023-04-21 08:23:31] INFO root fetch - processPackages [python-periphery]: Downloading https://files.pythonhosted.org/packages/df/f1/1a986ad2bb696033168db2121151e5ff90df033af780ffca47c8bb559f29/python-periphery-2.4.1.tar.gz
+[2023-04-21 08:23:31] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-04-21 08:23:31] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-0.0.7.tar.gz tmp/bp_data_fabric-0.0.8.tar.gz --markdown 20230421/b/bp-data-fabric/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 08:23:31] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-04-21 08:23:31] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.1.2.tar.gz tmp/vcsc_data_common-0.1.3.tar.gz --markdown 20230421/v/vcsc-data-common/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 08:23:31] INFO root fetch - processPackages [gwlandscape-python]: executing diffoscope
+[2023-04-21 08:23:31] INFO root fetch - processPackages [gwlandscape-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwlandscape-python-0.3.0.tar.gz tmp/gwlandscape-python-0.3.1.tar.gz --markdown 20230421/g/gwlandscape-python/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 08:23:31] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-04-21 08:23:31] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-04-21 08:23:31] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230421/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-04-21 08:23:31] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.87.tar.gz tmp/waveforms-1.5.89.tar.gz --markdown 20230421/w/waveforms/1.5.87-1.5.89/diff.md --exclude *.pyd
+[2023-04-21 08:23:31] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/7b/8a/d8a48e9c28bab84db415cba65ada38b9ecb4694ecbf5d9b1ca94d5e402d7/recon_lw-2.0.0.dev4757666702.tar.gz
+[2023-04-21 08:23:31] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-04-21 08:23:31] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230420.tar.gz tmp/pretext-1.5.3.dev20230421.tar.gz --markdown 20230421/p/pretext/1.5.3.dev20230420-1.5.3.dev20230421/diff.md --exclude *.pyd
+[2023-04-21 08:23:31] INFO root fetch - processPackages [python-periphery]: executing diffoscope
+[2023-04-21 08:23:31] INFO root fetch - processPackages [python-periphery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-periphery-2.4.0.tar.gz tmp/python-periphery-2.4.1.tar.gz --markdown 20230421/p/python-periphery/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-04-21 08:23:31] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-04-21 08:23:31] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4747760172.tar.gz tmp/recon_lw-2.0.0.dev4757666702.tar.gz --markdown 20230421/r/recon-lw/2.0.0.dev4747760172-2.0.0.dev4757666702/diff.md --exclude *.pyd
+[2023-04-21 08:23:32] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-04-21 08:23:32] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-04-21 08:23:32] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-04-21 08:23:33] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-04-21 08:23:33] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-04-21 08:23:33] INFO root fetch - main [MainThread]: End processing [gwlandscape-python]: success
+[2023-04-21 08:23:34] INFO root fetch - main [MainThread]: End processing [python-periphery]: success
+[2023-04-21 08:23:35] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-04-21 08:23:37] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-04-21 08:23:37] INFO root fetch - main [MainThread]: Store serial: [17799706]
