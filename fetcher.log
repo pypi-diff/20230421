@@ -23623,3 +23623,47 @@ EOFError: EOF read where object expected
 [2023-04-21 23:14:26] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-21 23:14:31] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-21 23:14:31] INFO root fetch - main [MainThread]: Store serial: [17808870]
+[2023-04-21 23:19:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808870]
+[2023-04-21 23:19:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-21 23:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shrike
+[2023-04-21 23:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws
+[2023-04-21 23:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twot
+[2023-04-21 23:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wordflow
+[2023-04-21 23:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybricksdev
+[2023-04-21 23:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantconnect-stubs
+[2023-04-21 23:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mongo-db-operation
+[2023-04-21 23:19:40] INFO root fetch - processPackages [twot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 23:19:40] INFO root fetch - processPackages [mongo-db-operation]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-21 23:19:40] INFO root fetch - processPackages [wordflow]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-21 23:19:40] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-04-21 23:19:40] INFO root fetch - processPackages [shrike]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-21 23:19:40] INFO root fetch - processPackages [pybricksdev]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-04-21 23:19:41] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-04-21 23:19:41] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230421/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-04-21 23:19:41] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-21 23:19:41] INFO root fetch - processPackages [twot]: Downloading https://files.pythonhosted.org/packages/e0/52/60bca552581678bb9fdfa1d4f4dc306062835287d06480a922de6b9755ab/twot-0.0.3.tar.gz
+[2023-04-21 23:19:41] INFO root fetch - processPackages [wordflow]: Downloading https://files.pythonhosted.org/packages/25/11/76afab8b1d3445e30b370a7977fb9d2d32c81bc949604f3065b8c7526763/wordflow-0.1.0.tar.gz
+[2023-04-21 23:19:41] INFO root fetch - processPackages [shrike]: Downloading https://files.pythonhosted.org/packages/67/29/d163d7fdeba6739e7cc411f549b5bc74b7d00a674448522865bac1a28819/shrike-1.9.4.tar.gz
+[2023-04-21 23:19:41] INFO root fetch - processPackages [twot]: executing diffoscope
+[2023-04-21 23:19:41] INFO root fetch - processPackages [twot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twot-0.0.2.tar.gz tmp/twot-0.0.3.tar.gz --markdown 20230421/t/twot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 23:19:41] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-21 23:19:41] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230421/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-21 23:19:41] INFO root fetch - processPackages [mongo-db-operation]: Downloading https://files.pythonhosted.org/packages/f1/b0/83116db21a8bbdba8b6c2254b1d52d2d2ef43072c48fa5607557b989fd3d/mongo_db_operation-1.0.8.tar.gz
+[2023-04-21 23:19:41] INFO root fetch - processPackages [wordflow]: Downloading https://files.pythonhosted.org/packages/35/6f/b5050f0208fa260ca3553997b869fee1a775d0367d8ce2fe365a7128cac0/wordflow-0.2.0.tar.gz
+[2023-04-21 23:19:41] INFO root fetch - processPackages [mongo-db-operation]: executing diffoscope
+[2023-04-21 23:19:41] INFO root fetch - processPackages [mongo-db-operation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_db_operation-1.0.7.tar.gz tmp/mongo_db_operation-1.0.8.tar.gz --markdown 20230421/m/mongo-db-operation/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-21 23:19:41] INFO root fetch - processPackages [pybricksdev]: executing diffoscope
+[2023-04-21 23:19:41] INFO root fetch - processPackages [pybricksdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybricksdev-1.0.0a8.tar.gz tmp/pybricksdev-1.0.0a9.tar.gz --markdown 20230421/p/pybricksdev/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-04-21 23:19:41] INFO root fetch - processPackages [wordflow]: executing diffoscope
+[2023-04-21 23:19:41] INFO root fetch - processPackages [wordflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordflow-0.1.0.tar.gz tmp/wordflow-0.2.0.tar.gz --markdown 20230421/w/wordflow/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 23:19:41] INFO root fetch - processPackages [shrike]: Downloading https://files.pythonhosted.org/packages/50/5a/b279e513d9765819f3f5cab873f8c3ac40ab37a954c06dcd3cdaded74e9e/shrike-1.9.5.tar.gz
+[2023-04-21 23:19:41] INFO root fetch - processPackages [shrike]: executing diffoscope
+[2023-04-21 23:19:41] INFO root fetch - processPackages [shrike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shrike-1.9.4.tar.gz tmp/shrike-1.9.5.tar.gz --markdown 20230421/s/shrike/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-21 23:19:42] INFO root fetch - main [MainThread]: End processing [twot]: success
+[2023-04-21 23:19:42] INFO root fetch - main [MainThread]: End processing [wordflow]: success
+[2023-04-21 23:19:43] INFO root fetch - main [MainThread]: End processing [mongo-db-operation]: success
+[2023-04-21 23:19:43] INFO root fetch - main [MainThread]: End processing [pybricksdev]: success
+[2023-04-21 23:19:43] INFO root fetch - main [MainThread]: End processing [shrike]: success
+[2023-04-21 23:19:46] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-21 23:20:18] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-04-21 23:20:18] INFO root fetch - main [MainThread]: Store serial: [17808892]
