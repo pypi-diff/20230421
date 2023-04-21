@@ -13536,3 +13536,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 13:27:09] INFO root fetch - main [MainThread]: End processing [postfix-logsums]: success
 [2023-04-21 13:27:10] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
 [2023-04-21 13:27:10] INFO root fetch - main [MainThread]: Store serial: [17802321]
+[2023-04-21 13:32:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802321]
+[2023-04-21 13:32:19] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bacteria
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchserve-nightly
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tuxmake
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-archiver-nightly
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-workflow-archiver-nightly
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: backtrader-binance
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: slisemap
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchrec-nightly
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ramodels
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-timeout
+[2023-04-21 13:32:19] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-21 13:32:19] INFO root fetch - processPackages [bacteria]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 13:32:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-21 13:32:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-21 13:32:19] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.4.9] Old Version: [2023.4.7]
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-21 13:32:19] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/00/82/319f3c998c1b886c648e7560fce0ad6d68fa06b6b8807405ce7adbe77519/torchserve_nightly-2023.4.8-py3-none-any.whl
+[2023-04-21 13:32:19] INFO root fetch - processPackages [python-timeout]: New version: [4.8] Old Version: [4.7]
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-21 13:32:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-04-21 13:32:19] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230421/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-21 13:32:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230421/t/torch-model-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-21 13:32:19] INFO root fetch - processPackages [backtrader-binance]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-21 13:32:19] INFO root fetch - processPackages [tuxmake]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-21 13:32:19] INFO root fetch - processPackages [slisemap]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-04-21 13:32:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-04-21 13:32:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230421/t/torch-workflow-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-21 13:32:19] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-04-21 13:32:19] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.4.7-py39-none-any.whl.zip tmp/torchrec_nightly-2023.4.9-py39-none-any.whl.zip --markdown 20230421/t/torchrec-nightly/2023.4.7-2023.4.9/diff.md --exclude *.pyd
+[2023-04-21 13:32:19] INFO root fetch - processPackages [bacteria]: Downloading https://files.pythonhosted.org/packages/d4/93/cd80552ef56ff8d1b795564fddcc5dccd73b802ca69d779047790b7c9af9/bacteria-0.0.4.tar.gz
+[2023-04-21 13:32:19] INFO root fetch - processPackages [tuxmake]: Downloading https://files.pythonhosted.org/packages/46/c5/0aaceffcdd95bee2b75b09418edaa4a8ebfcb471f6add06545661a9a1085/tuxmake-1.8.0.tar.gz
+[2023-04-21 13:32:19] INFO root fetch - processPackages [python-timeout]: Downloading https://files.pythonhosted.org/packages/75/91/d50c0daafef5574ad175754458e9c6f454266055ff41ea0b4fba8cd40a42/python-timeout-4.7.tar.gz
+[2023-04-21 13:32:19] INFO root fetch - processPackages [slisemap]: Downloading https://files.pythonhosted.org/packages/3f/9f/c261e35bea99bd27a7996dceee0b081e757a8b0766d87d6c570f31d21bf6/slisemap-1.5.1.tar.gz
+[2023-04-21 13:32:19] INFO root fetch - processPackages [backtrader-binance]: Downloading https://files.pythonhosted.org/packages/d9/71/2d114bf1a0fc59ad088855d50423946b1ab1833e9d44e21ff5733231b1ed/backtrader_binance-1.0.1.tar.gz
+[2023-04-21 13:32:19] INFO root fetch - processPackages [bacteria]: executing diffoscope
+[2023-04-21 13:32:19] INFO root fetch - processPackages [bacteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacteria-0.0.3.tar.gz tmp/bacteria-0.0.4.tar.gz --markdown 20230421/b/bacteria/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 13:32:19] INFO root fetch - processPackages [tuxmake]: Downloading https://files.pythonhosted.org/packages/63/d6/1a0d16774332729db06319fca66d2207f8696e0d3c2e8b3197b625cccb7b/tuxmake-1.9.0.tar.gz
+[2023-04-21 13:32:19] INFO root fetch - processPackages [python-timeout]: Downloading https://files.pythonhosted.org/packages/29/a5/8f05e94b8a9d6ce1b55928c1933cb96a2e2684584227438c7b305149fd0d/python-timeout-4.8.tar.gz
+[2023-04-21 13:32:20] INFO root fetch - processPackages [backtrader-binance]: Downloading https://files.pythonhosted.org/packages/92/a7/8574c5cdcf674993c793481e168ad6c0fa55c305de793a9b0de139d1a859/backtrader_binance-1.0.2.tar.gz
+[2023-04-21 13:32:20] INFO root fetch - processPackages [slisemap]: Downloading https://files.pythonhosted.org/packages/0c/33/d8acdb25f802208e520aa732d1a12b414b697689846f3fd568d5eb81332a/slisemap-1.5.2.tar.gz
+[2023-04-21 13:32:20] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23695640>=10485760
+[2023-04-21 13:32:20] INFO root fetch - processPackages [torchserve-nightly]: Start processing: MetaMatching
+[2023-04-21 13:32:20] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-04-21 13:32:20] WARNING root fetch - processPackages [MetaMatching]: Skipping, unable to determine old version
+[2023-04-21 13:32:20] INFO root fetch - processPackages [MetaMatching]: Start processing: eokulapi
+[2023-04-21 13:32:20] INFO root fetch - main [MainThread]: End processing [MetaMatching] error
+[2023-04-21 13:32:20] INFO root fetch - processPackages [tuxmake]: executing diffoscope
+[2023-04-21 13:32:20] INFO root fetch - processPackages [tuxmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxmake-1.8.0.tar.gz tmp/tuxmake-1.9.0.tar.gz --markdown 20230421/t/tuxmake/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 13:32:20] INFO root fetch - processPackages [eokulapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 13:32:20] INFO root fetch - processPackages [python-timeout]: executing diffoscope
+[2023-04-21 13:32:20] INFO root fetch - processPackages [python-timeout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-timeout-4.7.tar.gz tmp/python-timeout-4.8.tar.gz --markdown 20230421/p/python-timeout/4.7-4.8/diff.md --exclude *.pyd
+[2023-04-21 13:32:20] INFO root fetch - processPackages [backtrader-binance]: executing diffoscope
+[2023-04-21 13:32:20] INFO root fetch - processPackages [backtrader-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backtrader_binance-1.0.1.tar.gz tmp/backtrader_binance-1.0.2.tar.gz --markdown 20230421/b/backtrader-binance/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-21 13:32:20] INFO root fetch - processPackages [slisemap]: executing diffoscope
+[2023-04-21 13:32:20] INFO root fetch - processPackages [slisemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slisemap-1.5.1.tar.gz tmp/slisemap-1.5.2.tar.gz --markdown 20230421/s/slisemap/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-04-21 13:32:20] INFO root fetch - processPackages [eokulapi]: executing diffoscope
+[2023-04-21 13:32:20] INFO root fetch - processPackages [eokulapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eokulapi-0.0.8.tar.gz tmp/eokulapi-0.0.9.tar.gz --markdown 20230421/e/eokulapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 13:32:21] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: cgcsdk
+[2023-04-21 13:32:21] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-04-21 13:32:21] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: mikro
+[2023-04-21 13:32:21] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-04-21 13:32:21] INFO root fetch - processPackages [ramodels]: Start processing: dfsjson
+[2023-04-21 13:32:21] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-21 13:32:21] INFO root fetch - processPackages [cgcsdk]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-04-21 13:32:21] WARNING root fetch - processPackages [dfsjson]: Skipping, unable to determine old version
+[2023-04-21 13:32:21] INFO root fetch - processPackages [dfsjson]: Start processing: reptar
+[2023-04-21 13:32:21] INFO root fetch - main [MainThread]: End processing [dfsjson] error
+[2023-04-21 13:32:21] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 13:32:21] INFO root fetch - processPackages [reptar]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-04-21 13:32:21] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-04-21 13:32:21] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230421/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 13:32:21] INFO root fetch - processPackages [cgcsdk]: Downloading https://files.pythonhosted.org/packages/55/b5/369cf6672b50fd12ceb08ef72579420acf25b1922c0c5635bbdf7a81d4b8/cgcsdk-0.8.5.tar.gz
+[2023-04-21 13:32:21] INFO root fetch - processPackages [reptar]: Downloading https://files.pythonhosted.org/packages/94/4e/b4714164ad3107974ac40eb253b5b324bebbd22bf1cd043186e8d414b90b/reptar-0.0.3.tar.gz
+[2023-04-21 13:32:21] INFO root fetch - processPackages [cgcsdk]: executing diffoscope
+[2023-04-21 13:32:21] INFO root fetch - processPackages [cgcsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgcsdk-0.8.4.tar.gz tmp/cgcsdk-0.8.5.tar.gz --markdown 20230421/c/cgcsdk/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-04-21 13:32:21] INFO root fetch - main [MainThread]: End processing [bacteria]: success
+[2023-04-21 13:32:21] INFO root fetch - processPackages [reptar]: Downloading https://files.pythonhosted.org/packages/93/f2/f94aefc8cfb1a5bbf7652eecac97cdcc99bbe5c80f6ef3c4710c96357306/reptar-0.1.0.tar.gz
+[2023-04-21 13:32:21] INFO root fetch - main [MainThread]: End processing [slisemap]: success
+[2023-04-21 13:32:22] INFO root fetch - main [MainThread]: End processing [python-timeout]: success
+[2023-04-21 13:32:22] INFO root fetch - processPackages [reptar]: executing diffoscope
+[2023-04-21 13:32:22] INFO root fetch - processPackages [reptar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reptar-0.0.3.tar.gz tmp/reptar-0.1.0.tar.gz --markdown 20230421/r/reptar/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-04-21 13:32:22] INFO root fetch - main [MainThread]: End processing [backtrader-binance]: success
+[2023-04-21 13:32:22] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-04-21 13:32:22] INFO root fetch - main [MainThread]: End processing [eokulapi]: success
+[2023-04-21 13:32:23] INFO root fetch - main [MainThread]: End processing [cgcsdk]: success
+[2023-04-21 13:32:23] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-04-21 13:32:23] INFO root fetch - main [MainThread]: End processing [reptar]: success
+[2023-04-21 13:32:23] INFO root fetch - main [MainThread]: End processing [tuxmake]: success
+[2023-04-21 13:32:23] INFO root fetch - main [MainThread]: Store serial: [17802376]
