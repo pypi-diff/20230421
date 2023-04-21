@@ -8069,3 +8069,25 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 06:56:28] INFO root fetch - main [MainThread]: End processing [sumologiccse]: success
 [2023-04-21 06:56:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account-date]: success
 [2023-04-21 06:56:28] INFO root fetch - main [MainThread]: Store serial: [17799211]
+[2023-04-21 07:01:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799211]
+[2023-04-21 07:01:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-21 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sa-package
+[2023-04-21 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: har2jicase
+[2023-04-21 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsptrain
+[2023-04-21 07:01:37] INFO root fetch - processPackages [har2jicase]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-21 07:01:37] INFO root fetch - processPackages [sa-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 07:01:37] INFO root fetch - processPackages [lsptrain]: New version: [0.0.47] Old Version: [0.0.46]
+[2023-04-21 07:01:37] INFO root fetch - processPackages [har2jicase]: Downloading https://files.pythonhosted.org/packages/66/44/9e3a73c4874c822d81f149a968825384e42acd3665976c1856a7318ff9ad/har2jicase-0.0.5.tar.gz
+[2023-04-21 07:01:37] INFO root fetch - processPackages [sa-package]: Downloading https://files.pythonhosted.org/packages/f7/15/d0d6442a6aef800495f0af55b01afcab29ca91ed762b696746537757805d/sa_package-0.0.8.tar.gz
+[2023-04-21 07:01:37] INFO root fetch - processPackages [lsptrain]: Downloading https://files.pythonhosted.org/packages/45/ba/0930b42765b2620fa27b2efb1c0725a712686b78c9c6f9f16e1b936a3b51/lsptrain-0.0.47.tar.gz
+[2023-04-21 07:01:37] INFO root fetch - processPackages [har2jicase]: executing diffoscope
+[2023-04-21 07:01:37] INFO root fetch - processPackages [har2jicase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2jicase-0.0.4.tar.gz tmp/har2jicase-0.0.5.tar.gz --markdown 20230421/h/har2jicase/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 07:01:37] INFO root fetch - processPackages [lsptrain]: executing diffoscope
+[2023-04-21 07:01:37] INFO root fetch - processPackages [lsptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsptrain-0.0.46.tar.gz tmp/lsptrain-0.0.47.tar.gz --markdown 20230421/l/lsptrain/0.0.46-0.0.47/diff.md --exclude *.pyd
+[2023-04-21 07:01:37] INFO root fetch - processPackages [sa-package]: Downloading https://files.pythonhosted.org/packages/5f/c1/4ff0dee94078fd5089378ebc05cde8cc5ca283e7791a56ce222defdb70ca/sa_package-0.0.9.tar.gz
+[2023-04-21 07:01:37] INFO root fetch - processPackages [sa-package]: executing diffoscope
+[2023-04-21 07:01:37] INFO root fetch - processPackages [sa-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sa_package-0.0.8.tar.gz tmp/sa_package-0.0.9.tar.gz --markdown 20230421/s/sa-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 07:01:38] INFO root fetch - main [MainThread]: End processing [har2jicase]: success
+[2023-04-21 07:01:38] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
+[2023-04-21 07:01:38] INFO root fetch - main [MainThread]: End processing [sa-package]: success
+[2023-04-21 07:01:38] INFO root fetch - main [MainThread]: Store serial: [17799224]
