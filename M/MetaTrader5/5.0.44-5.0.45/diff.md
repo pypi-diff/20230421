@@ -1,4 +1,4 @@
-# Comparing `tmp/MetaTrader5-5.0.44-cp39-cp39-win_amd64.whl.zip` & `tmp/MetaTrader5-5.0.45-cp38-cp38-win_amd64.whl.zip`
+# Comparing `tmp/MetaTrader5-5.0.44-cp39-cp39-win_amd64.whl.zip` & `tmp/MetaTrader5-5.0.45-cp39-cp39-win_amd64.whl.zip`
 
 ## zipinfo {}
 
@@ -13,15 +13,15 @@
 --rw-rw-rw-  2.0 fat       12 b- defN 23-Feb-15 00:27 MetaTrader5-5.0.44.dist-info/top_level.txt
 -?rw-rw-r--  2.0 fat      592 b- defN 23-Feb-15 00:27 MetaTrader5-5.0.44.dist-info/RECORD
 -7 files, 160374 bytes uncompressed, 56054 bytes compressed:  65.0%
-+Zip file size: 57404 bytes, number of entries: 7
++Zip file size: 57158 bytes, number of entries: 7
 +-rw-rw-rw-  2.0 fat    17680 b- defN 23-Apr-21 14:33 MetaTrader5/__init__.py
-+-rw-rw-rw-  2.0 fat   139264 b- defN 23-Apr-21 14:33 MetaTrader5/_core.cp38-win_amd64.pyd
++-rw-rw-rw-  2.0 fat   138752 b- defN 23-Apr-21 14:33 MetaTrader5/_core.cp39-win_amd64.pyd
 +-rw-rw-rw-  2.0 fat     1065 b- defN 23-Apr-21 14:33 MetaTrader5-5.0.45.dist-info/LICENSE.txt
-+-rw-rw-rw-  2.0 fat     2309 b- defN 23-Apr-21 14:33 MetaTrader5-5.0.45.dist-info/METADATA
++-rw-rw-rw-  2.0 fat     2336 b- defN 23-Apr-21 14:33 MetaTrader5-5.0.45.dist-info/METADATA
 +-rw-rw-rw-  2.0 fat      100 b- defN 23-Apr-21 14:33 MetaTrader5-5.0.45.dist-info/WHEEL
 +-rw-rw-rw-  2.0 fat       12 b- defN 23-Apr-21 14:33 MetaTrader5-5.0.45.dist-info/top_level.txt
 +?rw-rw-r--  2.0 fat      592 b- defN 23-Apr-21 14:33 MetaTrader5-5.0.45.dist-info/RECORD
-+7 files, 161022 bytes uncompressed, 56356 bytes compressed:  65.0%
++7 files, 160537 bytes uncompressed, 56110 bytes compressed:  65.0%
 ```
 
 ## zipnote {}
@@ -31,8 +31,7 @@
  Filename: MetaTrader5/__init__.py
  Comment: 
  
--Filename: MetaTrader5/_core.cp39-win_amd64.pyd
-+Filename: MetaTrader5/_core.cp38-win_amd64.pyd
+ Filename: MetaTrader5/_core.cp39-win_amd64.pyd
  Comment: 
  
 -Filename: MetaTrader5-5.0.44.dist-info/LICENSE.txt
@@ -101,7 +100,7 @@
 
 ## Comparing `MetaTrader5-5.0.44.dist-info/METADATA` & `MetaTrader5-5.0.45.dist-info/METADATA`
 
- * *Files 2% similar despite different names*
+ * *Files 4% similar despite different names*
 
 ```diff
 @@ -1,10 +1,10 @@
@@ -116,20 +115,5 @@
  Maintainer: MetaQuotes Ltd.
  Maintainer-email: plugins@metaquotes.net
  License: MIT
-@@ -20,15 +20,14 @@
- Classifier: Programming Language :: Python :: 3.7
- Classifier: Programming Language :: Python :: 3.8
- Classifier: Programming Language :: Python :: 3.9
- Classifier: Programming Language :: Python :: 3.10
- Classifier: Programming Language :: Python :: 3.11
- Requires-Python: >3.5, <4
- Description-Content-Type: text/x-rst
--License-File: LICENSE.txt
- Requires-Dist: numpy (>=1.7)
- 
- `MetaTrader <https://www.metatrader5.com>`_ is a multi-asset platform for trading in the Forex market and stock exchanges.
- In addition to the basic trading functionality which enables access to financial markets, the platform provides powerful
- tools for analyzing vast amounts of price data. These include charts, technical indicators, graphical objects and the
- built-in C-like MQL5 programming language.
 ```
 

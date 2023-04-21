@@ -17100,3 +17100,135 @@ EOFError: EOF read where object expected
 [2023-04-21 16:38:25] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-aws-vpcs]: success
 [2023-04-21 16:38:40] INFO root fetch - main [MainThread]: End processing [MetaTrader5]: success
 [2023-04-21 16:38:40] INFO root fetch - main [MainThread]: Store serial: [17804665]
+[2023-04-21 16:43:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17804665]
+[2023-04-21 16:43:49] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-21 16:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MetaTrader5
+[2023-04-21 16:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resotolib
+[2023-04-21 16:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resoto-plugin-aws
+[2023-04-21 16:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resoto-plugin-protector
+[2023-04-21 16:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resotoworker
+[2023-04-21 16:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plone.app.upgrade
+[2023-04-21 16:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quantplay
+[2023-04-21 16:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neurodeploy
+[2023-04-21 16:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-crm-sale-order-line-contract
+[2023-04-21 16:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quantplay
+[2023-04-21 16:43:50] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: New version: [12.0.0.0.2] Old Version: [12.0.0.0.1]
+[2023-04-21 16:43:50] INFO root fetch - processPackages [neurodeploy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 16:43:50] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: executing diffoscope
+[2023-04-21 16:43:50] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_crm_sale_order_line_contract-12.0.0.0.1-py3-none-any.whl.zip tmp/odoo12_addon_crm_sale_order_line_contract-12.0.0.0.2-py3-none-any.whl.zip --markdown 20230421/o/odoo12-addon-crm-sale-order-line-contract/12.0.0.0.1-12.0.0.0.2/diff.md --exclude *.pyd
+[2023-04-21 16:43:50] INFO root fetch - processPackages [neurodeploy]: executing diffoscope
+[2023-04-21 16:43:50] INFO root fetch - processPackages [neurodeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurodeploy-0.0.8.tar.gz tmp/neurodeploy-0.0.9.tar.gz --markdown 20230421/n/neurodeploy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resotoworker]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resoto-plugin-protector]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resotolib]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-04-21 16:43:50] INFO root fetch - processPackages [MetaTrader5]: New version: [5.0.45] Old Version: [5.0.44]
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resoto-plugin-aws]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-04-21 16:43:50] INFO root fetch - processPackages [plone.app.upgrade]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-04-21 16:43:50] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-21 16:43:50] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resotoworker]: Downloading https://files.pythonhosted.org/packages/00/91/d772a6da9d1bf818f9051b045805d13f66f17abd300d51797e14f6fe0d0c/resotoworker-3.3.3.tar.gz
+[2023-04-21 16:43:50] INFO root fetch - processPackages [MetaTrader5]: Downloading https://files.pythonhosted.org/packages/38/c5/a077c01167e794b01028bc52ae5648d19c33736c182b62f52a6a119eab86/MetaTrader5-5.0.45-cp39-cp39-win_amd64.whl
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resoto-plugin-protector]: Downloading https://files.pythonhosted.org/packages/d9/95/09f1352ac0d1f4f0e650319ee3675b38c38c599eef11304d416bba382d2f/resoto-plugin-protector-3.3.3.tar.gz
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resotolib]: Downloading https://files.pythonhosted.org/packages/f1/b2/fc61cc381988f70c31ca5bd21560e60d0612a0a9375e9384a46282244953/resotolib-3.3.3.tar.gz
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resoto-plugin-aws]: Downloading https://files.pythonhosted.org/packages/e5/53/d0983ef3792e36b0b75c82564e1b2150449766d5a0ee82e9279ba8bbff69/resoto-plugin-aws-3.3.3.tar.gz
+[2023-04-21 16:43:50] INFO root fetch - processPackages [plone.app.upgrade]: Downloading https://files.pythonhosted.org/packages/d2/35/1d25ad42ee2473a18836158ad31ad03c7df730622a76c3b5624ba1ea5468/plone.app.upgrade-3.0.4.tar.gz
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resotoworker]: executing diffoscope
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resotoworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotoworker-3.3.2.tar.gz tmp/resotoworker-3.3.3.tar.gz --markdown 20230421/r/resotoworker/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-04-21 16:43:50] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-21 16:43:50] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230421/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-21 16:43:50] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-21 16:43:50] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230421/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resoto-plugin-protector]: executing diffoscope
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resoto-plugin-protector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-protector-3.3.2.tar.gz tmp/resoto-plugin-protector-3.3.3.tar.gz --markdown 20230421/r/resoto-plugin-protector/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-04-21 16:43:50] INFO root fetch - processPackages [MetaTrader5]: executing diffoscope
+[2023-04-21 16:43:50] INFO root fetch - processPackages [MetaTrader5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MetaTrader5-5.0.44-cp39-cp39-win_amd64.whl.zip tmp/MetaTrader5-5.0.45-cp39-cp39-win_amd64.whl.zip --markdown 20230421/M/MetaTrader5/5.0.44-5.0.45/diff.md --exclude *.pyd
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resotolib]: executing diffoscope
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resotolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotolib-3.3.2.tar.gz tmp/resotolib-3.3.3.tar.gz --markdown 20230421/r/resotolib/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resoto-plugin-aws]: executing diffoscope
+[2023-04-21 16:43:50] INFO root fetch - processPackages [resoto-plugin-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-aws-3.3.2.tar.gz tmp/resoto-plugin-aws-3.3.3.tar.gz --markdown 20230421/r/resoto-plugin-aws/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-04-21 16:43:50] INFO root fetch - processPackages [plone.app.upgrade]: executing diffoscope
+[2023-04-21 16:43:50] INFO root fetch - processPackages [plone.app.upgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.upgrade-3.0.3.tar.gz tmp/plone.app.upgrade-3.0.4.tar.gz --markdown 20230421/p/plone.app.upgrade/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-04-21 16:43:51] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: Start processing: clientcentral
+[2023-04-21 16:43:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line-contract]: success
+[2023-04-21 16:43:51] INFO root fetch - processPackages [neurodeploy]: Start processing: secapi-tl
+[2023-04-21 16:43:51] INFO root fetch - main [MainThread]: End processing [neurodeploy]: success
+[2023-04-21 16:43:51] INFO root fetch - processPackages [clientcentral]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-04-21 16:43:51] INFO root fetch - processPackages [secapi-tl]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-21 16:43:52] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/cc/49/2a4236997d98c7af1603971eae984fed5aac7f1de920eeee8c3ec6c5c651/secapi-tl-1.1.5.tar.gz
+[2023-04-21 16:43:52] INFO root fetch - processPackages [clientcentral]: executing diffoscope
+[2023-04-21 16:43:52] INFO root fetch - processPackages [clientcentral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clientcentral-9.2.1.tar.gz tmp/clientcentral-9.2.2.tar.gz --markdown 20230421/c/clientcentral/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-04-21 16:43:52] INFO root fetch - processPackages [resotoworker]: Start processing: resotocore
+[2023-04-21 16:43:52] INFO root fetch - main [MainThread]: End processing [resotoworker]: success
+[2023-04-21 16:43:52] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/be/b2/11e0fbb1cc971a7b486dc59194bc662c298f9a38b369ece22ba2a47ca6e2/secapi-tl-1.1.6.tar.gz
+[2023-04-21 16:43:52] INFO root fetch - processPackages [resotocore]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-04-21 16:43:52] INFO root fetch - processPackages [secapi-tl]: executing diffoscope
+[2023-04-21 16:43:52] INFO root fetch - processPackages [secapi-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secapi-tl-1.1.5.tar.gz tmp/secapi-tl-1.1.6.tar.gz --markdown 20230421/s/secapi-tl/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-21 16:43:52] INFO root fetch - processPackages [MetaTrader5]: Start processing: NamasteiG
+[2023-04-21 16:43:52] INFO root fetch - main [MainThread]: End processing [MetaTrader5]: success
+[2023-04-21 16:43:52] INFO root fetch - processPackages [NamasteiG]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-21 16:43:52] INFO root fetch - processPackages [quantplay]: Start processing: reaktion
+[2023-04-21 16:43:52] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-21 16:43:52] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 16:43:52] INFO root fetch - processPackages [resotocore]: Downloading https://files.pythonhosted.org/packages/94/82/d332ca7edb204e34fc5e667d7579d996db1752ae2d55c7f00a40e980e42a/resotocore-3.3.3.tar.gz
+[2023-04-21 16:43:52] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-04-21 16:43:52] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230421/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 16:43:52] INFO root fetch - processPackages [quantplay]: Start processing: kaiju-tools
+[2023-04-21 16:43:52] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-21 16:43:52] INFO root fetch - processPackages [kaiju-tools]: New version: [2.0.48] Old Version: [2.0.47]
+[2023-04-21 16:43:52] INFO root fetch - processPackages [NamasteiG]: Downloading https://files.pythonhosted.org/packages/1c/ec/c19217f59a5a3c0d8a6515fe6e885083c5e624939b52f48e156e55fa998f/NamasteiG-0.2.7.tar.gz
+[2023-04-21 16:43:52] INFO root fetch - processPackages [resotocore]: executing diffoscope
+[2023-04-21 16:43:52] INFO root fetch - processPackages [resotocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotocore-3.3.2.tar.gz tmp/resotocore-3.3.3.tar.gz --markdown 20230421/r/resotocore/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-04-21 16:43:52] INFO root fetch - processPackages [kaiju-tools]: executing diffoscope
+[2023-04-21 16:43:52] INFO root fetch - processPackages [kaiju-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tools-2.0.47-py3-none-any.whl.zip tmp/kaiju_tools-2.0.48-py3-none-any.whl.zip --markdown 20230421/k/kaiju-tools/2.0.47-2.0.48/diff.md --exclude *.pyd
+[2023-04-21 16:43:53] INFO root fetch - processPackages [NamasteiG]: executing diffoscope
+[2023-04-21 16:43:53] INFO root fetch - processPackages [NamasteiG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NamasteiG-0.2.6.tar.gz tmp/NamasteiG-0.2.7.tar.gz --markdown 20230421/N/NamasteiG/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-21 16:43:53] INFO root fetch - processPackages [resoto-plugin-protector]: Start processing: reaktion
+[2023-04-21 16:43:53] INFO root fetch - main [MainThread]: End processing [resoto-plugin-protector]: success
+[2023-04-21 16:43:53] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 16:43:53] INFO root fetch - processPackages [resotolib]: Start processing: solara-enterprise
+[2023-04-21 16:43:53] INFO root fetch - main [MainThread]: End processing [resotolib]: success
+[2023-04-21 16:43:53] INFO root fetch - processPackages [resoto-plugin-aws]: Start processing: cfgs
+[2023-04-21 16:43:53] INFO root fetch - main [MainThread]: End processing [resoto-plugin-aws]: success
+[2023-04-21 16:43:53] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-04-21 16:43:53] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230421/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 16:43:53] WARNING root fetch - processPackages [solara-enterprise]: Skipping, unable to determine old version
+[2023-04-21 16:43:53] INFO root fetch - processPackages [solara-enterprise]: Start processing: flow-pilot
+[2023-04-21 16:43:53] INFO root fetch - main [MainThread]: End processing [solara-enterprise] error
+[2023-04-21 16:43:53] INFO root fetch - processPackages [flow-pilot]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 16:43:53] INFO root fetch - processPackages [cfgs]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-04-21 16:43:53] INFO root fetch - processPackages [flow-pilot]: executing diffoscope
+[2023-04-21 16:43:53] INFO root fetch - processPackages [flow-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow_pilot-0.1.2.tar.gz tmp/flow_pilot-0.1.3.tar.gz --markdown 20230421/f/flow-pilot/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 16:43:53] INFO root fetch - processPackages [cfgs]: Downloading https://files.pythonhosted.org/packages/92/a4/1a0423ebda948995e75ad41cc6f8ba6c55e94f82578c726def1a11bb29db/cfgs-0.9.7.tar.gz
+[2023-04-21 16:43:53] INFO root fetch - processPackages [cfgs]: Downloading https://files.pythonhosted.org/packages/8d/8d/64113e74c008a6b0a22e15d3f7323fcb418cc7ff4e25147116f41358c5aa/cfgs-0.9.9.tar.gz
+[2023-04-21 16:43:54] INFO root fetch - processPackages [plone.app.upgrade]: Start processing: keyvalues3
+[2023-04-21 16:43:54] INFO root fetch - main [MainThread]: End processing [plone.app.upgrade]: success
+[2023-04-21 16:43:54] INFO root fetch - processPackages [cfgs]: executing diffoscope
+[2023-04-21 16:43:54] INFO root fetch - processPackages [cfgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfgs-0.9.7.tar.gz tmp/cfgs-0.9.9.tar.gz --markdown 20230421/c/cfgs/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 16:43:54] INFO root fetch - processPackages [secapi-tl]: Start processing: gentrace-py
+[2023-04-21 16:43:54] INFO root fetch - main [MainThread]: End processing [secapi-tl]: success
+[2023-04-21 16:43:54] INFO root fetch - processPackages [gentrace-py]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-04-21 16:43:54] INFO root fetch - processPackages [keyvalues3]: New version: [0.1a2] Old Version: [0.1a1]
+[2023-04-21 16:43:54] INFO root fetch - processPackages [clientcentral]: Start processing: gocart
+[2023-04-21 16:43:54] INFO root fetch - main [MainThread]: End processing [clientcentral]: success
+[2023-04-21 16:43:54] INFO root fetch - processPackages [keyvalues3]: Downloading https://files.pythonhosted.org/packages/f4/40/a437d05cf77fc7e8db26f24340e9b1f0d742d1eacc83b4590ceb9cb8b30c/keyvalues3-0.1a1.tar.gz
+[2023-04-21 16:43:54] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/7e/67/af66bb574c9a262c93f503103b93b94c237de74c39c4bb0cdec615cec36f/gentrace_py-0.5.0.tar.gz
+[2023-04-21 16:43:54] INFO root fetch - processPackages [gentrace-py]: executing diffoscope
+[2023-04-21 16:43:54] INFO root fetch - processPackages [gentrace-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentrace_py-0.4.1.tar.gz tmp/gentrace_py-0.5.0.tar.gz --markdown 20230421/g/gentrace-py/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-04-21 16:43:54] INFO root fetch - processPackages [gocart]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 16:43:54] INFO root fetch - processPackages [keyvalues3]: Downloading https://files.pythonhosted.org/packages/c8/40/6aba825e645328b6b59ab9374b007939261008fabfebd223f45758d66be8/keyvalues3-0.1a2.tar.gz
+[2023-04-21 16:43:54] INFO root fetch - processPackages [keyvalues3]: executing diffoscope
+[2023-04-21 16:43:54] INFO root fetch - processPackages [keyvalues3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyvalues3-0.1a1.tar.gz tmp/keyvalues3-0.1a2.tar.gz --markdown 20230421/k/keyvalues3/0.1a1-0.1a2/diff.md --exclude *.pyd
+[2023-04-21 16:43:54] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-04-21 16:43:54] INFO root fetch - processPackages [gocart]: executing diffoscope
+[2023-04-21 16:43:54] INFO root fetch - processPackages [gocart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocart-0.1.8.tar.gz tmp/gocart-0.1.9.tar.gz --markdown 20230421/g/gocart/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 16:43:55] INFO root fetch - main [MainThread]: End processing [NamasteiG]: success
+[2023-04-21 16:43:55] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-04-21 16:43:55] INFO root fetch - main [MainThread]: End processing [flow-pilot]: success
+[2023-04-21 16:43:55] INFO root fetch - main [MainThread]: End processing [kaiju-tools]: success
+[2023-04-21 16:43:55] INFO root fetch - main [MainThread]: End processing [cfgs]: success
+[2023-04-21 16:43:56] INFO root fetch - main [MainThread]: End processing [gentrace-py]: success
+[2023-04-21 16:43:56] INFO root fetch - main [MainThread]: End processing [keyvalues3]: success
+[2023-04-21 16:43:56] INFO root fetch - main [MainThread]: End processing [gocart]: success
+[2023-04-21 16:46:53] ERROR root fetch - processPackages [resotocore]: Timeout during execution of pkgdiff
+[2023-04-21 16:46:53] INFO root fetch - main [MainThread]: End processing [resotocore] error
+[2023-04-21 16:46:53] INFO root fetch - main [MainThread]: Store serial: [17804743]
