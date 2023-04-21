@@ -13954,3 +13954,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 13:54:02] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
 [2023-04-21 13:54:05] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-04-21 13:54:05] INFO root fetch - main [MainThread]: Store serial: [17802566]
+[2023-04-21 13:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802566]
+[2023-04-21 13:59:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 13:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nalyst
+[2023-04-21 13:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gym-saturation
+[2023-04-21 13:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ykenan-fragments
+[2023-04-21 13:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: valmi-connector-lib
+[2023-04-21 13:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OMGITSLACKO
+[2023-04-21 13:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certbot-onion
+[2023-04-21 13:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: globalemu
+[2023-04-21 13:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: griffon
+[2023-04-21 13:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-azure
+[2023-04-21 13:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: newsdash
+[2023-04-21 13:59:14] INFO root fetch - processPackages [griffon]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 13:59:14] WARNING root fetch - processPackages [OMGITSLACKO]: Skipping, unable to determine old version
+[2023-04-21 13:59:14] INFO root fetch - processPackages [OMGITSLACKO]: Start processing: kcli
+[2023-04-21 13:59:14] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 13:59:14] INFO root fetch - main [MainThread]: End processing [OMGITSLACKO] error
+[2023-04-21 13:59:14] INFO root fetch - processPackages [certbot-onion]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 13:59:14] WARNING root fetch - processPackages [newsdash]: Skipping, unable to determine old version
+[2023-04-21 13:59:14] INFO root fetch - processPackages [newsdash]: Start processing: fluss
+[2023-04-21 13:59:14] INFO root fetch - main [MainThread]: End processing [newsdash] error
+[2023-04-21 13:59:14] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-04-21 13:59:14] INFO root fetch - processPackages [kcli]: New version: [99.0.202304201323] Old Version: [99.0.202304200910]
+[2023-04-21 13:59:14] WARNING root fetch - processPackages [ykenan-fragments]: Skipping, unable to determine old version
+[2023-04-21 13:59:14] INFO root fetch - main [MainThread]: End processing [ykenan-fragments] error
+[2023-04-21 13:59:14] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-21 13:59:14] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230421/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 13:59:14] WARNING root fetch - processPackages [nalyst]: Skipping, unable to determine old version
+[2023-04-21 13:59:14] INFO root fetch - processPackages [globalemu]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-04-21 13:59:14] INFO root fetch - main [MainThread]: End processing [nalyst] error
+[2023-04-21 13:59:14] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-04-21 13:59:14] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.1.8.tar.gz tmp/griffon-0.1.9.tar.gz --markdown 20230421/g/griffon/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 13:59:14] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-04-21 13:59:14] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230421/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-04-21 13:59:14] INFO root fetch - processPackages [gym-saturation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-21 13:59:14] INFO root fetch - processPackages [fluss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 13:59:14] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-21 13:59:14] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304200910-py3-none-any.whl.zip tmp/kcli-99.0.202304201323-py3-none-any.whl.zip --markdown 20230421/k/kcli/99.0.202304200910-99.0.202304201323/diff.md --exclude *.pyd
+[2023-04-21 13:59:14] INFO root fetch - processPackages [globalemu]: Downloading https://files.pythonhosted.org/packages/8f/60/b533841031028a826a12a09af90a31490215f703a91767d94ace0ed9e2bf/globalemu-1.5.1.tar.gz
+[2023-04-21 13:59:14] INFO root fetch - processPackages [certbot-onion]: Downloading https://files.pythonhosted.org/packages/dd/7c/bd7b5d52111aa3707c8e7744baeeac3908f6abd5a4afe1237fa36747aa9e/certbot-onion-0.1.2.tar.gz
+[2023-04-21 13:59:14] INFO root fetch - processPackages [gym-saturation]: Downloading https://files.pythonhosted.org/packages/a1/28/ff4b16cdf85c4a62f8ac5d0965076231ba341bb8627385755e30800edc2d/gym_saturation-0.9.2.tar.gz
+[2023-04-21 13:59:15] INFO root fetch - processPackages [fluss]: executing diffoscope
+[2023-04-21 13:59:15] INFO root fetch - processPackages [fluss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluss-0.1.8.tar.gz tmp/fluss-0.1.9.tar.gz --markdown 20230421/f/fluss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 13:59:15] INFO root fetch - processPackages [certbot-onion]: executing diffoscope
+[2023-04-21 13:59:15] INFO root fetch - processPackages [certbot-onion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-onion-0.1.1.tar.gz tmp/certbot-onion-0.1.2.tar.gz --markdown 20230421/c/certbot-onion/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 13:59:15] INFO root fetch - processPackages [gym-saturation]: Downloading https://files.pythonhosted.org/packages/72/43/ead26fdc1c43cba43dcebaaa10e41fb56239fa33e174049c222d2e3eec2b/gym_saturation-0.9.3.tar.gz
+[2023-04-21 13:59:15] INFO root fetch - processPackages [globalemu]: Downloading https://files.pythonhosted.org/packages/92/04/9f1416ae6b1f4deed9b9e0c88ad20adc2383e97a16f5776c53978795b7a5/globalemu-1.6.0.tar.gz
+[2023-04-21 13:59:15] INFO root fetch - processPackages [gym-saturation]: executing diffoscope
+[2023-04-21 13:59:15] INFO root fetch - processPackages [gym-saturation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_saturation-0.9.2.tar.gz tmp/gym_saturation-0.9.3.tar.gz --markdown 20230421/g/gym-saturation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-21 13:59:15] INFO root fetch - processPackages [globalemu]: executing diffoscope
+[2023-04-21 13:59:15] INFO root fetch - processPackages [globalemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globalemu-1.5.1.tar.gz tmp/globalemu-1.6.0.tar.gz --markdown 20230421/g/globalemu/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-04-21 13:59:15] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-21 13:59:16] INFO root fetch - main [MainThread]: End processing [certbot-onion]: success
+[2023-04-21 13:59:16] INFO root fetch - main [MainThread]: End processing [fluss]: success
+[2023-04-21 13:59:16] INFO root fetch - main [MainThread]: End processing [globalemu]: success
+[2023-04-21 13:59:17] INFO root fetch - main [MainThread]: End processing [gym-saturation]: success
+[2023-04-21 13:59:17] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-04-21 13:59:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-21 13:59:43] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-04-21 13:59:43] INFO root fetch - main [MainThread]: Store serial: [17802632]
