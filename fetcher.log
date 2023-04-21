@@ -22756,3 +22756,96 @@ EOFError: EOF read where object expected
 [2023-04-21 22:19:34] INFO root fetch - main [MainThread]: End processing [peewee]: success
 [2023-04-21 22:19:34] INFO root fetch - main [MainThread]: End processing [tnsu]: success
 [2023-04-21 22:19:34] INFO root fetch - main [MainThread]: Store serial: [17808346]
+[2023-04-21 22:24:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808346]
+[2023-04-21 22:24:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-21 22:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pvmodule
+[2023-04-21 22:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foursight-core
+[2023-04-21 22:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaml-stripper
+[2023-04-21 22:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-04-21 22:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pcg-skel
+[2023-04-21 22:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-04-21 22:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yaml-stripper
+[2023-04-21 22:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: theseus-ai-nightly
+[2023-04-21 22:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atenpdu
+[2023-04-21 22:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: foursight-cgap
+[2023-04-21 22:24:45] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 22:24:45] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 22:24:45] INFO root fetch - processPackages [foursight-core]: New version: [4.1.0.1b5] Old Version: [4.1.0.1b3]
+[2023-04-21 22:24:45] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 22:24:45] INFO root fetch - processPackages [foursight-cgap]: New version: [3.4.0.1b5] Old Version: [3.4.0.1b4]
+[2023-04-21 22:24:45] INFO root fetch - processPackages [theseus-ai-nightly]: New version: [2023.4.21] Old Version: [2023.4.12]
+[2023-04-21 22:24:45] INFO root fetch - processPackages [pcg-skel]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-04-21 22:24:45] INFO root fetch - processPackages [atenpdu]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-21 22:24:45] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 22:24:45] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 22:24:45] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-04-21 22:24:45] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.1.0.1b3.tar.gz tmp/foursight_core-4.1.0.1b5.tar.gz --markdown 20230421/f/foursight-core/4.1.0.1b3-4.1.0.1b5/diff.md --exclude *.pyd
+[2023-04-21 22:24:45] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-04-21 22:24:45] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.4.0.1b4.tar.gz tmp/foursight_cgap-3.4.0.1b5.tar.gz --markdown 20230421/f/foursight-cgap/3.4.0.1b4-3.4.0.1b5/diff.md --exclude *.pyd
+[2023-04-21 22:24:45] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-21 22:24:45] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-21 22:24:45] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-04-21 22:24:45] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230421/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 22:24:45] INFO root fetch - processPackages [pcg-skel]: Downloading https://files.pythonhosted.org/packages/ac/b6/060148524b1224ec891152070710cde9e3d49cdd4d3a981edc9a900adbfe/pcg_skel-0.3.1.tar.gz
+[2023-04-21 22:24:45] INFO root fetch - processPackages [theseus-ai-nightly]: Downloading https://files.pythonhosted.org/packages/e3/fd/755e91aed143ea17267de683e55a0841cc72166fb7c4490c61ed9928fb4a/theseus-ai-nightly-2023.4.12.tar.gz
+[2023-04-21 22:24:45] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 22:24:45] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 22:24:45] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-21 22:24:45] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230421/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-21 22:24:45] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-21 22:24:45] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230421/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-21 22:24:45] INFO root fetch - processPackages [atenpdu]: Downloading https://files.pythonhosted.org/packages/37/a5/1431d05315b6e4d66ca8f64865876ce53ebf118340c015db838212ccd2b1/atenpdu-0.5.0.tar.gz
+[2023-04-21 22:24:46] INFO root fetch - processPackages [theseus-ai-nightly]: Downloading https://files.pythonhosted.org/packages/6d/d1/8d7235510e92e59ba96c71487717c5515fa01b4c7daf0abf36c27052d7f5/theseus-ai-nightly-2023.4.21.tar.gz
+[2023-04-21 22:24:46] INFO root fetch - processPackages [pcg-skel]: Downloading https://files.pythonhosted.org/packages/a5/21/ba1c0a78aedf869e6de32bafc51fee7e6baf6e3610b86f1ebde637ad6164/pcg_skel-0.3.3.tar.gz
+[2023-04-21 22:24:46] INFO root fetch - processPackages [theseus-ai-nightly]: executing diffoscope
+[2023-04-21 22:24:46] INFO root fetch - processPackages [theseus-ai-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theseus-ai-nightly-2023.4.12.tar.gz tmp/theseus-ai-nightly-2023.4.21.tar.gz --markdown 20230421/t/theseus-ai-nightly/2023.4.12-2023.4.21/diff.md --exclude *.pyd
+[2023-04-21 22:24:46] INFO root fetch - processPackages [atenpdu]: Downloading https://files.pythonhosted.org/packages/57/64/60af76f0a7c228f58210269dec48b2c243e00ed0f845f18fca0b00f0e731/atenpdu-0.6.0.tar.gz
+[2023-04-21 22:24:46] INFO root fetch - processPackages [pcg-skel]: executing diffoscope
+[2023-04-21 22:24:46] INFO root fetch - processPackages [pcg-skel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcg_skel-0.3.1.tar.gz tmp/pcg_skel-0.3.3.tar.gz --markdown 20230421/p/pcg-skel/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-04-21 22:24:46] INFO root fetch - processPackages [atenpdu]: executing diffoscope
+[2023-04-21 22:24:46] INFO root fetch - processPackages [atenpdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atenpdu-0.5.0.tar.gz tmp/atenpdu-0.6.0.tar.gz --markdown 20230421/a/atenpdu/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-21 22:24:47] INFO root fetch - processPackages [yaml-stripper]: Start processing: yaml-stripper
+[2023-04-21 22:24:47] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 22:24:47] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 22:24:47] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 22:24:47] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 22:24:47] INFO root fetch - processPackages [yaml-stripper]: Start processing: ropython
+[2023-04-21 22:24:47] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 22:24:47] WARNING root fetch - processPackages [ropython]: Skipping, unable to determine old version
+[2023-04-21 22:24:47] INFO root fetch - processPackages [ropython]: Start processing: markdown-to-confluence
+[2023-04-21 22:24:47] INFO root fetch - main [MainThread]: End processing [ropython] error
+[2023-04-21 22:24:47] INFO root fetch - processPackages [spanishconjugator]: Start processing: podcast-archiver
+[2023-04-21 22:24:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-21 22:24:47] INFO root fetch - processPackages [spanishconjugator]: Start processing: foursight
+[2023-04-21 22:24:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-21 22:24:47] INFO root fetch - processPackages [markdown-to-confluence]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-21 22:24:47] WARNING root fetch - processPackages [podcast-archiver]: Skipping, unable to determine old version
+[2023-04-21 22:24:47] INFO root fetch - processPackages [podcast-archiver]: Start processing: ropython
+[2023-04-21 22:24:47] INFO root fetch - main [MainThread]: End processing [podcast-archiver] error
+[2023-04-21 22:24:47] INFO root fetch - processPackages [ropython]: New version: [2.0.12] Old Version: [2.0.11]
+[2023-04-21 22:24:47] INFO root fetch - processPackages [foursight]: New version: [3.4.0.1b6] Old Version: [3.4.0.1b5]
+[2023-04-21 22:24:48] INFO root fetch - processPackages [markdown-to-confluence]: Downloading https://files.pythonhosted.org/packages/b7/88/b3f5623a97d819489538ceff35ce4bc34d36d6973c3914072c21e312f28f/markdown-to-confluence-0.1.4.tar.gz
+[2023-04-21 22:24:48] INFO root fetch - processPackages [pvmodule]: Start processing: square-faaziz
+[2023-04-21 22:24:48] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-04-21 22:24:48] INFO root fetch - processPackages [ropython]: Downloading https://files.pythonhosted.org/packages/be/cd/95c492616a9254f5f221a1656900dea27d7b7c1c7eab0d922e1469001a05/ropython-2.0.11.tar.gz
+[2023-04-21 22:24:48] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-04-21 22:24:48] WARNING root fetch - processPackages [square-faaziz]: Skipping, unable to determine old version
+[2023-04-21 22:24:48] INFO root fetch - main [MainThread]: End processing [square-faaziz] error
+[2023-04-21 22:24:48] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/94/2f/80ddb519fed36b6dfb6fbda9d89ef31ee1e814ffc2da223fd0715af479ec/foursight-3.4.0.1b6.tar.gz
+[2023-04-21 22:24:48] INFO root fetch - processPackages [markdown-to-confluence]: Downloading https://files.pythonhosted.org/packages/98/0b/00519f6e2804b0f45521f1602bdbd2318cc362c808d0a39d32580d11cdf8/markdown-to-confluence-0.1.5.tar.gz
+[2023-04-21 22:24:48] INFO root fetch - main [MainThread]: End processing [atenpdu]: success
+[2023-04-21 22:24:48] INFO root fetch - processPackages [ropython]: Downloading https://files.pythonhosted.org/packages/1f/dd/2bb1c98e6d212ee111dae9f7335e83d1f329a26969960573cf7de53fe059/ropython-2.0.12.tar.gz
+[2023-04-21 22:24:48] INFO root fetch - processPackages [markdown-to-confluence]: executing diffoscope
+[2023-04-21 22:24:48] INFO root fetch - processPackages [markdown-to-confluence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown-to-confluence-0.1.4.tar.gz tmp/markdown-to-confluence-0.1.5.tar.gz --markdown 20230421/m/markdown-to-confluence/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-21 22:24:48] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 22:24:48] INFO root fetch - main [MainThread]: End processing [pcg-skel]: success
+[2023-04-21 22:24:48] INFO root fetch - processPackages [ropython]: executing diffoscope
+[2023-04-21 22:24:48] INFO root fetch - processPackages [ropython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropython-2.0.11.tar.gz tmp/ropython-2.0.12.tar.gz --markdown 20230421/r/ropython/2.0.11-2.0.12/diff.md --exclude *.pyd
+[2023-04-21 22:24:48] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-04-21 22:24:48] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.0.1b5.tar.gz tmp/foursight-3.4.0.1b6.tar.gz --markdown 20230421/f/foursight/3.4.0.1b5-3.4.0.1b6/diff.md --exclude *.pyd
+[2023-04-21 22:24:49] INFO root fetch - main [MainThread]: End processing [ropython]: success
+[2023-04-21 22:24:49] INFO root fetch - main [MainThread]: End processing [markdown-to-confluence]: success
+[2023-04-21 22:24:49] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-04-21 22:24:51] INFO root fetch - main [MainThread]: End processing [theseus-ai-nightly]: success
+[2023-04-21 22:25:02] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-04-21 22:25:02] INFO root fetch - main [MainThread]: Store serial: [17808402]
