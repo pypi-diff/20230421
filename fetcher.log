@@ -18780,3 +18780,96 @@ EOFError: EOF read where object expected
 [2023-04-21 18:14:23] INFO root fetch - processPackages [numbers-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numbers_parser-3.9.6.tar.gz tmp/numbers_parser-3.9.7.tar.gz --markdown 20230421/n/numbers-parser/3.9.6-3.9.7/diff.md --exclude *.pyd
 [2023-04-21 18:14:25] INFO root fetch - main [MainThread]: End processing [numbers-parser]: success
 [2023-04-21 18:14:25] INFO root fetch - main [MainThread]: Store serial: [17805812]
+[2023-04-21 18:19:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805812]
+[2023-04-21 18:19:35] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-21 18:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maxilearn
+[2023-04-21 18:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpserializer
+[2023-04-21 18:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talos-install
+[2023-04-21 18:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkout-sdk
+[2023-04-21 18:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-inventory
+[2023-04-21 18:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: varsdump
+[2023-04-21 18:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: turbx
+[2023-04-21 18:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tggl
+[2023-04-21 18:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: healdata-utils
+[2023-04-21 18:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: musicli
+[2023-04-21 18:19:35] INFO root fetch - processPackages [tggl]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-21 18:19:35] INFO root fetch - processPackages [maxilearn]: New version: [0.3.9] Old Version: [0.1.9]
+[2023-04-21 18:19:35] INFO root fetch - processPackages [talos-install]: New version: [0.2.0.dev349] Old Version: [0.2.0.dev348]
+[2023-04-21 18:19:35] INFO root fetch - processPackages [mpserializer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-21 18:19:35] INFO root fetch - processPackages [musicli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 18:19:35] INFO root fetch - processPackages [talos-install]: executing diffoscope
+[2023-04-21 18:19:35] INFO root fetch - processPackages [talos-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talos_install-0.2.0.dev348.tar.gz tmp/talos_install-0.2.0.dev349.tar.gz --markdown 20230421/t/talos-install/0.2.0.dev348-0.2.0.dev349/diff.md --exclude *.pyd
+[2023-04-21 18:19:35] INFO root fetch - processPackages [turbx]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-21 18:19:35] INFO root fetch - processPackages [netbox-inventory]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-21 18:19:35] WARNING root fetch - processPackages [healdata-utils]: Skipping, unable to determine old version
+[2023-04-21 18:19:35] INFO root fetch - processPackages [healdata-utils]: Start processing: pcleaner
+[2023-04-21 18:19:35] INFO root fetch - main [MainThread]: End processing [healdata-utils] error
+[2023-04-21 18:19:35] WARNING root fetch - processPackages [varsdump]: Skipping, unable to determine old version
+[2023-04-21 18:19:35] INFO root fetch - processPackages [mpserializer]: executing diffoscope
+[2023-04-21 18:19:35] INFO root fetch - processPackages [varsdump]: Start processing: minolz
+[2023-04-21 18:19:35] INFO root fetch - processPackages [maxilearn]: executing diffoscope
+[2023-04-21 18:19:35] INFO root fetch - main [MainThread]: End processing [varsdump] error
+[2023-04-21 18:19:35] INFO root fetch - processPackages [checkout-sdk]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-21 18:19:35] INFO root fetch - processPackages [mpserializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpserializer-1.0.1-py3-none-any.whl.zip tmp/mpserializer-1.0.2-py3-none-any.whl.zip --markdown 20230421/m/mpserializer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-21 18:19:35] INFO root fetch - processPackages [maxilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxilearn-0.1.9.tar.gz tmp/maxilearn-0.3.9.tar.gz --markdown 20230421/m/maxilearn/0.1.9-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 18:19:35] INFO root fetch - processPackages [musicli]: executing diffoscope
+[2023-04-21 18:19:35] INFO root fetch - processPackages [musicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicli-0.0.8.tar.gz tmp/musicli-0.0.9.tar.gz --markdown 20230421/m/musicli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 18:19:35] INFO root fetch - processPackages [tggl]: Downloading https://files.pythonhosted.org/packages/1b/64/26ec7b55d7727a62c638fa15f8c79dee860c00ec80fe298ad2cf0d020c2b/tggl-1.1.1.tar.gz
+[2023-04-21 18:19:35] INFO root fetch - processPackages [minolz]: New version: [2.3b1] Old Version: [1.1]
+[2023-04-21 18:19:35] INFO root fetch - processPackages [pcleaner]: New version: [1.6.2] Old Version: [1.6.0]
+[2023-04-21 18:19:35] INFO root fetch - processPackages [tggl]: executing diffoscope
+[2023-04-21 18:19:35] INFO root fetch - processPackages [tggl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tggl-1.1.0.tar.gz tmp/tggl-1.1.1.tar.gz --markdown 20230421/t/tggl/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-21 18:19:35] INFO root fetch - processPackages [minolz]: Downloading https://files.pythonhosted.org/packages/9a/a1/b446887e201ab37d09c814a2c878e9213412acb4ee1839088124fec33481/minolz-1.1.tar.gz
+[2023-04-21 18:19:35] INFO root fetch - processPackages [checkout-sdk]: Downloading https://files.pythonhosted.org/packages/81/6c/b890e8e9347fa479236d467c61e4b2934c3f348459e4cbee9b87e1dd54dd/checkout_sdk-3.0.8.tar.gz
+[2023-04-21 18:19:35] INFO root fetch - processPackages [netbox-inventory]: Downloading https://files.pythonhosted.org/packages/be/cf/6bcfb0909069cf6c2a8328fdc7a3ac69fca4ff2839d94571e68b2ea5fa66/netbox-inventory-1.2.4.tar.gz
+[2023-04-21 18:19:35] INFO root fetch - processPackages [turbx]: Downloading https://files.pythonhosted.org/packages/b4/73/c5fb8da94a0fa115ce3e1f534c696b1127ccfa8f69a46bab2df228d20a4b/turbx-0.2.3.tar.gz
+[2023-04-21 18:19:35] INFO root fetch - processPackages [checkout-sdk]: Downloading https://files.pythonhosted.org/packages/65/05/32db90c3f69103015cb4a447b78b571b64eae773985b466e11aaf95e91e5/checkout_sdk-3.0.9.tar.gz
+[2023-04-21 18:19:35] INFO root fetch - processPackages [netbox-inventory]: executing diffoscope
+[2023-04-21 18:19:35] INFO root fetch - processPackages [netbox-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-inventory-1.2.3.tar.gz tmp/netbox-inventory-1.2.4.tar.gz --markdown 20230421/n/netbox-inventory/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-21 18:19:35] INFO root fetch - processPackages [pcleaner]: Downloading https://files.pythonhosted.org/packages/57/d0/68e7ef5087b4170e0576057ef7f7d875e623b5bfc2467dd2930eb8d0e389/pcleaner-1.6.2.tar.gz
+[2023-04-21 18:19:35] INFO root fetch - processPackages [turbx]: executing diffoscope
+[2023-04-21 18:19:35] INFO root fetch - processPackages [turbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbx-0.2.2.tar.gz tmp/turbx-0.2.3.tar.gz --markdown 20230421/t/turbx/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-21 18:19:36] INFO root fetch - processPackages [minolz]: Downloading https://files.pythonhosted.org/packages/c2/45/43e66f855e4dae8783b16f8c4f18f7ebe5affce91834a6d143c3c276935d/minolz-2.3b1.tar.gz
+[2023-04-21 18:19:36] INFO root fetch - processPackages [checkout-sdk]: executing diffoscope
+[2023-04-21 18:19:36] INFO root fetch - processPackages [checkout-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkout_sdk-3.0.8.tar.gz tmp/checkout_sdk-3.0.9.tar.gz --markdown 20230421/c/checkout-sdk/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-21 18:19:36] INFO root fetch - processPackages [pcleaner]: executing diffoscope
+[2023-04-21 18:19:36] INFO root fetch - processPackages [pcleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcleaner-1.6.0.tar.gz tmp/pcleaner-1.6.2.tar.gz --markdown 20230421/p/pcleaner/1.6.0-1.6.2/diff.md --exclude *.pyd
+[2023-04-21 18:19:36] INFO root fetch - processPackages [minolz]: executing diffoscope
+[2023-04-21 18:19:36] INFO root fetch - processPackages [minolz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minolz-1.1.tar.gz tmp/minolz-2.3b1.tar.gz --markdown 20230421/m/minolz/1.1-2.3b1/diff.md --exclude *.pyd
+[2023-04-21 18:19:36] INFO root fetch - processPackages [musicli]: Start processing: telus-bulk
+[2023-04-21 18:19:36] INFO root fetch - main [MainThread]: End processing [musicli]: success
+[2023-04-21 18:19:36] INFO root fetch - processPackages [maxilearn]: Start processing: nonebot-plugin-help
+[2023-04-21 18:19:36] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
+[2023-04-21 18:19:36] INFO root fetch - processPackages [nonebot-plugin-help]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-04-21 18:19:36] INFO root fetch - processPackages [telus-bulk]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-04-21 18:19:36] INFO root fetch - processPackages [nonebot-plugin-help]: executing diffoscope
+[2023-04-21 18:19:36] INFO root fetch - processPackages [nonebot-plugin-help]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-help-0.3.1.tar.gz tmp/nonebot_plugin_help-0.4.0.tar.gz --markdown 20230421/n/nonebot-plugin-help/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 18:19:37] INFO root fetch - processPackages [tggl]: Start processing: coiled
+[2023-04-21 18:19:37] INFO root fetch - main [MainThread]: End processing [tggl]: success
+[2023-04-21 18:19:37] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-21 18:19:37] INFO root fetch - processPackages [mpserializer]: Start processing: dhapi
+[2023-04-21 18:19:37] INFO root fetch - main [MainThread]: End processing [mpserializer]: success
+[2023-04-21 18:19:37] INFO root fetch - processPackages [talos-install]: Start processing: starbot-bilibili
+[2023-04-21 18:19:37] INFO root fetch - main [MainThread]: End processing [talos-install]: success
+[2023-04-21 18:19:37] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-21 18:19:37] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230421/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-21 18:19:37] INFO root fetch - processPackages [dhapi]: New version: [1.3.1] Old Version: [1.2.2]
+[2023-04-21 18:19:37] INFO root fetch - processPackages [telus-bulk]: Downloading https://files.pythonhosted.org/packages/9e/03/2e1cabde3228e97725dc05e0151edc441116a9941c51146efe801538b303/telus_bulk-1.3.7.tar.gz
+[2023-04-21 18:19:37] WARNING root fetch - processPackages [starbot-bilibili]: Skipping, unable to determine old version
+[2023-04-21 18:19:37] INFO root fetch - main [MainThread]: End processing [starbot-bilibili] error
+[2023-04-21 18:19:37] INFO root fetch - processPackages [telus-bulk]: executing diffoscope
+[2023-04-21 18:19:37] INFO root fetch - processPackages [telus-bulk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telus_bulk-1.3.6.tar.gz tmp/telus_bulk-1.3.7.tar.gz --markdown 20230421/t/telus-bulk/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-04-21 18:19:37] INFO root fetch - processPackages [dhapi]: Downloading https://files.pythonhosted.org/packages/68/3f/fdbb00d3cd7cedc2402bf0156220331d2eb874dc4c2db01dd18dfdc43e5e/dhapi-1.2.2.tar.gz
+[2023-04-21 18:19:37] INFO root fetch - main [MainThread]: End processing [netbox-inventory]: success
+[2023-04-21 18:19:37] INFO root fetch - processPackages [dhapi]: Downloading https://files.pythonhosted.org/packages/ba/5c/128967b122d1a429e4ac1d3875c930a9f51df4177783451e46359337cb1d/dhapi-1.3.1.tar.gz
+[2023-04-21 18:19:37] INFO root fetch - processPackages [dhapi]: executing diffoscope
+[2023-04-21 18:19:37] INFO root fetch - processPackages [dhapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhapi-1.2.2.tar.gz tmp/dhapi-1.3.1.tar.gz --markdown 20230421/d/dhapi/1.2.2-1.3.1/diff.md --exclude *.pyd
+[2023-04-21 18:19:38] INFO root fetch - main [MainThread]: End processing [minolz]: success
+[2023-04-21 18:19:38] INFO root fetch - main [MainThread]: End processing [checkout-sdk]: success
+[2023-04-21 18:19:38] INFO root fetch - main [MainThread]: End processing [pcleaner]: success
+[2023-04-21 18:19:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-help]: success
+[2023-04-21 18:19:39] INFO root fetch - main [MainThread]: End processing [dhapi]: success
+[2023-04-21 18:19:40] INFO root fetch - main [MainThread]: End processing [telus-bulk]: success
+[2023-04-21 18:19:40] INFO root fetch - main [MainThread]: End processing [turbx]: success
+[2023-04-21 18:19:43] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-21 18:19:43] INFO root fetch - main [MainThread]: Store serial: [17805879]
