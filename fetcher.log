@@ -9730,3 +9730,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 09:32:15] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2023-04-21 09:32:15] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
 [2023-04-21 09:32:15] INFO root fetch - main [MainThread]: Store serial: [17800211]
+[2023-04-21 09:37:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800211]
+[2023-04-21 09:37:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 09:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ybam
+[2023-04-21 09:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello2
+[2023-04-21 09:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-website-plausible
+[2023-04-21 09:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Anilist
+[2023-04-21 09:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yz-core2
+[2023-04-21 09:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seven-cloudapp-frame
+[2023-04-21 09:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jutool
+[2023-04-21 09:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jutool.spider-util
+[2023-04-21 09:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: je-api-testka
+[2023-04-21 09:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: je-api-testka-dev
+[2023-04-21 09:37:24] INFO root fetch - processPackages [Anilist]: New version: [0.3.1] Old Version: [0.2.0]
+[2023-04-21 09:37:24] INFO root fetch - processPackages [odoo-addon-website-plausible]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.0.4]
+[2023-04-21 09:37:24] INFO root fetch - processPackages [yz-core2]: New version: [1.0.41] Old Version: [1.0.40]
+[2023-04-21 09:37:24] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-04-21 09:37:24] INFO root fetch - processPackages [je-api-testka]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 09:37:24] INFO root fetch - processPackages [hello2]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-04-21 09:37:24] WARNING root fetch - processPackages [ybam]: Skipping, unable to determine old version
+[2023-04-21 09:37:24] INFO root fetch - processPackages [ybam]: Start processing: compose-x-common
+[2023-04-21 09:37:24] INFO root fetch - main [MainThread]: End processing [ybam] error
+[2023-04-21 09:37:24] INFO root fetch - processPackages [odoo-addon-website-plausible]: executing diffoscope
+[2023-04-21 09:37:24] INFO root fetch - processPackages [odoo-addon-website-plausible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_plausible-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_website_plausible-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-website-plausible/15.0.1.0.0.4-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-21 09:37:24] INFO root fetch - processPackages [je-api-testka]: executing diffoscope
+[2023-04-21 09:37:24] INFO root fetch - processPackages [jutool]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 09:37:24] INFO root fetch - processPackages [je-api-testka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka-0.0.98.tar.gz tmp/je_api_testka-0.0.99.tar.gz --markdown 20230421/j/je-api-testka/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 09:37:24] INFO root fetch - processPackages [jutool.spider-util]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 09:37:24] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-04-21 09:37:24] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.80.tar.gz tmp/je_api_testka_dev-0.0.9.tar.gz --markdown 20230421/j/je-api-testka-dev/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 09:37:24] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-04-21 09:37:24] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.5.8.tar.gz tmp/hello2-1.5.9.tar.gz --markdown 20230421/h/hello2/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-04-21 09:37:24] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-04-21 09:37:24] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.40.tar.gz tmp/yz-core2-1.0.41.tar.gz --markdown 20230421/y/yz-core2/1.0.40-1.0.41/diff.md --exclude *.pyd
+[2023-04-21 09:37:24] INFO root fetch - processPackages [compose-x-common]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-21 09:37:24] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-04-21 09:37:24] INFO root fetch - processPackages [Anilist]: Downloading https://files.pythonhosted.org/packages/7d/be/16275b80bdc0e804300ca648e2a001cf9034ff214dd6ceb8751ed7cb83ee/Anilist-0.3.1.tar.gz
+[2023-04-21 09:37:24] INFO root fetch - processPackages [jutool]: Downloading https://files.pythonhosted.org/packages/e9/73/36828bcbadcca59731bb4e060206c0a1c7e58f157246d45365c353617aee/jutool-0.2.8-py3-none-any.whl
+[2023-04-21 09:37:24] INFO root fetch - processPackages [jutool.spider-util]: Downloading https://files.pythonhosted.org/packages/83/6d/07bed05e546a71a53f8e6337212bb109a51fd55f05f24f2373f42bf9382a/jutool.spider_util-0.2.8-py3-none-any.whl
+[2023-04-21 09:37:24] INFO root fetch - processPackages [Anilist]: executing diffoscope
+[2023-04-21 09:37:24] INFO root fetch - processPackages [compose-x-common]: Downloading https://files.pythonhosted.org/packages/47/40/550a09e2673bb90e0327d0c08f059308a17dcdf004769cfca91063d045c1/compose_x_common-1.2.8.tar.gz
+[2023-04-21 09:37:24] INFO root fetch - processPackages [Anilist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Anilist-0.2.0.tar.gz tmp/Anilist-0.3.1.tar.gz --markdown 20230421/A/Anilist/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 09:37:25] INFO root fetch - processPackages [jutool]: Downloading https://files.pythonhosted.org/packages/9f/47/a44227caec17afe754c67ba45891ee85f4ebec6c9e310b3c6fa59d5b9083/jutool-0.2.9-py3-none-any.whl
+[2023-04-21 09:37:25] INFO root fetch - processPackages [jutool.spider-util]: Downloading https://files.pythonhosted.org/packages/d1/32/149c3297936baaf6d1a1b57663520c2dadbae1bcb1fe24ced822cc7877a5/jutool.spider_util-0.2.9-py3-none-any.whl
+[2023-04-21 09:37:25] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-04-21 09:37:25] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230421/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-04-21 09:37:25] INFO root fetch - processPackages [jutool]: executing diffoscope
+[2023-04-21 09:37:25] INFO root fetch - processPackages [jutool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutool-0.2.8-py3-none-any.whl.zip tmp/jutool-0.2.9-py3-none-any.whl.zip --markdown 20230421/j/jutool/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 09:37:25] INFO root fetch - processPackages [compose-x-common]: Downloading https://files.pythonhosted.org/packages/55/d9/cc13939bbde8aadd0f6c1d4dd37541cc6c29989e73a30ca0494937f5a209/compose_x_common-1.2.9.tar.gz
+[2023-04-21 09:37:25] INFO root fetch - processPackages [jutool.spider-util]: executing diffoscope
+[2023-04-21 09:37:25] INFO root fetch - processPackages [jutool.spider-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutool.spider_util-0.2.8-py3-none-any.whl.zip tmp/jutool.spider_util-0.2.9-py3-none-any.whl.zip --markdown 20230421/j/jutool.spider-util/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 09:37:25] INFO root fetch - processPackages [compose-x-common]: executing diffoscope
+[2023-04-21 09:37:25] INFO root fetch - processPackages [compose-x-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose_x_common-1.2.8.tar.gz tmp/compose_x_common-1.2.9.tar.gz --markdown 20230421/c/compose-x-common/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-21 09:37:26] INFO root fetch - processPackages [odoo-addon-website-plausible]: Start processing: driveup
+[2023-04-21 09:37:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-plausible]: success
+[2023-04-21 09:37:26] INFO root fetch - processPackages [driveup]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 09:37:26] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-04-21 09:37:26] INFO root fetch - processPackages [driveup]: executing diffoscope
+[2023-04-21 09:37:26] INFO root fetch - processPackages [driveup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/driveup-0.2.1.tar.gz tmp/driveup-0.2.2.tar.gz --markdown 20230421/d/driveup/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 09:37:26] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-04-21 09:37:26] INFO root fetch - main [MainThread]: End processing [Anilist]: success
+[2023-04-21 09:37:27] INFO root fetch - main [MainThread]: End processing [je-api-testka]: success
+[2023-04-21 09:37:27] INFO root fetch - main [MainThread]: End processing [jutool]: success
+[2023-04-21 09:37:27] INFO root fetch - main [MainThread]: End processing [compose-x-common]: success
+[2023-04-21 09:37:27] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-04-21 09:37:27] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-04-21 09:37:27] INFO root fetch - main [MainThread]: End processing [jutool.spider-util]: success
+[2023-04-21 09:37:27] INFO root fetch - main [MainThread]: End processing [driveup]: success
+[2023-04-21 09:37:27] INFO root fetch - main [MainThread]: Store serial: [17800250]
