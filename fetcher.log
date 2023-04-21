@@ -15528,3 +15528,150 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 15:31:58] INFO root fetch - main [MainThread]: End processing [GooseMPL]: success
 [2023-04-21 15:32:14] INFO root fetch - main [MainThread]: End processing [sarpy]: success
 [2023-04-21 15:32:14] INFO root fetch - main [MainThread]: Store serial: [17803693]
+[2023-04-21 15:37:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17803693]
+[2023-04-21 15:37:26] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fal
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycodata
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sheraf
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scaled-preconditioners
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ultima-scraper-api
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fakts
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tegracli
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorflow-nearest-neighbours
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nicegui
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: satip
+[2023-04-21 15:37:26] INFO root fetch - processPackages [satip]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-04-21 15:37:26] WARNING root fetch - processPackages [tensorflow-nearest-neighbours]: Skipping, unable to determine old version
+[2023-04-21 15:37:26] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: Start processing: package-with-spaces
+[2023-04-21 15:37:26] INFO root fetch - main [MainThread]: End processing [tensorflow-nearest-neighbours] error
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ultima-scraper-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-21 15:37:26] INFO root fetch - processPackages [tegracli]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-21 15:37:26] INFO root fetch - processPackages [pycodata]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-21 15:37:26] INFO root fetch - processPackages [scaled-preconditioners]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 15:37:26] INFO root fetch - processPackages [fal]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-04-21 15:37:26] INFO root fetch - processPackages [sheraf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-21 15:37:26] INFO root fetch - processPackages [satip]: executing diffoscope
+[2023-04-21 15:37:26] INFO root fetch - processPackages [fakts]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 15:37:26] INFO root fetch - processPackages [satip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satip-2.9.8.tar.gz tmp/satip-2.9.9.tar.gz --markdown 20230421/s/satip/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-04-21 15:37:26] INFO root fetch - processPackages [nicegui]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-21 15:37:26] WARNING root fetch - processPackages [package-with-spaces]: Skipping, unable to determine old version
+[2023-04-21 15:37:26] INFO root fetch - processPackages [package-with-spaces]: Start processing: lexikos
+[2023-04-21 15:37:26] INFO root fetch - main [MainThread]: End processing [package-with-spaces] error
+[2023-04-21 15:37:26] WARNING root fetch - processPackages [lexikos]: Skipping, unable to determine old version
+[2023-04-21 15:37:26] INFO root fetch - processPackages [lexikos]: Start processing: arkitekt
+[2023-04-21 15:37:26] INFO root fetch - main [MainThread]: End processing [lexikos] error
+[2023-04-21 15:37:26] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/63/fc/683f4f41d501839dce03641529ea44236514ba6a7142d1d66406d815d9dc/ultima_scraper_api-1.0.1.tar.gz
+[2023-04-21 15:37:26] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/38/a6/cabff150fb31aada98fd7f3e4bd9ab719d4a699bd9d49275a807dde69cc4/fal-0.8.4.tar.gz
+[2023-04-21 15:37:26] INFO root fetch - processPackages [arkitekt]: New version: [0.4.9] Old Version: [0.4.85]
+[2023-04-21 15:37:26] INFO root fetch - processPackages [scaled-preconditioners]: Downloading https://files.pythonhosted.org/packages/62/21/54722216760990ba0c7f2e51f35a361b08a768ac875ebe9f9f502f41e5d7/scaled_preconditioners-0.1.0.tar.gz
+[2023-04-21 15:37:26] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/69/9f/cb4778dad4427ed9438768c2edaef8dbea67de2abe7f1b484e46f508d68f/pycodata-0.4.0.tar.gz
+[2023-04-21 15:37:26] INFO root fetch - processPackages [tegracli]: Downloading https://files.pythonhosted.org/packages/4c/5b/98aa9dcd8819317a29ea05e3730f62f3725fb6e52bbff448313a828edb96/tegracli-0.2.4.tar.gz
+[2023-04-21 15:37:27] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/33/73/95918775e58c09e8244977cdc770c9a0b3768dc0360455b9096d4631631e/arkitekt-0.4.85.tar.gz
+[2023-04-21 15:37:27] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/a8/5b/4700da14dca835cafbca381f4f627a906a0eb4deacdecde0e9d5c319bec5/nicegui-1.2.9.tar.gz
+[2023-04-21 15:37:27] INFO root fetch - processPackages [fakts]: executing diffoscope
+[2023-04-21 15:37:27] INFO root fetch - processPackages [fakts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakts-0.3.8.tar.gz tmp/fakts-0.3.9.tar.gz --markdown 20230421/f/fakts/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 15:37:27] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/9f/e8/3fdf3e339eda000ba54d430152318dd77333a81187c72a71000b1568a09c/fal-0.8.5.tar.gz
+[2023-04-21 15:37:27] INFO root fetch - processPackages [tegracli]: executing diffoscope
+[2023-04-21 15:37:27] INFO root fetch - processPackages [tegracli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tegracli-0.2.3.tar.gz tmp/tegracli-0.2.4.tar.gz --markdown 20230421/t/tegracli/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-21 15:37:27] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/00/ed/70ec454b2e5997165c9e024fdb3e311536508a0b8b090a2a9efe134986eb/ultima_scraper_api-1.0.2.tar.gz
+[2023-04-21 15:37:27] INFO root fetch - processPackages [scaled-preconditioners]: Downloading https://files.pythonhosted.org/packages/00/6e/2e8c5b6d4117eb0018a297cf9385fc4ade9a99e83b5f014adeddcf686ad2/scaled_preconditioners-0.1.1.tar.gz
+[2023-04-21 15:37:27] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/e3/9b/b618423f1c6f77ceded6ea8e7ad60a1ebc8e0d667db0b1f941433ed01037/pycodata-0.5.0.tar.gz
+[2023-04-21 15:37:27] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-04-21 15:37:27] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.85.tar.gz tmp/arkitekt-0.4.9.tar.gz --markdown 20230421/a/arkitekt/0.4.85-0.4.9/diff.md --exclude *.pyd
+[2023-04-21 15:37:27] INFO root fetch - processPackages [sheraf]: executing diffoscope
+[2023-04-21 15:37:27] INFO root fetch - processPackages [sheraf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheraf-0.5.8.tar.gz tmp/sheraf-0.5.9.tar.gz --markdown 20230421/s/sheraf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-21 15:37:27] INFO root fetch - processPackages [fal]: executing diffoscope
+[2023-04-21 15:37:27] INFO root fetch - processPackages [fal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fal-0.8.4.tar.gz tmp/fal-0.8.5.tar.gz --markdown 20230421/f/fal/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-04-21 15:37:27] INFO root fetch - processPackages [ultima-scraper-api]: executing diffoscope
+[2023-04-21 15:37:27] INFO root fetch - processPackages [ultima-scraper-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_api-1.0.1.tar.gz tmp/ultima_scraper_api-1.0.2.tar.gz --markdown 20230421/u/ultima-scraper-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-21 15:37:27] INFO root fetch - processPackages [scaled-preconditioners]: executing diffoscope
+[2023-04-21 15:37:27] INFO root fetch - processPackages [scaled-preconditioners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaled_preconditioners-0.1.0.tar.gz tmp/scaled_preconditioners-0.1.1.tar.gz --markdown 20230421/s/scaled-preconditioners/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 15:37:27] INFO root fetch - processPackages [pycodata]: executing diffoscope
+[2023-04-21 15:37:27] INFO root fetch - processPackages [pycodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycodata-0.4.0.tar.gz tmp/pycodata-0.5.0.tar.gz --markdown 20230421/p/pycodata/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-21 15:37:27] INFO root fetch - processPackages [nicegui]: executing diffoscope
+[2023-04-21 15:37:27] INFO root fetch - processPackages [nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicegui-1.2.8.tar.gz tmp/nicegui-1.2.9.tar.gz --markdown 20230421/n/nicegui/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-21 15:37:28] INFO root fetch - processPackages [tegracli]: Start processing: trx-python
+[2023-04-21 15:37:28] INFO root fetch - main [MainThread]: End processing [tegracli]: success
+[2023-04-21 15:37:28] INFO root fetch - processPackages [fakts]: Start processing: bihc
+[2023-04-21 15:37:28] INFO root fetch - main [MainThread]: End processing [fakts]: success
+[2023-04-21 15:37:28] INFO root fetch - processPackages [trx-python]: New version: [0.1.2] Old Version: [0.1]
+[2023-04-21 15:37:28] INFO root fetch - processPackages [bihc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-21 15:37:28] INFO root fetch - processPackages [trx-python]: Downloading https://files.pythonhosted.org/packages/aa/20/69e6237334b8c2795b8161e496206995beae54e7d1b2cebf61cb2df06e3a/trx-python-0.1.tar.gz
+[2023-04-21 15:37:28] INFO root fetch - processPackages [satip]: Start processing: lesiwka
+[2023-04-21 15:37:28] INFO root fetch - main [MainThread]: End processing [satip]: success
+[2023-04-21 15:37:28] INFO root fetch - processPackages [bihc]: Downloading https://files.pythonhosted.org/packages/19/0e/46a2eb5f2b80a37482fc649044c02b0654e5dd59d495b9d14e42eed89462/bihc-0.0.4.tar.gz
+[2023-04-21 15:37:28] INFO root fetch - processPackages [lesiwka]: New version: [2.1.20230423.0] Old Version: [2.0.20230118.0]
+[2023-04-21 15:37:29] INFO root fetch - processPackages [arkitekt]: Start processing: gaitmap-datasets
+[2023-04-21 15:37:29] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-04-21 15:37:29] INFO root fetch - processPackages [trx-python]: Downloading https://files.pythonhosted.org/packages/64/62/31385524ed9155981e8b0c75b08dd12532fe4af0beaebef765c21c1c9ddd/trx-python-0.1.2.tar.gz
+[2023-04-21 15:37:29] INFO root fetch - processPackages [gaitmap-datasets]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-21 15:37:29] INFO root fetch - processPackages [lesiwka]: Downloading https://files.pythonhosted.org/packages/84/27/a30913dc3d1d2a2213f78433bfc0dd0f3febb3037ba6ebb103d21a9c223c/lesiwka-2.0.20230118.0.tar.gz
+[2023-04-21 15:37:29] INFO root fetch - processPackages [bihc]: Downloading https://files.pythonhosted.org/packages/f9/9c/d82da5933aedb7cab91a17265cf3f688253d07731b1d684d7d7c1918be4c/bihc-0.0.5.tar.gz
+[2023-04-21 15:37:29] INFO root fetch - processPackages [trx-python]: executing diffoscope
+[2023-04-21 15:37:29] INFO root fetch - processPackages [trx-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trx-python-0.1.tar.gz tmp/trx-python-0.1.2.tar.gz --markdown 20230421/t/trx-python/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 15:37:29] INFO root fetch - processPackages [sheraf]: Start processing: TrackerGG
+[2023-04-21 15:37:29] INFO root fetch - main [MainThread]: End processing [sheraf]: success
+[2023-04-21 15:37:29] INFO root fetch - processPackages [gaitmap-datasets]: Downloading https://files.pythonhosted.org/packages/9b/3c/4b174ecede237cc76bdca94d99e925d5e2e01a58acae41ba37cd1f79a295/gaitmap_datasets-0.8.0.tar.gz
+[2023-04-21 15:37:29] INFO root fetch - processPackages [scaled-preconditioners]: Start processing: impsparc
+[2023-04-21 15:37:29] INFO root fetch - main [MainThread]: End processing [scaled-preconditioners]: success
+[2023-04-21 15:37:29] INFO root fetch - processPackages [bihc]: executing diffoscope
+[2023-04-21 15:37:29] INFO root fetch - processPackages [bihc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihc-0.0.4.tar.gz tmp/bihc-0.0.5.tar.gz --markdown 20230421/b/bihc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 15:37:29] INFO root fetch - processPackages [TrackerGG]: New version: [2.3.0] Old Version: [2.1.3]
+[2023-04-21 15:37:29] INFO root fetch - processPackages [ultima-scraper-api]: Start processing: pynball
+[2023-04-21 15:37:29] INFO root fetch - main [MainThread]: End processing [ultima-scraper-api]: success
+[2023-04-21 15:37:29] INFO root fetch - processPackages [lesiwka]: Downloading https://files.pythonhosted.org/packages/2f/e1/a5f05714ac35163264f4bcb81890888c561594abb43e6192b61f6d2b29c5/lesiwka-2.1.20230423.0.tar.gz
+[2023-04-21 15:37:29] INFO root fetch - processPackages [pycodata]: Start processing: opigen
+[2023-04-21 15:37:29] INFO root fetch - main [MainThread]: End processing [pycodata]: success
+[2023-04-21 15:37:29] INFO root fetch - processPackages [impsparc]: New version: [2.0.4] Old Version: [2.0.2]
+[2023-04-21 15:37:29] INFO root fetch - processPackages [pynball]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-04-21 15:37:29] INFO root fetch - processPackages [opigen]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-21 15:37:29] INFO root fetch - processPackages [TrackerGG]: Downloading https://files.pythonhosted.org/packages/eb/b4/4cd0ebc675cb5b308c81d6419b02609853d5438e648564d52ea73eae2cc6/TrackerGG-2.1.3.tar.gz
+[2023-04-21 15:37:29] INFO root fetch - processPackages [gaitmap-datasets]: Downloading https://files.pythonhosted.org/packages/98/12/6d8a43e91dfb1b9d09f95042817b710102c668cd72a5193ef65a61ea586c/gaitmap_datasets-0.9.0.tar.gz
+[2023-04-21 15:37:29] INFO root fetch - processPackages [lesiwka]: executing diffoscope
+[2023-04-21 15:37:29] INFO root fetch - processPackages [lesiwka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesiwka-2.0.20230118.0.tar.gz tmp/lesiwka-2.1.20230423.0.tar.gz --markdown 20230421/l/lesiwka/2.0.20230118.0-2.1.20230423.0/diff.md --exclude *.pyd
+[2023-04-21 15:37:29] INFO root fetch - processPackages [gaitmap-datasets]: executing diffoscope
+[2023-04-21 15:37:29] INFO root fetch - processPackages [gaitmap-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitmap_datasets-0.8.0.tar.gz tmp/gaitmap_datasets-0.9.0.tar.gz --markdown 20230421/g/gaitmap-datasets/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 15:37:29] INFO root fetch - processPackages [opigen]: Downloading https://files.pythonhosted.org/packages/20/3b/bbacdb07d36a54de6303098604db6b5cda99da31acbae246ff80b3b331d7/opigen-1.0.4-py3-none-any.whl
+[2023-04-21 15:37:29] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/7f/79/27aa4886161508e115f2e0f9226a51ba01f4da046e4b670e49004815622d/impsparc-2.0.4.tar.gz
+[2023-04-21 15:37:29] INFO root fetch - processPackages [pynball]: Downloading https://files.pythonhosted.org/packages/d9/ab/ad1845b3c12662f2903a4a702fba1c566a897185ab2f13b77802f2a31705/pynball-1.5.5.tar.gz
+[2023-04-21 15:37:29] INFO root fetch - processPackages [TrackerGG]: Downloading https://files.pythonhosted.org/packages/89/72/2f52719628d6c5e3eae77e3a7bf5cb8b5baa61345c9b0be4e6b5e727a07a/TrackerGG-2.3.0.tar.gz
+[2023-04-21 15:37:30] INFO root fetch - processPackages [opigen]: Downloading https://files.pythonhosted.org/packages/8d/f9/12819fb516c6dfc776d99741a3d6210af75223fb1d57a4e89e9934143d7e/opigen-1.0.5-py3-none-any.whl
+[2023-04-21 15:37:30] INFO root fetch - processPackages [pynball]: executing diffoscope
+[2023-04-21 15:37:30] INFO root fetch - processPackages [pynball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynball-1.5.4.tar.gz tmp/pynball-1.5.5.tar.gz --markdown 20230421/p/pynball/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-04-21 15:37:30] INFO root fetch - processPackages [TrackerGG]: executing diffoscope
+[2023-04-21 15:37:30] INFO root fetch - processPackages [TrackerGG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrackerGG-2.1.3.tar.gz tmp/TrackerGG-2.3.0.tar.gz --markdown 20230421/T/TrackerGG/2.1.3-2.3.0/diff.md --exclude *.pyd
+[2023-04-21 15:37:30] INFO root fetch - processPackages [opigen]: executing diffoscope
+[2023-04-21 15:37:30] INFO root fetch - processPackages [opigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opigen-1.0.4-py3-none-any.whl.zip tmp/opigen-1.0.5-py3-none-any.whl.zip --markdown 20230421/o/opigen/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-21 15:37:30] INFO root fetch - processPackages [impsparc]: executing diffoscope
+[2023-04-21 15:37:30] INFO root fetch - processPackages [impsparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impsparc-2.0.2.tar.gz tmp/impsparc-2.0.4.tar.gz --markdown 20230421/i/impsparc/2.0.2-2.0.4/diff.md --exclude *.pyd
+[2023-04-21 15:37:30] INFO root fetch - processPackages [fal]: Start processing: cloudpss
+[2023-04-21 15:37:30] INFO root fetch - main [MainThread]: End processing [fal]: success
+[2023-04-21 15:37:30] INFO root fetch - processPackages [cloudpss]: New version: [3.2.0a2] Old Version: [3.2.0a1]
+[2023-04-21 15:37:30] INFO root fetch - processPackages [bihc]: Start processing: inels-mqtt-new
+[2023-04-21 15:37:30] INFO root fetch - main [MainThread]: End processing [bihc]: success
+[2023-04-21 15:37:31] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-04-21 15:37:31] INFO root fetch - processPackages [trx-python]: Start processing: docarray
+[2023-04-21 15:37:31] INFO root fetch - main [MainThread]: End processing [trx-python]: success
+[2023-04-21 15:37:31] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-21 15:37:31] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-04-21 15:37:31] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230421/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-04-21 15:37:31] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-21 15:37:31] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230421/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-21 15:37:31] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2023-04-21 15:37:31] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-3.2.0a1.tar.gz tmp/cloudpss-3.2.0a2.tar.gz --markdown 20230421/c/cloudpss/3.2.0a1-3.2.0a2/diff.md --exclude *.pyd
+[2023-04-21 15:37:31] INFO root fetch - processPackages [lesiwka]: Start processing: alphaz
+[2023-04-21 15:37:31] INFO root fetch - main [MainThread]: End processing [lesiwka]: success
+[2023-04-21 15:37:31] INFO root fetch - processPackages [alphaz]: New version: [0.7.5.2] Old Version: [0.7.5.1]
+[2023-04-21 15:37:31] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-04-21 15:37:31] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.5.1.tar.gz tmp/alphaz-0.7.5.2.tar.gz --markdown 20230421/a/alphaz/0.7.5.1-0.7.5.2/diff.md --exclude *.pyd
+[2023-04-21 15:37:31] INFO root fetch - main [MainThread]: End processing [TrackerGG]: success
+[2023-04-21 15:37:31] INFO root fetch - main [MainThread]: End processing [pynball]: success
+[2023-04-21 15:37:31] INFO root fetch - main [MainThread]: End processing [gaitmap-datasets]: success
+[2023-04-21 15:37:32] INFO root fetch - main [MainThread]: End processing [opigen]: success
+[2023-04-21 15:37:33] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2023-04-21 15:37:33] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-21 15:37:33] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-04-21 15:37:35] INFO root fetch - main [MainThread]: End processing [impsparc]: success
+[2023-04-21 15:37:35] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-04-21 15:37:36] INFO root fetch - main [MainThread]: End processing [nicegui]: success
+[2023-04-21 15:37:36] INFO root fetch - main [MainThread]: Store serial: [17803796]
