@@ -20970,3 +20970,58 @@ EOFError: EOF read where object expected
 [2023-04-21 20:40:18] INFO root fetch - main [MainThread]: End processing [terrario]: success
 [2023-04-21 20:40:18] INFO root fetch - main [MainThread]: End processing [openmsistream]: success
 [2023-04-21 20:40:18] INFO root fetch - main [MainThread]: Store serial: [17807238]
+[2023-04-21 20:45:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807238]
+[2023-04-21 20:45:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 20:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: renderlab
+[2023-04-21 20:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: renderlab
+[2023-04-21 20:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Outlyzer
+[2023-04-21 20:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: D3adC0re-Tools
+[2023-04-21 20:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mrdoxmrgt
+[2023-04-21 20:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymedquery
+[2023-04-21 20:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdftotree-mercurial
+[2023-04-21 20:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchmanager
+[2023-04-21 20:45:27] WARNING root fetch - processPackages [D3adC0re-Tools]: Skipping, unable to determine old version
+[2023-04-21 20:45:27] INFO root fetch - main [MainThread]: End processing [D3adC0re-Tools] error
+[2023-04-21 20:45:27] INFO root fetch - processPackages [renderlab]: New version: [0.1.20230421184216] Old Version: [0.1.20230421184209]
+[2023-04-21 20:45:27] INFO root fetch - processPackages [renderlab]: New version: [0.1.20230421184216] Old Version: [0.1.20230421184209]
+[2023-04-21 20:45:27] INFO root fetch - processPackages [Outlyzer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 20:45:27] INFO root fetch - processPackages [mrdoxmrgt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 20:45:27] INFO root fetch - processPackages [pdftotree-mercurial]: New version: [1.1] Old Version: [1.0]
+[2023-04-21 20:45:27] INFO root fetch - processPackages [torchmanager]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-21 20:45:27] INFO root fetch - processPackages [pymedquery]: New version: [2.9.1b0] Old Version: [2.9.0b0]
+[2023-04-21 20:45:27] INFO root fetch - processPackages [renderlab]: Downloading https://files.pythonhosted.org/packages/35/cb/0c3695e4e0eaade228266155e72e00038b77db2f12e2c5ba977830fb2a7a/renderlab-0.1.20230421184209.tar.gz
+[2023-04-21 20:45:27] INFO root fetch - processPackages [renderlab]: Downloading https://files.pythonhosted.org/packages/35/cb/0c3695e4e0eaade228266155e72e00038b77db2f12e2c5ba977830fb2a7a/renderlab-0.1.20230421184209.tar.gz
+[2023-04-21 20:45:27] INFO root fetch - processPackages [Outlyzer]: Downloading https://files.pythonhosted.org/packages/3b/ef/2ad1511ec7cfe798c18814c374eaecf25d3b1f87e872b0e22187dfb22ab4/Outlyzer-0.0.1.tar.gz
+[2023-04-21 20:45:27] INFO root fetch - processPackages [mrdoxmrgt]: Downloading https://files.pythonhosted.org/packages/cc/b0/dc079ad77494fd97ed5e6b2780dd6bf98ede48d80477892902607f9dfa92/mrdoxmrgt-0.0.1.tar.gz
+[2023-04-21 20:45:27] INFO root fetch - processPackages [pdftotree-mercurial]: Downloading https://files.pythonhosted.org/packages/f0/51/0885542e5214f03065111daffbd1f4654bb47e12bd460217b872223b362d/pdftotree-mercurial-1.0.tar.gz
+[2023-04-21 20:45:27] INFO root fetch - processPackages [torchmanager]: Downloading https://files.pythonhosted.org/packages/00/3a/411ee0143ada462397c5701057a454a7047484f744a746ee704bfc15477b/torchmanager-1.1.1.tar.gz
+[2023-04-21 20:45:27] INFO root fetch - processPackages [pymedquery]: Downloading https://files.pythonhosted.org/packages/d9/4d/4cb23e92f0c44c696fd4bb1df88f1fcc7e9b0d1b412c5c3ef92ebaefe343/pymedquery-2.9.0b0.tar.gz
+[2023-04-21 20:45:28] INFO root fetch - processPackages [renderlab]: Downloading https://files.pythonhosted.org/packages/76/43/c4f00b499d795417a26171629dabf995bfec61364a1080963678ac1a891c/renderlab-0.1.20230421184216-py3-none-any.whl
+[2023-04-21 20:45:28] INFO root fetch - processPackages [renderlab]: Downloading https://files.pythonhosted.org/packages/76/43/c4f00b499d795417a26171629dabf995bfec61364a1080963678ac1a891c/renderlab-0.1.20230421184216-py3-none-any.whl
+[2023-04-21 20:45:28] INFO root fetch - processPackages [Outlyzer]: Downloading https://files.pythonhosted.org/packages/07/5a/a5fdeee69084434649cd08c5eb3fd330ebc3ad0ac4cd265dc08273bd870e/Outlyzer-0.0.2.tar.gz
+[2023-04-21 20:45:28] INFO root fetch - processPackages [pdftotree-mercurial]: Downloading https://files.pythonhosted.org/packages/ea/92/603ababd64e00476c402bbfc557cd5f89da139b78d302432d431c735b3e4/pdftotree-mercurial-1.1.tar.gz
+[2023-04-21 20:45:28] INFO root fetch - processPackages [torchmanager]: Downloading https://files.pythonhosted.org/packages/02/8f/e49c3920c0a17d9c0f195a1e1f13498400166be51d2758a2f71f11020095/torchmanager-1.1.2.tar.gz
+[2023-04-21 20:45:28] INFO root fetch - processPackages [mrdoxmrgt]: Downloading https://files.pythonhosted.org/packages/48/9c/1f148340cb37e9e68c2f5798e9d2001b074495f08353c921fad0eb7cdf2d/mrdoxmrgt-0.0.2.tar.gz
+[2023-04-21 20:45:28] INFO root fetch - processPackages [pymedquery]: Downloading https://files.pythonhosted.org/packages/8a/48/1987fad0bf2c967034b393966e5c0cc3f94e08481597d8df58b5326757e7/pymedquery-2.9.1b0.tar.gz
+[2023-04-21 20:45:28] INFO root fetch - processPackages [renderlab]: executing diffoscope
+[2023-04-21 20:45:28] INFO root fetch - processPackages [renderlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renderlab-0.1.20230421184209.tar.gz tmp/renderlab-0.1.20230421184216-py3-none-any.whl.zip --markdown 20230421/r/renderlab/0.1.20230421184209-0.1.20230421184216/diff.md --exclude *.pyd
+[2023-04-21 20:45:28] INFO root fetch - processPackages [Outlyzer]: executing diffoscope
+[2023-04-21 20:45:28] INFO root fetch - processPackages [renderlab]: executing diffoscope
+[2023-04-21 20:45:28] INFO root fetch - processPackages [Outlyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Outlyzer-0.0.1.tar.gz tmp/Outlyzer-0.0.2.tar.gz --markdown 20230421/O/Outlyzer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 20:45:28] INFO root fetch - processPackages [mrdoxmrgt]: executing diffoscope
+[2023-04-21 20:45:28] INFO root fetch - processPackages [renderlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renderlab-0.1.20230421184209.tar.gz tmp/renderlab-0.1.20230421184216-py3-none-any.whl.zip --markdown 20230421/r/renderlab/0.1.20230421184209-0.1.20230421184216/diff.md --exclude *.pyd
+[2023-04-21 20:45:28] INFO root fetch - processPackages [mrdoxmrgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrdoxmrgt-0.0.1.tar.gz tmp/mrdoxmrgt-0.0.2.tar.gz --markdown 20230421/m/mrdoxmrgt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 20:45:28] INFO root fetch - processPackages [torchmanager]: executing diffoscope
+[2023-04-21 20:45:28] INFO root fetch - processPackages [torchmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmanager-1.1.1.tar.gz tmp/torchmanager-1.1.2.tar.gz --markdown 20230421/t/torchmanager/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-21 20:45:28] INFO root fetch - processPackages [pdftotree-mercurial]: executing diffoscope
+[2023-04-21 20:45:28] INFO root fetch - processPackages [pdftotree-mercurial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdftotree-mercurial-1.0.tar.gz tmp/pdftotree-mercurial-1.1.tar.gz --markdown 20230421/p/pdftotree-mercurial/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-21 20:45:28] INFO root fetch - processPackages [pymedquery]: executing diffoscope
+[2023-04-21 20:45:28] INFO root fetch - processPackages [pymedquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymedquery-2.9.0b0.tar.gz tmp/pymedquery-2.9.1b0.tar.gz --markdown 20230421/p/pymedquery/2.9.0b0-2.9.1b0/diff.md --exclude *.pyd
+[2023-04-21 20:45:29] INFO root fetch - main [MainThread]: End processing [renderlab]: success
+[2023-04-21 20:45:29] INFO root fetch - main [MainThread]: End processing [Outlyzer]: success
+[2023-04-21 20:45:30] INFO root fetch - main [MainThread]: End processing [renderlab]: success
+[2023-04-21 20:45:30] INFO root fetch - main [MainThread]: End processing [pdftotree-mercurial]: success
+[2023-04-21 20:45:30] INFO root fetch - main [MainThread]: End processing [mrdoxmrgt]: success
+[2023-04-21 20:45:30] INFO root fetch - main [MainThread]: End processing [torchmanager]: success
+[2023-04-21 20:45:31] INFO root fetch - main [MainThread]: End processing [pymedquery]: success
+[2023-04-21 20:45:31] INFO root fetch - main [MainThread]: Store serial: [17807262]
