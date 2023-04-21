@@ -12738,3 +12738,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 12:36:24] INFO root fetch - main [MainThread]: End processing [auraboros]: success
 [2023-04-21 12:36:46] INFO root fetch - main [MainThread]: End processing [dcef]: success
 [2023-04-21 12:36:46] INFO root fetch - main [MainThread]: Store serial: [17801884]
+[2023-04-21 12:41:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17801884]
+[2023-04-21 12:41:55] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 12:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: symdexer
+[2023-04-21 12:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kalm
+[2023-04-21 12:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiddifypanel
+[2023-04-21 12:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartonnx
+[2023-04-21 12:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kalm
+[2023-04-21 12:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iris-cli
+[2023-04-21 12:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: test-helper-gae3
+[2023-04-21 12:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyspace-api
+[2023-04-21 12:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fps-localspace
+[2023-04-21 12:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fps-spacex
+[2023-04-21 12:41:55] INFO root fetch - processPackages [symdexer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 12:41:55] INFO root fetch - processPackages [kalm]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-21 12:41:55] INFO root fetch - processPackages [fps-spacex]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 12:41:55] INFO root fetch - processPackages [kalm]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-21 12:41:55] WARNING root fetch - processPackages [iris-cli]: Skipping, unable to determine old version
+[2023-04-21 12:41:55] INFO root fetch - processPackages [iris-cli]: Start processing: jupyspace
+[2023-04-21 12:41:55] INFO root fetch - processPackages [jupyspace-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 12:41:55] INFO root fetch - main [MainThread]: End processing [iris-cli] error
+[2023-04-21 12:41:55] INFO root fetch - processPackages [smartonnx]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 12:41:55] INFO root fetch - processPackages [fps-localspace]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 12:41:55] INFO root fetch - processPackages [test-helper-gae3]: New version: [1.1] Old Version: [1.0]
+[2023-04-21 12:41:55] INFO root fetch - processPackages [hiddifypanel]: New version: [4.2.7] Old Version: [4.2.6]
+[2023-04-21 12:41:55] INFO root fetch - processPackages [jupyspace]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 12:41:56] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/06/76/d977d443b33c97bb715652c41bd8cdaa94f4bff0b2ce87ead0ea83261d68/kalm-0.1.3.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/06/76/d977d443b33c97bb715652c41bd8cdaa94f4bff0b2ce87ead0ea83261d68/kalm-0.1.3.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [symdexer]: Downloading https://files.pythonhosted.org/packages/06/b7/1b6d0a17c6a38e2aca0ab071536a5f4db69a46a11e88a51c7427e2d7a4fc/symdexer-0.2.9.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [smartonnx]: Downloading https://files.pythonhosted.org/packages/89/6b/ea146f60e18c9653ed5c1b925db24ddebebde4a88cb9f8b6c8315ff667dc/smartonnx-0.1.5.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [jupyspace-api]: Downloading https://files.pythonhosted.org/packages/93/3b/c813ce24a1b353a2604aee81b7e043a017e432f6ea9d69b976f5aae83800/jupyspace_api-0.0.3.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [fps-spacex]: Downloading https://files.pythonhosted.org/packages/5d/e9/c62aca491305a1126161c311a1702596edbb7a47310402f5d5a5fe368178/fps_spacex-0.0.3.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [fps-localspace]: Downloading https://files.pythonhosted.org/packages/85/ae/b89fbfccb2a33ce8f588a2e1784b6067ecdc9e76e08e90ec2eefc55044d3/fps_localspace-0.0.3.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [jupyspace]: Downloading https://files.pythonhosted.org/packages/22/98/8f0db4bf41cf1ce8cb992850b324eff1b02e0ebd21379549ca8c74f853df/jupyspace-0.0.3.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [test-helper-gae3]: Downloading https://files.pythonhosted.org/packages/e9/fb/992da90f633581ae2809047e7dc7d9229774349f3a1d5a0f0fb34246fc96/test_helper_gae3-1.0.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/8e/43/269f9fb9e3e05092eea5895e77fe526d1a504aac4877e6a50cf7bfd1f84d/hiddifypanel-4.2.6-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-21 12:41:56] INFO root fetch - processPackages [symdexer]: executing diffoscope
+[2023-04-21 12:41:56] INFO root fetch - processPackages [symdexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symdexer-0.2.8.tar.gz tmp/symdexer-0.2.9.tar.gz --markdown 20230421/s/symdexer/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 12:41:56] INFO root fetch - processPackages [test-helper-gae3]: Downloading https://files.pythonhosted.org/packages/51/6a/00b62ed4e8e35eefb0d834fa4df4e61159c3b5ae321f8cec7013c0099751/test_helper_gae3-1.1.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [smartonnx]: Downloading https://files.pythonhosted.org/packages/b8/24/b77c072a9c6ba232ecfed74ab106e22cec3e6e068947b2241628545ede2d/smartonnx-0.1.6.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/33/f3/32a19ff4589fb4c024c05f353cf80e82b1cb9d65257ce7c280d5f950f1f5/kalm-0.1.4.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/33/f3/32a19ff4589fb4c024c05f353cf80e82b1cb9d65257ce7c280d5f950f1f5/kalm-0.1.4.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [fps-spacex]: Downloading https://files.pythonhosted.org/packages/bd/c1/999e4b85f08f2805c9473ccbf334b7660083401cbfd7f49d9402f3d9cee8/fps_spacex-0.0.4.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [fps-localspace]: Downloading https://files.pythonhosted.org/packages/77/f3/0bf89763cb0dc702effac4a770a93151395c14063c616e2cfa71185dbe61/fps_localspace-0.0.4.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [jupyspace-api]: Downloading https://files.pythonhosted.org/packages/b0/86/5eb5540698dff2bc43300bf718a9ef8d391ab46e5b8c63e9aeb21a94e852/jupyspace_api-0.0.4.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [test-helper-gae3]: executing diffoscope
+[2023-04-21 12:41:56] INFO root fetch - processPackages [test-helper-gae3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_helper_gae3-1.0.tar.gz tmp/test_helper_gae3-1.1.tar.gz --markdown 20230421/t/test-helper-gae3/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-21 12:41:56] INFO root fetch - processPackages [jupyspace]: Downloading https://files.pythonhosted.org/packages/ab/5b/7da79391617ae212bc4dc43c21d109bb09a6c9a4514d35096c2f631af14c/jupyspace-0.0.4.tar.gz
+[2023-04-21 12:41:56] INFO root fetch - processPackages [smartonnx]: executing diffoscope
+[2023-04-21 12:41:56] INFO root fetch - processPackages [smartonnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartonnx-0.1.5.tar.gz tmp/smartonnx-0.1.6.tar.gz --markdown 20230421/s/smartonnx/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 12:41:56] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-04-21 12:41:56] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.1.3.tar.gz tmp/kalm-0.1.4.tar.gz --markdown 20230421/k/kalm/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-21 12:41:56] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-04-21 12:41:56] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.1.3.tar.gz tmp/kalm-0.1.4.tar.gz --markdown 20230421/k/kalm/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-21 12:41:56] INFO root fetch - processPackages [fps-localspace]: executing diffoscope
+[2023-04-21 12:41:56] INFO root fetch - processPackages [fps-localspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_localspace-0.0.3.tar.gz tmp/fps_localspace-0.0.4.tar.gz --markdown 20230421/f/fps-localspace/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 12:41:56] INFO root fetch - processPackages [jupyspace-api]: executing diffoscope
+[2023-04-21 12:41:56] INFO root fetch - processPackages [jupyspace-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyspace_api-0.0.3.tar.gz tmp/jupyspace_api-0.0.4.tar.gz --markdown 20230421/j/jupyspace-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 12:41:56] INFO root fetch - processPackages [fps-spacex]: executing diffoscope
+[2023-04-21 12:41:56] INFO root fetch - processPackages [fps-spacex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_spacex-0.0.3.tar.gz tmp/fps_spacex-0.0.4.tar.gz --markdown 20230421/f/fps-spacex/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 12:41:56] INFO root fetch - processPackages [jupyspace]: executing diffoscope
+[2023-04-21 12:41:56] INFO root fetch - processPackages [jupyspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyspace-0.0.3.tar.gz tmp/jupyspace-0.0.4.tar.gz --markdown 20230421/j/jupyspace/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 12:41:57] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/52/c0/6f8a2cb35b15f43678e4e3100bb56b98bb5da6007720900a07d21f1536bd/hiddifypanel-4.2.7-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-21 12:41:57] INFO root fetch - processPackages [symdexer]: Start processing: tensorcro
+[2023-04-21 12:41:57] INFO root fetch - main [MainThread]: End processing [symdexer]: success
+[2023-04-21 12:41:57] WARNING root fetch - processPackages [tensorcro]: Skipping, unable to determine old version
+[2023-04-21 12:41:57] INFO root fetch - processPackages [tensorcro]: Start processing: xj-thread
+[2023-04-21 12:41:57] INFO root fetch - main [MainThread]: End processing [tensorcro] error
+[2023-04-21 12:41:57] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-21 12:41:58] INFO root fetch - processPackages [test-helper-gae3]: Start processing: PyE2
+[2023-04-21 12:41:58] INFO root fetch - main [MainThread]: End processing [test-helper-gae3]: success
+[2023-04-21 12:41:58] INFO root fetch - processPackages [PyE2]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-21 12:41:58] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-04-21 12:41:58] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230421/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-21 12:41:58] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-21 12:41:58] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.2.6-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.2.7-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230421/h/hiddifypanel/4.2.6-4.2.7/diff.md --exclude *.pyd
+[2023-04-21 12:41:58] INFO root fetch - main [MainThread]: End processing [smartonnx]: success
+[2023-04-21 12:41:58] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2023-04-21 12:41:58] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.3.5.tar.gz tmp/pye2-0.3.6.tar.gz --markdown 20230421/P/PyE2/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-21 12:41:58] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-04-21 12:41:58] INFO root fetch - main [MainThread]: End processing [fps-localspace]: success
+[2023-04-21 12:41:58] INFO root fetch - main [MainThread]: End processing [jupyspace-api]: success
+[2023-04-21 12:41:58] INFO root fetch - main [MainThread]: End processing [jupyspace]: success
+[2023-04-21 12:41:58] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-04-21 12:41:59] INFO root fetch - main [MainThread]: End processing [fps-spacex]: success
+[2023-04-21 12:41:59] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-04-21 12:42:00] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2023-04-21 12:42:14] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-21 12:42:14] INFO root fetch - main [MainThread]: Store serial: [17801938]
