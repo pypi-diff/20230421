@@ -7373,3 +7373,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 05:41:39] INFO root fetch - main [MainThread]: End processing [azure-mgmt-quota]: success
 [2023-04-21 05:41:40] INFO root fetch - main [MainThread]: End processing [robotoff]: success
 [2023-04-21 05:41:40] INFO root fetch - main [MainThread]: Store serial: [17798756]
+[2023-04-21 05:46:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798756]
+[2023-04-21 05:46:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 05:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TPL-package
+[2023-04-21 05:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-remotejwt
+[2023-04-21 05:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-crm-salesperson-planner
+[2023-04-21 05:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: samarium
+[2023-04-21 05:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seleniumbase
+[2023-04-21 05:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: envd
+[2023-04-21 05:46:49] WARNING root fetch - processPackages [TPL-package]: Skipping, unable to determine old version
+[2023-04-21 05:46:49] INFO root fetch - main [MainThread]: End processing [TPL-package] error
+[2023-04-21 05:46:49] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-21 05:46:49] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: New version: [15.0.1.0.0.6] Old Version: [15.0.1.0.0.5]
+[2023-04-21 05:46:49] INFO root fetch - processPackages [samarium]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-21 05:46:49] WARNING root fetch - processPackages [drf-remotejwt]: Skipping, unable to determine old version
+[2023-04-21 05:46:49] INFO root fetch - main [MainThread]: End processing [drf-remotejwt] error
+[2023-04-21 05:46:49] INFO root fetch - processPackages [envd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 05:46:49] INFO root fetch - processPackages [samarium]: Downloading https://files.pythonhosted.org/packages/fa/a6/beddc49a95f5d0107cf097ccb8d90e9c6fe939d58e338d882652bb7c77b4/samarium-0.5.1.tar.gz
+[2023-04-21 05:46:49] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Downloading https://files.pythonhosted.org/packages/16/bf/c04e097523d32da4b0b499f1091a79e460bd16e1ad0222d359ba777a2f13/odoo_addon_crm_salesperson_planner-15.0.1.0.0.5-py3-none-any.whl
+[2023-04-21 05:46:50] INFO root fetch - processPackages [samarium]: Downloading https://files.pythonhosted.org/packages/32/bc/e7363af1a832008f1761c99d31c536a3dcb60ede6c8643de985772ee931e/samarium-0.5.2.tar.gz
+[2023-04-21 05:46:50] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/40/8f/ca38bcdc6fb6476b2f39f7447c21359ec87ef0ed65e589349a047ed332cd/envd-0.3.8.tar.gz
+[2023-04-21 05:46:50] INFO root fetch - processPackages [samarium]: executing diffoscope
+[2023-04-21 05:46:50] INFO root fetch - processPackages [samarium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samarium-0.5.1.tar.gz tmp/samarium-0.5.2.tar.gz --markdown 20230421/s/samarium/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-21 05:46:50] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Downloading https://files.pythonhosted.org/packages/9d/b4/7d16d43e9346bd5ff2204add81e3cd4fe6272f910b935048bdcfad71d7f2/odoo_addon_crm_salesperson_planner-15.0.1.0.0.6-py3-none-any.whl
+[2023-04-21 05:46:50] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-04-21 05:46:50] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230421/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-21 05:46:50] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: executing diffoscope
+[2023-04-21 05:46:50] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_salesperson_planner-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_crm_salesperson_planner-15.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-crm-salesperson-planner/15.0.1.0.0.5-15.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-04-21 05:46:51] INFO root fetch - main [MainThread]: End processing [samarium]: success
+[2023-04-21 05:46:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-salesperson-planner]: success
+[2023-04-21 05:46:52] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-04-21 05:46:53] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/6f/e2/02e4db7e4affa6e54962dd795208ba1de5a9bbca208205fca85382498bfa/envd-0.3.9.tar.gz
+[2023-04-21 05:46:56] INFO root fetch - processPackages [envd]: executing diffoscope
+[2023-04-21 05:46:56] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230421/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 05:48:14] INFO root fetch - main [MainThread]: End processing [envd]: success
+[2023-04-21 05:48:14] INFO root fetch - main [MainThread]: Store serial: [17798785]
