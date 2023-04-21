@@ -14468,3 +14468,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 14:32:48] INFO root fetch - main [MainThread]: End processing [pyrfc]: success
 [2023-04-21 14:33:29] INFO root fetch - main [MainThread]: End processing [modelscope]: success
 [2023-04-21 14:33:29] INFO root fetch - main [MainThread]: Store serial: [17802987]
+[2023-04-21 14:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802987]
+[2023-04-21 14:38:38] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-21 14:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idds-atlas
+[2023-04-21 14:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idds-client
+[2023-04-21 14:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idds-common
+[2023-04-21 14:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idds-doma
+[2023-04-21 14:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idds-server
+[2023-04-21 14:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idds-monitor
+[2023-04-21 14:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idds-website
+[2023-04-21 14:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idds-workflow
+[2023-04-21 14:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: supy
+[2023-04-21 14:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iql
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-client]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-common]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-atlas]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-workflow]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-monitor]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-21 14:38:39] INFO root fetch - processPackages [iql]: New version: [0.1.9b5] Old Version: [0.1.6]
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-doma]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-21 14:38:39] INFO root fetch - processPackages [supy]: New version: [2023.4.21.dev0] Old Version: [2023.4.14.dev0]
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-website]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-server]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-21 14:38:39] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/6f/54/cd05f644587c2e81667892634409318e41fd6962dadb81abce45700cd990/supy-2023.4.14.dev0-cp39-cp39-win_amd64.whl
+[2023-04-21 14:38:39] INFO root fetch - processPackages [iql]: Downloading https://files.pythonhosted.org/packages/36/b2/ff116e2dffb1e862ad4eda89b8d35e928542eb46a5704b904f476d3a6166/iql-0.1.6-py3-none-any.whl
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/cb/8f/9a72e453e8874d2da66ed0a99b6792c13bc8dd6c76285328b7a243d67b63/idds-common-1.2.3.tar.gz
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/79/24/32c42dee50a619a8a20c7c107aba082e859599f30bd29daaae5489fd10b0/idds-atlas-1.2.3.tar.gz
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/40/98/b302a7dee36cded55ff0f030c307843236e256665a07fb7da5b3a3cbb970/idds-client-1.2.3.tar.gz
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/f3/3a/68bdfd4d807e237bec50ab3ee2eebbfbbee196342b6c5efb4a0fcbf9b128/idds-server-1.2.3.tar.gz
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/5d/cf/39a798a3fe53b04e55cb1e8194513e13c0c632f1dde648b8584497e65341/idds-doma-1.2.3.tar.gz
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/3e/5f/1fb348042211bb186054ba0a3513439195489aa4c093229fe4829b1a7850/idds-monitor-1.2.3.tar.gz
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/b5/e4/0eee96d2cc7bdcadd1dd9f39a1c8029618424b039668676ca16ac6e25f73/idds-workflow-1.2.3.tar.gz
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/87/e4/6ae7ac86a15a0ec88b19c9d2ac5d49a665f63e27c7c4743c5d16744f6c49/idds-website-1.2.3.tar.gz
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-atlas]: executing diffoscope
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-atlas-1.2.2.tar.gz tmp/idds-atlas-1.2.3.tar.gz --markdown 20230421/i/idds-atlas/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-common]: executing diffoscope
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-common-1.2.2.tar.gz tmp/idds-common-1.2.3.tar.gz --markdown 20230421/i/idds-common/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-client]: executing diffoscope
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-client-1.2.2.tar.gz tmp/idds-client-1.2.3.tar.gz --markdown 20230421/i/idds-client/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-doma]: executing diffoscope
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-doma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-doma-1.2.2.tar.gz tmp/idds-doma-1.2.3.tar.gz --markdown 20230421/i/idds-doma/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-workflow]: executing diffoscope
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-workflow-1.2.2.tar.gz tmp/idds-workflow-1.2.3.tar.gz --markdown 20230421/i/idds-workflow/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-server]: executing diffoscope
+[2023-04-21 14:38:39] INFO root fetch - processPackages [idds-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-server-1.2.2.tar.gz tmp/idds-server-1.2.3.tar.gz --markdown 20230421/i/idds-server/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-21 14:38:39] INFO root fetch - processPackages [iql]: Downloading https://files.pythonhosted.org/packages/84/5d/46a3f1bc89dbb24236337465906bc86d1728bfb8a96f320bb5ffcb52f5c2/iql-0.1.9b5-py3-none-any.whl
+[2023-04-21 14:38:39] INFO root fetch - processPackages [iql]: executing diffoscope
+[2023-04-21 14:38:39] INFO root fetch - processPackages [iql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iql-0.1.6-py3-none-any.whl.zip tmp/iql-0.1.9b5-py3-none-any.whl.zip --markdown 20230421/i/iql/0.1.6-0.1.9b5/diff.md --exclude *.pyd
+[2023-04-21 14:38:39] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/3a/c8/c0711cb0910a8685d88dacbf9c1e275e769b77a886006f93ef3c4a1abfb4/supy-2023.4.21.dev0-cp39-cp39-win_amd64.whl
+[2023-04-21 14:38:40] INFO root fetch - processPackages [idds-website]: executing diffoscope
+[2023-04-21 14:38:40] INFO root fetch - processPackages [idds-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-website-1.2.2.tar.gz tmp/idds-website-1.2.3.tar.gz --markdown 20230421/i/idds-website/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-21 14:38:40] INFO root fetch - processPackages [idds-monitor]: executing diffoscope
+[2023-04-21 14:38:40] INFO root fetch - processPackages [idds-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-monitor-1.2.2.tar.gz tmp/idds-monitor-1.2.3.tar.gz --markdown 20230421/i/idds-monitor/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-21 14:38:40] INFO root fetch - processPackages [supy]: executing diffoscope
+[2023-04-21 14:38:40] INFO root fetch - processPackages [supy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supy-2023.4.14.dev0-cp39-cp39-win_amd64.whl.zip tmp/supy-2023.4.21.dev0-cp39-cp39-win_amd64.whl.zip --markdown 20230421/s/supy/2023.4.14.dev0-2023.4.21.dev0/diff.md --exclude *.pyd
+[2023-04-21 14:38:41] INFO root fetch - processPackages [idds-workflow]: Start processing: dataScipy
+[2023-04-21 14:38:41] INFO root fetch - main [MainThread]: End processing [idds-workflow]: success
+[2023-04-21 14:38:41] INFO root fetch - processPackages [dataScipy]: New version: [0.0.4.0.5.1] Old Version: [0.0.4.0.5]
+[2023-04-21 14:38:41] INFO root fetch - processPackages [dataScipy]: executing diffoscope
+[2023-04-21 14:38:41] INFO root fetch - processPackages [dataScipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataScipy-0.0.4.0.5.tar.gz tmp/dataScipy-0.0.4.0.5.1.tar.gz --markdown 20230421/d/dataScipy/0.0.4.0.5-0.0.4.0.5.1/diff.md --exclude *.pyd
+[2023-04-21 14:38:41] INFO root fetch - processPackages [idds-client]: Start processing: spagrn
+[2023-04-21 14:38:41] INFO root fetch - main [MainThread]: End processing [idds-client]: success
+[2023-04-21 14:38:41] WARNING root fetch - processPackages [spagrn]: Skipping, unable to determine old version
+[2023-04-21 14:38:41] INFO root fetch - processPackages [spagrn]: Start processing: cca-zoo
+[2023-04-21 14:38:41] INFO root fetch - main [MainThread]: End processing [spagrn] error
+[2023-04-21 14:38:41] INFO root fetch - processPackages [idds-common]: Start processing: pycalib
+[2023-04-21 14:38:41] INFO root fetch - main [MainThread]: End processing [idds-common]: success
+[2023-04-21 14:38:42] INFO root fetch - processPackages [iql]: Start processing: myst-nb
+[2023-04-21 14:38:42] INFO root fetch - main [MainThread]: End processing [iql]: success
+[2023-04-21 14:38:42] INFO root fetch - processPackages [idds-doma]: Start processing: dppd-plotnine
+[2023-04-21 14:38:42] INFO root fetch - main [MainThread]: End processing [idds-doma]: success
+[2023-04-21 14:38:42] INFO root fetch - processPackages [pycalib]: New version: [0.1.0.dev4] Old Version: [0.1.0.dev3]
+[2023-04-21 14:38:42] INFO root fetch - processPackages [cca-zoo]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-21 14:38:42] INFO root fetch - processPackages [myst-nb]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-21 14:38:42] INFO root fetch - processPackages [pycalib]: Downloading https://files.pythonhosted.org/packages/42/d8/2499d85b359308ef49b27a59f67353891e97ce09c43b0c885e810633685c/pycalib-0.1.0.dev3.tar.gz
+[2023-04-21 14:38:42] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/56/2a/5b321d3b74d6769bee74a496f59abee3d7d2e57b3124f5dd5a5c0353737e/cca_zoo-1.9.0.tar.gz
+[2023-04-21 14:38:42] INFO root fetch - processPackages [idds-atlas]: Start processing: francesco-iannaccone
+[2023-04-21 14:38:42] INFO root fetch - main [MainThread]: End processing [idds-atlas]: success
+[2023-04-21 14:38:42] INFO root fetch - processPackages [dppd-plotnine]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-21 14:38:42] INFO root fetch - processPackages [myst-nb]: Downloading https://files.pythonhosted.org/packages/2f/48/818c10d4cec7b0ee3da4378d044ae1ec62c892a6042b1985a0117871b7b9/myst-nb-0.9.1.tar.gz
+[2023-04-21 14:38:42] WARNING root fetch - processPackages [francesco-iannaccone]: Skipping, unable to determine old version
+[2023-04-21 14:38:42] INFO root fetch - processPackages [francesco-iannaccone]: Start processing: wikitext-asymptote
+[2023-04-21 14:38:42] INFO root fetch - main [MainThread]: End processing [francesco-iannaccone] error
+[2023-04-21 14:38:42] INFO root fetch - processPackages [pycalib]: Downloading https://files.pythonhosted.org/packages/79/ea/19071adaa64d4ed09921a5ccd3ec82504e58b76c6ece3ae90778bd0fc3de/pycalib-0.1.0.dev4.tar.gz
+[2023-04-21 14:38:42] INFO root fetch - main [MainThread]: End processing [idds-website]: success
+[2023-04-21 14:38:42] INFO root fetch - processPackages [dppd-plotnine]: Downloading https://files.pythonhosted.org/packages/63/55/0da46f8a17c6ae85e4d059e0e94cdd8ff598e0d72633928820ebaea83124/dppd_plotnine-0.2.4.tar.gz
+[2023-04-21 14:38:42] INFO root fetch - processPackages [wikitext-asymptote]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 14:38:42] INFO root fetch - processPackages [pycalib]: executing diffoscope
+[2023-04-21 14:38:42] INFO root fetch - processPackages [pycalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycalib-0.1.0.dev3.tar.gz tmp/pycalib-0.1.0.dev4.tar.gz --markdown 20230421/p/pycalib/0.1.0.dev3-0.1.0.dev4/diff.md --exclude *.pyd
+[2023-04-21 14:38:42] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/b6/36/bcb7c4d98ec7e471288242d2936fbeba49789eb863e2bb897257f9093dc2/cca_zoo-1.9.1.tar.gz
+[2023-04-21 14:38:42] INFO root fetch - main [MainThread]: End processing [supy]: success
+[2023-04-21 14:38:42] INFO root fetch - processPackages [myst-nb]: Downloading https://files.pythonhosted.org/packages/e3/53/c6f165e2b8d59f63b904ea96f622c0e847214567cb81f55d7393f1bf24cc/myst-nb-0.9.2.tar.gz
+[2023-04-21 14:38:42] INFO root fetch - processPackages [cca-zoo]: executing diffoscope
+[2023-04-21 14:38:42] INFO root fetch - processPackages [cca-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cca_zoo-1.9.0.tar.gz tmp/cca_zoo-1.9.1.tar.gz --markdown 20230421/c/cca-zoo/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-21 14:38:42] INFO root fetch - processPackages [wikitext-asymptote]: Downloading https://files.pythonhosted.org/packages/42/e5/a2e610df2888aa855ab2f1382f1b51fc3e7911f82f49c530b67401c8675f/wikitext_asymptote-0.0.3.tar.gz
+[2023-04-21 14:38:42] INFO root fetch - processPackages [dppd-plotnine]: Downloading https://files.pythonhosted.org/packages/9e/f2/5cbfd70e3e37b34af0bbf0ad28e9257b316f16deb7a938ad55a64e22234e/dppd_plotnine-0.2.5.tar.gz
+[2023-04-21 14:38:42] INFO root fetch - processPackages [myst-nb]: executing diffoscope
+[2023-04-21 14:38:42] INFO root fetch - processPackages [myst-nb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myst-nb-0.9.1.tar.gz tmp/myst-nb-0.9.2.tar.gz --markdown 20230421/m/myst-nb/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-21 14:38:42] INFO root fetch - processPackages [dppd-plotnine]: executing diffoscope
+[2023-04-21 14:38:42] INFO root fetch - processPackages [dppd-plotnine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dppd_plotnine-0.2.4.tar.gz tmp/dppd_plotnine-0.2.5.tar.gz --markdown 20230421/d/dppd-plotnine/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-21 14:38:42] INFO root fetch - main [MainThread]: End processing [idds-server]: success
+[2023-04-21 14:38:43] INFO root fetch - processPackages [wikitext-asymptote]: Downloading https://files.pythonhosted.org/packages/e9/9d/31d5d7a04670f4cab3dc6b0cc7be39d69959a49fa89aa9ad27d87eab38df/wikitext_asymptote-0.0.4.tar.gz
+[2023-04-21 14:38:43] INFO root fetch - processPackages [wikitext-asymptote]: executing diffoscope
+[2023-04-21 14:38:43] INFO root fetch - processPackages [wikitext-asymptote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikitext_asymptote-0.0.3.tar.gz tmp/wikitext_asymptote-0.0.4.tar.gz --markdown 20230421/w/wikitext-asymptote/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 14:38:43] INFO root fetch - main [MainThread]: End processing [dataScipy]: success
+[2023-04-21 14:38:43] INFO root fetch - main [MainThread]: End processing [pycalib]: success
+[2023-04-21 14:38:44] INFO root fetch - main [MainThread]: End processing [myst-nb]: success
+[2023-04-21 14:38:44] INFO root fetch - main [MainThread]: End processing [cca-zoo]: success
+[2023-04-21 14:38:44] INFO root fetch - main [MainThread]: End processing [dppd-plotnine]: success
+[2023-04-21 14:38:44] INFO root fetch - main [MainThread]: End processing [wikitext-asymptote]: success
+[2023-04-21 14:38:46] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
+[2023-04-21 14:38:46] INFO root fetch - main [MainThread]: Store serial: [17803099]
