@@ -22077,3 +22077,141 @@ EOFError: EOF read where object expected
 [2023-04-21 21:46:12] INFO root fetch - main [MainThread]: End processing [charlogger]: success
 [2023-04-21 21:46:12] INFO root fetch - main [MainThread]: End processing [propan]: success
 [2023-04-21 21:46:12] INFO root fetch - main [MainThread]: Store serial: [17807922]
+[2023-04-21 21:51:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807922]
+[2023-04-21 21:51:24] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-21 21:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modflow-devtools
+[2023-04-21 21:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yaml-stripper
+[2023-04-21 21:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terrario
+[2023-04-21 21:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plixkws
+[2023-04-21 21:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snowflake-cli-labs
+[2023-04-21 21:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sense-energy
+[2023-04-21 21:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastmat
+[2023-04-21 21:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cpppackage7
+[2023-04-21 21:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bacpypes3
+[2023-04-21 21:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yaml-stripper
+[2023-04-21 21:51:24] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 21:51:24] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:51:24] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:51:24] INFO root fetch - processPackages [modflow-devtools]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-21 21:51:24] INFO root fetch - processPackages [bacpypes3]: New version: [0.0.70] Old Version: [0.0.69]
+[2023-04-21 21:51:24] INFO root fetch - processPackages [plixkws]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 21:51:24] WARNING root fetch - processPackages [cpppackage7]: Skipping, unable to determine old version
+[2023-04-21 21:51:24] INFO root fetch - processPackages [cpppackage7]: Start processing: yaml-stripper
+[2023-04-21 21:51:24] INFO root fetch - main [MainThread]: End processing [cpppackage7] error
+[2023-04-21 21:51:24] INFO root fetch - processPackages [snowflake-cli-labs]: New version: [0.2.7] Old Version: [0.2.5]
+[2023-04-21 21:51:24] INFO root fetch - processPackages [sense-energy]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-21 21:51:24] INFO root fetch - processPackages [fastmat]: New version: [0.2rc0] Old Version: [0.2a4]
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: Downloading https://files.pythonhosted.org/packages/02/5c/f962a8a405a62330a3bfa6cf9a6a66e04de85cf878afb29b4a2f7b093bfb/yaml-stripper-0.1.6.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: Downloading https://files.pythonhosted.org/packages/02/5c/f962a8a405a62330a3bfa6cf9a6a66e04de85cf878afb29b4a2f7b093bfb/yaml-stripper-0.1.6.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/28/d2/90db2beef928cd80350326d31067f998e8c6aeded6f861f817a82e67bb02/snowflake_cli_labs-0.2.5.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [plixkws]: Downloading https://files.pythonhosted.org/packages/89/67/1d6ab59bc95f7a38df2779cca5ad81d4327ce32454e8a8445755ef08aee4/plixkws-0.2.1.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [sense-energy]: Downloading https://files.pythonhosted.org/packages/99/b8/d9e869906ab53cc1d5c522690e4dd34afd750437fdb64ef8688604a810d6/sense_energy-0.9.5.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: Downloading https://files.pythonhosted.org/packages/23/62/90c71bb74820fd0f53e0fc6d7573a0d841605c2943507d1d67a830b455a0/yaml-stripper-0.1.8.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [fastmat]: Downloading https://files.pythonhosted.org/packages/6c/04/4fe7b5282f3f51d0e8cb3809e9444b8a8153f9a0a83d1e06a90cad068594/fastmat-0.2a4.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.5.tar.gz tmp/yaml-stripper-0.1.6.tar.gz --markdown 20230421/y/yaml-stripper/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.5.tar.gz tmp/yaml-stripper-0.1.6.tar.gz --markdown 20230421/y/yaml-stripper/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 21:51:24] INFO root fetch - processPackages [bacpypes3]: Downloading https://files.pythonhosted.org/packages/e1/8c/b649e3fb09e109673517b889cfe3d0d9f085893f4a4e48c12be058fec907/bacpypes3-0.0.70-py3-none-any.whl
+[2023-04-21 21:51:24] INFO root fetch - processPackages [modflow-devtools]: Downloading https://files.pythonhosted.org/packages/b3/ba/8051e4af5f34ad56101135ac39abeceeb826e836099ce97c68ebd6869fd0/modflow-devtools-0.1.8.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/f0/6a/54c9d087bb036a288ceac280e820d63175436ba44d7194ee613f062f3c57/snowflake_cli_labs-0.2.7.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [plixkws]: Downloading https://files.pythonhosted.org/packages/f4/86/e9011e81034027ff664d9e0db5a99d256b507a3a154ecdbabb07fc4dd323/plixkws-0.2.2.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: Downloading https://files.pythonhosted.org/packages/ad/21/adda8fa1e931d995cf17917d6b3cb724570f1eae74d0381d2842d87e73b4/yaml-stripper-0.1.9.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [bacpypes3]: executing diffoscope
+[2023-04-21 21:51:24] INFO root fetch - processPackages [bacpypes3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacpypes3-0.0.69-py3-none-any.whl.zip tmp/bacpypes3-0.0.70-py3-none-any.whl.zip --markdown 20230421/b/bacpypes3/0.0.69-0.0.70/diff.md --exclude *.pyd
+[2023-04-21 21:51:24] INFO root fetch - processPackages [modflow-devtools]: executing diffoscope
+[2023-04-21 21:51:24] INFO root fetch - processPackages [modflow-devtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modflow-devtools-0.1.7.tar.gz tmp/modflow-devtools-0.1.8.tar.gz --markdown 20230421/m/modflow-devtools/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-21 21:51:24] INFO root fetch - processPackages [snowflake-cli-labs]: executing diffoscope
+[2023-04-21 21:51:24] INFO root fetch - processPackages [snowflake-cli-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_cli_labs-0.2.5.tar.gz tmp/snowflake_cli_labs-0.2.7.tar.gz --markdown 20230421/s/snowflake-cli-labs/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2023-04-21 21:51:24] INFO root fetch - processPackages [fastmat]: Downloading https://files.pythonhosted.org/packages/82/c5/03b8539b4b5a6bebc283ec229f734817bed0b081a9c7dbc78286dce40e8a/fastmat-0.2rc0.tar.gz
+[2023-04-21 21:51:24] INFO root fetch - processPackages [plixkws]: executing diffoscope
+[2023-04-21 21:51:24] INFO root fetch - processPackages [plixkws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plixkws-0.2.1.tar.gz tmp/plixkws-0.2.2.tar.gz --markdown 20230421/p/plixkws/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 21:51:24] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 21:51:25] INFO root fetch - processPackages [fastmat]: executing diffoscope
+[2023-04-21 21:51:25] INFO root fetch - processPackages [fastmat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmat-0.2a4.tar.gz tmp/fastmat-0.2rc0.tar.gz --markdown 20230421/f/fastmat/0.2a4-0.2rc0/diff.md --exclude *.pyd
+[2023-04-21 21:51:25] INFO root fetch - processPackages [sense-energy]: Downloading https://files.pythonhosted.org/packages/e3/84/070c4322e2b412b5567b09eef0eb2f0fffbdb95a8d57e8998aa0a60254d4/sense_energy-0.9.6.tar.gz
+[2023-04-21 21:51:25] INFO root fetch - processPackages [sense-energy]: executing diffoscope
+[2023-04-21 21:51:25] INFO root fetch - processPackages [sense-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sense_energy-0.9.5.tar.gz tmp/sense_energy-0.9.6.tar.gz --markdown 20230421/s/sense-energy/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 21:51:25] INFO root fetch - processPackages [terrario]: Start processing: deltafi
+[2023-04-21 21:51:25] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:51:25] INFO root fetch - processPackages [deltafi]: New version: [0.99.8] Old Version: [0.99.7]
+[2023-04-21 21:51:26] INFO root fetch - processPackages [yaml-stripper]: Start processing: plixkws
+[2023-04-21 21:51:26] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 21:51:26] INFO root fetch - processPackages [plixkws]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 21:51:26] INFO root fetch - processPackages [yaml-stripper]: Start processing: terrario
+[2023-04-21 21:51:26] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 21:51:26] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:51:26] INFO root fetch - processPackages [plixkws]: executing diffoscope
+[2023-04-21 21:51:26] INFO root fetch - processPackages [plixkws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plixkws-0.2.1.tar.gz tmp/plixkws-0.2.2.tar.gz --markdown 20230421/p/plixkws/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 21:51:26] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:51:26] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:51:26] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-04-21 21:51:26] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-0.99.7.tar.gz tmp/deltafi-0.99.8.tar.gz --markdown 20230421/d/deltafi/0.99.7-0.99.8/diff.md --exclude *.pyd
+[2023-04-21 21:51:26] INFO root fetch - processPackages [modflow-devtools]: Start processing: chalk-harness
+[2023-04-21 21:51:26] INFO root fetch - main [MainThread]: End processing [modflow-devtools]: success
+[2023-04-21 21:51:26] INFO root fetch - processPackages [yaml-stripper]: Start processing: pygismeteo-base
+[2023-04-21 21:51:26] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 21:51:26] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-21 21:51:26] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-04-21 21:51:26] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230421/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 21:51:26] INFO root fetch - processPackages [pygismeteo-base]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-04-21 21:51:26] INFO root fetch - processPackages [plixkws]: Start processing: pylogix-0
+[2023-04-21 21:51:26] INFO root fetch - main [MainThread]: End processing [plixkws]: success
+[2023-04-21 21:51:27] WARNING root fetch - processPackages [pylogix-0]: Skipping, unable to determine old version
+[2023-04-21 21:51:27] INFO root fetch - processPackages [pylogix-0]: Start processing: deskAssistant
+[2023-04-21 21:51:27] INFO root fetch - main [MainThread]: End processing [pylogix-0] error
+[2023-04-21 21:51:27] INFO root fetch - processPackages [pygismeteo-base]: Downloading https://files.pythonhosted.org/packages/21/cc/55e90f764f616ba879e1fa3f23d64a712ee3018c74661ab253f1b16a0145/pygismeteo_base-4.2.0.tar.gz
+[2023-04-21 21:51:27] INFO root fetch - processPackages [deskAssistant]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 21:51:27] INFO root fetch - processPackages [pygismeteo-base]: executing diffoscope
+[2023-04-21 21:51:27] INFO root fetch - processPackages [pygismeteo-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygismeteo_base-4.1.0.tar.gz tmp/pygismeteo_base-4.2.0.tar.gz --markdown 20230421/p/pygismeteo-base/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-04-21 21:51:27] INFO root fetch - processPackages [deskAssistant]: Downloading https://files.pythonhosted.org/packages/f6/a7/aa913af75aa209cce50ff5a542e7d8e07be3c8f91df95ae5d94b08151546/deskAssistant-0.0.6.tar.gz
+[2023-04-21 21:51:27] INFO root fetch - processPackages [snowflake-cli-labs]: Start processing: plixkws
+[2023-04-21 21:51:27] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
+[2023-04-21 21:51:27] INFO root fetch - processPackages [plixkws]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 21:51:27] INFO root fetch - processPackages [bacpypes3]: Start processing: text-fabric
+[2023-04-21 21:51:27] INFO root fetch - main [MainThread]: End processing [bacpypes3]: success
+[2023-04-21 21:51:27] INFO root fetch - processPackages [sense-energy]: Start processing: yaml-stripper
+[2023-04-21 21:51:27] INFO root fetch - main [MainThread]: End processing [sense-energy]: success
+[2023-04-21 21:51:27] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 21:51:27] INFO root fetch - processPackages [plixkws]: executing diffoscope
+[2023-04-21 21:51:27] INFO root fetch - processPackages [plixkws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plixkws-0.2.1.tar.gz tmp/plixkws-0.2.2.tar.gz --markdown 20230421/p/plixkws/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 21:51:27] INFO root fetch - processPackages [deskAssistant]: Downloading https://files.pythonhosted.org/packages/26/2a/cd73507366dee2d2d68b37fa7d9e06feff767a839a70c10648e6ed5af156/deskAssistant-0.0.7.tar.gz
+[2023-04-21 21:51:27] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.5.1]
+[2023-04-21 21:51:27] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 21:51:27] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 21:51:27] INFO root fetch - processPackages [deskAssistant]: executing diffoscope
+[2023-04-21 21:51:27] INFO root fetch - processPackages [deskAssistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deskAssistant-0.0.6.tar.gz tmp/deskAssistant-0.0.7.tar.gz --markdown 20230421/d/deskAssistant/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 21:51:27] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/43/2d/ea1910fa4bdc447dcc6ca95352e531aea631321d699f661e3d5267526488/text_fabric-9.5.1-py3-none-any.whl
+[2023-04-21 21:51:28] INFO root fetch - processPackages [plixkws]: Start processing: plixkws
+[2023-04-21 21:51:28] INFO root fetch - main [MainThread]: End processing [plixkws]: success
+[2023-04-21 21:51:28] INFO root fetch - processPackages [plixkws]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 21:51:28] INFO root fetch - processPackages [plixkws]: executing diffoscope
+[2023-04-21 21:51:28] INFO root fetch - processPackages [plixkws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plixkws-0.2.1.tar.gz tmp/plixkws-0.2.2.tar.gz --markdown 20230421/p/plixkws/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 21:51:28] INFO root fetch - processPackages [deltafi]: Start processing: terrario
+[2023-04-21 21:51:28] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-04-21 21:51:28] INFO root fetch - processPackages [chalk-harness]: Start processing: sarus
+[2023-04-21 21:51:28] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-04-21 21:51:28] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:51:28] INFO root fetch - main [MainThread]: End processing [fastmat]: success
+[2023-04-21 21:51:28] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:51:28] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:51:28] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:51:28] INFO root fetch - processPackages [sarus]: New version: [0.5.0.dev9] Old Version: [0.5.0.dev8]
+[2023-04-21 21:51:29] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-04-21 21:51:29] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.5.0.dev8.tar.gz tmp/sarus-0.5.0.dev9.tar.gz --markdown 20230421/s/sarus/0.5.0.dev8-0.5.0.dev9/diff.md --exclude *.pyd
+[2023-04-21 21:51:29] INFO root fetch - main [MainThread]: End processing [plixkws]: success
+[2023-04-21 21:51:29] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2023-04-21 21:51:29] INFO root fetch - main [MainThread]: End processing [pygismeteo-base]: success
+[2023-04-21 21:51:29] INFO root fetch - main [MainThread]: End processing [deskAssistant]: success
+[2023-04-21 21:51:29] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 21:51:30] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-04-21 21:51:30] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.5.1-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230421/t/text-fabric/9.5.1-9.5.2/diff.md --exclude *.pyd
+[2023-04-21 21:51:30] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:51:31] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-04-21 21:51:34] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-04-21 21:51:44] INFO root fetch - main [MainThread]: End processing [plixkws]: success
+[2023-04-21 21:51:44] INFO root fetch - main [MainThread]: Store serial: [17808033]
