@@ -7273,3 +7273,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 05:31:08] INFO root fetch - main [MainThread]: End processing [azure-mgmt-cosmosdb]: success
 [2023-04-21 05:31:12] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-04-21 05:31:12] INFO root fetch - main [MainThread]: Store serial: [17798698]
+[2023-04-21 05:36:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798698]
+[2023-04-21 05:36:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 05:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-cosmosdb
+[2023-04-21 05:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-ecommerce-ext
+[2023-04-21 05:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assisted-service-client
+[2023-04-21 05:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bk-resource
+[2023-04-21 05:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mbGDML
+[2023-04-21 05:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsptrain
+[2023-04-21 05:36:22] INFO root fetch - processPackages [lsptrain]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-04-21 05:36:22] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-04-21 05:36:22] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-21 05:36:22] INFO root fetch - processPackages [bk-resource]: New version: [0.4.0rc2] Old Version: [0.4.0rc1]
+[2023-04-21 05:36:22] INFO root fetch - processPackages [lsptrain]: executing diffoscope
+[2023-04-21 05:36:22] INFO root fetch - processPackages [lsptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsptrain-0.0.42.tar.gz tmp/lsptrain-0.0.43.tar.gz --markdown 20230421/l/lsptrain/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-04-21 05:36:22] INFO root fetch - processPackages [mbGDML]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-04-21 05:36:22] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: New version: [9.1.0b2] Old Version: [9.1.0b1]
+[2023-04-21 05:36:22] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-04-21 05:36:22] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230421/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-04-21 05:36:22] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/a4/72/e63837ed9d3cc159bdfc964572a7499a61445289377aed68494e6356399e/fastapi_ecommerce_ext-0.3.2.tar.gz
+[2023-04-21 05:36:22] INFO root fetch - processPackages [mbGDML]: Downloading https://files.pythonhosted.org/packages/e4/c2/960c918136a68f3fec9e82c49dd15c15c4522214d111ad29185e4bf95620/mbGDML-0.0.4.tar.gz
+[2023-04-21 05:36:22] INFO root fetch - processPackages [bk-resource]: Downloading https://files.pythonhosted.org/packages/d1/16/403e69330421adceec7336fe179188ab2b728ab456f030efaf50ae97e293/bk_resource-0.4.0rc2.tar.gz
+[2023-04-21 05:36:22] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: executing diffoscope
+[2023-04-21 05:36:22] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-cosmosdb-9.1.0b1.zip tmp/azure-mgmt-cosmosdb-9.1.0b2.zip --markdown 20230421/a/azure-mgmt-cosmosdb/9.1.0b1-9.1.0b2/diff.md --exclude *.pyd
+[2023-04-21 05:36:22] INFO root fetch - processPackages [bk-resource]: executing diffoscope
+[2023-04-21 05:36:22] INFO root fetch - processPackages [bk-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk_resource-0.4.0rc1.tar.gz tmp/bk_resource-0.4.0rc2.tar.gz --markdown 20230421/b/bk-resource/0.4.0rc1-0.4.0rc2/diff.md --exclude *.pyd
+[2023-04-21 05:36:22] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/57/71/c75a12627ca5dd777332f080d6f8222946a182f0307041d599b9d23d47b0/fastapi_ecommerce_ext-0.3.3.tar.gz
+[2023-04-21 05:36:22] INFO root fetch - processPackages [mbGDML]: Downloading https://files.pythonhosted.org/packages/08/c7/5ad6c8ca4ac4e4cb33fea39a8184bd06ec9b6feae3849588063cc3ea3186/mbGDML-0.1.0.tar.gz
+[2023-04-21 05:36:22] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-21 05:36:22] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.3.2.tar.gz tmp/fastapi_ecommerce_ext-0.3.3.tar.gz --markdown 20230421/f/fastapi-ecommerce-ext/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-21 05:36:22] INFO root fetch - processPackages [mbGDML]: executing diffoscope
+[2023-04-21 05:36:22] INFO root fetch - processPackages [mbGDML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbGDML-0.0.4.tar.gz tmp/mbGDML-0.1.0.tar.gz --markdown 20230421/m/mbGDML/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-04-21 05:36:23] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
+[2023-04-21 05:36:23] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-21 05:36:23] INFO root fetch - main [MainThread]: End processing [bk-resource]: success
+[2023-04-21 05:36:24] INFO root fetch - main [MainThread]: End processing [mbGDML]: success
+[2023-04-21 05:36:25] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-04-21 05:36:28] INFO root fetch - main [MainThread]: End processing [azure-mgmt-cosmosdb]: success
+[2023-04-21 05:36:28] INFO root fetch - main [MainThread]: Store serial: [17798718]
