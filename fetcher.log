@@ -18873,3 +18873,48 @@ EOFError: EOF read where object expected
 [2023-04-21 18:19:40] INFO root fetch - main [MainThread]: End processing [turbx]: success
 [2023-04-21 18:19:43] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-21 18:19:43] INFO root fetch - main [MainThread]: Store serial: [17805879]
+[2023-04-21 18:24:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805879]
+[2023-04-21 18:24:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-21 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightkube
+[2023-04-21 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nalyst
+[2023-04-21 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maxilearn
+[2023-04-21 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: czech-workdays-holidays
+[2023-04-21 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crispr-library-prep
+[2023-04-21 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorflow-nearest-neighbours
+[2023-04-21 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crispr-library-prep
+[2023-04-21 18:24:53] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 18:24:53] INFO root fetch - processPackages [czech-workdays-holidays]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-21 18:24:53] INFO root fetch - processPackages [maxilearn]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-04-21 18:24:53] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 18:24:53] INFO root fetch - processPackages [lightkube]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-21 18:24:53] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-21 18:24:53] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.5.tar.gz tmp/crispr_library_prep-0.1.6.tar.gz --markdown 20230421/c/crispr-library-prep/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 18:24:53] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 18:24:53] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-21 18:24:53] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.5.tar.gz tmp/crispr_library_prep-0.1.6.tar.gz --markdown 20230421/c/crispr-library-prep/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 18:24:53] INFO root fetch - processPackages [nalyst]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-21 18:24:53] INFO root fetch - processPackages [czech-workdays-holidays]: executing diffoscope
+[2023-04-21 18:24:53] INFO root fetch - processPackages [czech-workdays-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czech_workdays_holidays-0.0.4.tar.gz tmp/czech-workdays-holidays-0.0.5.tar.gz --markdown 20230421/c/czech-workdays-holidays/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 18:24:53] INFO root fetch - processPackages [maxilearn]: Downloading https://files.pythonhosted.org/packages/87/95/b42905bee07c866d9aae3660104977145960403c4aabec27c7ffee96c47c/maxilearn-0.4.0.tar.gz
+[2023-04-21 18:24:53] INFO root fetch - processPackages [lightkube]: Downloading https://files.pythonhosted.org/packages/b6/c7/c8e8a3174034102efeadd33695089d2890e5a45493d521106cf554896529/lightkube-0.8.1.tar.gz
+[2023-04-21 18:24:53] INFO root fetch - processPackages [nalyst]: Downloading https://files.pythonhosted.org/packages/5c/f6/fed0e22437bc559c92f65e5c8b9e9e3b20c13f764ae815073457be541ae6/nalyst-0.2.2.tar.gz
+[2023-04-21 18:24:53] INFO root fetch - processPackages [maxilearn]: executing diffoscope
+[2023-04-21 18:24:53] INFO root fetch - processPackages [maxilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxilearn-0.3.9.tar.gz tmp/maxilearn-0.4.0.tar.gz --markdown 20230421/m/maxilearn/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 18:24:53] INFO root fetch - processPackages [nalyst]: Downloading https://files.pythonhosted.org/packages/72/54/e695364437146c116d533dac892290618d7d29f101fc1dca04efd4a7cc9b/nalyst-0.2.3.tar.gz
+[2023-04-21 18:24:54] INFO root fetch - processPackages [nalyst]: executing diffoscope
+[2023-04-21 18:24:54] INFO root fetch - processPackages [nalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nalyst-0.2.2.tar.gz tmp/nalyst-0.2.3.tar.gz --markdown 20230421/n/nalyst/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-21 18:24:54] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-21 18:24:54] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-21 18:24:54] INFO root fetch - main [MainThread]: End processing [czech-workdays-holidays]: success
+[2023-04-21 18:24:54] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
+[2023-04-21 18:24:55] INFO root fetch - main [MainThread]: End processing [nalyst]: success
+[2023-04-21 18:24:55] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: Downloading https://files.pythonhosted.org/packages/ea/a5/75032958340cbb1f9bc7b84107e216632855d9e1cd0d50127c6946232390/tensorflow_nearest_neighbours-0.0.2-cp39-cp39-macosx_13_0_arm64.whl
+[2023-04-21 18:24:55] INFO root fetch - processPackages [lightkube]: Downloading https://files.pythonhosted.org/packages/40/a9/7f2e9d66fe0e5f8facb79608e25bac48747efe708a906358c0a87301843f/lightkube-0.9.0.tar.gz
+[2023-04-21 18:24:55] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: Downloading https://files.pythonhosted.org/packages/95/34/aeaf87eb543e601da33605ed65154e234b4fdb4f0e86dd2efa4d56e1c1c5/tensorflow_nearest_neighbours-0.0.3-cp39-cp39-macosx_13_0_arm64.whl
+[2023-04-21 18:24:56] INFO root fetch - processPackages [lightkube]: executing diffoscope
+[2023-04-21 18:24:56] INFO root fetch - processPackages [lightkube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-0.8.1.tar.gz tmp/lightkube-0.9.0.tar.gz --markdown 20230421/l/lightkube/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 18:24:56] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: executing diffoscope
+[2023-04-21 18:24:56] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_nearest_neighbours-0.0.2-cp39-cp39-macosx_13_0_arm64.whl.zip tmp/tensorflow_nearest_neighbours-0.0.3-cp39-cp39-macosx_13_0_arm64.whl.zip --markdown 20230421/t/tensorflow-nearest-neighbours/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 18:24:57] INFO root fetch - main [MainThread]: End processing [lightkube]: success
+[2023-04-21 18:24:58] INFO root fetch - main [MainThread]: End processing [tensorflow-nearest-neighbours]: success
+[2023-04-21 18:24:58] INFO root fetch - main [MainThread]: Store serial: [17805906]
