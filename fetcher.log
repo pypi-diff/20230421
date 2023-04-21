@@ -8255,3 +8255,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 07:20:05] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
 [2023-04-21 07:20:05] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
 [2023-04-21 07:20:05] INFO root fetch - main [MainThread]: Store serial: [17799339]
+[2023-04-21 07:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799339]
+[2023-04-21 07:25:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-21 07:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-manufacture-reporting
+[2023-04-21 07:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logfire-python
+[2023-04-21 07:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdup
+[2023-04-21 07:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain
+[2023-04-21 07:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antibiotics
+[2023-04-21 07:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-margin-analysis
+[2023-04-21 07:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb
+[2023-04-21 07:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-client
+[2023-04-21 07:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-dataset
+[2023-04-21 07:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-models
+[2023-04-21 07:25:13] INFO root fetch - processPackages [logfire-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 07:25:13] INFO root fetch - processPackages [odoo14-addons-oca-manufacture-reporting]: New version: [14.0.20230420.0] Old Version: [14.0.20230417.1]
+[2023-04-21 07:25:13] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.7.0.post201] Old Version: [2.7.0.post200]
+[2023-04-21 07:25:13] INFO root fetch - processPackages [nucliadb]: New version: [2.7.0.post201] Old Version: [2.7.0.post200]
+[2023-04-21 07:25:13] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: New version: [16.0.20230420.0] Old Version: [15.0.20230306.0]
+[2023-04-21 07:25:14] INFO root fetch - processPackages [antibiotics]: New version: [0.4] Old Version: [0.3]
+[2023-04-21 07:25:14] INFO root fetch - processPackages [fastdup]: New version: [0.921] Old Version: [0.920]
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-client]: New version: [2.7.0.post201] Old Version: [2.7.0.post200]
+[2023-04-21 07:25:14] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-models]: New version: [2.7.0.post201] Old Version: [2.7.0.post200]
+[2023-04-21 07:25:14] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-04-21 07:25:14] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230421/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-04-21 07:25:14] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Downloading https://files.pythonhosted.org/packages/3f/c6/35cc437d06019864d8a03005458cfef1bd081c09ac0a5a8961d7fdefcaed/odoo_addons_oca_margin_analysis-15.0.20230306.0-py3-none-any.whl
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/d8/da/55ef3b6c8c8c13dee13746788b7d37c8d530daf20be451f21f1f4f36cab1/nucliadb_dataset-2.7.0.post201-py3-none-any.whl
+[2023-04-21 07:25:14] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/98/9f/caa2abce9f55118a875d312f168c421bc7f1ca771f791e5ea9ff188c1884/logfire-python-0.0.1.tar.gz
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/15/06/06ca53025c87df74dc732a191baa17bcae7ce6b3596f9d3cff072c680abb/nucliadb-2.7.0.post201-py3-none-any.whl
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/2a/2f/de2f19955a61d73465e0281252b7cefe63ea62ebbb8ed6e5322208586d86/nucliadb_client-2.7.0.post201-py3-none-any.whl
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/5d/fc/8f1bf61c00c49b0409381b6df37b8ff5dfecca930cbc31a69915236e8730/nucliadb_models-2.7.0.post201-py3-none-any.whl
+[2023-04-21 07:25:14] INFO root fetch - processPackages [antibiotics]: Downloading https://files.pythonhosted.org/packages/fd/74/815ccc554817ee7aecf7d3dfcff435523fc552ad8e3f881c47c96654eea8/antibiotics-0.4.tar.gz
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.7.0.post200-py3-none-any.whl.zip tmp/nucliadb_dataset-2.7.0.post201-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-dataset/2.7.0.post200-2.7.0.post201/diff.md --exclude *.pyd
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.7.0.post200-py3-none-any.whl.zip tmp/nucliadb-2.7.0.post201-py3-none-any.whl.zip --markdown 20230421/n/nucliadb/2.7.0.post200-2.7.0.post201/diff.md --exclude *.pyd
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.7.0.post200-py3-none-any.whl.zip tmp/nucliadb_client-2.7.0.post201-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-client/2.7.0.post200-2.7.0.post201/diff.md --exclude *.pyd
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.7.0.post200-py3-none-any.whl.zip tmp/nucliadb_models-2.7.0.post201-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-models/2.7.0.post200-2.7.0.post201/diff.md --exclude *.pyd
+[2023-04-21 07:25:14] INFO root fetch - processPackages [antibiotics]: executing diffoscope
+[2023-04-21 07:25:14] INFO root fetch - processPackages [antibiotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antibiotics-0.3.tar.gz tmp/antibiotics-0.4.tar.gz --markdown 20230421/a/antibiotics/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-21 07:25:14] INFO root fetch - processPackages [odoo14-addons-oca-manufacture-reporting]: Downloading https://files.pythonhosted.org/packages/26/f1/8e39f05ba3a5a8f4ffa0bc7b685d025872fe917ce978f1364f754a355811/odoo14_addons_oca_manufacture_reporting-14.0.20230420.0-py3-none-any.whl
+[2023-04-21 07:25:14] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/d2/fd/82a3eb0960436be3dc93d1e2800bc463c89c19554814102fd2280961c48a/logfire-python-0.0.2.tar.gz
+[2023-04-21 07:25:14] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/35/d8/1494b3b047d94f38deb3ce300dc6817fd5d188d904adf179f063d2206269/fastdup-0.920-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-04-21 07:25:14] INFO root fetch - processPackages [odoo14-addons-oca-manufacture-reporting]: executing diffoscope
+[2023-04-21 07:25:14] INFO root fetch - processPackages [odoo14-addons-oca-manufacture-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_manufacture_reporting-14.0.20230417.1-py3-none-any.whl.zip tmp/odoo14_addons_oca_manufacture_reporting-14.0.20230420.0-py3-none-any.whl.zip --markdown 20230421/o/odoo14-addons-oca-manufacture-reporting/14.0.20230417.1-14.0.20230420.0/diff.md --exclude *.pyd
+[2023-04-21 07:25:14] INFO root fetch - processPackages [logfire-python]: executing diffoscope
+[2023-04-21 07:25:14] INFO root fetch - processPackages [logfire-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-python-0.0.1.tar.gz tmp/logfire-python-0.0.2.tar.gz --markdown 20230421/l/logfire-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 07:25:14] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Downloading https://files.pythonhosted.org/packages/f0/7e/cc451d719e738a01f77f1e83e9d850c7c1167fe9121b34094b9f94ca7dbd/odoo_addons_oca_margin_analysis-16.0.20230420.0-py3-none-any.whl
+[2023-04-21 07:25:14] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: executing diffoscope
+[2023-04-21 07:25:14] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_margin_analysis-15.0.20230306.0-py3-none-any.whl.zip tmp/odoo_addons_oca_margin_analysis-16.0.20230420.0-py3-none-any.whl.zip --markdown 20230421/o/odoo-addons-oca-margin-analysis/15.0.20230306.0-16.0.20230420.0/diff.md --exclude *.pyd
+[2023-04-21 07:25:14] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75095687>=10485760
+[2023-04-21 07:25:14] INFO root fetch - processPackages [fastdup]: Start processing: nucliadb-protos
+[2023-04-21 07:25:14] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.7.0.post201] Old Version: [2.7.0.post200]
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/6e/db/66114c818d494aa20cae39abfe482948e1d11f187b31bd9ba6a3a599e8c8/nucliadb_protos-2.7.0.post201-py3-none-any.whl
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-04-21 07:25:14] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.7.0.post200-py3-none-any.whl.zip tmp/nucliadb_protos-2.7.0.post201-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-protos/2.7.0.post200-2.7.0.post201/diff.md --exclude *.pyd
+[2023-04-21 07:25:15] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-sdk
+[2023-04-21 07:25:15] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-04-21 07:25:15] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.7.0.post201] Old Version: [2.7.0.post200]
+[2023-04-21 07:25:16] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/6e/be/e1fe0ca9bd4a552be5eb233e63b0dcd25de0534465569ab901aad9297082/nucliadb_sdk-2.7.0.post201-py3-none-any.whl
+[2023-04-21 07:25:16] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-04-21 07:25:16] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.7.0.post200-py3-none-any.whl.zip tmp/nucliadb_sdk-2.7.0.post201-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-sdk/2.7.0.post200-2.7.0.post201/diff.md --exclude *.pyd
+[2023-04-21 07:25:16] INFO root fetch - processPackages [odoo14-addons-oca-manufacture-reporting]: Start processing: nucliadb-utils
+[2023-04-21 07:25:16] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-manufacture-reporting]: success
+[2023-04-21 07:25:16] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.7.0.post201] Old Version: [2.7.0.post200]
+[2023-04-21 07:25:16] INFO root fetch - processPackages [nucliadb-client]: Start processing: trops
+[2023-04-21 07:25:16] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-04-21 07:25:16] INFO root fetch - processPackages [trops]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 07:25:16] INFO root fetch - processPackages [nucliadb-models]: Start processing: nfl-veripy
+[2023-04-21 07:25:16] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-04-21 07:25:16] WARNING root fetch - processPackages [nfl-veripy]: Skipping, unable to determine old version
+[2023-04-21 07:25:16] INFO root fetch - main [MainThread]: End processing [nfl-veripy] error
+[2023-04-21 07:25:16] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/c4/fc/e5035c202a70c70882c3abfeb5a5486b03ae68a02cfd0654618db836fd1e/nucliadb_utils-2.7.0.post201-py3-none-any.whl
+[2023-04-21 07:25:16] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-04-21 07:25:16] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.7.0.post200-py3-none-any.whl.zip tmp/nucliadb_utils-2.7.0.post201-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-utils/2.7.0.post200-2.7.0.post201/diff.md --exclude *.pyd
+[2023-04-21 07:25:16] INFO root fetch - main [MainThread]: End processing [antibiotics]: success
+[2023-04-21 07:25:16] INFO root fetch - processPackages [trops]: Downloading https://files.pythonhosted.org/packages/3b/b5/1eeeb44e79dab4f5e49d301d525c38c197324ec0b6096f712be90831552f/trops-0.2.8.tar.gz
+[2023-04-21 07:25:16] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-margin-analysis]: success
+[2023-04-21 07:25:16] INFO root fetch - main [MainThread]: End processing [logfire-python]: success
+[2023-04-21 07:25:16] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-04-21 07:25:16] INFO root fetch - processPackages [trops]: Downloading https://files.pythonhosted.org/packages/3b/1c/175bae5b316d0e558b1c06b2e62f8ecbdeb9f4080c154101714442d8d611/trops-0.2.9.tar.gz
+[2023-04-21 07:25:17] INFO root fetch - processPackages [trops]: executing diffoscope
+[2023-04-21 07:25:17] INFO root fetch - processPackages [trops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trops-0.2.8.tar.gz tmp/trops-0.2.9.tar.gz --markdown 20230421/t/trops/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 07:25:17] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-04-21 07:25:17] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-04-21 07:25:18] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-04-21 07:25:18] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-04-21 07:25:18] INFO root fetch - main [MainThread]: End processing [trops]: success
+[2023-04-21 07:25:18] INFO root fetch - main [MainThread]: Store serial: [17799392]
