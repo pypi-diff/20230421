@@ -14185,3 +14185,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 14:15:42] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-21 14:16:11] INFO root fetch - main [MainThread]: End processing [mikeio1d]: success
 [2023-04-21 14:16:11] INFO root fetch - main [MainThread]: Store serial: [17802770]
+[2023-04-21 14:21:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802770]
+[2023-04-21 14:21:34] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-21 14:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jina
+[2023-04-21 14:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leuci-map
+[2023-04-21 14:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-gitlab-runner
+[2023-04-21 14:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hepai
+[2023-04-21 14:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatgpt-utils
+[2023-04-21 14:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nalyst
+[2023-04-21 14:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-osubot
+[2023-04-21 14:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: htithermal
+[2023-04-21 14:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: otlmow-model
+[2023-04-21 14:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: upsolver-sdk-python
+[2023-04-21 14:21:34] WARNING root fetch - processPackages [nalyst]: Skipping, unable to determine old version
+[2023-04-21 14:21:34] INFO root fetch - processPackages [nalyst]: Start processing: cellmap
+[2023-04-21 14:21:34] INFO root fetch - main [MainThread]: End processing [nalyst] error
+[2023-04-21 14:21:34] INFO root fetch - processPackages [otlmow-model]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-04-21 14:21:34] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-04-21 14:21:34] WARNING root fetch - processPackages [chatgpt-utils]: Skipping, unable to determine old version
+[2023-04-21 14:21:34] INFO root fetch - processPackages [chatgpt-utils]: Start processing: monplugin
+[2023-04-21 14:21:34] INFO root fetch - main [MainThread]: End processing [chatgpt-utils] error
+[2023-04-21 14:21:34] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304211115] Old Version: [1.0.1.dev202304210836]
+[2023-04-21 14:21:34] INFO root fetch - processPackages [hepai]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-21 14:21:34] INFO root fetch - processPackages [leuci-map]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 14:21:34] WARNING root fetch - processPackages [htithermal]: Skipping, unable to determine old version
+[2023-04-21 14:21:34] INFO root fetch - processPackages [htithermal]: Start processing: fedml
+[2023-04-21 14:21:34] INFO root fetch - main [MainThread]: End processing [htithermal] error
+[2023-04-21 14:21:34] INFO root fetch - processPackages [upsolver-sdk-python]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-21 14:21:34] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-04-21 14:21:34] INFO root fetch - processPackages [fedml]: New version: [0.8.3a9] Old Version: [0.8.3a6]
+[2023-04-21 14:21:34] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-21 14:21:34] INFO root fetch - processPackages [monplugin]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-21 14:21:34] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-04-21 14:21:34] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230421/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-04-21 14:21:34] INFO root fetch - processPackages [otlmow-model]: executing diffoscope
+[2023-04-21 14:21:34] INFO root fetch - processPackages [otlmow-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otlmow_model-2.7.0.tar.gz tmp/otlmow_model-2.7.1.tar.gz --markdown 20230421/o/otlmow-model/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-04-21 14:21:34] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/49/b4/269b778f78c737241cf370f426fcd7f7af45c21203d50f55b228400707dc/hepai-1.0.6.tar.gz
+[2023-04-21 14:21:34] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/20/0c/ac2fc6f7b078bd7e0704cf2157b1650ed6d0bf6aa2c4884a82520439d5e5/nonebot-plugin-osubot-1.7.0.tar.gz
+[2023-04-21 14:21:34] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-04-21 14:21:34] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.3a6.tar.gz tmp/fedml-0.8.3a9.tar.gz --markdown 20230421/f/fedml/0.8.3a6-0.8.3a9/diff.md --exclude *.pyd
+[2023-04-21 14:21:34] INFO root fetch - processPackages [upsolver-sdk-python]: Downloading https://files.pythonhosted.org/packages/5a/6b/059456b503d2190df66d021f519a6d6fbfb935f438f94e9b9d60e950d681/upsolver_sdk_python-0.1.6.tar.gz
+[2023-04-21 14:21:34] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29656857>=10485760
+[2023-04-21 14:21:34] INFO root fetch - processPackages [nonebot-plugin-osubot]: Start processing: UniTok
+[2023-04-21 14:21:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2023-04-21 14:21:35] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/f9/19/2911ea0eb5bbac12bcfef9d6ae564a2a45168c80f43b5165c01b63693619/cellmap-1.0.1.dev202304211115-py3-none-any.whl
+[2023-04-21 14:21:35] INFO root fetch - processPackages [monplugin]: Downloading https://files.pythonhosted.org/packages/78/13/7465095e5623b9350e0f8ebf2f844518fdd38bfb78fba383a2a510bbafd4/monplugin-0.5.1.tar.gz
+[2023-04-21 14:21:35] INFO root fetch - processPackages [UniTok]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-04-21 14:21:35] INFO root fetch - processPackages [leuci-map]: executing diffoscope
+[2023-04-21 14:21:35] INFO root fetch - processPackages [leuci-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-map-0.1.8.tar.gz tmp/leuci-map-0.1.9.tar.gz --markdown 20230421/l/leuci-map/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 14:21:35] INFO root fetch - processPackages [upsolver-sdk-python]: Downloading https://files.pythonhosted.org/packages/43/86/798020f976bd2a83177d6903795dd323bc121ad337ad73294981a3905000/upsolver_sdk_python-0.1.7.tar.gz
+[2023-04-21 14:21:35] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-21 14:21:35] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230421/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-21 14:21:35] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/b6/60/58d7309bb0ca44ff51099bc77c481adcc0bbb590391b99ca764afbb542d8/hepai-1.0.7.tar.gz
+[2023-04-21 14:21:35] INFO root fetch - processPackages [UniTok]: Downloading https://files.pythonhosted.org/packages/b7/fe/3f08fd15c5b5094358d43cebe0960b838cbbfeb39bf881d69bda351025b6/UniTok-3.1.5.tar.gz
+[2023-04-21 14:21:35] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-21 14:21:35] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304210836-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304211115-py3-none-any.whl.zip --markdown 20230421/c/cellmap/1.0.1.dev202304210836-1.0.1.dev202304211115/diff.md --exclude *.pyd
+[2023-04-21 14:21:35] INFO root fetch - processPackages [upsolver-sdk-python]: executing diffoscope
+[2023-04-21 14:21:35] INFO root fetch - processPackages [upsolver-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsolver_sdk_python-0.1.6.tar.gz tmp/upsolver_sdk_python-0.1.7.tar.gz --markdown 20230421/u/upsolver-sdk-python/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-21 14:21:35] INFO root fetch - processPackages [monplugin]: Downloading https://files.pythonhosted.org/packages/03/da/d344e28d5cd561a5da4137e685fbf29d82154c5091a5c203a059e8fdb571/monplugin-0.6.0.tar.gz
+[2023-04-21 14:21:35] INFO root fetch - processPackages [hepai]: executing diffoscope
+[2023-04-21 14:21:35] INFO root fetch - processPackages [hepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepai-1.0.6.tar.gz tmp/hepai-1.0.7.tar.gz --markdown 20230421/h/hepai/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-21 14:21:35] INFO root fetch - processPackages [monplugin]: executing diffoscope
+[2023-04-21 14:21:35] INFO root fetch - processPackages [monplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monplugin-0.5.1.tar.gz tmp/monplugin-0.6.0.tar.gz --markdown 20230421/m/monplugin/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-21 14:21:35] INFO root fetch - processPackages [UniTok]: Downloading https://files.pythonhosted.org/packages/1a/71/1a1952bb0d52ad117242d18db0656ceb418547e0ee95c2aa0d182a75e640/UniTok-3.1.6.tar.gz
+[2023-04-21 14:21:35] INFO root fetch - processPackages [UniTok]: executing diffoscope
+[2023-04-21 14:21:35] INFO root fetch - processPackages [UniTok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UniTok-3.1.5.tar.gz tmp/UniTok-3.1.6.tar.gz --markdown 20230421/U/UniTok/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-04-21 14:21:36] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: macrometa-target-collection
+[2023-04-21 14:21:36] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-04-21 14:21:36] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-04-21 14:21:36] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/43/63/465c823f6f7189bff12c0be8f1ab4b296d8174b5079ba375b1b39cb07812/macrometa-target-collection-0.0.57.tar.gz
+[2023-04-21 14:21:36] INFO root fetch - processPackages [cellmap]: Start processing: spagrn
+[2023-04-21 14:21:36] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-21 14:21:36] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-04-21 14:21:36] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.56.tar.gz tmp/macrometa-target-collection-0.0.57.tar.gz --markdown 20230421/m/macrometa-target-collection/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-04-21 14:21:37] WARNING root fetch - processPackages [spagrn]: Skipping, unable to determine old version
+[2023-04-21 14:21:37] INFO root fetch - processPackages [spagrn]: Start processing: yandex-taxi-testsuite
+[2023-04-21 14:21:37] INFO root fetch - main [MainThread]: End processing [spagrn] error
+[2023-04-21 14:21:37] INFO root fetch - processPackages [upsolver-sdk-python]: Start processing: c8connector
+[2023-04-21 14:21:37] INFO root fetch - main [MainThread]: End processing [upsolver-sdk-python]: success
+[2023-04-21 14:21:37] INFO root fetch - processPackages [yandex-taxi-testsuite]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2023-04-21 14:21:37] INFO root fetch - processPackages [monplugin]: Start processing: UniTok
+[2023-04-21 14:21:37] INFO root fetch - main [MainThread]: End processing [monplugin]: success
+[2023-04-21 14:21:37] INFO root fetch - processPackages [UniTok]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-04-21 14:21:37] INFO root fetch - main [MainThread]: End processing [leuci-map]: success
+[2023-04-21 14:21:37] INFO root fetch - processPackages [c8connector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 14:21:37] INFO root fetch - processPackages [UniTok]: executing diffoscope
+[2023-04-21 14:21:37] INFO root fetch - processPackages [UniTok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UniTok-3.1.5.tar.gz tmp/UniTok-3.1.6.tar.gz --markdown 20230421/U/UniTok/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-04-21 14:21:37] INFO root fetch - processPackages [yandex-taxi-testsuite]: Downloading https://files.pythonhosted.org/packages/97/b1/2cc4d85d991cb59c3462a53d9571631005fc4dcb77203483f3f2daff731c/yandex-taxi-testsuite-0.1.9.tar.gz
+[2023-04-21 14:21:37] INFO root fetch - main [MainThread]: End processing [UniTok]: success
+[2023-04-21 14:21:37] INFO root fetch - processPackages [yandex-taxi-testsuite]: Downloading https://files.pythonhosted.org/packages/e3/fb/864f2338fa3903a375f577215f0c76a12eae61af2fae665d82fdc88018b0/yandex-taxi-testsuite-0.1.9.1.tar.gz
+[2023-04-21 14:21:37] INFO root fetch - processPackages [yandex-taxi-testsuite]: executing diffoscope
+[2023-04-21 14:21:37] INFO root fetch - processPackages [yandex-taxi-testsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandex-taxi-testsuite-0.1.9.tar.gz tmp/yandex-taxi-testsuite-0.1.9.1.tar.gz --markdown 20230421/y/yandex-taxi-testsuite/0.1.9-0.1.9.1/diff.md --exclude *.pyd
+[2023-04-21 14:21:37] INFO root fetch - processPackages [c8connector]: executing diffoscope
+[2023-04-21 14:21:37] INFO root fetch - processPackages [c8connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c8connector-0.0.8.tar.gz tmp/c8connector-0.0.9.tar.gz --markdown 20230421/c/c8connector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 14:21:38] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-04-21 14:21:38] INFO root fetch - main [MainThread]: End processing [UniTok]: success
+[2023-04-21 14:21:38] INFO root fetch - main [MainThread]: End processing [hepai]: success
+[2023-04-21 14:21:39] INFO root fetch - main [MainThread]: End processing [c8connector]: success
+[2023-04-21 14:21:39] INFO root fetch - main [MainThread]: End processing [yandex-taxi-testsuite]: success
+[2023-04-21 14:21:40] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-21 14:21:50] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-04-21 14:22:19] INFO root fetch - main [MainThread]: End processing [otlmow-model]: success
+[2023-04-21 14:22:19] INFO root fetch - main [MainThread]: Store serial: [17802840]
