@@ -10374,3 +10374,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 10:09:05] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-04-21 10:09:06] INFO root fetch - main [MainThread]: End processing [canopy]: success
 [2023-04-21 10:09:06] INFO root fetch - main [MainThread]: Store serial: [17800540]
+[2023-04-21 10:14:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800540]
+[2023-04-21 10:14:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecoindex-scraper
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-api-testka
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-api-testka-dev
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lovehim
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tendril-utils-www
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stashlib
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ybam
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hiddifypanel
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tendril-filestore
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-mvc-framework
+[2023-04-21 10:14:15] INFO root fetch - processPackages [je-api-testka]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 10:14:15] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-04-21 10:14:15] INFO root fetch - processPackages [lovehim]: New version: [0.56] Old Version: [0.55]
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ecoindex-scraper]: New version: [2.9.0] Old Version: [2.8.0b2]
+[2023-04-21 10:14:15] INFO root fetch - processPackages [tendril-utils-www]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-21 10:14:15] INFO root fetch - processPackages [fastapi-mvc-framework]: New version: [1.2.3] Old Version: [1.2.0]
+[2023-04-21 10:14:15] INFO root fetch - processPackages [stashlib]: New version: [0.0.7.1] Old Version: [0.0.7.0]
+[2023-04-21 10:14:15] INFO root fetch - processPackages [tendril-filestore]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ybam]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-04-21 10:14:15] INFO root fetch - processPackages [hiddifypanel]: New version: [4.2.1] Old Version: [4.1.2]
+[2023-04-21 10:14:15] INFO root fetch - processPackages [je-api-testka]: executing diffoscope
+[2023-04-21 10:14:15] INFO root fetch - processPackages [je-api-testka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka-0.0.98.tar.gz tmp/je_api_testka-0.0.99.tar.gz --markdown 20230421/j/je-api-testka/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 10:14:15] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/8f/bd/abd157961ea7a68bfc7aa2baff1c57daa59aeec8108248b9808ea9a8da42/lovehim-0.55.tar.gz
+[2023-04-21 10:14:15] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/1d/a9/5199c7c59e7e3ea8d05c1431737cc4d8ef6a950f5e6036848af837e341ff/je_api_testka_dev-0.0.82.tar.gz
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ecoindex-scraper]: Downloading https://files.pythonhosted.org/packages/52/75/ef799cea1e77d393cc3f3bfb5ddef8d9b0cda3ab1db9d922f29e7325eb5f/ecoindex_scraper-2.8.0b2.tar.gz
+[2023-04-21 10:14:15] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/55/53/97c42eb7b1a094fb620c2a20c6a02f0a487df5fde575c4f2df317d084a9a/tendril-filestore-0.2.2.tar.gz
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ybam]: Downloading https://files.pythonhosted.org/packages/fe/e8/65dad0582a6dd279d71ef61114c6ab2ace0767983229b3ef63704c793b0c/ybam-2.1.2.tar.gz
+[2023-04-21 10:14:15] INFO root fetch - processPackages [tendril-utils-www]: Downloading https://files.pythonhosted.org/packages/8c/53/f723f796aa68d09e4d29ae8ef33f7d2e2849bc92622c204999a4ab026355/tendril-utils-www-0.2.6.tar.gz
+[2023-04-21 10:14:15] INFO root fetch - processPackages [fastapi-mvc-framework]: Downloading https://files.pythonhosted.org/packages/90/88/a9579b3ba6cb8d15922e3fbb8719479da44b7852aba1415b7192d56e587c/fastapi_mvc_framework-1.2.0.tar.gz
+[2023-04-21 10:14:15] INFO root fetch - processPackages [stashlib]: Downloading https://files.pythonhosted.org/packages/05/02/8953b0f8e1e226f52deb091c3be8a65951fe3f66febe74f70bed5ca7a058/stashlib-0.0.7.1.tar.gz
+[2023-04-21 10:14:15] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/d4/b0/f61afb78e87557dd6d12bc589d275f97d3eca87689c0aa3b583525224202/hiddifypanel-4.2.1-cp310-cp310-manylinux2014_aarch64.whl
+[2023-04-21 10:14:15] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-04-21 10:14:15] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.82.tar.gz tmp/je_api_testka_dev-0.0.9.tar.gz --markdown 20230421/j/je-api-testka-dev/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 10:14:15] INFO root fetch - processPackages [tendril-filestore]: executing diffoscope
+[2023-04-21 10:14:15] INFO root fetch - processPackages [tendril-filestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-filestore-0.2.1.tar.gz tmp/tendril-filestore-0.2.2.tar.gz --markdown 20230421/t/tendril-filestore/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 10:14:15] INFO root fetch - processPackages [stashlib]: executing diffoscope
+[2023-04-21 10:14:15] INFO root fetch - processPackages [stashlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stashlib-0.0.7.0.tar.gz tmp/stashlib-0.0.7.1.tar.gz --markdown 20230421/s/stashlib/0.0.7.0-0.0.7.1/diff.md --exclude *.pyd
+[2023-04-21 10:14:15] INFO root fetch - processPackages [fastapi-mvc-framework]: Downloading https://files.pythonhosted.org/packages/c5/d3/e199596a9bd83cc54b1759cee6e11ac245c520519f275bc5875acf037112/fastapi_mvc_framework-1.2.3.tar.gz
+[2023-04-21 10:14:15] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/e0/56/d2e70c502b1591fb80c3e14d77cbc0513bb0aad870974786ac78aeb223b9/lovehim-0.56.tar.gz
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ybam]: Downloading https://files.pythonhosted.org/packages/53/1c/618084edff38c01096d2183db33d350f9de292ec825cae26d452d0c5a001/ybam-2.1.3.tar.gz
+[2023-04-21 10:14:15] INFO root fetch - processPackages [tendril-utils-www]: executing diffoscope
+[2023-04-21 10:14:15] INFO root fetch - processPackages [tendril-utils-www]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-www-0.2.5.tar.gz tmp/tendril-utils-www-0.2.6.tar.gz --markdown 20230421/t/tendril-utils-www/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-21 10:14:15] INFO root fetch - processPackages [fastapi-mvc-framework]: executing diffoscope
+[2023-04-21 10:14:15] INFO root fetch - processPackages [fastapi-mvc-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_mvc_framework-1.2.0.tar.gz tmp/fastapi_mvc_framework-1.2.3.tar.gz --markdown 20230421/f/fastapi-mvc-framework/1.2.0-1.2.3/diff.md --exclude *.pyd
+[2023-04-21 10:14:15] INFO root fetch - processPackages [lovehim]: executing diffoscope
+[2023-04-21 10:14:15] INFO root fetch - processPackages [lovehim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovehim-0.55.tar.gz tmp/lovehim-0.56.tar.gz --markdown 20230421/l/lovehim/0.55-0.56/diff.md --exclude *.pyd
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ybam]: executing diffoscope
+[2023-04-21 10:14:15] INFO root fetch - processPackages [ybam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ybam-2.1.2.tar.gz tmp/ybam-2.1.3.tar.gz --markdown 20230421/y/ybam/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-04-21 10:14:16] INFO root fetch - processPackages [ecoindex-scraper]: Downloading https://files.pythonhosted.org/packages/08/68/21eb44bdaccd4df1e4d90d458899ef813d6d435f9e21ce02b01af080c757/ecoindex_scraper-2.9.0.tar.gz
+[2023-04-21 10:14:16] INFO root fetch - processPackages [ecoindex-scraper]: executing diffoscope
+[2023-04-21 10:14:16] INFO root fetch - processPackages [ecoindex-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoindex_scraper-2.8.0b2.tar.gz tmp/ecoindex_scraper-2.9.0.tar.gz --markdown 20230421/e/ecoindex-scraper/2.8.0b2-2.9.0/diff.md --exclude *.pyd
+[2023-04-21 10:14:16] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-21 10:14:16] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.1.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.2.1-cp310-cp310-manylinux2014_aarch64.whl.zip --markdown 20230421/h/hiddifypanel/4.1.2-4.2.1/diff.md --exclude *.pyd
+[2023-04-21 10:14:16] INFO root fetch - processPackages [je-api-testka]: Start processing: lovehim
+[2023-04-21 10:14:16] INFO root fetch - main [MainThread]: End processing [je-api-testka]: success
+[2023-04-21 10:14:16] INFO root fetch - processPackages [lovehim]: New version: [0.56] Old Version: [0.55]
+[2023-04-21 10:14:16] INFO root fetch - processPackages [lovehim]: executing diffoscope
+[2023-04-21 10:14:16] INFO root fetch - processPackages [lovehim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovehim-0.55.tar.gz tmp/lovehim-0.56.tar.gz --markdown 20230421/l/lovehim/0.55-0.56/diff.md --exclude *.pyd
+[2023-04-21 10:14:17] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-04-21 10:14:17] INFO root fetch - main [MainThread]: End processing [stashlib]: success
+[2023-04-21 10:14:17] INFO root fetch - main [MainThread]: End processing [tendril-utils-www]: success
+[2023-04-21 10:14:17] INFO root fetch - main [MainThread]: End processing [lovehim]: success
+[2023-04-21 10:14:17] INFO root fetch - main [MainThread]: End processing [ybam]: success
+[2023-04-21 10:14:17] INFO root fetch - main [MainThread]: End processing [ecoindex-scraper]: success
+[2023-04-21 10:14:18] INFO root fetch - main [MainThread]: End processing [fastapi-mvc-framework]: success
+[2023-04-21 10:14:18] INFO root fetch - main [MainThread]: End processing [lovehim]: success
+[2023-04-21 10:14:19] INFO root fetch - main [MainThread]: End processing [tendril-filestore]: success
+[2023-04-21 10:14:33] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-21 10:14:33] INFO root fetch - main [MainThread]: Store serial: [17800573]
