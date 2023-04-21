@@ -6402,3 +6402,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 03:57:08] INFO root fetch - main [MainThread]: End processing [dedscumulus]: success
 [2023-04-21 03:57:08] INFO root fetch - main [MainThread]: End processing [munet]: success
 [2023-04-21 03:57:08] INFO root fetch - main [MainThread]: Store serial: [17798196]
+[2023-04-21 04:02:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798196]
+[2023-04-21 04:02:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-21 04:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragon-city-utils
+[2023-04-21 04:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydatahub
+[2023-04-21 04:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quarkstudio
+[2023-04-21 04:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: callisto-python
+[2023-04-21 04:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dedscumulus
+[2023-04-21 04:02:17] INFO root fetch - processPackages [pydatahub]: New version: [2.18.1] Old Version: [2.18.0]
+[2023-04-21 04:02:17] INFO root fetch - processPackages [dedscumulus]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-21 04:02:17] INFO root fetch - processPackages [callisto-python]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 04:02:17] INFO root fetch - processPackages [dragon-city-utils]: New version: [1.9] Old Version: [1.8]
+[2023-04-21 04:02:17] INFO root fetch - processPackages [quarkstudio]: New version: [6.5.0rc9] Old Version: [6.4.27]
+[2023-04-21 04:02:17] INFO root fetch - processPackages [dedscumulus]: executing diffoscope
+[2023-04-21 04:02:17] INFO root fetch - processPackages [dedscumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dedscumulus-0.0.4-py3-none-any.whl.zip tmp/dedscumulus-0.0.5-py3-none-any.whl.zip --markdown 20230421/d/dedscumulus/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 04:02:17] INFO root fetch - processPackages [pydatahub]: Downloading https://files.pythonhosted.org/packages/5b/41/614ade4d5983cd7f253d78727625366cd3361bcb93c8a4c8acbeef205365/pydatahub-2.18.0.tar.gz
+[2023-04-21 04:02:17] INFO root fetch - processPackages [callisto-python]: Downloading https://files.pythonhosted.org/packages/8a/8c/ebe5b477c6ea2cf8d9a9d1f51eed5bd5f0ebb7db961861b593edaf384f7e/callisto-python-0.0.7.tar.gz
+[2023-04-21 04:02:17] INFO root fetch - processPackages [dragon-city-utils]: Downloading https://files.pythonhosted.org/packages/0d/45/ac48e29111f07f0561597fbe8985ecc196d76c2c8b4e7dea5e6b34bf3ddf/dragon-city-utils-1.8.tar.gz
+[2023-04-21 04:02:17] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/89/d1/a610070a0c4e12502f945e5186fc93b71b4900441d02c031ffa815f9a6e2/quarkstudio-6.5.0rc9-cp311-cp311-win_amd64.whl
+[2023-04-21 04:02:17] INFO root fetch - processPackages [pydatahub]: Downloading https://files.pythonhosted.org/packages/b6/24/79750fe28a4a36e2a8666f4dd7eafa7e525adc4624eda4e32e1516210454/pydatahub-2.18.1.tar.gz
+[2023-04-21 04:02:17] INFO root fetch - processPackages [callisto-python]: Downloading https://files.pythonhosted.org/packages/01/c7/84946ac4981fb2c495343517895a171722e9a58836d8e711587412c9adce/callisto-python-0.0.8.tar.gz
+[2023-04-21 04:02:18] INFO root fetch - processPackages [pydatahub]: executing diffoscope
+[2023-04-21 04:02:18] INFO root fetch - processPackages [pydatahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatahub-2.18.0.tar.gz tmp/pydatahub-2.18.1.tar.gz --markdown 20230421/p/pydatahub/2.18.0-2.18.1/diff.md --exclude *.pyd
+[2023-04-21 04:02:18] INFO root fetch - processPackages [dragon-city-utils]: Downloading https://files.pythonhosted.org/packages/19/a4/5a7ecacf4605d50dda816b47c635efcb1bf7862e5acb4df359b53003429d/dragon-city-utils-1.9.tar.gz
+[2023-04-21 04:02:18] INFO root fetch - processPackages [callisto-python]: executing diffoscope
+[2023-04-21 04:02:18] INFO root fetch - processPackages [callisto-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callisto-python-0.0.7.tar.gz tmp/callisto-python-0.0.8.tar.gz --markdown 20230421/c/callisto-python/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 04:02:18] INFO root fetch - processPackages [dragon-city-utils]: executing diffoscope
+[2023-04-21 04:02:18] INFO root fetch - processPackages [dragon-city-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragon-city-utils-1.8.tar.gz tmp/dragon-city-utils-1.9.tar.gz --markdown 20230421/d/dragon-city-utils/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-21 04:02:18] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2023-04-21 04:02:18] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.4.27-cp311-cp311-win_amd64.whl.zip tmp/quarkstudio-6.5.0rc9-cp311-cp311-win_amd64.whl.zip --markdown 20230421/q/quarkstudio/6.4.27-6.5.0rc9/diff.md --exclude *.pyd
+[2023-04-21 04:02:18] INFO root fetch - main [MainThread]: End processing [dedscumulus]: success
+[2023-04-21 04:02:19] INFO root fetch - main [MainThread]: End processing [pydatahub]: success
+[2023-04-21 04:02:19] INFO root fetch - main [MainThread]: End processing [callisto-python]: success
+[2023-04-21 04:02:19] INFO root fetch - main [MainThread]: End processing [dragon-city-utils]: success
+[2023-04-21 04:02:21] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2023-04-21 04:02:21] INFO root fetch - main [MainThread]: Store serial: [17798212]
