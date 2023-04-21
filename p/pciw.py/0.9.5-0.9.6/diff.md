@@ -1,4 +1,4 @@
-# Comparing `tmp/pciw.py-0.9.5.tar.gz` & `tmp/pciw.py-0.9.6-py39-none-win_amd64.whl.zip`
+# Comparing `tmp/pciw.py-0.9.5.tar.gz` & `tmp/pciw.py-0.9.6-py3-none-any.whl.zip`
 
 ## filetype from file(1)
 
