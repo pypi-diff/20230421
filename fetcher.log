@@ -11897,3 +11897,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 11:41:56] INFO root fetch - main [MainThread]: End processing [ykenan-file]: success
 [2023-04-21 11:42:06] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-04-21 11:42:06] INFO root fetch - main [MainThread]: Store serial: [17801361]
+[2023-04-21 11:47:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17801361]
+[2023-04-21 11:47:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 11:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solox
+[2023-04-21 11:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bp-query-tool
+[2023-04-21 11:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reg-tables
+[2023-04-21 11:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vamb
+[2023-04-21 11:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm4gpt
+[2023-04-21 11:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nlpaf
+[2023-04-21 11:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdkit
+[2023-04-21 11:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bluecurrent-api
+[2023-04-21 11:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: papers-cli
+[2023-04-21 11:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tasmota-metrics
+[2023-04-21 11:47:15] INFO root fetch - processPackages [reg-tables]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 11:47:15] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.21.14.8.20] Old Version: [2023.4.21.14.7.31]
+[2023-04-21 11:47:15] INFO root fetch - processPackages [nlpaf]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-04-21 11:47:15] INFO root fetch - processPackages [nlpaf]: Downloading https://files.pythonhosted.org/packages/5d/da/1b92550f6bc1e7b62d9eca934cf2d4d57ebcc3fb29072424036f138d98af/nlpaf-2.8.7.tar.gz
+[2023-04-21 11:47:15] INFO root fetch - processPackages [bp-query-tool]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 11:47:15] INFO root fetch - processPackages [reg-tables]: executing diffoscope
+[2023-04-21 11:47:15] INFO root fetch - processPackages [reg-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reg_tables-0.1.8.tar.gz tmp/reg_tables-0.1.9.tar.gz --markdown 20230421/r/reg-tables/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 11:47:15] INFO root fetch - processPackages [vamb]: New version: [4.1.0] Old Version: [4.0.1]
+[2023-04-21 11:47:15] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-21 11:47:15] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.21.14.7.31.tar.gz tmp/llm4gpt-2023.4.21.14.8.20.tar.gz --markdown 20230421/l/llm4gpt/2023.4.21.14.7.31-2023.4.21.14.8.20/diff.md --exclude *.pyd
+[2023-04-21 11:47:15] INFO root fetch - processPackages [solox]: New version: [2.6.0] Old Version: [2.5.9]
+[2023-04-21 11:47:15] WARNING root fetch - processPackages [tasmota-metrics]: Skipping, unable to determine old version
+[2023-04-21 11:47:15] INFO root fetch - processPackages [tasmota-metrics]: Start processing: reg-tables
+[2023-04-21 11:47:15] INFO root fetch - main [MainThread]: End processing [tasmota-metrics] error
+[2023-04-21 11:47:15] INFO root fetch - processPackages [papers-cli]: New version: [v1.0.1] Old Version: [v1.0]
+[2023-04-21 11:47:15] INFO root fetch - processPackages [bluecurrent-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 11:47:15] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 11:47:15] INFO root fetch - processPackages [reg-tables]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 11:47:15] WARNING root fetch - processPackages [nlpaf]: Skipping package: exceeds size limit 24324747>=10485760
+[2023-04-21 11:47:15] INFO root fetch - processPackages [nlpaf]: Start processing: newtools
+[2023-04-21 11:47:15] INFO root fetch - main [MainThread]: End processing [nlpaf] error
+[2023-04-21 11:47:15] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-04-21 11:47:15] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.8.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230421/s/sdkit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 11:47:16] INFO root fetch - processPackages [reg-tables]: executing diffoscope
+[2023-04-21 11:47:16] INFO root fetch - processPackages [reg-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reg_tables-0.1.8.tar.gz tmp/reg_tables-0.1.9.tar.gz --markdown 20230421/r/reg-tables/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 11:47:16] INFO root fetch - processPackages [vamb]: Downloading https://files.pythonhosted.org/packages/0e/fa/380f2af658bcd068bb7db82c4637ba1be067d80e5c248e29b7f01205a1f2/vamb-4.0.1.tar.gz
+[2023-04-21 11:47:16] INFO root fetch - processPackages [bluecurrent-api]: Downloading https://files.pythonhosted.org/packages/86/7f/d1f5808ba40f04e1056ad881934620d53d8fbf5fd2ae6ece764ae80ba045/bluecurrent-api-1.0.2.tar.gz
+[2023-04-21 11:47:16] INFO root fetch - processPackages [newtools]: New version: [2.2.467] Old Version: [2.2.463]
+[2023-04-21 11:47:16] INFO root fetch - processPackages [bp-query-tool]: Downloading https://files.pythonhosted.org/packages/8a/2f/ac9cb58690a19b548439cfd42b2cb5f3a6c4c5033bf992317c69011c76a5/bp_query_tool-0.0.4.tar.gz
+[2023-04-21 11:47:16] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/3f/49/cea03c605cd8f58f5181bd0cdadec11e6ae4738006f19615d37b42accafc/solox-2.6.0.tar.gz
+[2023-04-21 11:47:16] INFO root fetch - processPackages [papers-cli]: executing diffoscope
+[2023-04-21 11:47:16] INFO root fetch - processPackages [papers-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papers-cli-v1.0.tar.gz tmp/papers-cli-v1.0.1.tar.gz --markdown 20230421/p/papers-cli/v1.0-v1.0.1/diff.md --exclude *.pyd
+[2023-04-21 11:47:16] INFO root fetch - processPackages [vamb]: Downloading https://files.pythonhosted.org/packages/7f/47/b7212159aa044ba8db72c2167727c0f07290dbb2c2706025112ee921dbea/vamb-4.1.0.tar.gz
+[2023-04-21 11:47:16] INFO root fetch - processPackages [bp-query-tool]: executing diffoscope
+[2023-04-21 11:47:16] INFO root fetch - processPackages [bp-query-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_query_tool-0.0.3.tar.gz tmp/bp_query_tool-0.0.4.tar.gz --markdown 20230421/b/bp-query-tool/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 11:47:16] INFO root fetch - processPackages [newtools]: Downloading https://files.pythonhosted.org/packages/be/d2/fb141f86a6bd23d4a368139b1d764c7dc23aeedfb036d30fb1dd501f5c23/newtools-2.2.467.tar.gz
+[2023-04-21 11:47:16] INFO root fetch - processPackages [vamb]: executing diffoscope
+[2023-04-21 11:47:16] INFO root fetch - processPackages [vamb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vamb-4.0.1.tar.gz tmp/vamb-4.1.0.tar.gz --markdown 20230421/v/vamb/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2023-04-21 11:47:16] INFO root fetch - processPackages [bluecurrent-api]: Downloading https://files.pythonhosted.org/packages/bc/b6/4c191672e91f3f009803b1f90bec106caacacd668f215d1743ed6c5bdcfa/bluecurrent-api-1.0.3.tar.gz
+[2023-04-21 11:47:16] INFO root fetch - processPackages [newtools]: executing diffoscope
+[2023-04-21 11:47:16] INFO root fetch - processPackages [newtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newtools-2.2.463.tar.gz tmp/newtools-2.2.467.tar.gz --markdown 20230421/n/newtools/2.2.463-2.2.467/diff.md --exclude *.pyd
+[2023-04-21 11:47:16] INFO root fetch - processPackages [bluecurrent-api]: executing diffoscope
+[2023-04-21 11:47:16] INFO root fetch - processPackages [bluecurrent-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecurrent-api-1.0.2.tar.gz tmp/bluecurrent-api-1.0.3.tar.gz --markdown 20230421/b/bluecurrent-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 11:47:17] INFO root fetch - processPackages [solox]: executing diffoscope
+[2023-04-21 11:47:17] INFO root fetch - processPackages [solox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solox-2.5.9.tar.gz tmp/solox-2.6.0.tar.gz --markdown 20230421/s/solox/2.5.9-2.6.0/diff.md --exclude *.pyd
+[2023-04-21 11:47:17] INFO root fetch - processPackages [reg-tables]: Start processing: pyclarity
+[2023-04-21 11:47:17] INFO root fetch - main [MainThread]: End processing [reg-tables]: success
+[2023-04-21 11:47:17] INFO root fetch - processPackages [pyclarity]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-21 11:47:17] INFO root fetch - processPackages [reg-tables]: Start processing: yara-python
+[2023-04-21 11:47:17] INFO root fetch - main [MainThread]: End processing [reg-tables]: success
+[2023-04-21 11:47:17] INFO root fetch - processPackages [pyclarity]: Downloading https://files.pythonhosted.org/packages/a3/b9/6b64a613ac329865a8717255cdcc4528bcfff359b9c617a7c2310b9570b8/pyclarity-0.3.0.tar.gz
+[2023-04-21 11:47:17] INFO root fetch - processPackages [yara-python]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-04-21 11:47:17] INFO root fetch - processPackages [yara-python]: Downloading https://files.pythonhosted.org/packages/47/c5/23148d89227e8f2fa01d3b65094cddd36689c2aba9d6f63f8baff633138d/yara-python-4.3.0.tar.gz
+[2023-04-21 11:47:17] WARNING root fetch - processPackages [pyclarity]: Skipping package: exceeds size limit 36893173>=10485760
+[2023-04-21 11:47:17] INFO root fetch - main [MainThread]: End processing [pyclarity] error
+[2023-04-21 11:47:18] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-04-21 11:47:18] INFO root fetch - processPackages [yara-python]: Downloading https://files.pythonhosted.org/packages/5f/34/60a293c7ae05731c2e6366e132a9fe4c02ae84c4f57714a2f5e8651a8491/yara-python-4.3.1.tar.gz
+[2023-04-21 11:47:18] INFO root fetch - main [MainThread]: End processing [newtools]: success
+[2023-04-21 11:47:18] INFO root fetch - main [MainThread]: End processing [vamb]: success
+[2023-04-21 11:47:18] INFO root fetch - main [MainThread]: End processing [papers-cli]: success
+[2023-04-21 11:47:18] INFO root fetch - processPackages [yara-python]: executing diffoscope
+[2023-04-21 11:47:18] INFO root fetch - processPackages [yara-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yara-python-4.3.0.tar.gz tmp/yara-python-4.3.1.tar.gz --markdown 20230421/y/yara-python/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-04-21 11:47:18] INFO root fetch - main [MainThread]: End processing [bluecurrent-api]: success
+[2023-04-21 11:47:20] INFO root fetch - main [MainThread]: End processing [yara-python]: success
+[2023-04-21 11:47:21] INFO root fetch - main [MainThread]: End processing [solox]: success
+[2023-04-21 11:47:21] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-21 11:47:26] INFO root fetch - main [MainThread]: End processing [bp-query-tool]: success
+[2023-04-21 11:47:26] INFO root fetch - main [MainThread]: Store serial: [17801411]
