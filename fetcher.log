@@ -14014,3 +14014,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 13:59:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-21 13:59:43] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-04-21 13:59:43] INFO root fetch - main [MainThread]: Store serial: [17802632]
+[2023-04-21 14:04:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802632]
+[2023-04-21 14:04:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-21 14:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graal
+[2023-04-21 14:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: longbridge
+[2023-04-21 14:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domolibrary
+[2023-04-21 14:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docarray
+[2023-04-21 14:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mahiro
+[2023-04-21 14:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visualimiss
+[2023-04-21 14:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnicloud-airport
+[2023-04-21 14:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snews-pt
+[2023-04-21 14:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: talos-install
+[2023-04-21 14:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: perceval-puppet
+[2023-04-21 14:04:52] INFO root fetch - processPackages [graal]: New version: [0.4.5rc2] Old Version: [0.4.5rc1]
+[2023-04-21 14:04:52] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-21 14:04:52] INFO root fetch - processPackages [talos-install]: New version: [0.2.0.dev343] Old Version: [0.2.0.dev342]
+[2023-04-21 14:04:52] INFO root fetch - processPackages [perceval-puppet]: New version: [0.2.8rc2] Old Version: [0.2.8rc1]
+[2023-04-21 14:04:52] INFO root fetch - processPackages [graal]: executing diffoscope
+[2023-04-21 14:04:52] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-0.4.5rc1.tar.gz tmp/graal-0.4.5rc2.tar.gz --markdown 20230421/g/graal/0.4.5rc1-0.4.5rc2/diff.md --exclude *.pyd
+[2023-04-21 14:04:52] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-04-21 14:04:52] INFO root fetch - processPackages [mahiro]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-21 14:04:52] INFO root fetch - processPackages [visualimiss]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-21 14:04:52] INFO root fetch - processPackages [snews-pt]: New version: [1.3.2] Old Version: [1.3.1.dev1]
+[2023-04-21 14:04:52] INFO root fetch - processPackages [omnicloud-airport]: New version: [0.0.2.dev1] Old Version: [0.0.1rc7]
+[2023-04-21 14:04:52] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-21 14:04:52] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230421/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-21 14:04:52] INFO root fetch - processPackages [longbridge]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 14:04:52] INFO root fetch - processPackages [perceval-puppet]: executing diffoscope
+[2023-04-21 14:04:52] INFO root fetch - processPackages [perceval-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_puppet-0.2.8rc1.tar.gz tmp/perceval_puppet-0.2.8rc2.tar.gz --markdown 20230421/p/perceval-puppet/0.2.8rc1-0.2.8rc2/diff.md --exclude *.pyd
+[2023-04-21 14:04:52] INFO root fetch - processPackages [talos-install]: Downloading https://files.pythonhosted.org/packages/5b/93/4080103d00a503dfc2412b0063021398ab2906d22473ec0eafce5f10bd61/talos_install-0.2.0.dev343.tar.gz
+[2023-04-21 14:04:52] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/fb/75/a553dec595ab1e82645c1cc928b79e773908ca51f68d5177f045833f1e2d/domolibrary-0.0.81.tar.gz
+[2023-04-21 14:04:52] INFO root fetch - processPackages [omnicloud-airport]: Downloading https://files.pythonhosted.org/packages/72/99/cbbf67648df86c3adcade8d9cefcd1d855ce49cd0af1b3760049fe19000d/omnicloud_airport-0.0.1rc7.tar.gz
+[2023-04-21 14:04:52] INFO root fetch - processPackages [longbridge]: Downloading https://files.pythonhosted.org/packages/d1/a4/ddaf2c4051c174e664afcac3c6960fe3c243ee5221bbb2b7cf034444d64f/longbridge-0.2.8.tar.gz
+[2023-04-21 14:04:52] INFO root fetch - processPackages [snews-pt]: Downloading https://files.pythonhosted.org/packages/15/13/13585f9c891f474381839d0380e562e925283403d08b307a07509b83f4b5/snews_pt-1.3.1.dev1.tar.gz
+[2023-04-21 14:04:52] INFO root fetch - processPackages [talos-install]: executing diffoscope
+[2023-04-21 14:04:52] INFO root fetch - processPackages [talos-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talos_install-0.2.0.dev342.tar.gz tmp/talos_install-0.2.0.dev343.tar.gz --markdown 20230421/t/talos-install/0.2.0.dev342-0.2.0.dev343/diff.md --exclude *.pyd
+[2023-04-21 14:04:52] INFO root fetch - processPackages [mahiro]: Downloading https://files.pythonhosted.org/packages/32/00/11e9cf6828900662bf844c2cf8f41bbd2a214880a3fd245ab5824cb0af1d/mahiro-1.3.0.tar.gz
+[2023-04-21 14:04:52] INFO root fetch - processPackages [visualimiss]: Downloading https://files.pythonhosted.org/packages/ac/fe/8ee742cb037984b8af65ad872e90cca14de5a232f809e064b8710211ed84/visualimiss-0.0.6.tar.gz
+[2023-04-21 14:04:52] INFO root fetch - processPackages [omnicloud-airport]: Downloading https://files.pythonhosted.org/packages/ca/00/fad6f41dcb1ccdb687642b7d98879114c71e1ab0ed327ffd5dc2ff299895/omnicloud_airport-0.0.2.dev1.tar.gz
+[2023-04-21 14:04:52] INFO root fetch - processPackages [mahiro]: executing diffoscope
+[2023-04-21 14:04:52] INFO root fetch - processPackages [mahiro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahiro-1.2.0.tar.gz tmp/mahiro-1.3.0.tar.gz --markdown 20230421/m/mahiro/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-21 14:04:52] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-21 14:04:52] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.81.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230421/d/domolibrary/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 14:04:52] INFO root fetch - processPackages [visualimiss]: executing diffoscope
+[2023-04-21 14:04:52] INFO root fetch - processPackages [visualimiss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualimiss-0.0.5.tar.gz tmp/visualimiss-0.0.6.tar.gz --markdown 20230421/v/visualimiss/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 14:04:53] INFO root fetch - processPackages [snews-pt]: Downloading https://files.pythonhosted.org/packages/f6/11/ec34642f7e9173d2057fabca8838b025c2b196b5bf2820b4143fc0f4dd26/snews_pt-1.3.2.tar.gz
+[2023-04-21 14:04:53] INFO root fetch - processPackages [omnicloud-airport]: executing diffoscope
+[2023-04-21 14:04:53] INFO root fetch - processPackages [omnicloud-airport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnicloud_airport-0.0.1rc7.tar.gz tmp/omnicloud_airport-0.0.2.dev1.tar.gz --markdown 20230421/o/omnicloud-airport/0.0.1rc7-0.0.2.dev1/diff.md --exclude *.pyd
+[2023-04-21 14:04:53] INFO root fetch - processPackages [longbridge]: Downloading https://files.pythonhosted.org/packages/24/92/5ff3d6963889e844b0de3a7c2b3b92073bb9ecaf124bec5d587b033424e0/longbridge-0.2.9.tar.gz
+[2023-04-21 14:04:53] INFO root fetch - processPackages [snews-pt]: executing diffoscope
+[2023-04-21 14:04:53] INFO root fetch - processPackages [snews-pt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snews_pt-1.3.1.dev1.tar.gz tmp/snews_pt-1.3.2.tar.gz --markdown 20230421/s/snews-pt/1.3.1.dev1-1.3.2/diff.md --exclude *.pyd
+[2023-04-21 14:04:53] INFO root fetch - processPackages [longbridge]: executing diffoscope
+[2023-04-21 14:04:53] INFO root fetch - processPackages [longbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longbridge-0.2.8.tar.gz tmp/longbridge-0.2.9.tar.gz --markdown 20230421/l/longbridge/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 14:04:54] INFO root fetch - main [MainThread]: End processing [perceval-puppet]: success
+[2023-04-21 14:04:54] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2023-04-21 14:04:54] INFO root fetch - main [MainThread]: End processing [mahiro]: success
+[2023-04-21 14:04:54] INFO root fetch - main [MainThread]: End processing [visualimiss]: success
+[2023-04-21 14:04:54] INFO root fetch - main [MainThread]: End processing [talos-install]: success
+[2023-04-21 14:04:54] INFO root fetch - main [MainThread]: End processing [omnicloud-airport]: success
+[2023-04-21 14:04:55] INFO root fetch - main [MainThread]: End processing [snews-pt]: success
+[2023-04-21 14:04:55] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-21 14:04:56] INFO root fetch - main [MainThread]: End processing [longbridge]: success
+[2023-04-21 14:04:56] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-21 14:04:56] INFO root fetch - main [MainThread]: Store serial: [17802694]
