@@ -6530,3 +6530,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 04:17:57] INFO root fetch - main [MainThread]: End processing [raster2dggs]: success
 [2023-04-21 04:17:57] INFO root fetch - main [MainThread]: End processing [gnutools-python]: success
 [2023-04-21 04:17:57] INFO root fetch - main [MainThread]: Store serial: [17798303]
+[2023-04-21 04:23:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798303]
+[2023-04-21 04:23:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-21 04:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightapi
+[2023-04-21 04:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lektorlib
+[2023-04-21 04:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightapi
+[2023-04-21 04:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: charmr
+[2023-04-21 04:23:06] INFO root fetch - processPackages [lightapi]: New version: [0.1.0] Old Version: [0.0.19]
+[2023-04-21 04:23:06] INFO root fetch - processPackages [charmr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 04:23:06] INFO root fetch - processPackages [lektorlib]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-21 04:23:06] INFO root fetch - processPackages [lightapi]: New version: [0.1.0] Old Version: [0.0.19]
+[2023-04-21 04:23:06] INFO root fetch - processPackages [charmr]: executing diffoscope
+[2023-04-21 04:23:06] INFO root fetch - processPackages [charmr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charmr-1.0.8.tar.gz tmp/charmr-1.0.9.tar.gz --markdown 20230421/c/charmr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 04:23:06] INFO root fetch - processPackages [lightapi]: Downloading https://files.pythonhosted.org/packages/65/86/b255b63f33e40eee54ddc876cfe4d639153d85829850c4bc9f414af74bbf/lightapi-0.0.19.tar.gz
+[2023-04-21 04:23:06] INFO root fetch - processPackages [lightapi]: Downloading https://files.pythonhosted.org/packages/65/86/b255b63f33e40eee54ddc876cfe4d639153d85829850c4bc9f414af74bbf/lightapi-0.0.19.tar.gz
+[2023-04-21 04:23:06] INFO root fetch - processPackages [lektorlib]: Downloading https://files.pythonhosted.org/packages/51/ac/12d76018ac3aa40709ed6ebdc5da3fc3f50f3b2866dd22913d2c6427522a/lektorlib-1.0.0.tar.gz
+[2023-04-21 04:23:07] INFO root fetch - processPackages [lightapi]: Downloading https://files.pythonhosted.org/packages/16/cd/e20848cd23a0ed43428cd0c8f224fcf939eb50aa2ca155279db6f90b8a22/lightapi-0.1.0.tar.gz
+[2023-04-21 04:23:07] INFO root fetch - processPackages [lightapi]: Downloading https://files.pythonhosted.org/packages/16/cd/e20848cd23a0ed43428cd0c8f224fcf939eb50aa2ca155279db6f90b8a22/lightapi-0.1.0.tar.gz
+[2023-04-21 04:23:07] INFO root fetch - processPackages [lektorlib]: Downloading https://files.pythonhosted.org/packages/4d/4c/4fbf309ef023a0ee53045456378ec70f7cff2f02615cf39586a7d208fc88/lektorlib-1.1.0.tar.gz
+[2023-04-21 04:23:07] INFO root fetch - processPackages [lightapi]: executing diffoscope
+[2023-04-21 04:23:07] INFO root fetch - processPackages [lightapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightapi-0.0.19.tar.gz tmp/lightapi-0.1.0.tar.gz --markdown 20230421/l/lightapi/0.0.19-0.1.0/diff.md --exclude *.pyd
+[2023-04-21 04:23:07] INFO root fetch - processPackages [lightapi]: executing diffoscope
+[2023-04-21 04:23:07] INFO root fetch - processPackages [lightapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightapi-0.0.19.tar.gz tmp/lightapi-0.1.0.tar.gz --markdown 20230421/l/lightapi/0.0.19-0.1.0/diff.md --exclude *.pyd
+[2023-04-21 04:23:07] INFO root fetch - processPackages [lektorlib]: executing diffoscope
+[2023-04-21 04:23:07] INFO root fetch - processPackages [lektorlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektorlib-1.0.0.tar.gz tmp/lektorlib-1.1.0.tar.gz --markdown 20230421/l/lektorlib/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-21 04:23:07] INFO root fetch - main [MainThread]: End processing [charmr]: success
+[2023-04-21 04:23:08] INFO root fetch - main [MainThread]: End processing [lightapi]: success
+[2023-04-21 04:23:08] INFO root fetch - main [MainThread]: End processing [lightapi]: success
+[2023-04-21 04:23:08] INFO root fetch - main [MainThread]: End processing [lektorlib]: success
+[2023-04-21 04:23:08] INFO root fetch - main [MainThread]: Store serial: [17798315]
