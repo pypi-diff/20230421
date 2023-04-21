@@ -9634,3 +9634,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 09:21:46] INFO root fetch - main [MainThread]: End processing [arkdata]: success
 [2023-04-21 09:21:48] INFO root fetch - main [MainThread]: End processing [gt4sd]: success
 [2023-04-21 09:21:48] INFO root fetch - main [MainThread]: Store serial: [17800153]
+[2023-04-21 09:26:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800153]
+[2023-04-21 09:26:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 09:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gt4sd
+[2023-04-21 09:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangorestfilemanager
+[2023-04-21 09:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anylearn
+[2023-04-21 09:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finlab-crypto
+[2023-04-21 09:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bns-utils
+[2023-04-21 09:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mercury
+[2023-04-21 09:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SciAssist
+[2023-04-21 09:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pointcloud-heightmap
+[2023-04-21 09:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloud-files
+[2023-04-21 09:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mip-tool
+[2023-04-21 09:26:57] INFO root fetch - processPackages [gt4sd]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-21 09:26:57] WARNING root fetch - processPackages [pointcloud-heightmap]: Skipping, unable to determine old version
+[2023-04-21 09:26:57] INFO root fetch - processPackages [finlab-crypto]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 09:26:57] INFO root fetch - processPackages [SciAssist]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-04-21 09:26:57] INFO root fetch - processPackages [pointcloud-heightmap]: Start processing: django-mapper
+[2023-04-21 09:26:57] INFO root fetch - main [MainThread]: End processing [pointcloud-heightmap] error
+[2023-04-21 09:26:57] INFO root fetch - processPackages [bns-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 09:26:57] INFO root fetch - processPackages [djangorestfilemanager]: New version: [2.0.1] Old Version: [2.0]
+[2023-04-21 09:26:57] INFO root fetch - processPackages [mip-tool]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-04-21 09:26:57] INFO root fetch - processPackages [mercury]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-04-21 09:26:57] INFO root fetch - processPackages [anylearn]: New version: [0.17.3rc1] Old Version: [0.17.3]
+[2023-04-21 09:26:57] INFO root fetch - processPackages [cloud-files]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-04-21 09:26:57] INFO root fetch - processPackages [django-mapper]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-21 09:26:57] INFO root fetch - processPackages [gt4sd]: executing diffoscope
+[2023-04-21 09:26:57] INFO root fetch - processPackages [gt4sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gt4sd-1.2.0.tar.gz tmp/gt4sd-1.2.1.tar.gz --markdown 20230421/g/gt4sd/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-21 09:26:57] INFO root fetch - processPackages [django-mapper]: executing diffoscope
+[2023-04-21 09:26:57] INFO root fetch - processPackages [django-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mapper-1.1.7.tar.gz tmp/django-mapper-1.1.8.tar.gz --markdown 20230421/d/django-mapper/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-21 09:26:57] INFO root fetch - processPackages [djangorestfilemanager]: Downloading https://files.pythonhosted.org/packages/f9/45/2f72299d9232b33891b05b913062d2289eef2a85bedae8ce6f36e415bdc4/djangorestfilemanager-2.0.tar.gz
+[2023-04-21 09:26:57] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/95/3b/108027337e90a40fe4b49d8fc641dfcb6ed143bba478f96dccacf8638d5d/anylearn-0.17.3.tar.gz
+[2023-04-21 09:26:57] INFO root fetch - processPackages [bns-utils]: Downloading https://files.pythonhosted.org/packages/12/94/c8b140c1dadfba43a5548a305e9c42b55c9f7876a9b27504137b35764a30/bns_utils-0.0.3.tar.gz
+[2023-04-21 09:26:57] INFO root fetch - processPackages [SciAssist]: Downloading https://files.pythonhosted.org/packages/9e/0e/e64fdf5ad3e45f1a40519ea14bc6818c3dff9b865ff8c98e548c85d4f96c/SciAssist-0.0.32.tar.gz
+[2023-04-21 09:26:57] INFO root fetch - processPackages [mip-tool]: Downloading https://files.pythonhosted.org/packages/62/5d/b608dd2929645a4ed942231ad43d9efb3cb30fc60f1914dc102de41f451b/mip_tool-0.2.9-py3-none-any.whl
+[2023-04-21 09:26:57] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/d6/f0/3d5f39b15c641c1af113fd671517f66041c98b8f6f0a352d8377bb43d2f6/mercury-2.2.4.tar.gz
+[2023-04-21 09:26:57] INFO root fetch - processPackages [finlab-crypto]: Downloading https://files.pythonhosted.org/packages/bb/da/3db0e1121e7fa5fe0cdb7d8905d03476394e84981b227659017c1d4375fd/finlab_crypto-0.2.8-py3-none-any.whl
+[2023-04-21 09:26:57] INFO root fetch - processPackages [djangorestfilemanager]: Downloading https://files.pythonhosted.org/packages/0b/bb/ac4539c5fcba38d6ea8bf61e00846345814c2e326381ad2417f60b305f0a/djangorestfilemanager-2.0.1.tar.gz
+[2023-04-21 09:26:57] INFO root fetch - processPackages [cloud-files]: executing diffoscope
+[2023-04-21 09:26:57] INFO root fetch - processPackages [cloud-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-files-4.9.0.tar.gz tmp/cloud-files-4.9.1.tar.gz --markdown 20230421/c/cloud-files/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-04-21 09:26:57] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2023-04-21 09:26:57] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.17.3.tar.gz tmp/anylearn-0.17.3rc1.tar.gz --markdown 20230421/a/anylearn/0.17.3-0.17.3rc1/diff.md --exclude *.pyd
+[2023-04-21 09:26:57] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/cc/a8/a5454829b218b97951bc4d49f42339fef25b97f19e5fca0c91743a36b172/mercury-2.2.5.tar.gz
+[2023-04-21 09:26:57] INFO root fetch - processPackages [SciAssist]: executing diffoscope
+[2023-04-21 09:26:57] INFO root fetch - processPackages [SciAssist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciAssist-0.0.31.tar.gz tmp/SciAssist-0.0.32.tar.gz --markdown 20230421/S/SciAssist/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-04-21 09:26:57] INFO root fetch - processPackages [bns-utils]: Downloading https://files.pythonhosted.org/packages/9d/65/68fce6da113e14e20fa290fb702e4148405090c3c89e2bea1df4f2e5d148/bns_utils-0.0.4.tar.gz
+[2023-04-21 09:26:57] INFO root fetch - processPackages [mip-tool]: Downloading https://files.pythonhosted.org/packages/44/d8/caae3a4892112b34237eb4d52e2f8376e26d45f963322a26a2e59c96544b/mip_tool-0.3.0-py3-none-any.whl
+[2023-04-21 09:26:57] INFO root fetch - processPackages [djangorestfilemanager]: executing diffoscope
+[2023-04-21 09:26:57] INFO root fetch - processPackages [djangorestfilemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestfilemanager-2.0.tar.gz tmp/djangorestfilemanager-2.0.1.tar.gz --markdown 20230421/d/djangorestfilemanager/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-21 09:26:57] INFO root fetch - processPackages [bns-utils]: executing diffoscope
+[2023-04-21 09:26:57] INFO root fetch - processPackages [bns-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bns_utils-0.0.3.tar.gz tmp/bns_utils-0.0.4.tar.gz --markdown 20230421/b/bns-utils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 09:26:57] INFO root fetch - processPackages [mip-tool]: executing diffoscope
+[2023-04-21 09:26:57] INFO root fetch - processPackages [mip-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mip_tool-0.2.9-py3-none-any.whl.zip tmp/mip_tool-0.3.0-py3-none-any.whl.zip --markdown 20230421/m/mip-tool/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-04-21 09:26:58] INFO root fetch - processPackages [finlab-crypto]: Downloading https://files.pythonhosted.org/packages/19/87/9c146ad7792f473965498444b048a9111068dd84215646631149e9d822ce/finlab_crypto-0.2.9-py3-none-any.whl
+[2023-04-21 09:26:58] INFO root fetch - processPackages [mercury]: executing diffoscope
+[2023-04-21 09:26:58] INFO root fetch - processPackages [mercury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-2.2.4.tar.gz tmp/mercury-2.2.5.tar.gz --markdown 20230421/m/mercury/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-04-21 09:26:58] INFO root fetch - processPackages [finlab-crypto]: executing diffoscope
+[2023-04-21 09:26:58] INFO root fetch - processPackages [finlab-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finlab_crypto-0.2.8-py3-none-any.whl.zip tmp/finlab_crypto-0.2.9-py3-none-any.whl.zip --markdown 20230421/f/finlab-crypto/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 09:26:58] INFO root fetch - main [MainThread]: End processing [django-mapper]: success
+[2023-04-21 09:26:59] INFO root fetch - main [MainThread]: End processing [cloud-files]: success
+[2023-04-21 09:26:59] INFO root fetch - main [MainThread]: End processing [djangorestfilemanager]: success
+[2023-04-21 09:26:59] INFO root fetch - main [MainThread]: End processing [bns-utils]: success
+[2023-04-21 09:26:59] INFO root fetch - main [MainThread]: End processing [mip-tool]: success
+[2023-04-21 09:26:59] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2023-04-21 09:27:00] INFO root fetch - main [MainThread]: End processing [finlab-crypto]: success
+[2023-04-21 09:27:00] INFO root fetch - main [MainThread]: End processing [gt4sd]: success
+[2023-04-21 09:27:01] INFO root fetch - main [MainThread]: End processing [SciAssist]: success
+[2023-04-21 09:27:03] INFO root fetch - main [MainThread]: End processing [mercury]: success
+[2023-04-21 09:27:03] INFO root fetch - main [MainThread]: Store serial: [17800189]
