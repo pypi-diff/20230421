@@ -6365,3 +6365,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 03:51:56] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
 [2023-04-21 03:51:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2023-04-21 03:51:57] INFO root fetch - main [MainThread]: Store serial: [17798175]
+[2023-04-21 03:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798175]
+[2023-04-21 03:57:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 03:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-subminute
+[2023-04-21 03:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dedscumulus
+[2023-04-21 03:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zuspec-be-sw
+[2023-04-21 03:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: munet
+[2023-04-21 03:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kmRead
+[2023-04-21 03:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: argshell
+[2023-04-21 03:57:06] INFO root fetch - processPackages [zuspec-be-sw]: New version: [0.0.1.4760571145] Old Version: [0.0.1.4759946320]
+[2023-04-21 03:57:06] WARNING root fetch - processPackages [argshell]: Skipping, unable to determine old version
+[2023-04-21 03:57:06] INFO root fetch - main [MainThread]: End processing [argshell] error
+[2023-04-21 03:57:06] INFO root fetch - processPackages [dedscumulus]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-21 03:57:06] INFO root fetch - processPackages [kmRead]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-21 03:57:06] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-21 03:57:06] INFO root fetch - processPackages [munet]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-21 03:57:06] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-04-21 03:57:06] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230421/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-21 03:57:06] INFO root fetch - processPackages [dedscumulus]: Downloading https://files.pythonhosted.org/packages/eb/98/a67314f49ecb796fbe5aad3128b94741349fd068b4883d2f952db7efe223/dedscumulus-0.0.4-py3-none-any.whl
+[2023-04-21 03:57:06] INFO root fetch - processPackages [zuspec-be-sw]: Downloading https://files.pythonhosted.org/packages/62/3f/9ef02b5a8e89bd239aa372b60de004a5d012b7f9165a13bcb9e4dcd0001d/zuspec_be_sw-0.0.1.4760571145-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 03:57:06] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/ab/ab/50abc3289545adb952eebcb12b5d75cd68c3deddb2ead102309f6b23b3fd/munet-0.9.8.tar.gz
+[2023-04-21 03:57:06] INFO root fetch - processPackages [kmRead]: Downloading https://files.pythonhosted.org/packages/05/c8/94bc6c1be2d612b08d53f470ada816d7a4410a578016fa5888c6a336eb23/kmRead-0.1.7.tar.gz
+[2023-04-21 03:57:06] INFO root fetch - processPackages [zuspec-be-sw]: executing diffoscope
+[2023-04-21 03:57:06] INFO root fetch - processPackages [zuspec-be-sw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_be_sw-0.0.1.4759946320-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_be_sw-0.0.1.4760571145-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230421/z/zuspec-be-sw/0.0.1.4759946320-0.0.1.4760571145/diff.md --exclude *.pyd
+[2023-04-21 03:57:07] INFO root fetch - processPackages [dedscumulus]: Downloading https://files.pythonhosted.org/packages/89/93/4c3f8af5828f8c99a9d46b04bc95368e24abf37fb9421d521e32ba04ba7f/dedscumulus-0.0.5-py3-none-any.whl
+[2023-04-21 03:57:07] INFO root fetch - processPackages [kmRead]: executing diffoscope
+[2023-04-21 03:57:07] INFO root fetch - processPackages [kmRead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmRead-0.1.6.tar.gz tmp/kmRead-0.1.7.tar.gz --markdown 20230421/k/kmRead/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-21 03:57:07] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/e9/a7/16aef984464ad235996a4918e7377bd5e40cd015eb9b5cae381b237aeba4/munet-0.9.9.tar.gz
+[2023-04-21 03:57:07] INFO root fetch - processPackages [dedscumulus]: executing diffoscope
+[2023-04-21 03:57:07] INFO root fetch - processPackages [dedscumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dedscumulus-0.0.4-py3-none-any.whl.zip tmp/dedscumulus-0.0.5-py3-none-any.whl.zip --markdown 20230421/d/dedscumulus/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 03:57:07] INFO root fetch - processPackages [munet]: executing diffoscope
+[2023-04-21 03:57:07] INFO root fetch - processPackages [munet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/munet-0.9.8.tar.gz tmp/munet-0.9.9.tar.gz --markdown 20230421/m/munet/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 03:57:07] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-04-21 03:57:08] INFO root fetch - main [MainThread]: End processing [zuspec-be-sw]: success
+[2023-04-21 03:57:08] INFO root fetch - main [MainThread]: End processing [kmRead]: success
+[2023-04-21 03:57:08] INFO root fetch - main [MainThread]: End processing [dedscumulus]: success
+[2023-04-21 03:57:08] INFO root fetch - main [MainThread]: End processing [munet]: success
+[2023-04-21 03:57:08] INFO root fetch - main [MainThread]: Store serial: [17798196]
