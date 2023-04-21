@@ -19670,3 +19670,145 @@ EOFError: EOF read where object expected
 [2023-04-21 19:18:27] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ice]: success
 [2023-04-21 19:18:27] INFO root fetch - main [MainThread]: End processing [unstructured]: success
 [2023-04-21 19:18:27] INFO root fetch - main [MainThread]: Store serial: [17806402]
+[2023-04-21 19:23:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806402]
+[2023-04-21 19:23:36] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-21 19:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-ionq
+[2023-04-21 19:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirq-core
+[2023-04-21 19:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: label-studio-sdk
+[2023-04-21 19:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-pasqal
+[2023-04-21 19:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-google
+[2023-04-21 19:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-rigetti
+[2023-04-21 19:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-web
+[2023-04-21 19:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq
+[2023-04-21 19:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lectric-sdk
+[2023-04-21 19:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-aqt
+[2023-04-21 19:23:37] INFO root fetch - processPackages [label-studio-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230421171826] Old Version: [1.2.0.dev20230421134537]
+[2023-04-21 19:23:37] INFO root fetch - processPackages [lectric-sdk]: New version: [0.0.9] Old Version: [0.0.6a0]
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230421171826] Old Version: [1.2.0.dev20230421134537]
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230421171826] Old Version: [1.2.0.dev20230421134537]
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230421171826] Old Version: [1.2.0.dev20230421134537]
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230421171826] Old Version: [1.2.0.dev20230421134537]
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230421171826] Old Version: [1.2.0.dev20230421134537]
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230421171826] Old Version: [1.2.0.dev20230421134537]
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230421171826] Old Version: [1.2.0.dev20230421134537]
+[2023-04-21 19:23:37] INFO root fetch - processPackages [label-studio-sdk]: Downloading https://files.pythonhosted.org/packages/39/27/6f9018ef70e56dfa28103b5bd86e825b600aff3904d46f64159ace0ba437/label-studio-sdk-0.0.8.tar.gz
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/d3/ba/e2796638ed2524a2e4393113f36ebd112d0ba98a28934a797e40c295d953/cirq_ionq-1.2.0.dev20230421134537-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [lectric-sdk]: Downloading https://files.pythonhosted.org/packages/43/64/6272ab8629bdcb6480b2746e6e3bb7146ea176e827b6de3de5867b0b94d6/lectric-sdk-0.0.6a0.tar.gz
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/15/85/aac35c2c5ac52d56d07938585565ed5c3fbcf93228f3a5f2b3ab4fb31432/cirq_google-1.2.0.dev20230421134537-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/15/96/14a27f9f92088458c97010e3c22af53cd19935a5b3b8f6d8621b3fb509af/cirq_pasqal-1.2.0.dev20230421134537-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/f1/72/8f4572372333aa943bcf6ef1b7052049b77c956b45a9c58471c0c9cdced7/cirq_core-1.2.0.dev20230421134537-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/92/31/b267e86b861b81f9cda7cb9f10df11149080cbd46ca25c0d615992487caa/cirq_aqt-1.2.0.dev20230421134537-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/0b/45/3877ceeabdf2bb0ac416e85a2bfa44a00fd2393633942737508d7dfa84ad/cirq-1.2.0.dev20230421134537-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/c8/fc/074cc85d810502328f79c4a7536088fe1c81e92f821ed83151aceaf48b36/cirq_rigetti-1.2.0.dev20230421134537-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/cf/60/2a98f2ad2463ac30ccae563b535386bdb10bd57fd649b9f80da4b1126ea9/cirq_web-1.2.0.dev20230421134537-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/57/c3/b6d1ac0a1d235e1dd876aaf79c96d8a653279131ada914cf9592979a8b47/cirq_ionq-1.2.0.dev20230421171826-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [lectric-sdk]: Downloading https://files.pythonhosted.org/packages/7d/f5/c957a796a1873e1f7870cd3cdfbba66a8159c62adb8e5785cb5d9b2dfef0/lectric-sdk-0.0.9.tar.gz
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/77/44/b02ec0a5b58683fe2e1b99b4b45ae9188eee12af2b5cb1b522e2289cb76b/cirq_google-1.2.0.dev20230421171826-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [label-studio-sdk]: Downloading https://files.pythonhosted.org/packages/73/63/826dbc4e9c1fc72a4249a511a420bdf0e88bdb5b89b275594649dfbca553/label-studio-sdk-0.0.9.tar.gz
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/a2/93/fc0e862c90dff4c60cad196c9ed20f8c8abd561ad3915038d4e19aec83ac/cirq_aqt-1.2.0.dev20230421171826-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [lectric-sdk]: executing diffoscope
+[2023-04-21 19:23:37] INFO root fetch - processPackages [lectric-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lectric-sdk-0.0.6a0.tar.gz tmp/lectric-sdk-0.0.9.tar.gz --markdown 20230421/l/lectric-sdk/0.0.6a0-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/1d/36/bd38ef9baae4cebd55d105653941f4cff4f591103cf423216af0959987be/cirq_pasqal-1.2.0.dev20230421171826-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/34/d6/06eb6944e34be56b2806e17780d1b9b1cba51fa67356a2f70582913b8d9e/cirq-1.2.0.dev20230421171826-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/0b/0c/2f3532c4ea14d352f726c5f46f40c3e9389fc1171d6b719ed725a25ac2a0/cirq_rigetti-1.2.0.dev20230421171826-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230421134537-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230421171826-py3-none-any.whl.zip --markdown 20230421/c/cirq-ionq/1.2.0.dev20230421134537-1.2.0.dev20230421171826/diff.md --exclude *.pyd
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/3a/48/5057d43c092e3ff66d135d0797c2a0097134d64a95eb133a5513a0c1c928/cirq_web-1.2.0.dev20230421171826-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [label-studio-sdk]: executing diffoscope
+[2023-04-21 19:23:37] INFO root fetch - processPackages [label-studio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-studio-sdk-0.0.8.tar.gz tmp/label-studio-sdk-0.0.9.tar.gz --markdown 20230421/l/label-studio-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230421134537-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230421171826-py3-none-any.whl.zip --markdown 20230421/c/cirq-google/1.2.0.dev20230421134537-1.2.0.dev20230421171826/diff.md --exclude *.pyd
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230421134537-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230421171826-py3-none-any.whl.zip --markdown 20230421/c/cirq-aqt/1.2.0.dev20230421134537-1.2.0.dev20230421171826/diff.md --exclude *.pyd
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230421134537-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230421171826-py3-none-any.whl.zip --markdown 20230421/c/cirq/1.2.0.dev20230421134537-1.2.0.dev20230421171826/diff.md --exclude *.pyd
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/32/f6/7bfd196e3b6ce0b99568d7334cb26e030410cf09eb611c18a21603653d18/cirq_core-1.2.0.dev20230421171826-py3-none-any.whl
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230421134537-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230421171826-py3-none-any.whl.zip --markdown 20230421/c/cirq-pasqal/1.2.0.dev20230421134537-1.2.0.dev20230421171826/diff.md --exclude *.pyd
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230421134537-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230421171826-py3-none-any.whl.zip --markdown 20230421/c/cirq-rigetti/1.2.0.dev20230421134537-1.2.0.dev20230421171826/diff.md --exclude *.pyd
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-04-21 19:23:37] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230421134537-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230421171826-py3-none-any.whl.zip --markdown 20230421/c/cirq-web/1.2.0.dev20230421134537-1.2.0.dev20230421171826/diff.md --exclude *.pyd
+[2023-04-21 19:23:38] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-04-21 19:23:38] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230421134537-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230421171826-py3-none-any.whl.zip --markdown 20230421/c/cirq-core/1.2.0.dev20230421134537-1.2.0.dev20230421171826/diff.md --exclude *.pyd
+[2023-04-21 19:23:39] INFO root fetch - processPackages [cirq-ionq]: Start processing: wafl
+[2023-04-21 19:23:39] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-04-21 19:23:39] INFO root fetch - processPackages [wafl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 19:23:39] INFO root fetch - processPackages [wafl]: Downloading https://files.pythonhosted.org/packages/a0/29/9dad9f231dd8108642686c29bf65dadb5145c044bd38a4068e72e77065cc/wafl-0.0.8-py3-none-any.whl
+[2023-04-21 19:23:39] INFO root fetch - processPackages [cirq-aqt]: Start processing: pypcapkit
+[2023-04-21 19:23:39] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-04-21 19:23:39] INFO root fetch - processPackages [cirq]: Start processing: aequilibrium
+[2023-04-21 19:23:39] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-04-21 19:23:39] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.0b7] Old Version: [1.0.0b6]
+[2023-04-21 19:23:39] WARNING root fetch - processPackages [aequilibrium]: Skipping, unable to determine old version
+[2023-04-21 19:23:39] INFO root fetch - processPackages [aequilibrium]: Start processing: climix
+[2023-04-21 19:23:39] INFO root fetch - main [MainThread]: End processing [aequilibrium] error
+[2023-04-21 19:23:39] INFO root fetch - processPackages [climix]: New version: [0.18.0rc2] Old Version: [0.18.0rc1]
+[2023-04-21 19:23:40] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/7d/6a/9a2c6cc2c7f7a55e12067047cdd4cea065919d9bf69953581a00972ea7f2/pypcapkit-1.0.0b7.tar.gz
+[2023-04-21 19:23:40] INFO root fetch - processPackages [climix]: Downloading https://files.pythonhosted.org/packages/64/1c/4e784cc1e0b28dc258467524449f5bc6290a2728fa45b8efe9638a937ae8/climix-0.18.0rc1.tar.gz
+[2023-04-21 19:23:40] INFO root fetch - processPackages [cirq-pasqal]: Start processing: spanishconjugator
+[2023-04-21 19:23:40] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-04-21 19:23:40] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-04-21 19:23:40] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.0b6.tar.gz tmp/pypcapkit-1.0.0b7.tar.gz --markdown 20230421/p/pypcapkit/1.0.0b6-1.0.0b7/diff.md --exclude *.pyd
+[2023-04-21 19:23:40] INFO root fetch - processPackages [cirq-web]: Start processing: phc-ingestion
+[2023-04-21 19:23:40] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-21 19:23:40] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-04-21 19:23:40] INFO root fetch - processPackages [label-studio-sdk]: Start processing: squiral
+[2023-04-21 19:23:40] INFO root fetch - processPackages [lectric-sdk]: Start processing: ocr-data-generator
+[2023-04-21 19:23:40] INFO root fetch - main [MainThread]: End processing [label-studio-sdk]: success
+[2023-04-21 19:23:40] INFO root fetch - main [MainThread]: End processing [lectric-sdk]: success
+[2023-04-21 19:23:40] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 19:23:40] INFO root fetch - processPackages [cirq-rigetti]: Start processing: spanishconjugator
+[2023-04-21 19:23:40] INFO root fetch - processPackages [climix]: Downloading https://files.pythonhosted.org/packages/00/41/a9627dd8fc20ee7114e214008d67d0262241e58d637374ecb983b4aa8185/climix-0.18.0rc2.tar.gz
+[2023-04-21 19:23:40] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-04-21 19:23:40] INFO root fetch - processPackages [ocr-data-generator]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 19:23:40] INFO root fetch - processPackages [squiral]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-21 19:23:40] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-21 19:23:40] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-21 19:23:40] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230421/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-21 19:23:40] INFO root fetch - processPackages [climix]: executing diffoscope
+[2023-04-21 19:23:40] INFO root fetch - processPackages [climix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climix-0.18.0rc1.tar.gz tmp/climix-0.18.0rc2.tar.gz --markdown 20230421/c/climix/0.18.0rc1-0.18.0rc2/diff.md --exclude *.pyd
+[2023-04-21 19:23:40] INFO root fetch - processPackages [wafl]: Downloading https://files.pythonhosted.org/packages/e8/ba/a479c38e7318eb06392b407915b72a861eda434ae4f577eacb094e5f8d4a/wafl-0.0.9-py3-none-any.whl
+[2023-04-21 19:23:40] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/7c/50/dddee5ed9f37b0a223816dbcded72773737dfa9dda1c606fdb575b27a1f8/phc-ingestion-0.3.8.tar.gz
+[2023-04-21 19:23:40] INFO root fetch - processPackages [squiral]: Downloading https://files.pythonhosted.org/packages/38/a3/d6c07851b6d89c3bef62ffea42bb03e87b7f7b19b2f45ae3b50a2fb8e52c/squiral-0.4.0.tar.gz
+[2023-04-21 19:23:40] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-21 19:23:40] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230421/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-21 19:23:40] WARNING root fetch - processPackages [phc-ingestion]: Skipping package: exceeds size limit 55817200>=10485760
+[2023-04-21 19:23:40] INFO root fetch - processPackages [phc-ingestion]: Start processing: ovos-workshop
+[2023-04-21 19:23:40] INFO root fetch - main [MainThread]: End processing [phc-ingestion] error
+[2023-04-21 19:23:40] INFO root fetch - processPackages [ovos-workshop]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-04-21 19:23:40] INFO root fetch - processPackages [ocr-data-generator]: Downloading https://files.pythonhosted.org/packages/ab/29/70de8b4f5c2531291b6cee789b502a8aadf30ef359cc15a2e2e323c43d32/ocr_data_generator-0.0.8.tar.gz
+[2023-04-21 19:23:40] INFO root fetch - processPackages [ocr-data-generator]: executing diffoscope
+[2023-04-21 19:23:40] INFO root fetch - processPackages [ocr-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocr_data_generator-0.0.7.tar.gz tmp/ocr_data_generator-0.0.8.tar.gz --markdown 20230421/o/ocr-data-generator/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 19:23:40] INFO root fetch - processPackages [ovos-workshop]: executing diffoscope
+[2023-04-21 19:23:40] INFO root fetch - processPackages [ovos-workshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip --markdown 20230421/o/ovos-workshop/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-04-21 19:23:40] INFO root fetch - processPackages [squiral]: Downloading https://files.pythonhosted.org/packages/77/94/e9215459d734034c70bc3c0ed26e4b5e6e189ba4d66467c24c1f2cc97d33/squiral-0.4.1.tar.gz
+[2023-04-21 19:23:40] INFO root fetch - processPackages [squiral]: executing diffoscope
+[2023-04-21 19:23:40] INFO root fetch - processPackages [squiral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squiral-0.4.0.tar.gz tmp/squiral-0.4.1.tar.gz --markdown 20230421/s/squiral/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-21 19:23:41] INFO root fetch - processPackages [wafl]: executing diffoscope
+[2023-04-21 19:23:41] INFO root fetch - processPackages [wafl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafl-0.0.8-py3-none-any.whl.zip tmp/wafl-0.0.9-py3-none-any.whl.zip --markdown 20230421/w/wafl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 19:23:42] INFO root fetch - processPackages [spanishconjugator]: Start processing: qiskit-sphinx-theme
+[2023-04-21 19:23:42] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-21 19:23:42] INFO root fetch - processPackages [qiskit-sphinx-theme]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-04-21 19:23:42] INFO root fetch - processPackages [spanishconjugator]: Start processing: django-jwt-oidc
+[2023-04-21 19:23:42] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-21 19:23:42] INFO root fetch - processPackages [cirq-google]: Start processing: django-viewers-counts-middleware
+[2023-04-21 19:23:42] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-04-21 19:23:42] INFO root fetch - processPackages [django-jwt-oidc]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 19:23:42] WARNING root fetch - processPackages [django-viewers-counts-middleware]: Skipping, unable to determine old version
+[2023-04-21 19:23:42] INFO root fetch - main [MainThread]: End processing [django-viewers-counts-middleware] error
+[2023-04-21 19:23:42] INFO root fetch - processPackages [django-jwt-oidc]: executing diffoscope
+[2023-04-21 19:23:42] INFO root fetch - processPackages [django-jwt-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jwt-oidc-1.0.2.tar.gz tmp/django-jwt-oidc-1.0.3.tar.gz --markdown 20230421/d/django-jwt-oidc/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 19:23:42] INFO root fetch - processPackages [qiskit-sphinx-theme]: executing diffoscope
+[2023-04-21 19:23:42] INFO root fetch - processPackages [qiskit-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_sphinx_theme-1.8.7.tar.gz tmp/qiskit_sphinx_theme-1.9.0.tar.gz --markdown 20230421/q/qiskit-sphinx-theme/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 19:23:42] INFO root fetch - main [MainThread]: End processing [squiral]: success
+[2023-04-21 19:23:42] INFO root fetch - main [MainThread]: End processing [ocr-data-generator]: success
+[2023-04-21 19:23:43] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
+[2023-04-21 19:23:44] INFO root fetch - main [MainThread]: End processing [django-jwt-oidc]: success
+[2023-04-21 19:23:44] INFO root fetch - main [MainThread]: End processing [climix]: success
+[2023-04-21 19:23:44] INFO root fetch - main [MainThread]: End processing [qiskit-sphinx-theme]: success
+[2023-04-21 19:23:45] INFO root fetch - main [MainThread]: End processing [wafl]: success
+[2023-04-21 19:23:45] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-04-21 19:23:54] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-04-21 19:23:54] INFO root fetch - main [MainThread]: Store serial: [17806488]
