@@ -19636,3 +19636,37 @@ EOFError: EOF read where object expected
 [2023-04-21 19:12:47] INFO root fetch - main [MainThread]: End processing [GPy]: success
 [2023-04-21 19:13:14] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-21 19:13:14] INFO root fetch - main [MainThread]: Store serial: [17806383]
+[2023-04-21 19:18:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806383]
+[2023-04-21 19:18:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 19:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unstructured
+[2023-04-21 19:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fdeb
+[2023-04-21 19:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-science-common
+[2023-04-21 19:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aliyun-python-sdk-ice
+[2023-04-21 19:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fieldedge-utilities
+[2023-04-21 19:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliencomm
+[2023-04-21 19:18:24] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-21 19:18:24] INFO root fetch - processPackages [aliyun-python-sdk-ice]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-21 19:18:24] WARNING root fetch - processPackages [fdeb]: Skipping, unable to determine old version
+[2023-04-21 19:18:24] INFO root fetch - main [MainThread]: End processing [fdeb] error
+[2023-04-21 19:18:24] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-04-21 19:18:24] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230421/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-21 19:18:24] WARNING root fetch - processPackages [aliencomm]: Skipping, unable to determine old version
+[2023-04-21 19:18:24] INFO root fetch - main [MainThread]: End processing [aliencomm] error
+[2023-04-21 19:18:24] INFO root fetch - processPackages [data-science-common]: New version: [0.1.8] Old Version: [0.1.4]
+[2023-04-21 19:18:24] INFO root fetch - processPackages [unstructured]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-04-21 19:18:24] INFO root fetch - processPackages [aliyun-python-sdk-ice]: Downloading https://files.pythonhosted.org/packages/1a/9d/341b4fefff3ee94a476670f942f472e010a874fbc7f0f575bdb027dbdada/aliyun-python-sdk-ice-1.0.1.tar.gz
+[2023-04-21 19:18:24] INFO root fetch - processPackages [data-science-common]: Downloading https://files.pythonhosted.org/packages/61/6a/0f06c5fe0ec5da4d794db8510d6bfa3f24ac6837d6a202610488c7a9f376/data_science_common-0.1.4.tar.gz
+[2023-04-21 19:18:25] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/8c/15/b5f136f9fe88a8d1c9043c4f0667bbffd4795c1e61ae5ad6fdb72dbbbaf9/unstructured-0.6.0.tar.gz
+[2023-04-21 19:18:25] INFO root fetch - processPackages [aliyun-python-sdk-ice]: Downloading https://files.pythonhosted.org/packages/18/9e/f9a4d1ae395e812e4c64b5ed09a5664a69451bdf7a62e1b3b9b8b27f9d48/aliyun-python-sdk-ice-1.0.2.tar.gz
+[2023-04-21 19:18:25] INFO root fetch - processPackages [data-science-common]: Downloading https://files.pythonhosted.org/packages/ac/92/8e8c7bd5a66c67af773d2ac327e0017781955fe163adbd385453a889d3ff/data-science-common-0.1.8.tar.gz
+[2023-04-21 19:18:25] INFO root fetch - processPackages [aliyun-python-sdk-ice]: executing diffoscope
+[2023-04-21 19:18:25] INFO root fetch - processPackages [aliyun-python-sdk-ice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ice-1.0.1.tar.gz tmp/aliyun-python-sdk-ice-1.0.2.tar.gz --markdown 20230421/a/aliyun-python-sdk-ice/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-21 19:18:25] INFO root fetch - processPackages [data-science-common]: executing diffoscope
+[2023-04-21 19:18:25] INFO root fetch - processPackages [data-science-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_science_common-0.1.4.tar.gz tmp/data-science-common-0.1.8.tar.gz --markdown 20230421/d/data-science-common/0.1.4-0.1.8/diff.md --exclude *.pyd
+[2023-04-21 19:18:25] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-04-21 19:18:25] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.5.9.tar.gz tmp/unstructured-0.6.0.tar.gz --markdown 20230421/u/unstructured/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-04-21 19:18:26] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-04-21 19:18:26] INFO root fetch - main [MainThread]: End processing [data-science-common]: success
+[2023-04-21 19:18:27] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ice]: success
+[2023-04-21 19:18:27] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-04-21 19:18:27] INFO root fetch - main [MainThread]: Store serial: [17806402]
