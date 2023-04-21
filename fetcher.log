@@ -6824,3 +6824,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 04:49:09] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
 [2023-04-21 04:49:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-loan]: success
 [2023-04-21 04:49:09] INFO root fetch - main [MainThread]: Store serial: [17798468]
+[2023-04-21 04:54:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798468]
+[2023-04-21 04:54:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-21 04:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-usability
+[2023-04-21 04:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tzconv
+[2023-04-21 04:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AStared
+[2023-04-21 04:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scPANTHEON
+[2023-04-21 04:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kmRead
+[2023-04-21 04:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dtproject
+[2023-04-21 04:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunyata
+[2023-04-21 04:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duckietown-shell
+[2023-04-21 04:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-facebody20191230
+[2023-04-21 04:54:17] INFO root fetch - processPackages [kmRead]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-21 04:54:17] INFO root fetch - processPackages [scPANTHEON]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-21 04:54:17] INFO root fetch - processPackages [duckietown-shell]: New version: [5.5.6] Old Version: [5.5.5]
+[2023-04-21 04:54:17] INFO root fetch - processPackages [AStared]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 04:54:17] INFO root fetch - processPackages [tzconv]: New version: [1.1] Old Version: [1.0]
+[2023-04-21 04:54:17] INFO root fetch - processPackages [odoo-addon-account-usability]: New version: [16.0.1.0.3.2] Old Version: [16.0.1.0.3.1]
+[2023-04-21 04:54:17] INFO root fetch - processPackages [dtproject]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 04:54:17] INFO root fetch - processPackages [alibabacloud-facebody20191230]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-04-21 04:54:17] INFO root fetch - processPackages [sunyata]: New version: [0.0.38] Old Version: [0.0.37]
+[2023-04-21 04:54:18] INFO root fetch - processPackages [tzconv]: Downloading https://files.pythonhosted.org/packages/cd/51/89497514403b78d6d2e342871fcb8d5f9882090c54517ecd4c9d4687c116/tzconv-1.0.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [duckietown-shell]: Downloading https://files.pythonhosted.org/packages/48/53/1aa0aac3805eedbccefc8f18d6cec46fe7011deb8c54a6224077f0172f94/duckietown-shell-5.5.5.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/c5/b3/c6e6566985b4bd56eb441755d5dfc493935e0aab03110ff8ef423fc61634/scPANTHEON-0.2.4.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [AStared]: Downloading https://files.pythonhosted.org/packages/a9/83/fc5555249484297b726eb60c737093e2f8f8fcf65f8023bf2ffdb60486e5/AStared-0.1.0.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [kmRead]: Downloading https://files.pythonhosted.org/packages/5f/f5/06faddd0da1f3ba79737a80934d2aff0681b4acc9fec0662d49eb8c18619/kmRead-0.1.8.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/15/31/b42ac3a62721c20b3381015ab7970367ea75d140982a34529b86be539c6e/sunyata-0.0.37.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [dtproject]: Downloading https://files.pythonhosted.org/packages/e8/87/0dafb2230664f0c4e0392d78ec6c9511f67cf7d424d80535fbbcc332c204/dtproject-0.0.3.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [alibabacloud-facebody20191230]: Downloading https://files.pythonhosted.org/packages/a8/39/ed5536ee21090507f093b763ea9c9271e7f2e0abb5488627b2e4f9141d78/alibabacloud_facebody20191230-4.0.8.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [odoo-addon-account-usability]: Downloading https://files.pythonhosted.org/packages/11/a5/21d34bd12c87a864cb99a57085ced8b32e27c832cb7a38371135c516987f/odoo_addon_account_usability-16.0.1.0.3.2-py3-none-any.whl
+[2023-04-21 04:54:18] INFO root fetch - processPackages [kmRead]: executing diffoscope
+[2023-04-21 04:54:18] INFO root fetch - processPackages [kmRead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmRead-0.1.7.tar.gz tmp/kmRead-0.1.8.tar.gz --markdown 20230421/k/kmRead/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-21 04:54:18] INFO root fetch - processPackages [dtproject]: executing diffoscope
+[2023-04-21 04:54:18] INFO root fetch - processPackages [dtproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtproject-0.0.2.tar.gz tmp/dtproject-0.0.3.tar.gz --markdown 20230421/d/dtproject/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 04:54:18] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/84/10/ccc776e79cdcc9ff4cea4fef9fcacc4c867bcc754aac152fed03e1365d58/scPANTHEON-0.2.5.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [tzconv]: Downloading https://files.pythonhosted.org/packages/44/03/e7c5bf8dbb197118c581ae804f37439c58c21275330e0620ac5c818b7981/tzconv-1.1.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [duckietown-shell]: Downloading https://files.pythonhosted.org/packages/11/60/3bdc48702e75058c5d57f656a2b516dbbdcbb881e1a916968594e5cacfbb/duckietown-shell-5.5.6.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [AStared]: Downloading https://files.pythonhosted.org/packages/68/65/3d02225f47542a52c08186ce070d88d1905fda2e10e29576c758772eeb83/AStared-0.1.1.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [alibabacloud-facebody20191230]: Downloading https://files.pythonhosted.org/packages/c0/4c/3e1831a1194e39bad5ecba809f9a30fcf936f1469ebcbf4a31b51020f9ef/alibabacloud_facebody20191230-4.0.9.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/92/5e/42d0a284e8266c0c896513a40ca85f88dccd151f4df2a27d9b192e10e4d8/sunyata-0.0.38.tar.gz
+[2023-04-21 04:54:18] INFO root fetch - processPackages [odoo-addon-account-usability]: executing diffoscope
+[2023-04-21 04:54:18] INFO root fetch - processPackages [odoo-addon-account-usability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_usability-16.0.1.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_account_usability-16.0.1.0.3.2-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-account-usability/16.0.1.0.3.1-16.0.1.0.3.2/diff.md --exclude *.pyd
+[2023-04-21 04:54:18] INFO root fetch - processPackages [scPANTHEON]: executing diffoscope
+[2023-04-21 04:54:18] INFO root fetch - processPackages [scPANTHEON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scPANTHEON-0.2.4.tar.gz tmp/scPANTHEON-0.2.5.tar.gz --markdown 20230421/s/scPANTHEON/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-21 04:54:18] INFO root fetch - processPackages [tzconv]: executing diffoscope
+[2023-04-21 04:54:18] INFO root fetch - processPackages [tzconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tzconv-1.0.tar.gz tmp/tzconv-1.1.tar.gz --markdown 20230421/t/tzconv/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-21 04:54:18] INFO root fetch - processPackages [AStared]: executing diffoscope
+[2023-04-21 04:54:18] INFO root fetch - processPackages [AStared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AStared-0.1.0.tar.gz tmp/AStared-0.1.1.tar.gz --markdown 20230421/A/AStared/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 04:54:18] INFO root fetch - processPackages [duckietown-shell]: executing diffoscope
+[2023-04-21 04:54:18] INFO root fetch - processPackages [duckietown-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckietown-shell-5.5.5.tar.gz tmp/duckietown-shell-5.5.6.tar.gz --markdown 20230421/d/duckietown-shell/5.5.5-5.5.6/diff.md --exclude *.pyd
+[2023-04-21 04:54:18] INFO root fetch - processPackages [alibabacloud-facebody20191230]: executing diffoscope
+[2023-04-21 04:54:18] INFO root fetch - processPackages [alibabacloud-facebody20191230]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_facebody20191230-4.0.8.tar.gz tmp/alibabacloud_facebody20191230-4.0.9.tar.gz --markdown 20230421/a/alibabacloud-facebody20191230/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-04-21 04:54:18] INFO root fetch - processPackages [sunyata]: executing diffoscope
+[2023-04-21 04:54:18] INFO root fetch - processPackages [sunyata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunyata-0.0.37.tar.gz tmp/sunyata-0.0.38.tar.gz --markdown 20230421/s/sunyata/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2023-04-21 04:54:19] INFO root fetch - main [MainThread]: End processing [kmRead]: success
+[2023-04-21 04:54:19] INFO root fetch - main [MainThread]: End processing [dtproject]: success
+[2023-04-21 04:54:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-usability]: success
+[2023-04-21 04:54:20] INFO root fetch - main [MainThread]: End processing [duckietown-shell]: success
+[2023-04-21 04:54:20] INFO root fetch - main [MainThread]: End processing [tzconv]: success
+[2023-04-21 04:54:20] INFO root fetch - main [MainThread]: End processing [AStared]: success
+[2023-04-21 04:54:20] INFO root fetch - main [MainThread]: End processing [scPANTHEON]: success
+[2023-04-21 04:54:20] INFO root fetch - main [MainThread]: End processing [sunyata]: success
+[2023-04-21 04:54:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-facebody20191230]: success
+[2023-04-21 04:54:22] INFO root fetch - main [MainThread]: Store serial: [17798492]
