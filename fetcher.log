@@ -6791,3 +6791,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 04:43:58] INFO root fetch - main [MainThread]: End processing [dtproject]: success
 [2023-04-21 04:43:58] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
 [2023-04-21 04:43:58] INFO root fetch - main [MainThread]: Store serial: [17798444]
+[2023-04-21 04:49:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798444]
+[2023-04-21 04:49:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-21 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gama-cli
+[2023-04-21 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biobricks
+[2023-04-21 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: framelink
+[2023-04-21 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-account-loan
+[2023-04-21 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NikeCA
+[2023-04-21 04:49:07] INFO root fetch - processPackages [biobricks]: New version: [0.1.62] Old Version: [0.1.61]
+[2023-04-21 04:49:07] INFO root fetch - processPackages [framelink]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-21 04:49:07] INFO root fetch - processPackages [gama-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-21 04:49:07] INFO root fetch - processPackages [NikeCA]: New version: [0.1.65] Old Version: [0.1.64]
+[2023-04-21 04:49:07] INFO root fetch - processPackages [odoo14-addon-account-loan]: New version: [14.0.1.0.7.dev8] Old Version: [14.0.1.0.7.dev7]
+[2023-04-21 04:49:07] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-21 04:49:07] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.64.tar.gz tmp/NikeCA-0.1.65.tar.gz --markdown 20230421/N/NikeCA/0.1.64-0.1.65/diff.md --exclude *.pyd
+[2023-04-21 04:49:07] INFO root fetch - processPackages [framelink]: Downloading https://files.pythonhosted.org/packages/99/ae/5fadfa8c044e9b26dfb330c2151bd7c64bfad67bfcfa652a4b429f1838f9/framelink-0.1.0.tar.gz
+[2023-04-21 04:49:07] INFO root fetch - processPackages [odoo14-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/bd/88/2b89af85c857c849ea91585350803e195934ad96a227b874f4ae2ec6e2dc/odoo14_addon_account_loan-14.0.1.0.7.dev7-py3-none-any.whl
+[2023-04-21 04:49:07] INFO root fetch - processPackages [biobricks]: Downloading https://files.pythonhosted.org/packages/98/0e/1d56b01849ed4d22e276f1b55e2f99081dced2d9699d4f97f4e9ccd3a9a0/biobricks-0.1.62.tar.gz
+[2023-04-21 04:49:07] INFO root fetch - processPackages [biobricks]: executing diffoscope
+[2023-04-21 04:49:07] INFO root fetch - processPackages [biobricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobricks-0.1.61.tar.gz tmp/biobricks-0.1.62.tar.gz --markdown 20230421/b/biobricks/0.1.61-0.1.62/diff.md --exclude *.pyd
+[2023-04-21 04:49:07] INFO root fetch - processPackages [gama-cli]: executing diffoscope
+[2023-04-21 04:49:07] INFO root fetch - processPackages [gama-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_cli-1.8.0.tar.gz tmp/gama_cli-1.9.0.tar.gz --markdown 20230421/g/gama-cli/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 04:49:07] INFO root fetch - processPackages [framelink]: Downloading https://files.pythonhosted.org/packages/e9/3f/e29a5c46b44c8bd320478dbf378ff708cbb7e35de8446ae249406ef5a5f2/framelink-0.2.0.tar.gz
+[2023-04-21 04:49:07] INFO root fetch - processPackages [framelink]: executing diffoscope
+[2023-04-21 04:49:07] INFO root fetch - processPackages [framelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framelink-0.1.0.tar.gz tmp/framelink-0.2.0.tar.gz --markdown 20230421/f/framelink/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 04:49:07] INFO root fetch - processPackages [odoo14-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/ae/c7/7b23b5f30240ec5187b88c14b8627551452ddc3b776bbd92adfdcadd4771/odoo14_addon_account_loan-14.0.1.0.7.dev8-py3-none-any.whl
+[2023-04-21 04:49:07] INFO root fetch - processPackages [odoo14-addon-account-loan]: executing diffoscope
+[2023-04-21 04:49:07] INFO root fetch - processPackages [odoo14-addon-account-loan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_loan-14.0.1.0.7.dev7-py3-none-any.whl.zip tmp/odoo14_addon_account_loan-14.0.1.0.7.dev8-py3-none-any.whl.zip --markdown 20230421/o/odoo14-addon-account-loan/14.0.1.0.7.dev7-14.0.1.0.7.dev8/diff.md --exclude *.pyd
+[2023-04-21 04:49:08] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-21 04:49:08] INFO root fetch - main [MainThread]: End processing [biobricks]: success
+[2023-04-21 04:49:08] INFO root fetch - main [MainThread]: End processing [framelink]: success
+[2023-04-21 04:49:09] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
+[2023-04-21 04:49:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-loan]: success
+[2023-04-21 04:49:09] INFO root fetch - main [MainThread]: Store serial: [17798468]
