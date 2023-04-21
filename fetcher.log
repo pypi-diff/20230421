@@ -19555,3 +19555,84 @@ EOFError: EOF read where object expected
 [2023-04-21 19:07:26] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-21 19:07:26] INFO root fetch - main [MainThread]: End processing [nanomix]: success
 [2023-04-21 19:07:26] INFO root fetch - main [MainThread]: Store serial: [17806340]
+[2023-04-21 19:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806340]
+[2023-04-21 19:12:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 19:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyE2
+[2023-04-21 19:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snaptrade-python-sdk
+[2023-04-21 19:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GPy
+[2023-04-21 19:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepview-rt
+[2023-04-21 19:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jwst-mast-query
+[2023-04-21 19:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cqlpy
+[2023-04-21 19:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2023-04-21 19:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ignf_gpf_api
+[2023-04-21 19:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: image-to-arduino-o-d
+[2023-04-21 19:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rormula
+[2023-04-21 19:12:39] INFO root fetch - processPackages [PyE2]: New version: [0.4.0] Old Version: [0.3.8]
+[2023-04-21 19:12:39] INFO root fetch - processPackages [cqlpy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 19:12:39] INFO root fetch - processPackages [moto]: New version: [4.1.8.dev9] Old Version: [4.1.8.dev8]
+[2023-04-21 19:12:39] INFO root fetch - processPackages [deepview-rt]: New version: [2.4.74] Old Version: [2.4.73]
+[2023-04-21 19:12:39] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-04-21 19:12:39] WARNING root fetch - processPackages [image-to-arduino-o-d]: Skipping, unable to determine old version
+[2023-04-21 19:12:39] INFO root fetch - processPackages [ignf_gpf_api]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-21 19:12:39] INFO root fetch - processPackages [image-to-arduino-o-d]: Start processing: pipcryptographylibraryV2
+[2023-04-21 19:12:39] WARNING root fetch - processPackages [rormula]: Skipping, unable to determine old version
+[2023-04-21 19:12:39] INFO root fetch - main [MainThread]: End processing [image-to-arduino-o-d] error
+[2023-04-21 19:12:39] INFO root fetch - processPackages [rormula]: Start processing: pypcapkit
+[2023-04-21 19:12:39] INFO root fetch - main [MainThread]: End processing [rormula] error
+[2023-04-21 19:12:39] INFO root fetch - processPackages [jwst-mast-query]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 19:12:39] INFO root fetch - processPackages [GPy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-21 19:12:39] WARNING root fetch - processPackages [pipcryptographylibraryV2]: Skipping, unable to determine old version
+[2023-04-21 19:12:39] INFO root fetch - processPackages [pipcryptographylibraryV2]: Start processing: azureml-dataprep
+[2023-04-21 19:12:39] INFO root fetch - main [MainThread]: End processing [pipcryptographylibraryV2] error
+[2023-04-21 19:12:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-21 19:12:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.8.dev8.tar.gz tmp/moto-4.1.8.dev9.tar.gz --markdown 20230421/m/moto/4.1.8.dev8-4.1.8.dev9/diff.md --exclude *.pyd
+[2023-04-21 19:12:40] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/aa/9e/8b1647b27b85844a0a0288a9ff8e99621b4e4c39498f47fc65c6318b16d6/pye2-0.4.0.tar.gz
+[2023-04-21 19:12:40] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.0b6] Old Version: [1.0.0b5]
+[2023-04-21 19:12:40] INFO root fetch - processPackages [cqlpy]: Downloading https://files.pythonhosted.org/packages/77/40/6a137a8924b9078559637ec1533261611a1ef9d0bcad7a860795a7e37f9d/cqlpy-0.2.1.tar.gz
+[2023-04-21 19:12:40] INFO root fetch - processPackages [deepview-rt]: Downloading https://files.pythonhosted.org/packages/a2/b0/93e905d02c7682d833c117247d1897f0bbc34b8b9eddcbfc3f596f0bb395/deepview_rt-2.4.73-py3-none-any.whl
+[2023-04-21 19:12:40] INFO root fetch - processPackages [azureml-dataprep]: New version: [4.9.7] Old Version: [4.9.6]
+[2023-04-21 19:12:40] INFO root fetch - processPackages [ignf_gpf_api]: Downloading https://files.pythonhosted.org/packages/2c/5f/81c0ae131eabd3025588aba0d95a98dda48ddb6ae1b78361ea6bcaca4a12/ignf_gpf_api-0.1.7.tar.gz
+[2023-04-21 19:12:40] INFO root fetch - processPackages [jwst-mast-query]: Downloading https://files.pythonhosted.org/packages/83/a3/03e9dfe0d7bfd4cf73732138318752a33d3c8ba11ce557dd6e270301cee4/jwst_mast_query-0.0.2.tar.gz
+[2023-04-21 19:12:40] INFO root fetch - processPackages [GPy]: Downloading https://files.pythonhosted.org/packages/80/54/3a9ed4cd3a30e9e76adac11c658faca0c95499d1e995edfd1b0b6dbe0a40/GPy-1.9.8.win-amd64-py3.7.exe
+[2023-04-21 19:12:40] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2023-04-21 19:12:40] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.3.8.tar.gz tmp/pye2-0.4.0.tar.gz --markdown 20230421/P/PyE2/0.3.8-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 19:12:40] INFO root fetch - processPackages [cqlpy]: executing diffoscope
+[2023-04-21 19:12:40] INFO root fetch - processPackages [cqlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqlpy-0.2.0.tar.gz tmp/cqlpy-0.2.1.tar.gz --markdown 20230421/c/cqlpy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 19:12:40] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/91/10/1debbccfec4325d70289c40043c3e60ac9b75a287639c56a2044f914217b/pypcapkit-1.0.0b5.tar.gz
+[2023-04-21 19:12:40] INFO root fetch - processPackages [azureml-dataprep]: Downloading https://files.pythonhosted.org/packages/15/14/eda431e84d48f89e3474c6cdedace69e7bb15c9e9ef73c4d0714fe1ad78d/azureml_dataprep-4.9.6-py3-none-any.whl
+[2023-04-21 19:12:40] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-04-21 19:12:40] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230421/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-21 19:12:40] INFO root fetch - processPackages [deepview-rt]: Downloading https://files.pythonhosted.org/packages/42/64/d2d904f64f8368fa44920c04e14def9c7ead2962c67120c149fa81443d7b/deepview_rt-2.4.74-py3-none-any.whl
+[2023-04-21 19:12:40] WARNING root fetch - processPackages [azureml-dataprep]: Skipping package: exceeds size limit 38445808>=10485760
+[2023-04-21 19:12:40] INFO root fetch - processPackages [azureml-dataprep]: Start processing: td-ml-autosegmentation
+[2023-04-21 19:12:40] INFO root fetch - main [MainThread]: End processing [azureml-dataprep] error
+[2023-04-21 19:12:40] INFO root fetch - processPackages [td-ml-autosegmentation]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-21 19:12:40] INFO root fetch - processPackages [jwst-mast-query]: Downloading https://files.pythonhosted.org/packages/4b/a5/01ba8622211593f4334726d08e4b8ca61b3642845bba4c4e416555ab341d/jwst_mast_query-0.0.3.tar.gz
+[2023-04-21 19:12:40] INFO root fetch - processPackages [deepview-rt]: executing diffoscope
+[2023-04-21 19:12:40] INFO root fetch - processPackages [deepview-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_rt-2.4.73-py3-none-any.whl.zip tmp/deepview_rt-2.4.74-py3-none-any.whl.zip --markdown 20230421/d/deepview-rt/2.4.73-2.4.74/diff.md --exclude *.pyd
+[2023-04-21 19:12:40] INFO root fetch - processPackages [td-ml-autosegmentation]: Downloading https://files.pythonhosted.org/packages/10/db/768ead3c0f53a39c48fa90df24f2db010f6ceaeefa13b2e5c9f1afa8518e/td_ml_autosegmentation-1.0.7.tar.gz
+[2023-04-21 19:12:40] INFO root fetch - processPackages [jwst-mast-query]: executing diffoscope
+[2023-04-21 19:12:40] INFO root fetch - processPackages [jwst-mast-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwst_mast_query-0.0.2.tar.gz tmp/jwst_mast_query-0.0.3.tar.gz --markdown 20230421/j/jwst-mast-query/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 19:12:40] INFO root fetch - processPackages [ignf_gpf_api]: Downloading https://files.pythonhosted.org/packages/be/23/0023d811927403ac054e24f73aca2f3cc07d717770a94b4770dfe960be74/ignf_gpf_api-0.1.8.tar.gz
+[2023-04-21 19:12:40] INFO root fetch - processPackages [GPy]: Downloading https://files.pythonhosted.org/packages/3e/a7/78d5ab044e88a9de1f59dfb5cde26d7466a695e85cf56fe9532ac3a536df/GPy-1.9.9.win-amd64-py3.7.exe
+[2023-04-21 19:12:40] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/6e/9b/6ea742a92e2d3b15adaef61ecc0c6aebb997052ce8ab3b7c0b8e6ddb5dc3/pypcapkit-1.0.0b6.tar.gz
+[2023-04-21 19:12:40] INFO root fetch - processPackages [td-ml-autosegmentation]: Downloading https://files.pythonhosted.org/packages/44/1d/14fdda68e0f6ad66e956f741065ed793de0cfb94ff54f16d02d422b5f5f9/td_ml_autosegmentation-1.0.8.tar.gz
+[2023-04-21 19:12:41] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-04-21 19:12:41] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.0b5.tar.gz tmp/pypcapkit-1.0.0b6.tar.gz --markdown 20230421/p/pypcapkit/1.0.0b5-1.0.0b6/diff.md --exclude *.pyd
+[2023-04-21 19:12:41] INFO root fetch - processPackages [GPy]: executing diffoscope
+[2023-04-21 19:12:41] INFO root fetch - processPackages [GPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPy-1.9.8.win-amd64-py3.7.exe tmp/GPy-1.9.9.win-amd64-py3.7.exe --markdown 20230421/G/GPy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-21 19:12:41] INFO root fetch - processPackages [td-ml-autosegmentation]: executing diffoscope
+[2023-04-21 19:12:41] INFO root fetch - processPackages [td-ml-autosegmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/td_ml_autosegmentation-1.0.7.tar.gz tmp/td_ml_autosegmentation-1.0.8.tar.gz --markdown 20230421/t/td-ml-autosegmentation/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-21 19:12:41] INFO root fetch - processPackages [ignf_gpf_api]: executing diffoscope
+[2023-04-21 19:12:41] INFO root fetch - processPackages [ignf_gpf_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignf_gpf_api-0.1.7.tar.gz tmp/ignf_gpf_api-0.1.8.tar.gz --markdown 20230421/i/ignf_gpf_api/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-21 19:12:41] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2023-04-21 19:12:42] INFO root fetch - main [MainThread]: End processing [cqlpy]: success
+[2023-04-21 19:12:42] INFO root fetch - main [MainThread]: End processing [deepview-rt]: success
+[2023-04-21 19:12:42] INFO root fetch - main [MainThread]: End processing [td-ml-autosegmentation]: success
+[2023-04-21 19:12:43] INFO root fetch - main [MainThread]: End processing [jwst-mast-query]: success
+[2023-04-21 19:12:44] INFO root fetch - main [MainThread]: End processing [ignf_gpf_api]: success
+[2023-04-21 19:12:45] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-04-21 19:12:46] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-04-21 19:12:47] INFO root fetch - main [MainThread]: End processing [GPy]: success
+[2023-04-21 19:13:14] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-21 19:13:14] INFO root fetch - main [MainThread]: Store serial: [17806383]
