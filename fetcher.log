@@ -19423,3 +19423,55 @@ EOFError: EOF read where object expected
 [2023-04-21 18:56:51] INFO root fetch - main [MainThread]: End processing [coderedcms]: success
 [2023-04-21 18:56:53] INFO root fetch - main [MainThread]: End processing [pgeng]: success
 [2023-04-21 18:56:53] INFO root fetch - main [MainThread]: Store serial: [17806250]
+[2023-04-21 19:01:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806250]
+[2023-04-21 19:02:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Montreal-Forced-Aligner
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipcryptographylibraryV2
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycyclops
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ValiotWorker
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipcolouringslibV1
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipcryptographylibV1
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: haystack-translate-node
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: haystack-lemmatize-node
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inmanta-dev-dependencies
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: preemo-worker-sdk
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ValiotWorker]: New version: [5.3.1] Old Version: [5.3.0]
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ValiotWorker]: executing diffoscope
+[2023-04-21 19:02:02] INFO root fetch - processPackages [ValiotWorker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ValiotWorker-5.3.0.tar.gz tmp/ValiotWorker-5.3.1.tar.gz --markdown 20230421/V/ValiotWorker/5.3.0-5.3.1/diff.md --exclude *.pyd
+[2023-04-21 19:02:02] INFO root fetch - processPackages [Montreal-Forced-Aligner]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-21 19:02:02] WARNING root fetch - processPackages [pipcryptographylibV1]: Skipping, unable to determine old version
+[2023-04-21 19:02:02] INFO root fetch - processPackages [pipcryptographylibV1]: Start processing: prettyqt
+[2023-04-21 19:02:02] INFO root fetch - main [MainThread]: End processing [pipcryptographylibV1] error
+[2023-04-21 19:02:02] WARNING root fetch - processPackages [pipcolouringslibV1]: Skipping, unable to determine old version
+[2023-04-21 19:02:02] WARNING root fetch - processPackages [pipcryptographylibraryV2]: Skipping, unable to determine old version
+[2023-04-21 19:02:02] INFO root fetch - main [MainThread]: End processing [pipcolouringslibV1] error
+[2023-04-21 19:02:02] INFO root fetch - processPackages [pycyclops]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 19:02:02] WARNING root fetch - processPackages [haystack-translate-node]: Skipping, unable to determine old version
+[2023-04-21 19:02:02] WARNING root fetch - processPackages [haystack-lemmatize-node]: Skipping, unable to determine old version
+[2023-04-21 19:02:02] INFO root fetch - main [MainThread]: End processing [pipcryptographylibraryV2] error
+[2023-04-21 19:02:02] INFO root fetch - processPackages [preemo-worker-sdk]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-21 19:02:02] INFO root fetch - main [MainThread]: End processing [haystack-translate-node] error
+[2023-04-21 19:02:02] INFO root fetch - main [MainThread]: End processing [haystack-lemmatize-node] error
+[2023-04-21 19:02:02] INFO root fetch - processPackages [inmanta-dev-dependencies]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-21 19:02:02] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-21 19:02:03] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-04-21 19:02:03] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230421/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-21 19:02:03] INFO root fetch - processPackages [Montreal-Forced-Aligner]: Downloading https://files.pythonhosted.org/packages/81/03/170711034ac23beefb266c5d631c12c137814c2647cdda2f9040a83de5dd/Montreal%20Forced%20Aligner-2.2.8.tar.gz
+[2023-04-21 19:02:03] INFO root fetch - processPackages [inmanta-dev-dependencies]: Downloading https://files.pythonhosted.org/packages/a7/46/214378646a99a91221dc71abb67439f6a0c0215cd3c41aaada2a93fe0511/inmanta-dev-dependencies-2.8.0.tar.gz
+[2023-04-21 19:02:03] INFO root fetch - processPackages [preemo-worker-sdk]: Downloading https://files.pythonhosted.org/packages/98/24/2cc91d8f706c3e977c843defa108e72c8bdd222ba7cf585d3d4c372a4d84/preemo_worker_sdk-0.3.0.tar.gz
+[2023-04-21 19:02:03] WARNING root fetch - processPackages [Montreal-Forced-Aligner]: Skipping package: exceeds size limit 19085184>=10485760
+[2023-04-21 19:02:03] INFO root fetch - main [MainThread]: End processing [Montreal-Forced-Aligner] error
+[2023-04-21 19:02:03] INFO root fetch - processPackages [pycyclops]: executing diffoscope
+[2023-04-21 19:02:03] INFO root fetch - processPackages [pycyclops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycyclops-0.1.8.tar.gz tmp/pycyclops-0.1.9.tar.gz --markdown 20230421/p/pycyclops/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 19:02:03] INFO root fetch - processPackages [preemo-worker-sdk]: Downloading https://files.pythonhosted.org/packages/08/ec/724564ff393ab4ef46f2051a8ac7d2f90b40f5f6023e0c38d443d974c735/preemo_worker_sdk-0.4.0.tar.gz
+[2023-04-21 19:02:03] INFO root fetch - processPackages [inmanta-dev-dependencies]: Downloading https://files.pythonhosted.org/packages/6e/d6/4b81b4f539003cb2b65af1a32f5a66e6362d70ee9e7920c96cd4a868671f/inmanta-dev-dependencies-2.9.0.tar.gz
+[2023-04-21 19:02:03] INFO root fetch - processPackages [preemo-worker-sdk]: executing diffoscope
+[2023-04-21 19:02:03] INFO root fetch - processPackages [preemo-worker-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preemo_worker_sdk-0.3.0.tar.gz tmp/preemo_worker_sdk-0.4.0.tar.gz --markdown 20230421/p/preemo-worker-sdk/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 19:02:03] INFO root fetch - processPackages [inmanta-dev-dependencies]: executing diffoscope
+[2023-04-21 19:02:03] INFO root fetch - processPackages [inmanta-dev-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-dev-dependencies-2.8.0.tar.gz tmp/inmanta-dev-dependencies-2.9.0.tar.gz --markdown 20230421/i/inmanta-dev-dependencies/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-21 19:02:04] INFO root fetch - main [MainThread]: End processing [ValiotWorker]: success
+[2023-04-21 19:02:04] INFO root fetch - main [MainThread]: End processing [inmanta-dev-dependencies]: success
+[2023-04-21 19:02:05] INFO root fetch - main [MainThread]: End processing [preemo-worker-sdk]: success
+[2023-04-21 19:02:05] INFO root fetch - main [MainThread]: End processing [pycyclops]: success
+[2023-04-21 19:02:10] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-04-21 19:02:10] INFO root fetch - main [MainThread]: Store serial: [17806299]
