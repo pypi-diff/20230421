@@ -6726,3 +6726,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 04:38:46] INFO root fetch - main [MainThread]: End processing [itkwasm]: success
 [2023-04-21 04:38:47] INFO root fetch - main [MainThread]: End processing [py-animus]: success
 [2023-04-21 04:38:47] INFO root fetch - main [MainThread]: Store serial: [17798407]
+[2023-04-21 04:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798407]
+[2023-04-21 04:43:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 04:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-mq-connector
+[2023-04-21 04:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RiskQuantLib
+[2023-04-21 04:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plover-palantype-DE
+[2023-04-21 04:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-gpt-plugin-template
+[2023-04-21 04:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dtproject
+[2023-04-21 04:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agpt-plugin-template
+[2023-04-21 04:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FunctionStoredController
+[2023-04-21 04:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: evilvars
+[2023-04-21 04:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: duckietown-shell
+[2023-04-21 04:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AStared
+[2023-04-21 04:43:55] WARNING root fetch - processPackages [agpt-plugin-template]: Skipping, unable to determine old version
+[2023-04-21 04:43:55] INFO root fetch - processPackages [agpt-plugin-template]: Start processing: gama-config
+[2023-04-21 04:43:55] INFO root fetch - main [MainThread]: End processing [agpt-plugin-template] error
+[2023-04-21 04:43:55] INFO root fetch - processPackages [neon-mq-connector]: New version: [0.6.1a3] Old Version: [0.6.1a2]
+[2023-04-21 04:43:55] INFO root fetch - processPackages [plover-palantype-DE]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-21 04:43:55] INFO root fetch - processPackages [duckietown-shell]: New version: [5.5.4] Old Version: [5.5.3]
+[2023-04-21 04:43:55] INFO root fetch - processPackages [auto-gpt-plugin-template]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 04:43:55] INFO root fetch - processPackages [dtproject]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 04:43:55] WARNING root fetch - processPackages [evilvars]: Skipping, unable to determine old version
+[2023-04-21 04:43:55] INFO root fetch - processPackages [RiskQuantLib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 04:43:55] INFO root fetch - processPackages [evilvars]: Start processing: gama-cli
+[2023-04-21 04:43:55] INFO root fetch - main [MainThread]: End processing [evilvars] error
+[2023-04-21 04:43:55] INFO root fetch - processPackages [FunctionStoredController]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 04:43:56] WARNING root fetch - processPackages [AStared]: Skipping, unable to determine old version
+[2023-04-21 04:43:56] INFO root fetch - main [MainThread]: End processing [AStared] error
+[2023-04-21 04:43:56] INFO root fetch - processPackages [gama-config]: New version: [1.9.0] Old Version: [1.11.0]
+[2023-04-21 04:43:56] INFO root fetch - processPackages [RiskQuantLib]: executing diffoscope
+[2023-04-21 04:43:56] INFO root fetch - processPackages [RiskQuantLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskQuantLib-0.2.8.tar.gz tmp/RiskQuantLib-0.2.9.tar.gz --markdown 20230421/R/RiskQuantLib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 04:43:56] INFO root fetch - processPackages [neon-mq-connector]: Downloading https://files.pythonhosted.org/packages/65/a8/e8c1cf768187f85399306cb4434923da7ef3686f9c0ac11486e472812192/neon_mq_connector-0.6.1a3-py3-none-any.whl
+[2023-04-21 04:43:56] INFO root fetch - processPackages [gama-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-21 04:43:56] INFO root fetch - processPackages [plover-palantype-DE]: Downloading https://files.pythonhosted.org/packages/43/7a/50b17b308e13e4bdc63479b5bec38d2df4bb9ce85b970545a0f34eeb811e/plover_palantype_DE-1.0.1.tar.gz
+[2023-04-21 04:43:56] INFO root fetch - processPackages [FunctionStoredController]: Downloading https://files.pythonhosted.org/packages/68/46/3177d193af9b78687ea4dec90783fb7c44683ae965807a3b6219673db26a/FunctionStoredController-0.0.9.tar.gz
+[2023-04-21 04:43:56] INFO root fetch - processPackages [duckietown-shell]: Downloading https://files.pythonhosted.org/packages/f9/13/ed4e92858a96e19ec9fc0839b023d5f5fc2cb64149ef928251c005289b94/duckietown-shell-5.5.4.tar.gz
+[2023-04-21 04:43:56] INFO root fetch - processPackages [dtproject]: Downloading https://files.pythonhosted.org/packages/e9/ca/c00b32cdf2f80a9101677e512e81ed2608df6f64f3ba896858e1e71a9c78/dtproject-0.0.1.tar.gz
+[2023-04-21 04:43:56] INFO root fetch - processPackages [gama-config]: Downloading https://files.pythonhosted.org/packages/db/14/5e6e6de3a9b86afb413b99a9cc911a0dc10b55450c0cb3750cfdf2bfafbd/gama_config-1.11.0.tar.gz
+[2023-04-21 04:43:56] INFO root fetch - processPackages [auto-gpt-plugin-template]: Downloading https://files.pythonhosted.org/packages/da/e1/ee1b2f972ad0b353a7b4c319d312b415ba46fc1b31a1c43432307b62ce13/auto_gpt_plugin_template-0.0.3.tar.gz
+[2023-04-21 04:43:56] INFO root fetch - processPackages [neon-mq-connector]: executing diffoscope
+[2023-04-21 04:43:56] INFO root fetch - processPackages [neon-mq-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mq_connector-0.6.1a2-py3-none-any.whl.zip tmp/neon_mq_connector-0.6.1a3-py3-none-any.whl.zip --markdown 20230421/n/neon-mq-connector/0.6.1a2-0.6.1a3/diff.md --exclude *.pyd
+[2023-04-21 04:43:56] INFO root fetch - processPackages [FunctionStoredController]: executing diffoscope
+[2023-04-21 04:43:56] INFO root fetch - processPackages [FunctionStoredController]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FunctionStoredController-0.0.8.tar.gz tmp/FunctionStoredController-0.0.9.tar.gz --markdown 20230421/F/FunctionStoredController/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 04:43:56] INFO root fetch - processPackages [duckietown-shell]: executing diffoscope
+[2023-04-21 04:43:56] INFO root fetch - processPackages [duckietown-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckietown-shell-5.5.3.tar.gz tmp/duckietown-shell-5.5.4.tar.gz --markdown 20230421/d/duckietown-shell/5.5.3-5.5.4/diff.md --exclude *.pyd
+[2023-04-21 04:43:56] INFO root fetch - processPackages [plover-palantype-DE]: Downloading https://files.pythonhosted.org/packages/e4/0f/e4577eb2092c0c6131bf93562c30a3658ffa1a625c2428e07ed1fd4fa9e3/plover_palantype_DE-1.1.0.tar.gz
+[2023-04-21 04:43:56] INFO root fetch - processPackages [dtproject]: Downloading https://files.pythonhosted.org/packages/50/e8/bf87beb8b7f97cb4e27300d5d7c3a6ec5eab3dd86a1ec102e57896ce8d17/dtproject-0.0.2.tar.gz
+[2023-04-21 04:43:56] INFO root fetch - processPackages [gama-cli]: executing diffoscope
+[2023-04-21 04:43:56] INFO root fetch - processPackages [gama-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_cli-1.8.0.tar.gz tmp/gama_cli-1.9.0.tar.gz --markdown 20230421/g/gama-cli/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 04:43:56] WARNING root fetch - processPackages [plover-palantype-DE]: Skipping package: exceeds size limit 60349859>=10485760
+[2023-04-21 04:43:56] INFO root fetch - main [MainThread]: End processing [plover-palantype-DE] error
+[2023-04-21 04:43:56] INFO root fetch - processPackages [auto-gpt-plugin-template]: executing diffoscope
+[2023-04-21 04:43:56] INFO root fetch - processPackages [auto-gpt-plugin-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_gpt_plugin_template-0.0.2.tar.gz tmp/auto_gpt_plugin_template-0.0.3.tar.gz --markdown 20230421/a/auto-gpt-plugin-template/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 04:43:56] INFO root fetch - processPackages [dtproject]: executing diffoscope
+[2023-04-21 04:43:56] INFO root fetch - processPackages [dtproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtproject-0.0.1.tar.gz tmp/dtproject-0.0.2.tar.gz --markdown 20230421/d/dtproject/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 04:43:56] INFO root fetch - processPackages [gama-config]: executing diffoscope
+[2023-04-21 04:43:56] INFO root fetch - processPackages [gama-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_config-1.11.0.tar.gz tmp/gama_config-1.9.0.tar.gz --markdown 20230421/g/gama-config/1.11.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 04:43:57] INFO root fetch - main [MainThread]: End processing [RiskQuantLib]: success
+[2023-04-21 04:43:57] INFO root fetch - main [MainThread]: End processing [neon-mq-connector]: success
+[2023-04-21 04:43:57] INFO root fetch - main [MainThread]: End processing [FunctionStoredController]: success
+[2023-04-21 04:43:57] INFO root fetch - main [MainThread]: End processing [duckietown-shell]: success
+[2023-04-21 04:43:58] INFO root fetch - main [MainThread]: End processing [gama-config]: success
+[2023-04-21 04:43:58] INFO root fetch - main [MainThread]: End processing [auto-gpt-plugin-template]: success
+[2023-04-21 04:43:58] INFO root fetch - main [MainThread]: End processing [dtproject]: success
+[2023-04-21 04:43:58] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
+[2023-04-21 04:43:58] INFO root fetch - main [MainThread]: Store serial: [17798444]
