@@ -19885,3 +19885,44 @@ EOFError: EOF read where object expected
 [2023-04-21 19:29:08] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
 [2023-04-21 19:29:09] INFO root fetch - main [MainThread]: End processing [alcf]: success
 [2023-04-21 19:29:09] INFO root fetch - main [MainThread]: Store serial: [17806559]
+[2023-04-21 19:34:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806559]
+[2023-04-21 19:34:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypcapkit
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: endaq-device
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sunshine-conversations-client
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-messagebus
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plixkws
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spark-sql-to-sqlite
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mpxj
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: image-to-arduino-od
+[2023-04-21 19:34:18] INFO root fetch - processPackages [endaq-device]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-21 19:34:18] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.0b7] Old Version: [1.0.0b6]
+[2023-04-21 19:34:18] WARNING root fetch - processPackages [spark-sql-to-sqlite]: Skipping, unable to determine old version
+[2023-04-21 19:34:18] INFO root fetch - main [MainThread]: End processing [spark-sql-to-sqlite] error
+[2023-04-21 19:34:18] INFO root fetch - processPackages [mpxj]: New version: [9.8.3] Old Version: [9.8.2]
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ovos-messagebus]: New version: [0.0.2a6] Old Version: [0.0.2a5]
+[2023-04-21 19:34:18] WARNING root fetch - processPackages [image-to-arduino-od]: Skipping, unable to determine old version
+[2023-04-21 19:34:18] INFO root fetch - main [MainThread]: End processing [image-to-arduino-od] error
+[2023-04-21 19:34:18] WARNING root fetch - processPackages [plixkws]: Skipping, unable to determine old version
+[2023-04-21 19:34:18] INFO root fetch - main [MainThread]: End processing [plixkws] error
+[2023-04-21 19:34:18] INFO root fetch - processPackages [sunshine-conversations-client]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-04-21 19:34:18] INFO root fetch - processPackages [endaq-device]: executing diffoscope
+[2023-04-21 19:34:18] INFO root fetch - processPackages [endaq-device]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endaq_device-1.0.3-py3-none-any.whl.zip tmp/endaq_device-1.0.4-py3-none-any.whl.zip --markdown 20230421/e/endaq-device/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-21 19:34:18] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-04-21 19:34:18] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.0b6.tar.gz tmp/pypcapkit-1.0.0b7.tar.gz --markdown 20230421/p/pypcapkit/1.0.0b6-1.0.0b7/diff.md --exclude *.pyd
+[2023-04-21 19:34:18] INFO root fetch - processPackages [mpxj]: Downloading https://files.pythonhosted.org/packages/39/d0/4e44b7920417d0090990177f4d89ad7335ca83c0adef231d736a31b223c5/mpxj-9.8.2.tar.gz
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ovos-messagebus]: Downloading https://files.pythonhosted.org/packages/22/ed/59d5ddc592970e0cc1e8bb35a91492b45875ce64e15d0218e033a6559c73/ovos_messagebus-0.0.2a5-py3-none-any.whl
+[2023-04-21 19:34:18] INFO root fetch - processPackages [sunshine-conversations-client]: Downloading https://files.pythonhosted.org/packages/61/c7/2871c4f2df4cf343c5705fdb0474bb89db2b223ab69d23b535de23943543/sunshine-conversations-client-9.8.0.tar.gz
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ovos-messagebus]: Downloading https://files.pythonhosted.org/packages/c0/6e/bb14e76a8769ae85ee9f5264a7ea538d780d64ff53893c6a0e85b477ad9f/ovos_messagebus-0.0.2a6-py3-none-any.whl
+[2023-04-21 19:34:18] INFO root fetch - processPackages [sunshine-conversations-client]: Downloading https://files.pythonhosted.org/packages/f6/a5/16b9cb031501aa8ef9c015741dfcd739d45c9a2390b5b9b9a343d5227eb0/sunshine-conversations-client-9.9.0.tar.gz
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ovos-messagebus]: executing diffoscope
+[2023-04-21 19:34:18] INFO root fetch - processPackages [ovos-messagebus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_messagebus-0.0.2a5-py3-none-any.whl.zip tmp/ovos_messagebus-0.0.2a6-py3-none-any.whl.zip --markdown 20230421/o/ovos-messagebus/0.0.2a5-0.0.2a6/diff.md --exclude *.pyd
+[2023-04-21 19:34:18] WARNING root fetch - processPackages [mpxj]: Skipping package: exceeds size limit 16838188>=10485760
+[2023-04-21 19:34:18] INFO root fetch - main [MainThread]: End processing [mpxj] error
+[2023-04-21 19:34:18] INFO root fetch - processPackages [sunshine-conversations-client]: executing diffoscope
+[2023-04-21 19:34:18] INFO root fetch - processPackages [sunshine-conversations-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunshine-conversations-client-9.8.0.tar.gz tmp/sunshine-conversations-client-9.9.0.tar.gz --markdown 20230421/s/sunshine-conversations-client/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-04-21 19:34:19] INFO root fetch - main [MainThread]: End processing [endaq-device]: success
+[2023-04-21 19:34:20] INFO root fetch - main [MainThread]: End processing [ovos-messagebus]: success
+[2023-04-21 19:34:22] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-04-21 19:34:26] INFO root fetch - main [MainThread]: End processing [sunshine-conversations-client]: success
+[2023-04-21 19:34:26] INFO root fetch - main [MainThread]: Store serial: [17806589]
