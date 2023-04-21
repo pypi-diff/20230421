@@ -23179,3 +23179,68 @@ EOFError: EOF read where object expected
 [2023-04-21 22:41:40] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2023-04-21 22:42:02] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
 [2023-04-21 22:42:02] INFO root fetch - main [MainThread]: Store serial: [17808580]
+[2023-04-21 22:47:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808580]
+[2023-04-21 22:47:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-vss
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-vss
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-backend-client
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinysearch
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roboformer
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: librus-apix
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: liftcord
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydwrap
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nebari-workflow-controller
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fieldedge-utilities
+[2023-04-21 22:47:11] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.0.4a7] Old Version: [0.0.4a6]
+[2023-04-21 22:47:11] INFO root fetch - processPackages [sqlite-vss]: New version: [0.0.4a7] Old Version: [0.0.4a6]
+[2023-04-21 22:47:11] WARNING root fetch - processPackages [tinysearch]: Skipping, unable to determine old version
+[2023-04-21 22:47:11] WARNING root fetch - processPackages [nebari-workflow-controller]: Skipping, unable to determine old version
+[2023-04-21 22:47:11] INFO root fetch - processPackages [tinysearch]: Start processing: cakemail
+[2023-04-21 22:47:11] INFO root fetch - processPackages [nebari-workflow-controller]: Start processing: wds-client
+[2023-04-21 22:47:11] INFO root fetch - main [MainThread]: End processing [tinysearch] error
+[2023-04-21 22:47:11] INFO root fetch - main [MainThread]: End processing [nebari-workflow-controller] error
+[2023-04-21 22:47:11] INFO root fetch - processPackages [liftcord]: New version: [7.1] Old Version: [2.3.0a0]
+[2023-04-21 22:47:11] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-21 22:47:11] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 22:47:11] INFO root fetch - processPackages [librus-apix]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ovos-backend-client]: New version: [0.0.7a3] Old Version: [0.0.7a2]
+[2023-04-21 22:47:11] WARNING root fetch - processPackages [roboformer]: Skipping, unable to determine old version
+[2023-04-21 22:47:11] INFO root fetch - main [MainThread]: End processing [roboformer] error
+[2023-04-21 22:47:11] INFO root fetch - processPackages [pydwrap]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-04-21 22:47:11] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-04-21 22:47:11] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230421/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-21 22:47:11] INFO root fetch - processPackages [cakemail]: New version: [1.9.0] Old Version: [1.6.4]
+[2023-04-21 22:47:11] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-04-21 22:47:11] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.7.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230421/w/wds-client/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 22:47:11] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/1b/7f/44e3d71ec7876779c7bc965e3cdc5b407b60f0af21ea8d38710f6e141140/datasette_sqlite_vss-0.0.4a7-py3-none-any.whl
+[2023-04-21 22:47:11] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/39/4b/a5ffee16d87f89be95f1995f6b74e85d6423a74503d0a2366e58f2c53b3a/sqlite_vss-0.0.4a7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ovos-backend-client]: Downloading https://files.pythonhosted.org/packages/c3/fb/8e52bc8e44181935acbee02fb4a7d6ca068adc2142494b7f949a5ed8c789/ovos-backend-client-0.0.7a2.tar.gz
+[2023-04-21 22:47:11] INFO root fetch - processPackages [liftcord]: Downloading https://files.pythonhosted.org/packages/f2/20/26b6bfa81b8b8723e727895346830b37ac3a0f779aa4aeb8695ba039da09/liftcord-7.1.tar.gz
+[2023-04-21 22:47:11] INFO root fetch - processPackages [pydwrap]: Downloading https://files.pythonhosted.org/packages/9a/4f/be7d6566fc17c393e03a015a0b68775d291623c3ad21bd7ad111a999d1d3/pydwrap-0.5.7.tar.gz
+[2023-04-21 22:47:11] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-04-21 22:47:11] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.0.4a6-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.0.4a7-py3-none-any.whl.zip --markdown 20230421/d/datasette-sqlite-vss/0.0.4a6-0.0.4a7/diff.md --exclude *.pyd
+[2023-04-21 22:47:11] INFO root fetch - processPackages [liftcord]: executing diffoscope
+[2023-04-21 22:47:11] INFO root fetch - processPackages [liftcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liftcord-2.3.0a0.tar.gz tmp/liftcord-7.1.tar.gz --markdown 20230421/l/liftcord/2.3.0a0-7.1/diff.md --exclude *.pyd
+[2023-04-21 22:47:11] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-04-21 22:47:11] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.0.4a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.0.4a7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230421/s/sqlite-vss/0.0.4a6-0.0.4a7/diff.md --exclude *.pyd
+[2023-04-21 22:47:11] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/60/e5/b5121d70bd0d4b587dcf84e5950c7aefc539ecb8c79b9fabd8bd1baa002b/librus_apix-0.3.0.tar.gz
+[2023-04-21 22:47:11] INFO root fetch - processPackages [pydwrap]: Downloading https://files.pythonhosted.org/packages/87/0a/7f64e402c87e4849b6d37974ce22d09d9a6525099fd620e4544449db59f7/pydwrap-0.5.8.tar.gz
+[2023-04-21 22:47:11] INFO root fetch - processPackages [cakemail]: executing diffoscope
+[2023-04-21 22:47:11] INFO root fetch - processPackages [cakemail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cakemail-1.6.4.tar.gz tmp/cakemail-1.9.0.tar.gz --markdown 20230421/c/cakemail/1.6.4-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ovos-backend-client]: Downloading https://files.pythonhosted.org/packages/74/f5/775938e73a15a871bdff933f050ca068d3a275ae717b1e088aa3ce524925/ovos-backend-client-0.0.7a3.tar.gz
+[2023-04-21 22:47:11] INFO root fetch - processPackages [librus-apix]: executing diffoscope
+[2023-04-21 22:47:11] INFO root fetch - processPackages [librus-apix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librus_apix-0.2.6.tar.gz tmp/librus_apix-0.3.0.tar.gz --markdown 20230421/l/librus-apix/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-04-21 22:47:11] INFO root fetch - processPackages [pydwrap]: executing diffoscope
+[2023-04-21 22:47:11] INFO root fetch - processPackages [pydwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwrap-0.5.7.tar.gz tmp/pydwrap-0.5.8.tar.gz --markdown 20230421/p/pydwrap/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ovos-backend-client]: executing diffoscope
+[2023-04-21 22:47:11] INFO root fetch - processPackages [ovos-backend-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-backend-client-0.0.7a2.tar.gz tmp/ovos-backend-client-0.0.7a3.tar.gz --markdown 20230421/o/ovos-backend-client/0.0.7a2-0.0.7a3/diff.md --exclude *.pyd
+[2023-04-21 22:47:12] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-04-21 22:47:12] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-04-21 22:47:13] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-04-21 22:47:13] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
+[2023-04-21 22:47:13] INFO root fetch - main [MainThread]: End processing [ovos-backend-client]: success
+[2023-04-21 22:47:13] INFO root fetch - main [MainThread]: End processing [pydwrap]: success
+[2023-04-21 22:47:13] INFO root fetch - main [MainThread]: End processing [cakemail]: success
+[2023-04-21 22:47:15] INFO root fetch - main [MainThread]: End processing [liftcord]: success
+[2023-04-21 22:47:51] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-04-21 22:47:51] INFO root fetch - main [MainThread]: Store serial: [17808623]
