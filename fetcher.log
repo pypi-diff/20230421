@@ -14077,3 +14077,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 14:04:56] INFO root fetch - main [MainThread]: End processing [longbridge]: success
 [2023-04-21 14:04:56] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-04-21 14:04:56] INFO root fetch - main [MainThread]: Store serial: [17802694]
+[2023-04-21 14:10:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802694]
+[2023-04-21 14:10:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-21 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ceedeetest
+[2023-04-21 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: srmd-ncnn-py
+[2023-04-21 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geometron
+[2023-04-21 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: net-van
+[2023-04-21 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zou
+[2023-04-21 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metal-python
+[2023-04-21 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: balena-sdk
+[2023-04-21 14:10:05] WARNING root fetch - processPackages [ceedeetest]: Skipping, unable to determine old version
+[2023-04-21 14:10:05] INFO root fetch - main [MainThread]: End processing [ceedeetest] error
+[2023-04-21 14:10:05] WARNING root fetch - processPackages [srmd-ncnn-py]: Skipping, unable to determine old version
+[2023-04-21 14:10:05] INFO root fetch - main [MainThread]: End processing [srmd-ncnn-py] error
+[2023-04-21 14:10:05] INFO root fetch - processPackages [balena-sdk]: New version: [9.5.0] Old Version: [9.4.1]
+[2023-04-21 14:10:05] WARNING root fetch - processPackages [net-van]: Skipping, unable to determine old version
+[2023-04-21 14:10:05] INFO root fetch - main [MainThread]: End processing [net-van] error
+[2023-04-21 14:10:05] INFO root fetch - processPackages [geometron]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 14:10:05] INFO root fetch - processPackages [metal-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-21 14:10:05] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-21 14:10:06] INFO root fetch - processPackages [geometron]: Downloading https://files.pythonhosted.org/packages/f2/b4/aafa35863bb5f2beecbb93d6d9b13aa05d76cf18e0819e5e24eb02cf88b9/geometron-0.1.0-py3-none-any.whl
+[2023-04-21 14:10:06] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/da/87/ea7df78e12e58839edf84e22e55f4828fa269abd4eda5b854ca1a3f2ae3c/metal_python-0.9.4.tar.gz
+[2023-04-21 14:10:06] INFO root fetch - processPackages [balena-sdk]: executing diffoscope
+[2023-04-21 14:10:06] INFO root fetch - processPackages [balena-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balena-sdk-9.4.1.tar.gz tmp/balena-sdk-9.5.0.tar.gz --markdown 20230421/b/balena-sdk/9.4.1-9.5.0/diff.md --exclude *.pyd
+[2023-04-21 14:10:06] INFO root fetch - processPackages [zou]: executing diffoscope
+[2023-04-21 14:10:06] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20230421/z/zou/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 14:10:06] INFO root fetch - processPackages [geometron]: Downloading https://files.pythonhosted.org/packages/d9/4b/c20aa0bca15b6ae2e4ed3071a1a0bef8d26a9383c4e975e9eace06dcee9a/geometron-0.1.1-py3-none-any.whl
+[2023-04-21 14:10:06] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/d5/0e/f54a789448e772fa8f88c2a2f7da9e92cfc6a441cc42a238b2013db9901e/metal_python-0.9.5.tar.gz
+[2023-04-21 14:10:06] INFO root fetch - processPackages [geometron]: executing diffoscope
+[2023-04-21 14:10:06] INFO root fetch - processPackages [geometron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geometron-0.1.0-py3-none-any.whl.zip tmp/geometron-0.1.1-py3-none-any.whl.zip --markdown 20230421/g/geometron/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 14:10:06] INFO root fetch - processPackages [metal-python]: executing diffoscope
+[2023-04-21 14:10:06] INFO root fetch - processPackages [metal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_python-0.9.4.tar.gz tmp/metal_python-0.9.5.tar.gz --markdown 20230421/m/metal-python/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-21 14:10:07] INFO root fetch - main [MainThread]: End processing [balena-sdk]: success
+[2023-04-21 14:10:07] INFO root fetch - main [MainThread]: End processing [geometron]: success
+[2023-04-21 14:10:08] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2023-04-21 14:10:11] INFO root fetch - main [MainThread]: End processing [metal-python]: success
+[2023-04-21 14:10:11] INFO root fetch - main [MainThread]: Store serial: [17802732]
