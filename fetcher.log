@@ -14287,3 +14287,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 14:21:50] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-04-21 14:22:19] INFO root fetch - main [MainThread]: End processing [otlmow-model]: success
 [2023-04-21 14:22:19] INFO root fetch - main [MainThread]: Store serial: [17802840]
+[2023-04-21 14:27:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802840]
+[2023-04-21 14:27:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythia-uq
+[2023-04-21 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pentest-report-generator
+[2023-04-21 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-source-postgres
+[2023-04-21 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpggen
+[2023-04-21 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystacker
+[2023-04-21 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyopslib
+[2023-04-21 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandora
+[2023-04-21 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openpolicedata
+[2023-04-21 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-upsolver
+[2023-04-21 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kogi
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pystacker]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pythia-uq]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pentest-report-generator]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 14:27:28] INFO root fetch - processPackages [macrometa-source-postgres]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-04-21 14:27:28] INFO root fetch - processPackages [cpggen]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pystacker]: executing diffoscope
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pystacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystacker-1.0.2-py3-none-any.whl.zip tmp/pystacker-1.0.3.tar.gz --markdown 20230421/p/pystacker/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 14:27:28] INFO root fetch - processPackages [openpolicedata]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-21 14:27:28] INFO root fetch - processPackages [kogi]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-21 14:27:28] WARNING root fetch - processPackages [dbt-upsolver]: Skipping, unable to determine old version
+[2023-04-21 14:27:28] INFO root fetch - processPackages [dbt-upsolver]: Start processing: grimoire-elk
+[2023-04-21 14:27:28] INFO root fetch - main [MainThread]: End processing [dbt-upsolver] error
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pyopslib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pandora]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-21 14:27:28] INFO root fetch - processPackages [grimoire-elk]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pentest-report-generator]: Downloading https://files.pythonhosted.org/packages/e2/09/5673491d9f90c95050b9d5e6a7728fc9aad731ede7147bdc5218e7e0bce0/pentest_report_generator-0.1.5.tar.gz
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pythia-uq]: Downloading https://files.pythonhosted.org/packages/9b/50/f6dc9dbc388d2c8496cff9d6fed67ebb0dce8d182eb92ed0d7b8c20d2ee1/pythia-uq-3.0.1.tar.gz
+[2023-04-21 14:27:28] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/ec/e0/84896dd594e29253de20f60e18efffb8c45d8ada950675d9994024c63a7a/macrometa-source-postgres-0.0.45.tar.gz
+[2023-04-21 14:27:28] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2023-04-21 14:27:28] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire-elk-0.98.0.tar.gz tmp/grimoire-elk-0.99.0.tar.gz --markdown 20230421/g/grimoire-elk/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-21 14:27:28] INFO root fetch - processPackages [openpolicedata]: Downloading https://files.pythonhosted.org/packages/14/38/ee8be643f210d4fd93b15f3067f3cb003cd0f5468c4521db46676eb924f1/openpolicedata-0.5.1.tar.gz
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pandora]: Downloading https://files.pythonhosted.org/packages/fd/04/0b1c5539da8d8a34ae7b08a1c65a90554e529eac8dbcc7322a76f751a71f/pandora-1.4.0.tar.gz
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pyopslib]: Downloading https://files.pythonhosted.org/packages/94/37/f1b97cfc6533760e1351984f3bbeb517b5a9fe967ceda425d96692bf4fb2/pyopslib-0.0.2.tar.gz
+[2023-04-21 14:27:28] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/83/0e/2dc7b24426e82bf56d48c44410042c709c1b092b0cc2fa5ec1ca4a9c6fcd/cpggen-0.9.6.tar.gz
+[2023-04-21 14:27:28] WARNING root fetch - processPackages [pandora]: Skipping package: exceeds size limit 39694621>=10485760
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pandora]: Start processing: buteo
+[2023-04-21 14:27:28] INFO root fetch - main [MainThread]: End processing [pandora] error
+[2023-04-21 14:27:28] INFO root fetch - processPackages [kogi]: Downloading https://files.pythonhosted.org/packages/47/9f/b5cb1a0e639217ca256a53974095e55cf7fe40f4b7ab14e9cd2fbc4c8d61/kogi-0.4.4.tar.gz
+[2023-04-21 14:27:28] INFO root fetch - processPackages [buteo]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-21 14:27:28] INFO root fetch - processPackages [cpggen]: executing diffoscope
+[2023-04-21 14:27:28] INFO root fetch - processPackages [cpggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpggen-0.9.5.tar.gz tmp/cpggen-0.9.6.tar.gz --markdown 20230421/c/cpggen/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 14:27:28] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-04-21 14:27:28] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.8.8.tar.gz tmp/buteo-0.8.9.tar.gz --markdown 20230421/b/buteo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pyopslib]: Downloading https://files.pythonhosted.org/packages/f7/60/5214ca8e549e67c6a0ef5dc1e542fc8aa3235667e4cc4e1ccddf37b01888/pyopslib-0.0.3.tar.gz
+[2023-04-21 14:27:28] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/53/e2/537cffe255896665abc22ea7abc7c71514b4bf3ae6e1bccf83d7b26ab709/macrometa-source-postgres-0.0.46.tar.gz
+[2023-04-21 14:27:28] INFO root fetch - processPackages [pythia-uq]: Downloading https://files.pythonhosted.org/packages/a0/07/1986c2e82d86e415fc8f454e6d5290dd0030e9f4099f07016469b1525e92/pythia-uq-3.1.0.tar.gz
+[2023-04-21 14:27:28] INFO root fetch - processPackages [openpolicedata]: Downloading https://files.pythonhosted.org/packages/17/a2/e80e9c5209375410cdaac7cc1324799dd190eac2de7f5376927a39639210/openpolicedata-0.5.2.tar.gz
+[2023-04-21 14:27:28] INFO root fetch - processPackages [kogi]: executing diffoscope
+[2023-04-21 14:27:28] INFO root fetch - processPackages [kogi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kogi-0.4.3.tar.gz tmp/kogi-0.4.4.tar.gz --markdown 20230421/k/kogi/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-21 14:27:29] INFO root fetch - processPackages [pyopslib]: executing diffoscope
+[2023-04-21 14:27:29] INFO root fetch - processPackages [pyopslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopslib-0.0.2.tar.gz tmp/pyopslib-0.0.3.tar.gz --markdown 20230421/p/pyopslib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 14:27:29] INFO root fetch - processPackages [macrometa-source-postgres]: executing diffoscope
+[2023-04-21 14:27:29] INFO root fetch - processPackages [macrometa-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-postgres-0.0.45.tar.gz tmp/macrometa-source-postgres-0.0.46.tar.gz --markdown 20230421/m/macrometa-source-postgres/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-04-21 14:27:29] INFO root fetch - processPackages [pythia-uq]: executing diffoscope
+[2023-04-21 14:27:29] INFO root fetch - processPackages [pythia-uq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythia-uq-3.0.1.tar.gz tmp/pythia-uq-3.1.0.tar.gz --markdown 20230421/p/pythia-uq/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-04-21 14:27:29] INFO root fetch - processPackages [openpolicedata]: executing diffoscope
+[2023-04-21 14:27:29] INFO root fetch - processPackages [openpolicedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpolicedata-0.5.1.tar.gz tmp/openpolicedata-0.5.2.tar.gz --markdown 20230421/o/openpolicedata/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-21 14:27:29] INFO root fetch - processPackages [pentest-report-generator]: Downloading https://files.pythonhosted.org/packages/d1/ae/16bdfc023918c71893db7ad6b2360e47c494b52b6fd1effeb5fc371ca99e/pentest_report_generator-0.1.6.tar.gz
+[2023-04-21 14:27:29] INFO root fetch - processPackages [pystacker]: Start processing: MetaMatching
+[2023-04-21 14:27:29] INFO root fetch - main [MainThread]: End processing [pystacker]: success
+[2023-04-21 14:27:29] INFO root fetch - processPackages [MetaMatching]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 14:27:29] INFO root fetch - processPackages [pentest-report-generator]: executing diffoscope
+[2023-04-21 14:27:29] INFO root fetch - processPackages [pentest-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pentest_report_generator-0.1.5.tar.gz tmp/pentest_report_generator-0.1.6.tar.gz --markdown 20230421/p/pentest-report-generator/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 14:27:29] INFO root fetch - processPackages [MetaMatching]: Downloading https://files.pythonhosted.org/packages/97/36/fee9a62448de3e1240b83bfbf272f557df8bbbb02cf1f0800222f2757b56/MetaMatching-0.2.1.tar.gz
+[2023-04-21 14:27:30] INFO root fetch - processPackages [MetaMatching]: Downloading https://files.pythonhosted.org/packages/71/0d/da41f3933f33cbee940de09d9492df34320c0aabd36cf0e3ad2d1702b5bb/MetaMatching-0.2.2.tar.gz
+[2023-04-21 14:27:30] INFO root fetch - processPackages [cpggen]: Start processing: django-unfold
+[2023-04-21 14:27:30] INFO root fetch - main [MainThread]: End processing [cpggen]: success
+[2023-04-21 14:27:30] INFO root fetch - processPackages [MetaMatching]: executing diffoscope
+[2023-04-21 14:27:30] INFO root fetch - processPackages [django-unfold]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-21 14:27:30] INFO root fetch - processPackages [MetaMatching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MetaMatching-0.2.1.tar.gz tmp/MetaMatching-0.2.2.tar.gz --markdown 20230421/M/MetaMatching/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 14:27:30] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-04-21 14:27:30] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/23/e4/e2ac898b2ed79ce18812f7dfa699210cd815856c63d1cdf4fde79e6a615c/django_unfold-0.5.2.tar.gz
+[2023-04-21 14:27:30] INFO root fetch - main [MainThread]: End processing [pyopslib]: success
+[2023-04-21 14:27:30] INFO root fetch - main [MainThread]: End processing [macrometa-source-postgres]: success
+[2023-04-21 14:27:30] INFO root fetch - processPackages [django-unfold]: executing diffoscope
+[2023-04-21 14:27:30] INFO root fetch - processPackages [django-unfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_unfold-0.5.1.tar.gz tmp/django_unfold-0.5.2.tar.gz --markdown 20230421/d/django-unfold/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-21 14:27:31] INFO root fetch - main [MainThread]: End processing [openpolicedata]: success
+[2023-04-21 14:27:31] INFO root fetch - main [MainThread]: End processing [kogi]: success
+[2023-04-21 14:27:31] INFO root fetch - main [MainThread]: End processing [MetaMatching]: success
+[2023-04-21 14:27:32] INFO root fetch - main [MainThread]: End processing [pythia-uq]: success
+[2023-04-21 14:27:32] INFO root fetch - main [MainThread]: End processing [django-unfold]: success
+[2023-04-21 14:27:32] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2023-04-21 14:27:33] INFO root fetch - main [MainThread]: End processing [pentest-report-generator]: success
+[2023-04-21 14:27:33] INFO root fetch - main [MainThread]: Store serial: [17802884]
