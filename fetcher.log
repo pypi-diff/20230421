@@ -21995,3 +21995,85 @@ EOFError: EOF read where object expected
 [2023-04-21 21:40:45] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-04-21 21:40:57] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2023-04-21 21:40:57] INFO root fetch - main [MainThread]: Store serial: [17807872]
+[2023-04-21 21:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807872]
+[2023-04-21 21:46:08] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-21 21:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BCN
+[2023-04-21 21:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-overrider
+[2023-04-21 21:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpppackage5
+[2023-04-21 21:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OncoAMBER
+[2023-04-21 21:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpppackage6
+[2023-04-21 21:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yaml-stripper
+[2023-04-21 21:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-watch-sdk
+[2023-04-21 21:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: czech-workdays-holidays
+[2023-04-21 21:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dvc-render
+[2023-04-21 21:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pvmodule
+[2023-04-21 21:46:08] WARNING root fetch - processPackages [fastapi-overrider]: Skipping, unable to determine old version
+[2023-04-21 21:46:08] INFO root fetch - processPackages [fastapi-overrider]: Start processing: wordflow
+[2023-04-21 21:46:08] INFO root fetch - main [MainThread]: End processing [fastapi-overrider] error
+[2023-04-21 21:46:08] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-21 21:46:08] INFO root fetch - processPackages [OncoAMBER]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 21:46:08] INFO root fetch - processPackages [czech-workdays-holidays]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:46:08] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 21:46:09] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 21:46:09] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.4.tar.gz tmp/yaml-stripper-0.1.5.tar.gz --markdown 20230421/y/yaml-stripper/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-21 21:46:09] WARNING root fetch - processPackages [cpppackage6]: Skipping, unable to determine old version
+[2023-04-21 21:46:09] WARNING root fetch - processPackages [cpppackage5]: Skipping, unable to determine old version
+[2023-04-21 21:46:09] INFO root fetch - processPackages [cpppackage6]: Start processing: propan
+[2023-04-21 21:46:09] INFO root fetch - main [MainThread]: End processing [cpppackage6] error
+[2023-04-21 21:46:09] INFO root fetch - processPackages [cpppackage5]: Start processing: terrario
+[2023-04-21 21:46:09] INFO root fetch - processPackages [data-watch-sdk]: New version: [0.0.1b1] Old Version: [0.0.1b0]
+[2023-04-21 21:46:09] INFO root fetch - processPackages [dvc-render]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-04-21 21:46:09] INFO root fetch - main [MainThread]: End processing [cpppackage5] error
+[2023-04-21 21:46:09] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-04-21 21:46:09] INFO root fetch - processPackages [BCN]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-21 21:46:09] WARNING root fetch - processPackages [wordflow]: Skipping, unable to determine old version
+[2023-04-21 21:46:09] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230421/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 21:46:09] INFO root fetch - processPackages [wordflow]: Start processing: openapi3-parser
+[2023-04-21 21:46:09] INFO root fetch - main [MainThread]: End processing [wordflow] error
+[2023-04-21 21:46:09] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:46:09] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:46:09] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:46:09] INFO root fetch - processPackages [propan]: New version: [0.0.9.1] Old Version: [0.0.9.0]
+[2023-04-21 21:46:09] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-04-21 21:46:09] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.0.8.tar.gz tmp/OncoAMBER-1.0.9.tar.gz --markdown 20230421/O/OncoAMBER/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:46:09] INFO root fetch - processPackages [openapi3-parser]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-21 21:46:09] INFO root fetch - processPackages [czech-workdays-holidays]: Downloading https://files.pythonhosted.org/packages/e0/37/a04a56e2da9ce0226173fa66dde9232274ca111d0cfae6ea1fb75eee3518/czech_workdays_holidays-0.0.9.tar.gz
+[2023-04-21 21:46:09] INFO root fetch - processPackages [dvc-render]: Downloading https://files.pythonhosted.org/packages/40/e5/27520c46ce0e0a8861364a378b76c8fc18919f78b3b01cf8f673b78d5d13/dvc-render-0.3.1.tar.gz
+[2023-04-21 21:46:09] INFO root fetch - processPackages [data-watch-sdk]: Downloading https://files.pythonhosted.org/packages/c3/23/d5295fbc226042ac3b88ae6371d74e2ca6e7cec81cd6a30bd60d9a7c7dab/data-watch-sdk-0.0.1b0.tar.gz
+[2023-04-21 21:46:09] INFO root fetch - processPackages [BCN]: Downloading https://files.pythonhosted.org/packages/c8/ef/2f5623cd80e102bc95f6d3351f1c9e01919dc33e5fc30d279fa7cdf985fe/BCN-0.5.0.tar.gz
+[2023-04-21 21:46:09] INFO root fetch - processPackages [openapi3-parser]: Downloading https://files.pythonhosted.org/packages/c0/d8/db6c5658c744ce1ba6eedadcf30c8a6a0f80642242bafa6b5fdec545c0ab/openapi3-parser-1.1.7.tar.gz
+[2023-04-21 21:46:09] INFO root fetch - processPackages [czech-workdays-holidays]: executing diffoscope
+[2023-04-21 21:46:09] INFO root fetch - processPackages [czech-workdays-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czech_workdays_holidays-0.0.8.tar.gz tmp/czech_workdays_holidays-0.0.9.tar.gz --markdown 20230421/c/czech-workdays-holidays/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:46:09] INFO root fetch - processPackages [data-watch-sdk]: Downloading https://files.pythonhosted.org/packages/b4/24/98656eaa5690916ac43657ee3928be1925e3a4f0af9c35f325a548009917/data-watch-sdk-0.0.1b1.tar.gz
+[2023-04-21 21:46:09] INFO root fetch - processPackages [dvc-render]: Downloading https://files.pythonhosted.org/packages/20/c4/b6120434efe182242cc6a5c8abb7acd1b2310d9356717c4e3fdcd46d0646/dvc-render-0.4.0.tar.gz
+[2023-04-21 21:46:09] INFO root fetch - processPackages [data-watch-sdk]: executing diffoscope
+[2023-04-21 21:46:09] INFO root fetch - processPackages [data-watch-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-watch-sdk-0.0.1b0.tar.gz tmp/data-watch-sdk-0.0.1b1.tar.gz --markdown 20230421/d/data-watch-sdk/0.0.1b0-0.0.1b1/diff.md --exclude *.pyd
+[2023-04-21 21:46:09] INFO root fetch - processPackages [dvc-render]: executing diffoscope
+[2023-04-21 21:46:09] INFO root fetch - processPackages [dvc-render]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-render-0.3.1.tar.gz tmp/dvc-render-0.4.0.tar.gz --markdown 20230421/d/dvc-render/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 21:46:09] INFO root fetch - processPackages [openapi3-parser]: Downloading https://files.pythonhosted.org/packages/c5/b3/d60544303f99464a07f098bee7b1949e3a54a58b2da5ef204cb25b8a0ea2/openapi3-parser-1.1.8.tar.gz
+[2023-04-21 21:46:09] INFO root fetch - processPackages [openapi3-parser]: executing diffoscope
+[2023-04-21 21:46:09] INFO root fetch - processPackages [openapi3-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi3-parser-1.1.7.tar.gz tmp/openapi3-parser-1.1.8.tar.gz --markdown 20230421/o/openapi3-parser/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-21 21:46:10] INFO root fetch - processPackages [yaml-stripper]: Start processing: charlogger
+[2023-04-21 21:46:10] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 21:46:10] INFO root fetch - processPackages [charlogger]: New version: [1.2] Old Version: [1.1]
+[2023-04-21 21:46:10] INFO root fetch - processPackages [BCN]: Downloading https://files.pythonhosted.org/packages/62/5b/0f2e113cd28bbe822aac332aed23c1c2e8ec208a71448bb5d3a49c0f6fb8/BCN-0.5.1.tar.gz
+[2023-04-21 21:46:10] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/5e/c3/9f4b35571fabb97ede34509e5fd856a35826ad4966b2a7dc20e82026a366/propan-0.0.9.1.tar.gz
+[2023-04-21 21:46:10] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:46:10] INFO root fetch - processPackages [charlogger]: Downloading https://files.pythonhosted.org/packages/af/70/06f0f334e46711da5f6babbc71858349f949abf55584ba49647b9c545855/charlogger-1.1.tar.gz
+[2023-04-21 21:46:10] INFO root fetch - processPackages [BCN]: executing diffoscope
+[2023-04-21 21:46:10] INFO root fetch - processPackages [BCN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BCN-0.5.0.tar.gz tmp/BCN-0.5.1.tar.gz --markdown 20230421/B/BCN/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-21 21:46:10] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-04-21 21:46:10] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.0.9.0.tar.gz tmp/propan-0.0.9.1.tar.gz --markdown 20230421/p/propan/0.0.9.0-0.0.9.1/diff.md --exclude *.pyd
+[2023-04-21 21:46:10] INFO root fetch - processPackages [charlogger]: Downloading https://files.pythonhosted.org/packages/21/e8/dda6d00df51627c35c738d2e913a8a4415c7a26638e585cff1bfee73d0ee/charlogger-1.2.tar.gz
+[2023-04-21 21:46:10] INFO root fetch - main [MainThread]: End processing [czech-workdays-holidays]: success
+[2023-04-21 21:46:11] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-04-21 21:46:11] INFO root fetch - processPackages [charlogger]: executing diffoscope
+[2023-04-21 21:46:11] INFO root fetch - processPackages [charlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charlogger-1.1.tar.gz tmp/charlogger-1.2.tar.gz --markdown 20230421/c/charlogger/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-21 21:46:11] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-04-21 21:46:11] INFO root fetch - main [MainThread]: End processing [openapi3-parser]: success
+[2023-04-21 21:46:11] INFO root fetch - main [MainThread]: End processing [data-watch-sdk]: success
+[2023-04-21 21:46:12] INFO root fetch - main [MainThread]: End processing [dvc-render]: success
+[2023-04-21 21:46:12] INFO root fetch - main [MainThread]: End processing [BCN]: success
+[2023-04-21 21:46:12] INFO root fetch - main [MainThread]: End processing [charlogger]: success
+[2023-04-21 21:46:12] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-04-21 21:46:12] INFO root fetch - main [MainThread]: Store serial: [17807922]
