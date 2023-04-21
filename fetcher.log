@@ -7311,3 +7311,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 05:36:25] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-04-21 05:36:28] INFO root fetch - main [MainThread]: End processing [azure-mgmt-cosmosdb]: success
 [2023-04-21 05:36:28] INFO root fetch - main [MainThread]: Store serial: [17798718]
+[2023-04-21 05:41:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798718]
+[2023-04-21 05:41:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-21 05:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pychd
+[2023-04-21 05:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotoff
+[2023-04-21 05:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mikan-card-downloader
+[2023-04-21 05:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-mgmt-quota
+[2023-04-21 05:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-eventbridge
+[2023-04-21 05:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drf-remotejwt
+[2023-04-21 05:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangorestframework-remotejwt
+[2023-04-21 05:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antibiotics
+[2023-04-21 05:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pychd
+[2023-04-21 05:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-eventbridge20200401
+[2023-04-21 05:41:36] INFO root fetch - processPackages [mikan-card-downloader]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 05:41:36] INFO root fetch - processPackages [azure-mgmt-quota]: New version: [1.1.0b3] Old Version: [1.0.0b2]
+[2023-04-21 05:41:36] INFO root fetch - processPackages [antibiotics]: New version: [0.3] Old Version: [0.2]
+[2023-04-21 05:41:36] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-21 05:41:36] WARNING root fetch - processPackages [drf-remotejwt]: Skipping, unable to determine old version
+[2023-04-21 05:41:36] ERROR root fetch - processPackages [djangorestframework-remotejwt]: Unable to get metadata: No such project 'djangorestframework-remotejwt'
+[2023-04-21 05:41:36] INFO root fetch - processPackages [pychd]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 05:41:36] INFO root fetch - processPackages [pychd]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 05:41:36] INFO root fetch - main [MainThread]: End processing [drf-remotejwt] error
+[2023-04-21 05:41:36] INFO root fetch - processPackages [robotoff]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-21 05:41:36] INFO root fetch - main [MainThread]: End processing [djangorestframework-remotejwt] error
+[2023-04-21 05:41:36] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-21 05:41:36] INFO root fetch - processPackages [mikan-card-downloader]: Downloading https://files.pythonhosted.org/packages/0f/95/3eb589372bdb46efa1e0bf6a5ca20f20373a5c95e33e127684e792a10101/mikan_card_downloader-0.1.2.tar.gz
+[2023-04-21 05:41:37] INFO root fetch - processPackages [azure-mgmt-quota]: Downloading https://files.pythonhosted.org/packages/89/5a/9ad846c6cc5c242d8b289746f89652c7987020005107d9fb58ca93e2453a/azure-mgmt-quota-1.0.0b2.zip
+[2023-04-21 05:41:37] INFO root fetch - processPackages [pychd]: Downloading https://files.pythonhosted.org/packages/c1/b3/51bb3aa6f02af98126e06cb57146390a268eca8017dedf4903127ed1c588/pychd-0.1.0.tar.gz
+[2023-04-21 05:41:37] INFO root fetch - processPackages [pychd]: Downloading https://files.pythonhosted.org/packages/c1/b3/51bb3aa6f02af98126e06cb57146390a268eca8017dedf4903127ed1c588/pychd-0.1.0.tar.gz
+[2023-04-21 05:41:37] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: Downloading https://files.pythonhosted.org/packages/49/23/d68493e145157008b35d30c67cdffa8ca7a7071583cb02624e0522892c9c/alibabacloud_eventbridge20200401-1.0.7.tar.gz
+[2023-04-21 05:41:37] INFO root fetch - processPackages [antibiotics]: Downloading https://files.pythonhosted.org/packages/7c/15/3dccb4c562b6834f37bdf0593825d9671764afd9546d57b833ac86abe76f/antibiotics-0.2.tar.gz
+[2023-04-21 05:41:37] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: Downloading https://files.pythonhosted.org/packages/62/93/58ed3e7a683ca37ebb943a18e32a7878e937794ea8da5f6a87f160a86d0d/aliyun-python-sdk-eventbridge-1.0.7.tar.gz
+[2023-04-21 05:41:37] INFO root fetch - processPackages [mikan-card-downloader]: executing diffoscope
+[2023-04-21 05:41:37] INFO root fetch - processPackages [mikan-card-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikan_card_downloader-0.1.1.tar.gz tmp/mikan_card_downloader-0.1.2.tar.gz --markdown 20230421/m/mikan-card-downloader/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 05:41:37] INFO root fetch - processPackages [robotoff]: executing diffoscope
+[2023-04-21 05:41:37] INFO root fetch - processPackages [robotoff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotoff-1.8.0.tar.gz tmp/robotoff-1.9.0.tar.gz --markdown 20230421/r/robotoff/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 05:41:37] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: Downloading https://files.pythonhosted.org/packages/09/69/ebb8c6a3f7f23852ca6733a282f8c8c981578bc95318d0a3da65c4692f49/alibabacloud_eventbridge20200401-1.0.8.tar.gz
+[2023-04-21 05:41:37] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: Downloading https://files.pythonhosted.org/packages/27/27/bacbbbedac24b2f386e265929d77d64438d570b2067a70ad9cf8a01d8f74/aliyun-python-sdk-eventbridge-1.0.8.tar.gz
+[2023-04-21 05:41:37] INFO root fetch - processPackages [pychd]: Downloading https://files.pythonhosted.org/packages/74/69/09d425caa519baf5f14c5872c2fdf5d1a59dd6e25d28d9ad73780d3eefd0/pychd-0.1.1.tar.gz
+[2023-04-21 05:41:37] INFO root fetch - processPackages [pychd]: Downloading https://files.pythonhosted.org/packages/74/69/09d425caa519baf5f14c5872c2fdf5d1a59dd6e25d28d9ad73780d3eefd0/pychd-0.1.1.tar.gz
+[2023-04-21 05:41:37] INFO root fetch - processPackages [azure-mgmt-quota]: Downloading https://files.pythonhosted.org/packages/f0/ae/a4ecfc6e11ac0ed949099a4097dd85f4dd09433dcf63380b0f5467c00079/azure-mgmt-quota-1.1.0b3.zip
+[2023-04-21 05:41:37] INFO root fetch - processPackages [antibiotics]: Downloading https://files.pythonhosted.org/packages/7d/42/0177540474fa85421497d8d437bb17adff503543cc54b4b2c07263f49210/antibiotics-0.3.tar.gz
+[2023-04-21 05:41:37] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: executing diffoscope
+[2023-04-21 05:41:37] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_eventbridge20200401-1.0.7.tar.gz tmp/alibabacloud_eventbridge20200401-1.0.8.tar.gz --markdown 20230421/a/alibabacloud-eventbridge20200401/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-21 05:41:37] INFO root fetch - processPackages [pychd]: executing diffoscope
+[2023-04-21 05:41:37] INFO root fetch - processPackages [pychd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychd-0.1.0.tar.gz tmp/pychd-0.1.1.tar.gz --markdown 20230421/p/pychd/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 05:41:37] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: executing diffoscope
+[2023-04-21 05:41:37] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-eventbridge-1.0.7.tar.gz tmp/aliyun-python-sdk-eventbridge-1.0.8.tar.gz --markdown 20230421/a/aliyun-python-sdk-eventbridge/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-21 05:41:37] INFO root fetch - processPackages [pychd]: executing diffoscope
+[2023-04-21 05:41:37] INFO root fetch - processPackages [pychd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychd-0.1.0.tar.gz tmp/pychd-0.1.1.tar.gz --markdown 20230421/p/pychd/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 05:41:37] INFO root fetch - processPackages [azure-mgmt-quota]: executing diffoscope
+[2023-04-21 05:41:37] INFO root fetch - processPackages [azure-mgmt-quota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-quota-1.0.0b2.zip tmp/azure-mgmt-quota-1.1.0b3.zip --markdown 20230421/a/azure-mgmt-quota/1.0.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-04-21 05:41:37] INFO root fetch - processPackages [antibiotics]: executing diffoscope
+[2023-04-21 05:41:37] INFO root fetch - processPackages [antibiotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antibiotics-0.2.tar.gz tmp/antibiotics-0.3.tar.gz --markdown 20230421/a/antibiotics/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-21 05:41:38] INFO root fetch - main [MainThread]: End processing [mikan-card-downloader]: success
+[2023-04-21 05:41:39] INFO root fetch - main [MainThread]: End processing [pychd]: success
+[2023-04-21 05:41:39] INFO root fetch - main [MainThread]: End processing [pychd]: success
+[2023-04-21 05:41:39] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-eventbridge]: success
+[2023-04-21 05:41:39] INFO root fetch - main [MainThread]: End processing [antibiotics]: success
+[2023-04-21 05:41:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-eventbridge20200401]: success
+[2023-04-21 05:41:39] INFO root fetch - main [MainThread]: End processing [azure-mgmt-quota]: success
+[2023-04-21 05:41:40] INFO root fetch - main [MainThread]: End processing [robotoff]: success
+[2023-04-21 05:41:40] INFO root fetch - main [MainThread]: Store serial: [17798756]
