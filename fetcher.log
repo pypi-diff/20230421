@@ -11499,3 +11499,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 11:08:05] INFO root fetch - main [MainThread]: End processing [tf2jax]: success
 [2023-04-21 11:08:05] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
 [2023-04-21 11:08:05] INFO root fetch - main [MainThread]: Store serial: [17801115]
+[2023-04-21 11:13:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17801115]
+[2023-04-21 11:13:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rul-adapt
+[2023-04-21 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tkinter-form
+[2023-04-21 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tonplay-sdk
+[2023-04-21 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: planetmint
+[2023-04-21 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crypt-dir
+[2023-04-21 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moodle-dl
+[2023-04-21 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ymmsl-dot
+[2023-04-21 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbm-agent
+[2023-04-21 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: itkdb-gtk
+[2023-04-21 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiofauna
+[2023-04-21 11:13:15] WARNING root fetch - processPackages [tkinter-form]: Skipping, unable to determine old version
+[2023-04-21 11:13:15] INFO root fetch - processPackages [tkinter-form]: Start processing: qlapi
+[2023-04-21 11:13:15] INFO root fetch - main [MainThread]: End processing [tkinter-form] error
+[2023-04-21 11:13:15] INFO root fetch - processPackages [tonplay-sdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 11:13:15] WARNING root fetch - processPackages [rul-adapt]: Skipping, unable to determine old version
+[2023-04-21 11:13:15] INFO root fetch - processPackages [rul-adapt]: Start processing: wanna-ml
+[2023-04-21 11:13:15] INFO root fetch - main [MainThread]: End processing [rul-adapt] error
+[2023-04-21 11:13:15] WARNING root fetch - processPackages [ymmsl-dot]: Skipping, unable to determine old version
+[2023-04-21 11:13:15] INFO root fetch - main [MainThread]: End processing [ymmsl-dot] error
+[2023-04-21 11:13:15] INFO root fetch - processPackages [crypt-dir]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-21 11:13:15] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 11:13:15] INFO root fetch - processPackages [planetmint]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-04-21 11:13:15] INFO root fetch - processPackages [moodle-dl]: New version: [2.3.1.8] Old Version: [2.3.1.7]
+[2023-04-21 11:13:15] INFO root fetch - processPackages [qlapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 11:13:15] INFO root fetch - processPackages [dbm-agent]: New version: [8.33.0] Old Version: [8.32.8]
+[2023-04-21 11:13:15] INFO root fetch - processPackages [aiofauna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 11:13:15] INFO root fetch - processPackages [qlapi]: executing diffoscope
+[2023-04-21 11:13:15] INFO root fetch - processPackages [qlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlapi-0.1.1-py3.9.egg tmp/qlapi-0.1.2.tar.gz --markdown 20230421/q/qlapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 11:13:15] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2023-04-21 11:13:15] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.0.1.tar.gz tmp/itkdb_gtk-0.0.2.tar.gz --markdown 20230421/i/itkdb-gtk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 11:13:15] INFO root fetch - processPackages [wanna-ml]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 11:13:15] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/77/6b/4443e703163f609488f98c8d545fecf28eaf55e8fe316893330c5d243938/moodle-dl-2.3.1.7.tar.gz
+[2023-04-21 11:13:15] INFO root fetch - processPackages [crypt-dir]: Downloading https://files.pythonhosted.org/packages/8a/ae/a4df891018137de509bf662ca6b3d665344b65cafd7b2a93c28d738f2f01/crypt-dir-1.1.7.tar.gz
+[2023-04-21 11:13:15] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/9c/b9/7967c5de609a8fbc9a80e185a8686325b424373e6ca336567db4103bb269/dbm-agent-8.32.8.tar.gz
+[2023-04-21 11:13:15] INFO root fetch - processPackages [tonplay-sdk]: Downloading https://files.pythonhosted.org/packages/03/a3/f1e674041fc3e3d7f1f473d08d263ca73eca2c0a294570e24a17261631f7/tonplay-sdk-0.0.8.tar.gz
+[2023-04-21 11:13:15] INFO root fetch - processPackages [planetmint]: Downloading https://files.pythonhosted.org/packages/f8/77/c4465229d7666eff671eae59762c877e93019eb64190e6ee3ec1730c880d/planetmint-2.4.5.tar.gz
+[2023-04-21 11:13:15] INFO root fetch - processPackages [tonplay-sdk]: executing diffoscope
+[2023-04-21 11:13:15] INFO root fetch - processPackages [tonplay-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonplay-sdk-0.0.7.tar.gz tmp/tonplay-sdk-0.0.8.tar.gz --markdown 20230421/t/tonplay-sdk/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 11:13:15] INFO root fetch - processPackages [planetmint]: executing diffoscope
+[2023-04-21 11:13:15] INFO root fetch - processPackages [planetmint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmint-2.4.4.tar.gz tmp/planetmint-2.4.5.tar.gz --markdown 20230421/p/planetmint/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-04-21 11:13:15] INFO root fetch - processPackages [crypt-dir]: Downloading https://files.pythonhosted.org/packages/ce/20/103bf8a924b8021fc208d7a491cdfee3fc37dcddf46e338b8dc235f521ff/crypt-dir-1.1.8.tar.gz
+[2023-04-21 11:13:15] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/ac/93/78d841989af96bed2a9023f4282c78261a625226e80e2ea8adc399d6d944/moodle-dl-2.3.1.8.tar.gz
+[2023-04-21 11:13:15] INFO root fetch - processPackages [wanna-ml]: executing diffoscope
+[2023-04-21 11:13:15] INFO root fetch - processPackages [wanna-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wanna-ml-0.2.8.tar.gz tmp/wanna-ml-0.2.9.tar.gz --markdown 20230421/w/wanna-ml/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 11:13:15] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-04-21 11:13:15] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.0.8.tar.gz tmp/aiofauna-0.0.9.tar.gz --markdown 20230421/a/aiofauna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 11:13:15] INFO root fetch - processPackages [crypt-dir]: executing diffoscope
+[2023-04-21 11:13:15] INFO root fetch - processPackages [crypt-dir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypt-dir-1.1.7.tar.gz tmp/crypt-dir-1.1.8.tar.gz --markdown 20230421/c/crypt-dir/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-21 11:13:15] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/9a/38/458697dee490ac16592aba22cebffca265537fb3d0d2d5eddf6ce59cbdbf/dbm-agent-8.33.0.tar.gz
+[2023-04-21 11:13:15] INFO root fetch - processPackages [moodle-dl]: executing diffoscope
+[2023-04-21 11:13:15] INFO root fetch - processPackages [moodle-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moodle-dl-2.3.1.7.tar.gz tmp/moodle-dl-2.3.1.8.tar.gz --markdown 20230421/m/moodle-dl/2.3.1.7-2.3.1.8/diff.md --exclude *.pyd
+[2023-04-21 11:13:15] INFO root fetch - processPackages [dbm-agent]: executing diffoscope
+[2023-04-21 11:13:15] INFO root fetch - processPackages [dbm-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbm-agent-8.32.8.tar.gz tmp/dbm-agent-8.33.0.tar.gz --markdown 20230421/d/dbm-agent/8.32.8-8.33.0/diff.md --exclude *.pyd
+[2023-04-21 11:13:16] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2023-04-21 11:13:16] INFO root fetch - main [MainThread]: End processing [tonplay-sdk]: success
+[2023-04-21 11:13:17] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-04-21 11:13:17] INFO root fetch - main [MainThread]: End processing [crypt-dir]: success
+[2023-04-21 11:13:17] INFO root fetch - main [MainThread]: End processing [planetmint]: success
+[2023-04-21 11:13:17] INFO root fetch - main [MainThread]: End processing [wanna-ml]: success
+[2023-04-21 11:13:17] INFO root fetch - main [MainThread]: End processing [moodle-dl]: success
+[2023-04-21 11:13:17] INFO root fetch - main [MainThread]: End processing [qlapi]: success
+[2023-04-21 11:13:18] INFO root fetch - main [MainThread]: End processing [dbm-agent]: success
+[2023-04-21 11:13:18] INFO root fetch - main [MainThread]: Store serial: [17801150]
