@@ -9993,3 +9993,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 09:47:55] INFO root fetch - main [MainThread]: End processing [lovehim]: success
 [2023-04-21 09:48:04] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-04-21 09:48:04] INFO root fetch - main [MainThread]: Store serial: [17800347]
+[2023-04-21 09:53:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800347]
+[2023-04-21 09:53:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkgdev
+[2023-04-21 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphaz
+[2023-04-21 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr
+[2023-04-21 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doc2tei-CERTIC
+[2023-04-21 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lovehim
+[2023-04-21 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-it-withholding-tax
+[2023-04-21 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pointcloud-heightmap
+[2023-04-21 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-cpu
+[2023-04-21 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nlp-pipeline
+[2023-04-21 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sui-brownie
+[2023-04-21 09:53:14] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.2]
+[2023-04-21 09:53:14] INFO root fetch - processPackages [flwr]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-21 09:53:14] INFO root fetch - processPackages [alphaz]: New version: [0.7.5] Old Version: [0.7.4.1]
+[2023-04-21 09:53:14] INFO root fetch - processPackages [lovehim]: New version: [0.5] Old Version: [0.4]
+[2023-04-21 09:53:14] INFO root fetch - processPackages [nlp-pipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 09:53:14] INFO root fetch - processPackages [pointcloud-heightmap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 09:53:14] INFO root fetch - processPackages [doc2tei-CERTIC]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 09:53:14] INFO root fetch - processPackages [sui-brownie]: New version: [0.31.2] Old Version: [0.31.1]
+[2023-04-21 09:53:14] INFO root fetch - processPackages [pkgdev]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-21 09:53:14] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.13.0.dev20230421] Old Version: [2.13.0.dev20230420]
+[2023-04-21 09:53:14] INFO root fetch - processPackages [flwr]: Downloading https://files.pythonhosted.org/packages/a3/f2/0ba36783f384a1e0858e645de8097c60cb1236db69753d69db429ad2257f/flwr-1.3.0.tar.gz
+[2023-04-21 09:53:14] INFO root fetch - processPackages [pointcloud-heightmap]: Downloading https://files.pythonhosted.org/packages/ab/74/985359d027d75353769362ff2b396fc8127bd1db9c7fec70d17a08c06028/pointcloud_heightmap-0.1.0.tar.gz
+[2023-04-21 09:53:14] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/5f/b1/41753972f0cdbb7dea1f9c81d70911e32deee2d2d4e3d3a9fa6d46136536/lovehim-0.5.tar.gz
+[2023-04-21 09:53:14] INFO root fetch - processPackages [doc2tei-CERTIC]: Downloading https://files.pythonhosted.org/packages/44/2d/4682433b4fdc2e2c6a9d542cbb3b427a3c572fd698007a26cc049f0b24ed/doc2tei-CERTIC-0.0.8.tar.gz
+[2023-04-21 09:53:14] INFO root fetch - processPackages [lovehim]: executing diffoscope
+[2023-04-21 09:53:14] INFO root fetch - processPackages [lovehim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovehim-0.4.tar.gz tmp/lovehim-0.5.tar.gz --markdown 20230421/l/lovehim/0.4-0.5/diff.md --exclude *.pyd
+[2023-04-21 09:53:14] INFO root fetch - processPackages [nlp-pipeline]: executing diffoscope
+[2023-04-21 09:53:14] INFO root fetch - processPackages [nlp-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_pipeline-0.0.8.tar.gz tmp/nlp_pipeline-0.0.9.tar.gz --markdown 20230421/n/nlp-pipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 09:53:14] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/6e/74/d8bffcd5efdf9d2c42c1f98f07d406d652ac8bc7367547e2ae9a6df43a03/alphaz-0.7.5.tar.gz
+[2023-04-21 09:53:14] INFO root fetch - processPackages [pkgdev]: Downloading https://files.pythonhosted.org/packages/03/e1/e67bc361ba869287e8726c32277eb2e0bcc4055f378fae9335ddb90346a8/pkgdev-0.2.5.tar.gz
+[2023-04-21 09:53:14] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/44/67/62691fdfef7aab7da0f901563df4fdaef1770fe08dabed3415f32a203210/sui_brownie-0.31.2-py3-none-any.whl
+[2023-04-21 09:53:14] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/ee/b6/a78bb1edc41bcd6d6c77fca12a141aa6730c7c206ee9fbb61720efcf6371/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1-py3-none-any.whl
+[2023-04-21 09:53:14] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/bd/b2/7d5f6a90b04d77303cfdc475542b202875a05035c24e19093157bca3fa14/tf_nightly_cpu-2.13.0.dev20230421-cp39-cp39-win_amd64.whl
+[2023-04-21 09:53:14] INFO root fetch - processPackages [pointcloud-heightmap]: Downloading https://files.pythonhosted.org/packages/68/e9/a9763a0803d87ad3d123de5a7221dac6fcbbdc38756cd5c8e042c30d7643/pointcloud_heightmap-0.1.1.tar.gz
+[2023-04-21 09:53:14] INFO root fetch - processPackages [flwr]: Downloading https://files.pythonhosted.org/packages/e9/91/c93ccd0a61c91315cbc57c100adfe08533ec4ed19feebbb80cb3f5747740/flwr-1.4.0.tar.gz
+[2023-04-21 09:53:14] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-04-21 09:53:14] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-l10n-it-withholding-tax/16.0.1.1.0.2-16.0.1.1.1/diff.md --exclude *.pyd
+[2023-04-21 09:53:14] INFO root fetch - processPackages [sui-brownie]: executing diffoscope
+[2023-04-21 09:53:14] INFO root fetch - processPackages [sui-brownie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sui_brownie-0.31.1-py3-none-any.whl.zip tmp/sui_brownie-0.31.2-py3-none-any.whl.zip --markdown 20230421/s/sui-brownie/0.31.1-0.31.2/diff.md --exclude *.pyd
+[2023-04-21 09:53:14] INFO root fetch - processPackages [flwr]: executing diffoscope
+[2023-04-21 09:53:14] INFO root fetch - processPackages [flwr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr-1.3.0.tar.gz tmp/flwr-1.4.0.tar.gz --markdown 20230421/f/flwr/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-21 09:53:14] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-04-21 09:53:14] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.13.0.dev20230420-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.13.0.dev20230421-cp39-cp39-win_amd64.whl.zip --markdown 20230421/t/tf-nightly-cpu/2.13.0.dev20230420-2.13.0.dev20230421/diff.md --exclude *.pyd
+[2023-04-21 09:53:14] INFO root fetch - processPackages [pointcloud-heightmap]: executing diffoscope
+[2023-04-21 09:53:14] INFO root fetch - processPackages [pointcloud-heightmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pointcloud_heightmap-0.1.0.tar.gz tmp/pointcloud_heightmap-0.1.1.tar.gz --markdown 20230421/p/pointcloud-heightmap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 09:53:14] INFO root fetch - processPackages [pkgdev]: Downloading https://files.pythonhosted.org/packages/68/34/bc93f8b09a58275d39f01974b9eb67b2a4cf19ba711e26a22da173dbe23d/pkgdev-0.2.6.tar.gz
+[2023-04-21 09:53:14] INFO root fetch - processPackages [doc2tei-CERTIC]: Downloading https://files.pythonhosted.org/packages/1e/0c/776d294d99e176e45dcf3f7bd874f2a7f00cd944c1c9e603cdf01e6e0b4c/doc2tei-CERTIC-0.0.9.tar.gz
+[2023-04-21 09:53:14] INFO root fetch - processPackages [pkgdev]: executing diffoscope
+[2023-04-21 09:53:14] INFO root fetch - processPackages [pkgdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgdev-0.2.5.tar.gz tmp/pkgdev-0.2.6.tar.gz --markdown 20230421/p/pkgdev/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-21 09:53:15] INFO root fetch - processPackages [doc2tei-CERTIC]: executing diffoscope
+[2023-04-21 09:53:15] INFO root fetch - processPackages [doc2tei-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc2tei-CERTIC-0.0.8.tar.gz tmp/doc2tei-CERTIC-0.0.9.tar.gz --markdown 20230421/d/doc2tei-CERTIC/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 09:53:15] INFO root fetch - processPackages [lovehim]: Start processing: mercury
+[2023-04-21 09:53:15] INFO root fetch - main [MainThread]: End processing [lovehim]: success
+[2023-04-21 09:53:15] INFO root fetch - processPackages [mercury]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-04-21 09:53:15] INFO root fetch - processPackages [mercury]: executing diffoscope
+[2023-04-21 09:53:15] INFO root fetch - processPackages [mercury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-2.2.4.tar.gz tmp/mercury-2.2.5.tar.gz --markdown 20230421/m/mercury/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-04-21 09:53:16] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-04-21 09:53:16] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.4.1.tar.gz tmp/alphaz-0.7.5.tar.gz --markdown 20230421/a/alphaz/0.7.4.1-0.7.5/diff.md --exclude *.pyd
+[2023-04-21 09:53:16] INFO root fetch - main [MainThread]: End processing [nlp-pipeline]: success
+[2023-04-21 09:53:16] INFO root fetch - main [MainThread]: End processing [sui-brownie]: success
+[2023-04-21 09:53:16] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-04-21 09:53:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-withholding-tax]: success
+[2023-04-21 09:53:16] INFO root fetch - main [MainThread]: End processing [pointcloud-heightmap]: success
+[2023-04-21 09:53:17] INFO root fetch - main [MainThread]: End processing [pkgdev]: success
+[2023-04-21 09:53:17] INFO root fetch - main [MainThread]: End processing [doc2tei-CERTIC]: success
+[2023-04-21 09:53:18] INFO root fetch - main [MainThread]: End processing [flwr]: success
+[2023-04-21 09:53:19] INFO root fetch - main [MainThread]: End processing [mercury]: success
+[2023-04-21 09:53:20] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-04-21 09:53:20] INFO root fetch - main [MainThread]: Store serial: [17800383]
