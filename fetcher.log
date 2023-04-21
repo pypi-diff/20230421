@@ -6480,3 +6480,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 04:07:32] INFO root fetch - main [MainThread]: End processing [scimap]: success
 [2023-04-21 04:07:36] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-21 04:07:36] INFO root fetch - main [MainThread]: Store serial: [17798242]
+[2023-04-21 04:12:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798242]
+[2023-04-21 04:12:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-21 04:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lektor-responsive-image
+[2023-04-21 04:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragon-city-utils
+[2023-04-21 04:12:45] INFO root fetch - processPackages [lektor-responsive-image]: New version: [1.0.0b1] Old Version: [0.1a1]
+[2023-04-21 04:12:45] INFO root fetch - processPackages [dragon-city-utils]: New version: [1.9] Old Version: [1.8]
+[2023-04-21 04:12:45] INFO root fetch - processPackages [dragon-city-utils]: executing diffoscope
+[2023-04-21 04:12:45] INFO root fetch - processPackages [dragon-city-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragon-city-utils-1.8.tar.gz tmp/dragon-city-utils-1.9.tar.gz --markdown 20230421/d/dragon-city-utils/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-21 04:12:45] INFO root fetch - processPackages [lektor-responsive-image]: Downloading https://files.pythonhosted.org/packages/1a/1d/cad4c701acd664afaa74fe752d62e2bc6a0c8556f1c2bbfafce3d0c69329/lektor-responsive-image-0.1a1.tar.gz
+[2023-04-21 04:12:45] INFO root fetch - processPackages [lektor-responsive-image]: Downloading https://files.pythonhosted.org/packages/9f/c3/24da906877b30888eb59a2e1d81c07c46957a9db589cdbfc270d8c6ddd98/lektor-responsive-image-1.0.0b1.tar.gz
+[2023-04-21 04:12:45] INFO root fetch - processPackages [lektor-responsive-image]: executing diffoscope
+[2023-04-21 04:12:45] INFO root fetch - processPackages [lektor-responsive-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektor-responsive-image-0.1a1.tar.gz tmp/lektor-responsive-image-1.0.0b1.tar.gz --markdown 20230421/l/lektor-responsive-image/0.1a1-1.0.0b1/diff.md --exclude *.pyd
+[2023-04-21 04:12:46] INFO root fetch - main [MainThread]: End processing [dragon-city-utils]: success
+[2023-04-21 04:12:47] INFO root fetch - main [MainThread]: End processing [lektor-responsive-image]: success
+[2023-04-21 04:12:47] INFO root fetch - main [MainThread]: Store serial: [17798255]
