@@ -21340,3 +21340,100 @@ EOFError: EOF read where object expected
 [2023-04-21 21:07:45] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-04-21 21:07:57] INFO root fetch - main [MainThread]: End processing [PyGeodesy]: success
 [2023-04-21 21:07:57] INFO root fetch - main [MainThread]: Store serial: [17807465]
+[2023-04-21 21:13:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807465]
+[2023-04-21 21:13:11] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-21 21:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaml-stripper
+[2023-04-21 21:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinysearch
+[2023-04-21 21:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windeurope72hours
+[2023-04-21 21:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EnergyCapSdk
+[2023-04-21 21:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: module-qc-analysis-tools
+[2023-04-21 21:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-service-client
+[2023-04-21 21:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flash-attn
+[2023-04-21 21:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-service-server
+[2023-04-21 21:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-ui
+[2023-04-21 21:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-v4-service
+[2023-04-21 21:13:11] WARNING root fetch - processPackages [yaml-stripper]: Skipping, unable to determine old version
+[2023-04-21 21:13:11] WARNING root fetch - processPackages [tinysearch]: Skipping, unable to determine old version
+[2023-04-21 21:13:11] INFO root fetch - processPackages [yaml-stripper]: Start processing: assemblyline
+[2023-04-21 21:13:11] INFO root fetch - processPackages [tinysearch]: Start processing: assemblyline-core
+[2023-04-21 21:13:11] INFO root fetch - main [MainThread]: End processing [yaml-stripper] error
+[2023-04-21 21:13:11] INFO root fetch - main [MainThread]: End processing [tinysearch] error
+[2023-04-21 21:13:11] INFO root fetch - processPackages [module-qc-analysis-tools]: New version: [1.3.1rc2] Old Version: [1.3.1rc1]
+[2023-04-21 21:13:11] INFO root fetch - processPackages [windeurope72hours]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 21:13:11] INFO root fetch - processPackages [flash-attn]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 21:13:11] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2302.4517] Old Version: [8.2302.4510]
+[2023-04-21 21:13:11] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 21:13:11] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 21:13:11] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 21:13:11] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 21:13:11] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 21:13:11] INFO root fetch - processPackages [windeurope72hours]: Downloading https://files.pythonhosted.org/packages/b1/3f/d44b24f7b6cadbadf368fe703724595780e49f9c68b3d07e951d0991d4e2/windeurope72hours-0.1.2.tar.gz
+[2023-04-21 21:13:11] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-04-21 21:13:11] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 21:13:11] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 21:13:11] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-04-21 21:13:11] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 21:13:12] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-04-21 21:13:12] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 21:13:12] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-04-21 21:13:12] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230421/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 21:13:12] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-04-21 21:13:12] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230421/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 21:13:12] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-04-21 21:13:12] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 21:13:12] INFO root fetch - processPackages [module-qc-analysis-tools]: Downloading https://files.pythonhosted.org/packages/22/4a/91d631a68eb6d10f411782dedd8b456f42b38d38ad6925e0fe524e5d489f/module_qc_analysis_tools-1.3.1rc2.tar.gz
+[2023-04-21 21:13:12] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/39/17/e85eac59710421e1bc01eb93a12d37867f3a03c96cfb375997cc18f235b4/flash_attn-1.0.3.tar.gz
+[2023-04-21 21:13:12] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/97/b7/2c410ca455967a14bc004cd89bbf13be96b9e8337fde70c50e57f0aeb553/EnergyCapSdk-8.2302.4517.tar.gz
+[2023-04-21 21:13:12] INFO root fetch - processPackages [windeurope72hours]: Downloading https://files.pythonhosted.org/packages/4e/4c/c507a132d613409fdb4debc7b885468fafb25d0106c7510cf1a6f5479e79/windeurope72hours-0.1.3.tar.gz
+[2023-04-21 21:13:12] INFO root fetch - processPackages [module-qc-analysis-tools]: executing diffoscope
+[2023-04-21 21:13:12] INFO root fetch - processPackages [module-qc-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_analysis_tools-1.3.1rc1.tar.gz tmp/module_qc_analysis_tools-1.3.1rc2.tar.gz --markdown 20230421/m/module-qc-analysis-tools/1.3.1rc1-1.3.1rc2/diff.md --exclude *.pyd
+[2023-04-21 21:13:12] INFO root fetch - processPackages [windeurope72hours]: executing diffoscope
+[2023-04-21 21:13:12] INFO root fetch - processPackages [windeurope72hours]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windeurope72hours-0.1.2.tar.gz tmp/windeurope72hours-0.1.3.tar.gz --markdown 20230421/w/windeurope72hours/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 21:13:12] INFO root fetch - processPackages [flash-attn]: executing diffoscope
+[2023-04-21 21:13:12] INFO root fetch - processPackages [flash-attn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_attn-1.0.2.tar.gz tmp/flash_attn-1.0.3.tar.gz --markdown 20230421/f/flash-attn/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 21:13:12] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-04-21 21:13:12] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2302.4510.tar.gz tmp/EnergyCapSdk-8.2302.4517.tar.gz --markdown 20230421/E/EnergyCapSdk/8.2302.4510-8.2302.4517/diff.md --exclude *.pyd
+[2023-04-21 21:13:13] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: prodia-python
+[2023-04-21 21:13:13] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-04-21 21:13:13] INFO root fetch - processPackages [prodia-python]: New version: [1.5] Old Version: [1.2]
+[2023-04-21 21:13:13] INFO root fetch - processPackages [prodia-python]: Downloading https://files.pythonhosted.org/packages/d3/ca/f467a5f00c685ad30185b0c93a7b70ccba2a62d6ac5f3f7b4305cb5145e4/prodia-python-1.5.tar.gz
+[2023-04-21 21:13:13] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: plixkws
+[2023-04-21 21:13:13] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-04-21 21:13:13] WARNING root fetch - processPackages [plixkws]: Skipping, unable to determine old version
+[2023-04-21 21:13:13] INFO root fetch - processPackages [plixkws]: Start processing: raft-dask-cu11
+[2023-04-21 21:13:13] INFO root fetch - main [MainThread]: End processing [plixkws] error
+[2023-04-21 21:13:13] INFO root fetch - processPackages [raft-dask-cu11]: New version: [23.4.1] Old Version: [23.4.0.1681367712]
+[2023-04-21 21:13:13] INFO root fetch - processPackages [prodia-python]: executing diffoscope
+[2023-04-21 21:13:13] INFO root fetch - processPackages [prodia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodia-python-1.2.tar.gz tmp/prodia-python-1.5.tar.gz --markdown 20230421/p/prodia-python/1.2-1.5/diff.md --exclude *.pyd
+[2023-04-21 21:13:14] INFO root fetch - processPackages [windeurope72hours]: Start processing: pymedquery
+[2023-04-21 21:13:14] INFO root fetch - main [MainThread]: End processing [windeurope72hours]: success
+[2023-04-21 21:13:14] INFO root fetch - processPackages [pymedquery]: New version: [2.9.1b0] Old Version: [2.9.0b0]
+[2023-04-21 21:13:14] INFO root fetch - processPackages [assemblyline-ui]: Start processing: d2c-mp-sales-forecaster
+[2023-04-21 21:13:14] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-04-21 21:13:14] WARNING root fetch - processPackages [d2c-mp-sales-forecaster]: Skipping, unable to determine old version
+[2023-04-21 21:13:14] INFO root fetch - processPackages [d2c-mp-sales-forecaster]: Start processing: hydra-zen
+[2023-04-21 21:13:14] INFO root fetch - main [MainThread]: End processing [d2c-mp-sales-forecaster] error
+[2023-04-21 21:13:14] INFO root fetch - processPackages [raft-dask-cu11]: Downloading https://files.pythonhosted.org/packages/77/91/0a41164b4d2bcac535a4bb3ca223eb56ac440be0b0e0cc7dd2f1542f9162/raft_dask_cu11-23.4.1.tar.gz
+[2023-04-21 21:13:14] INFO root fetch - processPackages [hydra-zen]: New version: [0.9.1] Old Version: [0.9.0rc5]
+[2023-04-21 21:13:14] INFO root fetch - processPackages [raft-dask-cu11]: executing diffoscope
+[2023-04-21 21:13:14] INFO root fetch - processPackages [raft-dask-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raft_dask_cu11-23.4.0.1681367712.tar.gz tmp/raft_dask_cu11-23.4.1.tar.gz --markdown 20230421/r/raft-dask-cu11/23.4.0.1681367712-23.4.1/diff.md --exclude *.pyd
+[2023-04-21 21:13:14] INFO root fetch - processPackages [pymedquery]: executing diffoscope
+[2023-04-21 21:13:14] INFO root fetch - processPackages [pymedquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymedquery-2.9.0b0.tar.gz tmp/pymedquery-2.9.1b0.tar.gz --markdown 20230421/p/pymedquery/2.9.0b0-2.9.1b0/diff.md --exclude *.pyd
+[2023-04-21 21:13:14] INFO root fetch - processPackages [hydra-zen]: executing diffoscope
+[2023-04-21 21:13:14] INFO root fetch - processPackages [hydra-zen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra_zen-0.9.0rc5.tar.gz tmp/hydra_zen-0.9.1.tar.gz --markdown 20230421/h/hydra-zen/0.9.0rc5-0.9.1/diff.md --exclude *.pyd
+[2023-04-21 21:13:14] INFO root fetch - processPackages [module-qc-analysis-tools]: Start processing: OncoAMBER
+[2023-04-21 21:13:14] INFO root fetch - main [MainThread]: End processing [module-qc-analysis-tools]: success
+[2023-04-21 21:13:14] INFO root fetch - processPackages [OncoAMBER]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 21:13:14] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-04-21 21:13:14] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.0.8.tar.gz tmp/OncoAMBER-1.0.9.tar.gz --markdown 20230421/O/OncoAMBER/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:13:14] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-04-21 21:13:15] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-04-21 21:13:16] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-04-21 21:13:16] INFO root fetch - main [MainThread]: End processing [prodia-python]: success
+[2023-04-21 21:13:16] INFO root fetch - main [MainThread]: End processing [raft-dask-cu11]: success
+[2023-04-21 21:13:16] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-04-21 21:13:16] INFO root fetch - main [MainThread]: End processing [pymedquery]: success
+[2023-04-21 21:13:17] INFO root fetch - main [MainThread]: End processing [hydra-zen]: success
+[2023-04-21 21:13:38] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
+[2023-04-21 21:13:48] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-04-21 21:13:48] INFO root fetch - main [MainThread]: Store serial: [17807524]
