@@ -21232,3 +21232,111 @@ EOFError: EOF read where object expected
 [2023-04-21 21:01:50] INFO root fetch - main [MainThread]: End processing [LinkChecker-GUI]: success
 [2023-04-21 21:01:54] INFO root fetch - main [MainThread]: End processing [cirrocumulus]: success
 [2023-04-21 21:01:54] INFO root fetch - main [MainThread]: Store serial: [17807398]
+[2023-04-21 21:06:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807398]
+[2023-04-21 21:07:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-21 21:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirrocumulus
+[2023-04-21 21:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyGeodesy
+[2023-04-21 21:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylibraft-cu11
+[2023-04-21 21:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-aws
+[2023-04-21 21:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edge-orm
+[2023-04-21 21:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spark-sql-to-sqlite
+[2023-04-21 21:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: td-ml-autosegmentation
+[2023-04-21 21:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalk-harness
+[2023-04-21 21:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: open-space-toolkit-mathematics
+[2023-04-21 21:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: databudgie
+[2023-04-21 21:07:04] INFO root fetch - processPackages [cirrocumulus]: New version: [1.1.9.post3] Old Version: [1.1.9.post2]
+[2023-04-21 21:07:04] INFO root fetch - processPackages [spark-sql-to-sqlite]: New version: [0.5] Old Version: [0.4]
+[2023-04-21 21:07:04] INFO root fetch - processPackages [edge-orm]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-04-21 21:07:04] INFO root fetch - processPackages [pylibraft-cu11]: New version: [23.4.1] Old Version: [23.4.0.1681363053]
+[2023-04-21 21:07:04] INFO root fetch - processPackages [td-ml-autosegmentation]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 21:07:04] INFO root fetch - processPackages [open-space-toolkit-mathematics]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-04-21 21:07:04] INFO root fetch - processPackages [databudgie]: New version: [2.7.5] Old Version: [2.7.4]
+[2023-04-21 21:07:04] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-21 21:07:04] INFO root fetch - processPackages [PyGeodesy]: New version: [23.4.6] Old Version: [23.4.5]
+[2023-04-21 21:07:04] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-04-21 21:07:04] INFO root fetch - processPackages [td-ml-autosegmentation]: executing diffoscope
+[2023-04-21 21:07:04] INFO root fetch - processPackages [td-ml-autosegmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/td_ml_autosegmentation-1.0.8.tar.gz tmp/td_ml_autosegmentation-1.0.9.tar.gz --markdown 20230421/t/td-ml-autosegmentation/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:07:04] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-04-21 21:07:04] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230421/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 21:07:04] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-04-21 21:07:04] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230421/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-04-21 21:07:04] INFO root fetch - processPackages [spark-sql-to-sqlite]: Downloading https://files.pythonhosted.org/packages/2d/3f/007b859275fe46ef52994572601fe0e3920f8df0baef5e9209b68fdee17d/spark_sql_to_sqlite-0.5.tar.gz
+[2023-04-21 21:07:04] INFO root fetch - processPackages [databudgie]: Downloading https://files.pythonhosted.org/packages/40/ff/db87e1f5e1b98cfec6a846c4df0d5653c1891fb0e8797cdba29f5b221372/databudgie-2.7.5.tar.gz
+[2023-04-21 21:07:04] INFO root fetch - processPackages [PyGeodesy]: Downloading https://files.pythonhosted.org/packages/46/7c/8737d3d8eb7e90053928d0f07ad98a911445e6a9e3f02602e2f85d07fff3/PyGeodesy-23.4.5.zip
+[2023-04-21 21:07:04] INFO root fetch - processPackages [open-space-toolkit-mathematics]: Downloading https://files.pythonhosted.org/packages/85/61/0670587020965fdc3dba1f6aa426305ec3a43cd655dce8b792796aee0f8a/open_space_toolkit_mathematics-0.5.2-py39-none-any.whl
+[2023-04-21 21:07:05] INFO root fetch - processPackages [pylibraft-cu11]: Downloading https://files.pythonhosted.org/packages/ff/96/865172df103acca6f4788f341c609ef65d19f647165f2a71bcc317ea8922/pylibraft_cu11-23.4.1.tar.gz
+[2023-04-21 21:07:05] INFO root fetch - processPackages [edge-orm]: Downloading https://files.pythonhosted.org/packages/02/db/45a44f71bf932631eb77977b80bd431da1549e7ec037b8f15fff69cc63af/edge_orm-0.6.7.tar.gz
+[2023-04-21 21:07:05] INFO root fetch - processPackages [databudgie]: executing diffoscope
+[2023-04-21 21:07:05] INFO root fetch - processPackages [databudgie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databudgie-2.7.4.tar.gz tmp/databudgie-2.7.5.tar.gz --markdown 20230421/d/databudgie/2.7.4-2.7.5/diff.md --exclude *.pyd
+[2023-04-21 21:07:05] INFO root fetch - processPackages [spark-sql-to-sqlite]: executing diffoscope
+[2023-04-21 21:07:05] INFO root fetch - processPackages [spark-sql-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sql_to_sqlite-0.4.tar.gz tmp/spark_sql_to_sqlite-0.5.tar.gz --markdown 20230421/s/spark-sql-to-sqlite/0.4-0.5/diff.md --exclude *.pyd
+[2023-04-21 21:07:05] INFO root fetch - processPackages [cirrocumulus]: executing diffoscope
+[2023-04-21 21:07:05] INFO root fetch - processPackages [cirrocumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirrocumulus-1.1.9.post2.tar.gz tmp/cirrocumulus-1.1.9.post3.tar.gz --markdown 20230421/c/cirrocumulus/1.1.9.post2-1.1.9.post3/diff.md --exclude *.pyd
+[2023-04-21 21:07:05] INFO root fetch - processPackages [pylibraft-cu11]: executing diffoscope
+[2023-04-21 21:07:05] INFO root fetch - processPackages [pylibraft-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibraft_cu11-23.4.0.1681363053.tar.gz tmp/pylibraft_cu11-23.4.1.tar.gz --markdown 20230421/p/pylibraft-cu11/23.4.0.1681363053-23.4.1/diff.md --exclude *.pyd
+[2023-04-21 21:07:05] INFO root fetch - processPackages [edge-orm]: executing diffoscope
+[2023-04-21 21:07:05] INFO root fetch - processPackages [edge-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_orm-0.6.6.tar.gz tmp/edge_orm-0.6.7.tar.gz --markdown 20230421/e/edge-orm/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-04-21 21:07:05] INFO root fetch - processPackages [open-space-toolkit-mathematics]: Downloading https://files.pythonhosted.org/packages/fe/89/e1d765cc75f5f763b300e8575b84fb6dfbc70d3eab89df39214de0e5aac2/open_space_toolkit_mathematics-0.6.0-py39-none-any.whl
+[2023-04-21 21:07:05] INFO root fetch - processPackages [open-space-toolkit-mathematics]: executing diffoscope
+[2023-04-21 21:07:05] INFO root fetch - processPackages [open-space-toolkit-mathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_mathematics-0.5.2-py39-none-any.whl.zip tmp/open_space_toolkit_mathematics-0.6.0-py39-none-any.whl.zip --markdown 20230421/o/open-space-toolkit-mathematics/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-04-21 21:07:06] INFO root fetch - processPackages [PyGeodesy]: Downloading https://files.pythonhosted.org/packages/79/99/545e386b88f62cf599402e964d08e1f37fcacf758cbffa82818877f1a228/PyGeodesy-23.4.6.zip
+[2023-04-21 21:07:06] INFO root fetch - processPackages [chalk-harness]: Start processing: vtece4564-gamelib
+[2023-04-21 21:07:06] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-04-21 21:07:06] WARNING root fetch - processPackages [vtece4564-gamelib]: Skipping, unable to determine old version
+[2023-04-21 21:07:06] INFO root fetch - processPackages [vtece4564-gamelib]: Start processing: astro-sdk-python
+[2023-04-21 21:07:06] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib] error
+[2023-04-21 21:07:06] INFO root fetch - processPackages [td-ml-autosegmentation]: Start processing: calorine
+[2023-04-21 21:07:06] INFO root fetch - main [MainThread]: End processing [td-ml-autosegmentation]: success
+[2023-04-21 21:07:06] INFO root fetch - processPackages [astro-sdk-python]: New version: [1.6.0a1] Old Version: [1.5.3]
+[2023-04-21 21:07:06] INFO root fetch - processPackages [calorine]: New version: [1.6] Old Version: [1.5]
+[2023-04-21 21:07:06] INFO root fetch - processPackages [calorine]: Downloading https://files.pythonhosted.org/packages/7f/61/476061c1ee80d0f708ba1764aaae930c830fd7b0a30a64d3bc3cb5f4c5ae/calorine-1.5.tar.gz
+[2023-04-21 21:07:06] INFO root fetch - processPackages [astro-sdk-python]: Downloading https://files.pythonhosted.org/packages/a6/ce/fe50a63b5cd1a3d0e78cbd1b976eaf8ae04ef3ccf988fcb972e94338b3e5/astro-sdk-python-1.5.3.tar.gz
+[2023-04-21 21:07:06] INFO root fetch - processPackages [spark-sql-to-sqlite]: Start processing: chalk-harness
+[2023-04-21 21:07:06] INFO root fetch - main [MainThread]: End processing [spark-sql-to-sqlite]: success
+[2023-04-21 21:07:06] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-21 21:07:06] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-04-21 21:07:06] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230421/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 21:07:06] INFO root fetch - processPackages [astro-sdk-python]: Downloading https://files.pythonhosted.org/packages/ec/c0/135b9f2a4f51babd0597e1b86e4eb8b0e138010e6f6437258beb165ecdc3/astro-sdk-python-1.6.0a1.tar.gz
+[2023-04-21 21:07:07] INFO root fetch - processPackages [databudgie]: Start processing: traceable-agent
+[2023-04-21 21:07:07] INFO root fetch - main [MainThread]: End processing [databudgie]: success
+[2023-04-21 21:07:07] INFO root fetch - processPackages [traceable-agent]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-21 21:07:07] INFO root fetch - processPackages [calorine]: Downloading https://files.pythonhosted.org/packages/05/70/bd0a5851c081a6ec56e001fa3878209e6d01cc1e0dc1373b441a0b580244/calorine-1.6.tar.gz
+[2023-04-21 21:07:07] INFO root fetch - processPackages [pylibraft-cu11]: Start processing: flowws-structure-pretraining
+[2023-04-21 21:07:07] INFO root fetch - main [MainThread]: End processing [pylibraft-cu11]: success
+[2023-04-21 21:07:07] INFO root fetch - processPackages [flowws-structure-pretraining]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-21 21:07:07] INFO root fetch - processPackages [astro-sdk-python]: executing diffoscope
+[2023-04-21 21:07:07] INFO root fetch - processPackages [astro-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-sdk-python-1.5.3.tar.gz tmp/astro-sdk-python-1.6.0a1.tar.gz --markdown 20230421/a/astro-sdk-python/1.5.3-1.6.0a1/diff.md --exclude *.pyd
+[2023-04-21 21:07:07] INFO root fetch - processPackages [traceable-agent]: Downloading https://files.pythonhosted.org/packages/74/eb/728fa2143ca6362ac7ff59f7aba9c41a003584d94493f9deaa12f6dbe63d/traceable-agent-1.2.2.tar.gz
+[2023-04-21 21:07:07] INFO root fetch - processPackages [flowws-structure-pretraining]: Downloading https://files.pythonhosted.org/packages/e2/2a/1b7d93b5584cde75a87b8e6c15374d30b18f272d200fcc24de8e6c5102e2/flowws-structure-pretraining-0.1.0.tar.gz
+[2023-04-21 21:07:07] INFO root fetch - processPackages [PyGeodesy]: executing diffoscope
+[2023-04-21 21:07:07] INFO root fetch - processPackages [PyGeodesy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGeodesy-23.4.5.zip tmp/PyGeodesy-23.4.6.zip --markdown 20230421/P/PyGeodesy/23.4.5-23.4.6/diff.md --exclude *.pyd
+[2023-04-21 21:07:07] INFO root fetch - processPackages [calorine]: executing diffoscope
+[2023-04-21 21:07:07] INFO root fetch - processPackages [calorine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calorine-1.5.tar.gz tmp/calorine-1.6.tar.gz --markdown 20230421/c/calorine/1.5-1.6/diff.md --exclude *.pyd
+[2023-04-21 21:07:07] INFO root fetch - processPackages [traceable-agent]: Downloading https://files.pythonhosted.org/packages/a3/9b/f7199f7d59d25ffaa7b0b27856703535b639ee6624e09006f4065801539e/traceable-agent-1.2.3.tar.gz
+[2023-04-21 21:07:07] INFO root fetch - processPackages [flowws-structure-pretraining]: Downloading https://files.pythonhosted.org/packages/bb/9c/293e501576cc3e453c919e2f42d18332cce0529cbb5ba8d36311e94ab2a0/flowws-structure-pretraining-0.2.0.tar.gz
+[2023-04-21 21:07:07] INFO root fetch - processPackages [traceable-agent]: executing diffoscope
+[2023-04-21 21:07:07] INFO root fetch - processPackages [traceable-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceable-agent-1.2.2.tar.gz tmp/traceable-agent-1.2.3.tar.gz --markdown 20230421/t/traceable-agent/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-21 21:07:07] INFO root fetch - processPackages [flowws-structure-pretraining]: executing diffoscope
+[2023-04-21 21:07:07] INFO root fetch - processPackages [flowws-structure-pretraining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowws-structure-pretraining-0.1.0.tar.gz tmp/flowws-structure-pretraining-0.2.0.tar.gz --markdown 20230421/f/flowws-structure-pretraining/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 21:07:08] INFO root fetch - processPackages [edge-orm]: Start processing: neon-mq-connector
+[2023-04-21 21:07:08] INFO root fetch - main [MainThread]: End processing [edge-orm]: success
+[2023-04-21 21:07:08] INFO root fetch - processPackages [neon-mq-connector]: New version: [0.6.1a5] Old Version: [0.6.1a4]
+[2023-04-21 21:07:08] INFO root fetch - processPackages [neon-mq-connector]: Downloading https://files.pythonhosted.org/packages/af/c8/018a5faf19c5db07af355bf68ffbce9a123a5faf37b322edcea786ff302e/neon_mq_connector-0.6.1a5-py3-none-any.whl
+[2023-04-21 21:07:08] INFO root fetch - processPackages [neon-mq-connector]: executing diffoscope
+[2023-04-21 21:07:08] INFO root fetch - processPackages [neon-mq-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mq_connector-0.6.1a4-py3-none-any.whl.zip tmp/neon_mq_connector-0.6.1a5-py3-none-any.whl.zip --markdown 20230421/n/neon-mq-connector/0.6.1a4-0.6.1a5/diff.md --exclude *.pyd
+[2023-04-21 21:07:08] INFO root fetch - processPackages [chalk-harness]: Start processing: OncoAMBER
+[2023-04-21 21:07:08] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-04-21 21:07:08] INFO root fetch - processPackages [OncoAMBER]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 21:07:08] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-04-21 21:07:08] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.0.8.tar.gz tmp/OncoAMBER-1.0.9.tar.gz --markdown 20230421/O/OncoAMBER/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:07:09] INFO root fetch - main [MainThread]: End processing [astro-sdk-python]: success
+[2023-04-21 21:07:09] INFO root fetch - main [MainThread]: End processing [traceable-agent]: success
+[2023-04-21 21:07:10] INFO root fetch - main [MainThread]: End processing [neon-mq-connector]: success
+[2023-04-21 21:07:10] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-04-21 21:07:10] INFO root fetch - main [MainThread]: End processing [flowws-structure-pretraining]: success
+[2023-04-21 21:07:11] INFO root fetch - main [MainThread]: End processing [calorine]: success
+[2023-04-21 21:07:15] INFO root fetch - main [MainThread]: End processing [cirrocumulus]: success
+[2023-04-21 21:07:27] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-mathematics]: success
+[2023-04-21 21:07:45] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-04-21 21:07:57] INFO root fetch - main [MainThread]: End processing [PyGeodesy]: success
+[2023-04-21 21:07:57] INFO root fetch - main [MainThread]: Store serial: [17807465]
