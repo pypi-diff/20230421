@@ -14579,3 +14579,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 14:38:44] INFO root fetch - main [MainThread]: End processing [wikitext-asymptote]: success
 [2023-04-21 14:38:46] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
 [2023-04-21 14:38:46] INFO root fetch - main [MainThread]: Store serial: [17803099]
+[2023-04-21 14:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17803099]
+[2023-04-21 14:43:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorcircuit-nightly
+[2023-04-21 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirrocumulus
+[2023-04-21 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jina-now
+[2023-04-21 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unfold
+[2023-04-21 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaikosdk
+[2023-04-21 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xyz-py
+[2023-04-21 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: markit-realsense-recorder
+[2023-04-21 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: afwizard
+[2023-04-21 14:43:55] INFO root fetch - processPackages [unfold]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-21 14:43:55] INFO root fetch - processPackages [markit-realsense-recorder]: New version: [1.8.0] Old Version: [1.6]
+[2023-04-21 14:43:55] INFO root fetch - processPackages [xyz-py]: New version: [5.3.2] Old Version: [5.3.1]
+[2023-04-21 14:43:55] INFO root fetch - processPackages [cirrocumulus]: New version: [1.1.9.post3] Old Version: [1.1.9.post2]
+[2023-04-21 14:43:55] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.8.0.dev20230420] Old Version: [0.8.0.dev20230419]
+[2023-04-21 14:43:55] INFO root fetch - processPackages [kaikosdk]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-04-21 14:43:55] INFO root fetch - processPackages [jina-now]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-04-21 14:43:55] INFO root fetch - processPackages [afwizard]: New version: [1.0.0b9] Old Version: [1.0.0b7]
+[2023-04-21 14:43:55] INFO root fetch - processPackages [markit-realsense-recorder]: Downloading https://files.pythonhosted.org/packages/09/6e/de68c9ccbeecb7383bcc92b12646a41f1c216553d6eda583c5df624ec051/markit-realsense-recorder-1.6.tar.gz
+[2023-04-21 14:43:55] INFO root fetch - processPackages [unfold]: Downloading https://files.pythonhosted.org/packages/78/dc/69e834f9854d6c570640113ed2298d9aa47cb8c7ba88d52c7321a99acc16/unfold-1.0.6.tar.gz
+[2023-04-21 14:43:55] INFO root fetch - processPackages [xyz-py]: Downloading https://files.pythonhosted.org/packages/18/36/040f881a40df563d9ab35ac5276009c5d2198f417d4d80c57c102f566710/xyz_py-5.3.2.tar.gz
+[2023-04-21 14:43:55] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/9c/54/3fc80157dcffb50f8c13fe973dcc59db48ecde8ee3614cad8ef570caee46/tensorcircuit-nightly-0.8.0.dev20230420.tar.gz
+[2023-04-21 14:43:55] INFO root fetch - processPackages [afwizard]: Downloading https://files.pythonhosted.org/packages/cd/2f/e7b86b704b354edd1dbc315d0ed43e37e10035bac0c1d47781da674fa6e6/afwizard-1.0.0b7.tar.gz
+[2023-04-21 14:43:55] INFO root fetch - processPackages [xyz-py]: executing diffoscope
+[2023-04-21 14:43:55] INFO root fetch - processPackages [xyz-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_py-5.3.1.tar.gz tmp/xyz_py-5.3.2.tar.gz --markdown 20230421/x/xyz-py/5.3.1-5.3.2/diff.md --exclude *.pyd
+[2023-04-21 14:43:55] INFO root fetch - processPackages [cirrocumulus]: executing diffoscope
+[2023-04-21 14:43:55] INFO root fetch - processPackages [cirrocumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirrocumulus-1.1.9.post2.tar.gz tmp/cirrocumulus-1.1.9.post3.tar.gz --markdown 20230421/c/cirrocumulus/1.1.9.post2-1.1.9.post3/diff.md --exclude *.pyd
+[2023-04-21 14:43:55] INFO root fetch - processPackages [kaikosdk]: Downloading https://files.pythonhosted.org/packages/12/03/10b3af4ed7c6d6045313197b51090fea63bfc02a842bf67a301ff0d403e6/kaikosdk-1.8.0.tar.gz
+[2023-04-21 14:43:55] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-04-21 14:43:55] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.8.0.dev20230419.tar.gz tmp/tensorcircuit-nightly-0.8.0.dev20230420.tar.gz --markdown 20230421/t/tensorcircuit-nightly/0.8.0.dev20230419-0.8.0.dev20230420/diff.md --exclude *.pyd
+[2023-04-21 14:43:55] INFO root fetch - processPackages [jina-now]: executing diffoscope
+[2023-04-21 14:43:55] INFO root fetch - processPackages [jina-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-now-0.0.9.tar.gz tmp/jina-now-0.0.9.dev2.tar.gz --markdown 20230421/j/jina-now/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-04-21 14:43:55] INFO root fetch - processPackages [markit-realsense-recorder]: Downloading https://files.pythonhosted.org/packages/73/ab/6396533472857c9bd2dae4b79fc29100e7c1f30e847f95f39912aedd3d68/markit-realsense-recorder-1.8.0.tar.gz
+[2023-04-21 14:43:55] INFO root fetch - processPackages [kaikosdk]: executing diffoscope
+[2023-04-21 14:43:55] INFO root fetch - processPackages [kaikosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaikosdk-1.7.1.tar.gz tmp/kaikosdk-1.8.0.tar.gz --markdown 20230421/k/kaikosdk/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-04-21 14:43:55] INFO root fetch - processPackages [unfold]: Downloading https://files.pythonhosted.org/packages/10/96/a4d28d3e1558cedc616e0cc453d5250e6efd43645378579857d3db76f46c/unfold-1.0.7.tar.gz
+[2023-04-21 14:43:55] INFO root fetch - processPackages [markit-realsense-recorder]: executing diffoscope
+[2023-04-21 14:43:55] INFO root fetch - processPackages [markit-realsense-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markit-realsense-recorder-1.6.tar.gz tmp/markit-realsense-recorder-1.8.0.tar.gz --markdown 20230421/m/markit-realsense-recorder/1.6-1.8.0/diff.md --exclude *.pyd
+[2023-04-21 14:43:55] INFO root fetch - processPackages [afwizard]: Downloading https://files.pythonhosted.org/packages/bb/a7/a8239c79aeccc30a7f80bfccb3d2b567ad83b740683cb191f8a0a2e89b6c/afwizard-1.0.0b9.tar.gz
+[2023-04-21 14:43:56] INFO root fetch - processPackages [afwizard]: executing diffoscope
+[2023-04-21 14:43:56] INFO root fetch - processPackages [afwizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afwizard-1.0.0b7.tar.gz tmp/afwizard-1.0.0b9.tar.gz --markdown 20230421/a/afwizard/1.0.0b7-1.0.0b9/diff.md --exclude *.pyd
+[2023-04-21 14:43:56] INFO root fetch - processPackages [unfold]: executing diffoscope
+[2023-04-21 14:43:56] INFO root fetch - processPackages [unfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unfold-1.0.6.tar.gz tmp/unfold-1.0.7.tar.gz --markdown 20230421/u/unfold/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-21 14:43:57] INFO root fetch - main [MainThread]: End processing [xyz-py]: success
+[2023-04-21 14:43:57] INFO root fetch - main [MainThread]: End processing [kaikosdk]: success
+[2023-04-21 14:43:57] INFO root fetch - main [MainThread]: End processing [markit-realsense-recorder]: success
+[2023-04-21 14:43:57] INFO root fetch - main [MainThread]: End processing [jina-now]: success
+[2023-04-21 14:43:57] INFO root fetch - main [MainThread]: End processing [afwizard]: success
+[2023-04-21 14:43:57] INFO root fetch - main [MainThread]: End processing [unfold]: success
+[2023-04-21 14:43:58] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-04-21 14:44:03] INFO root fetch - main [MainThread]: End processing [cirrocumulus]: success
+[2023-04-21 14:44:03] INFO root fetch - main [MainThread]: Store serial: [17803120]
