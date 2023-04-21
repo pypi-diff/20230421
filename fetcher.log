@@ -13906,3 +13906,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 13:48:51] INFO root fetch - main [MainThread]: End processing [xinlan-tools]: success
 [2023-04-21 13:48:51] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
 [2023-04-21 13:48:51] INFO root fetch - main [MainThread]: Store serial: [17802527]
+[2023-04-21 13:53:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802527]
+[2023-04-21 13:54:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-21 13:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywdgen
+[2023-04-21 13:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mindsdb-sql
+[2023-04-21 13:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: converter-package
+[2023-04-21 13:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: returnn
+[2023-04-21 13:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: styledlogger
+[2023-04-21 13:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: databutton
+[2023-04-21 13:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: talos-install
+[2023-04-21 13:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torcheval-nightly
+[2023-04-21 13:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-crm-partner-assign
+[2023-04-21 13:54:00] INFO root fetch - processPackages [converter-package]: New version: [2.6] Old Version: [2.5]
+[2023-04-21 13:54:00] INFO root fetch - processPackages [pywdgen]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-21 13:54:00] INFO root fetch - processPackages [talos-install]: New version: [0.2.0.dev342] Old Version: [0.2.0.dev340]
+[2023-04-21 13:54:00] INFO root fetch - processPackages [torcheval-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-21 13:54:00] INFO root fetch - processPackages [mindsdb-sql]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-21 13:54:00] INFO root fetch - processPackages [returnn]: New version: [1.20230420.214350] Old Version: [1.20230419.94650]
+[2023-04-21 13:54:00] INFO root fetch - processPackages [converter-package]: executing diffoscope
+[2023-04-21 13:54:00] INFO root fetch - processPackages [converter-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/converter_package-2.5.tar.gz tmp/converter_package-2.6.tar.gz --markdown 20230421/c/converter-package/2.5-2.6/diff.md --exclude *.pyd
+[2023-04-21 13:54:00] INFO root fetch - processPackages [talos-install]: executing diffoscope
+[2023-04-21 13:54:00] WARNING root fetch - processPackages [styledlogger]: Skipping, unable to determine old version
+[2023-04-21 13:54:00] INFO root fetch - processPackages [talos-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talos_install-0.2.0.dev340.tar.gz tmp/talos_install-0.2.0.dev342.tar.gz --markdown 20230421/t/talos-install/0.2.0.dev340-0.2.0.dev342/diff.md --exclude *.pyd
+[2023-04-21 13:54:00] INFO root fetch - main [MainThread]: End processing [styledlogger] error
+[2023-04-21 13:54:00] WARNING root fetch - processPackages [odoo-addon-crm-partner-assign]: Skipping, unable to determine old version
+[2023-04-21 13:54:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-partner-assign] error
+[2023-04-21 13:54:00] INFO root fetch - processPackages [databutton]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-21 13:54:00] INFO root fetch - processPackages [mindsdb-sql]: executing diffoscope
+[2023-04-21 13:54:00] INFO root fetch - processPackages [mindsdb-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsdb_sql-0.5.1.tar.gz tmp/mindsdb_sql-0.6.0.tar.gz --markdown 20230421/m/mindsdb-sql/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-21 13:54:00] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2023-04-21 13:54:00] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2023.4.8.tar.gz tmp/torcheval-nightly-2023.4.9.tar.gz --markdown 20230421/t/torcheval-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-21 13:54:00] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-21 13:54:00] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230419.94650.tar.gz tmp/returnn-1.20230420.214350.tar.gz --markdown 20230421/r/returnn/1.20230419.94650-1.20230420.214350/diff.md --exclude *.pyd
+[2023-04-21 13:54:00] INFO root fetch - processPackages [pywdgen]: Downloading https://files.pythonhosted.org/packages/d6/5e/44d9e059ef644c65fe80a47370ac991cf15f62f6406ec1a968be9cbad38d/pywdgen-0.0.4.tar.gz
+[2023-04-21 13:54:00] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/97/e4/e81aa45e6614cc27e77afdc05bda0df053f47af67b7f10dd3fa7e90977bf/databutton-0.9.1.tar.gz
+[2023-04-21 13:54:00] INFO root fetch - processPackages [pywdgen]: Downloading https://files.pythonhosted.org/packages/cc/9b/b38bb71314773e98cb1586314c8e4f038f5cb365fdde4250c4f81635011f/pywdgen-0.0.5.tar.gz
+[2023-04-21 13:54:00] INFO root fetch - processPackages [pywdgen]: executing diffoscope
+[2023-04-21 13:54:00] INFO root fetch - processPackages [pywdgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywdgen-0.0.4.tar.gz tmp/pywdgen-0.0.5.tar.gz --markdown 20230421/p/pywdgen/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 13:54:00] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/5c/59/3ecc3881c8c0088b35a444d0208f992442d429068966d08be417ede43a72/databutton-0.9.2.tar.gz
+[2023-04-21 13:54:01] INFO root fetch - processPackages [databutton]: executing diffoscope
+[2023-04-21 13:54:01] INFO root fetch - processPackages [databutton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databutton-0.9.1.tar.gz tmp/databutton-0.9.2.tar.gz --markdown 20230421/d/databutton/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-21 13:54:02] INFO root fetch - main [MainThread]: End processing [converter-package]: success
+[2023-04-21 13:54:02] INFO root fetch - main [MainThread]: End processing [pywdgen]: success
+[2023-04-21 13:54:02] INFO root fetch - main [MainThread]: End processing [mindsdb-sql]: success
+[2023-04-21 13:54:02] INFO root fetch - main [MainThread]: End processing [talos-install]: success
+[2023-04-21 13:54:02] INFO root fetch - main [MainThread]: End processing [databutton]: success
+[2023-04-21 13:54:02] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2023-04-21 13:54:05] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-21 13:54:05] INFO root fetch - main [MainThread]: Store serial: [17802566]
