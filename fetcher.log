@@ -15747,3 +15747,147 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 15:42:49] INFO root fetch - main [MainThread]: End processing [hepai]: success
 [2023-04-21 15:42:52] INFO root fetch - main [MainThread]: End processing [chorde]: success
 [2023-04-21 15:42:52] INFO root fetch - main [MainThread]: Store serial: [17803830]
+[2023-04-21 15:47:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17803830]
+[2023-04-21 15:48:04] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-04-21 15:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-contract-employee-calendar-planning
+[2023-04-21 15:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snappi
+[2023-04-21 15:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: github-issue-extractor
+[2023-04-21 15:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inels-mqtt-new
+[2023-04-21 15:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb
+[2023-04-21 15:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-client
+[2023-04-21 15:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2023-04-21 15:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2023-04-21 15:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-protos
+[2023-04-21 15:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-sdk
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.7.0.post202] Old Version: [2.7.0.post201]
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-client]: New version: [2.7.0.post202] Old Version: [2.7.0.post201]
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-models]: New version: [2.7.0.post202] Old Version: [2.7.0.post201]
+[2023-04-21 15:48:04] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.7.0.post202] Old Version: [2.7.0.post201]
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb]: New version: [2.7.0.post202] Old Version: [2.7.0.post201]
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.7.0.post202] Old Version: [2.7.0.post201]
+[2023-04-21 15:48:04] WARNING root fetch - processPackages [github-issue-extractor]: Skipping, unable to determine old version
+[2023-04-21 15:48:04] INFO root fetch - processPackages [github-issue-extractor]: Start processing: nucliadb-utils
+[2023-04-21 15:48:04] INFO root fetch - main [MainThread]: End processing [github-issue-extractor] error
+[2023-04-21 15:48:04] WARNING root fetch - processPackages [odoo-addon-hr-contract-employee-calendar-planning]: Skipping, unable to determine old version
+[2023-04-21 15:48:04] INFO root fetch - processPackages [odoo-addon-hr-contract-employee-calendar-planning]: Start processing: eta-utility
+[2023-04-21 15:48:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-contract-employee-calendar-planning] error
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.7.0.post201-py3-none-any.whl.zip tmp/nucliadb-2.7.0.post202-py3-none-any.whl.zip --markdown 20230421/n/nucliadb/2.7.0.post201-2.7.0.post202/diff.md --exclude *.pyd
+[2023-04-21 15:48:04] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-04-21 15:48:04] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230421/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.7.0.post202] Old Version: [2.7.0.post201]
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.7.0.post201-py3-none-any.whl.zip tmp/nucliadb_models-2.7.0.post202-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-models/2.7.0.post201-2.7.0.post202/diff.md --exclude *.pyd
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.7.0.post201-py3-none-any.whl.zip tmp/nucliadb_client-2.7.0.post202-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-client/2.7.0.post201-2.7.0.post202/diff.md --exclude *.pyd
+[2023-04-21 15:48:04] INFO root fetch - processPackages [snappi]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.7.0.post201-py3-none-any.whl.zip tmp/nucliadb_sdk-2.7.0.post202-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-sdk/2.7.0.post201-2.7.0.post202/diff.md --exclude *.pyd
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.7.0.post201-py3-none-any.whl.zip tmp/nucliadb_dataset-2.7.0.post202-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-dataset/2.7.0.post201-2.7.0.post202/diff.md --exclude *.pyd
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.7.0.post201-py3-none-any.whl.zip tmp/nucliadb_protos-2.7.0.post202-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-protos/2.7.0.post201-2.7.0.post202/diff.md --exclude *.pyd
+[2023-04-21 15:48:04] INFO root fetch - processPackages [eta-utility]: New version: [2.2.3b2] Old Version: [2.2.3b1]
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-04-21 15:48:04] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.7.0.post201-py3-none-any.whl.zip tmp/nucliadb_utils-2.7.0.post202-py3-none-any.whl.zip --markdown 20230421/n/nucliadb-utils/2.7.0.post201-2.7.0.post202/diff.md --exclude *.pyd
+[2023-04-21 15:48:04] INFO root fetch - processPackages [eta-utility]: Downloading https://files.pythonhosted.org/packages/26/d1/b47d3132ba08b78990cbcca61c351deb8f34d71bb71b1fde2bb04255ded4/eta_utility-2.2.3b1.tar.gz
+[2023-04-21 15:48:04] INFO root fetch - processPackages [snappi]: executing diffoscope
+[2023-04-21 15:48:04] INFO root fetch - processPackages [snappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snappi-0.9.7.tar.gz tmp/snappi-0.9.8.tar.gz --markdown 20230421/s/snappi/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-21 15:48:04] WARNING root fetch - processPackages [eta-utility]: Skipping package: exceeds size limit 15653480>=10485760
+[2023-04-21 15:48:04] INFO root fetch - processPackages [eta-utility]: Start processing: pynnacle
+[2023-04-21 15:48:04] INFO root fetch - main [MainThread]: End processing [eta-utility] error
+[2023-04-21 15:48:04] INFO root fetch - processPackages [pynnacle]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-21 15:48:05] INFO root fetch - processPackages [pynnacle]: Downloading https://files.pythonhosted.org/packages/9a/c3/6075a71d18ad16610dd5f026eedbeed25206d786953ac900d156a8186a1a/pynnacle-1.1.1.tar.gz
+[2023-04-21 15:48:05] INFO root fetch - processPackages [pynnacle]: Downloading https://files.pythonhosted.org/packages/4d/ed/c4a89bb55998dc4fcbb4ff98bf1cb541a09733690b208aa4233f009ec159/pynnacle-1.1.2.tar.gz
+[2023-04-21 15:48:05] INFO root fetch - processPackages [pynnacle]: executing diffoscope
+[2023-04-21 15:48:05] INFO root fetch - processPackages [pynnacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynnacle-1.1.1.tar.gz tmp/pynnacle-1.1.2.tar.gz --markdown 20230421/p/pynnacle/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-21 15:48:06] INFO root fetch - processPackages [inels-mqtt-new]: Start processing: modal-client
+[2023-04-21 15:48:06] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-04-21 15:48:06] INFO root fetch - processPackages [modal-client]: New version: [0.49.2005] Old Version: [0.49.2001]
+[2023-04-21 15:48:06] INFO root fetch - processPackages [nucliadb-models]: Start processing: xia-scw-instance
+[2023-04-21 15:48:06] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-04-21 15:48:06] INFO root fetch - processPackages [xia-scw-instance]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 15:48:06] INFO root fetch - processPackages [xia-scw-instance]: executing diffoscope
+[2023-04-21 15:48:06] INFO root fetch - processPackages [xia-scw-instance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_instance-0.0.3-cp39-none-win_amd64.whl.zip tmp/xia_scw_instance-0.0.4-cp39-none-win_amd64.whl.zip --markdown 20230421/x/xia-scw-instance/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 15:48:06] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/5c/3d/f580578a82e39b7cb735d0828689d0cb9c3db5d82c712109e118bb354adb/modal_client-0.49.2005-py3-none-any.whl
+[2023-04-21 15:48:06] INFO root fetch - processPackages [nucliadb-client]: Start processing: PyFINPUT
+[2023-04-21 15:48:06] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-04-21 15:48:06] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-04-21 15:48:06] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2001-py3-none-any.whl.zip tmp/modal_client-0.49.2005-py3-none-any.whl.zip --markdown 20230421/m/modal-client/0.49.2001-0.49.2005/diff.md --exclude *.pyd
+[2023-04-21 15:48:06] INFO root fetch - processPackages [PyFINPUT]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 15:48:06] INFO root fetch - processPackages [nucliadb-protos]: Start processing: cirq-aqt
+[2023-04-21 15:48:06] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-04-21 15:48:06] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-21 15:48:06] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: cirq-pasqal
+[2023-04-21 15:48:06] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-04-21 15:48:06] INFO root fetch - processPackages [PyFINPUT]: executing diffoscope
+[2023-04-21 15:48:06] INFO root fetch - processPackages [PyFINPUT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFINPUT-0.0.2.tar.gz tmp/PyFINPUT-0.0.3.tar.gz --markdown 20230421/P/PyFINPUT/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 15:48:06] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-21 15:48:06] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-04-21 15:48:06] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230421/c/cirq-aqt/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-21 15:48:06] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-04-21 15:48:06] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230421/c/cirq-pasqal/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-21 15:48:06] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: cirq-ionq
+[2023-04-21 15:48:06] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-04-21 15:48:06] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-21 15:48:06] INFO root fetch - processPackages [nucliadb-utils]: Start processing: cirq-core
+[2023-04-21 15:48:06] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-04-21 15:48:06] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-21 15:48:06] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-04-21 15:48:06] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230421/c/cirq-ionq/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-21 15:48:07] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-04-21 15:48:07] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230421/c/cirq-core/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-21 15:48:07] INFO root fetch - processPackages [pynnacle]: Start processing: always-updates
+[2023-04-21 15:48:07] INFO root fetch - main [MainThread]: End processing [pynnacle]: success
+[2023-04-21 15:48:07] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-21 15:48:07] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-21 15:48:07] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230421/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-21 15:48:08] INFO root fetch - processPackages [xia-scw-instance]: Start processing: cirq
+[2023-04-21 15:48:08] INFO root fetch - main [MainThread]: End processing [xia-scw-instance]: success
+[2023-04-21 15:48:08] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-21 15:48:08] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-04-21 15:48:08] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230421/c/cirq/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-21 15:48:08] INFO root fetch - processPackages [PyFINPUT]: Start processing: cirq-google
+[2023-04-21 15:48:08] INFO root fetch - main [MainThread]: End processing [PyFINPUT]: success
+[2023-04-21 15:48:08] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-21 15:48:08] INFO root fetch - processPackages [nucliadb]: Start processing: cirq-rigetti
+[2023-04-21 15:48:08] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-04-21 15:48:08] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-21 15:48:08] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-04-21 15:48:08] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230421/c/cirq-google/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-21 15:48:08] INFO root fetch - processPackages [cirq-aqt]: Start processing: cirq-web
+[2023-04-21 15:48:08] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-04-21 15:48:08] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-21 15:48:08] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-04-21 15:48:08] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230421/c/cirq-rigetti/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-21 15:48:09] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-04-21 15:48:09] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230421/c/cirq-web/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-21 15:48:09] INFO root fetch - processPackages [cirq-pasqal]: Start processing: dfsjson
+[2023-04-21 15:48:09] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-04-21 15:48:09] INFO root fetch - processPackages [dfsjson]: New version: [1.0.9] Old Version: [1.0.6]
+[2023-04-21 15:48:09] INFO root fetch - processPackages [cirq-ionq]: Start processing: saffier
+[2023-04-21 15:48:09] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-04-21 15:48:09] INFO root fetch - processPackages [always-updates]: Start processing: dj-test-queries
+[2023-04-21 15:48:09] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-21 15:48:09] INFO root fetch - processPackages [dj-test-queries]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 15:48:09] INFO root fetch - processPackages [saffier]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-04-21 15:48:09] INFO root fetch - processPackages [dj-test-queries]: executing diffoscope
+[2023-04-21 15:48:09] INFO root fetch - processPackages [dj-test-queries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-test-queries-0.1.0.tar.gz tmp/dj-test-queries-0.1.1.tar.gz --markdown 20230421/d/dj-test-queries/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 15:48:09] INFO root fetch - processPackages [dfsjson]: executing diffoscope
+[2023-04-21 15:48:09] INFO root fetch - processPackages [dfsjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfsjson-1.0.6.tar.gz tmp/dfsjson-1.0.9.tar.gz --markdown 20230421/d/dfsjson/1.0.6-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 15:48:09] INFO root fetch - processPackages [saffier]: Downloading https://files.pythonhosted.org/packages/b7/5e/113c4a7456668002bb4972ed8dfdff3d081de84a37b165c51282a0b90c08/saffier-0.6.1.tar.gz
+[2023-04-21 15:48:09] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-04-21 15:48:09] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-04-21 15:48:09] INFO root fetch - processPackages [saffier]: Downloading https://files.pythonhosted.org/packages/e7/09/436d7783248a7d05c80113f9b9b3c5a1c5e25f8ec2ed416b5790c5385513/saffier-0.7.0.tar.gz
+[2023-04-21 15:48:09] INFO root fetch - processPackages [saffier]: executing diffoscope
+[2023-04-21 15:48:09] INFO root fetch - processPackages [saffier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saffier-0.6.1.tar.gz tmp/saffier-0.7.0.tar.gz --markdown 20230421/s/saffier/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-04-21 15:48:11] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-04-21 15:48:11] INFO root fetch - main [MainThread]: End processing [dj-test-queries]: success
+[2023-04-21 15:48:11] INFO root fetch - main [MainThread]: End processing [dfsjson]: success
+[2023-04-21 15:48:11] INFO root fetch - main [MainThread]: End processing [snappi]: success
+[2023-04-21 15:48:11] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-04-21 15:48:12] INFO root fetch - main [MainThread]: End processing [saffier]: success
+[2023-04-21 15:48:13] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-04-21 15:48:22] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-04-21 15:48:22] INFO root fetch - main [MainThread]: Store serial: [17803911]
