@@ -6887,3 +6887,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 04:54:20] INFO root fetch - main [MainThread]: End processing [sunyata]: success
 [2023-04-21 04:54:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-facebody20191230]: success
 [2023-04-21 04:54:22] INFO root fetch - main [MainThread]: Store serial: [17798492]
+[2023-04-21 04:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798492]
+[2023-04-21 04:59:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 04:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hab
+[2023-04-21 04:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ifunnygifmaker
+[2023-04-21 04:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsptrain
+[2023-04-21 04:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poseidon-python
+[2023-04-21 04:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autoprof
+[2023-04-21 04:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opvious
+[2023-04-21 04:59:31] INFO root fetch - processPackages [lsptrain]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-04-21 04:59:31] INFO root fetch - processPackages [autoprof]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-21 04:59:31] INFO root fetch - processPackages [hab]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-21 04:59:31] INFO root fetch - processPackages [ifunnygifmaker]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 04:59:31] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-21 04:59:31] INFO root fetch - processPackages [poseidon-python]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-21 04:59:31] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-04-21 04:59:31] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230421/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 04:59:31] INFO root fetch - processPackages [hab]: executing diffoscope
+[2023-04-21 04:59:31] INFO root fetch - processPackages [hab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hab-0.8.0-py3-none-any.whl.zip tmp/hab-0.9.0-py3-none-any.whl.zip --markdown 20230421/h/hab/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 04:59:31] INFO root fetch - processPackages [autoprof]: Downloading https://files.pythonhosted.org/packages/b2/b1/5bb8f80d2e44e14a7b820e80d81065cac74d2116c2eff21b80f1431f2650/autoprof-0.6.1-py2.py3-none-any.whl
+[2023-04-21 04:59:31] INFO root fetch - processPackages [lsptrain]: Downloading https://files.pythonhosted.org/packages/39/1d/56c0622b86a839ef59c7393049c6e8458b7454dedd4b091fbb7d97f18275/lsptrain-0.0.42.tar.gz
+[2023-04-21 04:59:31] INFO root fetch - processPackages [poseidon-python]: Downloading https://files.pythonhosted.org/packages/89/d0/adb7cf935b0cac63b38754584c09a3d982718137422d34823d22fe733bf0/poseidon-python-1.1.4.tar.gz
+[2023-04-21 04:59:31] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/ec/30/20d1a194b94f8bd2d4cbfcdecc2c4c40bbb609763590bdb6a0c45dbf34fd/ifunnygifmaker-0.1.3.tar.gz
+[2023-04-21 04:59:31] INFO root fetch - processPackages [lsptrain]: executing diffoscope
+[2023-04-21 04:59:31] INFO root fetch - processPackages [lsptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsptrain-0.0.41.tar.gz tmp/lsptrain-0.0.42.tar.gz --markdown 20230421/l/lsptrain/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-04-21 04:59:31] INFO root fetch - processPackages [ifunnygifmaker]: executing diffoscope
+[2023-04-21 04:59:31] INFO root fetch - processPackages [ifunnygifmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifunnygifmaker-0.1.2.tar.gz tmp/ifunnygifmaker-0.1.3.tar.gz --markdown 20230421/i/ifunnygifmaker/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 04:59:31] INFO root fetch - processPackages [autoprof]: Downloading https://files.pythonhosted.org/packages/71/b9/2aee1e020868423d3bdf215f6b8fd8458d5d14efd05d46870d4ebd2140c0/autoprof-0.6.2-py2.py3-none-any.whl
+[2023-04-21 04:59:31] INFO root fetch - processPackages [poseidon-python]: Downloading https://files.pythonhosted.org/packages/b7/c6/fef8a6b24124d4440051de5924cb874fea900c21a3a9587c5ad031112f82/poseidon-python-1.1.5.tar.gz
+[2023-04-21 04:59:31] INFO root fetch - processPackages [autoprof]: executing diffoscope
+[2023-04-21 04:59:31] INFO root fetch - processPackages [autoprof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoprof-0.6.1-py2.py3-none-any.whl.zip tmp/autoprof-0.6.2-py2.py3-none-any.whl.zip --markdown 20230421/a/autoprof/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-21 04:59:31] INFO root fetch - processPackages [poseidon-python]: executing diffoscope
+[2023-04-21 04:59:31] INFO root fetch - processPackages [poseidon-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poseidon-python-1.1.4.tar.gz tmp/poseidon-python-1.1.5.tar.gz --markdown 20230421/p/poseidon-python/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-21 04:59:32] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker]: success
+[2023-04-21 04:59:32] INFO root fetch - main [MainThread]: End processing [hab]: success
+[2023-04-21 04:59:32] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
+[2023-04-21 04:59:32] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-04-21 04:59:33] INFO root fetch - main [MainThread]: End processing [poseidon-python]: success
+[2023-04-21 04:59:33] INFO root fetch - main [MainThread]: End processing [autoprof]: success
+[2023-04-21 04:59:33] INFO root fetch - main [MainThread]: Store serial: [17798508]
