@@ -18975,3 +18975,53 @@ EOFError: EOF read where object expected
 [2023-04-21 18:30:14] INFO root fetch - main [MainThread]: End processing [ibmsecurity]: success
 [2023-04-21 18:30:17] INFO root fetch - main [MainThread]: End processing [linearmodels]: success
 [2023-04-21 18:30:17] INFO root fetch - main [MainThread]: Store serial: [17805949]
+[2023-04-21 18:35:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805949]
+[2023-04-21 18:35:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Bingus-Tools
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MotorDeCalidad
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maxilearn
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ephysiopy
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rdvac6
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fabrictestbed-extensions
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unified-planning
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maxilearn
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aind-data-schema
+[2023-04-21 18:35:27] INFO root fetch - processPackages [maxilearn]: New version: [0.4.4] Old Version: [0.4.0]
+[2023-04-21 18:35:27] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.4.2rc6] Old Version: [1.4.2rc5]
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ephysiopy]: New version: [1.9.12] Old Version: [1.9.11]
+[2023-04-21 18:35:27] INFO root fetch - processPackages [maxilearn]: New version: [0.4.4] Old Version: [0.4.0]
+[2023-04-21 18:35:27] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-21 18:35:27] INFO root fetch - processPackages [Bingus-Tools]: New version: [0.1.2.4] Old Version: [0.1.2.3]
+[2023-04-21 18:35:27] WARNING root fetch - processPackages [rdvac6]: Skipping, unable to determine old version
+[2023-04-21 18:35:27] INFO root fetch - main [MainThread]: End processing [rdvac6] error
+[2023-04-21 18:35:27] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-21 18:35:27] INFO root fetch - processPackages [unified-planning]: New version: [0.5.0.93.dev1] Old Version: [0.5.0.7.dev1]
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2023-04-21 18:35:27] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-1.9.11.tar.gz tmp/ephysiopy-1.9.12.tar.gz --markdown 20230421/e/ephysiopy/1.9.11-1.9.12/diff.md --exclude *.pyd
+[2023-04-21 18:35:27] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-04-21 18:35:27] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.4.2rc5.tar.gz tmp/fabrictestbed-extensions-1.4.2rc6.tar.gz --markdown 20230421/f/fabrictestbed-extensions/1.4.2rc5-1.4.2rc6/diff.md --exclude *.pyd
+[2023-04-21 18:35:27] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-04-21 18:35:27] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230421/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 18:35:27] INFO root fetch - processPackages [Bingus-Tools]: Downloading https://files.pythonhosted.org/packages/d7/c4/f0495ea35f28fc64b33a4376a9438f56052e2fd36ca06a2a2e9ea0913e4b/Bingus_Tools-0.1.2.3-py3-none-any.whl
+[2023-04-21 18:35:27] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-04-21 18:35:27] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.5.0.7.dev1.tar.gz tmp/unified_planning-0.5.0.93.dev1.tar.gz --markdown 20230421/u/unified-planning/0.5.0.7.dev1-0.5.0.93.dev1/diff.md --exclude *.pyd
+[2023-04-21 18:35:27] INFO root fetch - processPackages [Bingus-Tools]: Downloading https://files.pythonhosted.org/packages/2d/be/d789d13bfb5ac4596ca5ed3cbdc4dd386762acfed8cbe04fee706d3ef0b8/Bingus_Tools-0.1.2.4.tar.gz
+[2023-04-21 18:35:27] INFO root fetch - processPackages [Bingus-Tools]: executing diffoscope
+[2023-04-21 18:35:27] INFO root fetch - processPackages [Bingus-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bingus_Tools-0.1.2.3-py3-none-any.whl.zip tmp/Bingus_Tools-0.1.2.4.tar.gz --markdown 20230421/B/Bingus-Tools/0.1.2.3-0.1.2.4/diff.md --exclude *.pyd
+[2023-04-21 18:35:28] INFO root fetch - processPackages [maxilearn]: Downloading https://files.pythonhosted.org/packages/30/36/5bccc498bbba057ebcc242fac59aaa9032d39336dacb54a5693884de8fb0/maxilearn-0.4.4.tar.gz
+[2023-04-21 18:35:28] INFO root fetch - processPackages [maxilearn]: Downloading https://files.pythonhosted.org/packages/30/36/5bccc498bbba057ebcc242fac59aaa9032d39336dacb54a5693884de8fb0/maxilearn-0.4.4.tar.gz
+[2023-04-21 18:35:28] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2023-04-21 18:35:28] INFO root fetch - processPackages [maxilearn]: executing diffoscope
+[2023-04-21 18:35:28] INFO root fetch - processPackages [maxilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxilearn-0.4.0.tar.gz tmp/maxilearn-0.4.4.tar.gz --markdown 20230421/m/maxilearn/0.4.0-0.4.4/diff.md --exclude *.pyd
+[2023-04-21 18:35:28] INFO root fetch - processPackages [maxilearn]: executing diffoscope
+[2023-04-21 18:35:28] INFO root fetch - processPackages [maxilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxilearn-0.4.0.tar.gz tmp/maxilearn-0.4.4.tar.gz --markdown 20230421/m/maxilearn/0.4.0-0.4.4/diff.md --exclude *.pyd
+[2023-04-21 18:35:28] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-04-21 18:35:28] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-04-21 18:35:28] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230421/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-21 18:35:29] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-04-21 18:35:29] INFO root fetch - main [MainThread]: End processing [Bingus-Tools]: success
+[2023-04-21 18:35:30] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-04-21 18:35:30] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
+[2023-04-21 18:35:30] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
+[2023-04-21 18:35:30] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-04-21 18:35:30] INFO root fetch - main [MainThread]: Store serial: [17805986]
