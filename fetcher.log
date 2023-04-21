@@ -9490,3 +9490,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 09:11:05] INFO root fetch - main [MainThread]: End processing [zelos-demeter]: success
 [2023-04-21 09:11:16] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-04-21 09:11:16] INFO root fetch - main [MainThread]: Store serial: [17800070]
+[2023-04-21 09:16:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800070]
+[2023-04-21 09:16:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-21 09:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-21 09:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digautoprofiler
+[2023-04-21 09:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-source-mongo
+[2023-04-21 09:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfq-nightly
+[2023-04-21 09:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygofile2
+[2023-04-21 09:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-sam
+[2023-04-21 09:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ybam
+[2023-04-21 09:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vellumdev
+[2023-04-21 09:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MetaMatching
+[2023-04-21 09:16:25] INFO root fetch - processPackages [digautoprofiler]: New version: [1.0.0] Old Version: [0.2.9]
+[2023-04-21 09:16:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-21 09:16:25] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230420] Old Version: [0.7.3.dev20230419]
+[2023-04-21 09:16:25] WARNING root fetch - processPackages [ybam]: Skipping, unable to determine old version
+[2023-04-21 09:16:25] INFO root fetch - processPackages [napari-sam]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 09:16:25] INFO root fetch - main [MainThread]: End processing [ybam] error
+[2023-04-21 09:16:25] INFO root fetch - processPackages [digautoprofiler]: executing diffoscope
+[2023-04-21 09:16:25] INFO root fetch - processPackages [digautoprofiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digautoprofiler-0.2.9.tar.gz tmp/digautoprofiler-1.0.0.tar.gz --markdown 20230421/d/digautoprofiler/0.2.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-21 09:16:25] INFO root fetch - processPackages [macrometa-source-mongo]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-04-21 09:16:25] WARNING root fetch - processPackages [MetaMatching]: Skipping, unable to determine old version
+[2023-04-21 09:16:25] INFO root fetch - main [MainThread]: End processing [MetaMatching] error
+[2023-04-21 09:16:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-21 09:16:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230421/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 09:16:25] INFO root fetch - processPackages [vellumdev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 09:16:25] WARNING root fetch - processPackages [pygofile2]: Skipping, unable to determine old version
+[2023-04-21 09:16:25] INFO root fetch - main [MainThread]: End processing [pygofile2] error
+[2023-04-21 09:16:25] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-04-21 09:16:25] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.3.8.tar.gz tmp/napari-sam-0.3.9.tar.gz --markdown 20230421/n/napari-sam/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 09:16:25] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/15/75/ea01d9893084a7457c93747d90112e67c2f627fea376ca705dafb5baf00c/tfq_nightly-0.7.3.dev20230419-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 09:16:25] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819848>=10485760
+[2023-04-21 09:16:25] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-04-21 09:16:25] INFO root fetch - processPackages [macrometa-source-mongo]: Downloading https://files.pythonhosted.org/packages/55/1b/4eba08075f88a1d0c67adc2ea76630f54e578a74f08285f86280e1e4fa7d/macrometa-source-mongo-0.0.34.tar.gz
+[2023-04-21 09:16:25] INFO root fetch - processPackages [vellumdev]: executing diffoscope
+[2023-04-21 09:16:25] INFO root fetch - processPackages [vellumdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellumdev-0.0.8.tar.gz tmp/vellumdev-0.0.9-py3-none-any.whl.zip --markdown 20230421/v/vellumdev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 09:16:25] INFO root fetch - processPackages [macrometa-source-mongo]: executing diffoscope
+[2023-04-21 09:16:25] INFO root fetch - processPackages [macrometa-source-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mongo-0.0.33.tar.gz tmp/macrometa-source-mongo-0.0.34.tar.gz --markdown 20230421/m/macrometa-source-mongo/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-04-21 09:16:26] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-04-21 09:16:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-21 09:16:26] INFO root fetch - main [MainThread]: End processing [vellumdev]: success
+[2023-04-21 09:16:27] INFO root fetch - main [MainThread]: End processing [macrometa-source-mongo]: success
+[2023-04-21 09:16:32] INFO root fetch - main [MainThread]: End processing [digautoprofiler]: success
+[2023-04-21 09:16:32] INFO root fetch - main [MainThread]: Store serial: [17800103]
