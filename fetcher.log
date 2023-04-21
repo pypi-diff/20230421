@@ -19130,3 +19130,136 @@ EOFError: EOF read where object expected
 [2023-04-21 18:40:47] INFO root fetch - main [MainThread]: End processing [tsidpy]: success
 [2023-04-21 18:40:55] INFO root fetch - main [MainThread]: End processing [cornflakes]: success
 [2023-04-21 18:40:55] INFO root fetch - main [MainThread]: Store serial: [17806058]
+[2023-04-21 18:45:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806058]
+[2023-04-21 18:46:05] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-21 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ratinabox
+[2023-04-21 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talos-install
+[2023-04-21 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-jwt-oidc
+[2023-04-21 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maxilearn
+[2023-04-21 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aind-metadata-service
+[2023-04-21 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: regularizepsf
+[2023-04-21 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: varsdump
+[2023-04-21 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: starbot-bilibili
+[2023-04-21 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OncoAMBER
+[2023-04-21 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iseg-nhr
+[2023-04-21 18:46:05] INFO root fetch - processPackages [maxilearn]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-04-21 18:46:05] WARNING root fetch - processPackages [iseg-nhr]: Skipping, unable to determine old version
+[2023-04-21 18:46:05] WARNING root fetch - processPackages [varsdump]: Skipping, unable to determine old version
+[2023-04-21 18:46:05] INFO root fetch - processPackages [OncoAMBER]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-21 18:46:05] INFO root fetch - processPackages [iseg-nhr]: Start processing: netbox-tunnels2
+[2023-04-21 18:46:05] INFO root fetch - processPackages [varsdump]: Start processing: pypcapkit
+[2023-04-21 18:46:05] INFO root fetch - main [MainThread]: End processing [iseg-nhr] error
+[2023-04-21 18:46:05] INFO root fetch - main [MainThread]: End processing [varsdump] error
+[2023-04-21 18:46:05] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-04-21 18:46:05] INFO root fetch - processPackages [maxilearn]: executing diffoscope
+[2023-04-21 18:46:05] INFO root fetch - processPackages [maxilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxilearn-0.4.7.tar.gz tmp/maxilearn-0.4.8-py3-none-any.whl.zip --markdown 20230421/m/maxilearn/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-04-21 18:46:05] INFO root fetch - processPackages [django-jwt-oidc]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 18:46:05] INFO root fetch - processPackages [aind-metadata-service]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-04-21 18:46:05] INFO root fetch - processPackages [regularizepsf]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-21 18:46:05] ERROR root fetch - processPackages [starbot-bilibili]: Unable to get metadata: No such project 'starbot-bilibili'
+[2023-04-21 18:46:05] INFO root fetch - processPackages [talos-install]: New version: [0.2.0.dev351] Old Version: [0.2.0.dev350]
+[2023-04-21 18:46:05] INFO root fetch - processPackages [starbot-bilibili]: Start processing: coderedcms
+[2023-04-21 18:46:05] INFO root fetch - main [MainThread]: End processing [starbot-bilibili] error
+[2023-04-21 18:46:05] INFO root fetch - processPackages [ratinabox]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-04-21 18:46:05] INFO root fetch - processPackages [netbox-tunnels2]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 18:46:05] INFO root fetch - processPackages [coderedcms]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-21 18:46:06] INFO root fetch - processPackages [coderedcms]: Downloading https://files.pythonhosted.org/packages/6f/60/1b124b8797fbbda01a9bf84eb4e5d6378318aa1ef37e2380a67635e4b91c/coderedcms-2.0.0.tar.gz
+[2023-04-21 18:46:06] INFO root fetch - processPackages [coderedcms]: Downloading https://files.pythonhosted.org/packages/3a/c5/6d7929cf1338ae75d03b88447150ed81d56140f4ebbccc7e1b7ce2a626ad/coderedcms-2.1.0.tar.gz
+[2023-04-21 18:46:06] INFO root fetch - processPackages [maxilearn]: Start processing: edg
+[2023-04-21 18:46:06] INFO root fetch - processPackages [ratinabox]: Downloading https://files.pythonhosted.org/packages/df/bd/bae384c3cf69b3945ddd9825d7fc0e53e93a31d61f5ad7e7957c59c336b9/ratinabox-1.5.1.tar.gz
+[2023-04-21 18:46:06] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
+[2023-04-21 18:46:06] INFO root fetch - processPackages [django-jwt-oidc]: Downloading https://files.pythonhosted.org/packages/37/bd/6e6c105cfc815559289cb1cac2d0f981188c1d6fdbfbc275dee9767f2ab2/django-jwt-oidc-1.0.2.tar.gz
+[2023-04-21 18:46:06] WARNING root fetch - processPackages [edg]: Skipping, unable to determine old version
+[2023-04-21 18:46:06] INFO root fetch - processPackages [edg]: Start processing: mtpandas
+[2023-04-21 18:46:06] INFO root fetch - main [MainThread]: End processing [edg] error
+[2023-04-21 18:46:06] INFO root fetch - processPackages [regularizepsf]: Downloading https://files.pythonhosted.org/packages/a8/c6/0bfe8acdb3155fdb98a834de15937f7e1537e0394b9eaa042e98c91d83a0/regularizepsf-0.1.0.tar.gz
+[2023-04-21 18:46:06] INFO root fetch - processPackages [OncoAMBER]: Downloading https://files.pythonhosted.org/packages/5f/b6/48318662f078febb318b2799b23d5aca600c98c73331ffd610a6b8f539b5/OncoAMBER-1.0.7.tar.gz
+[2023-04-21 18:46:06] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/a0/c7/053867586203118a95490dfada25e626c325a8d62714b365276d692d6a26/pypcapkit-1.0.0b3.tar.gz
+[2023-04-21 18:46:06] INFO root fetch - processPackages [mtpandas]: New version: [1.9.202208120520] Old Version: [1.9.202208011136]
+[2023-04-21 18:46:07] INFO root fetch - processPackages [coderedcms]: executing diffoscope
+[2023-04-21 18:46:07] INFO root fetch - processPackages [coderedcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coderedcms-2.0.0.tar.gz tmp/coderedcms-2.1.0.tar.gz --markdown 20230421/c/coderedcms/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-21 18:46:07] INFO root fetch - processPackages [django-jwt-oidc]: Downloading https://files.pythonhosted.org/packages/5b/93/91b794af20708f7efa7f21c96891ffc0ddb3471fe4a12d7d5100691d48be/django-jwt-oidc-1.0.3.tar.gz
+[2023-04-21 18:46:07] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-04-21 18:46:07] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.0.6.tar.gz tmp/OncoAMBER-1.0.7.tar.gz --markdown 20230421/O/OncoAMBER/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-21 18:46:07] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-04-21 18:46:07] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.0b2.tar.gz tmp/pypcapkit-1.0.0b3.tar.gz --markdown 20230421/p/pypcapkit/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-04-21 18:46:07] INFO root fetch - processPackages [regularizepsf]: Downloading https://files.pythonhosted.org/packages/4d/b4/f4db3f8708797a4074f765f7aac50732ea97dcaecfba46974fb779684368/regularizepsf-0.2.0.tar.gz
+[2023-04-21 18:46:07] INFO root fetch - processPackages [django-jwt-oidc]: executing diffoscope
+[2023-04-21 18:46:07] INFO root fetch - processPackages [django-jwt-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jwt-oidc-1.0.2.tar.gz tmp/django-jwt-oidc-1.0.3.tar.gz --markdown 20230421/d/django-jwt-oidc/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 18:46:07] INFO root fetch - processPackages [talos-install]: Downloading https://files.pythonhosted.org/packages/34/ae/050a5dca24ff0b2b1cd6db4fa1da48168233dc3d805600c567f798acb1aa/talos_install-0.2.0.dev350.tar.gz
+[2023-04-21 18:46:07] INFO root fetch - processPackages [ratinabox]: executing diffoscope
+[2023-04-21 18:46:07] INFO root fetch - processPackages [regularizepsf]: executing diffoscope
+[2023-04-21 18:46:07] INFO root fetch - processPackages [ratinabox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratinabox-1.5.0.tar.gz tmp/ratinabox-1.5.1.tar.gz --markdown 20230421/r/ratinabox/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-21 18:46:07] INFO root fetch - processPackages [regularizepsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regularizepsf-0.1.0.tar.gz tmp/regularizepsf-0.2.0.tar.gz --markdown 20230421/r/regularizepsf/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 18:46:07] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/e8/3a/06fed41776e4908dc76526fa690e01bb5b3485bb4c5261c55589f989b210/aind_metadata_service-0.3.6.tar.gz
+[2023-04-21 18:46:07] INFO root fetch - processPackages [talos-install]: Downloading https://files.pythonhosted.org/packages/f0/63/285b3c5ae8e2f9a1bfbc1608d92a4b4b92d1f87cb6fbdaf19deff5d242e0/talos_install-0.2.0.dev351.tar.gz
+[2023-04-21 18:46:07] INFO root fetch - processPackages [netbox-tunnels2]: Downloading https://files.pythonhosted.org/packages/04/09/f7440feb79ab37711e6141696e17277428f7441b9d7793c33b4928a7e7cd/netbox-tunnels2-0.2.2.tar.gz
+[2023-04-21 18:46:07] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/2a/71/5fadff7f4b5a3408969d07485b972570aaa2db9bdae1fbd6ccddecb20b07/aind_metadata_service-0.4.0.tar.gz
+[2023-04-21 18:46:07] INFO root fetch - processPackages [talos-install]: executing diffoscope
+[2023-04-21 18:46:07] INFO root fetch - processPackages [talos-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talos_install-0.2.0.dev350.tar.gz tmp/talos_install-0.2.0.dev351.tar.gz --markdown 20230421/t/talos-install/0.2.0.dev350-0.2.0.dev351/diff.md --exclude *.pyd
+[2023-04-21 18:46:07] INFO root fetch - processPackages [netbox-tunnels2]: executing diffoscope
+[2023-04-21 18:46:07] INFO root fetch - processPackages [netbox-tunnels2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-tunnels2-0.2.1.tar.gz tmp/netbox-tunnels2-0.2.2.tar.gz --markdown 20230421/n/netbox-tunnels2/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 18:46:07] INFO root fetch - processPackages [aind-metadata-service]: executing diffoscope
+[2023-04-21 18:46:07] INFO root fetch - processPackages [aind-metadata-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_metadata_service-0.3.6.tar.gz tmp/aind_metadata_service-0.4.0.tar.gz --markdown 20230421/a/aind-metadata-service/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 18:46:08] INFO root fetch - processPackages [OncoAMBER]: Start processing: djaodjin-signup
+[2023-04-21 18:46:08] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-04-21 18:46:08] INFO root fetch - processPackages [djaodjin-signup]: New version: [0.8.0] Old Version: [0.7.7]
+[2023-04-21 18:46:08] INFO root fetch - processPackages [mtpandas]: executing diffoscope
+[2023-04-21 18:46:08] INFO root fetch - processPackages [mtpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtpandas-1.9.202208011136-py3-none-any.whl.zip tmp/mtpandas-1.9.202208120520-py3-none-any.whl.zip --markdown 20230421/m/mtpandas/1.9.202208011136-1.9.202208120520/diff.md --exclude *.pyd
+[2023-04-21 18:46:08] INFO root fetch - processPackages [django-jwt-oidc]: Start processing: pytictacbot
+[2023-04-21 18:46:08] INFO root fetch - main [MainThread]: End processing [django-jwt-oidc]: success
+[2023-04-21 18:46:08] INFO root fetch - processPackages [pytictacbot]: New version: [1.8] Old Version: [1.7]
+[2023-04-21 18:46:09] INFO root fetch - processPackages [regularizepsf]: Start processing: py-yprinciple-gen
+[2023-04-21 18:46:09] INFO root fetch - main [MainThread]: End processing [regularizepsf]: success
+[2023-04-21 18:46:09] INFO root fetch - processPackages [py-yprinciple-gen]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 18:46:09] INFO root fetch - processPackages [ratinabox]: Start processing: ValiotWorker
+[2023-04-21 18:46:09] INFO root fetch - main [MainThread]: End processing [ratinabox]: success
+[2023-04-21 18:46:09] INFO root fetch - processPackages [netbox-tunnels2]: Start processing: avro.py
+[2023-04-21 18:46:09] INFO root fetch - main [MainThread]: End processing [netbox-tunnels2]: success
+[2023-04-21 18:46:09] INFO root fetch - processPackages [ValiotWorker]: New version: [5.3.1] Old Version: [5.3.0]
+[2023-04-21 18:46:09] INFO root fetch - processPackages [avro.py]: New version: [2023.4.3] Old Version: [2023.4.21]
+[2023-04-21 18:46:10] INFO root fetch - processPackages [mtpandas]: Start processing: deeplake
+[2023-04-21 18:46:10] INFO root fetch - main [MainThread]: End processing [mtpandas]: success
+[2023-04-21 18:46:10] INFO root fetch - processPackages [djaodjin-signup]: Downloading https://files.pythonhosted.org/packages/11/fb/c6fcc24d8b83e03adcca2c216b5594c1cf486df3e99577cb39cec9e2fd2e/djaodjin-signup-0.7.7.tar.gz
+[2023-04-21 18:46:10] INFO root fetch - processPackages [avro.py]: Downloading https://files.pythonhosted.org/packages/86/c5/89150d78496fac2efad319d1e4d390ff8220e2bfbe9a8f5c96e0814e1826/avro.py-2023.4.21.tar.gz
+[2023-04-21 18:46:10] INFO root fetch - processPackages [aind-metadata-service]: Start processing: vulnerablecode
+[2023-04-21 18:46:10] INFO root fetch - main [MainThread]: End processing [aind-metadata-service]: success
+[2023-04-21 18:46:10] INFO root fetch - processPackages [py-yprinciple-gen]: Downloading https://files.pythonhosted.org/packages/37/5f/ac2323cfd812e397687f8ede49385c60093ef46d609dd5ef791645d6a163/py_yprinciple_gen-0.2.7.tar.gz
+[2023-04-21 18:46:10] INFO root fetch - processPackages [deeplake]: New version: [3.3.0] Old Version: [3.2.9]
+[2023-04-21 18:46:10] INFO root fetch - processPackages [pytictacbot]: Downloading https://files.pythonhosted.org/packages/18/16/08ba58aaa6c09389dd6c7f5e294f4675194037065b7d286cc61b2097090a/pytictacbot-1.8.tar.gz
+[2023-04-21 18:46:10] INFO root fetch - processPackages [djaodjin-signup]: Downloading https://files.pythonhosted.org/packages/84/0f/40bd6e71ab4d44b82c7ee1865b86795382344bc0f9d66f64f414711e7aca/djaodjin-signup-0.8.0.tar.gz
+[2023-04-21 18:46:10] INFO root fetch - processPackages [vulnerablecode]: New version: [32.0.0rc4] Old Version: [32.0.0rc3]
+[2023-04-21 18:46:10] INFO root fetch - processPackages [py-yprinciple-gen]: Downloading https://files.pythonhosted.org/packages/ae/16/cc6131806c83a7bc176fcf34ea47591e0a580da598172ab7389f57512ec9/py_yprinciple_gen-0.2.8.tar.gz
+[2023-04-21 18:46:10] INFO root fetch - processPackages [djaodjin-signup]: executing diffoscope
+[2023-04-21 18:46:10] INFO root fetch - processPackages [djaodjin-signup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-signup-0.7.7.tar.gz tmp/djaodjin-signup-0.8.0.tar.gz --markdown 20230421/d/djaodjin-signup/0.7.7-0.8.0/diff.md --exclude *.pyd
+[2023-04-21 18:46:10] INFO root fetch - processPackages [py-yprinciple-gen]: executing diffoscope
+[2023-04-21 18:46:10] INFO root fetch - processPackages [py-yprinciple-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_yprinciple_gen-0.2.7.tar.gz tmp/py_yprinciple_gen-0.2.8.tar.gz --markdown 20230421/p/py-yprinciple-gen/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 18:46:10] INFO root fetch - processPackages [avro.py]: Downloading https://files.pythonhosted.org/packages/6d/a7/b3d9967d425e92f98596393fede653921c9de3bca59eab7dfc996630c184/avro.py-2023.4.3.tar.gz
+[2023-04-21 18:46:10] INFO root fetch - processPackages [pytictacbot]: executing diffoscope
+[2023-04-21 18:46:10] INFO root fetch - processPackages [pytictacbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytictacbot-1.7.tar.gz tmp/pytictacbot-1.8.tar.gz --markdown 20230421/p/pytictacbot/1.7-1.8/diff.md --exclude *.pyd
+[2023-04-21 18:46:10] INFO root fetch - processPackages [avro.py]: executing diffoscope
+[2023-04-21 18:46:10] INFO root fetch - processPackages [avro.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avro.py-2023.4.21.tar.gz tmp/avro.py-2023.4.3.tar.gz --markdown 20230421/a/avro.py/2023.4.21-2023.4.3/diff.md --exclude *.pyd
+[2023-04-21 18:46:11] INFO root fetch - processPackages [vulnerablecode]: Downloading https://files.pythonhosted.org/packages/1d/a3/33004170db4ada208389448e0f95bb43a87c621a92a2d892f9bd982d2260/vulnerablecode-32.0.0rc3.tar.gz
+[2023-04-21 18:46:11] WARNING root fetch - processPackages [vulnerablecode]: Skipping package: exceeds size limit 15840329>=10485760
+[2023-04-21 18:46:11] INFO root fetch - processPackages [vulnerablecode]: Start processing: multicall-zksync
+[2023-04-21 18:46:11] INFO root fetch - main [MainThread]: End processing [vulnerablecode] error
+[2023-04-21 18:46:11] WARNING root fetch - processPackages [multicall-zksync]: Skipping, unable to determine old version
+[2023-04-21 18:46:11] INFO root fetch - main [MainThread]: End processing [multicall-zksync] error
+[2023-04-21 18:46:11] INFO root fetch - main [MainThread]: End processing [talos-install]: success
+[2023-04-21 18:46:11] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/5f/f6/568083998a6f4042e219deac076bf4eadbd7da7134502e16ee04aed6355b/deeplake-3.2.9.tar.gz
+[2023-04-21 18:46:11] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/ce/91/ce8847e9c91a41d4492f713e1d77003c8b6f4fd5cee0383e0033faa965a6/deeplake-3.3.0.tar.gz
+[2023-04-21 18:46:11] INFO root fetch - processPackages [deeplake]: executing diffoscope
+[2023-04-21 18:46:11] INFO root fetch - processPackages [deeplake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplake-3.2.9.tar.gz tmp/deeplake-3.3.0.tar.gz --markdown 20230421/d/deeplake/3.2.9-3.3.0/diff.md --exclude *.pyd
+[2023-04-21 18:46:12] INFO root fetch - main [MainThread]: End processing [py-yprinciple-gen]: success
+[2023-04-21 18:46:12] INFO root fetch - processPackages [ValiotWorker]: Downloading https://files.pythonhosted.org/packages/c3/93/4eb932001ddbd8e7b4261ab44b25618bc5fff7ee4a6043d3f41b9919d01c/ValiotWorker-5.3.0.tar.gz
+[2023-04-21 18:46:12] INFO root fetch - main [MainThread]: End processing [coderedcms]: success
+[2023-04-21 18:46:12] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-04-21 18:46:12] INFO root fetch - processPackages [ValiotWorker]: Downloading https://files.pythonhosted.org/packages/e5/9e/dd431f9d02b491fe5ba0139ffe52ddbe3f57ee9500c57ec3a54b4ae4b7f1/ValiotWorker-5.3.1.tar.gz
+[2023-04-21 18:46:12] INFO root fetch - main [MainThread]: End processing [pytictacbot]: success
+[2023-04-21 18:46:12] INFO root fetch - main [MainThread]: End processing [avro.py]: success
+[2023-04-21 18:46:12] INFO root fetch - processPackages [ValiotWorker]: executing diffoscope
+[2023-04-21 18:46:12] INFO root fetch - processPackages [ValiotWorker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ValiotWorker-5.3.0.tar.gz tmp/ValiotWorker-5.3.1.tar.gz --markdown 20230421/V/ValiotWorker/5.3.0-5.3.1/diff.md --exclude *.pyd
+[2023-04-21 18:46:13] INFO root fetch - main [MainThread]: End processing [djaodjin-signup]: success
+[2023-04-21 18:46:13] INFO root fetch - main [MainThread]: End processing [ValiotWorker]: success
+[2023-04-21 18:46:17] INFO root fetch - main [MainThread]: End processing [deeplake]: success
+[2023-04-21 18:46:17] INFO root fetch - main [MainThread]: Store serial: [17806136]
