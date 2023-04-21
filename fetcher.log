@@ -21632,3 +21632,138 @@ EOFError: EOF read where object expected
 [2023-04-21 21:24:21] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
 [2023-04-21 21:24:27] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-21 21:24:27] INFO root fetch - main [MainThread]: Store serial: [17807651]
+[2023-04-21 21:29:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807651]
+[2023-04-21 21:29:36] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-21 21:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pokelance
+[2023-04-21 21:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: czech-workdays-holidays
+[2023-04-21 21:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchmanager-nightly
+[2023-04-21 21:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plixkws
+[2023-04-21 21:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vtece4564-gamelib
+[2023-04-21 21:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tzconv
+[2023-04-21 21:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: corellium-api
+[2023-04-21 21:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-mq-connector
+[2023-04-21 21:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: terrario
+[2023-04-21 21:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dnastack-client-library
+[2023-04-21 21:29:36] INFO root fetch - processPackages [tzconv]: New version: [1.1] Old Version: [1.0]
+[2023-04-21 21:29:36] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-04-21 21:29:36] INFO root fetch - processPackages [neon-mq-connector]: New version: [0.6.1a5] Old Version: [0.6.1a4]
+[2023-04-21 21:29:36] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:29:36] INFO root fetch - processPackages [tzconv]: executing diffoscope
+[2023-04-21 21:29:36] INFO root fetch - processPackages [tzconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tzconv-1.0.tar.gz tmp/tzconv-1.1.tar.gz --markdown 20230421/t/tzconv/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-21 21:29:36] INFO root fetch - processPackages [neon-mq-connector]: executing diffoscope
+[2023-04-21 21:29:36] INFO root fetch - processPackages [neon-mq-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mq_connector-0.6.1a4-py3-none-any.whl.zip tmp/neon_mq_connector-0.6.1a5-py3-none-any.whl.zip --markdown 20230421/n/neon-mq-connector/0.6.1a4-0.6.1a5/diff.md --exclude *.pyd
+[2023-04-21 21:29:36] INFO root fetch - processPackages [corellium-api]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-21 21:29:36] INFO root fetch - processPackages [torchmanager-nightly]: New version: [1.2b3] Old Version: [1.2b2]
+[2023-04-21 21:29:36] INFO root fetch - processPackages [pokelance]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 21:29:36] INFO root fetch - processPackages [czech-workdays-holidays]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 21:29:36] ERROR root fetch - processPackages [plixkws]: Unable to get metadata: No such project 'plixkws'
+[2023-04-21 21:29:36] INFO root fetch - processPackages [plixkws]: Start processing: PyTrial
+[2023-04-21 21:29:36] INFO root fetch - main [MainThread]: End processing [plixkws] error
+[2023-04-21 21:29:36] INFO root fetch - processPackages [dnastack-client-library]: New version: [3.0.84a1651270839] Old Version: [3.0.81a1650987643]
+[2023-04-21 21:29:36] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:29:36] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:29:37] INFO root fetch - processPackages [vtece4564-gamelib]: Downloading https://files.pythonhosted.org/packages/5e/c3/a3f04dc1c157fc1cc1b0a86b21e5b720177f135f93c831cbce3187ffc904/vtece4564-gamelib-0.0.0.tar.gz
+[2023-04-21 21:29:37] INFO root fetch - processPackages [PyTrial]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 21:29:37] INFO root fetch - processPackages [czech-workdays-holidays]: Downloading https://files.pythonhosted.org/packages/01/a5/68566ddf2a85c0b7fde5bf4dccfa4950e2a6d322dd5b5486549967f7332d/czech_workdays_holidays-0.0.6.tar.gz
+[2023-04-21 21:29:37] INFO root fetch - processPackages [torchmanager-nightly]: Downloading https://files.pythonhosted.org/packages/e0/2d/265a903866c238be4a54a3ea55b68d044293a7bc24ce149b9ce82df494bb/torchmanager-nightly-1.2b2.tar.gz
+[2023-04-21 21:29:37] INFO root fetch - processPackages [dnastack-client-library]: Downloading https://files.pythonhosted.org/packages/a5/7b/18c6a0589415b823e08b73c6b477cd2b4b2aebad456466b3cd8b1ec58e57/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl
+[2023-04-21 21:29:37] INFO root fetch - processPackages [PyTrial]: Downloading https://files.pythonhosted.org/packages/a4/72/25345cae96ebd5def83a5472ebf9aae1426333393276fe1814db0c3beac0/PyTrial-0.0.3.tar.gz
+[2023-04-21 21:29:37] INFO root fetch - processPackages [corellium-api]: Downloading https://files.pythonhosted.org/packages/89/86/573c4fa84891a7b8a7b3c5ae94ee34241558201d2bed4c4dee4395f7aa1d/corellium-api-0.3.1.tar.gz
+[2023-04-21 21:29:37] INFO root fetch - processPackages [pokelance]: Downloading https://files.pythonhosted.org/packages/10/95/ccbaa811817dca1011866c4547bb5aa7a1cc0dc763cdc21a35a7745ba965/pokelance-0.1.1.tar.gz
+[2023-04-21 21:29:38] INFO root fetch - processPackages [tzconv]: Start processing: xftsim
+[2023-04-21 21:29:38] INFO root fetch - main [MainThread]: End processing [tzconv]: success
+[2023-04-21 21:29:38] INFO root fetch - processPackages [xftsim]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 21:29:38] INFO root fetch - processPackages [terrario]: Start processing: xtbclient
+[2023-04-21 21:29:38] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:29:38] INFO root fetch - processPackages [xtbclient]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 21:29:38] INFO root fetch - processPackages [neon-mq-connector]: Start processing: ciphers-codes
+[2023-04-21 21:29:38] INFO root fetch - main [MainThread]: End processing [neon-mq-connector]: success
+[2023-04-21 21:29:38] INFO root fetch - processPackages [xftsim]: Downloading https://files.pythonhosted.org/packages/d4/0a/cb4e94fd2f0ebc69ff52846f5e64a58b63e1d47a83f02b81dfd844204dfd/xftsim-0.1.0.tar.gz
+[2023-04-21 21:29:38] WARNING root fetch - processPackages [xftsim]: Skipping package: exceeds size limit 17626224>=10485760
+[2023-04-21 21:29:38] INFO root fetch - processPackages [xftsim]: Start processing: greenletio
+[2023-04-21 21:29:38] INFO root fetch - main [MainThread]: End processing [xftsim] error
+[2023-04-21 21:29:38] INFO root fetch - processPackages [corellium-api]: executing diffoscope
+[2023-04-21 21:29:38] INFO root fetch - processPackages [corellium-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corellium-api-0.3.0.tar.gz tmp/corellium-api-0.3.1.tar.gz --markdown 20230421/c/corellium-api/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 21:29:38] WARNING root fetch - processPackages [ciphers-codes]: Skipping, unable to determine old version
+[2023-04-21 21:29:38] INFO root fetch - processPackages [ciphers-codes]: Start processing: alcf
+[2023-04-21 21:29:38] INFO root fetch - main [MainThread]: End processing [ciphers-codes] error
+[2023-04-21 21:29:38] INFO root fetch - processPackages [pokelance]: executing diffoscope
+[2023-04-21 21:29:38] INFO root fetch - processPackages [pokelance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokelance-0.1.0.tar.gz tmp/pokelance-0.1.1.tar.gz --markdown 20230421/p/pokelance/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 21:29:38] INFO root fetch - processPackages [alcf]: New version: [1.4.0.post1] Old Version: [1.4.0]
+[2023-04-21 21:29:38] INFO root fetch - processPackages [greenletio]: New version: [0.9.0] Old Version: [0.10.1]
+[2023-04-21 21:29:38] INFO root fetch - processPackages [xtbclient]: executing diffoscope
+[2023-04-21 21:29:38] INFO root fetch - processPackages [xtbclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XTBClient-0.1.0.tar.gz tmp/xtbclient-0.1.1.tar.gz --markdown 20230421/x/xtbclient/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 21:29:38] INFO root fetch - processPackages [czech-workdays-holidays]: Downloading https://files.pythonhosted.org/packages/1e/d2/b97cb3fa79bf9a5711c9a3a00b1912d9b531cc9314c6d657ef1f826ea961/czech_workdays_holidays-0.0.7.tar.gz
+[2023-04-21 21:29:38] INFO root fetch - processPackages [alcf]: executing diffoscope
+[2023-04-21 21:29:38] INFO root fetch - processPackages [alcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alcf-1.4.0.tar.gz tmp/alcf-1.4.0.post1.tar.gz --markdown 20230421/a/alcf/1.4.0-1.4.0.post1/diff.md --exclude *.pyd
+[2023-04-21 21:29:38] INFO root fetch - processPackages [torchmanager-nightly]: Downloading https://files.pythonhosted.org/packages/93/36/a74a0779865f8e800bd9355f51ab0ba3b1b3b3e044a1f691a8fac00bd844/torchmanager-nightly-1.2b3.tar.gz
+[2023-04-21 21:29:38] INFO root fetch - processPackages [PyTrial]: Downloading https://files.pythonhosted.org/packages/1f/a3/a8deea45018a105cd4962fa575986d1e88e448f1756658af71033efb8f68/PyTrial-0.0.4.tar.gz
+[2023-04-21 21:29:38] INFO root fetch - processPackages [dnastack-client-library]: Downloading https://files.pythonhosted.org/packages/17/c7/5b87ff0cbee36b18e2e564381bca5b902804ee6c2844ca28031ffa63db35/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl
+[2023-04-21 21:29:38] INFO root fetch - processPackages [vtece4564-gamelib]: Downloading https://files.pythonhosted.org/packages/c5/b7/5719868669c57c2834bb6ddf705a7d5e0558f8e3e4ab259c639278fc208e/vtece4564-gamelib-0.0.1.tar.gz
+[2023-04-21 21:29:38] INFO root fetch - processPackages [greenletio]: Downloading https://files.pythonhosted.org/packages/2f/62/3cdfbbd1eb512cc3bb310ee499a7aa5f64472e714214a216ca30f3736aaf/greenletio-0.10.1.tar.gz
+[2023-04-21 21:29:38] INFO root fetch - processPackages [czech-workdays-holidays]: executing diffoscope
+[2023-04-21 21:29:38] INFO root fetch - processPackages [czech-workdays-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czech_workdays_holidays-0.0.6.tar.gz tmp/czech_workdays_holidays-0.0.7.tar.gz --markdown 20230421/c/czech-workdays-holidays/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 21:29:38] INFO root fetch - processPackages [torchmanager-nightly]: executing diffoscope
+[2023-04-21 21:29:38] INFO root fetch - processPackages [torchmanager-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmanager-nightly-1.2b2.tar.gz tmp/torchmanager-nightly-1.2b3.tar.gz --markdown 20230421/t/torchmanager-nightly/1.2b2-1.2b3/diff.md --exclude *.pyd
+[2023-04-21 21:29:38] INFO root fetch - processPackages [dnastack-client-library]: executing diffoscope
+[2023-04-21 21:29:38] INFO root fetch - processPackages [dnastack-client-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl.zip tmp/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl.zip --markdown 20230421/d/dnastack-client-library/3.0.81a1650987643-3.0.84a1651270839/diff.md --exclude *.pyd
+[2023-04-21 21:29:38] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-04-21 21:29:38] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.0.tar.gz tmp/vtece4564-gamelib-0.0.1.tar.gz --markdown 20230421/v/vtece4564-gamelib/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-04-21 21:29:38] INFO root fetch - processPackages [PyTrial]: executing diffoscope
+[2023-04-21 21:29:38] INFO root fetch - processPackages [PyTrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTrial-0.0.3.tar.gz tmp/PyTrial-0.0.4.tar.gz --markdown 20230421/P/PyTrial/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 21:29:38] INFO root fetch - processPackages [greenletio]: Downloading https://files.pythonhosted.org/packages/fa/1a/a4eee78e090d4a4527d3af4ca4c74bac32b0b9a3ed2e5ae8087b25e6d7e8/greenletio-0.9.0.tar.gz
+[2023-04-21 21:29:39] INFO root fetch - processPackages [greenletio]: executing diffoscope
+[2023-04-21 21:29:39] INFO root fetch - processPackages [greenletio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greenletio-0.10.1.tar.gz tmp/greenletio-0.9.0.tar.gz --markdown 20230421/g/greenletio/0.10.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 21:29:39] INFO root fetch - processPackages [xtbclient]: Start processing: xia-scw-forward
+[2023-04-21 21:29:39] INFO root fetch - main [MainThread]: End processing [xtbclient]: success
+[2023-04-21 21:29:40] WARNING root fetch - processPackages [xia-scw-forward]: Skipping, unable to determine old version
+[2023-04-21 21:29:40] INFO root fetch - processPackages [xia-scw-forward]: Start processing: vtece4564-gamelib
+[2023-04-21 21:29:40] INFO root fetch - main [MainThread]: End processing [xia-scw-forward] error
+[2023-04-21 21:29:40] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 21:29:40] INFO root fetch - processPackages [pokelance]: Start processing: pylogix-plc
+[2023-04-21 21:29:40] INFO root fetch - main [MainThread]: End processing [pokelance]: success
+[2023-04-21 21:29:40] INFO root fetch - processPackages [pylogix-plc]: New version: [3.9.20] Old Version: [3.9.19]
+[2023-04-21 21:29:40] INFO root fetch - processPackages [vtece4564-gamelib]: Downloading https://files.pythonhosted.org/packages/de/91/4f5e4caa2717aab0d56550d1c5a2c7eee3722ca6a6b703fe86ed18804ebe/vtece4564-gamelib-0.0.2.tar.gz
+[2023-04-21 21:29:40] INFO root fetch - processPackages [czech-workdays-holidays]: Start processing: wagtail-heroicons
+[2023-04-21 21:29:40] INFO root fetch - main [MainThread]: End processing [czech-workdays-holidays]: success
+[2023-04-21 21:29:40] INFO root fetch - processPackages [wagtail-heroicons]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 21:29:40] INFO root fetch - processPackages [vtece4564-gamelib]: Downloading https://files.pythonhosted.org/packages/52/80/0bf641a35eac1bc18a658d6fba5b4c47506df0dafc304b9eb64a887f78d7/vtece4564-gamelib-0.0.3.tar.gz
+[2023-04-21 21:29:40] INFO root fetch - processPackages [pylogix-plc]: Downloading https://files.pythonhosted.org/packages/7b/bc/e186ac6a1598700a772d7ab7dc0b5312bc853b61444f3788b51f6b292100/pylogix-plc-3.9.20.tar.gz
+[2023-04-21 21:29:40] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-04-21 21:29:40] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.2.tar.gz tmp/vtece4564-gamelib-0.0.3.tar.gz --markdown 20230421/v/vtece4564-gamelib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 21:29:40] INFO root fetch - processPackages [pylogix-plc]: executing diffoscope
+[2023-04-21 21:29:40] INFO root fetch - processPackages [pylogix-plc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogix-plc-3.9.19.tar.gz tmp/pylogix-plc-3.9.20.tar.gz --markdown 20230421/p/pylogix-plc/3.9.19-3.9.20/diff.md --exclude *.pyd
+[2023-04-21 21:29:40] INFO root fetch - processPackages [wagtail-heroicons]: Downloading https://files.pythonhosted.org/packages/87/2f/460c4f5e6b227263c6e4ef8811780507ef93d7e0e6d0fe9580badd4041fa/wagtail_heroicons-0.1.0.tar.gz
+[2023-04-21 21:29:40] INFO root fetch - processPackages [vtece4564-gamelib]: Start processing: botocore
+[2023-04-21 21:29:40] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-04-21 21:29:41] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-21 21:29:41] INFO root fetch - processPackages [wagtail-heroicons]: Downloading https://files.pythonhosted.org/packages/82/87/8e73bdc53ab9788b1e72334abd485f85f3cae304f523819b13b796df7e71/wagtail_heroicons-0.1.1.tar.gz
+[2023-04-21 21:29:41] INFO root fetch - processPackages [torchmanager-nightly]: Start processing: boto3
+[2023-04-21 21:29:41] INFO root fetch - main [MainThread]: End processing [torchmanager-nightly]: success
+[2023-04-21 21:29:41] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-04-21 21:29:41] INFO root fetch - processPackages [dnastack-client-library]: Start processing: arvados-python-client
+[2023-04-21 21:29:41] INFO root fetch - main [MainThread]: End processing [dnastack-client-library]: success
+[2023-04-21 21:29:41] INFO root fetch - processPackages [wagtail-heroicons]: executing diffoscope
+[2023-04-21 21:29:41] INFO root fetch - processPackages [wagtail-heroicons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_heroicons-0.1.0.tar.gz tmp/wagtail_heroicons-0.1.1.tar.gz --markdown 20230421/w/wagtail-heroicons/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 21:29:41] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-04-21 21:29:41] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230421/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-04-21 21:29:41] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-04-21 21:29:41] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230421/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-21 21:29:41] INFO root fetch - processPackages [PyTrial]: Start processing: plixkws
+[2023-04-21 21:29:41] INFO root fetch - main [MainThread]: End processing [PyTrial]: success
+[2023-04-21 21:29:41] ERROR root fetch - processPackages [plixkws]: Unable to get metadata: No such project 'plixkws'
+[2023-04-21 21:29:41] INFO root fetch - main [MainThread]: End processing [plixkws] error
+[2023-04-21 21:29:41] INFO root fetch - main [MainThread]: End processing [greenletio]: success
+[2023-04-21 21:29:41] INFO root fetch - main [MainThread]: End processing [alcf]: success
+[2023-04-21 21:29:42] INFO root fetch - processPackages [arvados-python-client]: New version: [2.6.2rc2] Old Version: [2.6.1]
+[2023-04-21 21:29:42] INFO root fetch - processPackages [arvados-python-client]: Downloading https://files.pythonhosted.org/packages/f5/56/f3c7debed56e929e61abe5e8eac56af8fc961b9252bb9abbe68f116f05dd/arvados-python-client-2.6.2rc2.tar.gz
+[2023-04-21 21:29:42] INFO root fetch - main [MainThread]: End processing [pylogix-plc]: success
+[2023-04-21 21:29:42] INFO root fetch - processPackages [arvados-python-client]: executing diffoscope
+[2023-04-21 21:29:42] INFO root fetch - processPackages [arvados-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arvados-python-client-2.6.1.tar.gz tmp/arvados-python-client-2.6.2rc2.tar.gz --markdown 20230421/a/arvados-python-client/2.6.1-2.6.2rc2/diff.md --exclude *.pyd
+[2023-04-21 21:29:42] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-04-21 21:29:43] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-04-21 21:29:44] INFO root fetch - main [MainThread]: End processing [arvados-python-client]: success
+[2023-04-21 21:29:45] INFO root fetch - main [MainThread]: End processing [corellium-api]: success
+[2023-04-21 21:29:45] INFO root fetch - main [MainThread]: End processing [wagtail-heroicons]: success
+[2023-04-21 21:30:02] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-04-21 21:30:02] INFO root fetch - main [MainThread]: Store serial: [17807733]
