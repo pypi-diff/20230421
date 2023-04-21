@@ -17745,3 +17745,88 @@ EOFError: EOF read where object expected
 [2023-04-21 17:13:49] INFO root fetch - main [MainThread]: End processing [libertem]: success
 [2023-04-21 17:14:24] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-04-21 17:14:24] INFO root fetch - main [MainThread]: Store serial: [17805035]
+[2023-04-21 17:19:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805035]
+[2023-04-21 17:19:42] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-21 17:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-auth-saml
+[2023-04-21 17:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cfscanner
+[2023-04-21 17:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oidc-client
+[2023-04-21 17:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arabica
+[2023-04-21 17:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pvmodule
+[2023-04-21 17:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pvmodule
+[2023-04-21 17:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sharingiscaring
+[2023-04-21 17:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: satvis
+[2023-04-21 17:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: czech-workdays-holidays
+[2023-04-21 17:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tggl-client
+[2023-04-21 17:19:42] INFO root fetch - processPackages [tggl-client]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-21 17:19:42] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 17:19:42] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 17:19:42] INFO root fetch - processPackages [arabica]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-04-21 17:19:42] INFO root fetch - processPackages [oidc-client]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-04-21 17:19:42] INFO root fetch - processPackages [odoo-addon-auth-saml]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-04-21 17:19:42] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-04-21 17:19:42] INFO root fetch - processPackages [tggl-client]: executing diffoscope
+[2023-04-21 17:19:42] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230421/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 17:19:42] INFO root fetch - processPackages [tggl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tggl_client-1.0.0.tar.gz tmp/tggl_client-1.1.0.tar.gz --markdown 20230421/t/tggl-client/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-21 17:19:42] INFO root fetch - processPackages [cfscanner]: New version: [1.3.13] Old Version: [1.3.12]
+[2023-04-21 17:19:42] WARNING root fetch - processPackages [czech-workdays-holidays]: Skipping, unable to determine old version
+[2023-04-21 17:19:42] INFO root fetch - processPackages [czech-workdays-holidays]: Start processing: pvmodule
+[2023-04-21 17:19:42] INFO root fetch - main [MainThread]: End processing [czech-workdays-holidays] error
+[2023-04-21 17:19:42] INFO root fetch - processPackages [satvis]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 17:19:42] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-04-21 17:19:42] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230421/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 17:19:42] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 17:19:42] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 17:19:42] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-04-21 17:19:42] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230421/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 17:19:42] INFO root fetch - processPackages [odoo-addon-auth-saml]: Downloading https://files.pythonhosted.org/packages/58/dc/1ee6dcc45c143bd858ff2048f6a368804e122138846a8a98d6341512df5e/odoo_addon_auth_saml-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-21 17:19:42] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/88/72/bac3a6b7a6489d768324aff0e0e572b92d7629e58b5bf17a89d519aea43e/cfscanner-1.3.12.tar.gz
+[2023-04-21 17:19:42] WARNING root fetch - processPackages [cfscanner]: Skipping package: exceeds size limit 12838890>=10485760
+[2023-04-21 17:19:42] INFO root fetch - processPackages [cfscanner]: Start processing: localstack-core
+[2023-04-21 17:19:42] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-04-21 17:19:42] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230421132106] Old Version: [2.0.3.dev20230421084604]
+[2023-04-21 17:19:42] INFO root fetch - processPackages [oidc-client]: Downloading https://files.pythonhosted.org/packages/e6/0b/a60354a2b3383d1b23fef751ec5aaea5710960c3bdb60be76efe7c053f29/oidc_client-0.2.0.tar.gz
+[2023-04-21 17:19:42] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-21 17:19:42] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230421084604.tar.gz tmp/localstack-core-2.0.3.dev20230421132106.tar.gz --markdown 20230421/l/localstack-core/2.0.3.dev20230421084604-2.0.3.dev20230421132106/diff.md --exclude *.pyd
+[2023-04-21 17:19:42] INFO root fetch - processPackages [satvis]: Downloading https://files.pythonhosted.org/packages/3f/61/70249104b7379bcaa0ab9fcbe4499dc46693180b993e7153182e8b023616/satvis-0.2.1.tar.gz
+[2023-04-21 17:19:42] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/3a/9b/e80e55d1a3b97647d51a6491eb6945cece0731990344a191b294d4d511dc/arabica-1.4.7.tar.gz
+[2023-04-21 17:19:42] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-04-21 17:19:42] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230421/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 17:19:42] INFO root fetch - processPackages [oidc-client]: executing diffoscope
+[2023-04-21 17:19:42] INFO root fetch - processPackages [oidc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_client-0.1.3.tar.gz tmp/oidc_client-0.2.0.tar.gz --markdown 20230421/o/oidc-client/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 17:19:42] INFO root fetch - processPackages [satvis]: executing diffoscope
+[2023-04-21 17:19:42] INFO root fetch - processPackages [satvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satvis-0.2.0.tar.gz tmp/satvis-0.2.1.tar.gz --markdown 20230421/s/satvis/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 17:19:42] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-04-21 17:19:42] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.4.6.tar.gz tmp/arabica-1.4.7.tar.gz --markdown 20230421/a/arabica/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-04-21 17:19:42] INFO root fetch - processPackages [odoo-addon-auth-saml]: Downloading https://files.pythonhosted.org/packages/31/6d/4e81ef590c31f40dcf3d1eaec4d282661696ebebf12996c506661baa849a/odoo_addon_auth_saml-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-21 17:19:43] INFO root fetch - processPackages [odoo-addon-auth-saml]: executing diffoscope
+[2023-04-21 17:19:43] INFO root fetch - processPackages [odoo-addon-auth-saml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_saml-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_auth_saml-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-auth-saml/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-04-21 17:19:43] INFO root fetch - processPackages [tggl-client]: Start processing: pvmodule
+[2023-04-21 17:19:43] INFO root fetch - main [MainThread]: End processing [tggl-client]: success
+[2023-04-21 17:19:43] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 17:19:43] INFO root fetch - processPackages [pvmodule]: Start processing: depthai-sdk
+[2023-04-21 17:19:43] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-04-21 17:19:44] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-04-21 17:19:44] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230421/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 17:19:44] INFO root fetch - processPackages [depthai-sdk]: New version: [1.9.5] Old Version: [1.9.4.1]
+[2023-04-21 17:19:44] INFO root fetch - processPackages [depthai-sdk]: Downloading https://files.pythonhosted.org/packages/20/eb/0df359cc2efb53018ab6bb3265e923186a11e3b4874f563e38ed961a4982/depthai-sdk-1.9.4.1.tar.gz
+[2023-04-21 17:19:44] INFO root fetch - processPackages [pvmodule]: Start processing: geomm
+[2023-04-21 17:19:44] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-04-21 17:19:44] INFO root fetch - processPackages [geomm]: New version: [0.2.1] Old Version: [0.2.0.dev0]
+[2023-04-21 17:19:44] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-04-21 17:19:44] INFO root fetch - processPackages [depthai-sdk]: Downloading https://files.pythonhosted.org/packages/8a/c6/52f9402b7ada5aae5bbcd8c9a70c488e99bfdb7e05ea708ea6bb2f02b64c/depthai-sdk-1.9.5.tar.gz
+[2023-04-21 17:19:44] INFO root fetch - processPackages [geomm]: Downloading https://files.pythonhosted.org/packages/0e/f1/c70a1bb2b0d63df718c2401d7bfa91a1b38203362326ade5cabbdec7b2aa/geomm-0.2.0.dev0.tar.gz
+[2023-04-21 17:19:44] INFO root fetch - main [MainThread]: End processing [oidc-client]: success
+[2023-04-21 17:19:44] INFO root fetch - processPackages [depthai-sdk]: executing diffoscope
+[2023-04-21 17:19:44] INFO root fetch - processPackages [depthai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthai-sdk-1.9.4.1.tar.gz tmp/depthai-sdk-1.9.5.tar.gz --markdown 20230421/d/depthai-sdk/1.9.4.1-1.9.5/diff.md --exclude *.pyd
+[2023-04-21 17:19:44] INFO root fetch - processPackages [geomm]: Downloading https://files.pythonhosted.org/packages/b9/fc/1d4d5c524579653cb255caef8b3249e3eb34371d69eb1ea1ff60507d0a3a/geomm-0.2.1.tar.gz
+[2023-04-21 17:19:44] INFO root fetch - processPackages [geomm]: executing diffoscope
+[2023-04-21 17:19:44] INFO root fetch - processPackages [geomm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomm-0.2.0.dev0.tar.gz tmp/geomm-0.2.1.tar.gz --markdown 20230421/g/geomm/0.2.0.dev0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 17:19:45] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-04-21 17:19:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-saml]: success
+[2023-04-21 17:19:45] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-04-21 17:19:45] INFO root fetch - main [MainThread]: End processing [satvis]: success
+[2023-04-21 17:19:45] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-04-21 17:19:46] INFO root fetch - main [MainThread]: End processing [geomm]: success
+[2023-04-21 17:19:47] INFO root fetch - main [MainThread]: End processing [depthai-sdk]: success
+[2023-04-21 17:19:49] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-21 17:19:49] INFO root fetch - main [MainThread]: Store serial: [17805084]
