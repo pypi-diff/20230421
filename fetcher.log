@@ -15891,3 +15891,109 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 15:48:13] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
 [2023-04-21 15:48:22] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-04-21 15:48:22] INFO root fetch - main [MainThread]: Store serial: [17803911]
+[2023-04-21 15:53:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17803911]
+[2023-04-21 15:53:31] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: piptools-sync
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vidis-algorithms-api
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-seeker
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plex-nfs-watchdog
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maxilearn
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uptrain-ee
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdm-conda
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: signhost-api-python-client
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proxyorderedset
+[2023-04-21 15:53:31] INFO root fetch - processPackages [plex-nfs-watchdog]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-21 15:53:31] INFO root fetch - processPackages [vidis-algorithms-api]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-21 15:53:31] INFO root fetch - processPackages [piptools-sync]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 15:53:31] WARNING root fetch - processPackages [uptrain-ee]: Skipping, unable to determine old version
+[2023-04-21 15:53:31] INFO root fetch - processPackages [uptrain-ee]: Start processing: flowhigh
+[2023-04-21 15:53:31] WARNING root fetch - processPackages [maxilearn]: Skipping, unable to determine old version
+[2023-04-21 15:53:31] INFO root fetch - processPackages [maxilearn]: Start processing: odoo12-addon-crm-sale-order-line
+[2023-04-21 15:53:31] INFO root fetch - main [MainThread]: End processing [uptrain-ee] error
+[2023-04-21 15:53:31] INFO root fetch - main [MainThread]: End processing [maxilearn] error
+[2023-04-21 15:53:31] INFO root fetch - processPackages [proxyorderedset]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-21 15:53:31] INFO root fetch - processPackages [signhost-api-python-client]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-04-21 15:53:31] INFO root fetch - processPackages [django-seeker]: New version: [7.3.1] Old Version: [7.3.0]
+[2023-04-21 15:53:31] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.1b0] Old Version: [0.9.0b2]
+[2023-04-21 15:53:31] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: New version: [12.0.0.0.2] Old Version: [12.0.0.0.1]
+[2023-04-21 15:53:31] INFO root fetch - processPackages [plex-nfs-watchdog]: Downloading https://files.pythonhosted.org/packages/29/e0/ef978f61beb956d23213f267434bfe8c242b9f6f72882b410454d28a42bc/plex-nfs-watchdog-0.0.1.tar.gz
+[2023-04-21 15:53:31] INFO root fetch - processPackages [flowhigh]: New version: [1.0.1] Old Version: [1.0]
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-21 15:53:31] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230421/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-21 15:53:31] INFO root fetch - processPackages [vidis-algorithms-api]: Downloading https://files.pythonhosted.org/packages/65/d3/8e3cfca31ab2c6cf40cd0d8d8d44d45a8498b583bb49c48c2b2072844f19/vidis_algorithms_api-0.4.3.tar.gz
+[2023-04-21 15:53:31] INFO root fetch - processPackages [piptools-sync]: Downloading https://files.pythonhosted.org/packages/81/95/32cc8f927dd769e369c79a870c3891d800b66c2c02bcc7ab1263ed869959/piptools_sync-1.0.2.tar.gz
+[2023-04-21 15:53:31] INFO root fetch - processPackages [django-seeker]: Downloading https://files.pythonhosted.org/packages/6b/19/763dd999fae05a7dd18636fe766e80f0a9118bb301e7497dcba029331f99/django-seeker-7.3.0.tar.gz
+[2023-04-21 15:53:31] INFO root fetch - processPackages [proxyorderedset]: Downloading https://files.pythonhosted.org/packages/2a/0c/1fa906ba947fa1db139e2f82da477507b01b2ddabb3ee3ece4f7c36686cc/proxyorderedset-0.3.1.tar.gz
+[2023-04-21 15:53:31] INFO root fetch - processPackages [signhost-api-python-client]: Downloading https://files.pythonhosted.org/packages/70/12/7cacd4bad6de2e77e580e46b58b6c4d456dcdf9216f28df213af442eb32f/signhost_api_python_client-0.1.5.tar.gz
+[2023-04-21 15:53:31] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: executing diffoscope
+[2023-04-21 15:53:31] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_crm_sale_order_line-12.0.0.0.1-py3-none-any.whl.zip tmp/odoo12_addon_crm_sale_order_line-12.0.0.0.2-py3-none-any.whl.zip --markdown 20230421/o/odoo12-addon-crm-sale-order-line/12.0.0.0.1-12.0.0.0.2/diff.md --exclude *.pyd
+[2023-04-21 15:53:31] INFO root fetch - processPackages [flowhigh]: Downloading https://files.pythonhosted.org/packages/eb/df/0c3fb40987025dcd44e515ea638496acb2ca168c95e759ed8953a5c5b280/flowhigh-1.0-py2.py3-none-any.whl
+[2023-04-21 15:53:31] INFO root fetch - processPackages [vidis-algorithms-api]: executing diffoscope
+[2023-04-21 15:53:31] INFO root fetch - processPackages [vidis-algorithms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidis_algorithms_api-0.4.2.tar.gz tmp/vidis_algorithms_api-0.4.3.tar.gz --markdown 20230421/v/vidis-algorithms-api/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-21 15:53:31] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/f4/bf/633d1d4f9fb8836c77ecfef3c6e3fa69e2228739b6eb0978323f3727fd1d/pdm_conda-0.9.1b0.tar.gz
+[2023-04-21 15:53:32] INFO root fetch - processPackages [piptools-sync]: Downloading https://files.pythonhosted.org/packages/86/40/4b3534bb05f8717de4d26c88f352493580b3faa1a518b572901e767af05f/piptools_sync-1.0.3.tar.gz
+[2023-04-21 15:53:32] INFO root fetch - processPackages [plex-nfs-watchdog]: Downloading https://files.pythonhosted.org/packages/51/89/fb4860c5fbc17925e7d3a043ed3990ce11654db773204f0dba84bf6e81c8/plex-nfs-watchdog-0.0.2.tar.gz
+[2023-04-21 15:53:32] INFO root fetch - processPackages [signhost-api-python-client]: Downloading https://files.pythonhosted.org/packages/42/46/6f06e9615f49faa57b7012089728e96d9541ab8d1035131cb836b647b843/signhost_api_python_client-0.2.0.tar.gz
+[2023-04-21 15:53:32] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-04-21 15:53:32] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.0b2.tar.gz tmp/pdm_conda-0.9.1b0.tar.gz --markdown 20230421/p/pdm-conda/0.9.0b2-0.9.1b0/diff.md --exclude *.pyd
+[2023-04-21 15:53:32] INFO root fetch - processPackages [flowhigh]: Downloading https://files.pythonhosted.org/packages/76/42/00dfbb0576c5bc14fd254bab409804a5fd7c4a045187a295713fa839df1e/flowhigh-1.0.1.tar.gz
+[2023-04-21 15:53:32] INFO root fetch - processPackages [django-seeker]: Downloading https://files.pythonhosted.org/packages/01/8e/79108e64d9bfa0328cde550d7deaef8d0902d70a52f566f2cfcb98c4cdb2/django-seeker-7.3.1.tar.gz
+[2023-04-21 15:53:32] INFO root fetch - processPackages [proxyorderedset]: Downloading https://files.pythonhosted.org/packages/38/65/1fa52a8faf6eb9918ed855abda9d6a36663c690a1b285a5e17a3ed9def0d/proxyorderedset-0.3.2.tar.gz
+[2023-04-21 15:53:32] INFO root fetch - processPackages [piptools-sync]: executing diffoscope
+[2023-04-21 15:53:32] INFO root fetch - processPackages [piptools-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piptools_sync-1.0.2.tar.gz tmp/piptools_sync-1.0.3.tar.gz --markdown 20230421/p/piptools-sync/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 15:53:32] INFO root fetch - processPackages [plex-nfs-watchdog]: executing diffoscope
+[2023-04-21 15:53:32] INFO root fetch - processPackages [plex-nfs-watchdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plex-nfs-watchdog-0.0.1.tar.gz tmp/plex-nfs-watchdog-0.0.2.tar.gz --markdown 20230421/p/plex-nfs-watchdog/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 15:53:32] INFO root fetch - processPackages [signhost-api-python-client]: executing diffoscope
+[2023-04-21 15:53:32] INFO root fetch - processPackages [signhost-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signhost_api_python_client-0.1.5.tar.gz tmp/signhost_api_python_client-0.2.0.tar.gz --markdown 20230421/s/signhost-api-python-client/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 15:53:32] INFO root fetch - processPackages [flowhigh]: executing diffoscope
+[2023-04-21 15:53:32] INFO root fetch - processPackages [flowhigh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowhigh-1.0-py2.py3-none-any.whl.zip tmp/flowhigh-1.0.1.tar.gz --markdown 20230421/f/flowhigh/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 15:53:32] INFO root fetch - processPackages [django-seeker]: executing diffoscope
+[2023-04-21 15:53:32] INFO root fetch - processPackages [proxyorderedset]: executing diffoscope
+[2023-04-21 15:53:32] INFO root fetch - processPackages [django-seeker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-seeker-7.3.0.tar.gz tmp/django-seeker-7.3.1.tar.gz --markdown 20230421/d/django-seeker/7.3.0-7.3.1/diff.md --exclude *.pyd
+[2023-04-21 15:53:32] INFO root fetch - processPackages [proxyorderedset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxyorderedset-0.3.1.tar.gz tmp/proxyorderedset-0.3.2.tar.gz --markdown 20230421/p/proxyorderedset/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-21 15:53:33] INFO root fetch - processPackages [ramodels]: Start processing: isystem.connect
+[2023-04-21 15:53:33] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-21 15:53:33] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: Start processing: luminesce-sdk-preview
+[2023-04-21 15:53:33] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line]: success
+[2023-04-21 15:53:33] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-04-21 15:53:33] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-04-21 15:53:33] INFO root fetch - processPackages [vidis-algorithms-api]: Start processing: pyannote.database
+[2023-04-21 15:53:33] INFO root fetch - main [MainThread]: End processing [vidis-algorithms-api]: success
+[2023-04-21 15:53:33] INFO root fetch - processPackages [pyannote.database]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-04-21 15:53:33] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-04-21 15:53:33] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230421/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-04-21 15:53:33] INFO root fetch - processPackages [plex-nfs-watchdog]: Start processing: mrdoxgtf
+[2023-04-21 15:53:33] INFO root fetch - main [MainThread]: End processing [plex-nfs-watchdog]: success
+[2023-04-21 15:53:34] INFO root fetch - processPackages [pyannote.database]: Downloading https://files.pythonhosted.org/packages/37/80/eea26accf443870f656849e312cccade3c307ed274c69a6789c5d611d9c3/pyannote.database-5.0.0.tar.gz
+[2023-04-21 15:53:34] WARNING root fetch - processPackages [mrdoxgtf]: Skipping, unable to determine old version
+[2023-04-21 15:53:34] INFO root fetch - processPackages [mrdoxgtf]: Start processing: google-cloud-ids
+[2023-04-21 15:53:34] INFO root fetch - main [MainThread]: End processing [mrdoxgtf] error
+[2023-04-21 15:53:34] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-04-21 15:53:34] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230421/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-04-21 15:53:34] INFO root fetch - processPackages [google-cloud-ids]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-04-21 15:53:34] INFO root fetch - processPackages [pyannote.database]: Downloading https://files.pythonhosted.org/packages/ea/29/30a1699f32966e76ee2b4a28d40b39ce98bf6bd4796b12e3f4642f6e89cf/pyannote.database-5.0.1.tar.gz
+[2023-04-21 15:53:34] INFO root fetch - processPackages [proxyorderedset]: Start processing: salure-helpers-planday
+[2023-04-21 15:53:34] INFO root fetch - main [MainThread]: End processing [proxyorderedset]: success
+[2023-04-21 15:53:34] INFO root fetch - processPackages [salure-helpers-planday]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 15:53:34] INFO root fetch - processPackages [google-cloud-ids]: Downloading https://files.pythonhosted.org/packages/31/2c/39e575933c37092f9fe525458974c04c204cd7087262934a332717636f01/google-cloud-ids-1.5.0.tar.gz
+[2023-04-21 15:53:34] INFO root fetch - processPackages [pyannote.database]: executing diffoscope
+[2023-04-21 15:53:34] INFO root fetch - processPackages [pyannote.database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyannote.database-5.0.0.tar.gz tmp/pyannote.database-5.0.1.tar.gz --markdown 20230421/p/pyannote.database/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-04-21 15:53:34] INFO root fetch - main [MainThread]: End processing [flowhigh]: success
+[2023-04-21 15:53:34] INFO root fetch - main [MainThread]: End processing [signhost-api-python-client]: success
+[2023-04-21 15:53:34] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-04-21 15:53:34] INFO root fetch - main [MainThread]: End processing [piptools-sync]: success
+[2023-04-21 15:53:34] INFO root fetch - processPackages [google-cloud-ids]: Downloading https://files.pythonhosted.org/packages/9c/f1/d22b115dfe5a71ab6566c3aa1ac58b8cc3096037c344303dde16d4e912a6/google-cloud-ids-1.5.1.tar.gz
+[2023-04-21 15:53:34] INFO root fetch - processPackages [salure-helpers-planday]: Downloading https://files.pythonhosted.org/packages/e6/97/20d2eaa2c8de143b75be97b14628ee93e1904e9211b613a08f5e2c5c9831/salure_helpers_planday-0.0.3.tar.gz
+[2023-04-21 15:53:34] INFO root fetch - processPackages [google-cloud-ids]: executing diffoscope
+[2023-04-21 15:53:34] INFO root fetch - processPackages [google-cloud-ids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-ids-1.5.0.tar.gz tmp/google-cloud-ids-1.5.1.tar.gz --markdown 20230421/g/google-cloud-ids/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-21 15:53:34] INFO root fetch - processPackages [salure-helpers-planday]: executing diffoscope
+[2023-04-21 15:53:34] INFO root fetch - processPackages [salure-helpers-planday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_planday-0.0.2.tar.gz tmp/salure_helpers_planday-0.0.3.tar.gz --markdown 20230421/s/salure-helpers-planday/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 15:53:35] INFO root fetch - main [MainThread]: End processing [django-seeker]: success
+[2023-04-21 15:53:35] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-04-21 15:53:35] INFO root fetch - main [MainThread]: End processing [pyannote.database]: success
+[2023-04-21 15:53:36] INFO root fetch - main [MainThread]: End processing [salure-helpers-planday]: success
+[2023-04-21 15:53:36] INFO root fetch - main [MainThread]: End processing [google-cloud-ids]: success
+[2023-04-21 15:53:38] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-04-21 15:53:38] INFO root fetch - main [MainThread]: Store serial: [17803979]
