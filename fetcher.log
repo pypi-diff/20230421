@@ -15675,3 +15675,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 15:37:35] INFO root fetch - main [MainThread]: End processing [alphaz]: success
 [2023-04-21 15:37:36] INFO root fetch - main [MainThread]: End processing [nicegui]: success
 [2023-04-21 15:37:36] INFO root fetch - main [MainThread]: Store serial: [17803796]
+[2023-04-21 15:42:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17803796]
+[2023-04-21 15:42:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 15:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PrayTorch
+[2023-04-21 15:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chorde
+[2023-04-21 15:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hepai
+[2023-04-21 15:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inels-mqtt-new
+[2023-04-21 15:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lexikos
+[2023-04-21 15:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-dnsimple
+[2023-04-21 15:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hepai
+[2023-04-21 15:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: epics-containers-cli
+[2023-04-21 15:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-l10n-it-pos-fiscalcode
+[2023-04-21 15:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chronus
+[2023-04-21 15:42:46] INFO root fetch - processPackages [hepai]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-21 15:42:46] INFO root fetch - processPackages [hepai]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-21 15:42:46] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-04-21 15:42:46] WARNING root fetch - processPackages [lexikos]: Skipping, unable to determine old version
+[2023-04-21 15:42:46] INFO root fetch - processPackages [lexikos]: Start processing: moc-set
+[2023-04-21 15:42:46] INFO root fetch - main [MainThread]: End processing [lexikos] error
+[2023-04-21 15:42:46] WARNING root fetch - processPackages [PrayTorch]: Skipping, unable to determine old version
+[2023-04-21 15:42:46] INFO root fetch - processPackages [PrayTorch]: Start processing: pybites-search
+[2023-04-21 15:42:46] INFO root fetch - main [MainThread]: End processing [PrayTorch] error
+[2023-04-21 15:42:46] INFO root fetch - processPackages [chronus]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 15:42:46] INFO root fetch - processPackages [epics-containers-cli]: New version: [1.5.1] Old Version: [0.5.0]
+[2023-04-21 15:42:46] INFO root fetch - processPackages [chorde]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 15:42:46] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fiscalcode]: New version: [14.0.1.0.1.dev3] Old Version: [14.0.1.0.1.dev2]
+[2023-04-21 15:42:46] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-04-21 15:42:46] INFO root fetch - processPackages [moc-set]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-21 15:42:46] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-04-21 15:42:46] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230421/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-04-21 15:42:46] INFO root fetch - processPackages [pybites-search]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 15:42:46] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/d0/40/b078392bad72a70a512158c033b0153afe82215712402e02a3934f8c9ade/hepai-1.0.8.tar.gz
+[2023-04-21 15:42:46] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/d0/40/b078392bad72a70a512158c033b0153afe82215712402e02a3934f8c9ade/hepai-1.0.8.tar.gz
+[2023-04-21 15:42:46] INFO root fetch - processPackages [chorde]: Downloading https://files.pythonhosted.org/packages/24/3c/513acedac1e09307902314d2cec1a5664f40aaf2eab8a6c9dd34e9dd8d7f/chorde-1.0.2.tar.gz
+[2023-04-21 15:42:46] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/bd/ea/f64001141826e3a9033a62a10946199981c1e33cf1d83ed47c255676e705/chronus-0.2.1.tar.gz
+[2023-04-21 15:42:46] INFO root fetch - processPackages [epics-containers-cli]: Downloading https://files.pythonhosted.org/packages/4e/35/d56d035569533454215bdb7f89fb669a61a1093c849007cb0ab0cc4f6562/epics-containers-cli-0.5.0.tar.gz
+[2023-04-21 15:42:46] INFO root fetch - processPackages [moc-set]: Downloading https://files.pythonhosted.org/packages/4b/7e/605d3c6ae4a0b477223515f11f22a51a62da77e6dc29347e80b2e4fb2e29/moc_set-0.6.0-py3-none-win_amd64.whl
+[2023-04-21 15:42:46] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fiscalcode]: Downloading https://files.pythonhosted.org/packages/75/0f/bec049f85747906cb99c479fe1626306a636218265b803a70285cca5a58b/odoo14_addon_l10n_it_pos_fiscalcode-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-04-21 15:42:46] INFO root fetch - processPackages [hepai]: executing diffoscope
+[2023-04-21 15:42:46] INFO root fetch - processPackages [hepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepai-1.0.7.tar.gz tmp/hepai-1.0.8.tar.gz --markdown 20230421/h/hepai/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-21 15:42:46] INFO root fetch - processPackages [hepai]: executing diffoscope
+[2023-04-21 15:42:46] INFO root fetch - processPackages [hepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepai-1.0.7.tar.gz tmp/hepai-1.0.8.tar.gz --markdown 20230421/h/hepai/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-21 15:42:46] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: Downloading https://files.pythonhosted.org/packages/95/0e/bce3832faaf7b0314ae8ee7ad1e876c935e19a91d5eb66d93beac22dda6d/cdktf-cdktf-provider-dnsimple-5.0.1.tar.gz
+[2023-04-21 15:42:46] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/3c/b3/2569ffe1b1a95c87c7ef0aa1bb0a0f0f5e99ec3ae6e8b700afd94139d7c4/chronus-0.2.2.tar.gz
+[2023-04-21 15:42:46] INFO root fetch - processPackages [epics-containers-cli]: Downloading https://files.pythonhosted.org/packages/97/5b/11e419380995280c7ca840909f0a922c63fdea20b6caefc66814935f37b0/epics-containers-cli-1.5.1.tar.gz
+[2023-04-21 15:42:46] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: executing diffoscope
+[2023-04-21 15:42:46] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-dnsimple-5.0.0.tar.gz tmp/cdktf-cdktf-provider-dnsimple-5.0.1.tar.gz --markdown 20230421/c/cdktf-cdktf-provider-dnsimple/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-04-21 15:42:46] INFO root fetch - processPackages [pybites-search]: executing diffoscope
+[2023-04-21 15:42:46] INFO root fetch - processPackages [pybites-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybites_search-0.0.8.tar.gz tmp/pybites_search-0.0.9.tar.gz --markdown 20230421/p/pybites-search/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 15:42:46] INFO root fetch - processPackages [chronus]: executing diffoscope
+[2023-04-21 15:42:46] INFO root fetch - processPackages [chronus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronus-0.2.1.tar.gz tmp/chronus-0.2.2.tar.gz --markdown 20230421/c/chronus/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 15:42:46] INFO root fetch - processPackages [moc-set]: Downloading https://files.pythonhosted.org/packages/a0/a3/b1f5806c7f2374761672cd9f89b1281015c9e0a6d997bbc12322e7938807/moc_set-0.7.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 15:42:46] INFO root fetch - processPackages [chorde]: Downloading https://files.pythonhosted.org/packages/06/21/874bb81b300e7ac3d9fcc1863e1ac4d49802374f875943ca3da7ea3ab365/chorde-1.0.3.tar.gz
+[2023-04-21 15:42:46] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fiscalcode]: Downloading https://files.pythonhosted.org/packages/f9/cc/e33343dcd8bb4da0f74033f688d783f943da4b3a810566e3039b7a671a2a/odoo14_addon_l10n_it_pos_fiscalcode-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-04-21 15:42:46] INFO root fetch - processPackages [epics-containers-cli]: executing diffoscope
+[2023-04-21 15:42:46] INFO root fetch - processPackages [epics-containers-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epics-containers-cli-0.5.0.tar.gz tmp/epics-containers-cli-1.5.1.tar.gz --markdown 20230421/e/epics-containers-cli/0.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-21 15:42:47] INFO root fetch - processPackages [moc-set]: executing diffoscope
+[2023-04-21 15:42:47] INFO root fetch - processPackages [moc-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moc_set-0.6.0-py3-none-win_amd64.whl.zip tmp/moc_set-0.7.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230421/m/moc-set/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-21 15:42:47] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fiscalcode]: executing diffoscope
+[2023-04-21 15:42:47] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fiscalcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_pos_fiscalcode-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_pos_fiscalcode-14.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20230421/o/odoo14-addon-l10n-it-pos-fiscalcode/14.0.1.0.1.dev2-14.0.1.0.1.dev3/diff.md --exclude *.pyd
+[2023-04-21 15:42:47] INFO root fetch - processPackages [chorde]: executing diffoscope
+[2023-04-21 15:42:47] INFO root fetch - processPackages [chorde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chorde-1.0.2.tar.gz tmp/chorde-1.0.3.tar.gz --markdown 20230421/c/chorde/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 15:42:47] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-04-21 15:42:48] INFO root fetch - main [MainThread]: End processing [pybites-search]: success
+[2023-04-21 15:42:48] INFO root fetch - main [MainThread]: End processing [chronus]: success
+[2023-04-21 15:42:48] INFO root fetch - main [MainThread]: End processing [hepai]: success
+[2023-04-21 15:42:48] INFO root fetch - main [MainThread]: End processing [epics-containers-cli]: success
+[2023-04-21 15:42:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-pos-fiscalcode]: success
+[2023-04-21 15:42:49] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-dnsimple]: success
+[2023-04-21 15:42:49] INFO root fetch - main [MainThread]: End processing [moc-set]: success
+[2023-04-21 15:42:49] INFO root fetch - main [MainThread]: End processing [hepai]: success
+[2023-04-21 15:42:52] INFO root fetch - main [MainThread]: End processing [chorde]: success
+[2023-04-21 15:42:52] INFO root fetch - main [MainThread]: Store serial: [17803830]
