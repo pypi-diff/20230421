@@ -9258,3 +9258,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 08:55:10] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
 [2023-04-21 08:55:10] INFO root fetch - main [MainThread]: End processing [PyQtGuiLib]: success
 [2023-04-21 08:55:10] INFO root fetch - main [MainThread]: Store serial: [17799933]
+[2023-04-21 09:00:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799933]
+[2023-04-21 09:00:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-21 09:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caep
+[2023-04-21 09:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-04-21 09:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-04-21 09:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kkpyutil
+[2023-04-21 09:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xemc3
+[2023-04-21 09:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-3rdparty-mediawiki
+[2023-04-21 09:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygwalker
+[2023-04-21 09:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: captioneditor
+[2023-04-21 09:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dop-integration-libs
+[2023-04-21 09:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prasadD
+[2023-04-21 09:00:19] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 09:00:19] INFO root fetch - processPackages [xemc3]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-21 09:00:19] WARNING root fetch - processPackages [prasadD]: Skipping, unable to determine old version
+[2023-04-21 09:00:19] INFO root fetch - processPackages [prasadD]: Start processing: binance-connector
+[2023-04-21 09:00:19] INFO root fetch - main [MainThread]: End processing [prasadD] error
+[2023-04-21 09:00:19] WARNING root fetch - processPackages [captioneditor]: Skipping, unable to determine old version
+[2023-04-21 09:00:19] INFO root fetch - processPackages [captioneditor]: Start processing: voronoi-diagram-for-polygons
+[2023-04-21 09:00:19] INFO root fetch - processPackages [caep]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-21 09:00:19] INFO root fetch - main [MainThread]: End processing [captioneditor] error
+[2023-04-21 09:00:19] INFO root fetch - processPackages [pygwalker]: New version: [0.1.7a5] Old Version: [0.1.7a4]
+[2023-04-21 09:00:19] INFO root fetch - processPackages [py-3rdparty-mediawiki]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-21 09:00:19] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-04-21 09:00:19] INFO root fetch - processPackages [binance-connector]: New version: [3.0.0rc2] Old Version: [3.0.0rc1]
+[2023-04-21 09:00:19] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-21 09:00:19] INFO root fetch - processPackages [voronoi-diagram-for-polygons]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-21 09:00:19] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-21 09:00:19] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-21 09:00:19] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230421/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 09:00:19] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-04-21 09:00:19] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230421/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-04-21 09:00:19] INFO root fetch - processPackages [caep]: Downloading https://files.pythonhosted.org/packages/5c/ce/4da0814f8824f7397f1afb1958c567eaf76c345b9e2d3fdf45a17dbbe0e9/caep-0.1.6.tar.gz
+[2023-04-21 09:00:19] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/86/30/9f0cd8672571b51cfb8a029c5af81b31817348fab40f9370318eecaaa069/pygwalker-0.1.7a4.tar.gz
+[2023-04-21 09:00:19] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-21 09:00:19] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230421/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-21 09:00:19] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-21 09:00:19] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230421/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-21 09:00:19] INFO root fetch - processPackages [py-3rdparty-mediawiki]: Downloading https://files.pythonhosted.org/packages/e1/73/98e3365d0827e15a46c42f18d6f85b984bc24bd8aa239ddd7facf1545568/py_3rdparty_mediawiki-0.9.4.tar.gz
+[2023-04-21 09:00:19] INFO root fetch - processPackages [binance-connector]: Downloading https://files.pythonhosted.org/packages/f0/24/c47ce9727a7bb85edb7d7da513ee163cac8b6afbd606ac66bc721f062ce2/binance-connector-3.0.0rc1.tar.gz
+[2023-04-21 09:00:19] INFO root fetch - processPackages [xemc3]: Downloading https://files.pythonhosted.org/packages/8e/28/4ff3c0a1452910d28084a0a84553994c5c7eb728c8508c676dba6864b4ed/xemc3-0.2.4.tar.gz
+[2023-04-21 09:00:19] INFO root fetch - processPackages [caep]: Downloading https://files.pythonhosted.org/packages/76/0a/516c5827cda0e6cd723a84171f70bbd6b0816c5096c75861f5414748a453/caep-0.1.7.tar.gz
+[2023-04-21 09:00:19] INFO root fetch - processPackages [voronoi-diagram-for-polygons]: Downloading https://files.pythonhosted.org/packages/ca/0e/d3c07986027d20c71b7865e93ef01f4f5e25ceef49b73a4c112361218b13/voronoi-diagram-for-polygons-0.1.5.tar.gz
+[2023-04-21 09:00:19] INFO root fetch - processPackages [py-3rdparty-mediawiki]: Downloading https://files.pythonhosted.org/packages/be/33/cb9f8f94b74be2657970eb02e4428f8d636ffa6e6af81884e602c72507f5/py_3rdparty_mediawiki-0.9.5.tar.gz
+[2023-04-21 09:00:19] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/f9/67/2c44fa96ff25aea894561feacf1a39d5ebaed58f3239474b307af4755641/pygwalker-0.1.7a5.tar.gz
+[2023-04-21 09:00:19] INFO root fetch - processPackages [xemc3]: executing diffoscope
+[2023-04-21 09:00:19] INFO root fetch - processPackages [xemc3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xemc3-0.2.3.tar.gz tmp/xemc3-0.2.4.tar.gz --markdown 20230421/x/xemc3/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-21 09:00:20] INFO root fetch - processPackages [caep]: executing diffoscope
+[2023-04-21 09:00:20] INFO root fetch - processPackages [caep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caep-0.1.6.tar.gz tmp/caep-0.1.7.tar.gz --markdown 20230421/c/caep/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-21 09:00:20] INFO root fetch - processPackages [voronoi-diagram-for-polygons]: executing diffoscope
+[2023-04-21 09:00:20] INFO root fetch - processPackages [voronoi-diagram-for-polygons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voronoi-diagram-for-polygons-0.1.4.tar.gz tmp/voronoi-diagram-for-polygons-0.1.5.tar.gz --markdown 20230421/v/voronoi-diagram-for-polygons/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-21 09:00:20] INFO root fetch - processPackages [binance-connector]: Downloading https://files.pythonhosted.org/packages/81/9b/0611e8f64112f669820921b9fd22b0d6706e9ed66bff16ed3f7b5a5f921b/binance-connector-3.0.0rc2.tar.gz
+[2023-04-21 09:00:20] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2023-04-21 09:00:20] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.1.7a4.tar.gz tmp/pygwalker-0.1.7a5.tar.gz --markdown 20230421/p/pygwalker/0.1.7a4-0.1.7a5/diff.md --exclude *.pyd
+[2023-04-21 09:00:20] INFO root fetch - processPackages [binance-connector]: executing diffoscope
+[2023-04-21 09:00:20] INFO root fetch - processPackages [binance-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binance-connector-3.0.0rc1.tar.gz tmp/binance-connector-3.0.0rc2.tar.gz --markdown 20230421/b/binance-connector/3.0.0rc1-3.0.0rc2/diff.md --exclude *.pyd
+[2023-04-21 09:00:20] INFO root fetch - processPackages [py-3rdparty-mediawiki]: executing diffoscope
+[2023-04-21 09:00:20] INFO root fetch - processPackages [py-3rdparty-mediawiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_3rdparty_mediawiki-0.9.4.tar.gz tmp/py_3rdparty_mediawiki-0.9.5.tar.gz --markdown 20230421/p/py-3rdparty-mediawiki/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-21 09:00:20] INFO root fetch - processPackages [dop-integration-libs]: Start processing: sbcs-schema
+[2023-04-21 09:00:20] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-21 09:00:20] WARNING root fetch - processPackages [sbcs-schema]: Skipping, unable to determine old version
+[2023-04-21 09:00:20] INFO root fetch - main [MainThread]: End processing [sbcs-schema] error
+[2023-04-21 09:00:21] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-04-21 09:00:21] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-21 09:00:21] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-21 09:00:21] INFO root fetch - main [MainThread]: End processing [caep]: success
+[2023-04-21 09:00:21] INFO root fetch - main [MainThread]: End processing [voronoi-diagram-for-polygons]: success
+[2023-04-21 09:00:21] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2023-04-21 09:00:22] INFO root fetch - main [MainThread]: End processing [py-3rdparty-mediawiki]: success
+[2023-04-21 09:00:22] INFO root fetch - main [MainThread]: End processing [xemc3]: success
+[2023-04-21 09:00:23] INFO root fetch - main [MainThread]: End processing [binance-connector]: success
+[2023-04-21 09:00:23] INFO root fetch - main [MainThread]: Store serial: [17799975]
