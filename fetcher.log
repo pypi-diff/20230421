@@ -12886,3 +12886,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 12:47:27] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
 [2023-04-21 12:47:29] INFO root fetch - main [MainThread]: End processing [raster-loader]: success
 [2023-04-21 12:47:29] INFO root fetch - main [MainThread]: Store serial: [17801972]
+[2023-04-21 12:52:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17801972]
+[2023-04-21 12:52:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyagi
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teneva-ht-jax
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: citrusdb
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Mornay
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ratinabox
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plex-nfs-watchdog
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ONE-api
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: camerahub
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ngits-tickets
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: psgtest
+[2023-04-21 12:52:38] INFO root fetch - processPackages [camerahub]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-21 12:52:38] WARNING root fetch - processPackages [teneva-ht-jax]: Skipping, unable to determine old version
+[2023-04-21 12:52:38] INFO root fetch - processPackages [teneva-ht-jax]: Start processing: ngits-users
+[2023-04-21 12:52:38] INFO root fetch - main [MainThread]: End processing [teneva-ht-jax] error
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ngits-users]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ratinabox]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-04-21 12:52:38] INFO root fetch - processPackages [skyagi]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-04-21 12:52:38] INFO root fetch - processPackages [citrusdb]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 12:52:38] WARNING root fetch - processPackages [plex-nfs-watchdog]: Skipping, unable to determine old version
+[2023-04-21 12:52:38] WARNING root fetch - processPackages [Mornay]: Skipping, unable to determine old version
+[2023-04-21 12:52:38] INFO root fetch - processPackages [plex-nfs-watchdog]: Start processing: meson
+[2023-04-21 12:52:38] INFO root fetch - processPackages [Mornay]: Start processing: flarespy
+[2023-04-21 12:52:38] INFO root fetch - main [MainThread]: End processing [plex-nfs-watchdog] error
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ngits-tickets]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 12:52:38] INFO root fetch - processPackages [psgtest]: New version: [3.0] Old Version: [1.9.0]
+[2023-04-21 12:52:38] INFO root fetch - main [MainThread]: End processing [Mornay] error
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ONE-api]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-21 12:52:38] INFO root fetch - processPackages [camerahub]: executing diffoscope
+[2023-04-21 12:52:38] INFO root fetch - processPackages [camerahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub-0.9.7.tar.gz tmp/camerahub-0.9.8.tar.gz --markdown 20230421/c/camerahub/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-21 12:52:38] INFO root fetch - processPackages [flarespy]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-21 12:52:38] INFO root fetch - processPackages [meson]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ngits-users]: executing diffoscope
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ngits-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngits-users-1.0.6.tar.gz tmp/ngits-users-1.0.7.tar.gz --markdown 20230421/n/ngits-users/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-21 12:52:38] INFO root fetch - processPackages [citrusdb]: Downloading https://files.pythonhosted.org/packages/26/6b/53f4bae84e8c783e1488129f72d978255330295f9a7eb3aaeec6e920c389/citrusdb-0.1.2.tar.gz
+[2023-04-21 12:52:38] INFO root fetch - processPackages [skyagi]: Downloading https://files.pythonhosted.org/packages/4a/71/a17328aa9c1b493396af4c7751fdd7997d1588390b9f41f3d1b2b2db7c86/skyagi-0.0.6.tar.gz
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ngits-tickets]: Downloading https://files.pythonhosted.org/packages/a8/2d/f924dca040f2da08928e99bf0fe69037fc4c9961bdf968c9f91529246600/ngits-tickets-1.0.2.tar.gz
+[2023-04-21 12:52:38] INFO root fetch - processPackages [meson]: Downloading https://files.pythonhosted.org/packages/04/e4/0b96838bb61d6c65509ffef04be0730980ef942f5ba0fc161d12e0b81b8a/meson-1.1.0rc1.tar.gz
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ONE-api]: Downloading https://files.pythonhosted.org/packages/69/30/21ebb2811a68f92803da42d2d2d1ebe381556349e9a71bcd835c52a585b4/ONE-api-1.9.0.tar.gz
+[2023-04-21 12:52:38] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/1d/6b/7c3d38a23e8539b4388bd1335206155d0a288ccc670584f995f442d93c58/flarespy-0.8.0.tar.gz
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ratinabox]: Downloading https://files.pythonhosted.org/packages/54/b2/903fb0ec0a5421d0178bb71cb823e78b9131d9036fc170a0f26dd5c3de6d/ratinabox-1.5.0.tar.gz
+[2023-04-21 12:52:38] INFO root fetch - processPackages [citrusdb]: Downloading https://files.pythonhosted.org/packages/dc/96/77c58e2f9f08b83cb7719b0139b1481c0d344350dfca34cc3ff7fad9a5df/citrusdb-0.1.3.tar.gz
+[2023-04-21 12:52:38] INFO root fetch - processPackages [skyagi]: Downloading https://files.pythonhosted.org/packages/2c/8a/1db7ac914c786f69dbbb17002028d389e8163581738de53e62af89312a32/skyagi-0.0.8.tar.gz
+[2023-04-21 12:52:38] INFO root fetch - processPackages [psgtest]: Downloading https://files.pythonhosted.org/packages/74/99/38a7ad49856b623596286bfcc4bd695fe0e54890ba618a92ca712c6cc1c7/psgtest-3.0.tar.gz
+[2023-04-21 12:52:38] INFO root fetch - processPackages [ngits-tickets]: Downloading https://files.pythonhosted.org/packages/e6/d4/07892b6c4432a8c4def7107645287fea34604cf20983af7c3c4c2aa90728/ngits-tickets-1.0.3.tar.gz
+[2023-04-21 12:52:38] INFO root fetch - processPackages [citrusdb]: executing diffoscope
+[2023-04-21 12:52:38] INFO root fetch - processPackages [citrusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citrusdb-0.1.2.tar.gz tmp/citrusdb-0.1.3.tar.gz --markdown 20230421/c/citrusdb/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 12:52:38] INFO root fetch - processPackages [skyagi]: executing diffoscope
+[2023-04-21 12:52:38] INFO root fetch - processPackages [skyagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyagi-0.0.6.tar.gz tmp/skyagi-0.0.8.tar.gz --markdown 20230421/s/skyagi/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 12:52:38] INFO root fetch - processPackages [psgtest]: executing diffoscope
+[2023-04-21 12:52:38] INFO root fetch - processPackages [psgtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psgtest-1.9.0.tar.gz tmp/psgtest-3.0.tar.gz --markdown 20230421/p/psgtest/1.9.0-3.0/diff.md --exclude *.pyd
+[2023-04-21 12:52:39] INFO root fetch - processPackages [ONE-api]: Downloading https://files.pythonhosted.org/packages/e2/c9/471b8cea6b4879a726ed03c8863b8e05fd54630a69346370751a76bc17bf/ONE-api-1.9.1.tar.gz
+[2023-04-21 12:52:39] INFO root fetch - processPackages [ngits-tickets]: executing diffoscope
+[2023-04-21 12:52:39] INFO root fetch - processPackages [ngits-tickets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngits-tickets-1.0.2.tar.gz tmp/ngits-tickets-1.0.3.tar.gz --markdown 20230421/n/ngits-tickets/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 12:52:39] INFO root fetch - processPackages [ratinabox]: executing diffoscope
+[2023-04-21 12:52:39] INFO root fetch - processPackages [ratinabox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratinabox-1.4.2.tar.gz tmp/ratinabox-1.5.0.tar.gz --markdown 20230421/r/ratinabox/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-04-21 12:52:39] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/1b/2e/4fe3a9538865868d96a2d14d743cb516b0d48abc9a8d1b2575e975a20892/flarespy-0.8.1.tar.gz
+[2023-04-21 12:52:39] INFO root fetch - processPackages [ONE-api]: executing diffoscope
+[2023-04-21 12:52:39] INFO root fetch - processPackages [ONE-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ONE-api-1.9.0.tar.gz tmp/ONE-api-1.9.1.tar.gz --markdown 20230421/O/ONE-api/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-21 12:52:39] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-04-21 12:52:39] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.8.0.tar.gz tmp/flarespy-0.8.1.tar.gz --markdown 20230421/f/flarespy/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-21 12:52:39] INFO root fetch - processPackages [meson]: Downloading https://files.pythonhosted.org/packages/1c/60/fe2c60cacdd353cf9c143d4f392e64eb76b171ea1f3ab88b9ff0baac4ed4/meson-1.1.0rc2.tar.gz
+[2023-04-21 12:52:39] INFO root fetch - processPackages [meson]: executing diffoscope
+[2023-04-21 12:52:39] INFO root fetch - processPackages [meson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meson-1.1.0rc1.tar.gz tmp/meson-1.1.0rc2.tar.gz --markdown 20230421/m/meson/1.1.0rc1-1.1.0rc2/diff.md --exclude *.pyd
+[2023-04-21 12:52:40] INFO root fetch - processPackages [citrusdb]: Start processing: vidis-algorithms-api
+[2023-04-21 12:52:40] INFO root fetch - main [MainThread]: End processing [citrusdb]: success
+[2023-04-21 12:52:40] INFO root fetch - processPackages [vidis-algorithms-api]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-04-21 12:52:40] INFO root fetch - processPackages [vidis-algorithms-api]: executing diffoscope
+[2023-04-21 12:52:40] INFO root fetch - processPackages [vidis-algorithms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidis_algorithms_api-0.3.4.tar.gz tmp/vidis_algorithms_api-0.4.0.tar.gz --markdown 20230421/v/vidis-algorithms-api/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 12:52:40] INFO root fetch - processPackages [skyagi]: Start processing: coco_types
+[2023-04-21 12:52:40] INFO root fetch - main [MainThread]: End processing [skyagi]: success
+[2023-04-21 12:52:40] INFO root fetch - main [MainThread]: End processing [ngits-users]: success
+[2023-04-21 12:52:40] INFO root fetch - processPackages [coco_types]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 12:52:40] INFO root fetch - processPackages [coco_types]: Downloading https://files.pythonhosted.org/packages/d9/cd/b4df3b4dc7fbb4288b8a3b3c16b803ccd44d42d96ea145198439fa9ad150/coco_types-0.0.6.tar.gz
+[2023-04-21 12:52:40] INFO root fetch - main [MainThread]: End processing [camerahub]: success
+[2023-04-21 12:52:41] INFO root fetch - main [MainThread]: End processing [psgtest]: success
+[2023-04-21 12:52:41] INFO root fetch - main [MainThread]: End processing [ngits-tickets]: success
+[2023-04-21 12:52:41] INFO root fetch - processPackages [coco_types]: Downloading https://files.pythonhosted.org/packages/91/26/4293a0e0e7a3d3ff8e0053b271a0b201d37ee6fd6252aeb99852d5cbf24d/coco_types-0.0.7.tar.gz
+[2023-04-21 12:52:41] INFO root fetch - main [MainThread]: End processing [ratinabox]: success
+[2023-04-21 12:52:41] INFO root fetch - processPackages [coco_types]: executing diffoscope
+[2023-04-21 12:52:41] INFO root fetch - processPackages [coco_types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coco_types-0.0.6.tar.gz tmp/coco_types-0.0.7.tar.gz --markdown 20230421/c/coco_types/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 12:52:41] INFO root fetch - main [MainThread]: End processing [vidis-algorithms-api]: success
+[2023-04-21 12:52:42] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-04-21 12:52:42] INFO root fetch - main [MainThread]: End processing [ONE-api]: success
+[2023-04-21 12:52:42] INFO root fetch - main [MainThread]: End processing [coco_types]: success
+[2023-04-21 12:54:48] INFO root fetch - main [MainThread]: End processing [meson]: success
+[2023-04-21 12:54:48] INFO root fetch - main [MainThread]: Store serial: [17802019]
