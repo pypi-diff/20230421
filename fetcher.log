@@ -18369,3 +18369,96 @@ EOFError: EOF read where object expected
 [2023-04-21 17:51:41] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2023-04-21 17:51:47] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-21 17:51:47] INFO root fetch - main [MainThread]: Store serial: [17805387]
+[2023-04-21 17:56:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805387]
+[2023-04-21 17:56:57] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-21 17:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantconnect-stubs
+[2023-04-21 17:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-api-paddle
+[2023-04-21 17:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ms-imputedhours-core
+[2023-04-21 17:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hail
+[2023-04-21 17:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twitter-api-client
+[2023-04-21 17:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-jwt-oidc
+[2023-04-21 17:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hext
+[2023-04-21 17:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aleksis-app-evalu
+[2023-04-21 17:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cg
+[2023-04-21 17:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maxilearn
+[2023-04-21 17:56:57] INFO root fetch - processPackages [maxilearn]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 17:56:57] INFO root fetch - processPackages [twitter-api-client]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-04-21 17:56:57] INFO root fetch - processPackages [cg]: New version: [29.1.5] Old Version: [29.1.4]
+[2023-04-21 17:56:57] INFO root fetch - processPackages [ms-imputedhours-core]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-21 17:56:57] INFO root fetch - processPackages [nonebot-api-paddle]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 17:56:57] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-04-21 17:56:57] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.6.7.tar.gz tmp/twitter-api-client-0.6.8.tar.gz --markdown 20230421/t/twitter-api-client/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-04-21 17:56:57] INFO root fetch - processPackages [aleksis-app-evalu]: New version: [1.0b1] Old Version: [1.0b0]
+[2023-04-21 17:56:57] INFO root fetch - processPackages [django-jwt-oidc]: New version: [1.0] Old Version: [0.3.9]
+[2023-04-21 17:56:57] INFO root fetch - processPackages [hail]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-04-21 17:56:57] INFO root fetch - processPackages [hext]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-21 17:56:57] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-21 17:56:57] INFO root fetch - processPackages [maxilearn]: Downloading https://files.pythonhosted.org/packages/d0/9a/16ded6238134a4e8db631c4f865665d62a63c87e6af104ed13cb55c0baa7/maxilearn-0.0.7.tar.gz
+[2023-04-21 17:56:57] INFO root fetch - processPackages [nonebot-api-paddle]: Downloading https://files.pythonhosted.org/packages/05/9f/83600819fee82aa04996b5b5eba3bc05d87e94298cd1e96b1b4c72aa2b4f/nonebot_api_paddle-1.0.2.tar.gz
+[2023-04-21 17:56:58] INFO root fetch - processPackages [maxilearn]: executing diffoscope
+[2023-04-21 17:56:58] INFO root fetch - processPackages [django-jwt-oidc]: Downloading https://files.pythonhosted.org/packages/e2/0f/07b9b973da2253bae9f373c86289b8ecc3a50761636c538584e0a2381d42/django-jwt-oidc-0.3.9.tar.gz
+[2023-04-21 17:56:58] INFO root fetch - processPackages [maxilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxilearn-0.0.6.tar.gz tmp/maxilearn-0.0.7.tar.gz --markdown 20230421/m/maxilearn/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 17:56:58] INFO root fetch - processPackages [hail]: Downloading https://files.pythonhosted.org/packages/1d/79/af3836ea0d871c9eef733651d0c9a76f631ea963e14203f63b4e1ff97a49/hail-0.2.98-py3-none-any.whl
+[2023-04-21 17:56:58] INFO root fetch - processPackages [hext]: Downloading https://files.pythonhosted.org/packages/87/9f/f96b9b52c16b2cc6443a5c69bf7e1f0192177b077bef90ceaff3497d234f/hext-1.0.4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-21 17:56:58] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d0/99/68d09283562ff43ec13fb6d5418e4d84044fbaa67d917304c501835d09e9/cg-29.1.5.tar.gz
+[2023-04-21 17:56:58] INFO root fetch - processPackages [aleksis-app-evalu]: Downloading https://files.pythonhosted.org/packages/98/5f/ed6ec3968291f16fa22b3f6e1884c230c606fa7b745b38350f9a613a546f/aleksis_app_evalu-1.0b0.tar.gz
+[2023-04-21 17:56:58] INFO root fetch - processPackages [ms-imputedhours-core]: Downloading https://files.pythonhosted.org/packages/a3/e8/4f57ace4c9c2cfc93b2b216f3b3aacf8d47cbef77a43cb509e6346224b2a/ms_imputedhours_core-0.3.6.tar.gz
+[2023-04-21 17:56:58] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-21 17:56:58] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.1.4.tar.gz tmp/cg-29.1.5.tar.gz --markdown 20230421/c/cg/29.1.4-29.1.5/diff.md --exclude *.pyd
+[2023-04-21 17:56:58] INFO root fetch - processPackages [ms-imputedhours-core]: executing diffoscope
+[2023-04-21 17:56:58] INFO root fetch - processPackages [ms-imputedhours-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_imputedhours_core-0.3.5.tar.gz tmp/ms_imputedhours_core-0.3.6.tar.gz --markdown 20230421/m/ms-imputedhours-core/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-21 17:56:58] INFO root fetch - processPackages [nonebot-api-paddle]: Downloading https://files.pythonhosted.org/packages/e6/90/08f305348e66f25145c31d99f4db3703b860801405115f2e9a6bdefe1607/nonebot_api_paddle-1.0.3.tar.gz
+[2023-04-21 17:56:58] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-21 17:56:58] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230421/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-21 17:56:58] INFO root fetch - processPackages [nonebot-api-paddle]: executing diffoscope
+[2023-04-21 17:56:58] INFO root fetch - processPackages [nonebot-api-paddle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_api_paddle-1.0.2.tar.gz tmp/nonebot_api_paddle-1.0.3.tar.gz --markdown 20230421/n/nonebot-api-paddle/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 17:56:58] INFO root fetch - processPackages [aleksis-app-evalu]: Downloading https://files.pythonhosted.org/packages/c4/1e/5095056ed1b2bc3c52ca286bd94dda0c328126e9c6c21bfe9bc84a9e4984/aleksis_app_evalu-1.0b1.tar.gz
+[2023-04-21 17:56:58] INFO root fetch - processPackages [aleksis-app-evalu]: executing diffoscope
+[2023-04-21 17:56:58] INFO root fetch - processPackages [aleksis-app-evalu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_evalu-1.0b0.tar.gz tmp/aleksis_app_evalu-1.0b1.tar.gz --markdown 20230421/a/aleksis-app-evalu/1.0b0-1.0b1/diff.md --exclude *.pyd
+[2023-04-21 17:56:58] INFO root fetch - processPackages [django-jwt-oidc]: Downloading https://files.pythonhosted.org/packages/64/9a/a67f1d08add80d5ba0af27037596fee12b202d5fb18a8f6f62d216acb55a/django-jwt-oidc-1.0.tar.gz
+[2023-04-21 17:56:58] INFO root fetch - processPackages [django-jwt-oidc]: executing diffoscope
+[2023-04-21 17:56:58] INFO root fetch - processPackages [django-jwt-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jwt-oidc-0.3.9.tar.gz tmp/django-jwt-oidc-1.0.tar.gz --markdown 20230421/d/django-jwt-oidc/0.3.9-1.0/diff.md --exclude *.pyd
+[2023-04-21 17:56:58] WARNING root fetch - processPackages [hail]: Skipping package: exceeds size limit 99410480>=10485760
+[2023-04-21 17:56:58] INFO root fetch - processPackages [hail]: Start processing: xia-engine-terraform
+[2023-04-21 17:56:58] INFO root fetch - main [MainThread]: End processing [hail] error
+[2023-04-21 17:56:58] INFO root fetch - processPackages [hext]: Downloading https://files.pythonhosted.org/packages/73/f4/de858af849d271e6fc07ae343d0c791407425277572eac72ffbb0554e404/hext-1.0.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-21 17:56:58] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-21 17:56:58] INFO root fetch - processPackages [hext]: executing diffoscope
+[2023-04-21 17:56:58] INFO root fetch - processPackages [hext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hext-1.0.4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hext-1.0.5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230421/h/hext/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-21 17:56:59] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-04-21 17:56:59] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.0.7-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230421/x/xia-engine-terraform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 17:56:59] INFO root fetch - processPackages [twitter-api-client]: Start processing: colink
+[2023-04-21 17:56:59] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-04-21 17:56:59] INFO root fetch - processPackages [colink]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-21 17:56:59] INFO root fetch - processPackages [maxilearn]: Start processing: pdm-conda
+[2023-04-21 17:56:59] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
+[2023-04-21 17:56:59] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.1b1] Old Version: [0.9.1b0]
+[2023-04-21 17:56:59] INFO root fetch - processPackages [colink]: Downloading https://files.pythonhosted.org/packages/00/ca/2fc7e955553f7dc88f0c5b81efd09aab6eec3ac64e6801e81b0183662028/colink-0.3.4-py3-none-any.whl
+[2023-04-21 17:56:59] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-04-21 17:56:59] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.1b0.tar.gz tmp/pdm_conda-0.9.1b1.tar.gz --markdown 20230421/p/pdm-conda/0.9.1b0-0.9.1b1/diff.md --exclude *.pyd
+[2023-04-21 17:57:00] INFO root fetch - processPackages [colink]: Downloading https://files.pythonhosted.org/packages/11/cc/80317e3d15d700899935adc998c9a12a39a2ada6b2217d44063a972bee0c/colink-0.3.5-py3-none-any.whl
+[2023-04-21 17:57:00] INFO root fetch - processPackages [colink]: executing diffoscope
+[2023-04-21 17:57:00] INFO root fetch - processPackages [colink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colink-0.3.4-py3-none-any.whl.zip tmp/colink-0.3.5-py3-none-any.whl.zip --markdown 20230421/c/colink/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-21 17:57:00] INFO root fetch - processPackages [ms-imputedhours-core]: Start processing: edwh
+[2023-04-21 17:57:00] INFO root fetch - main [MainThread]: End processing [ms-imputedhours-core]: success
+[2023-04-21 17:57:00] INFO root fetch - processPackages [edwh]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-04-21 17:57:00] INFO root fetch - processPackages [nonebot-api-paddle]: Start processing: py-experimenter
+[2023-04-21 17:57:00] INFO root fetch - main [MainThread]: End processing [nonebot-api-paddle]: success
+[2023-04-21 17:57:00] INFO root fetch - processPackages [py-experimenter]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-21 17:57:00] INFO root fetch - processPackages [edwh]: executing diffoscope
+[2023-04-21 17:57:00] INFO root fetch - processPackages [edwh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh-0.6.5.tar.gz tmp/edwh-0.6.6.tar.gz --markdown 20230421/e/edwh/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-04-21 17:57:00] INFO root fetch - processPackages [py-experimenter]: Downloading https://files.pythonhosted.org/packages/1c/ad/2ddd545d379b54e4dc081f85b662aa2e9c6d8d6dc80b787ba7b7386793c2/py_experimenter-1.2.0.tar.gz
+[2023-04-21 17:57:00] INFO root fetch - main [MainThread]: End processing [django-jwt-oidc]: success
+[2023-04-21 17:57:00] INFO root fetch - processPackages [py-experimenter]: Downloading https://files.pythonhosted.org/packages/75/b0/1b50ea0ff4b07bce224ef9847289d4a2e5cfe8335a3457ebc9cd37ff0a54/py_experimenter-1.2.1.tar.gz
+[2023-04-21 17:57:00] INFO root fetch - processPackages [py-experimenter]: executing diffoscope
+[2023-04-21 17:57:00] INFO root fetch - processPackages [py-experimenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_experimenter-1.2.0.tar.gz tmp/py_experimenter-1.2.1.tar.gz --markdown 20230421/p/py-experimenter/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-21 17:57:00] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-04-21 17:57:01] INFO root fetch - main [MainThread]: End processing [colink]: success
+[2023-04-21 17:57:02] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-04-21 17:57:02] INFO root fetch - main [MainThread]: End processing [py-experimenter]: success
+[2023-04-21 17:57:02] INFO root fetch - main [MainThread]: End processing [aleksis-app-evalu]: success
+[2023-04-21 17:57:02] INFO root fetch - main [MainThread]: End processing [edwh]: success
+[2023-04-21 17:57:03] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-21 17:57:09] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-21 17:57:17] INFO root fetch - main [MainThread]: End processing [hext]: success
+[2023-04-21 17:57:17] INFO root fetch - main [MainThread]: Store serial: [17805444]
