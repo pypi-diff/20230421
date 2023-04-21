@@ -19993,3 +19993,77 @@ EOFError: EOF read where object expected
 [2023-04-21 19:39:43] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
 [2023-04-21 19:39:43] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-04-21 19:39:43] INFO root fetch - main [MainThread]: Store serial: [17806632]
+[2023-04-21 19:44:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806632]
+[2023-04-21 19:44:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-21 19:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-04-21 19:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphsignal
+[2023-04-21 19:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alchemiscale
+[2023-04-21 19:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-local-music
+[2023-04-21 19:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-04-21 19:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: strongdm
+[2023-04-21 19:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: contrast-agent
+[2023-04-21 19:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rest-framework-material
+[2023-04-21 19:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MoorPy
+[2023-04-21 19:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alcf
+[2023-04-21 19:44:53] WARNING root fetch - processPackages [rest-framework-material]: Skipping, unable to determine old version
+[2023-04-21 19:44:53] INFO root fetch - processPackages [rest-framework-material]: Start processing: ledes-parser
+[2023-04-21 19:44:53] INFO root fetch - main [MainThread]: End processing [rest-framework-material] error
+[2023-04-21 19:44:53] INFO root fetch - processPackages [neon-skill-local-music]: New version: [0.3.0a1] Old Version: [0.2.0]
+[2023-04-21 19:44:53] WARNING root fetch - processPackages [MoorPy]: Skipping, unable to determine old version
+[2023-04-21 19:44:53] INFO root fetch - processPackages [alcf]: New version: [1.4.0.post1] Old Version: [1.4.0]
+[2023-04-21 19:44:53] INFO root fetch - processPackages [MoorPy]: Start processing: uw-it-build-fingerprinter
+[2023-04-21 19:44:53] WARNING root fetch - processPackages [alchemiscale]: Skipping, unable to determine old version
+[2023-04-21 19:44:53] INFO root fetch - main [MainThread]: End processing [MoorPy] error
+[2023-04-21 19:44:53] INFO root fetch - processPackages [alchemiscale]: Start processing: common-as
+[2023-04-21 19:44:53] INFO root fetch - main [MainThread]: End processing [alchemiscale] error
+[2023-04-21 19:44:53] INFO root fetch - processPackages [strongdm]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-04-21 19:44:53] INFO root fetch - processPackages [contrast-agent]: New version: [5.9.1] Old Version: [5.9.0]
+[2023-04-21 19:44:53] INFO root fetch - processPackages [ledes-parser]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-04-21 19:44:53] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-21 19:44:53] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230421173939] Old Version: [2.0.3.dev20230421151819]
+[2023-04-21 19:44:54] INFO root fetch - processPackages [kcli]: New version: [99.0.202304211740] Old Version: [99.0.202304211158]
+[2023-04-21 19:44:54] INFO root fetch - processPackages [uw-it-build-fingerprinter]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 19:44:54] INFO root fetch - processPackages [common-as]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-21 19:44:54] INFO root fetch - processPackages [alcf]: Downloading https://files.pythonhosted.org/packages/28/54/5e69a3fd7742fbedd1bb8e14fc25b49e14b3c20b424983bc0d7aa361f719/alcf-1.4.0.post1.tar.gz
+[2023-04-21 19:44:54] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/2d/63/8fc4cc9f3c9b24f1cec9bd7ddba86a85fa34a5d0dad6077dcb0bd232a8d9/localstack-core-2.0.3.dev20230421151819.tar.gz
+[2023-04-21 19:44:54] INFO root fetch - processPackages [contrast-agent]: Downloading https://files.pythonhosted.org/packages/fa/4f/561dff848ab959988cacc16c02374f870dfce30cde6aa7b8bb1e9d9a7b11/contrast-agent-5.9.0.tar.gz
+[2023-04-21 19:44:54] INFO root fetch - processPackages [ledes-parser]: Downloading https://files.pythonhosted.org/packages/e8/73/cc2c6bf898fa54f8acfa8bcc961945c393cc43ed9fba62c6cdd222d9e80e/ledes-parser-1.0.1.tar.gz
+[2023-04-21 19:44:54] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/fe/b2/05c106f138546b12d33ae527c9dcc43302131b061367cbfdcab8d81ca9a9/neon_skill_local_music-0.3.0a1-py3-none-any.whl
+[2023-04-21 19:44:54] INFO root fetch - processPackages [alcf]: executing diffoscope
+[2023-04-21 19:44:54] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/79/4e/2addaccb61ebda370e3805819ad2686eb35d554af0339da38186b5c5b20c/kcli-99.0.202304211158-py3-none-any.whl
+[2023-04-21 19:44:54] INFO root fetch - processPackages [alcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alcf-1.4.0.tar.gz tmp/alcf-1.4.0.post1.tar.gz --markdown 20230421/a/alcf/1.4.0-1.4.0.post1/diff.md --exclude *.pyd
+[2023-04-21 19:44:54] INFO root fetch - processPackages [uw-it-build-fingerprinter]: Downloading https://files.pythonhosted.org/packages/6d/74/38528dbe61e2358aa1af51b82d3643b3a7020d701d66db841a96f04153ef/uw-it-build-fingerprinter-0.2.7.tar.gz
+[2023-04-21 19:44:54] INFO root fetch - processPackages [common-as]: Downloading https://files.pythonhosted.org/packages/f6/84/ab7107a3e0811224e7d851ca947e4f2fded7aba753f89906cbe7cdb1865d/common_as-1.3.0.tar.gz
+[2023-04-21 19:44:54] INFO root fetch - processPackages [neon-skill-local-music]: executing diffoscope
+[2023-04-21 19:44:54] INFO root fetch - processPackages [neon-skill-local-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_local_music-0.2.0-py3-none-any.whl.zip tmp/neon_skill_local_music-0.3.0a1-py3-none-any.whl.zip --markdown 20230421/n/neon-skill-local-music/0.2.0-0.3.0a1/diff.md --exclude *.pyd
+[2023-04-21 19:44:54] INFO root fetch - processPackages [ledes-parser]: Downloading https://files.pythonhosted.org/packages/7a/1e/867990183c731a94d806347e358ab8bd8ddf505ebb33583a80894a3e780b/ledes-parser-1.0.3.tar.gz
+[2023-04-21 19:44:54] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-04-21 19:44:54] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230421/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-21 19:44:54] INFO root fetch - processPackages [strongdm]: executing diffoscope
+[2023-04-21 19:44:54] INFO root fetch - processPackages [strongdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongdm-3.8.0.zip tmp/strongdm-3.9.0.zip --markdown 20230421/s/strongdm/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-04-21 19:44:54] INFO root fetch - processPackages [ledes-parser]: executing diffoscope
+[2023-04-21 19:44:54] INFO root fetch - processPackages [ledes-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledes-parser-1.0.1.tar.gz tmp/ledes-parser-1.0.3.tar.gz --markdown 20230421/l/ledes-parser/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 19:44:54] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/13/fe/0ef368a5dbb36b345a5215f23008ad95dffae0053f03bde4044d6d5604ae/kcli-99.0.202304211740-py3-none-any.whl
+[2023-04-21 19:44:54] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-21 19:44:54] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304211158-py3-none-any.whl.zip tmp/kcli-99.0.202304211740-py3-none-any.whl.zip --markdown 20230421/k/kcli/99.0.202304211158-99.0.202304211740/diff.md --exclude *.pyd
+[2023-04-21 19:44:54] INFO root fetch - processPackages [uw-it-build-fingerprinter]: Downloading https://files.pythonhosted.org/packages/50/ab/94cdadc955e7ac2796f2f6fab5bac950643eba2c42a13e9adcf4ff9ee6cb/uw-it-build-fingerprinter-0.2.8.tar.gz
+[2023-04-21 19:44:54] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d8/e1/5e059c73b1ed808e1d33045ba79244d3a5e903f97a021d32dac38c86006c/localstack-core-2.0.3.dev20230421173939.tar.gz
+[2023-04-21 19:44:54] INFO root fetch - processPackages [common-as]: Downloading https://files.pythonhosted.org/packages/a2/39/33c7170fbcba4f3c15c7b089fa5aab99439c07b5743f64487cbda3056ea1/common_as-1.3.1.tar.gz
+[2023-04-21 19:44:54] WARNING root fetch - processPackages [contrast-agent]: Skipping package: exceeds size limit 10668876>=10485760
+[2023-04-21 19:44:54] INFO root fetch - main [MainThread]: End processing [contrast-agent] error
+[2023-04-21 19:44:54] INFO root fetch - processPackages [uw-it-build-fingerprinter]: executing diffoscope
+[2023-04-21 19:44:54] INFO root fetch - processPackages [uw-it-build-fingerprinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uw-it-build-fingerprinter-0.2.7.tar.gz tmp/uw-it-build-fingerprinter-0.2.8.tar.gz --markdown 20230421/u/uw-it-build-fingerprinter/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 19:44:54] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-21 19:44:54] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230421151819.tar.gz tmp/localstack-core-2.0.3.dev20230421173939.tar.gz --markdown 20230421/l/localstack-core/2.0.3.dev20230421151819-2.0.3.dev20230421173939/diff.md --exclude *.pyd
+[2023-04-21 19:44:54] INFO root fetch - processPackages [common-as]: executing diffoscope
+[2023-04-21 19:44:54] INFO root fetch - processPackages [common-as]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_as-1.3.0.tar.gz tmp/common_as-1.3.1.tar.gz --markdown 20230421/c/common-as/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-21 19:44:56] INFO root fetch - main [MainThread]: End processing [neon-skill-local-music]: success
+[2023-04-21 19:44:56] INFO root fetch - main [MainThread]: End processing [ledes-parser]: success
+[2023-04-21 19:44:56] INFO root fetch - main [MainThread]: End processing [uw-it-build-fingerprinter]: success
+[2023-04-21 19:44:56] INFO root fetch - main [MainThread]: End processing [common-as]: success
+[2023-04-21 19:44:56] INFO root fetch - main [MainThread]: End processing [strongdm]: success
+[2023-04-21 19:44:56] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-04-21 19:44:58] INFO root fetch - main [MainThread]: End processing [alcf]: success
+[2023-04-21 19:45:01] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-21 19:45:02] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-21 19:45:02] INFO root fetch - main [MainThread]: Store serial: [17806668]
