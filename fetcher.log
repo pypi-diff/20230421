@@ -10759,3 +10759,111 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 10:30:39] INFO root fetch - main [MainThread]: End processing [resqpy]: success
 [2023-04-21 10:30:41] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
 [2023-04-21 10:30:41] INFO root fetch - main [MainThread]: Store serial: [17800729]
+[2023-04-21 10:35:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800729]
+[2023-04-21 10:35:50] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: likeprocessing
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensafely
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellmap
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findlibs
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-sat
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxsim
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xbox-sdk
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ybam
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: paddypy
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tendril-utils-www
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ybam]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-04-21 10:35:50] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304210834] Old Version: [1.0.1.dev202304210831]
+[2023-04-21 10:35:50] INFO root fetch - processPackages [findlibs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 10:35:50] INFO root fetch - processPackages [likeprocessing]: New version: [0.1.7.2.5] Old Version: [0.1.7.2.4]
+[2023-04-21 10:35:50] INFO root fetch - processPackages [xbox-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-21 10:35:50] INFO root fetch - processPackages [tendril-utils-www]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-21 10:35:50] INFO root fetch - processPackages [jaxsim]: New version: [0.1.dev137] Old Version: [0.1.dev135]
+[2023-04-21 10:35:50] INFO root fetch - processPackages [paddypy]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-21 10:35:50] INFO root fetch - processPackages [opensafely]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-21 10:35:50] INFO root fetch - processPackages [python-sat]: New version: [0.1.8.dev3] Old Version: [0.1.8.dev2]
+[2023-04-21 10:35:50] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/ba/37/4252398bb51559bb11d45ef7eb273b42d7eaa781868ef4871ceab9375213/cellmap-1.0.1.dev202304210831-py3-none-any.whl
+[2023-04-21 10:35:50] INFO root fetch - processPackages [findlibs]: Downloading https://files.pythonhosted.org/packages/c9/bb/8ef42a9d5f57dfb5f949b09adeff3c1cb1c871bb364faf510c64087cebe9/findlibs-0.0.2.tar.gz
+[2023-04-21 10:35:50] INFO root fetch - processPackages [xbox-sdk]: Downloading https://files.pythonhosted.org/packages/1c/d2/8c78155d9d4dbbc239cf0d4fb611ce96aa0d140640b92816f92ad8ed479a/xbox-sdk-0.0.4.tar.gz
+[2023-04-21 10:35:50] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/4b/fc/bce4aeabbf873f9d64524934a792e31ed1c81cf26439ccf88f4ead419742/jaxsim-0.1.dev137.tar.gz
+[2023-04-21 10:35:50] INFO root fetch - processPackages [opensafely]: Downloading https://files.pythonhosted.org/packages/41/40/8404743bac96e403c4e3cdaa6569f9e35faa80b3fa32b600bcc81fc6aa42/opensafely-1.9.1.tar.gz
+[2023-04-21 10:35:50] INFO root fetch - processPackages [ybam]: Downloading https://files.pythonhosted.org/packages/c5/e1/e7ef8f66a4fe82ab063d7e2a7c634d32d02a785e817389519c563baa9b1f/ybam-2.1.6.tar.gz
+[2023-04-21 10:35:50] INFO root fetch - processPackages [python-sat]: Downloading https://files.pythonhosted.org/packages/79/c9/9debebf049b370c641205052d0d985cfcbb1b04ede4ad5930064ec772989/python-sat-0.1.8.dev2.tar.gz
+[2023-04-21 10:35:50] INFO root fetch - processPackages [tendril-utils-www]: Downloading https://files.pythonhosted.org/packages/33/c6/77133ebcfcd47bd6a2d98fa16e7eb2fa43d34c6544dfb69c0fa54dce3ae0/tendril-utils-www-0.2.7.tar.gz
+[2023-04-21 10:35:51] INFO root fetch - processPackages [ybam]: executing diffoscope
+[2023-04-21 10:35:51] INFO root fetch - processPackages [ybam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ybam-2.1.5.tar.gz tmp/ybam-2.1.6.tar.gz --markdown 20230421/y/ybam/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-04-21 10:35:51] INFO root fetch - processPackages [findlibs]: Downloading https://files.pythonhosted.org/packages/38/3f/07700a2e1370f151f81991c06bd1462138b9395a188c920a9450e42f17e1/findlibs-0.0.3.tar.gz
+[2023-04-21 10:35:51] INFO root fetch - processPackages [tendril-utils-www]: executing diffoscope
+[2023-04-21 10:35:51] INFO root fetch - processPackages [tendril-utils-www]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-www-0.2.6.tar.gz tmp/tendril-utils-www-0.2.7.tar.gz --markdown 20230421/t/tendril-utils-www/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-21 10:35:51] INFO root fetch - processPackages [xbox-sdk]: Downloading https://files.pythonhosted.org/packages/c0/11/81c2c1066d94608debd8faca34ed4fc4bae3ad245650192633f8ecccc338/xbox-sdk-0.0.5.tar.gz
+[2023-04-21 10:35:51] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/47/94/4963fdd6967d1de2c99479bf1d587362e2bccab3fae7853a86482b3bf78c/paddypy-0.1.0.tar.gz
+[2023-04-21 10:35:51] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2023-04-21 10:35:51] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.1.dev135.tar.gz tmp/jaxsim-0.1.dev137.tar.gz --markdown 20230421/j/jaxsim/0.1.dev135-0.1.dev137/diff.md --exclude *.pyd
+[2023-04-21 10:35:51] INFO root fetch - processPackages [likeprocessing]: Downloading https://files.pythonhosted.org/packages/69/b4/4e7f6a60dd0117bd1e3a943882c24339a211c5d989f20b4c3c1b3fed324e/likeprocessing-0.1.7.2.5.tar.gz
+[2023-04-21 10:35:51] INFO root fetch - processPackages [findlibs]: executing diffoscope
+[2023-04-21 10:35:51] INFO root fetch - processPackages [findlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findlibs-0.0.2.tar.gz tmp/findlibs-0.0.3.tar.gz --markdown 20230421/f/findlibs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 10:35:51] INFO root fetch - processPackages [paddypy]: executing diffoscope
+[2023-04-21 10:35:51] INFO root fetch - processPackages [paddypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddypy-0.0.9.tar.gz tmp/paddypy-0.1.0.tar.gz --markdown 20230421/p/paddypy/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-21 10:35:51] INFO root fetch - processPackages [xbox-sdk]: executing diffoscope
+[2023-04-21 10:35:51] INFO root fetch - processPackages [xbox-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbox-sdk-0.0.4.tar.gz tmp/xbox-sdk-0.0.5.tar.gz --markdown 20230421/x/xbox-sdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 10:35:51] INFO root fetch - processPackages [likeprocessing]: executing diffoscope
+[2023-04-21 10:35:51] INFO root fetch - processPackages [likeprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likeprocessing-0.1.7.2.4.tar.gz tmp/likeprocessing-0.1.7.2.5.tar.gz --markdown 20230421/l/likeprocessing/0.1.7.2.4-0.1.7.2.5/diff.md --exclude *.pyd
+[2023-04-21 10:35:51] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/89/4b/309ea4488af3d52becd56113213a0d5d7757870db8165b77e6ea6f008b07/cellmap-1.0.1.dev202304210834-py3-none-any.whl
+[2023-04-21 10:35:51] INFO root fetch - processPackages [opensafely]: Downloading https://files.pythonhosted.org/packages/64/67/da5b006e72fe5cc72d10eaf72c3aeb470703a1b5be1f749c06a3c315dc3e/opensafely-1.9.2.tar.gz
+[2023-04-21 10:35:51] INFO root fetch - processPackages [opensafely]: executing diffoscope
+[2023-04-21 10:35:51] INFO root fetch - processPackages [opensafely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensafely-1.9.1.tar.gz tmp/opensafely-1.9.2.tar.gz --markdown 20230421/o/opensafely/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-21 10:35:51] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-21 10:35:51] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304210831-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304210834-py3-none-any.whl.zip --markdown 20230421/c/cellmap/1.0.1.dev202304210831-1.0.1.dev202304210834/diff.md --exclude *.pyd
+[2023-04-21 10:35:51] INFO root fetch - processPackages [python-sat]: Downloading https://files.pythonhosted.org/packages/06/11/82b7e0a74fde712b23edcea6613dfe2c1dffa71966e076b983631a675f9c/python-sat-0.1.8.dev3.tar.gz
+[2023-04-21 10:35:52] INFO root fetch - processPackages [python-sat]: executing diffoscope
+[2023-04-21 10:35:52] INFO root fetch - processPackages [python-sat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sat-0.1.8.dev2.tar.gz tmp/python-sat-0.1.8.dev3.tar.gz --markdown 20230421/p/python-sat/0.1.8.dev2-0.1.8.dev3/diff.md --exclude *.pyd
+[2023-04-21 10:35:52] INFO root fetch - processPackages [ybam]: Start processing: robotframework-libdoc2testbench
+[2023-04-21 10:35:52] INFO root fetch - main [MainThread]: End processing [ybam]: success
+[2023-04-21 10:35:52] INFO root fetch - processPackages [robotframework-libdoc2testbench]: New version: [1.2b4] Old Version: [1.2b3]
+[2023-04-21 10:35:52] INFO root fetch - processPackages [robotframework-libdoc2testbench]: Downloading https://files.pythonhosted.org/packages/ca/d4/c9b2f185ec81ec921472ca3003f37797a8cf6d109c8f1fe5bd3fc21b28ae/robotframework-libdoc2testbench-1.2b4.tar.gz
+[2023-04-21 10:35:52] INFO root fetch - processPackages [robotframework-libdoc2testbench]: executing diffoscope
+[2023-04-21 10:35:52] INFO root fetch - processPackages [robotframework-libdoc2testbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-libdoc2testbench-1.2b3.tar.gz tmp/robotframework-libdoc2testbench-1.2b4.tar.gz --markdown 20230421/r/robotframework-libdoc2testbench/1.2b3-1.2b4/diff.md --exclude *.pyd
+[2023-04-21 10:35:52] INFO root fetch - processPackages [tendril-utils-www]: Start processing: yunchi
+[2023-04-21 10:35:52] INFO root fetch - main [MainThread]: End processing [tendril-utils-www]: success
+[2023-04-21 10:35:52] INFO root fetch - processPackages [findlibs]: Start processing: FastDub
+[2023-04-21 10:35:52] INFO root fetch - main [MainThread]: End processing [findlibs]: success
+[2023-04-21 10:35:52] INFO root fetch - processPackages [yunchi]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-21 10:35:52] INFO root fetch - processPackages [FastDub]: New version: [3.6.0b0] Old Version: [3.5.2]
+[2023-04-21 10:35:53] INFO root fetch - processPackages [yunchi]: Downloading https://files.pythonhosted.org/packages/5c/19/8f0c1abd7265f41835b322dd0acb73868f415c52807b35ece8257db4f245/yunchi-1.0.4-cp38-cp38-win_amd64.whl
+[2023-04-21 10:35:53] INFO root fetch - processPackages [FastDub]: Downloading https://files.pythonhosted.org/packages/84/4f/f7234156ec739e0406df14164ce9801f5eefc584578b3c391c54b4e07c57/FastDub-3.5.2.tar.gz
+[2023-04-21 10:35:53] INFO root fetch - processPackages [xbox-sdk]: Start processing: cellmap
+[2023-04-21 10:35:53] INFO root fetch - main [MainThread]: End processing [xbox-sdk]: success
+[2023-04-21 10:35:53] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304210834] Old Version: [1.0.1.dev202304210831]
+[2023-04-21 10:35:53] INFO root fetch - processPackages [likeprocessing]: Start processing: clearml-agent
+[2023-04-21 10:35:53] INFO root fetch - main [MainThread]: End processing [likeprocessing]: success
+[2023-04-21 10:35:53] INFO root fetch - processPackages [clearml-agent]: New version: [1.5.3rc1] Old Version: [1.5.3rc0]
+[2023-04-21 10:35:53] INFO root fetch - processPackages [paddypy]: Start processing: akshare
+[2023-04-21 10:35:53] INFO root fetch - main [MainThread]: End processing [paddypy]: success
+[2023-04-21 10:35:53] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-21 10:35:53] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304210831-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304210834-py3-none-any.whl.zip --markdown 20230421/c/cellmap/1.0.1.dev202304210831-1.0.1.dev202304210834/diff.md --exclude *.pyd
+[2023-04-21 10:35:53] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-21 10:35:53] INFO root fetch - processPackages [yunchi]: Downloading https://files.pythonhosted.org/packages/be/7c/679d59c10153dfac1bcc66f07420011d6f4c43d58b8423c763d06941eea9/yunchi-1.0.5-cp38-cp38-win_amd64.whl
+[2023-04-21 10:35:53] INFO root fetch - processPackages [clearml-agent]: Downloading https://files.pythonhosted.org/packages/77/ec/9d6f77d309e3471e4bf215e4d353761a2e17dd0b194df97b8aef94bfee50/clearml_agent-1.5.3rc0-py3-none-any.whl
+[2023-04-21 10:35:53] INFO root fetch - processPackages [FastDub]: Downloading https://files.pythonhosted.org/packages/c2/3b/791c1a4c5ce9ad6bc130d2e7058a6583275b7a3166da500b2a75332034e1/FastDub-3.6.0b0.tar.gz
+[2023-04-21 10:35:53] INFO root fetch - processPackages [FastDub]: executing diffoscope
+[2023-04-21 10:35:53] INFO root fetch - processPackages [FastDub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastDub-3.5.2.tar.gz tmp/FastDub-3.6.0b0.tar.gz --markdown 20230421/F/FastDub/3.5.2-3.6.0b0/diff.md --exclude *.pyd
+[2023-04-21 10:35:53] INFO root fetch - processPackages [yunchi]: executing diffoscope
+[2023-04-21 10:35:53] INFO root fetch - processPackages [yunchi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunchi-1.0.4-cp38-cp38-win_amd64.whl.zip tmp/yunchi-1.0.5-cp38-cp38-win_amd64.whl.zip --markdown 20230421/y/yunchi/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-21 10:35:53] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-04-21 10:35:53] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.8.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230421/a/akshare/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-21 10:35:53] INFO root fetch - processPackages [clearml-agent]: Downloading https://files.pythonhosted.org/packages/e2/62/058260b169691fb69c4d56552f0ecb371b7aec5b4732bd03eaeb4f96f412/clearml_agent-1.5.3rc1-py3-none-any.whl
+[2023-04-21 10:35:53] INFO root fetch - processPackages [clearml-agent]: executing diffoscope
+[2023-04-21 10:35:53] INFO root fetch - processPackages [clearml-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml_agent-1.5.3rc0-py3-none-any.whl.zip tmp/clearml_agent-1.5.3rc1-py3-none-any.whl.zip --markdown 20230421/c/clearml-agent/1.5.3rc0-1.5.3rc1/diff.md --exclude *.pyd
+[2023-04-21 10:35:54] INFO root fetch - processPackages [jaxsim]: Start processing: netbox-network-diagram
+[2023-04-21 10:35:54] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2023-04-21 10:35:54] WARNING root fetch - processPackages [netbox-network-diagram]: Skipping, unable to determine old version
+[2023-04-21 10:35:54] INFO root fetch - main [MainThread]: End processing [netbox-network-diagram] error
+[2023-04-21 10:35:54] INFO root fetch - main [MainThread]: End processing [robotframework-libdoc2testbench]: success
+[2023-04-21 10:35:54] INFO root fetch - main [MainThread]: End processing [opensafely]: success
+[2023-04-21 10:35:54] INFO root fetch - main [MainThread]: End processing [yunchi]: success
+[2023-04-21 10:35:55] INFO root fetch - main [MainThread]: End processing [FastDub]: success
+[2023-04-21 10:35:56] INFO root fetch - main [MainThread]: End processing [clearml-agent]: success
+[2023-04-21 10:35:56] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-21 10:35:56] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-21 10:35:57] INFO root fetch - main [MainThread]: End processing [python-sat]: success
+[2023-04-21 10:35:57] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-04-21 10:35:57] INFO root fetch - main [MainThread]: Store serial: [17800789]
