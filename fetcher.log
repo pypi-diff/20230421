@@ -21521,3 +21521,114 @@ EOFError: EOF read where object expected
 [2023-04-21 21:19:04] INFO root fetch - main [MainThread]: End processing [formfyxer]: success
 [2023-04-21 21:19:05] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-04-21 21:19:05] INFO root fetch - main [MainThread]: Store serial: [17807571]
+[2023-04-21 21:24:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807571]
+[2023-04-21 21:24:15] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-21 21:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaml-stripper
+[2023-04-21 21:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vtece4564-gamelib
+[2023-04-21 21:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terrario
+[2023-04-21 21:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alacorder
+[2023-04-21 21:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: incydr
+[2023-04-21 21:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exceptnotifier
+[2023-04-21 21:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyl3dmd
+[2023-04-21 21:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OncoAMBER
+[2023-04-21 21:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xtbclient
+[2023-04-21 21:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chebyfit
+[2023-04-21 21:24:15] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:24:15] WARNING root fetch - processPackages [vtece4564-gamelib]: Skipping, unable to determine old version
+[2023-04-21 21:24:15] INFO root fetch - processPackages [vtece4564-gamelib]: Start processing: sbase
+[2023-04-21 21:24:15] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib] error
+[2023-04-21 21:24:15] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 21:24:15] INFO root fetch - processPackages [OncoAMBER]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 21:24:15] INFO root fetch - processPackages [exceptnotifier]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 21:24:15] INFO root fetch - processPackages [pyl3dmd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 21:24:15] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-21 21:24:15] INFO root fetch - processPackages [alacorder]: New version: [79.5.8] Old Version: [79.5.7]
+[2023-04-21 21:24:15] INFO root fetch - processPackages [xtbclient]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 21:24:15] INFO root fetch - processPackages [incydr]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-21 21:24:15] INFO root fetch - processPackages [chebyfit]: New version: [2023.4.22] Old Version: [2022.9.29]
+[2023-04-21 21:24:15] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-04-21 21:24:15] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.1.8.tar.gz tmp/exceptnotifier-0.1.9.tar.gz --markdown 20230421/e/exceptnotifier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 21:24:15] INFO root fetch - processPackages [pyl3dmd]: executing diffoscope
+[2023-04-21 21:24:15] INFO root fetch - processPackages [pyl3dmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyl3dmd-0.0.7.tar.gz tmp/pyl3dmd-0.0.8.tar.gz --markdown 20230421/p/pyl3dmd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 21:24:15] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:24:15] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:24:15] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 21:24:15] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.0.tar.gz tmp/yaml-stripper-0.1.1.tar.gz --markdown 20230421/y/yaml-stripper/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 21:24:15] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-04-21 21:24:15] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230421/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-21 21:24:15] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-04-21 21:24:15] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.0.8.tar.gz tmp/OncoAMBER-1.0.9.tar.gz --markdown 20230421/O/OncoAMBER/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:24:15] INFO root fetch - processPackages [xtbclient]: Downloading https://files.pythonhosted.org/packages/eb/19/80f2fd95c882057c9466d8b2dc48cd2d7facfaef4de6f1a173d602909ba1/XTBClient-0.1.0.tar.gz
+[2023-04-21 21:24:15] INFO root fetch - processPackages [incydr]: Downloading https://files.pythonhosted.org/packages/dc/c6/a03feebbb476a6c950699abcfcd2fd7b9c61340d234dee079233167c05c8/incydr-1.0.0.tar.gz
+[2023-04-21 21:24:15] INFO root fetch - processPackages [chebyfit]: Downloading https://files.pythonhosted.org/packages/3c/49/20fd15a15eef5007ae5ee7223c7fda4e16ac2b99b6d1d07cedd00b7c3152/chebyfit-2022.9.29.tar.gz
+[2023-04-21 21:24:15] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/b7/86/90bcb7f8c192026f8bcbcc018d7f3a082356a5367dde4bd40d89a761fcc1/alacorder-79.5.8.tar.gz
+[2023-04-21 21:24:16] INFO root fetch - processPackages [incydr]: Downloading https://files.pythonhosted.org/packages/8f/e3/2afe15596589a5faeb7503768e689e0aa51e10dde4b0aee5e883c8af86dc/incydr-1.0.1.tar.gz
+[2023-04-21 21:24:16] INFO root fetch - processPackages [xtbclient]: Downloading https://files.pythonhosted.org/packages/4a/87/6b5b8e3b4b55aba3b3b368ddac4fc18e10a1ec13a5b8232f7e7685924521/xtbclient-0.1.1.tar.gz
+[2023-04-21 21:24:16] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-21 21:24:16] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.5.7.tar.gz tmp/alacorder-79.5.8.tar.gz --markdown 20230421/a/alacorder/79.5.7-79.5.8/diff.md --exclude *.pyd
+[2023-04-21 21:24:16] INFO root fetch - processPackages [chebyfit]: Downloading https://files.pythonhosted.org/packages/38/0d/44f60cd002f01239827071a9f488c2ddf563976bbb1f8eca5de7a2f9177d/chebyfit-2023.4.22.tar.gz
+[2023-04-21 21:24:16] INFO root fetch - processPackages [xtbclient]: executing diffoscope
+[2023-04-21 21:24:16] INFO root fetch - processPackages [xtbclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XTBClient-0.1.0.tar.gz tmp/xtbclient-0.1.1.tar.gz --markdown 20230421/x/xtbclient/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 21:24:16] INFO root fetch - processPackages [chebyfit]: executing diffoscope
+[2023-04-21 21:24:16] INFO root fetch - processPackages [chebyfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chebyfit-2022.9.29.tar.gz tmp/chebyfit-2023.4.22.tar.gz --markdown 20230421/c/chebyfit/2022.9.29-2023.4.22/diff.md --exclude *.pyd
+[2023-04-21 21:24:16] INFO root fetch - processPackages [incydr]: executing diffoscope
+[2023-04-21 21:24:16] INFO root fetch - processPackages [incydr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/incydr-1.0.0.tar.gz tmp/incydr-1.0.1.tar.gz --markdown 20230421/i/incydr/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 21:24:17] INFO root fetch - processPackages [yaml-stripper]: Start processing: ae-ffmpeg
+[2023-04-21 21:24:17] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 21:24:17] INFO root fetch - processPackages [ae-ffmpeg]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-21 21:24:17] INFO root fetch - processPackages [ae-ffmpeg]: Downloading https://files.pythonhosted.org/packages/bd/98/fe92272e72ba8f02cd6e8f4d0c6e1af3c9689398ab4efe2fe58c2f453a40/ae-ffmpeg-1.1.1.tar.gz
+[2023-04-21 21:24:17] INFO root fetch - processPackages [pyl3dmd]: Start processing: selenium-base
+[2023-04-21 21:24:17] INFO root fetch - main [MainThread]: End processing [pyl3dmd]: success
+[2023-04-21 21:24:17] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-21 21:24:17] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-04-21 21:24:17] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230421/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-21 21:24:17] INFO root fetch - processPackages [OncoAMBER]: Start processing: pytest-sbase
+[2023-04-21 21:24:17] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-04-21 21:24:17] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-21 21:24:17] INFO root fetch - processPackages [terrario]: Start processing: airflow-db-logger
+[2023-04-21 21:24:17] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:24:17] INFO root fetch - processPackages [ae-ffmpeg]: Downloading https://files.pythonhosted.org/packages/71/5a/e68d1c032815e342e2eecb158b936bc3b1440585c2337a995242f7f4dc63/ae-ffmpeg-1.1.2.tar.gz
+[2023-04-21 21:24:17] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-04-21 21:24:17] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230421/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-21 21:24:17] INFO root fetch - processPackages [airflow-db-logger]: New version: [3.0.0] Old Version: [2.1.0]
+[2023-04-21 21:24:17] INFO root fetch - processPackages [ae-ffmpeg]: executing diffoscope
+[2023-04-21 21:24:17] INFO root fetch - processPackages [ae-ffmpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ae-ffmpeg-1.1.1.tar.gz tmp/ae-ffmpeg-1.1.2.tar.gz --markdown 20230421/a/ae-ffmpeg/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-21 21:24:18] INFO root fetch - processPackages [sbase]: Start processing: pytest-seleniumbase
+[2023-04-21 21:24:18] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-04-21 21:24:18] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-21 21:24:18] INFO root fetch - processPackages [xtbclient]: Start processing: rmm-cu11
+[2023-04-21 21:24:18] INFO root fetch - main [MainThread]: End processing [xtbclient]: success
+[2023-04-21 21:24:18] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-04-21 21:24:18] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230421/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-21 21:24:18] INFO root fetch - processPackages [rmm-cu11]: New version: [23.4.1] Old Version: [23.4.0.1681362075]
+[2023-04-21 21:24:18] INFO root fetch - processPackages [exceptnotifier]: Start processing: redfish-service-validator
+[2023-04-21 21:24:18] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-04-21 21:24:18] INFO root fetch - processPackages [airflow-db-logger]: Downloading https://files.pythonhosted.org/packages/cc/9a/539bb97a4ba3bc35f509ab6805757292584ab1006d626cd0031e71b8bea7/airflow_db_logger-3.0.0.tar.gz
+[2023-04-21 21:24:18] INFO root fetch - processPackages [redfish-service-validator]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-04-21 21:24:18] INFO root fetch - processPackages [airflow-db-logger]: executing diffoscope
+[2023-04-21 21:24:18] INFO root fetch - processPackages [airflow-db-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_db_logger-2.1.0.tar.gz tmp/airflow_db_logger-3.0.0.tar.gz --markdown 20230421/a/airflow-db-logger/2.1.0-3.0.0/diff.md --exclude *.pyd
+[2023-04-21 21:24:18] INFO root fetch - processPackages [rmm-cu11]: Downloading https://files.pythonhosted.org/packages/7c/97/5db1ae8c2e5391920538baac7ae5fd3c2a49086fd0640247c77d409b1761/rmm_cu11-23.4.1.tar.gz
+[2023-04-21 21:24:18] INFO root fetch - processPackages [redfish-service-validator]: Downloading https://files.pythonhosted.org/packages/0c/2e/58809101f5cb47b922b1eb0e79f15d26b6fb9eb1ee67eff3a8d5f37e8602/redfish_service_validator-2.3.0.tar.gz
+[2023-04-21 21:24:18] INFO root fetch - processPackages [rmm-cu11]: executing diffoscope
+[2023-04-21 21:24:18] INFO root fetch - processPackages [rmm-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmm_cu11-23.4.0.1681362075.tar.gz tmp/rmm_cu11-23.4.1.tar.gz --markdown 20230421/r/rmm-cu11/23.4.0.1681362075-23.4.1/diff.md --exclude *.pyd
+[2023-04-21 21:24:18] INFO root fetch - processPackages [redfish-service-validator]: Downloading https://files.pythonhosted.org/packages/2d/4b/ae1ceed5f181874fef1039e0b879c064133b22ac56b33f68cfa311205633/redfish_service_validator-2.3.1.tar.gz
+[2023-04-21 21:24:18] INFO root fetch - processPackages [chebyfit]: Start processing: basal-and-bark
+[2023-04-21 21:24:18] INFO root fetch - main [MainThread]: End processing [chebyfit]: success
+[2023-04-21 21:24:18] INFO root fetch - processPackages [redfish-service-validator]: executing diffoscope
+[2023-04-21 21:24:18] INFO root fetch - processPackages [redfish-service-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redfish_service_validator-2.3.0.tar.gz tmp/redfish_service_validator-2.3.1.tar.gz --markdown 20230421/r/redfish-service-validator/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-04-21 21:24:19] INFO root fetch - processPackages [basal-and-bark]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 21:24:19] INFO root fetch - processPackages [basal-and-bark]: Downloading https://files.pythonhosted.org/packages/c2/ad/d600790fb1bf55a5f360723523da6bcb9c75e7f5b33c6bf3bb6730e9af90/basal_and_bark-0.0.3.tar.gz
+[2023-04-21 21:24:19] INFO root fetch - processPackages [basal-and-bark]: Downloading https://files.pythonhosted.org/packages/6e/30/fe29661aa18b183c3029e26976211a74bf837b5c7b718f6ec92cac64c0c5/basal_and_bark-0.0.4.tar.gz
+[2023-04-21 21:24:19] INFO root fetch - main [MainThread]: End processing [ae-ffmpeg]: success
+[2023-04-21 21:24:19] INFO root fetch - processPackages [basal-and-bark]: executing diffoscope
+[2023-04-21 21:24:19] INFO root fetch - processPackages [basal-and-bark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basal_and_bark-0.0.3.tar.gz tmp/basal_and_bark-0.0.4.tar.gz --markdown 20230421/b/basal-and-bark/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 21:24:19] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-04-21 21:24:20] INFO root fetch - main [MainThread]: End processing [airflow-db-logger]: success
+[2023-04-21 21:24:20] INFO root fetch - main [MainThread]: End processing [incydr]: success
+[2023-04-21 21:24:20] INFO root fetch - main [MainThread]: End processing [rmm-cu11]: success
+[2023-04-21 21:24:20] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-04-21 21:24:20] INFO root fetch - main [MainThread]: End processing [redfish-service-validator]: success
+[2023-04-21 21:24:21] INFO root fetch - main [MainThread]: End processing [basal-and-bark]: success
+[2023-04-21 21:24:21] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-04-21 21:24:27] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-21 21:24:27] INFO root fetch - main [MainThread]: Store serial: [17807651]
