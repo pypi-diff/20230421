@@ -8091,3 +8091,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 07:01:38] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
 [2023-04-21 07:01:38] INFO root fetch - main [MainThread]: End processing [sa-package]: success
 [2023-04-21 07:01:38] INFO root fetch - main [MainThread]: Store serial: [17799224]
+[2023-04-21 07:06:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799224]
+[2023-04-21 07:06:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-21 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: searchlogit
+[2023-04-21 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dask-cuda
+[2023-04-21 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fittings
+[2023-04-21 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gris
+[2023-04-21 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: daedalus-5g
+[2023-04-21 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-pe
+[2023-04-21 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NikeCA
+[2023-04-21 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multi-model-server
+[2023-04-21 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySDM
+[2023-04-21 07:06:47] INFO root fetch - processPackages [fittings]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-21 07:06:47] INFO root fetch - processPackages [NikeCA]: New version: [0.1.71] Old Version: [0.1.70]
+[2023-04-21 07:06:47] INFO root fetch - processPackages [searchlogit]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-21 07:06:47] INFO root fetch - processPackages [gris]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-21 07:06:47] INFO root fetch - processPackages [PySDM]: New version: [2.9] Old Version: [2.8]
+[2023-04-21 07:06:47] INFO root fetch - processPackages [daedalus-5g]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-21 07:06:47] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230421] Old Version: [0.1.0]
+[2023-04-21 07:06:47] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230421] Old Version: [1.1.8b20230420]
+[2023-04-21 07:06:47] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230420] Old Version: [23.6.0a230418]
+[2023-04-21 07:06:48] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/f4/7a/fc1201b439f8a236b8628df571a69a7444f2319164a1bb0b70db44d97dcf/rapid_pe-0.1.0.tar.gz
+[2023-04-21 07:06:48] INFO root fetch - processPackages [fittings]: Downloading https://files.pythonhosted.org/packages/eb/0a/768882780b9cb054bdc19e10fd69d35f90eecfe68f6ebb15219c6ab0f654/fittings-2.0.1.tar.gz
+[2023-04-21 07:06:48] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/22/c5/0ad4d63b841fefe03dd5994f4483cabdef851b5ae5abd1ce51d5e8068364/searchlogit-0.3.7.tar.gz
+[2023-04-21 07:06:48] INFO root fetch - processPackages [gris]: Downloading https://files.pythonhosted.org/packages/c2/50/7b02675e47f1df80dd76026da8d5102cf8390c6681cd67b8c6ab2e528e9d/gris-0.7.1.tar.gz
+[2023-04-21 07:06:48] INFO root fetch - processPackages [daedalus-5g]: Downloading https://files.pythonhosted.org/packages/19/3a/ab3700cae8f027439fa98085359cf981500381b673739fc484b2e5d56f43/daedalus-5g-0.8.0.tar.gz
+[2023-04-21 07:06:48] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/b7/47/9cfb901803a62878381e887ac8deeb10cf5ac4cf6fac7c8ecffc2462f9b6/NikeCA-0.1.71.tar.gz
+[2023-04-21 07:06:48] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/ce/a6/3012f64ea47be7526b4532b8f01ba1f437352af293c927841584a93c2582/multi_model_server-1.1.8b20230421-py2.py3-none-any.whl
+[2023-04-21 07:06:48] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/0b/64/d9c17c4926e251d2d16ba4f09456c40018fb2791060ea02f0c32268a9319/dask-cuda-23.6.0a230418.tar.gz
+[2023-04-21 07:06:48] INFO root fetch - processPackages [gris]: executing diffoscope
+[2023-04-21 07:06:48] INFO root fetch - processPackages [gris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gris-0.7.0.tar.gz tmp/gris-0.7.1.tar.gz --markdown 20230421/g/gris/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-21 07:06:48] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-04-21 07:06:48] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.6.tar.gz tmp/searchlogit-0.3.7.tar.gz --markdown 20230421/s/searchlogit/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-21 07:06:48] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-21 07:06:48] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.70.tar.gz tmp/NikeCA-0.1.71.tar.gz --markdown 20230421/N/NikeCA/0.1.70-0.1.71/diff.md --exclude *.pyd
+[2023-04-21 07:06:48] INFO root fetch - processPackages [PySDM]: executing diffoscope
+[2023-04-21 07:06:48] INFO root fetch - processPackages [PySDM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySDM-2.8.tar.gz tmp/PySDM-2.9.tar.gz --markdown 20230421/P/PySDM/2.8-2.9/diff.md --exclude *.pyd
+[2023-04-21 07:06:48] INFO root fetch - processPackages [fittings]: executing diffoscope
+[2023-04-21 07:06:48] INFO root fetch - processPackages [fittings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fittings-2.0.0.tar.gz tmp/fittings-2.0.1.tar.gz --markdown 20230421/f/fittings/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-21 07:06:48] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/7e/47/f6044242fae30f14cfc4f7acfe4ee9291f95ee2a1c2e4cf80db1708a0b6a/dask-cuda-23.6.0a230420.tar.gz
+[2023-04-21 07:06:48] INFO root fetch - processPackages [daedalus-5g]: Downloading https://files.pythonhosted.org/packages/03/a2/b22df2f28466b3728ab63ef05748d2fe69110f99cbf796aa2b17cdf4496c/daedalus-5g-0.9.0.tar.gz
+[2023-04-21 07:06:48] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/58/1b/a77532362371f9d207b88fa24ba2726049d00d56c10d889f098d03337a2d/rapid_pe-0.1.1.dev20230421.tar.gz
+[2023-04-21 07:06:48] INFO root fetch - processPackages [daedalus-5g]: executing diffoscope
+[2023-04-21 07:06:48] INFO root fetch - processPackages [daedalus-5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daedalus-5g-0.8.0.tar.gz tmp/daedalus-5g-0.9.0.tar.gz --markdown 20230421/d/daedalus-5g/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 07:06:48] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-04-21 07:06:48] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230418.tar.gz tmp/dask-cuda-23.6.0a230420.tar.gz --markdown 20230421/d/dask-cuda/23.6.0a230418-23.6.0a230420/diff.md --exclude *.pyd
+[2023-04-21 07:06:48] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-04-21 07:06:48] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.0.tar.gz tmp/rapid_pe-0.1.1.dev20230421.tar.gz --markdown 20230421/r/rapid-pe/0.1.0-0.1.1.dev20230421/diff.md --exclude *.pyd
+[2023-04-21 07:06:49] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-04-21 07:06:49] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230420-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230421-py2.py3-none-any.whl.zip --markdown 20230421/m/multi-model-server/1.1.8b20230420-1.1.8b20230421/diff.md --exclude *.pyd
+[2023-04-21 07:06:49] INFO root fetch - main [MainThread]: End processing [gris]: success
+[2023-04-21 07:06:50] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-04-21 07:06:50] INFO root fetch - main [MainThread]: End processing [daedalus-5g]: success
+[2023-04-21 07:06:50] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-04-21 07:06:50] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-21 07:06:50] INFO root fetch - main [MainThread]: End processing [fittings]: success
+[2023-04-21 07:06:52] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-04-21 07:06:52] INFO root fetch - main [MainThread]: End processing [PySDM]: success
+[2023-04-21 07:09:41] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-04-21 07:09:41] INFO root fetch - main [MainThread]: Store serial: [17799253]
