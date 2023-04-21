@@ -8528,3 +8528,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 07:46:06] INFO root fetch - main [MainThread]: End processing [common-task-system-client]: success
 [2023-04-21 07:46:06] INFO root fetch - main [MainThread]: End processing [monashspa]: success
 [2023-04-21 07:46:06] INFO root fetch - main [MainThread]: Store serial: [17799496]
+[2023-04-21 07:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799496]
+[2023-04-21 07:51:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 07:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellmap
+[2023-04-21 07:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm4gpt
+[2023-04-21 07:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-payroll
+[2023-04-21 07:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nfl-veripy
+[2023-04-21 07:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: protypo
+[2023-04-21 07:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsptrain
+[2023-04-21 07:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-facebody
+[2023-04-21 07:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dknovautils
+[2023-04-21 07:51:14] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.21.13.7.20] Old Version: [2023.4.21.13.47.34]
+[2023-04-21 07:51:14] INFO root fetch - processPackages [odoo-addon-payroll]: New version: [16.0.1.1.0.3] Old Version: [16.0.1.1.0.2]
+[2023-04-21 07:51:14] WARNING root fetch - processPackages [protypo]: Skipping, unable to determine old version
+[2023-04-21 07:51:14] INFO root fetch - main [MainThread]: End processing [protypo] error
+[2023-04-21 07:51:14] INFO root fetch - processPackages [lsptrain]: New version: [0.0.49] Old Version: [0.0.48]
+[2023-04-21 07:51:14] INFO root fetch - processPackages [dknovautils]: New version: [0.0.3] Old Version: [0.0.27]
+[2023-04-21 07:51:14] INFO root fetch - processPackages [nfl-veripy]: New version: [0.0.1a4] Old Version: [0.0.1]
+[2023-04-21 07:51:14] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304210546] Old Version: [1.0.1.dev202304200124]
+[2023-04-21 07:51:14] INFO root fetch - processPackages [aliyun-python-sdk-facebody]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-04-21 07:51:15] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-04-21 07:51:15] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.0.27.tar.gz tmp/dknovautils-0.0.3.tar.gz --markdown 20230421/d/dknovautils/0.0.27-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 07:51:15] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/c6/d4/ebfb66d8c55ca6d31e390963dc85d6fe2ab6bab445521c0883cee1da2150/llm4gpt-2023.4.21.13.47.34.tar.gz
+[2023-04-21 07:51:15] INFO root fetch - processPackages [nfl-veripy]: Downloading https://files.pythonhosted.org/packages/bb/9f/7b7b87147d8236d7cd79848a54efbcd22b90023799e3ff24ed733ad186a4/nfl_veripy-0.0.1.tar.gz
+[2023-04-21 07:51:15] INFO root fetch - processPackages [lsptrain]: Downloading https://files.pythonhosted.org/packages/ed/56/871484d79524edd06ffcbd295e9981d377e6bf492a5427bd593093a807e3/lsptrain-0.0.48.tar.gz
+[2023-04-21 07:51:15] INFO root fetch - processPackages [odoo-addon-payroll]: Downloading https://files.pythonhosted.org/packages/3c/5d/b21b57302eddfe36bf009ea2890e53e2429ed66d3f5c7b487e07ba4c36dc/odoo_addon_payroll-16.0.1.1.0.2-py3-none-any.whl
+[2023-04-21 07:51:15] INFO root fetch - processPackages [aliyun-python-sdk-facebody]: Downloading https://files.pythonhosted.org/packages/b3/19/a487c352522765a4db97c0743ce3877e07d5bf0405ce52e0f2424dc437ab/aliyun-python-sdk-facebody-2.0.5.tar.gz
+[2023-04-21 07:51:15] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/01/76/0ebbf8721bd179138a06a4cfb7e63973dc1f94937cdce086fa0f37df0761/cellmap-1.0.1.dev202304210546-py3-none-any.whl
+[2023-04-21 07:51:15] INFO root fetch - processPackages [lsptrain]: Downloading https://files.pythonhosted.org/packages/b5/37/b245811f9ef80facb745774ca0db6f8d61f7d3d12aadadee11e4dc47b743/lsptrain-0.0.49.tar.gz
+[2023-04-21 07:51:15] INFO root fetch - processPackages [odoo-addon-payroll]: Downloading https://files.pythonhosted.org/packages/cd/c4/0b5c3eb65765d5979056f418f6a02f3e1c85901a19aed5e8938561bcbc80/odoo_addon_payroll-16.0.1.1.0.3-py3-none-any.whl
+[2023-04-21 07:51:15] INFO root fetch - processPackages [aliyun-python-sdk-facebody]: Downloading https://files.pythonhosted.org/packages/ce/6a/af6371d08d693663518dbb605dd68d5f44aff6f099b5f5392a0881327c06/aliyun-python-sdk-facebody-2.0.6.tar.gz
+[2023-04-21 07:51:15] INFO root fetch - processPackages [lsptrain]: executing diffoscope
+[2023-04-21 07:51:15] INFO root fetch - processPackages [lsptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsptrain-0.0.48.tar.gz tmp/lsptrain-0.0.49.tar.gz --markdown 20230421/l/lsptrain/0.0.48-0.0.49/diff.md --exclude *.pyd
+[2023-04-21 07:51:15] INFO root fetch - processPackages [odoo-addon-payroll]: executing diffoscope
+[2023-04-21 07:51:15] INFO root fetch - processPackages [odoo-addon-payroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_payroll-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_payroll-16.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-payroll/16.0.1.1.0.2-16.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-04-21 07:51:15] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-21 07:51:15] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304200124-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304210546-py3-none-any.whl.zip --markdown 20230421/c/cellmap/1.0.1.dev202304200124-1.0.1.dev202304210546/diff.md --exclude *.pyd
+[2023-04-21 07:51:15] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-21 07:51:15] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.21.13.47.34.tar.gz tmp/llm4gpt-2023.4.21.13.7.20.tar.gz --markdown 20230421/l/llm4gpt/2023.4.21.13.47.34-2023.4.21.13.7.20/diff.md --exclude *.pyd
+[2023-04-21 07:51:15] INFO root fetch - processPackages [aliyun-python-sdk-facebody]: executing diffoscope
+[2023-04-21 07:51:15] INFO root fetch - processPackages [aliyun-python-sdk-facebody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-facebody-2.0.5.tar.gz tmp/aliyun-python-sdk-facebody-2.0.6.tar.gz --markdown 20230421/a/aliyun-python-sdk-facebody/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-04-21 07:51:15] INFO root fetch - processPackages [nfl-veripy]: Downloading https://files.pythonhosted.org/packages/e2/54/085ba3e2b1fbdddf16e89b4bbd4bd52cd7723305edb6692832e8665e7f1b/nfl_veripy-0.0.1a4.tar.gz
+[2023-04-21 07:51:16] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-04-21 07:51:16] INFO root fetch - processPackages [nfl-veripy]: executing diffoscope
+[2023-04-21 07:51:16] INFO root fetch - processPackages [nfl-veripy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfl_veripy-0.0.1.tar.gz tmp/nfl_veripy-0.0.1a4.tar.gz --markdown 20230421/n/nfl-veripy/0.0.1-0.0.1a4/diff.md --exclude *.pyd
+[2023-04-21 07:51:16] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
+[2023-04-21 07:51:17] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-21 07:51:17] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-facebody]: success
+[2023-04-21 07:51:17] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-21 07:51:20] INFO root fetch - main [MainThread]: End processing [nfl-veripy]: success
+[2023-04-21 07:51:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-payroll]: success
+[2023-04-21 07:51:23] INFO root fetch - main [MainThread]: Store serial: [17799522]
