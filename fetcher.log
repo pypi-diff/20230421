@@ -21169,3 +21169,66 @@ EOFError: EOF read where object expected
 [2023-04-21 20:56:01] INFO root fetch - main [MainThread]: End processing [unstructured]: success
 [2023-04-21 20:56:37] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-04-21 20:56:37] INFO root fetch - main [MainThread]: Store serial: [17807367]
+[2023-04-21 21:01:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807367]
+[2023-04-21 21:01:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 21:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OncoAMBER
+[2023-04-21 21:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terrario
+[2023-04-21 21:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LinkChecker-GUI
+[2023-04-21 21:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prodia-python
+[2023-04-21 21:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdftotree-mercurial
+[2023-04-21 21:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyl3dmd
+[2023-04-21 21:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: windeurope72hours
+[2023-04-21 21:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spark-sql-to-sqlite
+[2023-04-21 21:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: terrario
+[2023-04-21 21:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: buildflow
+[2023-04-21 21:01:46] INFO root fetch - processPackages [OncoAMBER]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 21:01:46] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:01:46] INFO root fetch - processPackages [prodia-python]: New version: [1.2] Old Version: [1.1]
+[2023-04-21 21:01:46] INFO root fetch - processPackages [LinkChecker-GUI]: New version: [10.0.0a3] Old Version: [10.0.0a2]
+[2023-04-21 21:01:46] INFO root fetch - processPackages [buildflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:01:46] INFO root fetch - processPackages [pdftotree-mercurial]: New version: [1.2] Old Version: [1.1]
+[2023-04-21 21:01:46] WARNING root fetch - processPackages [windeurope72hours]: Skipping, unable to determine old version
+[2023-04-21 21:01:46] INFO root fetch - processPackages [windeurope72hours]: Start processing: cirrocumulus
+[2023-04-21 21:01:46] INFO root fetch - processPackages [spark-sql-to-sqlite]: New version: [0.4] Old Version: [0.3]
+[2023-04-21 21:01:46] INFO root fetch - main [MainThread]: End processing [windeurope72hours] error
+[2023-04-21 21:01:46] INFO root fetch - processPackages [pyl3dmd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 21:01:46] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:01:46] INFO root fetch - processPackages [cirrocumulus]: New version: [1.1.9.post3] Old Version: [1.1.9.post2]
+[2023-04-21 21:01:46] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:01:46] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:01:46] INFO root fetch - processPackages [LinkChecker-GUI]: Downloading https://files.pythonhosted.org/packages/b3/18/6b7015409e24040cc475e53e6f31076a9af6ccc05bd6e0941f3e00ec28d2/LinkChecker_GUI-10.0.0a2.tar.gz
+[2023-04-21 21:01:46] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:01:46] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:01:46] INFO root fetch - processPackages [buildflow]: executing diffoscope
+[2023-04-21 21:01:46] INFO root fetch - processPackages [buildflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildflow-0.0.8.tar.gz tmp/buildflow-0.0.9.tar.gz --markdown 20230421/b/buildflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:01:46] INFO root fetch - processPackages [cirrocumulus]: executing diffoscope
+[2023-04-21 21:01:46] INFO root fetch - processPackages [cirrocumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirrocumulus-1.1.9.post2.tar.gz tmp/cirrocumulus-1.1.9.post3.tar.gz --markdown 20230421/c/cirrocumulus/1.1.9.post2-1.1.9.post3/diff.md --exclude *.pyd
+[2023-04-21 21:01:46] INFO root fetch - processPackages [pdftotree-mercurial]: Downloading https://files.pythonhosted.org/packages/ed/36/fe6532be24ef337315abe90c245e5be04e861da93c1edf50041061824ce2/pdftotree-mercurial-1.2.tar.gz
+[2023-04-21 21:01:46] INFO root fetch - processPackages [pyl3dmd]: Downloading https://files.pythonhosted.org/packages/9f/fd/9ac21ed28446f0a2c900acccb5aedeca6a8bae97fc7f176f406c96c59ddf/pyl3dmd-0.0.7.tar.gz
+[2023-04-21 21:01:46] INFO root fetch - processPackages [spark-sql-to-sqlite]: Downloading https://files.pythonhosted.org/packages/05/b7/41bd7723fa157bb8568a6c701750934f3918980dd3b7143b28251825bcbf/spark_sql_to_sqlite-0.4.tar.gz
+[2023-04-21 21:01:46] INFO root fetch - processPackages [prodia-python]: Downloading https://files.pythonhosted.org/packages/16/ce/07b49ba106ca7b7bf7678ac0a4fc0c67309d54b35e2c4b4701bfac7ad8b6/prodia-python-1.2.tar.gz
+[2023-04-21 21:01:46] INFO root fetch - processPackages [pdftotree-mercurial]: executing diffoscope
+[2023-04-21 21:01:46] INFO root fetch - processPackages [pdftotree-mercurial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdftotree-mercurial-1.1.tar.gz tmp/pdftotree-mercurial-1.2.tar.gz --markdown 20230421/p/pdftotree-mercurial/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-21 21:01:46] INFO root fetch - processPackages [spark-sql-to-sqlite]: executing diffoscope
+[2023-04-21 21:01:46] INFO root fetch - processPackages [spark-sql-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sql_to_sqlite-0.3.tar.gz tmp/spark_sql_to_sqlite-0.4.tar.gz --markdown 20230421/s/spark-sql-to-sqlite/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-21 21:01:46] INFO root fetch - processPackages [prodia-python]: executing diffoscope
+[2023-04-21 21:01:46] INFO root fetch - processPackages [prodia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodia-python-1.1.tar.gz tmp/prodia-python-1.2.tar.gz --markdown 20230421/p/prodia-python/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-21 21:01:46] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-04-21 21:01:46] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.0.8.tar.gz tmp/OncoAMBER-1.0.9.tar.gz --markdown 20230421/O/OncoAMBER/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:01:46] INFO root fetch - processPackages [LinkChecker-GUI]: Downloading https://files.pythonhosted.org/packages/33/9d/7af4664abaa28798d1a11b3ffb43577a8f11af0074b13477df4ae5cdffa3/LinkChecker_GUI-10.0.0a3.tar.gz
+[2023-04-21 21:01:46] INFO root fetch - processPackages [pyl3dmd]: Downloading https://files.pythonhosted.org/packages/8c/cd/df569bb60b6f4e030736b058e7578ad09860340202099aa8d48a7da62c2f/pyl3dmd-0.0.8.tar.gz
+[2023-04-21 21:01:46] INFO root fetch - processPackages [LinkChecker-GUI]: executing diffoscope
+[2023-04-21 21:01:46] INFO root fetch - processPackages [LinkChecker-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LinkChecker_GUI-10.0.0a2.tar.gz tmp/LinkChecker_GUI-10.0.0a3.tar.gz --markdown 20230421/L/LinkChecker-GUI/10.0.0a2-10.0.0a3/diff.md --exclude *.pyd
+[2023-04-21 21:01:46] INFO root fetch - processPackages [pyl3dmd]: executing diffoscope
+[2023-04-21 21:01:46] INFO root fetch - processPackages [pyl3dmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyl3dmd-0.0.7.tar.gz tmp/pyl3dmd-0.0.8.tar.gz --markdown 20230421/p/pyl3dmd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 21:01:48] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:01:48] INFO root fetch - main [MainThread]: End processing [buildflow]: success
+[2023-04-21 21:01:48] INFO root fetch - main [MainThread]: End processing [spark-sql-to-sqlite]: success
+[2023-04-21 21:01:48] INFO root fetch - main [MainThread]: End processing [prodia-python]: success
+[2023-04-21 21:01:48] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:01:48] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-04-21 21:01:49] INFO root fetch - main [MainThread]: End processing [pyl3dmd]: success
+[2023-04-21 21:01:49] INFO root fetch - main [MainThread]: End processing [pdftotree-mercurial]: success
+[2023-04-21 21:01:50] INFO root fetch - main [MainThread]: End processing [LinkChecker-GUI]: success
+[2023-04-21 21:01:54] INFO root fetch - main [MainThread]: End processing [cirrocumulus]: success
+[2023-04-21 21:01:54] INFO root fetch - main [MainThread]: Store serial: [17807398]
