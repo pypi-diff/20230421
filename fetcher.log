@@ -20480,3 +20480,116 @@ EOFError: EOF read where object expected
 [2023-04-21 20:17:14] INFO root fetch - main [MainThread]: End processing [dann5]: success
 [2023-04-21 20:17:23] INFO root fetch - main [MainThread]: End processing [georgio]: success
 [2023-04-21 20:17:23] INFO root fetch - main [MainThread]: Store serial: [17806921]
+[2023-04-21 20:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806921]
+[2023-04-21 20:22:40] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-21 20:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vocode
+[2023-04-21 20:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sympy-plot-backends
+[2023-04-21 20:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crispr-library-prep
+[2023-04-21 20:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyTfsClient
+[2023-04-21 20:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sockets-communication
+[2023-04-21 20:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: JupyterQuiz
+[2023-04-21 20:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: splinepy
+[2023-04-21 20:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crunchdao
+[2023-04-21 20:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyqt-autotest
+[2023-04-21 20:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DecisionTreeClassifier
+[2023-04-21 20:22:40] INFO root fetch - processPackages [PyTfsClient]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-04-21 20:22:40] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 20:22:40] INFO root fetch - processPackages [vocode]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-21 20:22:40] INFO root fetch - processPackages [crunchdao]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-21 20:22:40] WARNING root fetch - processPackages [sockets-communication]: Skipping, unable to determine old version
+[2023-04-21 20:22:40] INFO root fetch - processPackages [DecisionTreeClassifier]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 20:22:40] INFO root fetch - processPackages [sockets-communication]: Start processing: exceptnotifier
+[2023-04-21 20:22:40] INFO root fetch - main [MainThread]: End processing [sockets-communication] error
+[2023-04-21 20:22:40] INFO root fetch - processPackages [sympy-plot-backends]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-04-21 20:22:40] INFO root fetch - processPackages [JupyterQuiz]: New version: [2.3.5] Old Version: [2.3.0]
+[2023-04-21 20:22:40] INFO root fetch - processPackages [pyqt-autotest]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 20:22:40] INFO root fetch - processPackages [exceptnotifier]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 20:22:40] INFO root fetch - processPackages [splinepy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 20:22:40] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-21 20:22:40] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.8.tar.gz tmp/crispr_library_prep-0.1.9.tar.gz --markdown 20230421/c/crispr-library-prep/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 20:22:40] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-04-21 20:22:40] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.1.8.tar.gz tmp/exceptnotifier-0.1.9.tar.gz --markdown 20230421/e/exceptnotifier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 20:22:40] INFO root fetch - processPackages [PyTfsClient]: Downloading https://files.pythonhosted.org/packages/a6/57/865f658faa0e0cfacd69c4b64f71288191392620bfd9231fcb09e2fc5560/PyTfsClient-1.5.0.tar.gz
+[2023-04-21 20:22:40] INFO root fetch - processPackages [DecisionTreeClassifier]: Downloading https://files.pythonhosted.org/packages/71/60/c97f14352d583e5f10175d1b96ee0d76c7381955584909696a0c168ddf02/DecisionTreeClassifier-0.0.1.tar.gz
+[2023-04-21 20:22:40] INFO root fetch - processPackages [JupyterQuiz]: Downloading https://files.pythonhosted.org/packages/f2/68/30f0be6e49ce091fdfbe598ff4ceef9a67e5ee1f689e22182c26b699d0f4/JupyterQuiz-2.3.5.tar.gz
+[2023-04-21 20:22:40] INFO root fetch - processPackages [crunchdao]: Downloading https://files.pythonhosted.org/packages/e7/eb/0b6f2b83bb6b42a290e759c16cf7bf1c0250ef8324724228ce2a91dae56a/crunchdao-0.3.0.tar.gz
+[2023-04-21 20:22:40] INFO root fetch - processPackages [sympy-plot-backends]: Downloading https://files.pythonhosted.org/packages/5d/6b/6faac99dd727a72b0be0a8221c858db5c70aa9143ccce775249f341a95fa/sympy_plot_backends-2.0.2.tar.gz
+[2023-04-21 20:22:40] INFO root fetch - processPackages [pyqt-autotest]: Downloading https://files.pythonhosted.org/packages/a3/bb/573ea8ff8bae956a92bb083bf2abbae98cde3ee6e71be4e19fe04315d902/pyqt-autotest-0.2.0.tar.gz
+[2023-04-21 20:22:40] INFO root fetch - processPackages [splinepy]: Downloading https://files.pythonhosted.org/packages/bb/f9/449dc1918123e036b143d10967e10c2e9cf37b8ea4d1fc2f55c29b53f70c/splinepy-0.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 20:22:41] INFO root fetch - processPackages [vocode]: Downloading https://files.pythonhosted.org/packages/79/9a/76431e75273e7f7acedd1ec3030dcca2abb2ca6b950c3032e6e481efd30f/vocode-0.1.99.tar.gz
+[2023-04-21 20:22:41] INFO root fetch - processPackages [crunchdao]: Downloading https://files.pythonhosted.org/packages/c6/5a/d93f3224c32668750fde0b437328ea43d4f648246028600559f25031e827/crunchdao-0.4.0.tar.gz
+[2023-04-21 20:22:41] INFO root fetch - processPackages [JupyterQuiz]: executing diffoscope
+[2023-04-21 20:22:41] INFO root fetch - processPackages [JupyterQuiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JupyterQuiz-2.3.0.tar.gz tmp/JupyterQuiz-2.3.5.tar.gz --markdown 20230421/J/JupyterQuiz/2.3.0-2.3.5/diff.md --exclude *.pyd
+[2023-04-21 20:22:41] INFO root fetch - processPackages [PyTfsClient]: Downloading https://files.pythonhosted.org/packages/12/f2/15756210575906fa0182e9e9dd1033cd3ea9cab10060a62334dff28e24ac/PyTfsClient-1.6.0.tar.gz
+[2023-04-21 20:22:41] INFO root fetch - processPackages [sympy-plot-backends]: Downloading https://files.pythonhosted.org/packages/bf/2f/0c23b2210f041e53838f10933fb02cd507d77c8f7b2f3858c817c74dee8a/sympy_plot_backends-2.1.0.tar.gz
+[2023-04-21 20:22:41] INFO root fetch - processPackages [pyqt-autotest]: Downloading https://files.pythonhosted.org/packages/0b/4f/7c7b3f99cf150de4d6b041fe0acff26457cdb2cbe1626316c5b25b420f39/pyqt-autotest-0.2.1.tar.gz
+[2023-04-21 20:22:41] INFO root fetch - processPackages [crunchdao]: executing diffoscope
+[2023-04-21 20:22:41] INFO root fetch - processPackages [crunchdao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunchdao-0.3.0.tar.gz tmp/crunchdao-0.4.0.tar.gz --markdown 20230421/c/crunchdao/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 20:22:41] INFO root fetch - processPackages [PyTfsClient]: executing diffoscope
+[2023-04-21 20:22:41] INFO root fetch - processPackages [PyTfsClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTfsClient-1.5.0.tar.gz tmp/PyTfsClient-1.6.0.tar.gz --markdown 20230421/P/PyTfsClient/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-04-21 20:22:41] INFO root fetch - processPackages [sympy-plot-backends]: executing diffoscope
+[2023-04-21 20:22:41] INFO root fetch - processPackages [sympy-plot-backends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sympy_plot_backends-2.0.2.tar.gz tmp/sympy_plot_backends-2.1.0.tar.gz --markdown 20230421/s/sympy-plot-backends/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-04-21 20:22:41] INFO root fetch - processPackages [pyqt-autotest]: executing diffoscope
+[2023-04-21 20:22:41] INFO root fetch - processPackages [pyqt-autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqt-autotest-0.2.0.tar.gz tmp/pyqt-autotest-0.2.1.tar.gz --markdown 20230421/p/pyqt-autotest/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 20:22:41] WARNING root fetch - processPackages [splinepy]: Skipping package: exceeds size limit 12503999>=10485760
+[2023-04-21 20:22:41] INFO root fetch - processPackages [splinepy]: Start processing: vicops-api
+[2023-04-21 20:22:41] INFO root fetch - main [MainThread]: End processing [splinepy] error
+[2023-04-21 20:22:41] INFO root fetch - processPackages [vicops-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 20:22:41] INFO root fetch - processPackages [vocode]: executing diffoscope
+[2023-04-21 20:22:41] INFO root fetch - processPackages [vocode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocode-0.1.98.tar.gz tmp/vocode-0.1.99.tar.gz --markdown 20230421/v/vocode/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-21 20:22:41] INFO root fetch - processPackages [vicops-api]: Downloading https://files.pythonhosted.org/packages/12/e2/7f644ece610402e7c4a26b93101d059e58c973602aa7a2c4ba303ad62edf/vicops_api-1.0.3.tar.gz
+[2023-04-21 20:22:42] INFO root fetch - processPackages [DecisionTreeClassifier]: Downloading https://files.pythonhosted.org/packages/b9/8b/e92f6406faeaa38993b1818d4442a4e0e191ea4b483f35c95d6461458808/DecisionTreeClassifier-0.0.2.tar.gz
+[2023-04-21 20:22:42] INFO root fetch - processPackages [crispr-library-prep]: Start processing: dh-potluck
+[2023-04-21 20:22:42] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-21 20:22:42] INFO root fetch - processPackages [vicops-api]: executing diffoscope
+[2023-04-21 20:22:42] INFO root fetch - processPackages [vicops-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vicops_api-1.0.2.tar.gz tmp/vicops_api-1.0.3.tar.gz --markdown 20230421/v/vicops-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 20:22:42] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-21 20:22:42] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/6c/85/d5529ba47bcfff2278b73467b2003491ff930a8916ec90ab6d347fbd037b/dh-potluck-1.9.0.tar.gz
+[2023-04-21 20:22:42] INFO root fetch - processPackages [exceptnotifier]: Start processing: live-fast-api
+[2023-04-21 20:22:42] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-04-21 20:22:42] INFO root fetch - processPackages [crunchdao]: Start processing: django-choices-field
+[2023-04-21 20:22:42] INFO root fetch - main [MainThread]: End processing [crunchdao]: success
+[2023-04-21 20:22:42] INFO root fetch - processPackages [live-fast-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 20:22:42] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/5d/ea/c5f6e8c82d824dad4198a98dfb092cefc1dfdd950baaf6168a964441a559/dh-potluck-1.9.1.tar.gz
+[2023-04-21 20:22:42] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2023-04-21 20:22:42] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20230421/d/dh-potluck/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-21 20:22:42] INFO root fetch - processPackages [django-choices-field]: New version: [2.1.1] Old Version: [2.1]
+[2023-04-21 20:22:43] INFO root fetch - processPackages [django-choices-field]: Downloading https://files.pythonhosted.org/packages/e0/f1/d6ddca2679b04a0e39230abf3dc557369d5f23d00e8a95813fb2edfc1997/django-choices-field-2.1.tar.gz
+[2023-04-21 20:22:43] INFO root fetch - processPackages [live-fast-api]: Downloading https://files.pythonhosted.org/packages/85/ee/0dc93f3b89da9f3314a1f36d73c8ab7baf1c79b8410715aa619d56d7bf90/live-fast-api-0.0.3.tar.gz
+[2023-04-21 20:22:43] INFO root fetch - processPackages [PyTfsClient]: Start processing: wds-client
+[2023-04-21 20:22:43] INFO root fetch - main [MainThread]: End processing [PyTfsClient]: success
+[2023-04-21 20:22:43] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 20:22:43] INFO root fetch - processPackages [DecisionTreeClassifier]: executing diffoscope
+[2023-04-21 20:22:43] INFO root fetch - processPackages [DecisionTreeClassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DecisionTreeClassifier-0.0.1.tar.gz tmp/DecisionTreeClassifier-0.0.2.tar.gz --markdown 20230421/D/DecisionTreeClassifier/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 20:22:43] INFO root fetch - processPackages [live-fast-api]: executing diffoscope
+[2023-04-21 20:22:43] INFO root fetch - processPackages [live-fast-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/live-fast-api-0.0.2.tar.gz tmp/live-fast-api-0.0.3.tar.gz --markdown 20230421/l/live-fast-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 20:22:43] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-04-21 20:22:43] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.7.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230421/w/wds-client/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 20:22:43] INFO root fetch - processPackages [django-choices-field]: Downloading https://files.pythonhosted.org/packages/93/be/12ee6d9036349b3f5de295de71a3a416a0bb1723498d150b862bb06effed/django_choices_field-2.1.1.tar.gz
+[2023-04-21 20:22:43] INFO root fetch - processPackages [django-choices-field]: executing diffoscope
+[2023-04-21 20:22:43] INFO root fetch - processPackages [django-choices-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-choices-field-2.1.tar.gz tmp/django_choices_field-2.1.1.tar.gz --markdown 20230421/d/django-choices-field/2.1-2.1.1/diff.md --exclude *.pyd
+[2023-04-21 20:22:43] INFO root fetch - processPackages [pyqt-autotest]: Start processing: tank-wars-iit
+[2023-04-21 20:22:43] INFO root fetch - main [MainThread]: End processing [pyqt-autotest]: success
+[2023-04-21 20:22:43] INFO root fetch - processPackages [tank-wars-iit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-21 20:22:43] INFO root fetch - processPackages [vicops-api]: Start processing: lacss
+[2023-04-21 20:22:43] INFO root fetch - main [MainThread]: End processing [vicops-api]: success
+[2023-04-21 20:22:44] INFO root fetch - main [MainThread]: End processing [sympy-plot-backends]: success
+[2023-04-21 20:22:44] INFO root fetch - processPackages [tank-wars-iit]: Downloading https://files.pythonhosted.org/packages/62/5d/b3bbd5cc6e41e68787aab4a0136be1e26f393a2ce1e299ca0f32c151f358/tank_wars_iit-1.0.0.tar.gz
+[2023-04-21 20:22:44] INFO root fetch - processPackages [lacss]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-21 20:22:44] INFO root fetch - processPackages [lacss]: Downloading https://files.pythonhosted.org/packages/db/3e/d177b9b551e07bc5602f467d45cd908adf01c35cee74fa4b9a48b5244235/lacss-0.2.2.tar.gz
+[2023-04-21 20:22:44] INFO root fetch - processPackages [tank-wars-iit]: Downloading https://files.pythonhosted.org/packages/67/c4/037d9eb9220d8617d9079f1d97661c49102330e621b3064e42a65399d6c0/tank_wars_iit-1.0.1.tar.gz
+[2023-04-21 20:22:44] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2023-04-21 20:22:44] INFO root fetch - processPackages [tank-wars-iit]: executing diffoscope
+[2023-04-21 20:22:44] INFO root fetch - processPackages [tank-wars-iit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tank_wars_iit-1.0.0.tar.gz tmp/tank_wars_iit-1.0.1.tar.gz --markdown 20230421/t/tank-wars-iit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 20:22:44] INFO root fetch - processPackages [lacss]: Downloading https://files.pythonhosted.org/packages/8a/89/7e5502955fd2242be4e60c9fef45d7d00b5ba4abd1cce17fa73cf9799332/lacss-0.3.0.tar.gz
+[2023-04-21 20:22:44] INFO root fetch - main [MainThread]: End processing [vocode]: success
+[2023-04-21 20:22:44] INFO root fetch - processPackages [lacss]: executing diffoscope
+[2023-04-21 20:22:44] INFO root fetch - processPackages [lacss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacss-0.2.2.tar.gz tmp/lacss-0.3.0.tar.gz --markdown 20230421/l/lacss/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-21 20:22:45] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-04-21 20:22:45] INFO root fetch - main [MainThread]: End processing [live-fast-api]: success
+[2023-04-21 20:22:45] INFO root fetch - main [MainThread]: End processing [django-choices-field]: success
+[2023-04-21 20:22:45] INFO root fetch - main [MainThread]: End processing [tank-wars-iit]: success
+[2023-04-21 20:22:46] INFO root fetch - main [MainThread]: End processing [lacss]: success
+[2023-04-21 20:23:33] INFO root fetch - main [MainThread]: End processing [JupyterQuiz]: success
+[2023-04-21 20:23:49] INFO root fetch - main [MainThread]: End processing [DecisionTreeClassifier]: success
+[2023-04-21 20:23:49] INFO root fetch - main [MainThread]: Store serial: [17807000]
