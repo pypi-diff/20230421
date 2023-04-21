@@ -23244,3 +23244,113 @@ EOFError: EOF read where object expected
 [2023-04-21 22:47:15] INFO root fetch - main [MainThread]: End processing [liftcord]: success
 [2023-04-21 22:47:51] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-04-21 22:47:51] INFO root fetch - main [MainThread]: Store serial: [17808623]
+[2023-04-21 22:52:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808623]
+[2023-04-21 22:53:00] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-21 22:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wds-client
+[2023-04-21 22:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lean
+[2023-04-21 22:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cwsearch-utils
+[2023-04-21 22:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: XMLCit
+[2023-04-21 22:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmdix
+[2023-04-21 22:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dlplan
+[2023-04-21 22:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gemd
+[2023-04-21 22:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: magma-suite
+[2023-04-21 22:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yaml-stripper
+[2023-04-21 22:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: polemarch
+[2023-04-21 22:53:00] INFO root fetch - processPackages [XMLCit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-21 22:53:00] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 22:53:00] INFO root fetch - processPackages [cmdix]: New version: [2.0.1] Old Version: [1.0.2]
+[2023-04-21 22:53:00] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 22:53:00] INFO root fetch - processPackages [dlplan]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-04-21 22:53:00] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 22:53:00] INFO root fetch - processPackages [magma-suite]: New version: [1.2.2b1] Old Version: [1.2.2.1b2]
+[2023-04-21 22:53:00] INFO root fetch - processPackages [gemd]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-21 22:53:00] INFO root fetch - processPackages [lean]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-21 22:53:00] INFO root fetch - processPackages [polemarch]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-21 22:53:00] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 22:53:00] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 22:53:00] INFO root fetch - processPackages [magma-suite]: Downloading https://files.pythonhosted.org/packages/76/26/18c3e6a9efb260414728cfad5b3a06e40797cf781701c6227f5042061f4b/magma_suite-1.2.2.1b2.tar.gz
+[2023-04-21 22:53:00] INFO root fetch - processPackages [cmdix]: Downloading https://files.pythonhosted.org/packages/d3/c9/32bbeed31227ff881d9cdad6aaf63838928f583be20c4cb80104c3fe5079/cmdix-1.0.2.tar.gz
+[2023-04-21 22:53:00] INFO root fetch - processPackages [polemarch]: Downloading https://files.pythonhosted.org/packages/43/be/71eba6b8a1d9b9916c91406f5da2d274fd93346f17ad9bd61877f27ad18b/polemarch-3.0.1.tar.gz
+[2023-04-21 22:53:00] INFO root fetch - processPackages [gemd]: Downloading https://files.pythonhosted.org/packages/8d/39/91262ab38a3221527fff53b54de6b7435a32325060364dae212b8bd2f60d/gemd-1.8.1.tar.gz
+[2023-04-21 22:53:00] INFO root fetch - processPackages [XMLCit]: executing diffoscope
+[2023-04-21 22:53:00] INFO root fetch - processPackages [XMLCit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlcit-0.0.5.tar.gz tmp/XMLCit-0.0.6.tar.gz --markdown 20230421/X/XMLCit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 22:53:00] INFO root fetch - processPackages [dlplan]: Downloading https://files.pythonhosted.org/packages/74/b3/96fa0ad98db3654f1f69382a00cb89d1213cbcb15c11a254d3e7173c5525/dlplan-0.1.15.tar.gz
+[2023-04-21 22:53:00] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-04-21 22:53:00] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.7.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230421/w/wds-client/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 22:53:00] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-04-21 22:53:00] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230421/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 22:53:00] INFO root fetch - processPackages [lean]: executing diffoscope
+[2023-04-21 22:53:00] INFO root fetch - processPackages [lean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lean-1.0.98.tar.gz tmp/lean-1.0.99.tar.gz --markdown 20230421/l/lean/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-21 22:53:00] INFO root fetch - processPackages [magma-suite]: executing diffoscope
+[2023-04-21 22:53:00] INFO root fetch - processPackages [magma-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magma_suite-1.2.2.1b2.tar.gz tmp/magma_suite-1.2.2b1.tar.gz --markdown 20230421/m/magma-suite/1.2.2.1b2-1.2.2b1/diff.md --exclude *.pyd
+[2023-04-21 22:53:00] INFO root fetch - processPackages [dlplan]: executing diffoscope
+[2023-04-21 22:53:00] INFO root fetch - processPackages [dlplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlplan-0.1.14.tar.gz tmp/dlplan-0.1.15.tar.gz --markdown 20230421/d/dlplan/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-04-21 22:53:00] INFO root fetch - processPackages [cmdix]: Downloading https://files.pythonhosted.org/packages/68/9e/e4f5544b0663231499ec96df84afbcc7a97d106490a740779f808098558f/cmdix-2.0.1.tar.gz
+[2023-04-21 22:53:00] INFO root fetch - processPackages [gemd]: Downloading https://files.pythonhosted.org/packages/e2/2b/15eca91fe5e92fbf1de886882d420928fd2dce25675fc90da02c749e6f4b/gemd-1.9.0.tar.gz
+[2023-04-21 22:53:00] WARNING root fetch - processPackages [polemarch]: Skipping package: exceeds size limit 12067053>=10485760
+[2023-04-21 22:53:00] INFO root fetch - processPackages [polemarch]: Start processing: foursight-core
+[2023-04-21 22:53:00] INFO root fetch - main [MainThread]: End processing [polemarch] error
+[2023-04-21 22:53:00] INFO root fetch - processPackages [foursight-core]: New version: [4.1.0.1b6] Old Version: [4.1.0.1b5]
+[2023-04-21 22:53:00] INFO root fetch - processPackages [cmdix]: executing diffoscope
+[2023-04-21 22:53:00] INFO root fetch - processPackages [cmdix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdix-1.0.2.tar.gz tmp/cmdix-2.0.1.tar.gz --markdown 20230421/c/cmdix/1.0.2-2.0.1/diff.md --exclude *.pyd
+[2023-04-21 22:53:01] INFO root fetch - processPackages [gemd]: executing diffoscope
+[2023-04-21 22:53:01] INFO root fetch - processPackages [gemd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemd-1.8.1.tar.gz tmp/gemd-1.9.0.tar.gz --markdown 20230421/g/gemd/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 22:53:01] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/4a/02/1def1913caab2b0a458869c3e7588a40adb3395ba038f498160fddd82510/foursight_core-4.1.0.1b6.tar.gz
+[2023-04-21 22:53:01] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-04-21 22:53:01] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.1.0.1b5.tar.gz tmp/foursight_core-4.1.0.1b6.tar.gz --markdown 20230421/f/foursight-core/4.1.0.1b5-4.1.0.1b6/diff.md --exclude *.pyd
+[2023-04-21 22:53:02] INFO root fetch - processPackages [yaml-stripper]: Start processing: liftcord
+[2023-04-21 22:53:02] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 22:53:02] INFO root fetch - processPackages [liftcord]: New version: [7.1] Old Version: [2.3.0a0]
+[2023-04-21 22:53:02] INFO root fetch - processPackages [XMLCit]: Start processing: pre-commit-update
+[2023-04-21 22:53:02] INFO root fetch - main [MainThread]: End processing [XMLCit]: success
+[2023-04-21 22:53:02] INFO root fetch - processPackages [pre-commit-update]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 22:53:02] INFO root fetch - processPackages [liftcord]: executing diffoscope
+[2023-04-21 22:53:02] INFO root fetch - processPackages [liftcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liftcord-2.3.0a0.tar.gz tmp/liftcord-7.1.tar.gz --markdown 20230421/l/liftcord/2.3.0a0-7.1/diff.md --exclude *.pyd
+[2023-04-21 22:53:02] INFO root fetch - processPackages [pre-commit-update]: executing diffoscope
+[2023-04-21 22:53:02] INFO root fetch - processPackages [pre-commit-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit_update-0.0.6.tar.gz tmp/pre_commit_update-0.0.7.tar.gz --markdown 20230421/p/pre-commit-update/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 22:53:02] INFO root fetch - processPackages [cwsearch-utils]: Start processing: chalk-harness
+[2023-04-21 22:53:02] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-04-21 22:53:02] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-21 22:53:02] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-04-21 22:53:02] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230421/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 22:53:02] INFO root fetch - processPackages [magma-suite]: Start processing: graphscope
+[2023-04-21 22:53:02] INFO root fetch - main [MainThread]: End processing [magma-suite]: success
+[2023-04-21 22:53:02] INFO root fetch - processPackages [graphscope]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-21 22:53:02] INFO root fetch - processPackages [wds-client]: Start processing: graphscope-client
+[2023-04-21 22:53:02] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-04-21 22:53:02] INFO root fetch - processPackages [graphscope-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-21 22:53:02] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/f7/53/c1ffb245684956bc30883fd2945f3e1677b030e8d69945fbfca28db2b46a/graphscope_client-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 22:53:03] INFO root fetch - processPackages [graphscope]: executing diffoscope
+[2023-04-21 22:53:03] INFO root fetch - processPackages [graphscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphscope-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl.zip tmp/graphscope-0.9.1-py2.py3-none-macosx_11_0_arm64.whl.zip --markdown 20230421/g/graphscope/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-21 22:53:03] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 48560616>=10485760
+[2023-04-21 22:53:03] INFO root fetch - processPackages [graphscope-client]: Start processing: gs-apps
+[2023-04-21 22:53:03] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-04-21 22:53:03] INFO root fetch - processPackages [pre-commit-update]: Start processing: gs-coordinator
+[2023-04-21 22:53:03] INFO root fetch - main [MainThread]: End processing [pre-commit-update]: success
+[2023-04-21 22:53:03] INFO root fetch - processPackages [gs-apps]: New version: [0.21.0a20230420] Old Version: [0.21.0a20230419]
+[2023-04-21 22:53:03] INFO root fetch - processPackages [gs-coordinator]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-21 22:53:03] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/69/e2/95b400bb32bfa3f362419c1828cdf36f9f6a502591571bad6c97738d5dd5/gs_apps-0.21.0a20230419-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 22:53:03] INFO root fetch - processPackages [chalk-harness]: Start processing: gs-engine
+[2023-04-21 22:53:03] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-04-21 22:53:03] INFO root fetch - processPackages [gs-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-21 22:53:03] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-04-21 22:53:03] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl.zip tmp/gs_coordinator-0.9.1-py2.py3-none-macosx_11_0_arm64.whl.zip --markdown 20230421/g/gs-coordinator/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-21 22:53:03] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/bd/b0/b9b1a1a65be3a78a220a726aa90bda0d1e1a17bbc47999c157c784a7320e/gs_engine-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 22:53:03] INFO root fetch - processPackages [cmdix]: Start processing: gs-include
+[2023-04-21 22:53:03] INFO root fetch - main [MainThread]: End processing [cmdix]: success
+[2023-04-21 22:53:03] INFO root fetch - processPackages [gs-include]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-21 22:53:03] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47786982>=10485760
+[2023-04-21 22:53:03] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-04-21 22:53:04] WARNING root fetch - processPackages [gs-engine]: Skipping package: exceeds size limit 88119450>=10485760
+[2023-04-21 22:53:04] INFO root fetch - main [MainThread]: End processing [gs-engine] error
+[2023-04-21 22:53:04] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/14/24/6aa7d96461fb18c825639db76c5c3edc7abfca148e3e55cc010cbf4d9a02/gs_include-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 22:53:04] INFO root fetch - main [MainThread]: End processing [graphscope]: success
+[2023-04-21 22:53:04] INFO root fetch - main [MainThread]: End processing [liftcord]: success
+[2023-04-21 22:53:04] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 73794505>=10485760
+[2023-04-21 22:53:04] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-04-21 22:53:05] INFO root fetch - main [MainThread]: End processing [lean]: success
+[2023-04-21 22:53:05] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-04-21 22:53:06] INFO root fetch - main [MainThread]: End processing [gemd]: success
+[2023-04-21 22:53:13] INFO root fetch - main [MainThread]: End processing [dlplan]: success
+[2023-04-21 22:53:20] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-04-21 22:53:20] INFO root fetch - main [MainThread]: Store serial: [17808683]
