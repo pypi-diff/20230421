@@ -13850,3 +13850,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 13:43:39] INFO root fetch - main [MainThread]: End processing [soil]: success
 [2023-04-21 13:43:39] INFO root fetch - main [MainThread]: End processing [ekonlpy]: success
 [2023-04-21 13:43:39] INFO root fetch - main [MainThread]: Store serial: [17802491]
+[2023-04-21 13:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802491]
+[2023-04-21 13:48:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 13:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lutv
+[2023-04-21 13:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: newsdash
+[2023-04-21 13:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xinlan-tools
+[2023-04-21 13:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sortinghat
+[2023-04-21 13:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dfsjson
+[2023-04-21 13:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MetaMatching
+[2023-04-21 13:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bogrod
+[2023-04-21 13:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perceval-mozilla
+[2023-04-21 13:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: perceval-opnfv
+[2023-04-21 13:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: perceval-weblate
+[2023-04-21 13:48:48] INFO root fetch - processPackages [sortinghat]: New version: [0.9.0rc2] Old Version: [0.9.0rc1]
+[2023-04-21 13:48:48] INFO root fetch - processPackages [dfsjson]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-21 13:48:48] INFO root fetch - processPackages [perceval-mozilla]: New version: [0.3.8rc2] Old Version: [0.3.8rc1]
+[2023-04-21 13:48:48] WARNING root fetch - processPackages [MetaMatching]: Skipping, unable to determine old version
+[2023-04-21 13:48:48] INFO root fetch - processPackages [MetaMatching]: Start processing: omnisearch
+[2023-04-21 13:48:48] INFO root fetch - main [MainThread]: End processing [MetaMatching] error
+[2023-04-21 13:48:48] INFO root fetch - processPackages [perceval-opnfv]: New version: [0.2.8rc2] Old Version: [0.2.8rc1]
+[2023-04-21 13:48:48] INFO root fetch - processPackages [omnisearch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 13:48:49] INFO root fetch - processPackages [perceval-mozilla]: executing diffoscope
+[2023-04-21 13:48:49] INFO root fetch - processPackages [perceval-mozilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_mozilla-0.3.8rc1.tar.gz tmp/perceval_mozilla-0.3.8rc2.tar.gz --markdown 20230421/p/perceval-mozilla/0.3.8rc1-0.3.8rc2/diff.md --exclude *.pyd
+[2023-04-21 13:48:49] INFO root fetch - processPackages [sortinghat]: executing diffoscope
+[2023-04-21 13:48:49] INFO root fetch - processPackages [sortinghat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat-0.9.0rc1.tar.gz tmp/sortinghat-0.9.0rc2.tar.gz --markdown 20230421/s/sortinghat/0.9.0rc1-0.9.0rc2/diff.md --exclude *.pyd
+[2023-04-21 13:48:49] INFO root fetch - processPackages [lutv]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-21 13:48:49] INFO root fetch - processPackages [xinlan-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 13:48:49] WARNING root fetch - processPackages [newsdash]: Skipping, unable to determine old version
+[2023-04-21 13:48:49] INFO root fetch - processPackages [dfsjson]: executing diffoscope
+[2023-04-21 13:48:49] INFO root fetch - main [MainThread]: End processing [newsdash] error
+[2023-04-21 13:48:49] INFO root fetch - processPackages [dfsjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfsjson-1.0.4.tar.gz tmp/dfsjson-1.0.5.tar.gz --markdown 20230421/d/dfsjson/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-21 13:48:49] INFO root fetch - processPackages [perceval-weblate]: New version: [0.2.8rc2] Old Version: [0.2.8rc1]
+[2023-04-21 13:48:49] WARNING root fetch - processPackages [bogrod]: Skipping, unable to determine old version
+[2023-04-21 13:48:49] INFO root fetch - main [MainThread]: End processing [bogrod] error
+[2023-04-21 13:48:49] INFO root fetch - processPackages [perceval-opnfv]: executing diffoscope
+[2023-04-21 13:48:49] INFO root fetch - processPackages [perceval-opnfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_opnfv-0.2.8rc1.tar.gz tmp/perceval_opnfv-0.2.8rc2.tar.gz --markdown 20230421/p/perceval-opnfv/0.2.8rc1-0.2.8rc2/diff.md --exclude *.pyd
+[2023-04-21 13:48:49] INFO root fetch - processPackages [omnisearch]: executing diffoscope
+[2023-04-21 13:48:49] INFO root fetch - processPackages [omnisearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnisearch-0.0.1.tar.gz tmp/omnisearch-0.0.2.tar.gz --markdown 20230421/o/omnisearch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 13:48:49] INFO root fetch - processPackages [perceval-weblate]: executing diffoscope
+[2023-04-21 13:48:49] INFO root fetch - processPackages [perceval-weblate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_weblate-0.2.8rc1.tar.gz tmp/perceval_weblate-0.2.8rc2.tar.gz --markdown 20230421/p/perceval-weblate/0.2.8rc1-0.2.8rc2/diff.md --exclude *.pyd
+[2023-04-21 13:48:49] INFO root fetch - processPackages [xinlan-tools]: Downloading https://files.pythonhosted.org/packages/c4/ad/aa886e545edf501ad1dc78d404a9681482ca4b271f101b33415a67edddba/xinlan-tools-0.0.1.tar.gz
+[2023-04-21 13:48:49] INFO root fetch - processPackages [lutv]: Downloading https://files.pythonhosted.org/packages/77/d1/d03198fc0109197c5a904a426675097302a2691c7c6914c5fd7b0c87fb54/lutv-1.0.1.tar.gz
+[2023-04-21 13:48:49] INFO root fetch - processPackages [xinlan-tools]: Downloading https://files.pythonhosted.org/packages/74/45/48fc56a0c9c3942f926292aa16b7b86f6b48617d2b0919eb1b0788e4866c/xinlan-tools-0.0.2.tar.gz
+[2023-04-21 13:48:49] INFO root fetch - processPackages [lutv]: Downloading https://files.pythonhosted.org/packages/31/26/24167d190b96fc3206decc08af0c1478b92d32b0d7eca3fc8821e6d394cd/lutv-1.0.2.tar.gz
+[2023-04-21 13:48:49] INFO root fetch - processPackages [lutv]: executing diffoscope
+[2023-04-21 13:48:49] INFO root fetch - processPackages [lutv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lutv-1.0.1.tar.gz tmp/lutv-1.0.2.tar.gz --markdown 20230421/l/lutv/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-21 13:48:49] INFO root fetch - processPackages [xinlan-tools]: executing diffoscope
+[2023-04-21 13:48:49] INFO root fetch - processPackages [xinlan-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xinlan-tools-0.0.1.tar.gz tmp/xinlan-tools-0.0.2.tar.gz --markdown 20230421/x/xinlan-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 13:48:50] INFO root fetch - main [MainThread]: End processing [dfsjson]: success
+[2023-04-21 13:48:50] INFO root fetch - main [MainThread]: End processing [perceval-opnfv]: success
+[2023-04-21 13:48:50] INFO root fetch - main [MainThread]: End processing [perceval-mozilla]: success
+[2023-04-21 13:48:50] INFO root fetch - main [MainThread]: End processing [omnisearch]: success
+[2023-04-21 13:48:51] INFO root fetch - main [MainThread]: End processing [perceval-weblate]: success
+[2023-04-21 13:48:51] INFO root fetch - main [MainThread]: End processing [lutv]: success
+[2023-04-21 13:48:51] INFO root fetch - main [MainThread]: End processing [xinlan-tools]: success
+[2023-04-21 13:48:51] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
+[2023-04-21 13:48:51] INFO root fetch - main [MainThread]: Store serial: [17802527]
