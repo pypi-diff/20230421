@@ -15272,3 +15272,171 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 15:21:16] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-04-21 15:21:18] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azuread]: success
 [2023-04-21 15:21:18] INFO root fetch - main [MainThread]: Store serial: [17803499]
+[2023-04-21 15:26:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17803499]
+[2023-04-21 15:26:28] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-crm-sale-order-line
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amplpy
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-protocol-models
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ayeaye
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ramodels
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-crm-sale-order-line-contract
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zou
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-cloudflare
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CFSession
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-21 15:26:28] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-21 15:26:28] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: New version: [12.0.0.0.2] Old Version: [12.0.0.0.1]
+[2023-04-21 15:26:28] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230421132106] Old Version: [2.0.3.dev20230421084604]
+[2023-04-21 15:26:28] INFO root fetch - processPackages [airbyte-protocol-models]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230421/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-21 15:26:28] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: New version: [12.0.0.0.2] Old Version: [12.0.0.0.1]
+[2023-04-21 15:26:28] INFO root fetch - processPackages [CFSession]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-21 15:26:28] INFO root fetch - processPackages [ayeaye]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 15:26:28] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-04-21 15:26:28] INFO root fetch - processPackages [amplpy]: New version: [0.9.3b0] Old Version: [0.9.2b0]
+[2023-04-21 15:26:28] INFO root fetch - processPackages [zou]: executing diffoscope
+[2023-04-21 15:26:28] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20230421/z/zou/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 15:26:29] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: Downloading https://files.pythonhosted.org/packages/f7/7e/afa2a7b14ea7d62033b5ba6cc88304ae7695986be1abac1d58eb8b4762d1/odoo12_addon_crm_sale_order_line-12.0.0.0.1-py3-none-any.whl
+[2023-04-21 15:26:29] INFO root fetch - processPackages [airbyte-protocol-models]: Downloading https://files.pythonhosted.org/packages/7e/cf/ab2b02d56aedfcc8ac6ddf332e15bbfcbc593d709838a28ca5d488d8d5e4/airbyte_protocol_models-1.0.0.tar.gz
+[2023-04-21 15:26:29] INFO root fetch - processPackages [CFSession]: Downloading https://files.pythonhosted.org/packages/91/0a/fc0a9bbd24ac6a1b9286a8e7f38909a249a86072bee5f175557b7d14f5c8/CFSession-0.2.2.tar.gz
+[2023-04-21 15:26:29] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: Downloading https://files.pythonhosted.org/packages/86/21/3833cbbb2f4960085aa6d86cd1ae988c05824afb42c6df9d4fce2a7e5487/odoo12_addon_crm_sale_order_line_contract-12.0.0.0.1-py3-none-any.whl
+[2023-04-21 15:26:29] INFO root fetch - processPackages [ayeaye]: Downloading https://files.pythonhosted.org/packages/f2/6b/8b5d41607a25ef4c9c1721c6ec7ad0d8e2e642b7917e5af7f2abab43f22e/ayeaye-0.0.8.tar.gz
+[2023-04-21 15:26:29] INFO root fetch - processPackages [amplpy]: Downloading https://files.pythonhosted.org/packages/94/79/c32e0db1892108c12a511a26a71a9c10263cf889331af6829dc1b6a925e7/amplpy-0.9.2b0.tar.gz
+[2023-04-21 15:26:29] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/db/85/30687421b7c66072c818e54c06c503dafb67efa5430e50cca6372eb3f1b2/cdktf-cdktf-provider-cloudflare-6.0.0.tar.gz
+[2023-04-21 15:26:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d0/17/99d483a6479e70e602f1235fbc70200a5eeb5351f1516284f23e8076296a/localstack-core-2.0.3.dev20230421132106.tar.gz
+[2023-04-21 15:26:29] INFO root fetch - processPackages [airbyte-protocol-models]: Downloading https://files.pythonhosted.org/packages/23/76/d8cc8b0a6f4cba45b2bce02f280c5c3607faca5481c684879768e119b415/airbyte_protocol_models-1.0.1.tar.gz
+[2023-04-21 15:26:29] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: Downloading https://files.pythonhosted.org/packages/18/f5/cf2320be03856353a37bec0b883e4d1ef40ffe382c05f661045ac36866b2/odoo12_addon_crm_sale_order_line-12.0.0.0.2-py3-none-any.whl
+[2023-04-21 15:26:29] INFO root fetch - processPackages [airbyte-protocol-models]: executing diffoscope
+[2023-04-21 15:26:29] INFO root fetch - processPackages [airbyte-protocol-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_protocol_models-1.0.0.tar.gz tmp/airbyte_protocol_models-1.0.1.tar.gz --markdown 20230421/a/airbyte-protocol-models/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 15:26:29] INFO root fetch - processPackages [CFSession]: Downloading https://files.pythonhosted.org/packages/87/b3/ca49251677e9d319d91e069edd4cc10b41db8682ea4e2456721c95581df6/CFSession-0.2.3.tar.gz
+[2023-04-21 15:26:29] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: Downloading https://files.pythonhosted.org/packages/0b/d1/26fb4bddc3708ec62893aea10af0b64693678302f31cf85836a7fa92a193/odoo12_addon_crm_sale_order_line_contract-12.0.0.0.2-py3-none-any.whl
+[2023-04-21 15:26:29] INFO root fetch - processPackages [ayeaye]: Downloading https://files.pythonhosted.org/packages/d3/40/38f102a96f92b589174e6e48225ca8d3a50cacf0b958d0b7085b5bedbf28/ayeaye-0.0.9.tar.gz
+[2023-04-21 15:26:29] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: executing diffoscope
+[2023-04-21 15:26:29] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_crm_sale_order_line-12.0.0.0.1-py3-none-any.whl.zip tmp/odoo12_addon_crm_sale_order_line-12.0.0.0.2-py3-none-any.whl.zip --markdown 20230421/o/odoo12-addon-crm-sale-order-line/12.0.0.0.1-12.0.0.0.2/diff.md --exclude *.pyd
+[2023-04-21 15:26:29] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-21 15:26:29] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230421084604.tar.gz tmp/localstack-core-2.0.3.dev20230421132106.tar.gz --markdown 20230421/l/localstack-core/2.0.3.dev20230421084604-2.0.3.dev20230421132106/diff.md --exclude *.pyd
+[2023-04-21 15:26:29] INFO root fetch - processPackages [CFSession]: executing diffoscope
+[2023-04-21 15:26:29] INFO root fetch - processPackages [CFSession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CFSession-0.2.2.tar.gz tmp/CFSession-0.2.3.tar.gz --markdown 20230421/C/CFSession/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-21 15:26:29] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: executing diffoscope
+[2023-04-21 15:26:29] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_crm_sale_order_line_contract-12.0.0.0.1-py3-none-any.whl.zip tmp/odoo12_addon_crm_sale_order_line_contract-12.0.0.0.2-py3-none-any.whl.zip --markdown 20230421/o/odoo12-addon-crm-sale-order-line-contract/12.0.0.0.1-12.0.0.0.2/diff.md --exclude *.pyd
+[2023-04-21 15:26:29] INFO root fetch - processPackages [ayeaye]: executing diffoscope
+[2023-04-21 15:26:29] INFO root fetch - processPackages [ayeaye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-0.0.8.tar.gz tmp/ayeaye-0.0.9.tar.gz --markdown 20230421/a/ayeaye/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 15:26:29] INFO root fetch - processPackages [amplpy]: Downloading https://files.pythonhosted.org/packages/15/31/a6da7297f5e9a4eaff9214b3b75250037a4d7362daa0415257bb6933816a/amplpy-0.9.3b0.tar.gz
+[2023-04-21 15:26:30] INFO root fetch - processPackages [amplpy]: executing diffoscope
+[2023-04-21 15:26:30] INFO root fetch - processPackages [amplpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amplpy-0.9.2b0.tar.gz tmp/amplpy-0.9.3b0.tar.gz --markdown 20230421/a/amplpy/0.9.2b0-0.9.3b0/diff.md --exclude *.pyd
+[2023-04-21 15:26:30] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/ed/d3/937e2f0b39d23f9fea5e24c4cadb970e28803294e68b1f6a1644f3f007b4/cdktf-cdktf-provider-cloudflare-6.0.1.tar.gz
+[2023-04-21 15:26:30] INFO root fetch - processPackages [airbyte-protocol-models]: Start processing: lexikos
+[2023-04-21 15:26:30] INFO root fetch - main [MainThread]: End processing [airbyte-protocol-models]: success
+[2023-04-21 15:26:30] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: executing diffoscope
+[2023-04-21 15:26:30] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-cloudflare-6.0.0.tar.gz tmp/cdktf-cdktf-provider-cloudflare-6.0.1.tar.gz --markdown 20230421/c/cdktf-cdktf-provider-cloudflare/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-04-21 15:26:30] WARNING root fetch - processPackages [lexikos]: Skipping, unable to determine old version
+[2023-04-21 15:26:30] INFO root fetch - processPackages [lexikos]: Start processing: nonebot-poe-chat
+[2023-04-21 15:26:30] INFO root fetch - main [MainThread]: End processing [lexikos] error
+[2023-04-21 15:26:30] WARNING root fetch - processPackages [nonebot-poe-chat]: Skipping, unable to determine old version
+[2023-04-21 15:26:30] INFO root fetch - processPackages [nonebot-poe-chat]: Start processing: odoo12-addon-crm-sale-order-line-contract-rest-api
+[2023-04-21 15:26:30] INFO root fetch - main [MainThread]: End processing [nonebot-poe-chat] error
+[2023-04-21 15:26:30] INFO root fetch - processPackages [ramodels]: Start processing: deprl
+[2023-04-21 15:26:30] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-21 15:26:30] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: New version: [12.0.0.0.2] Old Version: [12.0.0.0.1]
+[2023-04-21 15:26:31] WARNING root fetch - processPackages [deprl]: Skipping, unable to determine old version
+[2023-04-21 15:26:31] INFO root fetch - processPackages [deprl]: Start processing: exceptnotifier
+[2023-04-21 15:26:31] INFO root fetch - main [MainThread]: End processing [deprl] error
+[2023-04-21 15:26:31] INFO root fetch - processPackages [exceptnotifier]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 15:26:31] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: Downloading https://files.pythonhosted.org/packages/66/45/57b81bd2aa92512703841ef44f1614b51b358a2a622092993e06ada2a22e/odoo12_addon_crm_sale_order_line_contract_rest_api-12.0.0.0.1-py3-none-any.whl
+[2023-04-21 15:26:31] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: Start processing: exceptnotifier
+[2023-04-21 15:26:31] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line]: success
+[2023-04-21 15:26:31] INFO root fetch - processPackages [exceptnotifier]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 15:26:31] INFO root fetch - processPackages [CFSession]: Start processing: odoo12-addon-crm-sale-order-line-rest-api
+[2023-04-21 15:26:31] INFO root fetch - main [MainThread]: End processing [CFSession]: success
+[2023-04-21 15:26:31] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: Downloading https://files.pythonhosted.org/packages/f0/7e/dc53a8ba9935452a42b66aaf3c6e5f353fb8e402bf02901fc863b8a9df2b/odoo12_addon_crm_sale_order_line_contract_rest_api-12.0.0.0.2-py3-none-any.whl
+[2023-04-21 15:26:31] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: Start processing: napari-sam
+[2023-04-21 15:26:31] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line-contract]: success
+[2023-04-21 15:26:31] INFO root fetch - processPackages [napari-sam]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 15:26:31] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: New version: [12.0.0.0.2] Old Version: [12.0.0.0.1]
+[2023-04-21 15:26:31] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-04-21 15:26:31] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: executing diffoscope
+[2023-04-21 15:26:31] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.3.8.tar.gz tmp/napari-sam-0.3.9.tar.gz --markdown 20230421/n/napari-sam/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 15:26:31] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_crm_sale_order_line_contract_rest_api-12.0.0.0.1-py3-none-any.whl.zip tmp/odoo12_addon_crm_sale_order_line_contract_rest_api-12.0.0.0.2-py3-none-any.whl.zip --markdown 20230421/o/odoo12-addon-crm-sale-order-line-contract-rest-api/12.0.0.0.1-12.0.0.0.2/diff.md --exclude *.pyd
+[2023-04-21 15:26:31] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-04-21 15:26:31] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.1.8.tar.gz tmp/exceptnotifier-0.1.9.tar.gz --markdown 20230421/e/exceptnotifier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 15:26:31] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-04-21 15:26:31] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.1.8.tar.gz tmp/exceptnotifier-0.1.9.tar.gz --markdown 20230421/e/exceptnotifier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 15:26:31] INFO root fetch - processPackages [ayeaye]: Start processing: workflow-nodes
+[2023-04-21 15:26:31] INFO root fetch - main [MainThread]: End processing [ayeaye]: success
+[2023-04-21 15:26:31] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: Downloading https://files.pythonhosted.org/packages/dd/dd/572f46d3c0f6e1b19f1e265ba0c5313349205c1932d6b5fa7b01b1712f7d/odoo12_addon_crm_sale_order_line_rest_api-12.0.0.0.1-py3-none-any.whl
+[2023-04-21 15:26:31] INFO root fetch - processPackages [workflow-nodes]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-21 15:26:31] INFO root fetch - processPackages [workflow-nodes]: Downloading https://files.pythonhosted.org/packages/2b/e3/681ec470739922cb41b4d45acfbfdde09830eb8c85b7591debd5de2b5573/workflow_nodes-0.8.0-py3-none-any.whl
+[2023-04-21 15:26:31] INFO root fetch - processPackages [zou]: Start processing: anycluster
+[2023-04-21 15:26:31] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2023-04-21 15:26:32] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: Downloading https://files.pythonhosted.org/packages/a9/73/865c7eff15009f015ec6b9f43b37edf53215a52b9ac5f48b8168eab88788/odoo12_addon_crm_sale_order_line_rest_api-12.0.0.0.2-py3-none-any.whl
+[2023-04-21 15:26:32] INFO root fetch - processPackages [anycluster]: New version: [2.0.0] Old Version: [0.6.2]
+[2023-04-21 15:26:32] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: executing diffoscope
+[2023-04-21 15:26:32] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_crm_sale_order_line_rest_api-12.0.0.0.1-py3-none-any.whl.zip tmp/odoo12_addon_crm_sale_order_line_rest_api-12.0.0.0.2-py3-none-any.whl.zip --markdown 20230421/o/odoo12-addon-crm-sale-order-line-rest-api/12.0.0.0.1-12.0.0.0.2/diff.md --exclude *.pyd
+[2023-04-21 15:26:32] INFO root fetch - processPackages [anycluster]: Downloading https://files.pythonhosted.org/packages/e1/27/84f74587575acadc6f06ff27047119cedd7b5bd2b3fd68ff311d183fa803/anycluster-0.6.2.tar.gz
+[2023-04-21 15:26:32] INFO root fetch - processPackages [workflow-nodes]: Downloading https://files.pythonhosted.org/packages/fe/8f/6f3c0dcf7b4c9a7979ceacbeb38e02c5d1d159cfa594e4545b13ab468966/workflow_nodes-0.9.0-py3-none-any.whl
+[2023-04-21 15:26:32] INFO root fetch - processPackages [workflow-nodes]: executing diffoscope
+[2023-04-21 15:26:32] INFO root fetch - processPackages [workflow-nodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workflow_nodes-0.8.0-py3-none-any.whl.zip tmp/workflow_nodes-0.9.0-py3-none-any.whl.zip --markdown 20230421/w/workflow-nodes/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 15:26:32] INFO root fetch - processPackages [anycluster]: Downloading https://files.pythonhosted.org/packages/c0/68/d727315401203a86dcfc9298b3064ba1a1837c531137126c5cd2d4d1d650/anycluster-2.0.0.tar.gz
+[2023-04-21 15:26:32] INFO root fetch - processPackages [anycluster]: executing diffoscope
+[2023-04-21 15:26:32] INFO root fetch - processPackages [anycluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anycluster-0.6.2.tar.gz tmp/anycluster-2.0.0.tar.gz --markdown 20230421/a/anycluster/0.6.2-2.0.0/diff.md --exclude *.pyd
+[2023-04-21 15:26:32] INFO root fetch - processPackages [amplpy]: Start processing: streamflow
+[2023-04-21 15:26:32] INFO root fetch - main [MainThread]: End processing [amplpy]: success
+[2023-04-21 15:26:33] INFO root fetch - processPackages [streamflow]: New version: [0.2.0.dev4] Old Version: [0.2.0.dev3]
+[2023-04-21 15:26:33] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: Start processing: rushd
+[2023-04-21 15:26:33] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line-contract-rest-api]: success
+[2023-04-21 15:26:33] INFO root fetch - processPackages [rushd]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-21 15:26:33] INFO root fetch - processPackages [napari-sam]: Start processing: amirispy
+[2023-04-21 15:26:33] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-04-21 15:26:33] INFO root fetch - processPackages [streamflow]: executing diffoscope
+[2023-04-21 15:26:33] INFO root fetch - processPackages [streamflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamflow-0.2.0.dev3.tar.gz tmp/streamflow-0.2.0.dev4.tar.gz --markdown 20230421/s/streamflow/0.2.0.dev3-0.2.0.dev4/diff.md --exclude *.pyd
+[2023-04-21 15:26:33] INFO root fetch - processPackages [rushd]: Downloading https://files.pythonhosted.org/packages/26/af/0755df1f024edca6ccf646fd1149a7b6864f2f8f9c3257cf52439e434beb/rushd-0.3.0.tar.gz
+[2023-04-21 15:26:33] INFO root fetch - processPackages [amirispy]: New version: [1.2] Old Version: [1.1.4]
+[2023-04-21 15:26:33] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: Start processing: espm
+[2023-04-21 15:26:33] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line-rest-api]: success
+[2023-04-21 15:26:33] INFO root fetch - processPackages [espm]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 15:26:33] INFO root fetch - processPackages [amirispy]: Downloading https://files.pythonhosted.org/packages/fe/e9/6477da0e75caaa8de67141c99e3fb331b43062a7167ff36bb359d812f352/amirispy-1.1.4.tar.gz
+[2023-04-21 15:26:33] INFO root fetch - processPackages [rushd]: Downloading https://files.pythonhosted.org/packages/d7/86/f18fba6b7581d81ef1cc7d4369e10940f6a567c13353a634b388bf00650f/rushd-0.4.0.tar.gz
+[2023-04-21 15:26:33] INFO root fetch - processPackages [exceptnotifier]: Start processing: enstat
+[2023-04-21 15:26:33] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-04-21 15:26:33] INFO root fetch - processPackages [enstat]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-21 15:26:33] INFO root fetch - processPackages [espm]: executing diffoscope
+[2023-04-21 15:26:33] INFO root fetch - processPackages [espm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espm-0.2.0.tar.gz tmp/espm-0.2.1.tar.gz --markdown 20230421/e/espm/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 15:26:33] INFO root fetch - processPackages [enstat]: executing diffoscope
+[2023-04-21 15:26:33] INFO root fetch - processPackages [enstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enstat-0.8.1.tar.gz tmp/enstat-0.8.2.tar.gz --markdown 20230421/e/enstat/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-21 15:26:33] INFO root fetch - processPackages [rushd]: executing diffoscope
+[2023-04-21 15:26:33] INFO root fetch - processPackages [rushd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rushd-0.3.0.tar.gz tmp/rushd-0.4.0.tar.gz --markdown 20230421/r/rushd/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 15:26:33] INFO root fetch - processPackages [exceptnotifier]: Start processing: pysigma-backend-loki
+[2023-04-21 15:26:33] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-04-21 15:26:34] INFO root fetch - processPackages [amirispy]: Downloading https://files.pythonhosted.org/packages/f0/35/9c9fc550d7dc7ef9fce9600a1ed104d5761f27e2e79bb6dcdbfa47a5201c/amirispy-1.2.tar.gz
+[2023-04-21 15:26:34] INFO root fetch - processPackages [pysigma-backend-loki]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-21 15:26:34] INFO root fetch - processPackages [amirispy]: executing diffoscope
+[2023-04-21 15:26:34] INFO root fetch - processPackages [amirispy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amirispy-1.1.4.tar.gz tmp/amirispy-1.2.tar.gz --markdown 20230421/a/amirispy/1.1.4-1.2/diff.md --exclude *.pyd
+[2023-04-21 15:26:34] INFO root fetch - processPackages [pysigma-backend-loki]: Downloading https://files.pythonhosted.org/packages/35/a3/d87320903cc8e1aa5c62ec55692b8b48be771c11364a0b3106f0266b034e/pysigma_backend_loki-0.7.0.tar.gz
+[2023-04-21 15:26:34] INFO root fetch - processPackages [workflow-nodes]: Start processing: arkitekt
+[2023-04-21 15:26:34] INFO root fetch - main [MainThread]: End processing [workflow-nodes]: success
+[2023-04-21 15:26:34] INFO root fetch - processPackages [arkitekt]: New version: [0.4.9] Old Version: [0.4.84]
+[2023-04-21 15:26:34] INFO root fetch - processPackages [pysigma-backend-loki]: Downloading https://files.pythonhosted.org/packages/05/49/5c4c0f58598c30d249e6376187c9789b457efa196a03378adb8e8fcc50c2/pysigma_backend_loki-0.8.0.tar.gz
+[2023-04-21 15:26:34] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-04-21 15:26:34] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.84.tar.gz tmp/arkitekt-0.4.9.tar.gz --markdown 20230421/a/arkitekt/0.4.84-0.4.9/diff.md --exclude *.pyd
+[2023-04-21 15:26:34] INFO root fetch - processPackages [pysigma-backend-loki]: executing diffoscope
+[2023-04-21 15:26:34] INFO root fetch - processPackages [pysigma-backend-loki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_loki-0.7.0.tar.gz tmp/pysigma_backend_loki-0.8.0.tar.gz --markdown 20230421/p/pysigma-backend-loki/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-21 15:26:35] INFO root fetch - processPackages [anycluster]: Start processing: numbers-c2pa
+[2023-04-21 15:26:35] INFO root fetch - main [MainThread]: End processing [anycluster]: success
+[2023-04-21 15:26:35] INFO root fetch - processPackages [numbers-c2pa]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 15:26:35] INFO root fetch - processPackages [numbers-c2pa]: Downloading https://files.pythonhosted.org/packages/7a/f5/9cb3365357a6e21e861162f516ffe32d00b8fbaefabb7e2081b2ada9e2fd/numbers-c2pa-0.0.1.tar.gz
+[2023-04-21 15:26:35] INFO root fetch - main [MainThread]: End processing [rushd]: success
+[2023-04-21 15:26:35] INFO root fetch - processPackages [numbers-c2pa]: Downloading https://files.pythonhosted.org/packages/b8/bf/4b2d3ebe8cd4f193966aaf67e36d91083542760afca349efc39b0a81934d/numbers-c2pa-0.0.2.tar.gz
+[2023-04-21 15:26:35] INFO root fetch - main [MainThread]: End processing [amirispy]: success
+[2023-04-21 15:26:35] INFO root fetch - processPackages [numbers-c2pa]: executing diffoscope
+[2023-04-21 15:26:35] INFO root fetch - processPackages [numbers-c2pa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numbers-c2pa-0.0.1.tar.gz tmp/numbers-c2pa-0.0.2.tar.gz --markdown 20230421/n/numbers-c2pa/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 15:26:36] INFO root fetch - main [MainThread]: End processing [enstat]: success
+[2023-04-21 15:26:36] INFO root fetch - main [MainThread]: End processing [pysigma-backend-loki]: success
+[2023-04-21 15:26:36] INFO root fetch - main [MainThread]: End processing [espm]: success
+[2023-04-21 15:26:37] INFO root fetch - main [MainThread]: End processing [numbers-c2pa]: success
+[2023-04-21 15:26:37] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-04-21 15:26:38] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-21 15:26:39] INFO root fetch - main [MainThread]: End processing [streamflow]: success
+[2023-04-21 15:26:43] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
+[2023-04-21 15:26:43] INFO root fetch - main [MainThread]: Store serial: [17803620]
