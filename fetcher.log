@@ -10176,3 +10176,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 09:58:35] INFO root fetch - main [MainThread]: End processing [opal-client]: success
 [2023-04-21 09:58:36] INFO root fetch - main [MainThread]: End processing [sqladmin]: success
 [2023-04-21 09:58:36] INFO root fetch - main [MainThread]: Store serial: [17800436]
+[2023-04-21 10:03:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800436]
+[2023-04-21 10:03:45] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-21 10:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqladmin
+[2023-04-21 10:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyconn
+[2023-04-21 10:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtailstreamforms
+[2023-04-21 10:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcnmc
+[2023-04-21 10:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygofile2
+[2023-04-21 10:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gp.recipe.node
+[2023-04-21 10:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parrot-olympe
+[2023-04-21 10:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lovehim
+[2023-04-21 10:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stashlib
+[2023-04-21 10:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Zeraora
+[2023-04-21 10:03:45] WARNING root fetch - processPackages [pygofile2]: Skipping, unable to determine old version
+[2023-04-21 10:03:45] INFO root fetch - processPackages [pygofile2]: Start processing: driveup
+[2023-04-21 10:03:45] INFO root fetch - main [MainThread]: End processing [pygofile2] error
+[2023-04-21 10:03:45] INFO root fetch - processPackages [sqladmin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-21 10:03:45] INFO root fetch - processPackages [pyconn]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-21 10:03:45] INFO root fetch - processPackages [driveup]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-21 10:03:45] INFO root fetch - processPackages [parrot-olympe]: New version: [7.6.0rc1] Old Version: [7.6.0]
+[2023-04-21 10:03:45] INFO root fetch - processPackages [stashlib]: New version: [0.0.7.0] Old Version: [0.0.6.2]
+[2023-04-21 10:03:45] INFO root fetch - processPackages [gp.recipe.node]: New version: [6.2.2.1] Old Version: [18.16.0.1]
+[2023-04-21 10:03:45] INFO root fetch - processPackages [Zeraora]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 10:03:45] INFO root fetch - processPackages [lovehim]: New version: [0.52] Old Version: [0.51]
+[2023-04-21 10:03:45] INFO root fetch - processPackages [wagtailstreamforms]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-04-21 10:03:45] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-04-21 10:03:45] INFO root fetch - processPackages [sqladmin]: executing diffoscope
+[2023-04-21 10:03:45] INFO root fetch - processPackages [sqladmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladmin-0.8.0.tar.gz tmp/sqladmin-0.9.0.tar.gz --markdown 20230421/s/sqladmin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 10:03:45] INFO root fetch - processPackages [parrot-olympe]: Downloading https://files.pythonhosted.org/packages/b6/41/62cb8a5f48d011f44c02e4426060ffbc4cb843a1a60eca7f3184260953b5/parrot_olympe-7.6.0-py3-none-manylinux_2_27_x86_64.whl
+[2023-04-21 10:03:45] INFO root fetch - processPackages [driveup]: Downloading https://files.pythonhosted.org/packages/eb/a8/13d00148d3ed533e6d5a1b727937409faa51f52b117bb05c2b514257a7f5/driveup-0.2.3.tar.gz
+[2023-04-21 10:03:45] INFO root fetch - processPackages [gp.recipe.node]: Downloading https://files.pythonhosted.org/packages/c0/31/9e9e078774f1c78928eb5374d0a7b24f576593089b5e65603c0e4a98e4d7/gp.recipe.node-18.16.0.1.tar.gz
+[2023-04-21 10:03:45] INFO root fetch - processPackages [pyconn]: Downloading https://files.pythonhosted.org/packages/f0/35/dc7eb8d0d982939b69681b8a02709c9d0eb0c4cf9d8609a00901d6682929/pyconn-0.2.2.tar.gz
+[2023-04-21 10:03:45] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/d1/c8/e4e6b20e9b526be7f68c12270063033fb96b8ef09f86c34b0b01fc05b191/Zeraora-0.2.2.tar.gz
+[2023-04-21 10:03:45] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/95/df/803b8f144452fc9e53bf6ed878122debc3c79ca1f66105da37a924c99782/lovehim-0.51.tar.gz
+[2023-04-21 10:03:45] INFO root fetch - processPackages [stashlib]: Downloading https://files.pythonhosted.org/packages/1b/0d/d401e2ac7f0dbb1c6cb51a601846b80859cb22b890d12a1d912e07045bb2/stashlib-0.0.6.2.tar.gz
+[2023-04-21 10:03:45] WARNING root fetch - processPackages [parrot-olympe]: Skipping package: exceeds size limit 16101887>=10485760
+[2023-04-21 10:03:45] INFO root fetch - processPackages [parrot-olympe]: Start processing: space-rocks
+[2023-04-21 10:03:45] INFO root fetch - main [MainThread]: End processing [parrot-olympe] error
+[2023-04-21 10:03:45] INFO root fetch - processPackages [space-rocks]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-04-21 10:03:45] INFO root fetch - processPackages [Zeraora]: executing diffoscope
+[2023-04-21 10:03:45] INFO root fetch - processPackages [wagtailstreamforms]: Downloading https://files.pythonhosted.org/packages/f7/a2/3338bb53aabbad2590cc8d3285c47b9bd27495240f807fab85b31c39e5be/wagtailstreamforms-4.0.4.tar.gz
+[2023-04-21 10:03:45] INFO root fetch - processPackages [Zeraora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zeraora-0.2.1.tar.gz tmp/Zeraora-0.2.2.tar.gz --markdown 20230421/Z/Zeraora/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 10:03:45] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-04-21 10:03:45] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230421/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-04-21 10:03:45] INFO root fetch - processPackages [driveup]: Downloading https://files.pythonhosted.org/packages/71/cb/f6d25cc5c3e28ad3bbf9c0f36709dc0b235aa67546a1018c972150143efd/driveup-0.2.4.tar.gz
+[2023-04-21 10:03:45] INFO root fetch - processPackages [pyconn]: Downloading https://files.pythonhosted.org/packages/af/58/baaa0558bdbe1164de53a616a43779641227024ab397d48c3b0e33a59b70/pyconn-0.2.3.tar.gz
+[2023-04-21 10:03:45] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/b3/7a/fcc5fa5865fe29b5c39dfa3211e7375205d4ec887080103cdcf888fa2594/lovehim-0.52.tar.gz
+[2023-04-21 10:03:45] INFO root fetch - processPackages [space-rocks]: Downloading https://files.pythonhosted.org/packages/b0/94/917f6a1d059b95fdec0fbadf18977600cc50c743a4803952dc2f9703ad73/space_rocks-1.7.5.tar.gz
+[2023-04-21 10:03:45] INFO root fetch - processPackages [wagtailstreamforms]: executing diffoscope
+[2023-04-21 10:03:45] INFO root fetch - processPackages [wagtailstreamforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailstreamforms-4.0.3.tar.gz tmp/wagtailstreamforms-4.0.4.tar.gz --markdown 20230421/w/wagtailstreamforms/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-04-21 10:03:45] INFO root fetch - processPackages [stashlib]: Downloading https://files.pythonhosted.org/packages/d9/7e/0fad5abee5764be90f154b64011124bed2252bf8c179fbc3f6c8faa16932/stashlib-0.0.7.0.tar.gz
+[2023-04-21 10:03:45] INFO root fetch - processPackages [driveup]: executing diffoscope
+[2023-04-21 10:03:45] INFO root fetch - processPackages [driveup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/driveup-0.2.3.tar.gz tmp/driveup-0.2.4.tar.gz --markdown 20230421/d/driveup/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-21 10:03:45] INFO root fetch - processPackages [gp.recipe.node]: executing diffoscope
+[2023-04-21 10:03:45] INFO root fetch - processPackages [gp.recipe.node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gp.recipe.node-18.16.0.1.tar.gz tmp/gp.recipe.node-6.2.2.1.tar.gz --markdown 20230421/g/gp.recipe.node/18.16.0.1-6.2.2.1/diff.md --exclude *.pyd
+[2023-04-21 10:03:45] INFO root fetch - processPackages [pyconn]: executing diffoscope
+[2023-04-21 10:03:45] INFO root fetch - processPackages [pyconn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconn-0.2.2.tar.gz tmp/pyconn-0.2.3.tar.gz --markdown 20230421/p/pyconn/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-21 10:03:45] INFO root fetch - processPackages [lovehim]: executing diffoscope
+[2023-04-21 10:03:45] INFO root fetch - processPackages [lovehim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovehim-0.51.tar.gz tmp/lovehim-0.52.tar.gz --markdown 20230421/l/lovehim/0.51-0.52/diff.md --exclude *.pyd
+[2023-04-21 10:03:45] INFO root fetch - processPackages [stashlib]: executing diffoscope
+[2023-04-21 10:03:45] INFO root fetch - processPackages [stashlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stashlib-0.0.6.2.tar.gz tmp/stashlib-0.0.7.0.tar.gz --markdown 20230421/s/stashlib/0.0.6.2-0.0.7.0/diff.md --exclude *.pyd
+[2023-04-21 10:03:45] INFO root fetch - processPackages [space-rocks]: Downloading https://files.pythonhosted.org/packages/7f/64/cbfef648c289a761691b5ff15e535ade0253e6868e16407a5c1e9b4272bd/space_rocks-1.7.6.tar.gz
+[2023-04-21 10:03:46] INFO root fetch - processPackages [space-rocks]: executing diffoscope
+[2023-04-21 10:03:46] INFO root fetch - processPackages [space-rocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_rocks-1.7.5.tar.gz tmp/space_rocks-1.7.6.tar.gz --markdown 20230421/s/space-rocks/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-04-21 10:03:46] INFO root fetch - processPackages [Zeraora]: Start processing: jmcomic
+[2023-04-21 10:03:46] INFO root fetch - main [MainThread]: End processing [Zeraora]: success
+[2023-04-21 10:03:46] INFO root fetch - processPackages [jmcomic]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-04-21 10:03:47] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/13/46/a5a90b423b62d63c20fc7514d2a5edd4afb01a5025c784816e3f8f7de67f/jmcomic-1.6.0.tar.gz
+[2023-04-21 10:03:47] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-04-21 10:03:47] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-1.5.2.tar.gz tmp/jmcomic-1.6.0.tar.gz --markdown 20230421/j/jmcomic/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-04-21 10:03:47] INFO root fetch - processPackages [gp.recipe.node]: Start processing: lovehim
+[2023-04-21 10:03:47] INFO root fetch - main [MainThread]: End processing [gp.recipe.node]: success
+[2023-04-21 10:03:47] INFO root fetch - processPackages [lovehim]: New version: [0.52] Old Version: [0.51]
+[2023-04-21 10:03:47] INFO root fetch - processPackages [driveup]: Start processing: empiric-network
+[2023-04-21 10:03:47] INFO root fetch - main [MainThread]: End processing [driveup]: success
+[2023-04-21 10:03:47] INFO root fetch - processPackages [pyconn]: Start processing: tf-nightly-macos
+[2023-04-21 10:03:47] INFO root fetch - main [MainThread]: End processing [pyconn]: success
+[2023-04-21 10:03:47] INFO root fetch - processPackages [empiric-network]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-21 10:03:47] INFO root fetch - main [MainThread]: End processing [wagtailstreamforms]: success
+[2023-04-21 10:03:47] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.13.0.dev20230420] Old Version: [2.13.0.dev20230419]
+[2023-04-21 10:03:47] INFO root fetch - processPackages [lovehim]: executing diffoscope
+[2023-04-21 10:03:47] INFO root fetch - processPackages [lovehim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovehim-0.51.tar.gz tmp/lovehim-0.52.tar.gz --markdown 20230421/l/lovehim/0.51-0.52/diff.md --exclude *.pyd
+[2023-04-21 10:03:47] INFO root fetch - main [MainThread]: End processing [lovehim]: success
+[2023-04-21 10:03:47] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/9e/e3/68283961767f13958297bb8b120344c6bf4e0e94026a4f6a13414ec378fe/tf_nightly_macos-2.13.0.dev20230419-cp39-cp39-macosx_12_0_arm64.whl
+[2023-04-21 10:03:47] INFO root fetch - processPackages [empiric-network]: executing diffoscope
+[2023-04-21 10:03:47] INFO root fetch - processPackages [empiric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empiric_network-1.4.8.tar.gz tmp/empiric_network-1.4.9.tar.gz --markdown 20230421/e/empiric-network/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-21 10:03:47] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 188222910>=10485760
+[2023-04-21 10:03:47] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-04-21 10:03:48] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-04-21 10:03:48] INFO root fetch - main [MainThread]: End processing [space-rocks]: success
+[2023-04-21 10:03:48] INFO root fetch - main [MainThread]: End processing [stashlib]: success
+[2023-04-21 10:03:48] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-04-21 10:03:49] INFO root fetch - main [MainThread]: End processing [lovehim]: success
+[2023-04-21 10:03:49] INFO root fetch - main [MainThread]: End processing [empiric-network]: success
+[2023-04-21 10:03:50] INFO root fetch - main [MainThread]: End processing [sqladmin]: success
+[2023-04-21 10:03:50] INFO root fetch - main [MainThread]: Store serial: [17800480]
