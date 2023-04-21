@@ -20265,3 +20265,93 @@ EOFError: EOF read where object expected
 [2023-04-21 19:55:43] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-core]: success
 [2023-04-21 19:56:03] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-21 19:56:03] INFO root fetch - main [MainThread]: Store serial: [17806788]
+[2023-04-21 20:01:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806788]
+[2023-04-21 20:01:15] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-21 20:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindsdb-text-to-sql
+[2023-04-21 20:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plixkws
+[2023-04-21 20:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cwsearch-utils
+[2023-04-21 20:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: basaran
+[2023-04-21 20:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: defog
+[2023-04-21 20:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymathematics
+[2023-04-21 20:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secureli
+[2023-04-21 20:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arlas-api
+[2023-04-21 20:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djaodjin-saas
+[2023-04-21 20:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: exceptnotifier
+[2023-04-21 20:01:15] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 20:01:15] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-21 20:01:15] WARNING root fetch - processPackages [mindsdb-text-to-sql]: Skipping, unable to determine old version
+[2023-04-21 20:01:15] ERROR root fetch - processPackages [plixkws]: Unable to get metadata: No such project 'plixkws'
+[2023-04-21 20:01:15] INFO root fetch - processPackages [mindsdb-text-to-sql]: Start processing: grav-toolbox
+[2023-04-21 20:01:15] INFO root fetch - main [MainThread]: End processing [mindsdb-text-to-sql] error
+[2023-04-21 20:01:15] INFO root fetch - processPackages [plixkws]: Start processing: crispr-library-prep
+[2023-04-21 20:01:15] INFO root fetch - processPackages [basaran]: New version: [0.17.1] Old Version: [0.17.0]
+[2023-04-21 20:01:15] INFO root fetch - main [MainThread]: End processing [plixkws] error
+[2023-04-21 20:01:15] INFO root fetch - processPackages [pymathematics]: New version: [2023.4.21] Old Version: [2023.4.20.1]
+[2023-04-21 20:01:15] WARNING root fetch - processPackages [secureli]: Skipping, unable to determine old version
+[2023-04-21 20:01:15] INFO root fetch - processPackages [secureli]: Start processing: utils-cv-baiyigali
+[2023-04-21 20:01:15] INFO root fetch - main [MainThread]: End processing [secureli] error
+[2023-04-21 20:01:15] INFO root fetch - processPackages [djaodjin-saas]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-21 20:01:15] INFO root fetch - processPackages [arlas-api]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-04-21 20:01:15] INFO root fetch - processPackages [exceptnotifier]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 20:01:15] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 20:01:16] INFO root fetch - processPackages [grav-toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 20:01:16] INFO root fetch - processPackages [utils-cv-baiyigali]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 20:01:16] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-04-21 20:01:16] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230421/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 20:01:16] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-04-21 20:01:16] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230421/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-21 20:01:16] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-04-21 20:01:16] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.1.8.tar.gz tmp/exceptnotifier-0.1.9.tar.gz --markdown 20230421/e/exceptnotifier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 20:01:16] INFO root fetch - processPackages [basaran]: Downloading https://files.pythonhosted.org/packages/fc/ef/0f2256ea32067cbea77ac4e9cb8eb681a29918f868784b002034cdf0ef8c/basaran-0.17.1.tar.gz
+[2023-04-21 20:01:16] INFO root fetch - processPackages [djaodjin-saas]: Downloading https://files.pythonhosted.org/packages/e2/ac/072254f3b422410b9d5eddfdc13c2a3bc0d1f6a123903ed144aa8a44670e/djaodjin-saas-0.9.4.tar.gz
+[2023-04-21 20:01:16] INFO root fetch - processPackages [utils-cv-baiyigali]: Downloading https://files.pythonhosted.org/packages/87/6d/a73b2aca47c2d2ed91306567f76551b26d2aadf54878d71bb456e424fd74/utils_cv-baiyigali-0.0.8.tar.gz
+[2023-04-21 20:01:16] INFO root fetch - processPackages [grav-toolbox]: Downloading https://files.pythonhosted.org/packages/c8/dd/d04d13573dd12917b3682717144206f434f49fdf80cc5c608eced6ab413f/grav-toolbox-0.1.8.tar.gz
+[2023-04-21 20:01:16] INFO root fetch - processPackages [crispr-library-prep]: Downloading https://files.pythonhosted.org/packages/fd/13/4bd6e19822718b562441312ba4741682f3e7f8eb3e599630c04104958a16/crispr_library_prep-0.1.8.tar.gz
+[2023-04-21 20:01:16] INFO root fetch - processPackages [pymathematics]: Downloading https://files.pythonhosted.org/packages/8e/55/edf8fd22cd5617f69fbf44cc21732d394b8728ee847809eb1717022d50eb/pymathematics-2023.4.21.tar.gz
+[2023-04-21 20:01:16] INFO root fetch - processPackages [basaran]: executing diffoscope
+[2023-04-21 20:01:16] INFO root fetch - processPackages [basaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basaran-0.17.0.tar.gz tmp/basaran-0.17.1.tar.gz --markdown 20230421/b/basaran/0.17.0-0.17.1/diff.md --exclude *.pyd
+[2023-04-21 20:01:16] INFO root fetch - processPackages [arlas-api]: executing diffoscope
+[2023-04-21 20:01:16] INFO root fetch - processPackages [arlas-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arlas-api-9.0.0.tar.gz tmp/arlas-api-9.0.1.tar.gz --markdown 20230421/a/arlas-api/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-04-21 20:01:16] INFO root fetch - processPackages [grav-toolbox]: Downloading https://files.pythonhosted.org/packages/27/19/62b8377a23f516118898de94766a8d69c40f638fbf134a0315349414dd5c/grav-toolbox-0.1.9.tar.gz
+[2023-04-21 20:01:16] INFO root fetch - processPackages [utils-cv-baiyigali]: Downloading https://files.pythonhosted.org/packages/0c/23/9dd81ae9b43d81a9bb0aad619e4ee2c212875ab2ebcfd2aa3b2fd37d9f4f/utils_cv-baiyigali-0.0.9.tar.gz
+[2023-04-21 20:01:16] INFO root fetch - processPackages [pymathematics]: executing diffoscope
+[2023-04-21 20:01:16] INFO root fetch - processPackages [pymathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymathematics-2023.4.20.1.tar.gz tmp/pymathematics-2023.4.21.tar.gz --markdown 20230421/p/pymathematics/2023.4.20.1-2023.4.21/diff.md --exclude *.pyd
+[2023-04-21 20:01:16] INFO root fetch - processPackages [crispr-library-prep]: Downloading https://files.pythonhosted.org/packages/07/e1/fcd3bdd62d667525dfcaaaf48ee8ca992f25dfe001e335c8d44a445e5f4c/crispr_library_prep-0.1.9.tar.gz
+[2023-04-21 20:01:16] INFO root fetch - processPackages [djaodjin-saas]: Downloading https://files.pythonhosted.org/packages/e6/ac/a73ae117d10f1c5fb4d2822dd256e2fd2856a153a9ca8c10f499e9a3b490/djaodjin-saas-0.9.5.tar.gz
+[2023-04-21 20:01:16] INFO root fetch - processPackages [grav-toolbox]: executing diffoscope
+[2023-04-21 20:01:16] INFO root fetch - processPackages [grav-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grav-toolbox-0.1.8.tar.gz tmp/grav-toolbox-0.1.9.tar.gz --markdown 20230421/g/grav-toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 20:01:16] INFO root fetch - processPackages [utils-cv-baiyigali]: executing diffoscope
+[2023-04-21 20:01:16] INFO root fetch - processPackages [utils-cv-baiyigali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_cv-baiyigali-0.0.8.tar.gz tmp/utils_cv-baiyigali-0.0.9.tar.gz --markdown 20230421/u/utils-cv-baiyigali/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 20:01:16] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-21 20:01:16] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.8.tar.gz tmp/crispr_library_prep-0.1.9.tar.gz --markdown 20230421/c/crispr-library-prep/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 20:01:16] INFO root fetch - processPackages [djaodjin-saas]: executing diffoscope
+[2023-04-21 20:01:16] INFO root fetch - processPackages [djaodjin-saas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-saas-0.9.4.tar.gz tmp/djaodjin-saas-0.9.5.tar.gz --markdown 20230421/d/djaodjin-saas/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-21 20:01:17] INFO root fetch - processPackages [cwsearch-utils]: Start processing: gptrim
+[2023-04-21 20:01:17] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-04-21 20:01:17] INFO root fetch - processPackages [gptrim]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 20:01:17] INFO root fetch - processPackages [defog]: Start processing: asyncpg-trek
+[2023-04-21 20:01:17] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-04-21 20:01:17] INFO root fetch - processPackages [asyncpg-trek]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-21 20:01:17] INFO root fetch - processPackages [gptrim]: Downloading https://files.pythonhosted.org/packages/17/f7/69f09c5fe287fb6e4d88ad84d2b989cbefe0fb3504b889a531fdf7c0e193/gptrim-0.1.2.tar.gz
+[2023-04-21 20:01:17] INFO root fetch - processPackages [basaran]: Start processing: histomicsui
+[2023-04-21 20:01:17] INFO root fetch - main [MainThread]: End processing [basaran]: success
+[2023-04-21 20:01:18] INFO root fetch - processPackages [asyncpg-trek]: Downloading https://files.pythonhosted.org/packages/69/f7/ced4ac9c1a2f84879bc32c9a7167285c328734f32310ad869ca8ace45779/asyncpg_trek-0.3.0.tar.gz
+[2023-04-21 20:01:18] INFO root fetch - processPackages [gptrim]: executing diffoscope
+[2023-04-21 20:01:18] INFO root fetch - processPackages [gptrim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptrim-0.1.1-py3-none-any.whl.zip tmp/gptrim-0.1.2.tar.gz --markdown 20230421/g/gptrim/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 20:01:18] INFO root fetch - processPackages [histomicsui]: New version: [1.4.3.dev8] Old Version: [1.4.3.dev5]
+[2023-04-21 20:01:18] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-04-21 20:01:18] INFO root fetch - main [MainThread]: End processing [pymathematics]: success
+[2023-04-21 20:01:18] INFO root fetch - processPackages [asyncpg-trek]: Downloading https://files.pythonhosted.org/packages/6d/80/5d6dba20b55fffccb6006a0a6f211414517cf6dadd8a86534ec79cf7b4da/asyncpg_trek-0.3.1.tar.gz
+[2023-04-21 20:01:18] INFO root fetch - processPackages [asyncpg-trek]: executing diffoscope
+[2023-04-21 20:01:18] INFO root fetch - processPackages [asyncpg-trek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncpg_trek-0.3.0.tar.gz tmp/asyncpg_trek-0.3.1.tar.gz --markdown 20230421/a/asyncpg-trek/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 20:01:18] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2023-04-21 20:01:18] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.4.3.dev5.tar.gz tmp/histomicsui-1.4.3.dev8.tar.gz --markdown 20230421/h/histomicsui/1.4.3.dev5-1.4.3.dev8/diff.md --exclude *.pyd
+[2023-04-21 20:01:18] INFO root fetch - main [MainThread]: End processing [utils-cv-baiyigali]: success
+[2023-04-21 20:01:18] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-21 20:01:19] INFO root fetch - main [MainThread]: End processing [gptrim]: success
+[2023-04-21 20:01:19] INFO root fetch - main [MainThread]: End processing [arlas-api]: success
+[2023-04-21 20:01:19] INFO root fetch - main [MainThread]: End processing [asyncpg-trek]: success
+[2023-04-21 20:01:20] INFO root fetch - main [MainThread]: End processing [grav-toolbox]: success
+[2023-04-21 20:01:22] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2023-04-21 20:01:23] INFO root fetch - main [MainThread]: End processing [djaodjin-saas]: success
+[2023-04-21 20:01:23] INFO root fetch - main [MainThread]: Store serial: [17806844]
