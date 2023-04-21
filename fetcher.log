@@ -17663,3 +17663,85 @@ EOFError: EOF read where object expected
 [2023-04-21 17:07:57] INFO root fetch - main [MainThread]: End processing [TSInterpret]: success
 [2023-04-21 17:07:57] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
 [2023-04-21 17:07:57] INFO root fetch - main [MainThread]: Store serial: [17804985]
+[2023-04-21 17:13:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17804985]
+[2023-04-21 17:13:06] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splight-lib
+[2023-04-21 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lpynn
+[2023-04-21 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tggl-client
+[2023-04-21 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipster
+[2023-04-21 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorflow-text-nightly
+[2023-04-21 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cumulus-process
+[2023-04-21 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: search-hound-ai
+[2023-04-21 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: physicsLab
+[2023-04-21 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scaled
+[2023-04-21 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: napari-sam
+[2023-04-21 17:13:06] WARNING root fetch - processPackages [search-hound-ai]: Skipping, unable to determine old version
+[2023-04-21 17:13:06] INFO root fetch - processPackages [search-hound-ai]: Start processing: libertem
+[2023-04-21 17:13:06] INFO root fetch - main [MainThread]: End processing [search-hound-ai] error
+[2023-04-21 17:13:06] INFO root fetch - processPackages [napari-sam]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 17:13:06] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.13.0.dev20230420] Old Version: [2.13.0.dev20230419]
+[2023-04-21 17:13:06] WARNING root fetch - processPackages [lpynn]: Skipping, unable to determine old version
+[2023-04-21 17:13:06] INFO root fetch - processPackages [lpynn]: Start processing: StORF-Reporter
+[2023-04-21 17:13:06] INFO root fetch - main [MainThread]: End processing [lpynn] error
+[2023-04-21 17:13:06] INFO root fetch - processPackages [tggl-client]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-21 17:13:06] INFO root fetch - processPackages [splight-lib]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-04-21 17:13:06] INFO root fetch - processPackages [physicsLab]: New version: [1.2.1] Old Version: [1.1.9]
+[2023-04-21 17:13:06] INFO root fetch - processPackages [pipster]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-21 17:13:06] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-04-21 17:13:06] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.3.8.tar.gz tmp/napari-sam-0.3.9.tar.gz --markdown 20230421/n/napari-sam/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 17:13:06] INFO root fetch - processPackages [cumulus-process]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-21 17:13:06] INFO root fetch - processPackages [scaled]: New version: [0.9] Old Version: [0.7]
+[2023-04-21 17:13:06] INFO root fetch - processPackages [libertem]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-04-21 17:13:06] INFO root fetch - processPackages [StORF-Reporter]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-04-21 17:13:06] INFO root fetch - processPackages [tggl-client]: Downloading https://files.pythonhosted.org/packages/46/81/6b02f46d11866596b6ba2da9356a42a660de4ceb92fbd749a4c0a7821bec/tggl_client-1.0.0.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [physicsLab]: Downloading https://files.pythonhosted.org/packages/00/70/fa74beb6408defcaded9381188d10f56ab50da991bcc6366fd7c73545947/physicsLab-1.1.9.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [cumulus-process]: Downloading https://files.pythonhosted.org/packages/c0/26/e9d2289ddb08d1f74fe8e891bc2519225de02b3b2ae58eddc81808c1dbed/cumulus_process-1.1.0.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [scaled]: Downloading https://files.pythonhosted.org/packages/d0/5e/66c19fded924369c6cf0a7e941b55a0cab4b21966ced8c15c6fdc3ca97e5/scaled-0.7.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [libertem]: Downloading https://files.pythonhosted.org/packages/6c/3d/633d2b82782e8824f3c1945ed1d7917c1b92879001a7bdd047fd65feb193/libertem-0.9.0.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [StORF-Reporter]: Downloading https://files.pythonhosted.org/packages/d0/1c/d99f3b953eb115bba256c7a1921e3342a9bf689f10522bf0b3c8b51b3b04/StORF-Reporter-0.7.4.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/8c/96/68712d2464509bbafe9b37f4c675414cf88ecabff7a1d6dbad9586966093/tensorflow_text_nightly-2.13.0.dev20230420-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 17:13:06] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/13/0b/2298b5b0cee916c8e5473d453b50cb66d8c418a2693f47962f27bdba0253/splight-lib-2.3.1.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [pipster]: executing diffoscope
+[2023-04-21 17:13:06] INFO root fetch - processPackages [pipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipster-0.0.7.tar.gz tmp/pipster-0.0.9.tar.gz --markdown 20230421/p/pipster/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 17:13:06] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-04-21 17:13:06] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.0.tar.gz tmp/splight-lib-2.3.1.tar.gz --markdown 20230421/s/splight-lib/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-04-21 17:13:06] INFO root fetch - processPackages [physicsLab]: Downloading https://files.pythonhosted.org/packages/86/57/8884602e21aaf1614621498e22f371ad1ff5b6842cf17e41afd16acedb82/physicsLab-1.2.1.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [cumulus-process]: Downloading https://files.pythonhosted.org/packages/0c/44/a6386664f56325be1316c8a7f65b11baabf0f7f12095dd2dbaf263843f4d/cumulus_process-1.2.0.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [tggl-client]: Downloading https://files.pythonhosted.org/packages/45/8d/1f09be051c305a383c16fbea40c7461a09e7e78e01ce52b1677bbf18fb33/tggl_client-1.1.0.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [StORF-Reporter]: Downloading https://files.pythonhosted.org/packages/9c/87/3ab670fdac9ed09064c0f48902f4907f4556d24e073509eb542d021e3cd8/StORF-Reporter-0.7.5.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [scaled]: Downloading https://files.pythonhosted.org/packages/e6/5b/bdf751547126f8a50ee2fdfab7629f5f4faa482b5ccbd1e8d8cdf030f4cc/scaled-0.9.tar.gz
+[2023-04-21 17:13:06] INFO root fetch - processPackages [physicsLab]: executing diffoscope
+[2023-04-21 17:13:06] INFO root fetch - processPackages [physicsLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physicsLab-1.1.9.tar.gz tmp/physicsLab-1.2.1.tar.gz --markdown 20230421/p/physicsLab/1.1.9-1.2.1/diff.md --exclude *.pyd
+[2023-04-21 17:13:06] INFO root fetch - processPackages [cumulus-process]: executing diffoscope
+[2023-04-21 17:13:06] INFO root fetch - processPackages [cumulus-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumulus_process-1.1.0.tar.gz tmp/cumulus_process-1.2.0.tar.gz --markdown 20230421/c/cumulus-process/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-21 17:13:07] INFO root fetch - processPackages [tggl-client]: executing diffoscope
+[2023-04-21 17:13:07] INFO root fetch - processPackages [tggl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tggl_client-1.0.0.tar.gz tmp/tggl_client-1.1.0.tar.gz --markdown 20230421/t/tggl-client/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-21 17:13:07] INFO root fetch - processPackages [StORF-Reporter]: executing diffoscope
+[2023-04-21 17:13:07] INFO root fetch - processPackages [StORF-Reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StORF-Reporter-0.7.4.tar.gz tmp/StORF-Reporter-0.7.5.tar.gz --markdown 20230421/S/StORF-Reporter/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-04-21 17:13:07] INFO root fetch - processPackages [scaled]: executing diffoscope
+[2023-04-21 17:13:07] INFO root fetch - processPackages [scaled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaled-0.7.tar.gz tmp/scaled-0.9.tar.gz --markdown 20230421/s/scaled/0.7-0.9/diff.md --exclude *.pyd
+[2023-04-21 17:13:07] INFO root fetch - processPackages [napari-sam]: Start processing: OMGITSLACKO
+[2023-04-21 17:13:07] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-04-21 17:13:07] WARNING root fetch - processPackages [OMGITSLACKO]: Skipping, unable to determine old version
+[2023-04-21 17:13:07] INFO root fetch - processPackages [OMGITSLACKO]: Start processing: onnx2tf
+[2023-04-21 17:13:07] INFO root fetch - main [MainThread]: End processing [OMGITSLACKO] error
+[2023-04-21 17:13:07] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-21 17:13:07] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-04-21 17:13:07] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.13.0.dev20230419-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.13.0.dev20230420-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230421/t/tensorflow-text-nightly/2.13.0.dev20230419-2.13.0.dev20230420/diff.md --exclude *.pyd
+[2023-04-21 17:13:07] INFO root fetch - processPackages [libertem]: Downloading https://files.pythonhosted.org/packages/17/a4/20eb6a06158774138afbd4118e2800d1e0db54fd5a8136025cd723535ee3/libertem-0.9.2.tar.gz
+[2023-04-21 17:13:07] INFO root fetch - main [MainThread]: End processing [pipster]: success
+[2023-04-21 17:13:08] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-04-21 17:13:08] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-04-21 17:13:08] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230421/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-21 17:13:08] INFO root fetch - main [MainThread]: End processing [tggl-client]: success
+[2023-04-21 17:13:08] INFO root fetch - main [MainThread]: End processing [physicsLab]: success
+[2023-04-21 17:13:08] INFO root fetch - main [MainThread]: End processing [cumulus-process]: success
+[2023-04-21 17:13:09] INFO root fetch - main [MainThread]: End processing [StORF-Reporter]: success
+[2023-04-21 17:13:09] INFO root fetch - processPackages [libertem]: executing diffoscope
+[2023-04-21 17:13:09] INFO root fetch - processPackages [libertem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem-0.9.0.tar.gz tmp/libertem-0.9.2.tar.gz --markdown 20230421/l/libertem/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-04-21 17:13:09] INFO root fetch - main [MainThread]: End processing [scaled]: success
+[2023-04-21 17:13:09] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-04-21 17:13:11] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-04-21 17:13:49] INFO root fetch - main [MainThread]: End processing [libertem]: success
+[2023-04-21 17:14:24] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-04-21 17:14:24] INFO root fetch - main [MainThread]: Store serial: [17805035]
