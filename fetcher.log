@@ -23667,3 +23667,27 @@ EOFError: EOF read where object expected
 [2023-04-21 23:19:46] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-04-21 23:20:18] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-04-21 23:20:18] INFO root fetch - main [MainThread]: Store serial: [17808892]
+[2023-04-21 23:25:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808892]
+[2023-04-21 23:25:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-21 23:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-rancher2
+[2023-04-21 23:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-heroicons
+[2023-04-21 23:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wordflow
+[2023-04-21 23:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pvmodule
+[2023-04-21 23:25:27] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 23:25:27] INFO root fetch - processPackages [wordflow]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 23:25:27] INFO root fetch - processPackages [wagtail-heroicons]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 23:25:27] INFO root fetch - processPackages [pulumi-rancher2]: New version: [4.0.0a1682018036] Old Version: [4.0.0]
+[2023-04-21 23:25:27] INFO root fetch - processPackages [wagtail-heroicons]: executing diffoscope
+[2023-04-21 23:25:27] INFO root fetch - processPackages [wagtail-heroicons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_heroicons-0.1.0.tar.gz tmp/wagtail_heroicons-0.1.1.tar.gz --markdown 20230421/w/wagtail-heroicons/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 23:25:27] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2023-04-21 23:25:27] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-4.0.0.tar.gz tmp/pulumi_rancher2-4.0.0a1682018036.tar.gz --markdown 20230421/p/pulumi-rancher2/4.0.0-4.0.0a1682018036/diff.md --exclude *.pyd
+[2023-04-21 23:25:27] INFO root fetch - processPackages [wordflow]: Downloading https://files.pythonhosted.org/packages/9e/74/925e7d12dfcdbaa0981a190786c38f65db0af6bc4d1b2cb80ae231860347/wordflow-0.2.1.tar.gz
+[2023-04-21 23:25:27] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-04-21 23:25:27] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230421/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 23:25:27] INFO root fetch - processPackages [wordflow]: executing diffoscope
+[2023-04-21 23:25:27] INFO root fetch - processPackages [wordflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordflow-0.2.0.tar.gz tmp/wordflow-0.2.1.tar.gz --markdown 20230421/w/wordflow/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 23:25:28] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-04-21 23:25:28] INFO root fetch - main [MainThread]: End processing [wordflow]: success
+[2023-04-21 23:25:29] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2023-04-21 23:25:30] INFO root fetch - main [MainThread]: End processing [wagtail-heroicons]: success
+[2023-04-21 23:25:30] INFO root fetch - main [MainThread]: Store serial: [17808906]
