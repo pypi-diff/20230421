@@ -7754,3 +7754,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 06:24:53] INFO root fetch - main [MainThread]: End processing [neuromeka-clients]: success
 [2023-04-21 06:24:54] INFO root fetch - main [MainThread]: End processing [arkdata]: success
 [2023-04-21 06:24:54] INFO root fetch - main [MainThread]: Store serial: [17798978]
+[2023-04-21 06:29:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798978]
+[2023-04-21 06:30:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arkdata
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-document-page-approval
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redis-simple-orm
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glacier
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirque-pinnacle
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-transform
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ifunnygifmaker
+[2023-04-21 06:30:03] INFO root fetch - processPackages [odoo-addon-document-page-approval]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-04-21 06:30:03] INFO root fetch - processPackages [cirque-pinnacle]: New version: [1.0.1.post1.dev0] Old Version: [1.0.1]
+[2023-04-21 06:30:03] INFO root fetch - processPackages [glacier]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-21 06:30:03] INFO root fetch - processPackages [arkdata]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ifunnygifmaker]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 06:30:03] INFO root fetch - processPackages [redis-simple-orm]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ai-transform]: New version: [0.30.9] Old Version: [0.30.8]
+[2023-04-21 06:30:03] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/fc/0b/b0ea796fbe5d7ac309673e9b7116267dddb0eee6b76837929ed752ff45e3/odoo_addon_document_page_approval-16.0.1.1.0.1-py3-none-any.whl
+[2023-04-21 06:30:03] INFO root fetch - processPackages [cirque-pinnacle]: Downloading https://files.pythonhosted.org/packages/e9/88/e879535673523693fcfd58923f2f9f820b1348e20dd9fb41ff567ea801a8/cirque_pinnacle-1.0.1.post1.dev0.tar.gz
+[2023-04-21 06:30:03] INFO root fetch - processPackages [arkdata]: Downloading https://files.pythonhosted.org/packages/d4/72/001c33fb8d513e7eb2e69341778aa8e18ba33ea4936330f12bf841a189fd/arkdata-1.0.5.tar.gz
+[2023-04-21 06:30:03] INFO root fetch - processPackages [glacier]: Downloading https://files.pythonhosted.org/packages/d0/e8/c7c532c9827c144d5c3b71fbd396c4a086b95d43a36d84414ae369d49cac/glacier-0.3.4.tar.gz
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/e1/5b/bae5360daa9af7b41acb079f485616772e7a5174f12eb15fc7e2695e5a8b/ifunnygifmaker-0.1.6.tar.gz
+[2023-04-21 06:30:03] INFO root fetch - processPackages [odoo-addon-document-page-approval]: executing diffoscope
+[2023-04-21 06:30:03] INFO root fetch - processPackages [odoo-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_approval-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_document_page_approval-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-document-page-approval/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-04-21 06:30:03] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-21 06:30:03] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.4.tar.gz tmp/arkdata-1.0.5.tar.gz --markdown 20230421/a/arkdata/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-21 06:30:03] INFO root fetch - processPackages [cirque-pinnacle]: executing diffoscope
+[2023-04-21 06:30:03] INFO root fetch - processPackages [cirque-pinnacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirque_pinnacle-1.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/cirque_pinnacle-1.0.1.post1.dev0.tar.gz --markdown 20230421/c/cirque-pinnacle/1.0.1-1.0.1.post1.dev0/diff.md --exclude *.pyd
+[2023-04-21 06:30:03] INFO root fetch - processPackages [redis-simple-orm]: Downloading https://files.pythonhosted.org/packages/8c/e3/48d4ca06d1fa99d5c67eb67f876db86e61cd782e83b262dd15a2e4dc1b3c/redis_simple_orm-1.2.6.tar.gz
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ifunnygifmaker]: executing diffoscope
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ifunnygifmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifunnygifmaker-0.1.5.tar.gz tmp/ifunnygifmaker-0.1.6.tar.gz --markdown 20230421/i/ifunnygifmaker/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 06:30:03] INFO root fetch - processPackages [redis-simple-orm]: executing diffoscope
+[2023-04-21 06:30:03] INFO root fetch - processPackages [redis-simple-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_simple_orm-1.2.5.tar.gz tmp/redis_simple_orm-1.2.6.tar.gz --markdown 20230421/r/redis-simple-orm/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-04-21 06:30:03] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/f6/1e/2fd966fd7b337df349486362e6ae3bdf748aadaf4f3a257e6a5a04cc8ecd/ai_transform-0.30.9.tar.gz
+[2023-04-21 06:30:04] INFO root fetch - processPackages [glacier]: Downloading https://files.pythonhosted.org/packages/bb/65/e473c5a2c2350956e08d16f374fdb9b76abb7509e9ea9107afbaa1f3a80d/glacier-0.3.5.tar.gz
+[2023-04-21 06:30:04] INFO root fetch - processPackages [glacier]: executing diffoscope
+[2023-04-21 06:30:04] INFO root fetch - processPackages [glacier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glacier-0.3.4.tar.gz tmp/glacier-0.3.5.tar.gz --markdown 20230421/g/glacier/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-21 06:30:04] INFO root fetch - processPackages [ai-transform]: executing diffoscope
+[2023-04-21 06:30:04] INFO root fetch - processPackages [ai-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_transform-0.30.8.tar.gz tmp/ai_transform-0.30.9.tar.gz --markdown 20230421/a/ai-transform/0.30.8-0.30.9/diff.md --exclude *.pyd
+[2023-04-21 06:30:05] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker]: success
+[2023-04-21 06:30:05] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-21 06:30:05] INFO root fetch - main [MainThread]: End processing [glacier]: success
+[2023-04-21 06:30:05] INFO root fetch - main [MainThread]: End processing [cirque-pinnacle]: success
+[2023-04-21 06:30:05] INFO root fetch - main [MainThread]: End processing [redis-simple-orm]: success
+[2023-04-21 06:30:05] INFO root fetch - main [MainThread]: End processing [ai-transform]: success
+[2023-04-21 06:30:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
+[2023-04-21 06:30:06] INFO root fetch - main [MainThread]: Store serial: [17798998]
