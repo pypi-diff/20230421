@@ -9330,3 +9330,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 09:00:22] INFO root fetch - main [MainThread]: End processing [xemc3]: success
 [2023-04-21 09:00:23] INFO root fetch - main [MainThread]: End processing [binance-connector]: success
 [2023-04-21 09:00:23] INFO root fetch - main [MainThread]: Store serial: [17799975]
+[2023-04-21 09:05:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799975]
+[2023-04-21 09:05:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Jvav
+[2023-04-21 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-configer
+[2023-04-21 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: photon-ablog
+[2023-04-21 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hardwario-chester
+[2023-04-21 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zelos-demeter
+[2023-04-21 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqio-nightly
+[2023-04-21 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-sls20201230-py2
+[2023-04-21 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-sls20201230
+[2023-04-21 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: manonaid-helpers
+[2023-04-21 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-bale-bot
+[2023-04-21 09:05:32] INFO root fetch - processPackages [zelos-demeter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 09:05:32] INFO root fetch - processPackages [Jvav]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-21 09:05:32] INFO root fetch - processPackages [hardwario-chester]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-04-21 09:05:32] WARNING root fetch - processPackages [photon-ablog]: Skipping, unable to determine old version
+[2023-04-21 09:05:32] INFO root fetch - processPackages [photon-ablog]: Start processing: chatgpt4-cli
+[2023-04-21 09:05:32] INFO root fetch - processPackages [easy-configer]: New version: [2.0.0] Old Version: [1.3.4]
+[2023-04-21 09:05:32] INFO root fetch - main [MainThread]: End processing [photon-ablog] error
+[2023-04-21 09:05:32] INFO root fetch - processPackages [alibabacloud-sls20201230]: New version: [2.0.0] Old Version: [1.5.9]
+[2023-04-21 09:05:32] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: New version: [2.0.0] Old Version: [1.5.5]
+[2023-04-21 09:05:32] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-04-21 09:05:32] INFO root fetch - processPackages [manonaid-helpers]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-21 09:05:32] INFO root fetch - processPackages [python-bale-bot]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-04-21 09:05:32] INFO root fetch - processPackages [chatgpt4-cli]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-04-21 09:05:32] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-04-21 09:05:32] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230421/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-04-21 09:05:32] INFO root fetch - processPackages [alibabacloud-sls20201230]: Downloading https://files.pythonhosted.org/packages/e3/9f/e205101f96ff275fb20918b5abef20d4029d63d7fd1a738c26754257bf1e/alibabacloud_sls20201230-2.0.0.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [zelos-demeter]: Downloading https://files.pythonhosted.org/packages/63/0c/0f8431dcbbc8886d78b38307eb48ce3eb929c5138a940e7e6dcc26231d3d/zelos-demeter-0.1.8.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [hardwario-chester]: Downloading https://files.pythonhosted.org/packages/3b/32/3e6adec4bb6a97e414d5bdb6a8b0514301c2f337ec1df2e61ba30642b681/hardwario-chester-1.8.6.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/4e/ea/bc5000975137f59e3a5bc60599f258fe619115263398c966151df6de63de/easy_configer-1.3.4.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: Downloading https://files.pythonhosted.org/packages/97/6a/97d026a53c6aa04a599feb43f95b793e3ea4747b614011ef8caec4e1bfcb/alibabacloud_sls20201230_py2-2.0.0.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [python-bale-bot]: Downloading https://files.pythonhosted.org/packages/9a/84/2bb62c8a7cd300e18089f61465f9cebca75437f216cece43df2a7be04820/python-bale-bot-2.4.4.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [manonaid-helpers]: Downloading https://files.pythonhosted.org/packages/49/29/35c10982b33c33fe7675d0b1244b507f49cc01f2a9b9a913bc8e45c78cae/manonaid_helpers-0.1.3.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: executing diffoscope
+[2023-04-21 09:05:32] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sls20201230_py2-1.5.5.tar.gz tmp/alibabacloud_sls20201230_py2-2.0.0.tar.gz --markdown 20230421/a/alibabacloud-sls20201230-py2/1.5.5-2.0.0/diff.md --exclude *.pyd
+[2023-04-21 09:05:32] INFO root fetch - processPackages [alibabacloud-sls20201230]: executing diffoscope
+[2023-04-21 09:05:32] INFO root fetch - processPackages [alibabacloud-sls20201230]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sls20201230-1.5.9.tar.gz tmp/alibabacloud_sls20201230-2.0.0.tar.gz --markdown 20230421/a/alibabacloud-sls20201230/1.5.9-2.0.0/diff.md --exclude *.pyd
+[2023-04-21 09:05:32] INFO root fetch - processPackages [Jvav]: executing diffoscope
+[2023-04-21 09:05:32] INFO root fetch - processPackages [Jvav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jvav-1.2.8.tar.gz tmp/Jvav-1.2.9.tar.gz --markdown 20230421/J/Jvav/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-21 09:05:32] INFO root fetch - processPackages [chatgpt4-cli]: Downloading https://files.pythonhosted.org/packages/7e/c6/eac4f38c414a338d542717ed67c3015cb53a2f1a3a6f5ccdd39f20f71def/chatgpt4-cli-1.5.2.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [python-bale-bot]: Downloading https://files.pythonhosted.org/packages/8f/09/df37b98efbc677a7bf03c8ee71acf08e5948ab9bdddc9cc16a05dcab1dc3/python-bale-bot-2.4.5.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/52/cd/8375361a79172058f0872314152180442d317e06ad0236110690d65c7aba/easy_configer-2.0.0.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [zelos-demeter]: Downloading https://files.pythonhosted.org/packages/f3/cd/57d8046314b3b265325699cf2a836bbff13b190bd65cbd557a243a3f82b7/zelos-demeter-0.1.9.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [hardwario-chester]: Downloading https://files.pythonhosted.org/packages/dc/c2/0ed7bc8f4504f4233fb274d92573e7dec3153a2cc7ee9d1215b48f153345/hardwario-chester-1.9.0.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [chatgpt4-cli]: executing diffoscope
+[2023-04-21 09:05:32] INFO root fetch - processPackages [chatgpt4-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt4-cli-1.5.1.tar.gz tmp/chatgpt4-cli-1.5.2.tar.gz --markdown 20230421/c/chatgpt4-cli/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-04-21 09:05:32] INFO root fetch - processPackages [manonaid-helpers]: Downloading https://files.pythonhosted.org/packages/ee/83/4d37e84997719088548f6956823cb50e28e7b1f5e4e1559c76edecc15d04/manonaid_helpers-0.1.4.tar.gz
+[2023-04-21 09:05:32] INFO root fetch - processPackages [python-bale-bot]: executing diffoscope
+[2023-04-21 09:05:32] INFO root fetch - processPackages [python-bale-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bale-bot-2.4.4.tar.gz tmp/python-bale-bot-2.4.5.tar.gz --markdown 20230421/p/python-bale-bot/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-04-21 09:05:32] INFO root fetch - processPackages [easy-configer]: executing diffoscope
+[2023-04-21 09:05:32] INFO root fetch - processPackages [easy-configer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_configer-1.3.4.tar.gz tmp/easy_configer-2.0.0.tar.gz --markdown 20230421/e/easy-configer/1.3.4-2.0.0/diff.md --exclude *.pyd
+[2023-04-21 09:05:32] INFO root fetch - processPackages [zelos-demeter]: executing diffoscope
+[2023-04-21 09:05:32] INFO root fetch - processPackages [zelos-demeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zelos-demeter-0.1.8.tar.gz tmp/zelos-demeter-0.1.9.tar.gz --markdown 20230421/z/zelos-demeter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 09:05:33] INFO root fetch - processPackages [hardwario-chester]: executing diffoscope
+[2023-04-21 09:05:33] INFO root fetch - processPackages [hardwario-chester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardwario-chester-1.8.6.tar.gz tmp/hardwario-chester-1.9.0.tar.gz --markdown 20230421/h/hardwario-chester/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 09:05:33] INFO root fetch - processPackages [manonaid-helpers]: executing diffoscope
+[2023-04-21 09:05:33] INFO root fetch - processPackages [manonaid-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manonaid_helpers-0.1.3.tar.gz tmp/manonaid_helpers-0.1.4.tar.gz --markdown 20230421/m/manonaid-helpers/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-21 09:05:34] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: Start processing: hiddifypanel
+[2023-04-21 09:05:34] INFO root fetch - main [MainThread]: End processing [alibabacloud-sls20201230-py2]: success
+[2023-04-21 09:05:34] INFO root fetch - processPackages [hiddifypanel]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-04-21 09:05:34] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-04-21 09:05:34] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-21 09:05:34] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.1.2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230421/h/hiddifypanel/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-04-21 09:05:34] INFO root fetch - main [MainThread]: End processing [Jvav]: success
+[2023-04-21 09:05:34] INFO root fetch - main [MainThread]: End processing [chatgpt4-cli]: success
+[2023-04-21 09:05:34] INFO root fetch - main [MainThread]: End processing [alibabacloud-sls20201230]: success
+[2023-04-21 09:05:34] INFO root fetch - main [MainThread]: End processing [easy-configer]: success
+[2023-04-21 09:05:34] INFO root fetch - main [MainThread]: End processing [manonaid-helpers]: success
+[2023-04-21 09:05:35] INFO root fetch - main [MainThread]: End processing [zelos-demeter]: success
+[2023-04-21 09:05:35] INFO root fetch - main [MainThread]: End processing [hardwario-chester]: success
+[2023-04-21 09:05:35] INFO root fetch - main [MainThread]: End processing [python-bale-bot]: success
+[2023-04-21 09:05:51] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-21 09:05:51] INFO root fetch - main [MainThread]: Store serial: [17800016]
