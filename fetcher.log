@@ -11858,3 +11858,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 11:34:48] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
 [2023-04-21 11:36:23] INFO root fetch - main [MainThread]: End processing [up-aries]: success
 [2023-04-21 11:36:23] INFO root fetch - main [MainThread]: Store serial: [17801322]
+[2023-04-21 11:41:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17801322]
+[2023-04-21 11:41:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ntfy-lite
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymeshlab
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mage-ai
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ykenan-file
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynometrics
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bns-utils
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdkit
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ntfy-lite]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 11:41:54] INFO root fetch - processPackages [pynometrics]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ykenan-file]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-04-21 11:41:54] INFO root fetch - processPackages [bns-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 11:41:54] INFO root fetch - processPackages [pymeshlab]: New version: [2022.2.post4] Old Version: [2022.2.post3]
+[2023-04-21 11:41:54] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 11:41:54] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-21 11:41:54] INFO root fetch - processPackages [pynometrics]: executing diffoscope
+[2023-04-21 11:41:54] INFO root fetch - processPackages [pynometrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynometrics-0.1.2.tar.gz tmp/pynometrics-0.1.3.tar.gz --markdown 20230421/p/pynometrics/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 11:41:54] INFO root fetch - processPackages [bns-utils]: executing diffoscope
+[2023-04-21 11:41:54] INFO root fetch - processPackages [bns-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bns_utils-0.0.3.tar.gz tmp/bns_utils-0.0.4.tar.gz --markdown 20230421/b/bns-utils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 11:41:54] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-04-21 11:41:54] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.8.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230421/s/sdkit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 11:41:54] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-04-21 11:41:54] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.8.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230421/m/mage-ai/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-21 11:41:54] INFO root fetch - processPackages [pymeshlab]: Downloading https://files.pythonhosted.org/packages/ff/7a/db6fd61c45441e00f32d922460dcbe4f60bfd3d1370b5d512e40a31808aa/pymeshlab-2022.2.post3-cp39-cp39-win_amd64.whl
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ykenan-file]: executing diffoscope
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ykenan-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_file-0.0.7.tar.gz tmp/ykenan_file-0.1.0.tar.gz --markdown 20230421/y/ykenan-file/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ntfy-lite]: Downloading https://files.pythonhosted.org/packages/1e/ab/04fcb99e61347f57d70d0952bb53808649059f52848425414528a70a9a3b/ntfy_lite-1.0.3.tar.gz
+[2023-04-21 11:41:54] WARNING root fetch - processPackages [pymeshlab]: Skipping package: exceeds size limit 37324025>=10485760
+[2023-04-21 11:41:54] INFO root fetch - main [MainThread]: End processing [pymeshlab] error
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ntfy-lite]: executing diffoscope
+[2023-04-21 11:41:54] INFO root fetch - processPackages [ntfy-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntfy_lite-1.0.2.tar.gz tmp/ntfy_lite-1.0.3.tar.gz --markdown 20230421/n/ntfy-lite/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 11:41:55] INFO root fetch - main [MainThread]: End processing [bns-utils]: success
+[2023-04-21 11:41:55] INFO root fetch - main [MainThread]: End processing [pynometrics]: success
+[2023-04-21 11:41:55] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-04-21 11:41:56] INFO root fetch - main [MainThread]: End processing [ntfy-lite]: success
+[2023-04-21 11:41:56] INFO root fetch - main [MainThread]: End processing [ykenan-file]: success
+[2023-04-21 11:42:06] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-04-21 11:42:06] INFO root fetch - main [MainThread]: Store serial: [17801361]
