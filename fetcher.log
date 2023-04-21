@@ -8391,3 +8391,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 07:30:28] INFO root fetch - main [MainThread]: End processing [toggler]: success
 [2023-04-21 07:30:29] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-04-21 07:30:29] INFO root fetch - main [MainThread]: Store serial: [17799418]
+[2023-04-21 07:35:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799418]
+[2023-04-21 07:35:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: har2jicase
+[2023-04-21 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fazy
+[2023-04-21 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grbl2image
+[2023-04-21 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: curses-menu
+[2023-04-21 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PrSpiders
+[2023-04-21 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: almasru
+[2023-04-21 07:35:38] INFO root fetch - processPackages [har2jicase]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 07:35:38] INFO root fetch - processPackages [fazy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 07:35:38] INFO root fetch - processPackages [PrSpiders]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-21 07:35:38] WARNING root fetch - processPackages [grbl2image]: Skipping, unable to determine old version
+[2023-04-21 07:35:38] INFO root fetch - main [MainThread]: End processing [grbl2image] error
+[2023-04-21 07:35:38] INFO root fetch - processPackages [curses-menu]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-04-21 07:35:38] INFO root fetch - processPackages [almasru]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-04-21 07:35:38] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-04-21 07:35:38] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.4.0.tar.gz tmp/PrSpiders-0.4.1.tar.gz --markdown 20230421/P/PrSpiders/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-21 07:35:38] INFO root fetch - processPackages [har2jicase]: Downloading https://files.pythonhosted.org/packages/71/db/05978f9cd3fca270325d90df38392e50b7ae8a85e6822e292f4a67b8b3e0/har2jicase-0.0.6.tar.gz
+[2023-04-21 07:35:38] INFO root fetch - processPackages [curses-menu]: Downloading https://files.pythonhosted.org/packages/b7/c1/1fa8cf4a1279b26e4564dae04dcaa7a5ee30450689a60b30f51ea5ef8ce0/curses-menu-0.6.6.tar.gz
+[2023-04-21 07:35:38] INFO root fetch - processPackages [almasru]: Downloading https://files.pythonhosted.org/packages/2c/f9/0073c860f99b79db9b89ad21d09030ce110d39b575e40cfb0d6bf41f6923/almasru-1.0.8.tar.gz
+[2023-04-21 07:35:38] INFO root fetch - processPackages [fazy]: Downloading https://files.pythonhosted.org/packages/88/26/aaa60513195c4d9b43b1cd008ea0cbdc8c2a7943bc45d68c6f6ae8fa3003/fazy-0.0.3.tar.gz
+[2023-04-21 07:35:38] INFO root fetch - processPackages [har2jicase]: Downloading https://files.pythonhosted.org/packages/96/0d/75ccecbafe79f8b0ece38b35df1faf766177d462f4a939636e1ff4dbf863/har2jicase-0.0.7.tar.gz
+[2023-04-21 07:35:38] INFO root fetch - processPackages [fazy]: executing diffoscope
+[2023-04-21 07:35:38] INFO root fetch - processPackages [fazy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fazy-0.0.2.tar.gz tmp/fazy-0.0.3.tar.gz --markdown 20230421/f/fazy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 07:35:38] INFO root fetch - processPackages [curses-menu]: Downloading https://files.pythonhosted.org/packages/a0/81/f1c2d9628c79983d50d0d7216d53927cdabf63b454cb8817cb402412db6d/curses-menu-0.6.7.tar.gz
+[2023-04-21 07:35:38] INFO root fetch - processPackages [almasru]: Downloading https://files.pythonhosted.org/packages/78/18/1694fe70e827b5ae201b5fd78092d2eaf639b4d7643c8b66c4f34dd72a7e/almasru-1.1.0.tar.gz
+[2023-04-21 07:35:38] INFO root fetch - processPackages [har2jicase]: executing diffoscope
+[2023-04-21 07:35:38] INFO root fetch - processPackages [har2jicase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2jicase-0.0.6.tar.gz tmp/har2jicase-0.0.7.tar.gz --markdown 20230421/h/har2jicase/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 07:35:39] INFO root fetch - processPackages [almasru]: executing diffoscope
+[2023-04-21 07:35:39] INFO root fetch - processPackages [almasru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almasru-1.0.8.tar.gz tmp/almasru-1.1.0.tar.gz --markdown 20230421/a/almasru/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-04-21 07:35:39] INFO root fetch - processPackages [curses-menu]: executing diffoscope
+[2023-04-21 07:35:39] INFO root fetch - processPackages [curses-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curses-menu-0.6.6.tar.gz tmp/curses-menu-0.6.7.tar.gz --markdown 20230421/c/curses-menu/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-04-21 07:35:39] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-04-21 07:35:39] INFO root fetch - main [MainThread]: End processing [fazy]: success
+[2023-04-21 07:35:40] INFO root fetch - main [MainThread]: End processing [har2jicase]: success
+[2023-04-21 07:35:40] INFO root fetch - main [MainThread]: End processing [almasru]: success
+[2023-04-21 07:35:40] INFO root fetch - main [MainThread]: End processing [curses-menu]: success
+[2023-04-21 07:35:40] INFO root fetch - main [MainThread]: Store serial: [17799442]
