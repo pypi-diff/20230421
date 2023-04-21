@@ -19926,3 +19926,70 @@ EOFError: EOF read where object expected
 [2023-04-21 19:34:22] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-04-21 19:34:26] INFO root fetch - main [MainThread]: End processing [sunshine-conversations-client]: success
 [2023-04-21 19:34:26] INFO root fetch - main [MainThread]: Store serial: [17806589]
+[2023-04-21 19:39:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806589]
+[2023-04-21 19:39:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 19:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seg2map
+[2023-04-21 19:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mahiro
+[2023-04-21 19:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-connectwise
+[2023-04-21 19:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-localtunnel
+[2023-04-21 19:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiolm-pytorch
+[2023-04-21 19:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mango-explorer-v4
+[2023-04-21 19:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: config-mgmt-server
+[2023-04-21 19:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypcapkit
+[2023-04-21 19:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphinxcontrib-packages
+[2023-04-21 19:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: exceptnotifier
+[2023-04-21 19:39:35] INFO root fetch - processPackages [seg2map]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 19:39:35] INFO root fetch - processPackages [mahiro]: New version: [1.5.0] Old Version: [1.3.0]
+[2023-04-21 19:39:35] INFO root fetch - processPackages [exceptnotifier]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 19:39:35] WARNING root fetch - processPackages [py-localtunnel]: Skipping, unable to determine old version
+[2023-04-21 19:39:35] INFO root fetch - processPackages [py-localtunnel]: Start processing: auto-screener
+[2023-04-21 19:39:35] INFO root fetch - main [MainThread]: End processing [py-localtunnel] error
+[2023-04-21 19:39:35] INFO root fetch - processPackages [sphinxcontrib-packages]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-21 19:39:35] INFO root fetch - processPackages [mango-explorer-v4]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-04-21 19:39:35] INFO root fetch - processPackages [audiolm-pytorch]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-21 19:39:35] WARNING root fetch - processPackages [auto-screener]: Skipping, unable to determine old version
+[2023-04-21 19:39:35] INFO root fetch - processPackages [auto-screener]: Start processing: dkist-data-simulator
+[2023-04-21 19:39:35] INFO root fetch - main [MainThread]: End processing [auto-screener] error
+[2023-04-21 19:39:35] INFO root fetch - processPackages [django-connectwise]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-21 19:39:35] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-04-21 19:39:35] INFO root fetch - processPackages [dkist-data-simulator]: New version: [3.1.5rc1] Old Version: [3.1.4]
+[2023-04-21 19:39:36] WARNING root fetch - processPackages [config-mgmt-server]: Skipping, unable to determine old version
+[2023-04-21 19:39:36] INFO root fetch - main [MainThread]: End processing [config-mgmt-server] error
+[2023-04-21 19:39:36] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-04-21 19:39:36] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.1.8.tar.gz tmp/exceptnotifier-0.1.9.tar.gz --markdown 20230421/e/exceptnotifier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 19:39:36] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-04-21 19:39:36] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-0.9.6.tar.gz tmp/audiolm-pytorch-0.9.7.tar.gz --markdown 20230421/a/audiolm-pytorch/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-21 19:39:36] INFO root fetch - processPackages [sphinxcontrib-packages]: Downloading https://files.pythonhosted.org/packages/b1/98/3d7b6833ba6d62c66e1be345a7f8101824eb2b59e491b53506d734463638/sphinxcontrib-packages-1.1.0.tar.gz
+[2023-04-21 19:39:36] INFO root fetch - processPackages [mahiro]: Downloading https://files.pythonhosted.org/packages/8e/71/c0382d5a04caae2e9e73d94055ab90128d7cef1d1ff5d6bbd1e4cc7e33d9/mahiro-1.5.0.tar.gz
+[2023-04-21 19:39:36] INFO root fetch - processPackages [mango-explorer-v4]: Downloading https://files.pythonhosted.org/packages/03/6e/9cb956fcfeb9e53c8709afd985f76a30b400fc2d9ca58d4e9c4f2c9db067/mango_explorer_v4-0.7.4.tar.gz
+[2023-04-21 19:39:36] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/b1/7e/137a744d76205b4989a2f60c3a3e3a3bdb60d02366af3c394428d78212f8/pypcapkit-1.0.0b8.tar.gz
+[2023-04-21 19:39:36] INFO root fetch - processPackages [dkist-data-simulator]: Downloading https://files.pythonhosted.org/packages/7b/2d/6f60f97e8b3e5cf793938cb6292d60e912cf9567dda0075954ef7c0e945b/dkist_data_simulator-3.1.4.tar.gz
+[2023-04-21 19:39:36] INFO root fetch - processPackages [mahiro]: executing diffoscope
+[2023-04-21 19:39:36] INFO root fetch - processPackages [mahiro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahiro-1.3.0.tar.gz tmp/mahiro-1.5.0.tar.gz --markdown 20230421/m/mahiro/1.3.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-21 19:39:36] INFO root fetch - processPackages [mango-explorer-v4]: Downloading https://files.pythonhosted.org/packages/17/43/b80de321ffcec94db7dfe251dba0d3b1fe1358a37d976d36e7f734cbf9e9/mango_explorer_v4-0.7.5.tar.gz
+[2023-04-21 19:39:36] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/7f/65/c9b4fef88e502aa54a8fb3e18a86a39451b1aa496f263fdb194d48049a14/django-connectwise-1.0.1.tar.gz
+[2023-04-21 19:39:36] INFO root fetch - processPackages [seg2map]: executing diffoscope
+[2023-04-21 19:39:36] INFO root fetch - processPackages [seg2map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seg2map-0.0.8.tar.gz tmp/seg2map-0.0.9.tar.gz --markdown 20230421/s/seg2map/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 19:39:36] INFO root fetch - processPackages [dkist-data-simulator]: Downloading https://files.pythonhosted.org/packages/5f/25/f630a3ecf00a27e09406bfa1d6007eba02c6db0d150638909dbd62063b45/dkist_data_simulator-3.1.5rc1.tar.gz
+[2023-04-21 19:39:36] INFO root fetch - processPackages [mango-explorer-v4]: executing diffoscope
+[2023-04-21 19:39:36] INFO root fetch - processPackages [mango-explorer-v4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_explorer_v4-0.7.4.tar.gz tmp/mango_explorer_v4-0.7.5.tar.gz --markdown 20230421/m/mango-explorer-v4/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-04-21 19:39:36] INFO root fetch - processPackages [django-connectwise]: executing diffoscope
+[2023-04-21 19:39:36] INFO root fetch - processPackages [django-connectwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-connectwise-1.0.0.tar.gz tmp/django-connectwise-1.0.1.tar.gz --markdown 20230421/d/django-connectwise/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 19:39:36] INFO root fetch - processPackages [sphinxcontrib-packages]: Downloading https://files.pythonhosted.org/packages/1f/e5/030fcfb9e6d62dc869ff5332c3ee1b646ef2202c8bb697724d9a36b137bb/sphinxcontrib-packages-1.1.1.tar.gz
+[2023-04-21 19:39:36] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/4b/ff/3549c591c20441517230d15f32bd51d0ef41681692ada768156dbb64ec4c/pypcapkit-1.0.0b9.tar.gz
+[2023-04-21 19:39:36] INFO root fetch - processPackages [dkist-data-simulator]: executing diffoscope
+[2023-04-21 19:39:36] INFO root fetch - processPackages [dkist-data-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_data_simulator-3.1.4.tar.gz tmp/dkist_data_simulator-3.1.5rc1.tar.gz --markdown 20230421/d/dkist-data-simulator/3.1.4-3.1.5rc1/diff.md --exclude *.pyd
+[2023-04-21 19:39:36] INFO root fetch - processPackages [sphinxcontrib-packages]: executing diffoscope
+[2023-04-21 19:39:36] INFO root fetch - processPackages [sphinxcontrib-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-packages-1.1.0.tar.gz tmp/sphinxcontrib-packages-1.1.1.tar.gz --markdown 20230421/s/sphinxcontrib-packages/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-21 19:39:36] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-04-21 19:39:36] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.0b8.tar.gz tmp/pypcapkit-1.0.0b9.tar.gz --markdown 20230421/p/pypcapkit/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-04-21 19:39:37] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-04-21 19:39:37] INFO root fetch - main [MainThread]: End processing [mahiro]: success
+[2023-04-21 19:39:37] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-04-21 19:39:38] INFO root fetch - main [MainThread]: End processing [seg2map]: success
+[2023-04-21 19:39:38] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-packages]: success
+[2023-04-21 19:39:38] INFO root fetch - main [MainThread]: End processing [mango-explorer-v4]: success
+[2023-04-21 19:39:39] INFO root fetch - main [MainThread]: End processing [dkist-data-simulator]: success
+[2023-04-21 19:39:43] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
+[2023-04-21 19:39:43] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-04-21 19:39:43] INFO root fetch - main [MainThread]: Store serial: [17806632]
