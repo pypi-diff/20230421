@@ -18189,3 +18189,111 @@ EOFError: EOF read where object expected
 [2023-04-21 17:41:04] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-04-21 17:41:06] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2023-04-21 17:41:06] INFO root fetch - main [MainThread]: Store serial: [17805274]
+[2023-04-21 17:46:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805274]
+[2023-04-21 17:46:16] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-21 17:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aietelegram
+[2023-04-21 17:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markit-tcpbroker
+[2023-04-21 17:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bacteria
+[2023-04-21 17:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: healdata-utils
+[2023-04-21 17:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lakeshore
+[2023-04-21 17:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lifeomic-patient-ml-types
+[2023-04-21 17:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: talos-install
+[2023-04-21 17:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netbox-network-diagram
+[2023-04-21 17:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flask-redis-ex
+[2023-04-21 17:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: up-enhsp
+[2023-04-21 17:46:16] INFO root fetch - processPackages [markit-tcpbroker]: New version: [1.8.2] Old Version: [1.7]
+[2023-04-21 17:46:16] INFO root fetch - processPackages [bacteria]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 17:46:16] INFO root fetch - processPackages [talos-install]: New version: [0.2.0.dev344] Old Version: [0.2.0.dev343]
+[2023-04-21 17:46:16] WARNING root fetch - processPackages [aietelegram]: Skipping, unable to determine old version
+[2023-04-21 17:46:16] INFO root fetch - processPackages [aietelegram]: Start processing: aietelegram
+[2023-04-21 17:46:16] INFO root fetch - main [MainThread]: End processing [aietelegram] error
+[2023-04-21 17:46:16] INFO root fetch - processPackages [markit-tcpbroker]: executing diffoscope
+[2023-04-21 17:46:16] INFO root fetch - processPackages [markit-tcpbroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markit-tcpbroker-1.7.tar.gz tmp/markit-tcpbroker-1.8.2.tar.gz --markdown 20230421/m/markit-tcpbroker/1.7-1.8.2/diff.md --exclude *.pyd
+[2023-04-21 17:46:16] INFO root fetch - processPackages [flask-redis-ex]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 17:46:16] WARNING root fetch - processPackages [healdata-utils]: Skipping, unable to determine old version
+[2023-04-21 17:46:16] INFO root fetch - processPackages [healdata-utils]: Start processing: fieldedge-utilities
+[2023-04-21 17:46:16] INFO root fetch - main [MainThread]: End processing [healdata-utils] error
+[2023-04-21 17:46:16] INFO root fetch - processPackages [netbox-network-diagram]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-04-21 17:46:16] INFO root fetch - processPackages [up-enhsp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 17:46:16] INFO root fetch - processPackages [lifeomic-patient-ml-types]: New version: [7.4.3] Old Version: [7.4.2]
+[2023-04-21 17:46:16] WARNING root fetch - processPackages [aietelegram]: Skipping, unable to determine old version
+[2023-04-21 17:46:16] INFO root fetch - processPackages [lakeshore]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-04-21 17:46:16] INFO root fetch - processPackages [aietelegram]: Start processing: python-whiteprint
+[2023-04-21 17:46:16] INFO root fetch - main [MainThread]: End processing [aietelegram] error
+[2023-04-21 17:46:16] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-21 17:46:16] INFO root fetch - processPackages [bacteria]: Downloading https://files.pythonhosted.org/packages/59/83/77e91bfc0578da27d6372e522419f9d08015578d4465aa24f4e2e4890eb4/bacteria-0.0.9.tar.gz
+[2023-04-21 17:46:16] INFO root fetch - processPackages [talos-install]: Downloading https://files.pythonhosted.org/packages/c5/13/3555b629ef834428ed4076b28c4deacbbf00dbd8e54144a638d53b5b5f89/talos_install-0.2.0.dev344.tar.gz
+[2023-04-21 17:46:16] INFO root fetch - processPackages [python-whiteprint]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-21 17:46:16] INFO root fetch - processPackages [up-enhsp]: Downloading https://files.pythonhosted.org/packages/ee/da/d75e6cb221567e40a63dce5636ed9a1da002bd6081730c5b4ca5c6c32981/up_enhsp-0.0.8.tar.gz
+[2023-04-21 17:46:16] INFO root fetch - processPackages [netbox-network-diagram]: Downloading https://files.pythonhosted.org/packages/33/83/700ea1308a106ec5af2ecb54d34cf76cb6873562a84001b0d9b873186752/netbox-network-diagram-0.1.0.tar.gz
+[2023-04-21 17:46:16] INFO root fetch - processPackages [lakeshore]: Downloading https://files.pythonhosted.org/packages/0e/57/6f4071812703875cd1aa3da074380d76958b379ece92a010c8572267a59d/lakeshore-1.6.0.tar.gz
+[2023-04-21 17:46:16] INFO root fetch - processPackages [bacteria]: executing diffoscope
+[2023-04-21 17:46:16] INFO root fetch - processPackages [bacteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacteria-0.0.8.tar.gz tmp/bacteria-0.0.9.tar.gz --markdown 20230421/b/bacteria/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 17:46:16] INFO root fetch - processPackages [flask-redis-ex]: Downloading https://files.pythonhosted.org/packages/b3/3a/1fef9f41d599e2dad8e57dd87f5b3f51d97f6d6786a2dbdcbe9b7c8a8c01/flask_redis_ex-0.0.4-py3-none-any.whl
+[2023-04-21 17:46:16] INFO root fetch - processPackages [talos-install]: executing diffoscope
+[2023-04-21 17:46:16] INFO root fetch - processPackages [talos-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talos_install-0.2.0.dev343.tar.gz tmp/talos_install-0.2.0.dev344.tar.gz --markdown 20230421/t/talos-install/0.2.0.dev343-0.2.0.dev344/diff.md --exclude *.pyd
+[2023-04-21 17:46:16] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Downloading https://files.pythonhosted.org/packages/46/0f/5f8ab784b3c4f525b39aac75087f324e0deb1e55bf276145d4943a4c4656/lifeomic_patient_ml_types-7.4.3.tar.gz
+[2023-04-21 17:46:16] INFO root fetch - processPackages [up-enhsp]: Downloading https://files.pythonhosted.org/packages/f5/aa/1993e760de457168893925e9742993e9ac1648d509b9206348e5fe17e85e/up_enhsp-0.0.9.tar.gz
+[2023-04-21 17:46:16] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-04-21 17:46:16] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230421/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-21 17:46:16] INFO root fetch - processPackages [python-whiteprint]: Downloading https://files.pythonhosted.org/packages/43/71/54ebdca23aeb064ad7a5fcd656b94fd808116158add50eef16d4dbab4b81/python_whiteprint-0.8.1.tar.gz
+[2023-04-21 17:46:16] INFO root fetch - processPackages [netbox-network-diagram]: Downloading https://files.pythonhosted.org/packages/69/8e/ccc6ecb29776e2a9f338fe717cf8e588a8135c15d4b18bef968621eda60d/netbox-network-diagram-0.1.2.tar.gz
+[2023-04-21 17:46:16] INFO root fetch - processPackages [flask-redis-ex]: executing diffoscope
+[2023-04-21 17:46:16] INFO root fetch - processPackages [flask-redis-ex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_redis_ex-0.0.3-py3-none-any.whl.zip tmp/flask_redis_ex-0.0.4-py3-none-any.whl.zip --markdown 20230421/f/flask-redis-ex/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 17:46:17] INFO root fetch - processPackages [lifeomic-patient-ml-types]: executing diffoscope
+[2023-04-21 17:46:17] INFO root fetch - processPackages [lifeomic-patient-ml-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeomic_patient_ml_types-7.4.2.tar.gz tmp/lifeomic_patient_ml_types-7.4.3.tar.gz --markdown 20230421/l/lifeomic-patient-ml-types/7.4.2-7.4.3/diff.md --exclude *.pyd
+[2023-04-21 17:46:17] INFO root fetch - processPackages [lakeshore]: Downloading https://files.pythonhosted.org/packages/07/d7/e368b5fc351911c4e209a7cc7fe69e054b332241625c9f066d763226b3e2/lakeshore-1.6.1.tar.gz
+[2023-04-21 17:46:17] INFO root fetch - processPackages [up-enhsp]: executing diffoscope
+[2023-04-21 17:46:17] INFO root fetch - processPackages [up-enhsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_enhsp-0.0.8.tar.gz tmp/up_enhsp-0.0.9.tar.gz --markdown 20230421/u/up-enhsp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 17:46:17] INFO root fetch - processPackages [python-whiteprint]: executing diffoscope
+[2023-04-21 17:46:17] INFO root fetch - processPackages [python-whiteprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_whiteprint-0.8.0.tar.gz tmp/python_whiteprint-0.8.1.tar.gz --markdown 20230421/p/python-whiteprint/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-21 17:46:17] INFO root fetch - processPackages [netbox-network-diagram]: executing diffoscope
+[2023-04-21 17:46:17] INFO root fetch - processPackages [netbox-network-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-network-diagram-0.1.0.tar.gz tmp/netbox-network-diagram-0.1.2.tar.gz --markdown 20230421/n/netbox-network-diagram/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 17:46:17] INFO root fetch - processPackages [lakeshore]: executing diffoscope
+[2023-04-21 17:46:17] INFO root fetch - processPackages [lakeshore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeshore-1.6.0.tar.gz tmp/lakeshore-1.6.1.tar.gz --markdown 20230421/l/lakeshore/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-04-21 17:46:17] INFO root fetch - processPackages [markit-tcpbroker]: Start processing: streamdeckapi
+[2023-04-21 17:46:17] INFO root fetch - main [MainThread]: End processing [markit-tcpbroker]: success
+[2023-04-21 17:46:18] WARNING root fetch - processPackages [streamdeckapi]: Skipping, unable to determine old version
+[2023-04-21 17:46:18] INFO root fetch - processPackages [streamdeckapi]: Start processing: mysqlquerys
+[2023-04-21 17:46:18] INFO root fetch - main [MainThread]: End processing [streamdeckapi] error
+[2023-04-21 17:46:18] INFO root fetch - processPackages [mysqlquerys]: New version: [0.1.6] Old Version: [0.1.2]
+[2023-04-21 17:46:18] INFO root fetch - processPackages [mysqlquerys]: Downloading https://files.pythonhosted.org/packages/0c/0b/fdcf1b71897b8e5f8c1564b0502e080da30c6eda8431da9e96cb0dae294a/mysqlquerys-0.1.2.tar.gz
+[2023-04-21 17:46:18] INFO root fetch - processPackages [fieldedge-utilities]: Start processing: mysqlquerys
+[2023-04-21 17:46:18] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-04-21 17:46:18] INFO root fetch - processPackages [mysqlquerys]: New version: [0.1.6] Old Version: [0.1.2]
+[2023-04-21 17:46:18] INFO root fetch - processPackages [bacteria]: Start processing: pycutils
+[2023-04-21 17:46:18] INFO root fetch - main [MainThread]: End processing [bacteria]: success
+[2023-04-21 17:46:18] INFO root fetch - processPackages [pycutils]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-21 17:46:18] INFO root fetch - processPackages [mysqlquerys]: Downloading https://files.pythonhosted.org/packages/b9/fb/d9135e49f4d7d71643479f4a5ead7a33fdb666bdb3ac8fd9532cdaa52368/mysqlquerys-0.1.6.tar.gz
+[2023-04-21 17:46:18] INFO root fetch - processPackages [mysqlquerys]: Downloading https://files.pythonhosted.org/packages/b9/fb/d9135e49f4d7d71643479f4a5ead7a33fdb666bdb3ac8fd9532cdaa52368/mysqlquerys-0.1.6.tar.gz
+[2023-04-21 17:46:18] INFO root fetch - processPackages [pycutils]: Downloading https://files.pythonhosted.org/packages/88/77/1f4d8c56a43c07c88737b1a49e362f211a0368c2cc688693a1935d05175e/pycutils-0.0.9.tar.gz
+[2023-04-21 17:46:18] INFO root fetch - processPackages [mysqlquerys]: executing diffoscope
+[2023-04-21 17:46:18] INFO root fetch - processPackages [mysqlquerys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlquerys-0.1.2.tar.gz tmp/mysqlquerys-0.1.6.tar.gz --markdown 20230421/m/mysqlquerys/0.1.2-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 17:46:18] INFO root fetch - processPackages [mysqlquerys]: executing diffoscope
+[2023-04-21 17:46:18] INFO root fetch - processPackages [mysqlquerys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlquerys-0.1.2.tar.gz tmp/mysqlquerys-0.1.6.tar.gz --markdown 20230421/m/mysqlquerys/0.1.2-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 17:46:18] INFO root fetch - processPackages [flask-redis-ex]: Start processing: celiagg
+[2023-04-21 17:46:18] INFO root fetch - main [MainThread]: End processing [flask-redis-ex]: success
+[2023-04-21 17:46:19] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Start processing: nonebot-plugin-gshisbanner
+[2023-04-21 17:46:19] INFO root fetch - main [MainThread]: End processing [lifeomic-patient-ml-types]: success
+[2023-04-21 17:46:19] INFO root fetch - processPackages [nonebot-plugin-gshisbanner]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-21 17:46:19] INFO root fetch - main [MainThread]: End processing [talos-install]: success
+[2023-04-21 17:46:19] INFO root fetch - processPackages [celiagg]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-04-21 17:46:19] INFO root fetch - main [MainThread]: End processing [python-whiteprint]: success
+[2023-04-21 17:46:19] INFO root fetch - processPackages [nonebot-plugin-gshisbanner]: executing diffoscope
+[2023-04-21 17:46:19] INFO root fetch - processPackages [nonebot-plugin-gshisbanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_gshisbanner-0.4.8.tar.gz tmp/nonebot_plugin_gshisbanner-0.4.9.tar.gz --markdown 20230421/n/nonebot-plugin-gshisbanner/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-21 17:46:19] INFO root fetch - main [MainThread]: End processing [up-enhsp]: success
+[2023-04-21 17:46:19] INFO root fetch - processPackages [pycutils]: Downloading https://files.pythonhosted.org/packages/d6/3b/88b3cd83c2f957ad676e88bdb1174cf2e3efe3a2c042ec2c60426c8e5e39/pycutils-0.1.0.tar.gz
+[2023-04-21 17:46:19] INFO root fetch - processPackages [celiagg]: Downloading https://files.pythonhosted.org/packages/b2/e3/468f78c9117ecc8962a3c5dc3a5b83a8f236884dc8c8a1aa331b1f1b0fd8/celiagg-2.1.3.tar.gz
+[2023-04-21 17:46:19] INFO root fetch - processPackages [pycutils]: executing diffoscope
+[2023-04-21 17:46:19] INFO root fetch - processPackages [pycutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycutils-0.0.9.tar.gz tmp/pycutils-0.1.0.tar.gz --markdown 20230421/p/pycutils/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-21 17:46:19] INFO root fetch - main [MainThread]: End processing [netbox-network-diagram]: success
+[2023-04-21 17:46:19] INFO root fetch - processPackages [celiagg]: Downloading https://files.pythonhosted.org/packages/4a/1a/69ca997d0b2f5c51c56e8899004ac6e24347620e41c4b17e8aa2bb056ea1/celiagg-2.1.4-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-04-21 17:46:19] INFO root fetch - main [MainThread]: End processing [lakeshore]: success
+[2023-04-21 17:46:19] INFO root fetch - processPackages [celiagg]: executing diffoscope
+[2023-04-21 17:46:19] INFO root fetch - processPackages [celiagg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celiagg-2.1.3.tar.gz tmp/celiagg-2.1.4-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230421/c/celiagg/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-04-21 17:46:20] INFO root fetch - main [MainThread]: End processing [mysqlquerys]: success
+[2023-04-21 17:46:20] INFO root fetch - main [MainThread]: End processing [mysqlquerys]: success
+[2023-04-21 17:46:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gshisbanner]: success
+[2023-04-21 17:46:20] INFO root fetch - main [MainThread]: End processing [pycutils]: success
+[2023-04-21 17:46:21] INFO root fetch - main [MainThread]: End processing [celiagg]: success
+[2023-04-21 17:46:21] INFO root fetch - main [MainThread]: Store serial: [17805339]
