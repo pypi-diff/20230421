@@ -14895,3 +14895,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 14:59:49] INFO root fetch - main [MainThread]: End processing [Pyrogram]: success
 [2023-04-21 15:00:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
 [2023-04-21 15:00:01] INFO root fetch - main [MainThread]: Store serial: [17803266]
+[2023-04-21 15:05:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17803266]
+[2023-04-21 15:05:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: UniTok
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiddifypanel
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gluetool
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jguvc-eip
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ibm-platform-services
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dfsjson
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GDAL
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gdal-utils
+[2023-04-21 15:05:12] INFO root fetch - processPackages [dfsjson]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-21 15:05:12] INFO root fetch - processPackages [UniTok]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-04-21 15:05:12] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-21 15:05:12] INFO root fetch - processPackages [hiddifypanel]: New version: [4.2.8] Old Version: [4.2.7]
+[2023-04-21 15:05:12] INFO root fetch - processPackages [UniTok]: executing diffoscope
+[2023-04-21 15:05:12] INFO root fetch - processPackages [UniTok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UniTok-3.1.5.tar.gz tmp/UniTok-3.1.6.tar.gz --markdown 20230421/U/UniTok/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-04-21 15:05:12] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-04-21 15:05:12] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.4.8-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.4.9-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230421/f/fbgemm-gpu-nightly-cpu/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-21 15:05:12] INFO root fetch - processPackages [gluetool]: New version: [2.4] Old Version: [2.3]
+[2023-04-21 15:05:12] WARNING root fetch - processPackages [jguvc-eip]: Skipping, unable to determine old version
+[2023-04-21 15:05:12] INFO root fetch - main [MainThread]: End processing [jguvc-eip] error
+[2023-04-21 15:05:12] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-21 15:05:12] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.2.7-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.2.8-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230421/h/hiddifypanel/4.2.7-4.2.8/diff.md --exclude *.pyd
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ibm-platform-services]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-21 15:05:12] INFO root fetch - processPackages [gdal-utils]: New version: [3.6.4.0] Old Version: [3.6.3.0]
+[2023-04-21 15:05:12] INFO root fetch - processPackages [dfsjson]: Downloading https://files.pythonhosted.org/packages/ed/86/fc256b6a05f303719b84180870283c6498205ace17a2a42019d96eb04860/dfsjson-1.0.6.tar.gz
+[2023-04-21 15:05:12] INFO root fetch - processPackages [dfsjson]: executing diffoscope
+[2023-04-21 15:05:12] INFO root fetch - processPackages [dfsjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfsjson-1.0.5.tar.gz tmp/dfsjson-1.0.6.tar.gz --markdown 20230421/d/dfsjson/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-21 15:05:12] INFO root fetch - processPackages [gluetool]: Downloading https://files.pythonhosted.org/packages/fc/4e/a772f6348827a47ef86a9f25c00e37296722b7a77ae4e587f61ac096209f/gluetool-2.3.tar.gz
+[2023-04-21 15:05:12] INFO root fetch - processPackages [GDAL]: New version: [3.6.4] Old Version: [3.6.3]
+[2023-04-21 15:05:12] INFO root fetch - processPackages [gdal-utils]: Downloading https://files.pythonhosted.org/packages/ca/23/78da5931fe975ac806bb671e97a029c03778d4c0eeef16cb889bdb343e06/gdal_utils-3.6.3.0-py3-none-any.whl
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ibm-platform-services]: Downloading https://files.pythonhosted.org/packages/86/fd/38a583c4bf3803a477a17b9be43e72b393cf8decd9dab05982dda03bd356/ibm-platform-services-0.9.2.tar.gz
+[2023-04-21 15:05:12] INFO root fetch - processPackages [GDAL]: Downloading https://files.pythonhosted.org/packages/1e/82/71ce6786f464da7591f77bfc550002c85bd2df683d4a4929d69f2a3f1808/GDAL-3.6.3.tar.gz
+[2023-04-21 15:05:12] INFO root fetch - processPackages [gluetool]: Downloading https://files.pythonhosted.org/packages/e9/e7/468e25fcffd83328edbab92b2063b67afc8af095fb9adfe9a2396f6cee2f/gluetool-2.4.tar.gz
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ibm-platform-services]: Downloading https://files.pythonhosted.org/packages/eb/cd/ec1224c39d96300a991247d2c33d28366f0f7eb4674391683396e51aa651/ibm-platform-services-0.9.3.tar.gz
+[2023-04-21 15:05:12] INFO root fetch - processPackages [GDAL]: Downloading https://files.pythonhosted.org/packages/d8/45/ce25a03268e6ccab9396acb92537b58eb5d0f4bdfa2144fd0f0e3bfdbacc/GDAL-3.6.4.tar.gz
+[2023-04-21 15:05:12] INFO root fetch - processPackages [gdal-utils]: Downloading https://files.pythonhosted.org/packages/d1/6f/f68cc343efd834eb837d1bc544c67a4e9a3be946f691afa013316f86f267/gdal_utils-3.6.4.0-py3-none-any.whl
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ibm-platform-services]: executing diffoscope
+[2023-04-21 15:05:12] INFO root fetch - processPackages [ibm-platform-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-platform-services-0.9.2.tar.gz tmp/ibm-platform-services-0.9.3.tar.gz --markdown 20230421/i/ibm-platform-services/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-21 15:05:13] INFO root fetch - processPackages [GDAL]: executing diffoscope
+[2023-04-21 15:05:13] INFO root fetch - processPackages [GDAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GDAL-3.6.3.tar.gz tmp/GDAL-3.6.4.tar.gz --markdown 20230421/G/GDAL/3.6.3-3.6.4/diff.md --exclude *.pyd
+[2023-04-21 15:05:13] INFO root fetch - processPackages [gluetool]: executing diffoscope
+[2023-04-21 15:05:13] INFO root fetch - processPackages [gluetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluetool-2.3.tar.gz tmp/gluetool-2.4.tar.gz --markdown 20230421/g/gluetool/2.3-2.4/diff.md --exclude *.pyd
+[2023-04-21 15:05:13] INFO root fetch - processPackages [gdal-utils]: executing diffoscope
+[2023-04-21 15:05:13] INFO root fetch - processPackages [gdal-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal_utils-3.6.3.0-py3-none-any.whl.zip tmp/gdal_utils-3.6.4.0-py3-none-any.whl.zip --markdown 20230421/g/gdal-utils/3.6.3.0-3.6.4.0/diff.md --exclude *.pyd
+[2023-04-21 15:05:13] INFO root fetch - main [MainThread]: End processing [UniTok]: success
+[2023-04-21 15:05:13] INFO root fetch - main [MainThread]: End processing [dfsjson]: success
+[2023-04-21 15:05:13] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-04-21 15:05:14] INFO root fetch - main [MainThread]: End processing [ibm-platform-services]: success
+[2023-04-21 15:05:15] INFO root fetch - main [MainThread]: End processing [gluetool]: success
+[2023-04-21 15:05:15] INFO root fetch - main [MainThread]: End processing [gdal-utils]: success
+[2023-04-21 15:05:17] INFO root fetch - main [MainThread]: End processing [GDAL]: success
+[2023-04-21 15:05:32] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-21 15:05:32] INFO root fetch - main [MainThread]: Store serial: [17803299]
