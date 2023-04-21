@@ -16093,3 +16093,171 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 15:58:55] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
 [2023-04-21 15:59:36] INFO root fetch - main [MainThread]: End processing [moc-cli]: success
 [2023-04-21 15:59:36] INFO root fetch - main [MainThread]: Store serial: [17804026]
+[2023-04-21 16:04:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17804026]
+[2023-04-21 16:05:02] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-04-21 16:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybites-search
+[2023-04-21 16:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clang-format
+[2023-04-21 16:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seaplane
+[2023-04-21 16:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shub-workflow
+[2023-04-21 16:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dedscumulus
+[2023-04-21 16:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chlorophyll
+[2023-04-21 16:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: housekeeper
+[2023-04-21 16:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bxa
+[2023-04-21 16:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: benchmark-runner
+[2023-04-21 16:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bitdust
+[2023-04-21 16:05:02] INFO root fetch - processPackages [dedscumulus]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-21 16:05:02] INFO root fetch - processPackages [bxa]: New version: [4.1.0] Old Version: [4.0.7]
+[2023-04-21 16:05:02] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-04-21 16:05:02] INFO root fetch - processPackages [pybites-search]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 16:05:02] INFO root fetch - processPackages [chlorophyll]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-21 16:05:02] INFO root fetch - processPackages [bitdust]: New version: [0.1.7.233] Old Version: [0.1.6.231]
+[2023-04-21 16:05:02] INFO root fetch - processPackages [seaplane]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 16:05:02] INFO root fetch - processPackages [housekeeper]: New version: [4.1.0] Old Version: [4.0.1]
+[2023-04-21 16:05:02] INFO root fetch - processPackages [clang-format]: New version: [9.0.0] Old Version: [8.0.1]
+[2023-04-21 16:05:03] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-21 16:05:03] INFO root fetch - processPackages [bxa]: executing diffoscope
+[2023-04-21 16:05:03] INFO root fetch - processPackages [bxa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxa-4.0.7.tar.gz tmp/bxa-4.1.0.tar.gz --markdown 20230421/b/bxa/4.0.7-4.1.0/diff.md --exclude *.pyd
+[2023-04-21 16:05:03] INFO root fetch - processPackages [dedscumulus]: Downloading https://files.pythonhosted.org/packages/70/ab/72f181d6ed8d113d4d05a3215caad91e95b006028610aeec0e53f43f4eab/dedscumulus-0.0.6-py3-none-any.whl
+[2023-04-21 16:05:03] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-04-21 16:05:03] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230421/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-04-21 16:05:03] INFO root fetch - processPackages [dedscumulus]: executing diffoscope
+[2023-04-21 16:05:03] INFO root fetch - processPackages [dedscumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dedscumulus-0.0.5-py3-none-any.whl.zip tmp/dedscumulus-0.0.6-py3-none-any.whl.zip --markdown 20230421/d/dedscumulus/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 16:05:03] INFO root fetch - processPackages [bitdust]: Downloading https://files.pythonhosted.org/packages/e6/7b/6083e4a0d922075311fb25b6ecc5b64a81510c72cd0c0d3f4b11ca480f44/bitdust-0.1.6.231.tar.gz
+[2023-04-21 16:05:03] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/32/ac/cd886961f23c2893278cf3b73b3985b7a794d116e176b78e8da9feb6c446/seaplane-0.2.7.tar.gz
+[2023-04-21 16:05:03] INFO root fetch - processPackages [chlorophyll]: Downloading https://files.pythonhosted.org/packages/2d/0f/5fa7dee7c731aac208649a9b199b0128ab1b80db384ff06fa56abffc0c58/chlorophyll-0.3.0.tar.gz
+[2023-04-21 16:05:03] INFO root fetch - processPackages [housekeeper]: Downloading https://files.pythonhosted.org/packages/43/7f/7640d8106158df76beaffcac97be4560e82d40f8aaeb6b48241c94b35f77/housekeeper-4.0.1.tar.gz
+[2023-04-21 16:05:03] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2023-04-21 16:05:03] INFO root fetch - processPackages [clang-format]: Downloading https://files.pythonhosted.org/packages/37/66/75e3c14f22c8a7a02c7e337547e29d42bed516ba8067fdef87d3d9346e52/clang_format-8.0.1-py2.py3-none-manylinux1_x86_64.whl
+[2023-04-21 16:05:03] INFO root fetch - processPackages [pybites-search]: executing diffoscope
+[2023-04-21 16:05:03] INFO root fetch - processPackages [pybites-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybites_search-0.0.8.tar.gz tmp/pybites_search-0.0.9.tar.gz --markdown 20230421/p/pybites-search/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 16:05:03] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/5d/f0/635f87760ca1c6426a2e48eee448729e9a5eddde5505f55e765e819d65b2/seaplane-0.2.8.tar.gz
+[2023-04-21 16:05:03] INFO root fetch - processPackages [housekeeper]: Downloading https://files.pythonhosted.org/packages/3c/74/f5e581f795ced4b4e2e7b8b066a06bb08e0712d828b2953a185c78e0dc61/housekeeper-4.1.0.tar.gz
+[2023-04-21 16:05:03] INFO root fetch - processPackages [bitdust]: Downloading https://files.pythonhosted.org/packages/01/f9/9bd94c5a367a50d79f2b3a0a7aa20623ae88c99b36242280fd99518f4716/bitdust-0.1.7.233.tar.gz
+[2023-04-21 16:05:03] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-04-21 16:05:03] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.2.7.tar.gz tmp/seaplane-0.2.8.tar.gz --markdown 20230421/s/seaplane/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 16:05:03] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2023-04-21 16:05:03] INFO root fetch - processPackages [housekeeper]: executing diffoscope
+[2023-04-21 16:05:03] INFO root fetch - processPackages [housekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/housekeeper-4.0.1.tar.gz tmp/housekeeper-4.1.0.tar.gz --markdown 20230421/h/housekeeper/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2023-04-21 16:05:03] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-04-21 16:05:03] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230421/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-21 16:05:03] INFO root fetch - processPackages [chlorophyll]: Downloading https://files.pythonhosted.org/packages/ed/6e/c1b476e00edeb49d245e387e806837e9f6791d83492c957def9daf224d26/chlorophyll-0.3.1.tar.gz
+[2023-04-21 16:05:03] INFO root fetch - processPackages [clang-format]: Downloading https://files.pythonhosted.org/packages/25/f2/d989afaf8a91385f18fd06e6202644be0bc3a1d14548c18a8ece4911e005/clang_format-9.0.0-py2.py3-none-manylinux1_x86_64.whl
+[2023-04-21 16:05:03] INFO root fetch - processPackages [bitdust]: executing diffoscope
+[2023-04-21 16:05:03] INFO root fetch - processPackages [bitdust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitdust-0.1.6.231.tar.gz tmp/bitdust-0.1.7.233.tar.gz --markdown 20230421/b/bitdust/0.1.6.231-0.1.7.233/diff.md --exclude *.pyd
+[2023-04-21 16:05:03] INFO root fetch - processPackages [chlorophyll]: executing diffoscope
+[2023-04-21 16:05:03] INFO root fetch - processPackages [chlorophyll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chlorophyll-0.3.0.tar.gz tmp/chlorophyll-0.3.1.tar.gz --markdown 20230421/c/chlorophyll/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 16:05:04] INFO root fetch - processPackages [clang-format]: executing diffoscope
+[2023-04-21 16:05:04] INFO root fetch - processPackages [clang-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clang_format-8.0.1-py2.py3-none-manylinux1_x86_64.whl.zip tmp/clang_format-9.0.0-py2.py3-none-manylinux1_x86_64.whl.zip --markdown 20230421/c/clang-format/8.0.1-9.0.0/diff.md --exclude *.pyd
+[2023-04-21 16:05:04] INFO root fetch - processPackages [shub-workflow]: Start processing: curifactory
+[2023-04-21 16:05:04] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-04-21 16:05:04] INFO root fetch - processPackages [dedscumulus]: Start processing: cognite-seismic-sdk
+[2023-04-21 16:05:04] INFO root fetch - main [MainThread]: End processing [dedscumulus]: success
+[2023-04-21 16:05:04] INFO root fetch - processPackages [curifactory]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-21 16:05:04] INFO root fetch - processPackages [cognite-seismic-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 16:05:04] INFO root fetch - processPackages [pybites-search]: Start processing: opencv-stubs
+[2023-04-21 16:05:04] INFO root fetch - main [MainThread]: End processing [pybites-search]: success
+[2023-04-21 16:05:05] INFO root fetch - processPackages [curifactory]: Downloading https://files.pythonhosted.org/packages/43/cd/1482f6b77e0ebe7dbb03526553d599b74216ed800a2bc828c960af07aa0c/curifactory-0.9.2.tar.gz
+[2023-04-21 16:05:05] INFO root fetch - processPackages [cognite-seismic-sdk]: Downloading https://files.pythonhosted.org/packages/97/13/2b3cdf80b2a4cd63a9d1356058e5cf96e9f90fd640c572c9407dd9047366/cognite-seismic-sdk-0.3.8.tar.gz
+[2023-04-21 16:05:05] INFO root fetch - processPackages [opencv-stubs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 16:05:05] INFO root fetch - processPackages [seaplane]: Start processing: qiskit-iqm
+[2023-04-21 16:05:05] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-04-21 16:05:05] INFO root fetch - processPackages [qiskit-iqm]: New version: [7.9] Old Version: [7.8]
+[2023-04-21 16:05:05] INFO root fetch - processPackages [opencv-stubs]: Downloading https://files.pythonhosted.org/packages/11/6b/77aee971ba12dbb8d71b954c4fff8c55aa80b91bf02456f1852ad352540d/opencv_stubs-0.0.3.tar.gz
+[2023-04-21 16:05:05] INFO root fetch - processPackages [benchmark-runner]: Start processing: cg
+[2023-04-21 16:05:05] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-04-21 16:05:05] INFO root fetch - processPackages [curifactory]: Downloading https://files.pythonhosted.org/packages/e8/a1/edd6b10e0dfa428e84dd7fa01e1d4ea7712a972a1b598782111f228d346d/curifactory-0.9.3.tar.gz
+[2023-04-21 16:05:05] INFO root fetch - processPackages [cg]: New version: [29.1.4] Old Version: [29.1.3]
+[2023-04-21 16:05:05] INFO root fetch - processPackages [cognite-seismic-sdk]: Downloading https://files.pythonhosted.org/packages/ed/13/3f3f46df1ffc617089e3e0e51839030c9cb122f94d1161a0e15577b8f832/cognite-seismic-sdk-0.3.9.tar.gz
+[2023-04-21 16:05:05] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-21 16:05:05] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.1.3.tar.gz tmp/cg-29.1.4.tar.gz --markdown 20230421/c/cg/29.1.3-29.1.4/diff.md --exclude *.pyd
+[2023-04-21 16:05:05] INFO root fetch - processPackages [opencv-stubs]: Downloading https://files.pythonhosted.org/packages/61/e5/ca8edd57ff7fa57c65a7caa3933d676f8efd49964141e116aa705be10ea7/opencv_stubs-0.0.4.tar.gz
+[2023-04-21 16:05:05] INFO root fetch - processPackages [curifactory]: executing diffoscope
+[2023-04-21 16:05:05] INFO root fetch - processPackages [curifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curifactory-0.9.2.tar.gz tmp/curifactory-0.9.3.tar.gz --markdown 20230421/c/curifactory/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-21 16:05:05] INFO root fetch - processPackages [cognite-seismic-sdk]: executing diffoscope
+[2023-04-21 16:05:05] INFO root fetch - processPackages [cognite-seismic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite-seismic-sdk-0.3.8.tar.gz tmp/cognite-seismic-sdk-0.3.9.tar.gz --markdown 20230421/c/cognite-seismic-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 16:05:05] INFO root fetch - processPackages [opencv-stubs]: executing diffoscope
+[2023-04-21 16:05:05] INFO root fetch - processPackages [opencv-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencv_stubs-0.0.3.tar.gz tmp/opencv_stubs-0.0.4.tar.gz --markdown 20230421/o/opencv-stubs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 16:05:05] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2023-04-21 16:05:05] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-7.8.tar.gz tmp/qiskit-iqm-7.9.tar.gz --markdown 20230421/q/qiskit-iqm/7.8-7.9/diff.md --exclude *.pyd
+[2023-04-21 16:05:05] INFO root fetch - processPackages [chlorophyll]: Start processing: cirq-iqm
+[2023-04-21 16:05:05] INFO root fetch - main [MainThread]: End processing [chlorophyll]: success
+[2023-04-21 16:05:05] INFO root fetch - processPackages [cirq-iqm]: New version: [9.0] Old Version: [8.2]
+[2023-04-21 16:05:06] INFO root fetch - processPackages [cirq-iqm]: executing diffoscope
+[2023-04-21 16:05:06] INFO root fetch - processPackages [cirq-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-iqm-8.2.tar.gz tmp/cirq-iqm-9.0.tar.gz --markdown 20230421/c/cirq-iqm/8.2-9.0/diff.md --exclude *.pyd
+[2023-04-21 16:05:06] INFO root fetch - processPackages [housekeeper]: Start processing: canonicalwebteam.discourse
+[2023-04-21 16:05:06] INFO root fetch - main [MainThread]: End processing [housekeeper]: success
+[2023-04-21 16:05:07] INFO root fetch - processPackages [canonicalwebteam.discourse]: New version: [5.4.1] Old Version: [5.4.0]
+[2023-04-21 16:05:07] INFO root fetch - processPackages [opencv-stubs]: Start processing: moto
+[2023-04-21 16:05:07] INFO root fetch - main [MainThread]: End processing [opencv-stubs]: success
+[2023-04-21 16:05:07] INFO root fetch - processPackages [canonicalwebteam.discourse]: Downloading https://files.pythonhosted.org/packages/44/db/a6e97cc362ee037ba28c23cdd0b1b343192ff80c9e9d5eb2ab53dd998a50/canonicalwebteam.discourse-5.4.0.tar.gz
+[2023-04-21 16:05:07] INFO root fetch - processPackages [curifactory]: Start processing: racetrackgym
+[2023-04-21 16:05:07] INFO root fetch - main [MainThread]: End processing [curifactory]: success
+[2023-04-21 16:05:07] INFO root fetch - processPackages [moto]: New version: [4.1.8.dev9] Old Version: [4.1.8.dev8]
+[2023-04-21 16:05:07] INFO root fetch - processPackages [racetrackgym]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-21 16:05:07] INFO root fetch - processPackages [racetrackgym]: executing diffoscope
+[2023-04-21 16:05:07] INFO root fetch - processPackages [racetrackgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrackgym-0.2.3.tar.gz tmp/racetrackgym-0.2.4.tar.gz --markdown 20230421/r/racetrackgym/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-21 16:05:07] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-21 16:05:07] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.8.dev8.tar.gz tmp/moto-4.1.8.dev9.tar.gz --markdown 20230421/m/moto/4.1.8.dev8-4.1.8.dev9/diff.md --exclude *.pyd
+[2023-04-21 16:05:07] INFO root fetch - processPackages [canonicalwebteam.discourse]: Downloading https://files.pythonhosted.org/packages/3f/98/0f62b8ed4eba36ff255e8b766286111c578966763b2cb1249f44d57ca044/canonicalwebteam.discourse-5.4.1.tar.gz
+[2023-04-21 16:05:07] INFO root fetch - processPackages [canonicalwebteam.discourse]: executing diffoscope
+[2023-04-21 16:05:07] INFO root fetch - processPackages [canonicalwebteam.discourse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canonicalwebteam.discourse-5.4.0.tar.gz tmp/canonicalwebteam.discourse-5.4.1.tar.gz --markdown 20230421/c/canonicalwebteam.discourse/5.4.0-5.4.1/diff.md --exclude *.pyd
+[2023-04-21 16:05:08] INFO root fetch - processPackages [cirq-iqm]: Start processing: OncoAMBER
+[2023-04-21 16:05:08] INFO root fetch - main [MainThread]: End processing [cirq-iqm]: success
+[2023-04-21 16:05:08] INFO root fetch - processPackages [OncoAMBER]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-21 16:05:08] INFO root fetch - processPackages [OncoAMBER]: Downloading https://files.pythonhosted.org/packages/da/e0/f64ee75f35e75e8d9170f62e7b9787ce5d0b72ea5c50c3101d4f9cbc7513/OncoAMBER-1.0.5.tar.gz
+[2023-04-21 16:05:08] INFO root fetch - processPackages [OncoAMBER]: Downloading https://files.pythonhosted.org/packages/45/f1/03175e39c12ec35bcf9c599cf919b3a7e84b41bd6ec8d977f0e109d2e709/OncoAMBER-1.0.6.tar.gz
+[2023-04-21 16:05:08] INFO root fetch - processPackages [qiskit-iqm]: Start processing: bit-boolean-flags
+[2023-04-21 16:05:08] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2023-04-21 16:05:08] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-04-21 16:05:08] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.0.5.tar.gz tmp/OncoAMBER-1.0.6.tar.gz --markdown 20230421/O/OncoAMBER/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-21 16:05:09] INFO root fetch - processPackages [bit-boolean-flags]: New version: [2.0] Old Version: [1.0]
+[2023-04-21 16:05:09] INFO root fetch - processPackages [cognite-seismic-sdk]: Start processing: odoo12-addon-crm-sale-order-line
+[2023-04-21 16:05:09] INFO root fetch - main [MainThread]: End processing [cognite-seismic-sdk]: success
+[2023-04-21 16:05:09] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: New version: [12.0.0.0.3] Old Version: [12.0.0.0.2]
+[2023-04-21 16:05:09] INFO root fetch - processPackages [bxa]: Start processing: dj-test-queries
+[2023-04-21 16:05:09] INFO root fetch - main [MainThread]: End processing [bxa]: success
+[2023-04-21 16:05:09] INFO root fetch - processPackages [dj-test-queries]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 16:05:09] INFO root fetch - processPackages [bit-boolean-flags]: Downloading https://files.pythonhosted.org/packages/8f/6d/845a8e0dd7a8cdec5b289dd299686de69ed3305ceb45645b5e49e0765f13/bit_boolean_flags-1.0.tar.gz
+[2023-04-21 16:05:09] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: Downloading https://files.pythonhosted.org/packages/3d/23/e98245e9185a2d89845023e1b032a40b41401fdc253de277fe170dfdbc90/odoo12_addon_crm_sale_order_line-12.0.0.0.3-py3-none-any.whl
+[2023-04-21 16:05:09] INFO root fetch - processPackages [dj-test-queries]: Downloading https://files.pythonhosted.org/packages/4b/41/963bbe3f8fc4581363551ce2357ef37c533b42961290dc830388c9e44a7e/dj-test-queries-0.1.2.tar.gz
+[2023-04-21 16:05:09] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: executing diffoscope
+[2023-04-21 16:05:09] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_crm_sale_order_line-12.0.0.0.2-py3-none-any.whl.zip tmp/odoo12_addon_crm_sale_order_line-12.0.0.0.3-py3-none-any.whl.zip --markdown 20230421/o/odoo12-addon-crm-sale-order-line/12.0.0.0.2-12.0.0.0.3/diff.md --exclude *.pyd
+[2023-04-21 16:05:09] INFO root fetch - processPackages [racetrackgym]: Start processing: tract
+[2023-04-21 16:05:09] INFO root fetch - main [MainThread]: End processing [racetrackgym]: success
+[2023-04-21 16:05:09] INFO root fetch - processPackages [tract]: New version: [0.19.8] Old Version: [0.19.7]
+[2023-04-21 16:05:09] INFO root fetch - processPackages [dj-test-queries]: executing diffoscope
+[2023-04-21 16:05:09] INFO root fetch - processPackages [dj-test-queries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-test-queries-0.1.1.tar.gz tmp/dj-test-queries-0.1.2.tar.gz --markdown 20230421/d/dj-test-queries/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 16:05:09] INFO root fetch - processPackages [bit-boolean-flags]: Downloading https://files.pythonhosted.org/packages/43/17/d3f55101bedaeb0882cd1e623eef2fd3d5d4c0ceaeb55b8b82c2dee109db/bit_boolean_flags-2.0.tar.gz
+[2023-04-21 16:05:09] INFO root fetch - processPackages [canonicalwebteam.discourse]: Start processing: petisco
+[2023-04-21 16:05:09] INFO root fetch - main [MainThread]: End processing [canonicalwebteam.discourse]: success
+[2023-04-21 16:05:09] INFO root fetch - processPackages [petisco]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-21 16:05:09] INFO root fetch - processPackages [bit-boolean-flags]: executing diffoscope
+[2023-04-21 16:05:09] INFO root fetch - processPackages [bit-boolean-flags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bit_boolean_flags-1.0.tar.gz tmp/bit_boolean_flags-2.0.tar.gz --markdown 20230421/b/bit-boolean-flags/1.0-2.0/diff.md --exclude *.pyd
+[2023-04-21 16:05:09] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-04-21 16:05:09] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-1.9.8.tar.gz tmp/petisco-1.9.9.tar.gz --markdown 20230421/p/petisco/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-21 16:05:09] INFO root fetch - processPackages [tract]: executing diffoscope
+[2023-04-21 16:05:09] INFO root fetch - processPackages [tract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tract-0.19.7.tar.gz tmp/tract-0.19.8.tar.gz --markdown 20230421/t/tract/0.19.7-0.19.8/diff.md --exclude *.pyd
+[2023-04-21 16:05:10] INFO root fetch - processPackages [OncoAMBER]: Start processing: baiduspiderCreatedByHanXu
+[2023-04-21 16:05:10] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-04-21 16:05:10] WARNING root fetch - processPackages [baiduspiderCreatedByHanXu]: Skipping, unable to determine old version
+[2023-04-21 16:05:10] INFO root fetch - processPackages [baiduspiderCreatedByHanXu]: Start processing: titan-iris
+[2023-04-21 16:05:10] INFO root fetch - main [MainThread]: End processing [baiduspiderCreatedByHanXu] error
+[2023-04-21 16:05:10] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-04-21 16:05:10] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-04-21 16:05:10] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230421/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-04-21 16:05:11] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: Start processing: OncoAMBER
+[2023-04-21 16:05:11] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line]: success
+[2023-04-21 16:05:11] INFO root fetch - processPackages [OncoAMBER]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-21 16:05:11] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-04-21 16:05:11] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.0.5.tar.gz tmp/OncoAMBER-1.0.6.tar.gz --markdown 20230421/O/OncoAMBER/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-21 16:05:11] INFO root fetch - main [MainThread]: End processing [bit-boolean-flags]: success
+[2023-04-21 16:05:11] INFO root fetch - main [MainThread]: End processing [dj-test-queries]: success
+[2023-04-21 16:05:11] INFO root fetch - main [MainThread]: End processing [tract]: success
+[2023-04-21 16:05:12] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-04-21 16:05:12] INFO root fetch - main [MainThread]: End processing [bitdust]: success
+[2023-04-21 16:05:12] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-04-21 16:05:12] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-04-21 16:05:18] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-21 16:05:20] INFO root fetch - main [MainThread]: End processing [clang-format]: success
+[2023-04-21 16:05:41] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-21 16:05:41] INFO root fetch - main [MainThread]: Store serial: [17804126]
