@@ -12441,3 +12441,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 12:14:20] INFO root fetch - main [MainThread]: End processing [f4]: success
 [2023-04-21 12:14:20] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
 [2023-04-21 12:14:20] INFO root fetch - main [MainThread]: Store serial: [17801691]
+[2023-04-21 12:19:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17801691]
+[2023-04-21 12:19:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: directory-client-core
+[2023-04-21 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbox
+[2023-04-21 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: directory-cms-client
+[2023-04-21 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: generic-output-manager
+[2023-04-21 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-azure
+[2023-04-21 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BingImageCreator
+[2023-04-21 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pglift
+[2023-04-21 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iams
+[2023-04-21 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vidis-algorithms-api
+[2023-04-21 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: directory-forms-api-client
+[2023-04-21 12:19:28] INFO root fetch - processPackages [directory-cms-client]: New version: [9.0.0] Old Version: [8.3.0]
+[2023-04-21 12:19:28] INFO root fetch - processPackages [directory-client-core]: New version: [7.1.2] Old Version: [7.1.1]
+[2023-04-21 12:19:28] INFO root fetch - processPackages [generic-output-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 12:19:28] INFO root fetch - processPackages [BingImageCreator]: New version: [0.1.3] Old Version: [0.1.2.1]
+[2023-04-21 12:19:28] INFO root fetch - processPackages [pglift]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-21 12:19:28] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-04-21 12:19:28] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-04-21 12:19:28] INFO root fetch - processPackages [iams]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-04-21 12:19:29] INFO root fetch - processPackages [vidis-algorithms-api]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-forms-api-client]: New version: [7.1.1] Old Version: [7.1.0]
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-cms-client]: Downloading https://files.pythonhosted.org/packages/51/a1/b6b1ef69635ffcf123402e1ec6446f6b99b744b88be769ce3f723a2f6221/directory_cms_client-8.3.0-py3-none-any.whl
+[2023-04-21 12:19:29] INFO root fetch - processPackages [BingImageCreator]: Downloading https://files.pythonhosted.org/packages/39/42/10112677dccae98399e5e0cb05c8dc4246d675c1e76bcecc277310046c24/BingImageCreator-0.1.2.1.tar.gz
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-client-core]: Downloading https://files.pythonhosted.org/packages/39/d4/789b694f33a89b2d9c359c327ff39aa4cfeae72ff542713a86e6be8bc3e9/directory_client_core-7.1.1-py3-none-any.whl
+[2023-04-21 12:19:29] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-04-21 12:19:29] INFO root fetch - processPackages [generic-output-manager]: Downloading https://files.pythonhosted.org/packages/31/c7/601f18f02cae90275602427a7f6683149ffeb6e14291c2415bf98daa1291/generic-output-manager-0.0.8.tar.gz
+[2023-04-21 12:19:29] INFO root fetch - processPackages [iams]: Downloading https://files.pythonhosted.org/packages/b9/95/298496ad69151a621f8d81be731b621d1b485aad3f690a46910f2e4443dd/iams-0.7.4-py3-none-any.whl
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-forms-api-client]: Downloading https://files.pythonhosted.org/packages/19/18/32de5a293740c94125bcf63d08d15ab7882d703194a073491a9f1f62bbdb/directory_forms_api_client-7.1.0-py3-none-any.whl
+[2023-04-21 12:19:29] INFO root fetch - processPackages [vidis-algorithms-api]: Downloading https://files.pythonhosted.org/packages/61/01/55342d9717dc2fd479e2d4e8cb1ac7ba3354e1958153ec0d38de2e79ba59/vidis_algorithms_api-0.3.4.tar.gz
+[2023-04-21 12:19:29] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-04-21 12:19:29] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230421/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-04-21 12:19:29] INFO root fetch - processPackages [pglift]: executing diffoscope
+[2023-04-21 12:19:29] INFO root fetch - processPackages [pglift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pglift-0.8.0.tar.gz tmp/pglift-0.9.0.tar.gz --markdown 20230421/p/pglift/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 12:19:29] INFO root fetch - processPackages [BingImageCreator]: Downloading https://files.pythonhosted.org/packages/80/e0/2dcab940013acc759ff0e1d6a5140c7a4db89f1422da1578c2f154ac9ac1/BingImageCreator-0.1.3.tar.gz
+[2023-04-21 12:19:29] INFO root fetch - processPackages [iams]: Downloading https://files.pythonhosted.org/packages/1c/e6/e2a18bb20211b73a21c7d1cba57f1605bf2b92a86b1727478f68bce8c4f5/iams-0.7.5-py3-none-any.whl
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-cms-client]: Downloading https://files.pythonhosted.org/packages/14/5f/3669664f07e98869762da026ce7ccaca9ca6a4d54425930c48e5252b3f79/directory_cms_client-9.0.0-py3-none-any.whl
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-client-core]: Downloading https://files.pythonhosted.org/packages/08/3e/be5a977fa6a4e4f9a5aaf68b6e36104910f55ddae4d4ed4b4157e41bb5a5/directory_client_core-7.1.2-py3-none-any.whl
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-cms-client]: executing diffoscope
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-cms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_cms_client-8.3.0-py3-none-any.whl.zip tmp/directory_cms_client-9.0.0-py3-none-any.whl.zip --markdown 20230421/d/directory-cms-client/8.3.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-21 12:19:29] INFO root fetch - processPackages [generic-output-manager]: Downloading https://files.pythonhosted.org/packages/69/a5/1a8e51fd56e2edc9976ee33ede189f675366f46f5dea2d41168be6ced52e/generic-output-manager-0.0.9.tar.gz
+[2023-04-21 12:19:29] INFO root fetch - processPackages [vidis-algorithms-api]: Downloading https://files.pythonhosted.org/packages/50/8c/622b47a28fbb23de6f55a94f67c25686e45d30c89420f5829e9758fb5982/vidis_algorithms_api-0.4.0.tar.gz
+[2023-04-21 12:19:29] INFO root fetch - processPackages [BingImageCreator]: executing diffoscope
+[2023-04-21 12:19:29] INFO root fetch - processPackages [BingImageCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BingImageCreator-0.1.2.1.tar.gz tmp/BingImageCreator-0.1.3.tar.gz --markdown 20230421/B/BingImageCreator/0.1.2.1-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 12:19:29] INFO root fetch - processPackages [iams]: executing diffoscope
+[2023-04-21 12:19:29] INFO root fetch - processPackages [iams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iams-0.7.4-py3-none-any.whl.zip tmp/iams-0.7.5-py3-none-any.whl.zip --markdown 20230421/i/iams/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-forms-api-client]: Downloading https://files.pythonhosted.org/packages/b5/0c/f2ee0468bde4a96a569fc1b62d5bded88ac6b9cc51d4a6e742633d62d094/directory_forms_api_client-7.1.1-py3-none-any.whl
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-client-core]: executing diffoscope
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-client-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_client_core-7.1.1-py3-none-any.whl.zip tmp/directory_client_core-7.1.2-py3-none-any.whl.zip --markdown 20230421/d/directory-client-core/7.1.1-7.1.2/diff.md --exclude *.pyd
+[2023-04-21 12:19:29] INFO root fetch - processPackages [generic-output-manager]: executing diffoscope
+[2023-04-21 12:19:29] INFO root fetch - processPackages [generic-output-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic-output-manager-0.0.8.tar.gz tmp/generic-output-manager-0.0.9.tar.gz --markdown 20230421/g/generic-output-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 12:19:29] INFO root fetch - processPackages [vidis-algorithms-api]: executing diffoscope
+[2023-04-21 12:19:29] INFO root fetch - processPackages [vidis-algorithms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidis_algorithms_api-0.3.4.tar.gz tmp/vidis_algorithms_api-0.4.0.tar.gz --markdown 20230421/v/vidis-algorithms-api/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-forms-api-client]: executing diffoscope
+[2023-04-21 12:19:29] INFO root fetch - processPackages [directory-forms-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_forms_api_client-7.1.0-py3-none-any.whl.zip tmp/directory_forms_api_client-7.1.1-py3-none-any.whl.zip --markdown 20230421/d/directory-forms-api-client/7.1.0-7.1.1/diff.md --exclude *.pyd
+[2023-04-21 12:19:30] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-04-21 12:19:30] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-04-21 12:19:30] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230421/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-04-21 12:19:31] INFO root fetch - processPackages [directory-cms-client]: Start processing: openknowit-kalm-common
+[2023-04-21 12:19:31] INFO root fetch - main [MainThread]: End processing [directory-cms-client]: success
+[2023-04-21 12:19:31] WARNING root fetch - processPackages [openknowit-kalm-common]: Skipping, unable to determine old version
+[2023-04-21 12:19:31] INFO root fetch - main [MainThread]: End processing [openknowit-kalm-common] error
+[2023-04-21 12:19:31] INFO root fetch - main [MainThread]: End processing [directory-client-core]: success
+[2023-04-21 12:19:31] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-04-21 12:19:31] INFO root fetch - main [MainThread]: End processing [BingImageCreator]: success
+[2023-04-21 12:19:31] INFO root fetch - main [MainThread]: End processing [iams]: success
+[2023-04-21 12:19:31] INFO root fetch - main [MainThread]: End processing [vidis-algorithms-api]: success
+[2023-04-21 12:19:31] INFO root fetch - main [MainThread]: End processing [directory-forms-api-client]: success
+[2023-04-21 12:19:32] INFO root fetch - main [MainThread]: End processing [pglift]: success
+[2023-04-21 12:19:32] INFO root fetch - main [MainThread]: End processing [generic-output-manager]: success
+[2023-04-21 12:19:57] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-04-21 12:19:57] INFO root fetch - main [MainThread]: Store serial: [17801723]
