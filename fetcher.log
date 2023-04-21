@@ -7570,3 +7570,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 06:04:03] INFO root fetch - main [MainThread]: End processing [dargs]: success
 [2023-04-21 06:04:05] INFO root fetch - main [MainThread]: End processing [xarray]: success
 [2023-04-21 06:04:05] INFO root fetch - main [MainThread]: Store serial: [17798883]
+[2023-04-21 06:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798883]
+[2023-04-21 06:09:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-21 06:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TPL-package
+[2023-04-21 06:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-azurerm
+[2023-04-21 06:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-fieldservice-sale
+[2023-04-21 06:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apdaily
+[2023-04-21 06:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arkdata
+[2023-04-21 06:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypcapkit
+[2023-04-21 06:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdf-tocgen
+[2023-04-21 06:09:14] INFO root fetch - processPackages [odoo12-addon-fieldservice-sale]: New version: [12.0.2.5.2.99.dev5] Old Version: [12.0.2.5.2.99.dev4]
+[2023-04-21 06:09:14] WARNING root fetch - processPackages [TPL-package]: Skipping, unable to determine old version
+[2023-04-21 06:09:14] INFO root fetch - main [MainThread]: End processing [TPL-package] error
+[2023-04-21 06:09:14] INFO root fetch - processPackages [pdf-tocgen]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-21 06:09:14] INFO root fetch - processPackages [arkdata]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 06:09:14] INFO root fetch - processPackages [apdaily]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-21 06:09:14] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-04-21 06:09:14] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.0b1] Old Version: [0.9.9rc3]
+[2023-04-21 06:09:15] INFO root fetch - processPackages [odoo12-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/5c/39/9a6af3e39b34a8f1bc1945aeb7fa8b88eaed6ef8385b10326c3d6386c883/odoo12_addon_fieldservice_sale-12.0.2.5.2.99.dev4-py3-none-any.whl
+[2023-04-21 06:09:15] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/40/25/9a24facf7e19ca09fa17eef452165ac8ea231dd446c9aac05a83b4af1e42/cdktf-cdktf-provider-azurerm-7.0.0.tar.gz
+[2023-04-21 06:09:15] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/24/00/37e5df64d4d660225f8486341343a54f23732a65dabbdf6c8ed55b92d46d/pypcapkit-0.9.9rc3.tar.gz
+[2023-04-21 06:09:15] INFO root fetch - processPackages [apdaily]: Downloading https://files.pythonhosted.org/packages/50/29/b8333d78d220b7956c8353ea3109b79f1d2c1b785c9398fe6de7a0e3bcbd/apdaily-1.0.6.tar.gz
+[2023-04-21 06:09:15] INFO root fetch - processPackages [pdf-tocgen]: Downloading https://files.pythonhosted.org/packages/5b/f8/2512e6996c77945db6023a70c1615498321670dff3af9fb3bb363b44affb/pdf_tocgen-1.3.3.tar.gz
+[2023-04-21 06:09:15] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 83611164>=10485760
+[2023-04-21 06:09:15] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2023-04-21 06:09:15] INFO root fetch - processPackages [arkdata]: Downloading https://files.pythonhosted.org/packages/37/09/06c6a117e43e151839d0fbd3d02cdab1e666f490d12763739e8f7b309579/arkdata-1.0.3.tar.gz
+[2023-04-21 06:09:15] INFO root fetch - processPackages [apdaily]: executing diffoscope
+[2023-04-21 06:09:15] INFO root fetch - processPackages [pdf-tocgen]: executing diffoscope
+[2023-04-21 06:09:15] INFO root fetch - processPackages [apdaily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apdaily-1.0.5.tar.gz tmp/apdaily-1.0.6.tar.gz --markdown 20230421/a/apdaily/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-21 06:09:15] INFO root fetch - processPackages [pdf-tocgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_tocgen-1.3.2.tar.gz tmp/pdf_tocgen-1.3.3.tar.gz --markdown 20230421/p/pdf-tocgen/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-21 06:09:15] INFO root fetch - processPackages [odoo12-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/d6/9f/42e8723c66982bbd503a134092e75ef669ba3a56639b268f06257316319e/odoo12_addon_fieldservice_sale-12.0.2.5.2.99.dev5-py3-none-any.whl
+[2023-04-21 06:09:15] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-21 06:09:15] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.2.tar.gz tmp/arkdata-1.0.3.tar.gz --markdown 20230421/a/arkdata/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 06:09:15] INFO root fetch - processPackages [odoo12-addon-fieldservice-sale]: executing diffoscope
+[2023-04-21 06:09:15] INFO root fetch - processPackages [odoo12-addon-fieldservice-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice_sale-12.0.2.5.2.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice_sale-12.0.2.5.2.99.dev5-py3-none-any.whl.zip --markdown 20230421/o/odoo12-addon-fieldservice-sale/12.0.2.5.2.99.dev4-12.0.2.5.2.99.dev5/diff.md --exclude *.pyd
+[2023-04-21 06:09:16] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/22/1b/8565b1736c222ca2fd96f64aba4612e085e058601fd8f15343770011949f/pypcapkit-1.0.0b1.tar.gz
+[2023-04-21 06:09:16] INFO root fetch - main [MainThread]: End processing [apdaily]: success
+[2023-04-21 06:09:16] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-04-21 06:09:16] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-0.9.9rc3.tar.gz tmp/pypcapkit-1.0.0b1.tar.gz --markdown 20230421/p/pypcapkit/0.9.9rc3-1.0.0b1/diff.md --exclude *.pyd
+[2023-04-21 06:09:16] INFO root fetch - main [MainThread]: End processing [pdf-tocgen]: success
+[2023-04-21 06:09:16] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-sale]: success
+[2023-04-21 06:09:16] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-21 06:09:18] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-04-21 06:09:18] INFO root fetch - main [MainThread]: Store serial: [17798904]
