@@ -22513,3 +22513,80 @@ EOFError: EOF read where object expected
 [2023-04-21 22:02:26] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-04-21 22:02:41] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-google]: success
 [2023-04-21 22:02:41] INFO root fetch - main [MainThread]: Store serial: [17808187]
+[2023-04-21 22:07:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808187]
+[2023-04-21 22:07:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-21 22:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SQLAlchemy
+[2023-04-21 22:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neural-diffeqs
+[2023-04-21 22:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaml-stripper
+[2023-04-21 22:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ropython
+[2023-04-21 22:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rlogging
+[2023-04-21 22:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cogment
+[2023-04-21 22:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: glinkfix
+[2023-04-21 22:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: liftcord
+[2023-04-21 22:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arc4
+[2023-04-21 22:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: topologicpy
+[2023-04-21 22:07:51] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 22:07:51] INFO root fetch - processPackages [topologicpy]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-04-21 22:07:51] INFO root fetch - processPackages [liftcord]: New version: [2.3.0a0] Old Version: [1.1]
+[2023-04-21 22:07:51] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/2d/79/40af9fce2115952dc3d293b05598a88d66451503e9e87b16aabe4de64bcd/topologicpy-0.4.7.tar.gz
+[2023-04-21 22:07:51] INFO root fetch - processPackages [liftcord]: executing diffoscope
+[2023-04-21 22:07:51] INFO root fetch - processPackages [liftcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liftcord-1.1.tar.gz tmp/liftcord-2.3.0a0.tar.gz --markdown 20230421/l/liftcord/1.1-2.3.0a0/diff.md --exclude *.pyd
+[2023-04-21 22:07:51] WARNING root fetch - processPackages [ropython]: Skipping, unable to determine old version
+[2023-04-21 22:07:51] INFO root fetch - processPackages [ropython]: Start processing: yaml-stripper
+[2023-04-21 22:07:51] INFO root fetch - main [MainThread]: End processing [ropython] error
+[2023-04-21 22:07:51] INFO root fetch - processPackages [rlogging]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-21 22:07:51] INFO root fetch - processPackages [cogment]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-04-21 22:07:51] INFO root fetch - processPackages [glinkfix]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 22:07:51] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 22:07:51] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 22:07:51] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 22:07:51] INFO root fetch - processPackages [arc4]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-21 22:07:51] INFO root fetch - processPackages [SQLAlchemy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-21 22:07:51] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34019540>=10485760
+[2023-04-21 22:07:51] INFO root fetch - processPackages [topologicpy]: Start processing: charlogger
+[2023-04-21 22:07:51] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-04-21 22:07:51] INFO root fetch - processPackages [charlogger]: New version: [1.2] Old Version: [1.1]
+[2023-04-21 22:07:51] INFO root fetch - processPackages [neural-diffeqs]: New version: [0.3.0rc0] Old Version: [0.3.0]
+[2023-04-21 22:07:51] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 22:07:51] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 22:07:51] INFO root fetch - processPackages [charlogger]: executing diffoscope
+[2023-04-21 22:07:51] INFO root fetch - processPackages [charlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charlogger-1.1.tar.gz tmp/charlogger-1.2.tar.gz --markdown 20230421/c/charlogger/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-21 22:07:51] INFO root fetch - processPackages [cogment]: Downloading https://files.pythonhosted.org/packages/1f/8a/5390c8518f594385cb69e8875726a0c985bbd0a4b9537e01e576cff6fb90/cogment-2.7.1.tar.gz
+[2023-04-21 22:07:51] INFO root fetch - processPackages [glinkfix]: Downloading https://files.pythonhosted.org/packages/25/36/8f802702b2c2e9a5c971e396244d524270c3e7afbe4d31f012059c2c2368/glinkfix-1.0.8.tar.gz
+[2023-04-21 22:07:51] INFO root fetch - processPackages [neural-diffeqs]: Downloading https://files.pythonhosted.org/packages/f8/35/2cf29cac3ef1e62a9a65da2e7af6bcbf55131c8db4297e98c58b32410b36/neural-diffeqs-0.3.0.tar.gz
+[2023-04-21 22:07:51] INFO root fetch - processPackages [arc4]: Downloading https://files.pythonhosted.org/packages/f5/aa/14554852852fa32e681ad470344a7ff4cdde93245bbdb6c452fe7111a97e/arc4-0.3.0.tar.gz
+[2023-04-21 22:07:51] INFO root fetch - processPackages [SQLAlchemy]: Downloading https://files.pythonhosted.org/packages/0f/73/b76a2c8dbe035791e54da29cefaa22c166f875b24da844dc0f16b66e47bb/SQLAlchemy-2.0.8.tar.gz
+[2023-04-21 22:07:51] INFO root fetch - processPackages [rlogging]: Downloading https://files.pythonhosted.org/packages/d2/b8/85c628de8552dc162213bd35114a49b750055b967fea45c311275969bedd/rlogging-1.1.1.tar.gz
+[2023-04-21 22:07:52] INFO root fetch - processPackages [arc4]: Downloading https://files.pythonhosted.org/packages/63/2d/abd2c4d7ac0b515c63787a32e7ccb47c6a66fb4cd33ac5ad159fb2bf64b2/arc4-0.4.0.tar.gz
+[2023-04-21 22:07:52] INFO root fetch - processPackages [cogment]: Downloading https://files.pythonhosted.org/packages/b9/53/c3181c668e83baff92053de071b3aba8ef3f671a850b834f523c7c801a23/cogment-2.8.0.tar.gz
+[2023-04-21 22:07:52] INFO root fetch - processPackages [glinkfix]: Downloading https://files.pythonhosted.org/packages/39/d5/415e54dbe582f8f4c9b2f47594e6369d29c201fdbe0c69a1d1fd08b04c51/glinkfix-1.0.9.tar.gz
+[2023-04-21 22:07:52] INFO root fetch - processPackages [rlogging]: executing diffoscope
+[2023-04-21 22:07:52] INFO root fetch - processPackages [rlogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlogging-1.1.0.tar.gz tmp/rlogging-1.1.1.tar.gz --markdown 20230421/r/rlogging/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-21 22:07:52] INFO root fetch - processPackages [neural-diffeqs]: Downloading https://files.pythonhosted.org/packages/5a/b4/a1fdaf693dbf44c781bf2be48be97ddc9849e5ee8230dfa40c2001776e7b/neural-diffeqs-0.3.0rc0.tar.gz
+[2023-04-21 22:07:52] INFO root fetch - processPackages [glinkfix]: executing diffoscope
+[2023-04-21 22:07:52] INFO root fetch - processPackages [glinkfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glinkfix-1.0.8.tar.gz tmp/glinkfix-1.0.9.tar.gz --markdown 20230421/g/glinkfix/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 22:07:52] INFO root fetch - processPackages [arc4]: executing diffoscope
+[2023-04-21 22:07:52] INFO root fetch - processPackages [arc4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arc4-0.3.0.tar.gz tmp/arc4-0.4.0.tar.gz --markdown 20230421/a/arc4/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 22:07:52] INFO root fetch - processPackages [cogment]: executing diffoscope
+[2023-04-21 22:07:52] INFO root fetch - processPackages [cogment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogment-2.7.1.tar.gz tmp/cogment-2.8.0.tar.gz --markdown 20230421/c/cogment/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-04-21 22:07:52] INFO root fetch - processPackages [neural-diffeqs]: executing diffoscope
+[2023-04-21 22:07:52] INFO root fetch - processPackages [neural-diffeqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural-diffeqs-0.3.0.tar.gz tmp/neural-diffeqs-0.3.0rc0.tar.gz --markdown 20230421/n/neural-diffeqs/0.3.0-0.3.0rc0/diff.md --exclude *.pyd
+[2023-04-21 22:07:53] INFO root fetch - processPackages [yaml-stripper]: Start processing: vtece4564-gamelib
+[2023-04-21 22:07:53] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 22:07:53] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 22:07:53] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-04-21 22:07:53] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.2.tar.gz tmp/vtece4564-gamelib-0.0.3.tar.gz --markdown 20230421/v/vtece4564-gamelib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 22:07:53] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 22:07:53] INFO root fetch - main [MainThread]: End processing [rlogging]: success
+[2023-04-21 22:07:53] INFO root fetch - processPackages [SQLAlchemy]: Downloading https://files.pythonhosted.org/packages/74/2c/2316a7a0d8b03e34741b3763604d180423f79730010dd7ed61d0f2854d8d/SQLAlchemy-2.0.9.tar.gz
+[2023-04-21 22:07:53] INFO root fetch - main [MainThread]: End processing [charlogger]: success
+[2023-04-21 22:07:53] INFO root fetch - main [MainThread]: End processing [liftcord]: success
+[2023-04-21 22:07:53] INFO root fetch - processPackages [SQLAlchemy]: executing diffoscope
+[2023-04-21 22:07:53] INFO root fetch - processPackages [SQLAlchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemy-2.0.8.tar.gz tmp/SQLAlchemy-2.0.9.tar.gz --markdown 20230421/S/SQLAlchemy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-21 22:07:54] INFO root fetch - main [MainThread]: End processing [glinkfix]: success
+[2023-04-21 22:07:54] INFO root fetch - main [MainThread]: End processing [arc4]: success
+[2023-04-21 22:07:54] INFO root fetch - main [MainThread]: End processing [neural-diffeqs]: success
+[2023-04-21 22:07:55] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-04-21 22:07:55] INFO root fetch - main [MainThread]: End processing [cogment]: success
+[2023-04-21 22:08:59] INFO root fetch - main [MainThread]: End processing [SQLAlchemy]: success
+[2023-04-21 22:08:59] INFO root fetch - main [MainThread]: Store serial: [17808251]
