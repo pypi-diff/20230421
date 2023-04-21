@@ -6186,3 +6186,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 03:36:17] INFO root fetch - main [MainThread]: End processing [hat-syslog]: success
 [2023-04-21 03:36:18] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-04-21 03:36:18] INFO root fetch - main [MainThread]: Store serial: [17798083]
+[2023-04-21 03:41:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798083]
+[2023-04-21 03:41:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-21 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-pandas
+[2023-04-21 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NikeCA
+[2023-04-21 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PRauto
+[2023-04-21 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pytorch
+[2023-04-21 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-scipy
+[2023-04-21 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupylite-duckdb
+[2023-04-21 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: petals
+[2023-04-21 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EXOSIMS
+[2023-04-21 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-sphinx
+[2023-04-21 03:41:27] INFO root fetch - processPackages [PRauto]: New version: [0.123] Old Version: [0.122]
+[2023-04-21 03:41:27] INFO root fetch - processPackages [NikeCA]: New version: [0.1.65] Old Version: [0.1.64]
+[2023-04-21 03:41:27] INFO root fetch - processPackages [EXOSIMS]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-04-21 03:41:27] INFO root fetch - processPackages [petals]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-21 03:41:27] INFO root fetch - processPackages [jupylite-duckdb]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230421/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230421/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 03:41:27] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/d5/15/60242be83e74f49ab28ea463d73a00ff9866a22eab6b1b8201897c4112ba/NikeCA-0.1.65.tar.gz
+[2023-04-21 03:41:27] INFO root fetch - processPackages [EXOSIMS]: Downloading https://files.pythonhosted.org/packages/b7/7a/9a56aba76ae3a98b0c149284800ae2aceb8a1909c9a70b278fee8a3ab153/EXOSIMS-3.1.2.tar.gz
+[2023-04-21 03:41:27] INFO root fetch - processPackages [petals]: Downloading https://files.pythonhosted.org/packages/8e/ba/601c8ed902e158a6df1e9df3ad9fe539aa4de6de478dabc1e15fdf64852f/petals-1.1.3.tar.gz
+[2023-04-21 03:41:27] INFO root fetch - processPackages [jupylite-duckdb]: Downloading https://files.pythonhosted.org/packages/0c/6a/c13e50c0c23376c5dcd151e0222f18c6ec451cde19501e75d7e8f57bf97a/jupylite_duckdb-0.0.3-py3-none-any.whl
+[2023-04-21 03:41:27] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/41/ba/a9bc3e6f76aabe1a990979ea7b4b8afddf8548fc65c7c1f9ea52d0bc3c59/PRauto-0.123.tar.gz
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230421/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 03:41:27] WARNING root fetch - processPackages [EXOSIMS]: Skipping package: exceeds size limit 16829079>=10485760
+[2023-04-21 03:41:27] INFO root fetch - main [MainThread]: End processing [EXOSIMS] error
+[2023-04-21 03:41:27] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-21 03:41:27] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.64.tar.gz tmp/NikeCA-0.1.65.tar.gz --markdown 20230421/N/NikeCA/0.1.64-0.1.65/diff.md --exclude *.pyd
+[2023-04-21 03:41:27] INFO root fetch - processPackages [jupylite-duckdb]: executing diffoscope
+[2023-04-21 03:41:27] INFO root fetch - processPackages [jupylite-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupylite_duckdb-0.0.2-py3-none-any.whl.zip tmp/jupylite_duckdb-0.0.3-py3-none-any.whl.zip --markdown 20230421/j/jupylite-duckdb/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 03:41:27] INFO root fetch - processPackages [PRauto]: executing diffoscope
+[2023-04-21 03:41:27] INFO root fetch - processPackages [PRauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PRauto-0.122.tar.gz tmp/PRauto-0.123.tar.gz --markdown 20230421/P/PRauto/0.122-0.123/diff.md --exclude *.pyd
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-04-21 03:41:27] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230421/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 03:41:27] INFO root fetch - processPackages [petals]: Downloading https://files.pythonhosted.org/packages/68/bc/7d5e712b019c53e5c6b6dbe16323b288f3c8c3ec825be2820635bf80cc65/petals-1.1.4.tar.gz
+[2023-04-21 03:41:27] INFO root fetch - processPackages [petals]: executing diffoscope
+[2023-04-21 03:41:27] INFO root fetch - processPackages [petals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petals-1.1.3.tar.gz tmp/petals-1.1.4.tar.gz --markdown 20230421/p/petals/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-21 03:41:28] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-21 03:41:28] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-21 03:41:28] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-21 03:41:28] INFO root fetch - main [MainThread]: End processing [jupylite-duckdb]: success
+[2023-04-21 03:41:29] INFO root fetch - main [MainThread]: End processing [PRauto]: success
+[2023-04-21 03:41:29] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-21 03:41:29] INFO root fetch - main [MainThread]: End processing [petals]: success
+[2023-04-21 03:41:29] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-04-21 03:41:29] INFO root fetch - main [MainThread]: Store serial: [17798117]
