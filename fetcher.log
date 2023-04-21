@@ -10867,3 +10867,118 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 10:35:57] INFO root fetch - main [MainThread]: End processing [python-sat]: success
 [2023-04-21 10:35:57] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-04-21 10:35:57] INFO root fetch - main [MainThread]: Store serial: [17800789]
+[2023-04-21 10:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800789]
+[2023-04-21 10:41:06] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-21 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-rdm-records
+[2023-04-21 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FastDub
+[2023-04-21 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gestionatr
+[2023-04-21 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kraken
+[2023-04-21 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fractal-server
+[2023-04-21 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellmap
+[2023-04-21 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FastDub
+[2023-04-21 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tira
+[2023-04-21 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: har2jicase
+[2023-04-21 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-estimator-nightly
+[2023-04-21 10:41:06] INFO root fetch - processPackages [fractal-server]: New version: [1.2.1] Old Version: [1.2.0a5]
+[2023-04-21 10:41:06] INFO root fetch - processPackages [FastDub]: New version: [3.6.0b2] Old Version: [3.6.0b1]
+[2023-04-21 10:41:06] INFO root fetch - processPackages [FastDub]: New version: [3.6.0b2] Old Version: [3.6.0b1]
+[2023-04-21 10:41:06] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304210836] Old Version: [1.0.1.dev202304210834]
+[2023-04-21 10:41:06] INFO root fetch - processPackages [har2jicase]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 10:41:06] INFO root fetch - processPackages [invenio-rdm-records]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-04-21 10:41:06] INFO root fetch - processPackages [gestionatr]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-04-21 10:41:06] INFO root fetch - processPackages [tira]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 10:41:06] INFO root fetch - processPackages [kraken]: New version: [4.3.9] Old Version: [4.3.7]
+[2023-04-21 10:41:06] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-04-21 10:41:06] INFO root fetch - processPackages [FastDub]: Downloading https://files.pythonhosted.org/packages/15/44/3c16e6c04e6abb7bdaaaa50b8c56348077e61791d0cbec4657635f10b912/FastDub-3.6.0b1.tar.gz
+[2023-04-21 10:41:06] INFO root fetch - processPackages [FastDub]: Downloading https://files.pythonhosted.org/packages/15/44/3c16e6c04e6abb7bdaaaa50b8c56348077e61791d0cbec4657635f10b912/FastDub-3.6.0b1.tar.gz
+[2023-04-21 10:41:06] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-04-21 10:41:06] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230421/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-04-21 10:41:06] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/4a/78/e55943dc94533725b2386be757e6d4815ba1f6e10fabff2cccafc6d33f83/cellmap-1.0.1.dev202304210836-py3-none-any.whl
+[2023-04-21 10:41:06] INFO root fetch - processPackages [har2jicase]: Downloading https://files.pythonhosted.org/packages/d1/76/212a50390c9fb74778357ee5f2d851558d380c9bc5dba5329481e1026c93/har2jicase-0.1.1.tar.gz
+[2023-04-21 10:41:06] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/4c/a9/1d45dfa529f04eff0e146788fb82a4b0e14e2d1988140729ecbdacee34a8/invenio-rdm-records-3.1.0.tar.gz
+[2023-04-21 10:41:06] INFO root fetch - processPackages [gestionatr]: Downloading https://files.pythonhosted.org/packages/1a/1f/3988ddb246d87ec3657666e21dc5db6784eae092b9fd1b8aed4394537a5d/gestionatr-3.1.5.tar.gz
+[2023-04-21 10:41:06] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/43/c4/b81bb3f967a30227b00188bc5062cff5d1a04fab70a9a31189f474c84ced/tira-0.0.8.tar.gz
+[2023-04-21 10:41:06] INFO root fetch - processPackages [kraken]: Downloading https://files.pythonhosted.org/packages/ac/e0/7d12e99cf96d040c3df62dee3f426ee1cfd33a5b7e12a0f4ada19cca9fb7/kraken-4.3.7.tar.gz
+[2023-04-21 10:41:06] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/f2/f0/de138a5409f0b56a02b9e9cd27ccaf8eda371d1b2e8b2cd275b1a4fc932f/fractal_server-1.2.1.tar.gz
+[2023-04-21 10:41:06] INFO root fetch - processPackages [har2jicase]: executing diffoscope
+[2023-04-21 10:41:06] INFO root fetch - processPackages [har2jicase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2jicase-0.1.0.tar.gz tmp/har2jicase-0.1.1.tar.gz --markdown 20230421/h/har2jicase/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 10:41:07] WARNING root fetch - processPackages [kraken]: Skipping package: exceeds size limit 10975566>=10485760
+[2023-04-21 10:41:07] INFO root fetch - processPackages [kraken]: Start processing: ucam-identitylib
+[2023-04-21 10:41:07] INFO root fetch - main [MainThread]: End processing [kraken] error
+[2023-04-21 10:41:07] INFO root fetch - processPackages [ucam-identitylib]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-21 10:41:07] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-04-21 10:41:07] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-3.0.0.tar.gz tmp/invenio-rdm-records-3.1.0.tar.gz --markdown 20230421/i/invenio-rdm-records/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-04-21 10:41:07] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-04-21 10:41:07] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.2.0a5.tar.gz tmp/fractal_server-1.2.1.tar.gz --markdown 20230421/f/fractal-server/1.2.0a5-1.2.1/diff.md --exclude *.pyd
+[2023-04-21 10:41:07] INFO root fetch - processPackages [FastDub]: Downloading https://files.pythonhosted.org/packages/1d/25/f31fdb8415d160c69023e46d101d11d85df460812cfa6df77d8ede8988a7/FastDub-3.6.0b2.tar.gz
+[2023-04-21 10:41:07] INFO root fetch - processPackages [FastDub]: Downloading https://files.pythonhosted.org/packages/1d/25/f31fdb8415d160c69023e46d101d11d85df460812cfa6df77d8ede8988a7/FastDub-3.6.0b2.tar.gz
+[2023-04-21 10:41:07] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/9b/f4/9ea6ae03b0e08b169bc3b6c3b2b915f1fd6005389bcaa0b6d5e43a5fda17/tira-0.0.9.tar.gz
+[2023-04-21 10:41:07] INFO root fetch - processPackages [gestionatr]: Downloading https://files.pythonhosted.org/packages/12/c4/c50408690f9329e8bbd7945194e7d93d089aa165936d87ec2b13e697a999/gestionatr-3.1.6.tar.gz
+[2023-04-21 10:41:07] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-21 10:41:07] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304210834-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304210836-py3-none-any.whl.zip --markdown 20230421/c/cellmap/1.0.1.dev202304210834-1.0.1.dev202304210836/diff.md --exclude *.pyd
+[2023-04-21 10:41:07] INFO root fetch - processPackages [ucam-identitylib]: Downloading https://files.pythonhosted.org/packages/35/cb/27fbefc0e408100cdc0cd63916b70901b67ce41bca85d74e9bf56ad2f56c/ucam-identitylib-1.4.0.tar.gz
+[2023-04-21 10:41:07] INFO root fetch - processPackages [FastDub]: executing diffoscope
+[2023-04-21 10:41:07] INFO root fetch - processPackages [FastDub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastDub-3.6.0b1.tar.gz tmp/FastDub-3.6.0b2.tar.gz --markdown 20230421/F/FastDub/3.6.0b1-3.6.0b2/diff.md --exclude *.pyd
+[2023-04-21 10:41:07] INFO root fetch - processPackages [tira]: executing diffoscope
+[2023-04-21 10:41:07] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.8.tar.gz tmp/tira-0.0.9.tar.gz --markdown 20230421/t/tira/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 10:41:07] INFO root fetch - processPackages [FastDub]: executing diffoscope
+[2023-04-21 10:41:07] INFO root fetch - processPackages [FastDub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastDub-3.6.0b1.tar.gz tmp/FastDub-3.6.0b2.tar.gz --markdown 20230421/F/FastDub/3.6.0b1-3.6.0b2/diff.md --exclude *.pyd
+[2023-04-21 10:41:07] INFO root fetch - processPackages [gestionatr]: executing diffoscope
+[2023-04-21 10:41:07] INFO root fetch - processPackages [gestionatr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gestionatr-3.1.5.tar.gz tmp/gestionatr-3.1.6.tar.gz --markdown 20230421/g/gestionatr/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-04-21 10:41:07] INFO root fetch - processPackages [ucam-identitylib]: Downloading https://files.pythonhosted.org/packages/d9/99/b5a0aa74d2a75487f3f74ebc907e2a7e037175399cdefe6bb788e1a7e0e6/ucam-identitylib-1.5.0.tar.gz
+[2023-04-21 10:41:07] INFO root fetch - processPackages [ucam-identitylib]: executing diffoscope
+[2023-04-21 10:41:07] INFO root fetch - processPackages [ucam-identitylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucam-identitylib-1.4.0.tar.gz tmp/ucam-identitylib-1.5.0.tar.gz --markdown 20230421/u/ucam-identitylib/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-21 10:41:08] INFO root fetch - processPackages [har2jicase]: Start processing: open-gpt-torch
+[2023-04-21 10:41:08] INFO root fetch - main [MainThread]: End processing [har2jicase]: success
+[2023-04-21 10:41:08] WARNING root fetch - processPackages [open-gpt-torch]: Skipping, unable to determine old version
+[2023-04-21 10:41:08] INFO root fetch - processPackages [open-gpt-torch]: Start processing: pytechnicolor
+[2023-04-21 10:41:08] INFO root fetch - main [MainThread]: End processing [open-gpt-torch] error
+[2023-04-21 10:41:08] INFO root fetch - processPackages [pytechnicolor]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-21 10:41:08] INFO root fetch - processPackages [pytechnicolor]: executing diffoscope
+[2023-04-21 10:41:08] INFO root fetch - processPackages [pytechnicolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytechnicolor-1.1.8.tar.gz tmp/pytechnicolor-1.1.9.tar.gz --markdown 20230421/p/pytechnicolor/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-21 10:41:08] INFO root fetch - processPackages [tf-estimator-nightly]: Start processing: pulumi-azuread
+[2023-04-21 10:41:08] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-04-21 10:41:08] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-04-21 10:41:09] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2023-04-21 10:41:09] INFO root fetch - processPackages [FastDub]: Start processing: control-lab-ly
+[2023-04-21 10:41:09] INFO root fetch - main [MainThread]: End processing [FastDub]: success
+[2023-04-21 10:41:09] INFO root fetch - processPackages [control-lab-ly]: New version: [1.0.1a0] Old Version: [1.0.0b1]
+[2023-04-21 10:41:09] INFO root fetch - processPackages [tira]: Start processing: linkedinpdfextractor
+[2023-04-21 10:41:09] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2023-04-21 10:41:09] WARNING root fetch - processPackages [linkedinpdfextractor]: Skipping, unable to determine old version
+[2023-04-21 10:41:09] INFO root fetch - processPackages [linkedinpdfextractor]: Start processing: voici
+[2023-04-21 10:41:09] INFO root fetch - main [MainThread]: End processing [linkedinpdfextractor] error
+[2023-04-21 10:41:09] INFO root fetch - processPackages [voici]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-21 10:41:09] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/c9/2c/2a21ff4958e45ff52e0b936083d210ca1d80a43596ed1eda451f5fd2e5be/control-lab-ly-1.0.1a0.tar.gz
+[2023-04-21 10:41:09] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2023-04-21 10:41:09] INFO root fetch - processPackages [FastDub]: Start processing: datadog-checks-dev
+[2023-04-21 10:41:09] INFO root fetch - main [MainThread]: End processing [FastDub]: success
+[2023-04-21 10:41:09] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-04-21 10:41:09] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.0.0b1.tar.gz tmp/control-lab-ly-1.0.1a0.tar.gz --markdown 20230421/c/control-lab-ly/1.0.0b1-1.0.1a0/diff.md --exclude *.pyd
+[2023-04-21 10:41:09] INFO root fetch - processPackages [datadog-checks-dev]: New version: [9.4.1] Old Version: [9.4.0]
+[2023-04-21 10:41:09] INFO root fetch - processPackages [voici]: Downloading https://files.pythonhosted.org/packages/3c/c3/4f7061fb7ddf35d75535591d42772332191dcf12d349fef4b7c268373d76/voici-0.4.1.tar.gz
+[2023-04-21 10:41:09] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/49/26/6bd1e17b0680c12cae52b0ff8ea392e8f7778df02dbb988c0eb5f2125734/datadog_checks_dev-9.4.0-py2.py3-none-any.whl
+[2023-04-21 10:41:09] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-04-21 10:41:09] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230421/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-04-21 10:41:10] INFO root fetch - processPackages [voici]: executing diffoscope
+[2023-04-21 10:41:10] INFO root fetch - processPackages [voici]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voici-0.4.0.tar.gz tmp/voici-0.4.1.tar.gz --markdown 20230421/v/voici/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-21 10:41:10] INFO root fetch - processPackages [pytechnicolor]: Start processing: write-the
+[2023-04-21 10:41:10] INFO root fetch - main [MainThread]: End processing [pytechnicolor]: success
+[2023-04-21 10:41:10] INFO root fetch - processPackages [write-the]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-04-21 10:41:10] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/67/9e/cf9e6904ffda90c88e214ca332598c1da496273af8dcee0e340655723cbd/datadog_checks_dev-9.4.1-py2.py3-none-any.whl
+[2023-04-21 10:41:10] INFO root fetch - processPackages [write-the]: Downloading https://files.pythonhosted.org/packages/d3/d6/58314b8b049c51981ab953f04a355e9be261efeb844b1cca35194b6adfaf/write_the-0.7.2.tar.gz
+[2023-04-21 10:41:10] INFO root fetch - processPackages [datadog-checks-dev]: executing diffoscope
+[2023-04-21 10:41:10] INFO root fetch - processPackages [datadog-checks-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip --markdown 20230421/d/datadog-checks-dev/9.4.0-9.4.1/diff.md --exclude *.pyd
+[2023-04-21 10:41:10] INFO root fetch - processPackages [write-the]: executing diffoscope
+[2023-04-21 10:41:10] INFO root fetch - processPackages [write-the]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_the-0.7.1.tar.gz tmp/write_the-0.7.2.tar.gz --markdown 20230421/w/write-the/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-04-21 10:41:11] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-04-21 10:41:11] INFO root fetch - main [MainThread]: End processing [ucam-identitylib]: success
+[2023-04-21 10:41:11] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-21 10:41:11] INFO root fetch - main [MainThread]: End processing [gestionatr]: success
+[2023-04-21 10:41:11] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-04-21 10:41:12] INFO root fetch - main [MainThread]: End processing [write-the]: success
+[2023-04-21 10:41:13] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-04-21 10:41:13] INFO root fetch - main [MainThread]: End processing [datadog-checks-dev]: success
+[2023-04-21 10:41:16] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-04-21 10:41:25] INFO root fetch - main [MainThread]: End processing [voici]: success
+[2023-04-21 10:41:25] INFO root fetch - main [MainThread]: Store serial: [17800851]
