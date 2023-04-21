@@ -18020,3 +18020,93 @@ EOFError: EOF read where object expected
 [2023-04-21 17:30:24] INFO root fetch - main [MainThread]: End processing [fml40-reference-implementation]: success
 [2023-04-21 17:30:32] INFO root fetch - main [MainThread]: End processing [google-cloud-aiplatform]: success
 [2023-04-21 17:30:32] INFO root fetch - main [MainThread]: Store serial: [17805177]
+[2023-04-21 17:35:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805177]
+[2023-04-21 17:35:42] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxll-jupyter
+[2023-04-21 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-gshisbanner
+[2023-04-21 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: samarium
+[2023-04-21 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: saxonche-stubs
+[2023-04-21 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: czech-workdays-holidays
+[2023-04-21 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blueapi
+[2023-04-21 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: up-tamer
+[2023-04-21 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rtdip-sdk
+[2023-04-21 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oc-ocdm
+[2023-04-21 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-models-connect
+[2023-04-21 17:35:42] INFO root fetch - processPackages [samarium]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-21 17:35:42] INFO root fetch - processPackages [blueapi]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 17:35:42] INFO root fetch - processPackages [czech-workdays-holidays]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 17:35:42] INFO root fetch - processPackages [up-tamer]: New version: [0.3.1.9.dev1] Old Version: [0.3.1.7.dev1]
+[2023-04-21 17:35:42] INFO root fetch - processPackages [oc-ocdm]: New version: [7.1.9] Old Version: [7.1.8]
+[2023-04-21 17:35:42] INFO root fetch - processPackages [samarium]: executing diffoscope
+[2023-04-21 17:35:42] INFO root fetch - processPackages [samarium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samarium-0.5.1.tar.gz tmp/samarium-0.5.2.tar.gz --markdown 20230421/s/samarium/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-21 17:35:42] INFO root fetch - processPackages [blueapi]: executing diffoscope
+[2023-04-21 17:35:42] INFO root fetch - processPackages [blueapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueapi-0.2.0.tar.gz tmp/blueapi-0.2.1.tar.gz --markdown 20230421/b/blueapi/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 17:35:42] INFO root fetch - processPackages [nonebot-plugin-gshisbanner]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-21 17:35:42] INFO root fetch - processPackages [pyxll-jupyter]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-21 17:35:42] INFO root fetch - processPackages [saxonche-stubs]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-21 17:35:42] INFO root fetch - processPackages [rtdip-sdk]: New version: [0.2.1] Old Version: [0.2.0b1]
+[2023-04-21 17:35:42] INFO root fetch - processPackages [up-tamer]: executing diffoscope
+[2023-04-21 17:35:42] INFO root fetch - processPackages [up-tamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_tamer-0.3.1.7.dev1.tar.gz tmp/up_tamer-0.3.1.9.dev1.tar.gz --markdown 20230421/u/up-tamer/0.3.1.7.dev1-0.3.1.9.dev1/diff.md --exclude *.pyd
+[2023-04-21 17:35:42] INFO root fetch - processPackages [odoo-models-connect]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 17:35:42] INFO root fetch - processPackages [oc-ocdm]: executing diffoscope
+[2023-04-21 17:35:42] INFO root fetch - processPackages [oc-ocdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_ocdm-7.1.8.tar.gz tmp/oc_ocdm-7.1.9.tar.gz --markdown 20230421/o/oc-ocdm/7.1.8-7.1.9/diff.md --exclude *.pyd
+[2023-04-21 17:35:42] INFO root fetch - processPackages [czech-workdays-holidays]: Downloading https://files.pythonhosted.org/packages/75/fc/a054208939099057954684a69ea30a9a3a3be6f41b055a962ffcaeac37a1/czech_workdays_holidays-0.0.2.tar.gz
+[2023-04-21 17:35:42] INFO root fetch - processPackages [saxonche-stubs]: Downloading https://files.pythonhosted.org/packages/2a/72/7ccf7682ce65df0c2e86799d8a4695ac4d4e02249e28209119cf81f17b43/saxonche_stubs-0.2.0.tar.gz
+[2023-04-21 17:35:42] INFO root fetch - processPackages [rtdip-sdk]: Downloading https://files.pythonhosted.org/packages/bf/90/afa7acbe34bc0dbfb4cd3a8c8f3f5cbf08623bda034d513d781331d08d1f/rtdip_sdk-0.2.0b1-py3-none-any.whl
+[2023-04-21 17:35:42] INFO root fetch - processPackages [odoo-models-connect]: Downloading https://files.pythonhosted.org/packages/e4/d3/2b445882de570d36dd7ad234f62f98562c198123b2127cef3c82122adb3b/odoo_models_connect-0.1.9.tar.gz
+[2023-04-21 17:35:42] INFO root fetch - processPackages [nonebot-plugin-gshisbanner]: Downloading https://files.pythonhosted.org/packages/09/32/5a23ac0ebedfb2d26a3ac9e716aedfd660abdf0bb856e798cd8d26705e88/nonebot_plugin_gshisbanner-0.4.9.tar.gz
+[2023-04-21 17:35:42] INFO root fetch - processPackages [pyxll-jupyter]: Downloading https://files.pythonhosted.org/packages/7d/a7/2c23f9e89b11099eedf0906c454f5ce1ef4a1a78358d2f68cbeebe5bae37/pyxll_jupyter-0.3.5-py3-none-any.whl
+[2023-04-21 17:35:42] INFO root fetch - processPackages [czech-workdays-holidays]: Downloading https://files.pythonhosted.org/packages/44/19/dbd5076eb9d2b9c201c7049a537a9255b9155b045880a061eba87e593010/czech_workdays_holidays-0.0.3.tar.gz
+[2023-04-21 17:35:42] INFO root fetch - processPackages [saxonche-stubs]: Downloading https://files.pythonhosted.org/packages/bf/47/dc578278fd129496fb5ecd1320901ab2d3511abb5b30ba068037d7fbd279/saxonche_stubs-0.3.0.tar.gz
+[2023-04-21 17:35:42] INFO root fetch - processPackages [odoo-models-connect]: executing diffoscope
+[2023-04-21 17:35:42] INFO root fetch - processPackages [odoo-models-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_models_connect-0.1.8.tar.gz tmp/odoo_models_connect-0.1.9.tar.gz --markdown 20230421/o/odoo-models-connect/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 17:35:42] INFO root fetch - processPackages [nonebot-plugin-gshisbanner]: executing diffoscope
+[2023-04-21 17:35:42] INFO root fetch - processPackages [nonebot-plugin-gshisbanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_gshisbanner-0.4.8.tar.gz tmp/nonebot_plugin_gshisbanner-0.4.9.tar.gz --markdown 20230421/n/nonebot-plugin-gshisbanner/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-21 17:35:42] INFO root fetch - processPackages [rtdip-sdk]: Downloading https://files.pythonhosted.org/packages/a0/7d/0efca7b87d82fc5f5b1b4b3f0dfdcd31bdf4b47cc7884c4815495a126441/rtdip_sdk-0.2.1-py3-none-any.whl
+[2023-04-21 17:35:42] INFO root fetch - processPackages [pyxll-jupyter]: executing diffoscope
+[2023-04-21 17:35:42] INFO root fetch - processPackages [pyxll-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxll_jupyter-0.3.4-py3-none-any.whl.zip tmp/pyxll_jupyter-0.3.5-py3-none-any.whl.zip --markdown 20230421/p/pyxll-jupyter/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-21 17:35:42] INFO root fetch - processPackages [czech-workdays-holidays]: executing diffoscope
+[2023-04-21 17:35:42] INFO root fetch - processPackages [czech-workdays-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czech_workdays_holidays-0.0.2.tar.gz tmp/czech_workdays_holidays-0.0.3.tar.gz --markdown 20230421/c/czech-workdays-holidays/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 17:35:42] INFO root fetch - processPackages [saxonche-stubs]: executing diffoscope
+[2023-04-21 17:35:42] INFO root fetch - processPackages [saxonche-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saxonche_stubs-0.2.0.tar.gz tmp/saxonche_stubs-0.3.0.tar.gz --markdown 20230421/s/saxonche-stubs/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-21 17:35:42] INFO root fetch - processPackages [rtdip-sdk]: executing diffoscope
+[2023-04-21 17:35:42] INFO root fetch - processPackages [rtdip-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtdip_sdk-0.2.0b1-py3-none-any.whl.zip tmp/rtdip_sdk-0.2.1-py3-none-any.whl.zip --markdown 20230421/r/rtdip-sdk/0.2.0b1-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 17:35:43] INFO root fetch - processPackages [up-tamer]: Start processing: czech-workdays-holidays
+[2023-04-21 17:35:43] INFO root fetch - main [MainThread]: End processing [up-tamer]: success
+[2023-04-21 17:35:43] INFO root fetch - processPackages [czech-workdays-holidays]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-21 17:35:43] INFO root fetch - processPackages [czech-workdays-holidays]: Downloading https://files.pythonhosted.org/packages/24/a0/c9a7c761ed24cfea220b6d328ff293e100ca9d4309fc03fd6abf15280057/czech_workdays_holidays-0.0.4.tar.gz
+[2023-04-21 17:35:44] INFO root fetch - processPackages [samarium]: Start processing: Trial2Vec
+[2023-04-21 17:35:44] INFO root fetch - main [MainThread]: End processing [samarium]: success
+[2023-04-21 17:35:44] INFO root fetch - processPackages [czech-workdays-holidays]: Downloading https://files.pythonhosted.org/packages/22/8a/5911efa7313a46295cbd95dec84596c2f1de4da65aaeaf555a3f66a69c4b/czech-workdays-holidays-0.0.5.tar.gz
+[2023-04-21 17:35:44] INFO root fetch - processPackages [Trial2Vec]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-04-21 17:35:44] INFO root fetch - processPackages [czech-workdays-holidays]: executing diffoscope
+[2023-04-21 17:35:44] INFO root fetch - processPackages [czech-workdays-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czech_workdays_holidays-0.0.4.tar.gz tmp/czech-workdays-holidays-0.0.5.tar.gz --markdown 20230421/c/czech-workdays-holidays/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 17:35:44] INFO root fetch - processPackages [Trial2Vec]: Downloading https://files.pythonhosted.org/packages/b1/e5/58ce7281b58707cb75e36d7cc7725e706e5953847ed5021f5b0de11d8b1b/Trial2Vec-0.0.4.tar.gz
+[2023-04-21 17:35:44] INFO root fetch - processPackages [nonebot-plugin-gshisbanner]: Start processing: quarchCalibration
+[2023-04-21 17:35:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gshisbanner]: success
+[2023-04-21 17:35:44] INFO root fetch - processPackages [odoo-models-connect]: Start processing: up-fast-downward
+[2023-04-21 17:35:44] INFO root fetch - main [MainThread]: End processing [odoo-models-connect]: success
+[2023-04-21 17:35:44] INFO root fetch - processPackages [quarchCalibration]: New version: [1.1.3.dev4] Old Version: [1.1.3.dev3]
+[2023-04-21 17:35:44] INFO root fetch - main [MainThread]: End processing [blueapi]: success
+[2023-04-21 17:35:44] INFO root fetch - processPackages [up-fast-downward]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 17:35:44] INFO root fetch - processPackages [Trial2Vec]: Downloading https://files.pythonhosted.org/packages/d8/77/3917d553ab6d02b09d8f415977e8f124e8e89b4c6062184fb8bbbead56e6/Trial2Vec-0.1.0.tar.gz
+[2023-04-21 17:35:44] INFO root fetch - main [MainThread]: End processing [pyxll-jupyter]: success
+[2023-04-21 17:35:44] INFO root fetch - main [MainThread]: End processing [saxonche-stubs]: success
+[2023-04-21 17:35:44] INFO root fetch - processPackages [up-fast-downward]: Downloading https://files.pythonhosted.org/packages/ac/98/fe596ba59de3da5fdf551d0a2772d8b3ab600667885fcd9c18c0f73b0542/up_fast_downward-0.2.0-py3-none-win_amd64.whl
+[2023-04-21 17:35:44] INFO root fetch - processPackages [Trial2Vec]: executing diffoscope
+[2023-04-21 17:35:44] INFO root fetch - processPackages [Trial2Vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Trial2Vec-0.0.4.tar.gz tmp/Trial2Vec-0.1.0.tar.gz --markdown 20230421/T/Trial2Vec/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-04-21 17:35:44] INFO root fetch - processPackages [quarchCalibration]: Downloading https://files.pythonhosted.org/packages/da/fa/b6a0f2576e7b312e874a8876549937e363d411b0b2eb5f9eece970ea8f9f/quarchCalibration-1.1.3.dev3-py2.py3-none-any.whl
+[2023-04-21 17:35:44] INFO root fetch - main [MainThread]: End processing [czech-workdays-holidays]: success
+[2023-04-21 17:35:45] INFO root fetch - main [MainThread]: End processing [rtdip-sdk]: success
+[2023-04-21 17:35:45] INFO root fetch - processPackages [quarchCalibration]: Downloading https://files.pythonhosted.org/packages/1b/01/d9056706045530fe51818961b59dc294b8da3456305f6f30d31fb378f4ed/quarchCalibration-1.1.3.dev4-py2.py3-none-any.whl
+[2023-04-21 17:35:45] INFO root fetch - processPackages [up-fast-downward]: Downloading https://files.pythonhosted.org/packages/26/3c/bc7d38936080ef39340fc6f035175043e071444a5f0b2d86c9d64a17aaef/up_fast_downward-0.2.1-py3-none-win32.whl
+[2023-04-21 17:35:45] INFO root fetch - processPackages [quarchCalibration]: executing diffoscope
+[2023-04-21 17:35:45] INFO root fetch - processPackages [quarchCalibration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarchCalibration-1.1.3.dev3-py2.py3-none-any.whl.zip tmp/quarchCalibration-1.1.3.dev4-py2.py3-none-any.whl.zip --markdown 20230421/q/quarchCalibration/1.1.3.dev3-1.1.3.dev4/diff.md --exclude *.pyd
+[2023-04-21 17:35:45] INFO root fetch - processPackages [up-fast-downward]: executing diffoscope
+[2023-04-21 17:35:45] INFO root fetch - processPackages [up-fast-downward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_fast_downward-0.2.0-py3-none-win_amd64.whl.zip tmp/up_fast_downward-0.2.1-py3-none-win32.whl.zip --markdown 20230421/u/up-fast-downward/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 17:35:45] INFO root fetch - main [MainThread]: End processing [czech-workdays-holidays]: success
+[2023-04-21 17:35:45] INFO root fetch - main [MainThread]: End processing [oc-ocdm]: success
+[2023-04-21 17:35:46] INFO root fetch - main [MainThread]: End processing [Trial2Vec]: success
+[2023-04-21 17:35:46] INFO root fetch - main [MainThread]: End processing [quarchCalibration]: success
+[2023-04-21 17:35:46] INFO root fetch - main [MainThread]: End processing [up-fast-downward]: success
+[2023-04-21 17:35:46] INFO root fetch - main [MainThread]: Store serial: [17805220]
