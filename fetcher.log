@@ -8476,3 +8476,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 07:40:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-04-21 07:40:54] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-04-21 07:40:54] INFO root fetch - main [MainThread]: Store serial: [17799464]
+[2023-04-21 07:45:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799464]
+[2023-04-21 07:46:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-21 07:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monashspa
+[2023-04-21 07:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataverk-airflow
+[2023-04-21 07:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: har2jicase
+[2023-04-21 07:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datarec
+[2023-04-21 07:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: common-task-system-client
+[2023-04-21 07:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dea-tools
+[2023-04-21 07:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dea-tools
+[2023-04-21 07:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: je-api-testka
+[2023-04-21 07:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dknovautils
+[2023-04-21 07:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: discotoolkit
+[2023-04-21 07:46:03] INFO root fetch - processPackages [common-task-system-client]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-21 07:46:03] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev9] Old Version: [0.2.8.dev8]
+[2023-04-21 07:46:03] INFO root fetch - processPackages [monashspa]: New version: [1.9.9] Old Version: [1.9.4]
+[2023-04-21 07:46:03] WARNING root fetch - processPackages [datarec]: Skipping, unable to determine old version
+[2023-04-21 07:46:03] INFO root fetch - main [MainThread]: End processing [datarec] error
+[2023-04-21 07:46:03] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev9] Old Version: [0.2.8.dev8]
+[2023-04-21 07:46:03] INFO root fetch - processPackages [dknovautils]: New version: [0.0.3] Old Version: [0.0.27]
+[2023-04-21 07:46:03] WARNING root fetch - processPackages [discotoolkit]: Skipping, unable to determine old version
+[2023-04-21 07:46:03] INFO root fetch - main [MainThread]: End processing [discotoolkit] error
+[2023-04-21 07:46:03] INFO root fetch - processPackages [har2jicase]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 07:46:04] INFO root fetch - processPackages [je-api-testka]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 07:46:04] INFO root fetch - processPackages [dataverk-airflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-21 07:46:04] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-04-21 07:46:04] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev8.tar.gz tmp/dea-tools-0.2.8.dev9.tar.gz --markdown 20230421/d/dea-tools/0.2.8.dev8-0.2.8.dev9/diff.md --exclude *.pyd
+[2023-04-21 07:46:04] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-04-21 07:46:04] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev8.tar.gz tmp/dea-tools-0.2.8.dev9.tar.gz --markdown 20230421/d/dea-tools/0.2.8.dev8-0.2.8.dev9/diff.md --exclude *.pyd
+[2023-04-21 07:46:04] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/4b/1c/66795efb9cd7ee8ef053d7752389846d8a3addd7599b69ec38b85a2ae41d/dknovautils-0.0.27.tar.gz
+[2023-04-21 07:46:04] INFO root fetch - processPackages [har2jicase]: Downloading https://files.pythonhosted.org/packages/f8/fd/06fac932c61e01acff91bc8e6d599d58b61d0cffdcb5eff0bc7347aeeb2e/har2jicase-0.0.8.tar.gz
+[2023-04-21 07:46:04] INFO root fetch - processPackages [common-task-system-client]: Downloading https://files.pythonhosted.org/packages/5b/e9/8cadfc359a4fa98b1819c73abc4d092f4153889b90926c6d871998179bfa/common-task-system-client-1.1.1.tar.gz
+[2023-04-21 07:46:04] INFO root fetch - processPackages [har2jicase]: executing diffoscope
+[2023-04-21 07:46:04] INFO root fetch - processPackages [har2jicase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2jicase-0.0.7.tar.gz tmp/har2jicase-0.0.8.tar.gz --markdown 20230421/h/har2jicase/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 07:46:04] INFO root fetch - processPackages [monashspa]: executing diffoscope
+[2023-04-21 07:46:04] INFO root fetch - processPackages [monashspa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monashspa-1.9.4.tar.gz tmp/monashspa-1.9.9.tar.gz --markdown 20230421/m/monashspa/1.9.4-1.9.9/diff.md --exclude *.pyd
+[2023-04-21 07:46:04] INFO root fetch - processPackages [dataverk-airflow]: executing diffoscope
+[2023-04-21 07:46:04] INFO root fetch - processPackages [dataverk-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverk-airflow-0.4.8.tar.gz tmp/dataverk-airflow-0.4.9.tar.gz --markdown 20230421/d/dataverk-airflow/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-21 07:46:04] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-04-21 07:46:04] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.0.27.tar.gz tmp/dknovautils-0.0.3.tar.gz --markdown 20230421/d/dknovautils/0.0.27-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 07:46:04] INFO root fetch - processPackages [je-api-testka]: executing diffoscope
+[2023-04-21 07:46:04] INFO root fetch - processPackages [je-api-testka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka-0.0.98.tar.gz tmp/je_api_testka-0.0.99.tar.gz --markdown 20230421/j/je-api-testka/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 07:46:04] INFO root fetch - processPackages [common-task-system-client]: executing diffoscope
+[2023-04-21 07:46:04] INFO root fetch - processPackages [common-task-system-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-task-system-client-1.1.0.tar.gz tmp/common-task-system-client-1.1.1.tar.gz --markdown 20230421/c/common-task-system-client/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-21 07:46:05] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-04-21 07:46:05] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-04-21 07:46:06] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
+[2023-04-21 07:46:06] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-04-21 07:46:06] INFO root fetch - main [MainThread]: End processing [har2jicase]: success
+[2023-04-21 07:46:06] INFO root fetch - main [MainThread]: End processing [je-api-testka]: success
+[2023-04-21 07:46:06] INFO root fetch - main [MainThread]: End processing [common-task-system-client]: success
+[2023-04-21 07:46:06] INFO root fetch - main [MainThread]: End processing [monashspa]: success
+[2023-04-21 07:46:06] INFO root fetch - main [MainThread]: Store serial: [17799496]
