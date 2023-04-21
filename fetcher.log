@@ -8985,3 +8985,31 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 08:28:51] INFO root fetch - main [MainThread]: End processing [waveforms]: success
 [2023-04-21 08:28:53] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-04-21 08:28:53] INFO root fetch - main [MainThread]: Store serial: [17799785]
+[2023-04-21 08:33:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799785]
+[2023-04-21 08:34:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-21 08:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezyquant
+[2023-04-21 08:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hti-index
+[2023-04-21 08:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mcts-solver
+[2023-04-21 08:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irust_kernel
+[2023-04-21 08:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whisper-mic
+[2023-04-21 08:34:02] INFO root fetch - processPackages [hti-index]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 08:34:02] WARNING root fetch - processPackages [irust_kernel]: Skipping, unable to determine old version
+[2023-04-21 08:34:02] INFO root fetch - processPackages [mcts-solver]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 08:34:02] INFO root fetch - main [MainThread]: End processing [irust_kernel] error
+[2023-04-21 08:34:02] INFO root fetch - processPackages [ezyquant]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-04-21 08:34:02] INFO root fetch - processPackages [hti-index]: Downloading https://files.pythonhosted.org/packages/c6/91/6537b7d5dec18c36cac8682eea8d834ccc72137fa6cc9ff51326d74dcf53/hti_index-0.1.2.tar.gz
+[2023-04-21 08:34:02] INFO root fetch - processPackages [mcts-solver]: Downloading https://files.pythonhosted.org/packages/f0/a8/7901436e20656d883a6ad0da1239ee0128d49d73e55d0935e0026209800c/mcts_solver-0.0.3.tar.gz
+[2023-04-21 08:34:02] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/ac/ff/eca2495652082b820c7bfa4938f1dd0a4aa483f29e7ec0cc1a2a4651658d/ezyquant-0.7.0.tar.gz
+[2023-04-21 08:34:02] WARNING root fetch - processPackages [whisper-mic]: Skipping, unable to determine old version
+[2023-04-21 08:34:02] INFO root fetch - main [MainThread]: End processing [whisper-mic] error
+[2023-04-21 08:34:02] INFO root fetch - processPackages [hti-index]: executing diffoscope
+[2023-04-21 08:34:02] INFO root fetch - processPackages [hti-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hti_index-0.1.1.tar.gz tmp/hti_index-0.1.2.tar.gz --markdown 20230421/h/hti-index/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 08:34:02] INFO root fetch - processPackages [ezyquant]: executing diffoscope
+[2023-04-21 08:34:02] INFO root fetch - processPackages [ezyquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezyquant-0.6.2.tar.gz tmp/ezyquant-0.7.0.tar.gz --markdown 20230421/e/ezyquant/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-04-21 08:34:03] INFO root fetch - processPackages [mcts-solver]: Downloading https://files.pythonhosted.org/packages/a6/3f/db5cf134ba36edfc95ce9f41b7034aec16d7760ec1a2046ac9f87f08dfd9/mcts_solver-0.0.4.tar.gz
+[2023-04-21 08:34:03] INFO root fetch - processPackages [mcts-solver]: executing diffoscope
+[2023-04-21 08:34:03] INFO root fetch - processPackages [mcts-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcts_solver-0.0.3.tar.gz tmp/mcts_solver-0.0.4.tar.gz --markdown 20230421/m/mcts-solver/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 08:34:03] INFO root fetch - main [MainThread]: End processing [hti-index]: success
+[2023-04-21 08:34:04] INFO root fetch - main [MainThread]: End processing [mcts-solver]: success
+[2023-04-21 08:34:04] INFO root fetch - main [MainThread]: End processing [ezyquant]: success
+[2023-04-21 08:34:04] INFO root fetch - main [MainThread]: Store serial: [17799803]
