@@ -22917,3 +22917,148 @@ EOFError: EOF read where object expected
 [2023-04-21 22:30:51] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-04-21 22:30:58] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-04-21 22:30:58] INFO root fetch - main [MainThread]: Store serial: [17808448]
+[2023-04-21 22:36:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808448]
+[2023-04-21 22:36:07] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-21 22:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-engine-terraform
+[2023-04-21 22:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-04-21 22:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecspylibs
+[2023-04-21 22:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opvious
+[2023-04-21 22:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cakemail-openapi
+[2023-04-21 22:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecscmdb
+[2023-04-21 22:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: naturalspeech2-pytorch
+[2023-04-21 22:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyterlab-optumi
+[2023-04-21 22:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: optumi-api
+[2023-04-21 22:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-service-client
+[2023-04-21 22:36:08] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-21 22:36:08] WARNING root fetch - processPackages [naturalspeech2-pytorch]: Skipping, unable to determine old version
+[2023-04-21 22:36:08] INFO root fetch - processPackages [naturalspeech2-pytorch]: Start processing: assemblyline-service-server
+[2023-04-21 22:36:08] INFO root fetch - main [MainThread]: End processing [naturalspeech2-pytorch] error
+[2023-04-21 22:36:08] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-21 22:36:08] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 22:36:08] INFO root fetch - processPackages [ecspylibs]: New version: [1.1.32] Old Version: [1.1.31]
+[2023-04-21 22:36:08] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-04-21 22:36:08] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-21 22:36:08] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230421/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 22:36:08] INFO root fetch - processPackages [cakemail-openapi]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-21 22:36:08] INFO root fetch - processPackages [optumi-api]: New version: [3.15.6] Old Version: [3.15.5]
+[2023-04-21 22:36:08] INFO root fetch - processPackages [jupyterlab-optumi]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-04-21 22:36:08] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-21 22:36:08] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230421/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-21 22:36:08] INFO root fetch - processPackages [ecscmdb]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-04-21 22:36:08] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 22:36:08] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-04-21 22:36:08] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 22:36:08] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-04-21 22:36:08] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 22:36:08] INFO root fetch - processPackages [ecspylibs]: Downloading https://files.pythonhosted.org/packages/1e/22/8e02ee159547bc743be36db7077c3e526b967b25677a8d9dc729ac462561/ecspylibs-1.1.31.tar.gz
+[2023-04-21 22:36:08] INFO root fetch - processPackages [cakemail-openapi]: Downloading https://files.pythonhosted.org/packages/cd/3b/a6fc8d77fc20fba32eda3b8a8f75aa525d9af49f7201664a91c4c9576e8c/cakemail-openapi-1.9.0.tar.gz
+[2023-04-21 22:36:08] INFO root fetch - processPackages [ecscmdb]: Downloading https://files.pythonhosted.org/packages/ac/5b/e0e8de7c607db49f139d11886fdd41bbd75971315f4d8b2671d3db3c0ce4/ecscmdb-1.7.6.tar.gz
+[2023-04-21 22:36:08] INFO root fetch - processPackages [optumi-api]: Downloading https://files.pythonhosted.org/packages/86/ba/4645e9f1cacccba24ab572af5f4b5449e1e8100c181760723b755aed6b6c/optumi-api-3.15.5.tar.gz
+[2023-04-21 22:36:08] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/a7/8e/6085051d3edca1b7c81c1f3d4d29c79a216a8ea2dd87ead0913ef5c0cc68/jupyterlab-optumi-3.9.8.tar.gz
+[2023-04-21 22:36:08] INFO root fetch - processPackages [ecspylibs]: Downloading https://files.pythonhosted.org/packages/40/a2/2606c772e83643a6770049db8744d50955e3d4276f1856c29954c3d2d232/ecspylibs-1.1.32.tar.gz
+[2023-04-21 22:36:08] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-04-21 22:36:08] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.0.7-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230421/x/xia-engine-terraform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 22:36:08] INFO root fetch - processPackages [ecscmdb]: Downloading https://files.pythonhosted.org/packages/b8/60/1f9d985d24e20eb3d663e193399426cc06e1483f0fc3d3ec708ae755150f/ecscmdb-1.7.7.tar.gz
+[2023-04-21 22:36:08] INFO root fetch - processPackages [ecspylibs]: executing diffoscope
+[2023-04-21 22:36:08] INFO root fetch - processPackages [ecspylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecspylibs-1.1.31.tar.gz tmp/ecspylibs-1.1.32.tar.gz --markdown 20230421/e/ecspylibs/1.1.31-1.1.32/diff.md --exclude *.pyd
+[2023-04-21 22:36:08] INFO root fetch - processPackages [cakemail-openapi]: Downloading https://files.pythonhosted.org/packages/45/d9/c3ad2d9e234d6098c7cbcacede72f1e3e8c641582303a883cf3b57524a46/cakemail-openapi-1.9.1.tar.gz
+[2023-04-21 22:36:08] INFO root fetch - processPackages [optumi-api]: Downloading https://files.pythonhosted.org/packages/57/20/15c5c8fe67e50971a132fc173a3012997b24b2b6ec38947c2d6188f6cce5/optumi-api-3.15.6.tar.gz
+[2023-04-21 22:36:08] INFO root fetch - processPackages [ecscmdb]: executing diffoscope
+[2023-04-21 22:36:08] INFO root fetch - processPackages [ecscmdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecscmdb-1.7.6.tar.gz tmp/ecscmdb-1.7.7.tar.gz --markdown 20230421/e/ecscmdb/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-04-21 22:36:08] INFO root fetch - processPackages [cakemail-openapi]: executing diffoscope
+[2023-04-21 22:36:08] INFO root fetch - processPackages [cakemail-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cakemail-openapi-1.9.0.tar.gz tmp/cakemail-openapi-1.9.1.tar.gz --markdown 20230421/c/cakemail-openapi/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-21 22:36:08] INFO root fetch - processPackages [optumi-api]: executing diffoscope
+[2023-04-21 22:36:08] INFO root fetch - processPackages [optumi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optumi-api-3.15.5.tar.gz tmp/optumi-api-3.15.6.tar.gz --markdown 20230421/o/optumi-api/3.15.5-3.15.6/diff.md --exclude *.pyd
+[2023-04-21 22:36:09] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline-ui
+[2023-04-21 22:36:09] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-04-21 22:36:09] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 22:36:09] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline-v4-service
+[2023-04-21 22:36:09] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-04-21 22:36:09] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 22:36:09] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-04-21 22:36:09] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 22:36:10] INFO root fetch - processPackages [opvious]: Start processing: assemblyline
+[2023-04-21 22:36:10] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-04-21 22:36:10] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-04-21 22:36:10] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 22:36:10] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 22:36:10] INFO root fetch - processPackages [xia-engine-terraform]: Start processing: assemblyline-core
+[2023-04-21 22:36:10] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-04-21 22:36:10] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 22:36:10] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-04-21 22:36:10] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230421/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 22:36:10] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-04-21 22:36:10] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230421/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 22:36:10] INFO root fetch - processPackages [ecspylibs]: Start processing: OncoAMBER
+[2023-04-21 22:36:10] INFO root fetch - main [MainThread]: End processing [ecspylibs]: success
+[2023-04-21 22:36:10] INFO root fetch - processPackages [OncoAMBER]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 22:36:10] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-04-21 22:36:10] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.0.8.tar.gz tmp/OncoAMBER-1.0.9.tar.gz --markdown 20230421/O/OncoAMBER/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 22:36:10] INFO root fetch - processPackages [optumi-api]: Start processing: robotcode-analyze
+[2023-04-21 22:36:10] INFO root fetch - main [MainThread]: End processing [optumi-api]: success
+[2023-04-21 22:36:10] INFO root fetch - processPackages [ecscmdb]: Start processing: robotcode-core
+[2023-04-21 22:36:10] INFO root fetch - main [MainThread]: End processing [ecscmdb]: success
+[2023-04-21 22:36:10] INFO root fetch - processPackages [robotcode-analyze]: New version: [0.34.1] Old Version: [0.33.0]
+[2023-04-21 22:36:10] INFO root fetch - processPackages [robotcode-core]: New version: [0.34.1] Old Version: [0.33.0]
+[2023-04-21 22:36:11] INFO root fetch - processPackages [robotcode-core]: Downloading https://files.pythonhosted.org/packages/40/f6/caeb5b4f8c7e577f538777942876cd19c4825d289249797a68e6d804f829/robotcode_core-0.33.0.tar.gz
+[2023-04-21 22:36:11] INFO root fetch - processPackages [robotcode-analyze]: Downloading https://files.pythonhosted.org/packages/42/b4/454175bfc3804cbe81e3ca89a819e7d7d0cff9804b8aeb322da043be2b77/robotcode_analyze-0.33.0.tar.gz
+[2023-04-21 22:36:11] INFO root fetch - processPackages [robotcode-core]: Downloading https://files.pythonhosted.org/packages/f4/15/8b84c5fde445e54470b338c779dd81034c9aebecebd6f8e97fa3a3f0ed7f/robotcode_core-0.34.1.tar.gz
+[2023-04-21 22:36:11] INFO root fetch - processPackages [robotcode-analyze]: Downloading https://files.pythonhosted.org/packages/b9/90/03d002a583062a66d1d7111b1db9fceb84dd03bc9b02410e4a9c2a052f0b/robotcode_analyze-0.34.1.tar.gz
+[2023-04-21 22:36:11] INFO root fetch - processPackages [robotcode-core]: executing diffoscope
+[2023-04-21 22:36:11] INFO root fetch - processPackages [robotcode-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_core-0.33.0.tar.gz tmp/robotcode_core-0.34.1.tar.gz --markdown 20230421/r/robotcode-core/0.33.0-0.34.1/diff.md --exclude *.pyd
+[2023-04-21 22:36:11] INFO root fetch - processPackages [robotcode-analyze]: executing diffoscope
+[2023-04-21 22:36:11] INFO root fetch - processPackages [robotcode-analyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_analyze-0.33.0.tar.gz tmp/robotcode_analyze-0.34.1.tar.gz --markdown 20230421/r/robotcode-analyze/0.33.0-0.34.1/diff.md --exclude *.pyd
+[2023-04-21 22:36:12] INFO root fetch - processPackages [cakemail-openapi]: Start processing: robotcode-jsonrpc2
+[2023-04-21 22:36:12] INFO root fetch - main [MainThread]: End processing [cakemail-openapi]: success
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-jsonrpc2]: New version: [0.34.1] Old Version: [0.33.0]
+[2023-04-21 22:36:12] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/97/75/ce93a28e75bfb407dedc53ae5f247a368eb93179c14c16bca8a11218f211/jupyterlab-optumi-3.9.9.tar.gz
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-jsonrpc2]: Downloading https://files.pythonhosted.org/packages/4c/ce/9c848daceb35b5e2173317064aa410f78a2a04045536191a85399624ef1f/robotcode_jsonrpc2-0.33.0.tar.gz
+[2023-04-21 22:36:12] INFO root fetch - processPackages [coiled]: Start processing: cakemail
+[2023-04-21 22:36:12] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-21 22:36:12] INFO root fetch - processPackages [assemblyline-ui]: Start processing: robotcode-modifiers
+[2023-04-21 22:36:12] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-04-21 22:36:12] INFO root fetch - processPackages [assemblyline-core]: Start processing: robotcode-robot
+[2023-04-21 22:36:12] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-04-21 22:36:12] INFO root fetch - processPackages [OncoAMBER]: Start processing: robotcode-debugger
+[2023-04-21 22:36:12] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-04-21 22:36:12] INFO root fetch - processPackages [cakemail]: New version: [1.9.0] Old Version: [1.6.4]
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-modifiers]: New version: [0.34.1] Old Version: [0.33.0]
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-robot]: New version: [0.34.1] Old Version: [0.33.0]
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-debugger]: New version: [0.34.1] Old Version: [0.33.0]
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-jsonrpc2]: Downloading https://files.pythonhosted.org/packages/0a/50/2dc19cc9d95df66c67a38b0a5961af07cccfb722e8479a504fb4dcdf1236/robotcode_jsonrpc2-0.34.1-py3-none-any.whl
+[2023-04-21 22:36:12] INFO root fetch - processPackages [cakemail]: Downloading https://files.pythonhosted.org/packages/64/d4/4fd3179c03563c253e94a3eb85bfb265ea34ddf7a77a1c34d43812b3cb3f/cakemail-1.6.4.tar.gz
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/cc/6b/8f950655d635d84207115267589ae0f7f39be3d54ba52858fed10f0f0fbd/robotcode_modifiers-0.33.0.tar.gz
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-robot]: Downloading https://files.pythonhosted.org/packages/dc/28/879855a8768981ff99f26c7eb196faf05ae6ea063e2f4918d3ead5e9a486/robotcode_robot-0.33.0.tar.gz
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-debugger]: Downloading https://files.pythonhosted.org/packages/1a/f3/d99edcf20b131760c743919249a713dc878bfdfebc7072e45de9dbf5c18d/robotcode_debugger-0.33.0.tar.gz
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-jsonrpc2]: executing diffoscope
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-jsonrpc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_jsonrpc2-0.33.0.tar.gz tmp/robotcode_jsonrpc2-0.34.1-py3-none-any.whl.zip --markdown 20230421/r/robotcode-jsonrpc2/0.33.0-0.34.1/diff.md --exclude *.pyd
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-analyze]: Start processing: robotcode
+[2023-04-21 22:36:12] INFO root fetch - main [MainThread]: End processing [robotcode-analyze]: success
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/4c/d3/c7ae66cdd385b90bfecf6583d3721aa7d4aaf180617292d6e6a882554240/robotcode_modifiers-0.34.1.tar.gz
+[2023-04-21 22:36:12] INFO root fetch - processPackages [robotcode]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-21 22:36:12] INFO root fetch - main [MainThread]: End processing [robotcode-core]: success
+[2023-04-21 22:36:13] INFO root fetch - processPackages [robotcode-robot]: Downloading https://files.pythonhosted.org/packages/bf/0f/6fa3ad6a539fad8eef46a92494976bf5e5ec775599238deeb3bd1e3336f4/robotcode_robot-0.34.1.tar.gz
+[2023-04-21 22:36:13] INFO root fetch - processPackages [robotcode]: executing diffoscope
+[2023-04-21 22:36:13] INFO root fetch - processPackages [robotcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode-0.9.5.tar.gz tmp/robotcode-0.9.6.tar.gz --markdown 20230421/r/robotcode/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 22:36:13] INFO root fetch - processPackages [cakemail]: Downloading https://files.pythonhosted.org/packages/14/98/d94d918b4eb05b18c826bc5542d3e481ec8c5fc3ec9465b621de0cfe17ed/cakemail-1.9.0.tar.gz
+[2023-04-21 22:36:13] INFO root fetch - processPackages [robotcode-debugger]: Downloading https://files.pythonhosted.org/packages/14/97/a80dcb2d7d5f5cd421c0a5e9136651721ef03bbc5379b6de1756f1b36d7b/robotcode_debugger-0.34.1.tar.gz
+[2023-04-21 22:36:13] INFO root fetch - processPackages [robotcode-modifiers]: executing diffoscope
+[2023-04-21 22:36:13] INFO root fetch - processPackages [robotcode-modifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_modifiers-0.33.0.tar.gz tmp/robotcode_modifiers-0.34.1.tar.gz --markdown 20230421/r/robotcode-modifiers/0.33.0-0.34.1/diff.md --exclude *.pyd
+[2023-04-21 22:36:13] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-04-21 22:36:13] INFO root fetch - processPackages [robotcode-robot]: executing diffoscope
+[2023-04-21 22:36:13] INFO root fetch - processPackages [robotcode-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_robot-0.33.0.tar.gz tmp/robotcode_robot-0.34.1.tar.gz --markdown 20230421/r/robotcode-robot/0.33.0-0.34.1/diff.md --exclude *.pyd
+[2023-04-21 22:36:13] INFO root fetch - processPackages [cakemail]: executing diffoscope
+[2023-04-21 22:36:13] INFO root fetch - processPackages [cakemail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cakemail-1.6.4.tar.gz tmp/cakemail-1.9.0.tar.gz --markdown 20230421/c/cakemail/1.6.4-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 22:36:13] INFO root fetch - processPackages [robotcode-debugger]: executing diffoscope
+[2023-04-21 22:36:13] INFO root fetch - processPackages [robotcode-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_debugger-0.33.0.tar.gz tmp/robotcode_debugger-0.34.1.tar.gz --markdown 20230421/r/robotcode-debugger/0.33.0-0.34.1/diff.md --exclude *.pyd
+[2023-04-21 22:36:13] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-04-21 22:36:13] INFO root fetch - processPackages [jupyterlab-optumi]: executing diffoscope
+[2023-04-21 22:36:13] INFO root fetch - processPackages [jupyterlab-optumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-optumi-3.9.8.tar.gz tmp/jupyterlab-optumi-3.9.9.tar.gz --markdown 20230421/j/jupyterlab-optumi/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-04-21 22:36:14] INFO root fetch - main [MainThread]: End processing [robotcode-jsonrpc2]: success
+[2023-04-21 22:36:14] INFO root fetch - main [MainThread]: End processing [robotcode-modifiers]: success
+[2023-04-21 22:36:14] INFO root fetch - main [MainThread]: End processing [robotcode-robot]: success
+[2023-04-21 22:36:14] INFO root fetch - main [MainThread]: End processing [cakemail]: success
+[2023-04-21 22:36:14] INFO root fetch - main [MainThread]: End processing [robotcode-debugger]: success
+[2023-04-21 22:36:15] INFO root fetch - main [MainThread]: End processing [robotcode]: success
+[2023-04-21 22:36:25] INFO root fetch - main [MainThread]: End processing [jupyterlab-optumi]: success
+[2023-04-21 22:36:25] INFO root fetch - main [MainThread]: Store serial: [17808513]
