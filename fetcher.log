@@ -7871,3 +7871,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 06:40:31] INFO root fetch - main [MainThread]: End processing [replit-bot]: success
 [2023-04-21 06:40:49] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-04-21 06:40:49] INFO root fetch - main [MainThread]: Store serial: [17799081]
+[2023-04-21 06:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799081]
+[2023-04-21 06:45:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 06:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqs-workers
+[2023-04-21 06:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gama-config
+[2023-04-21 06:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gama-cli
+[2023-04-21 06:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ifunnygifmaker
+[2023-04-21 06:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: har2jicase
+[2023-04-21 06:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-rename
+[2023-04-21 06:45:58] INFO root fetch - processPackages [nonebot-plugin-rename]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-04-21 06:45:58] INFO root fetch - processPackages [sqs-workers]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-21 06:45:58] INFO root fetch - processPackages [har2jicase]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 06:45:58] INFO root fetch - processPackages [gama-config]: New version: [1.9.0] Old Version: [1.11.2]
+[2023-04-21 06:45:58] INFO root fetch - processPackages [gama-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-21 06:45:58] INFO root fetch - processPackages [ifunnygifmaker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 06:45:58] INFO root fetch - processPackages [gama-cli]: executing diffoscope
+[2023-04-21 06:45:58] INFO root fetch - processPackages [gama-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_cli-1.8.0.tar.gz tmp/gama_cli-1.9.0.tar.gz --markdown 20230421/g/gama-cli/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 06:45:58] INFO root fetch - processPackages [gama-config]: Downloading https://files.pythonhosted.org/packages/8a/64/279484e667a6e0aae3d37f4c4d46706b93af73dbda8a9b21f71baa1f5030/gama_config-1.11.2.tar.gz
+[2023-04-21 06:45:58] INFO root fetch - processPackages [sqs-workers]: Downloading https://files.pythonhosted.org/packages/b8/f1/fe82a649ef2db945dcdb2d3ffff631d428153670f3fffac72793928c5e0e/sqs-workers-0.5.8.tar.gz
+[2023-04-21 06:45:58] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/6f/fb/bf86b0150bbc3a5ed8d41ffa5fda73dcba9f90029e4f8dfb9c220ed89f3b/nonebot_plugin_rename-1.0.3.tar.gz
+[2023-04-21 06:45:58] INFO root fetch - processPackages [har2jicase]: Downloading https://files.pythonhosted.org/packages/dc/ec/b2d5ea4430b83eaf634e0b78fcfa0f9f319367aae72990378654f17587e4/har2jicase-0.0.3.tar.gz
+[2023-04-21 06:45:58] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/d8/88/fc67cc335ab46e52e81ab4d5bf4d70111038fb55bb683002f8dc6c8a971f/ifunnygifmaker-0.1.9.tar.gz
+[2023-04-21 06:45:58] INFO root fetch - processPackages [har2jicase]: executing diffoscope
+[2023-04-21 06:45:58] INFO root fetch - processPackages [har2jicase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2jicase-0.0.2.tar.gz tmp/har2jicase-0.0.3.tar.gz --markdown 20230421/h/har2jicase/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 06:45:58] INFO root fetch - processPackages [ifunnygifmaker]: executing diffoscope
+[2023-04-21 06:45:58] INFO root fetch - processPackages [ifunnygifmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifunnygifmaker-0.1.8.tar.gz tmp/ifunnygifmaker-0.1.9.tar.gz --markdown 20230421/i/ifunnygifmaker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 06:45:58] INFO root fetch - processPackages [gama-config]: executing diffoscope
+[2023-04-21 06:45:58] INFO root fetch - processPackages [gama-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_config-1.11.2.tar.gz tmp/gama_config-1.9.0.tar.gz --markdown 20230421/g/gama-config/1.11.2-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 06:45:58] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/1d/57/adc7981f044177f834b26958b0f57aea20f22ab1bdb8fee96448ab26286a/nonebot_plugin_rename-1.1.0.tar.gz
+[2023-04-21 06:45:58] INFO root fetch - processPackages [nonebot-plugin-rename]: executing diffoscope
+[2023-04-21 06:45:58] INFO root fetch - processPackages [nonebot-plugin-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rename-1.0.3.tar.gz tmp/nonebot_plugin_rename-1.1.0.tar.gz --markdown 20230421/n/nonebot-plugin-rename/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-04-21 06:45:59] INFO root fetch - processPackages [sqs-workers]: Downloading https://files.pythonhosted.org/packages/66/23/a599b9b5c63a9761e6e8b36cbc70f9b8908529e83ca8db103cbf2025a03e/sqs_workers-0.5.9.tar.gz
+[2023-04-21 06:45:59] INFO root fetch - processPackages [sqs-workers]: executing diffoscope
+[2023-04-21 06:45:59] INFO root fetch - processPackages [sqs-workers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqs-workers-0.5.8.tar.gz tmp/sqs_workers-0.5.9.tar.gz --markdown 20230421/s/sqs-workers/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-21 06:45:59] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker]: success
+[2023-04-21 06:46:00] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
+[2023-04-21 06:46:00] INFO root fetch - main [MainThread]: End processing [gama-config]: success
+[2023-04-21 06:46:00] INFO root fetch - main [MainThread]: End processing [har2jicase]: success
+[2023-04-21 06:46:00] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
+[2023-04-21 06:46:00] INFO root fetch - main [MainThread]: End processing [sqs-workers]: success
+[2023-04-21 06:46:00] INFO root fetch - main [MainThread]: Store serial: [17799099]
