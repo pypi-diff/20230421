@@ -14856,3 +14856,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 14:54:35] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-21 14:54:35] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
 [2023-04-21 14:54:35] INFO root fetch - main [MainThread]: Store serial: [17803245]
+[2023-04-21 14:59:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17803245]
+[2023-04-21 14:59:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 14:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultima-scraper-api
+[2023-04-21 14:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-l4d2-server
+[2023-04-21 14:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raga-cli
+[2023-04-21 14:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Pyrogram
+[2023-04-21 14:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syned
+[2023-04-21 14:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easytorch
+[2023-04-21 14:59:44] INFO root fetch - processPackages [easytorch]: New version: [3.7.3] Old Version: [3.7.2]
+[2023-04-21 14:59:44] INFO root fetch - processPackages [ultima-scraper-api]: New version: [1.0.0] Old Version: [0.1.4]
+[2023-04-21 14:59:44] INFO root fetch - processPackages [raga-cli]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 14:59:44] INFO root fetch - processPackages [Pyrogram]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-21 14:59:44] INFO root fetch - processPackages [syned]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 14:59:44] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-21 14:59:44] INFO root fetch - processPackages [ultima-scraper-api]: executing diffoscope
+[2023-04-21 14:59:44] INFO root fetch - processPackages [ultima-scraper-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_api-0.1.4.tar.gz tmp/ultima_scraper_api-1.0.0.tar.gz --markdown 20230421/u/ultima-scraper-api/0.1.4-1.0.0/diff.md --exclude *.pyd
+[2023-04-21 14:59:44] INFO root fetch - processPackages [easytorch]: executing diffoscope
+[2023-04-21 14:59:44] INFO root fetch - processPackages [easytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytorch-3.7.2.tar.gz tmp/easytorch-3.7.3.tar.gz --markdown 20230421/e/easytorch/3.7.2-3.7.3/diff.md --exclude *.pyd
+[2023-04-21 14:59:44] INFO root fetch - processPackages [Pyrogram]: Downloading https://files.pythonhosted.org/packages/29/76/9386cc38278670701fc500258db11389245f7412149eb4ebd069dafbdfe7/Pyrogram-2.0.98.tar.gz
+[2023-04-21 14:59:44] INFO root fetch - processPackages [syned]: Downloading https://files.pythonhosted.org/packages/d2/7e/ae0f62be13b329bdd8d2d40211e4d98333ce52e2582f53e4c67b44213911/syned-1.0.8.tar.gz
+[2023-04-21 14:59:45] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/ff/82/b0c713e59b6c1ff31663fd951375baa80e17481b7d805c6190a29c4d4f83/raga-cli-0.0.7.tar.gz
+[2023-04-21 14:59:45] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/04/63/c089d8a0a18500c7c12a1934b584cacfc69de16d98bbeeb0ef37ead8e981/nonebot_plugin_l4d2_server-0.4.9.tar.gz
+[2023-04-21 14:59:45] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-04-21 14:59:45] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.0.6.tar.gz tmp/raga-cli-0.0.7.tar.gz --markdown 20230421/r/raga-cli/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 14:59:45] INFO root fetch - processPackages [syned]: Downloading https://files.pythonhosted.org/packages/eb/0d/d41e7f8c6c4c98e203af7b77ea17ed2d29714c53f004bfa9af8308bc9dd4/syned-1.0.9.tar.gz
+[2023-04-21 14:59:45] INFO root fetch - processPackages [Pyrogram]: Downloading https://files.pythonhosted.org/packages/b7/3b/21bca7d03c590017851d1e2d8c7e0c691f065efd33429bef006e1b846c53/Pyrogram-2.0.99.tar.gz
+[2023-04-21 14:59:45] INFO root fetch - processPackages [syned]: executing diffoscope
+[2023-04-21 14:59:45] INFO root fetch - processPackages [syned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syned-1.0.8.tar.gz tmp/syned-1.0.9.tar.gz --markdown 20230421/s/syned/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 14:59:45] INFO root fetch - processPackages [Pyrogram]: executing diffoscope
+[2023-04-21 14:59:45] INFO root fetch - processPackages [Pyrogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyrogram-2.0.98.tar.gz tmp/Pyrogram-2.0.99.tar.gz --markdown 20230421/P/Pyrogram/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-21 14:59:45] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-04-21 14:59:45] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.4.8.tar.gz tmp/nonebot_plugin_l4d2_server-0.4.9.tar.gz --markdown 20230421/n/nonebot-plugin-l4d2-server/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-21 14:59:46] INFO root fetch - main [MainThread]: End processing [easytorch]: success
+[2023-04-21 14:59:46] INFO root fetch - main [MainThread]: End processing [ultima-scraper-api]: success
+[2023-04-21 14:59:46] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-04-21 14:59:46] INFO root fetch - main [MainThread]: End processing [syned]: success
+[2023-04-21 14:59:49] INFO root fetch - main [MainThread]: End processing [Pyrogram]: success
+[2023-04-21 15:00:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-04-21 15:00:01] INFO root fetch - main [MainThread]: Store serial: [17803266]
