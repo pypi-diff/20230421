@@ -10271,3 +10271,106 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 10:03:49] INFO root fetch - main [MainThread]: End processing [empiric-network]: success
 [2023-04-21 10:03:50] INFO root fetch - main [MainThread]: End processing [sqladmin]: success
 [2023-04-21 10:03:50] INFO root fetch - main [MainThread]: Store serial: [17800480]
+[2023-04-21 10:08:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800480]
+[2023-04-21 10:08:59] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-macos
+[2023-04-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: canopy
+[2023-04-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grimoire-elk
+[2023-04-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sharedmap
+[2023-04-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-stock-picking-volume
+[2023-04-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emmett-rest
+[2023-04-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hotsos
+[2023-04-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phenospy
+[2023-04-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asyncio-simple-http-server
+[2023-04-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qsolve
+[2023-04-21 10:08:59] WARNING root fetch - processPackages [odoo14-addon-stock-picking-volume]: Skipping, unable to determine old version
+[2023-04-21 10:08:59] INFO root fetch - processPackages [canopy]: New version: [8.9] Old Version: [8.8]
+[2023-04-21 10:08:59] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume]: Start processing: tendril-utils-www
+[2023-04-21 10:08:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-volume] error
+[2023-04-21 10:08:59] INFO root fetch - processPackages [sharedmap]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-21 10:08:59] WARNING root fetch - processPackages [asyncio-simple-http-server]: Skipping, unable to determine old version
+[2023-04-21 10:08:59] INFO root fetch - processPackages [phenospy]: New version: [0.17] Old Version: [0.16]
+[2023-04-21 10:08:59] INFO root fetch - processPackages [asyncio-simple-http-server]: Start processing: lovehim
+[2023-04-21 10:08:59] INFO root fetch - processPackages [qsolve]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-21 10:08:59] INFO root fetch - main [MainThread]: End processing [asyncio-simple-http-server] error
+[2023-04-21 10:08:59] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-04-21 10:08:59] INFO root fetch - processPackages [emmett-rest]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-04-21 10:08:59] INFO root fetch - processPackages [grimoire-elk]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-21 10:08:59] INFO root fetch - processPackages [tendril-utils-www]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-21 10:08:59] INFO root fetch - processPackages [lovehim]: New version: [0.54] Old Version: [0.53]
+[2023-04-21 10:08:59] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.13.0.dev20230421] Old Version: [2.13.0.dev20230420]
+[2023-04-21 10:08:59] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/6e/6b/26e2cafa568bb7a51ea5d1be8c64dd391ab1aa2cd01232155f52ad48b67c/grimoire-elk-0.98.0.tar.gz
+[2023-04-21 10:08:59] INFO root fetch - processPackages [canopy]: Downloading https://files.pythonhosted.org/packages/88/fa/150f11042d557f49729defc521ca71482bf5c5ff50f7fde71d4059852de3/canopy-8.8.tar.gz
+[2023-04-21 10:08:59] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/f6/82/8edcfb357dc2528573442d2dcb558accfdbda7326049febefd11aa6c8248/lovehim-0.53.tar.gz
+[2023-04-21 10:08:59] INFO root fetch - processPackages [sharedmap]: Downloading https://files.pythonhosted.org/packages/f2/46/b572092b2a6c0fdf4a551b63cb33930060a8c5a24a73d0847fa014dad16f/sharedmap-1.0.2.tar.gz
+[2023-04-21 10:08:59] INFO root fetch - processPackages [qsolve]: Downloading https://files.pythonhosted.org/packages/9d/9f/cc2c9ea4bdfa1b32947f89fd161f68bf0ed018cfb978fe4f6d853ca31c72/qsolve-0.2.2.tar.gz
+[2023-04-21 10:08:59] INFO root fetch - processPackages [sharedmap]: executing diffoscope
+[2023-04-21 10:08:59] INFO root fetch - processPackages [sharedmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharedmap-1.0.1.tar.gz tmp/sharedmap-1.0.2.tar.gz --markdown 20230421/s/sharedmap/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-21 10:08:59] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/cd/83/80098988923cf269ba57be503416a55e17b81265d96a14097177010bcf22/tf_nightly_macos-2.13.0.dev20230420-cp39-cp39-macosx_12_0_arm64.whl
+[2023-04-21 10:08:59] INFO root fetch - processPackages [emmett-rest]: Downloading https://files.pythonhosted.org/packages/2c/ea/556a35a2b8acd7a8d9569ff838abd97366d9860bf1d8d8808e4934cd0869/emmett_rest-1.5.0.tar.gz
+[2023-04-21 10:08:59] INFO root fetch - processPackages [tendril-utils-www]: Downloading https://files.pythonhosted.org/packages/09/c1/fd7d24e5988c3388ccad7f3f2bf52a50a41c924e882aec25ccbae3a243ff/tendril-utils-www-0.2.5.tar.gz
+[2023-04-21 10:08:59] INFO root fetch - processPackages [phenospy]: Downloading https://files.pythonhosted.org/packages/59/a6/8a239d5bdae979c0809984a4520b05f688666a53ecd4379001117930cbf6/phenospy-0.17.tar.gz
+[2023-04-21 10:09:00] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-04-21 10:09:00] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230421/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-04-21 10:09:00] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/05/71/4416335f9c00d7fd77b51b26c07ce2377a21687ca4aa511770f77d8a19b1/lovehim-0.54.tar.gz
+[2023-04-21 10:09:00] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 188061979>=10485760
+[2023-04-21 10:09:00] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: pyglove
+[2023-04-21 10:09:00] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-04-21 10:09:00] INFO root fetch - processPackages [tendril-utils-www]: executing diffoscope
+[2023-04-21 10:09:00] INFO root fetch - processPackages [tendril-utils-www]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-www-0.2.4.tar.gz tmp/tendril-utils-www-0.2.5.tar.gz --markdown 20230421/t/tendril-utils-www/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-21 10:09:00] INFO root fetch - processPackages [phenospy]: executing diffoscope
+[2023-04-21 10:09:00] INFO root fetch - processPackages [phenospy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenospy-0.16.tar.gz tmp/phenospy-0.17.tar.gz --markdown 20230421/p/phenospy/0.16-0.17/diff.md --exclude *.pyd
+[2023-04-21 10:09:00] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/94/9c/1d6de6f85b2b5e248e8a8caecf336a3c3a718fef571a361ac806e66bb816/grimoire-elk-0.99.0.tar.gz
+[2023-04-21 10:09:00] INFO root fetch - processPackages [lovehim]: executing diffoscope
+[2023-04-21 10:09:00] INFO root fetch - processPackages [lovehim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovehim-0.53.tar.gz tmp/lovehim-0.54.tar.gz --markdown 20230421/l/lovehim/0.53-0.54/diff.md --exclude *.pyd
+[2023-04-21 10:09:00] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230421] Old Version: [0.3.1.dev20230420]
+[2023-04-21 10:09:00] INFO root fetch - processPackages [qsolve]: Downloading https://files.pythonhosted.org/packages/74/2d/b6cc18f77c4b147a3ca1b5d48ec277c1faf481c30bd5b6386f067eb62826/qsolve-0.2.3.tar.gz
+[2023-04-21 10:09:00] INFO root fetch - processPackages [emmett-rest]: Downloading https://files.pythonhosted.org/packages/bc/e7/47ecc6e9a9428e710ace8851b9433451468a8e0ca2c019594ddb497c77f6/emmett_rest-1.5.1.tar.gz
+[2023-04-21 10:09:00] INFO root fetch - processPackages [canopy]: Downloading https://files.pythonhosted.org/packages/41/66/07c23e230bc9105ecfdaff6dbf4799bd9053bf445d46fba41c9b6a9985c4/canopy-8.9.tar.gz
+[2023-04-21 10:09:00] INFO root fetch - processPackages [emmett-rest]: executing diffoscope
+[2023-04-21 10:09:00] INFO root fetch - processPackages [emmett-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett_rest-1.5.0.tar.gz tmp/emmett_rest-1.5.1.tar.gz --markdown 20230421/e/emmett-rest/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-21 10:09:00] INFO root fetch - processPackages [qsolve]: executing diffoscope
+[2023-04-21 10:09:00] INFO root fetch - processPackages [qsolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsolve-0.2.2.tar.gz tmp/qsolve-0.2.3.tar.gz --markdown 20230421/q/qsolve/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-21 10:09:00] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/f3/51/31e951e80b7f0e844ee6c736a31736add60535fc142b80531921542e6144/pyglove-0.3.1.dev20230421.tar.gz
+[2023-04-21 10:09:00] INFO root fetch - processPackages [canopy]: executing diffoscope
+[2023-04-21 10:09:00] INFO root fetch - processPackages [canopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-8.8.tar.gz tmp/canopy-8.9.tar.gz --markdown 20230421/c/canopy/8.8-8.9/diff.md --exclude *.pyd
+[2023-04-21 10:09:00] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2023-04-21 10:09:00] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire-elk-0.98.0.tar.gz tmp/grimoire-elk-0.99.0.tar.gz --markdown 20230421/g/grimoire-elk/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-21 10:09:00] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-04-21 10:09:00] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230420.tar.gz tmp/pyglove-0.3.1.dev20230421.tar.gz --markdown 20230421/p/pyglove/0.3.1.dev20230420-0.3.1.dev20230421/diff.md --exclude *.pyd
+[2023-04-21 10:09:01] INFO root fetch - processPackages [sharedmap]: Start processing: ymmsl-dot
+[2023-04-21 10:09:01] INFO root fetch - main [MainThread]: End processing [sharedmap]: success
+[2023-04-21 10:09:01] WARNING root fetch - processPackages [ymmsl-dot]: Skipping, unable to determine old version
+[2023-04-21 10:09:01] INFO root fetch - processPackages [ymmsl-dot]: Start processing: oops-all-itertools
+[2023-04-21 10:09:01] INFO root fetch - main [MainThread]: End processing [ymmsl-dot] error
+[2023-04-21 10:09:01] INFO root fetch - processPackages [oops-all-itertools]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-21 10:09:01] INFO root fetch - processPackages [oops-all-itertools]: Downloading https://files.pythonhosted.org/packages/1f/8b/3a896ba8bb9becbfd2fdeb10a88f81708aae4cf40b8e4cd72b73407f4363/oops-all-itertools-2.0.1.tar.gz
+[2023-04-21 10:09:01] INFO root fetch - processPackages [lovehim]: Start processing: qtbox
+[2023-04-21 10:09:01] INFO root fetch - main [MainThread]: End processing [lovehim]: success
+[2023-04-21 10:09:01] INFO root fetch - processPackages [qtbox]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-04-21 10:09:01] INFO root fetch - processPackages [oops-all-itertools]: Downloading https://files.pythonhosted.org/packages/e2/97/edfada13fe74a60b61eb9a548cf8282047ee4913ecc473c3587e2cad84e5/oops-all-itertools-2.0.2.tar.gz
+[2023-04-21 10:09:01] INFO root fetch - processPackages [oops-all-itertools]: executing diffoscope
+[2023-04-21 10:09:01] INFO root fetch - processPackages [oops-all-itertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oops-all-itertools-2.0.1.tar.gz tmp/oops-all-itertools-2.0.2.tar.gz --markdown 20230421/o/oops-all-itertools/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-21 10:09:02] INFO root fetch - processPackages [qtbox]: Downloading https://files.pythonhosted.org/packages/1f/8e/e0bf3cf426a57e359b6e99c296cb5cd3aab539a576cc3549b8e3d26a342e/qtbox-1.1.5.tar.gz
+[2023-04-21 10:09:02] INFO root fetch - processPackages [tendril-utils-www]: Start processing: lovehim
+[2023-04-21 10:09:02] INFO root fetch - main [MainThread]: End processing [tendril-utils-www]: success
+[2023-04-21 10:09:02] INFO root fetch - processPackages [lovehim]: New version: [0.54] Old Version: [0.53]
+[2023-04-21 10:09:02] INFO root fetch - processPackages [lovehim]: executing diffoscope
+[2023-04-21 10:09:02] INFO root fetch - processPackages [lovehim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovehim-0.53.tar.gz tmp/lovehim-0.54.tar.gz --markdown 20230421/l/lovehim/0.53-0.54/diff.md --exclude *.pyd
+[2023-04-21 10:09:02] INFO root fetch - processPackages [phenospy]: Start processing: DLMS-SPODES
+[2023-04-21 10:09:02] INFO root fetch - main [MainThread]: End processing [phenospy]: success
+[2023-04-21 10:09:02] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-21 10:09:02] WARNING root fetch - processPackages [qtbox]: Skipping package: exceeds size limit 32921112>=10485760
+[2023-04-21 10:09:02] INFO root fetch - main [MainThread]: End processing [qtbox] error
+[2023-04-21 10:09:02] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-04-21 10:09:02] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230421/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 10:09:02] INFO root fetch - main [MainThread]: End processing [emmett-rest]: success
+[2023-04-21 10:09:02] INFO root fetch - main [MainThread]: End processing [qsolve]: success
+[2023-04-21 10:09:03] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2023-04-21 10:09:03] INFO root fetch - main [MainThread]: End processing [oops-all-itertools]: success
+[2023-04-21 10:09:03] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-04-21 10:09:03] INFO root fetch - main [MainThread]: End processing [lovehim]: success
+[2023-04-21 10:09:04] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-04-21 10:09:05] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-04-21 10:09:06] INFO root fetch - main [MainThread]: End processing [canopy]: success
+[2023-04-21 10:09:06] INFO root fetch - main [MainThread]: Store serial: [17800540]
