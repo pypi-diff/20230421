@@ -7056,3 +7056,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 05:15:06] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-dns]: success
 [2023-04-21 05:15:07] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-nomad]: success
 [2023-04-21 05:15:07] INFO root fetch - main [MainThread]: Store serial: [17798580]
+[2023-04-21 05:20:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798580]
+[2023-04-21 05:20:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 05:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-ecommerce-ext
+[2023-04-21 05:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tomltable
+[2023-04-21 05:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wxc-sdk
+[2023-04-21 05:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-pagerduty
+[2023-04-21 05:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thetadata
+[2023-04-21 05:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-ecommerce-ext
+[2023-04-21 05:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strawberry-graphql
+[2023-04-21 05:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NikeCA
+[2023-04-21 05:20:15] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 05:20:15] WARNING root fetch - processPackages [tomltable]: Skipping, unable to determine old version
+[2023-04-21 05:20:15] INFO root fetch - main [MainThread]: End processing [tomltable] error
+[2023-04-21 05:20:15] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 05:20:15] INFO root fetch - processPackages [NikeCA]: New version: [0.1.66] Old Version: [0.1.65]
+[2023-04-21 05:20:16] INFO root fetch - processPackages [thetadata]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-21 05:20:16] INFO root fetch - processPackages [wxc-sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-21 05:20:16] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-04-21 05:20:16] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-04-21 05:20:16] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/44/35/f88f2fd02d983beac5aa27ab5569acec0caad2085d0d227359f2a2b94e45/fastapi_ecommerce_ext-0.2.9.tar.gz
+[2023-04-21 05:20:16] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/44/35/f88f2fd02d983beac5aa27ab5569acec0caad2085d0d227359f2a2b94e45/fastapi_ecommerce_ext-0.2.9.tar.gz
+[2023-04-21 05:20:16] INFO root fetch - processPackages [thetadata]: Downloading https://files.pythonhosted.org/packages/6e/13/d820e84fef81dfe033e89e7417bc52062d526e3c66b16c132f57ecc9222a/thetadata-0.9.3.tar.gz
+[2023-04-21 05:20:16] INFO root fetch - processPackages [wxc-sdk]: Downloading https://files.pythonhosted.org/packages/65/68/6b828b0a26e40300376631622bcaaca6866bdef28e75f6ed444823a77fde/wxc_sdk-1.8.0.tar.gz
+[2023-04-21 05:20:16] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/ef/f7/7a6169f88a304f9a800474f0ac2cd87457ac4e910bca31bea7c8c3249d03/NikeCA-0.1.66.tar.gz
+[2023-04-21 05:20:16] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-04-21 05:20:16] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-21 05:20:16] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.2.8.tar.gz tmp/fastapi_ecommerce_ext-0.2.9.tar.gz --markdown 20230421/f/fastapi-ecommerce-ext/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 05:20:16] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-21 05:20:16] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.2.8.tar.gz tmp/fastapi_ecommerce_ext-0.2.9.tar.gz --markdown 20230421/f/fastapi-ecommerce-ext/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 05:20:16] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/6b/2f/36d97d4b6354c2855d55531e63062341443f12f426eaa8bcee4a7e80444d/cdktf-cdktf-provider-pagerduty-7.0.1.tar.gz
+[2023-04-21 05:20:16] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-21 05:20:16] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.65.tar.gz tmp/NikeCA-0.1.66.tar.gz --markdown 20230421/N/NikeCA/0.1.65-0.1.66/diff.md --exclude *.pyd
+[2023-04-21 05:20:16] INFO root fetch - processPackages [wxc-sdk]: Downloading https://files.pythonhosted.org/packages/3e/ca/aaf7cecba5b35a662002acb68c785a03eb5f3c85d5a96b58d0aa4d096101/wxc_sdk-1.9.0.tar.gz
+[2023-04-21 05:20:16] INFO root fetch - processPackages [thetadata]: Downloading https://files.pythonhosted.org/packages/e7/e0/3a22f959fa2c28d4a6d85a1c9b1eb1b72a3380e8db98c37a2b9b4e432521/thetadata-0.9.4.tar.gz
+[2023-04-21 05:20:16] INFO root fetch - processPackages [wxc-sdk]: executing diffoscope
+[2023-04-21 05:20:16] INFO root fetch - processPackages [wxc-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxc_sdk-1.8.0.tar.gz tmp/wxc_sdk-1.9.0.tar.gz --markdown 20230421/w/wxc-sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 05:20:16] INFO root fetch - processPackages [thetadata]: executing diffoscope
+[2023-04-21 05:20:16] INFO root fetch - processPackages [thetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thetadata-0.9.3.tar.gz tmp/thetadata-0.9.4.tar.gz --markdown 20230421/t/thetadata/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-21 05:20:16] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-04-21 05:20:16] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: executing diffoscope
+[2023-04-21 05:20:16] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-pagerduty-7.0.0.tar.gz tmp/cdktf-cdktf-provider-pagerduty-7.0.1.tar.gz --markdown 20230421/c/cdktf-cdktf-provider-pagerduty/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-04-21 05:20:17] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-04-21 05:20:17] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230421/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-04-21 05:20:17] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-21 05:20:17] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-21 05:20:17] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-21 05:20:18] INFO root fetch - main [MainThread]: End processing [thetadata]: success
+[2023-04-21 05:20:18] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-04-21 05:20:18] INFO root fetch - main [MainThread]: End processing [wxc-sdk]: success
+[2023-04-21 05:20:21] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
+[2023-04-21 05:20:21] INFO root fetch - main [MainThread]: Store serial: [17798602]
