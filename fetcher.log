@@ -12249,3 +12249,140 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 12:03:50] ERROR root fetch - processPackages [richie]: Timeout during execution of pkgdiff
 [2023-04-21 12:03:50] INFO root fetch - main [MainThread]: End processing [richie] error
 [2023-04-21 12:03:50] INFO root fetch - main [MainThread]: Store serial: [17801582]
+[2023-04-21 12:08:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17801582]
+[2023-04-21 12:08:59] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-21 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stylo-metrix
+[2023-04-21 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modnpay-pgsdk
+[2023-04-21 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taichu-serve
+[2023-04-21 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-04-21 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrubadubdub
+[2023-04-21 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gene-normalizer
+[2023-04-21 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-mcqq-mcrcon
+[2023-04-21 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drb-driver-litto3d
+[2023-04-21 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oapi3
+[2023-04-21 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xj-thread
+[2023-04-21 12:08:59] WARNING root fetch - processPackages [modnpay-pgsdk]: Skipping, unable to determine old version
+[2023-04-21 12:08:59] INFO root fetch - processPackages [modnpay-pgsdk]: Start processing: databasez
+[2023-04-21 12:08:59] INFO root fetch - main [MainThread]: End processing [modnpay-pgsdk] error
+[2023-04-21 12:08:59] INFO root fetch - processPackages [stylo-metrix]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-04-21 12:08:59] INFO root fetch - processPackages [scrubadubdub]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-21 12:08:59] WARNING root fetch - processPackages [drb-driver-litto3d]: Skipping, unable to determine old version
+[2023-04-21 12:08:59] INFO root fetch - processPackages [drb-driver-litto3d]: Start processing: findlibs
+[2023-04-21 12:08:59] INFO root fetch - main [MainThread]: End processing [drb-driver-litto3d] error
+[2023-04-21 12:08:59] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 12:08:59] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.17]
+[2023-04-21 12:08:59] INFO root fetch - processPackages [gene-normalizer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 12:08:59] INFO root fetch - processPackages [oapi3]: New version: [1.4.2] Old Version: [1.3]
+[2023-04-21 12:08:59] INFO root fetch - processPackages [nonebot-plugin-mcqq-mcrcon]: New version: [1.1.5.post2] Old Version: [1.1.5.post1]
+[2023-04-21 12:08:59] INFO root fetch - processPackages [databasez]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-21 12:08:59] INFO root fetch - processPackages [findlibs]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-04-21 12:08:59] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-21 12:09:00] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/30/a0/fa2a7ab54dc3243b7d6b955dd74744a56713fd2b42516b7046caa9f19e63/taichu-serve-2.0.17.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [nonebot-plugin-mcqq-mcrcon]: Downloading https://files.pythonhosted.org/packages/91/de/f94da7c30090db1b7fc21b360aea4736c91929afa4fc14b2ca1269f5b5f2/nonebot-plugin-mcqq-mcrcon-1.1.5.post1.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [stylo-metrix]: Downloading https://files.pythonhosted.org/packages/b9/96/5c652df08fb20c5fb309bfc572808de8705bad3b7feb675e8fc0bd6829df/stylo_metrix-0.0.7.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [oapi3]: Downloading https://files.pythonhosted.org/packages/7a/1e/9cda2329bbd735460d82fe76d22acedefb531221115a7a72d0e9e388d94b/oapi3-1.3.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [findlibs]: Downloading https://files.pythonhosted.org/packages/ae/be/6c72ef9d990cd25fe3dd97ebe9d77a859f7d27b7273e62ad750846d207ee/findlibs-0.0.5.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [scrubadubdub]: Downloading https://files.pythonhosted.org/packages/18/85/d9821d63ccfaba7021c8d16ad0c61e0a2ebe9f65569b77698399cf66dc11/scrubadubdub-0.1.0.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [databasez]: Downloading https://files.pythonhosted.org/packages/ac/ca/49d77c7904a853285bae6f8ed726478afd1fcb962acf4e024a59f89d29c3/databasez-0.1.0.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [findlibs]: executing diffoscope
+[2023-04-21 12:09:00] INFO root fetch - processPackages [findlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findlibs-0.0.3.tar.gz tmp/findlibs-0.0.5.tar.gz --markdown 20230421/f/findlibs/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 12:09:00] INFO root fetch - processPackages [gene-normalizer]: executing diffoscope
+[2023-04-21 12:09:00] INFO root fetch - processPackages [gene-normalizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene-normalizer-0.2.8.tar.gz tmp/gene-normalizer-0.2.9.tar.gz --markdown 20230421/g/gene-normalizer/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 12:09:00] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-04-21 12:09:00] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230421/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 12:09:00] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-04-21 12:09:00] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230421/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-21 12:09:00] INFO root fetch - processPackages [databasez]: Downloading https://files.pythonhosted.org/packages/09/0f/f10cc61b856b7be9b9b225549fa5d2eff52498ca98b4c6ca49da57c5a6e4/databasez-0.2.0.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [stylo-metrix]: Downloading https://files.pythonhosted.org/packages/06/8d/d40407f594c08375486d23b93c438aef3e08b71b962a0d0ee788a08c3ee3/stylo_metrix-0.1.0.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [scrubadubdub]: Downloading https://files.pythonhosted.org/packages/57/75/84f07e6cdea4d329f02dc2e99aa283cd5a6ed585fda2b61612fcd40919dc/scrubadubdub-0.2.0.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [nonebot-plugin-mcqq-mcrcon]: Downloading https://files.pythonhosted.org/packages/0a/47/43c54a02a85c5816139e4d780a0a1ed9ebba3f7399079ea6a228d2679b30/nonebot-plugin-mcqq-mcrcon-1.1.5.post2.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-04-21 12:09:00] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.17.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230421/t/taichu-serve/2.0.17-2.0.9/diff.md --exclude *.pyd
+[2023-04-21 12:09:00] INFO root fetch - processPackages [databasez]: executing diffoscope
+[2023-04-21 12:09:00] INFO root fetch - processPackages [databasez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databasez-0.1.0.tar.gz tmp/databasez-0.2.0.tar.gz --markdown 20230421/d/databasez/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 12:09:00] INFO root fetch - processPackages [stylo-metrix]: executing diffoscope
+[2023-04-21 12:09:00] INFO root fetch - processPackages [stylo-metrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stylo_metrix-0.0.7.tar.gz tmp/stylo_metrix-0.1.0.tar.gz --markdown 20230421/s/stylo-metrix/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-04-21 12:09:00] INFO root fetch - processPackages [scrubadubdub]: executing diffoscope
+[2023-04-21 12:09:00] INFO root fetch - processPackages [scrubadubdub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrubadubdub-0.1.0.tar.gz tmp/scrubadubdub-0.2.0.tar.gz --markdown 20230421/s/scrubadubdub/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 12:09:00] INFO root fetch - processPackages [nonebot-plugin-mcqq-mcrcon]: executing diffoscope
+[2023-04-21 12:09:00] INFO root fetch - processPackages [nonebot-plugin-mcqq-mcrcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcqq-mcrcon-1.1.5.post1.tar.gz tmp/nonebot-plugin-mcqq-mcrcon-1.1.5.post2.tar.gz --markdown 20230421/n/nonebot-plugin-mcqq-mcrcon/1.1.5.post1-1.1.5.post2/diff.md --exclude *.pyd
+[2023-04-21 12:09:00] INFO root fetch - processPackages [oapi3]: Downloading https://files.pythonhosted.org/packages/e9/e7/2fc4ed3fb1d57d28ff39f33a603e5d5f21a900961e780b04e3320fbeec6e/oapi3-1.4.2.tar.gz
+[2023-04-21 12:09:00] INFO root fetch - processPackages [oapi3]: executing diffoscope
+[2023-04-21 12:09:00] INFO root fetch - processPackages [oapi3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oapi3-1.3.tar.gz tmp/oapi3-1.4.2.tar.gz --markdown 20230421/o/oapi3/1.3-1.4.2/diff.md --exclude *.pyd
+[2023-04-21 12:09:01] INFO root fetch - processPackages [findlibs]: Start processing: pybrary
+[2023-04-21 12:09:01] INFO root fetch - main [MainThread]: End processing [findlibs]: success
+[2023-04-21 12:09:01] INFO root fetch - processPackages [pybrary]: New version: [0.3.0] Old Version: [0.2316.0]
+[2023-04-21 12:09:01] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/05/74/0a30e4891a9cc114a35b2d52f7bffb47a5e2ca0efb1d9868cb71b79c6ce2/pybrary-0.2316.0.tar.gz
+[2023-04-21 12:09:02] INFO root fetch - processPackages [gene-normalizer]: Start processing: ccxt
+[2023-04-21 12:09:02] INFO root fetch - main [MainThread]: End processing [gene-normalizer]: success
+[2023-04-21 12:09:02] INFO root fetch - processPackages [ccxt]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-21 12:09:02] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/bb/a2/1a75a3e87aa209fac7db7d97ca7acf6f9cd3cf72698d58f1aea0a4c3a18a/pybrary-0.3.0.tar.gz
+[2023-04-21 12:09:02] INFO root fetch - processPackages [xj-thread]: Start processing: jaxsim
+[2023-04-21 12:09:02] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-04-21 12:09:02] INFO root fetch - processPackages [jaxsim]: New version: [0.1.dev142] Old Version: [0.1.dev137]
+[2023-04-21 12:09:02] INFO root fetch - processPackages [pybrary]: executing diffoscope
+[2023-04-21 12:09:02] INFO root fetch - processPackages [pybrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrary-0.2316.0.tar.gz tmp/pybrary-0.3.0.tar.gz --markdown 20230421/p/pybrary/0.2316.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-21 12:09:02] INFO root fetch - processPackages [scrubadubdub]: Start processing: elefantolib-fastapi
+[2023-04-21 12:09:02] INFO root fetch - main [MainThread]: End processing [scrubadubdub]: success
+[2023-04-21 12:09:02] INFO root fetch - processPackages [elefantolib-fastapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 12:09:02] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/52/3c/d8656b8b513c6b87d1c413370bd13d60c4c86f579a8ccd60ae61b8112387/jaxsim-0.1.dev142.tar.gz
+[2023-04-21 12:09:02] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-04-21 12:09:02] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.8.tar.gz tmp/ccxt-3.0.9.tar.gz --markdown 20230421/c/ccxt/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-21 12:09:02] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/41/9d/59f1a513965c2f341b9b7f5a9354987675b0fdcd56c4f6dc388c9dbf8ebc/elefantolib_fastapi-0.1.0.tar.gz
+[2023-04-21 12:09:02] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2023-04-21 12:09:02] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.1.dev137.tar.gz tmp/jaxsim-0.1.dev142.tar.gz --markdown 20230421/j/jaxsim/0.1.dev137-0.1.dev142/diff.md --exclude *.pyd
+[2023-04-21 12:09:02] INFO root fetch - processPackages [nonebot-plugin-mcqq-mcrcon]: Start processing: emmett-sentry
+[2023-04-21 12:09:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcqq-mcrcon]: success
+[2023-04-21 12:09:02] INFO root fetch - processPackages [emmett-sentry]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-21 12:09:02] INFO root fetch - processPackages [taichu-serve]: Start processing: tronapi-JCO
+[2023-04-21 12:09:02] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-04-21 12:09:02] WARNING root fetch - processPackages [tronapi-JCO]: Skipping, unable to determine old version
+[2023-04-21 12:09:02] INFO root fetch - processPackages [tronapi-JCO]: Start processing: directory-api-client
+[2023-04-21 12:09:02] INFO root fetch - main [MainThread]: End processing [tronapi-JCO] error
+[2023-04-21 12:09:02] INFO root fetch - processPackages [directory-api-client]: New version: [9.17.0] Old Version: [9.16.0]
+[2023-04-21 12:09:02] INFO root fetch - processPackages [oapi3]: Start processing: nonebot-plugin-mcqq-mcrcon
+[2023-04-21 12:09:02] INFO root fetch - main [MainThread]: End processing [oapi3]: success
+[2023-04-21 12:09:03] INFO root fetch - processPackages [databasez]: Start processing: github-policies
+[2023-04-21 12:09:03] INFO root fetch - main [MainThread]: End processing [databasez]: success
+[2023-04-21 12:09:03] INFO root fetch - processPackages [nonebot-plugin-mcqq-mcrcon]: New version: [1.1.5.post2] Old Version: [1.1.5.post1]
+[2023-04-21 12:09:03] WARNING root fetch - processPackages [github-policies]: Skipping, unable to determine old version
+[2023-04-21 12:09:03] INFO root fetch - processPackages [github-policies]: Start processing: graal
+[2023-04-21 12:09:03] INFO root fetch - main [MainThread]: End processing [github-policies] error
+[2023-04-21 12:09:03] INFO root fetch - processPackages [emmett-sentry]: Downloading https://files.pythonhosted.org/packages/70/45/2808bf0d33b9d93d8e35704558f73c395df2f6bfe0d841fa6e346893b355/Emmett-Sentry-0.2.0.tar.gz
+[2023-04-21 12:09:03] INFO root fetch - processPackages [graal]: New version: [0.4.5rc2] Old Version: [0.4.5rc1]
+[2023-04-21 12:09:03] INFO root fetch - processPackages [nonebot-plugin-mcqq-mcrcon]: executing diffoscope
+[2023-04-21 12:09:03] INFO root fetch - processPackages [nonebot-plugin-mcqq-mcrcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcqq-mcrcon-1.1.5.post1.tar.gz tmp/nonebot-plugin-mcqq-mcrcon-1.1.5.post2.tar.gz --markdown 20230421/n/nonebot-plugin-mcqq-mcrcon/1.1.5.post1-1.1.5.post2/diff.md --exclude *.pyd
+[2023-04-21 12:09:03] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/c2/c9/533f81b4f5b898bd369efd112cbe54655df925ae327f1a869fbea6b19a71/elefantolib_fastapi-0.1.1.tar.gz
+[2023-04-21 12:09:03] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/1e/69/96cd730b1d1e10de95cab24a8c2ad0d7026debfc72f1afcd974bc301ca09/directory_api_client-9.16.0-py3-none-any.whl
+[2023-04-21 12:09:03] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/fd/9e/2268e2b145fac3a1752f18ed2dd45e60c15147d7baf4deffdc2370421885/graal-0.4.5rc2.tar.gz
+[2023-04-21 12:09:03] INFO root fetch - processPackages [emmett-sentry]: Downloading https://files.pythonhosted.org/packages/3b/13/cfbbb7dc4b2655012d8b1931e9ffa945d2540f95c1cc5490ce9e49e07f74/emmett_sentry-0.3.0.tar.gz
+[2023-04-21 12:09:03] INFO root fetch - processPackages [elefantolib-fastapi]: executing diffoscope
+[2023-04-21 12:09:03] INFO root fetch - processPackages [elefantolib-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib_fastapi-0.1.0.tar.gz tmp/elefantolib_fastapi-0.1.1.tar.gz --markdown 20230421/e/elefantolib-fastapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 12:09:03] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Start processing: qlapi
+[2023-04-21 12:09:03] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-04-21 12:09:03] INFO root fetch - processPackages [qlapi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-21 12:09:03] INFO root fetch - processPackages [emmett-sentry]: executing diffoscope
+[2023-04-21 12:09:03] INFO root fetch - processPackages [emmett-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Emmett-Sentry-0.2.0.tar.gz tmp/emmett_sentry-0.3.0.tar.gz --markdown 20230421/e/emmett-sentry/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-21 12:09:03] INFO root fetch - processPackages [graal]: executing diffoscope
+[2023-04-21 12:09:03] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-0.4.5rc1.tar.gz tmp/graal-0.4.5rc2.tar.gz --markdown 20230421/g/graal/0.4.5rc1-0.4.5rc2/diff.md --exclude *.pyd
+[2023-04-21 12:09:03] INFO root fetch - processPackages [qlapi]: Downloading https://files.pythonhosted.org/packages/c2/4b/e2b49a3405b27a4d5f664723dd4c42061ec8d06f5db0e0d2a2faa45303f7/qlapi-0.1.3.tar.gz
+[2023-04-21 12:09:03] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/52/85/2f3191f81cb23b1eedb870fab1c978f87574116c71a64471af24e75db35d/directory_api_client-9.17.0-py3-none-any.whl
+[2023-04-21 12:09:03] INFO root fetch - processPackages [directory-api-client]: executing diffoscope
+[2023-04-21 12:09:03] INFO root fetch - processPackages [directory-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_api_client-9.16.0-py3-none-any.whl.zip tmp/directory_api_client-9.17.0-py3-none-any.whl.zip --markdown 20230421/d/directory-api-client/9.16.0-9.17.0/diff.md --exclude *.pyd
+[2023-04-21 12:09:03] INFO root fetch - processPackages [qlapi]: Downloading https://files.pythonhosted.org/packages/46/62/6782f13552c82be7bc0f15bed731202a82972c10f203de353c325b7cc962/qlapi-0.1.4.tar.gz
+[2023-04-21 12:09:04] INFO root fetch - processPackages [qlapi]: executing diffoscope
+[2023-04-21 12:09:04] INFO root fetch - processPackages [qlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlapi-0.1.3.tar.gz tmp/qlapi-0.1.4.tar.gz --markdown 20230421/q/qlapi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-21 12:09:04] INFO root fetch - processPackages [pybrary]: Start processing: usefulib
+[2023-04-21 12:09:04] INFO root fetch - main [MainThread]: End processing [pybrary]: success
+[2023-04-21 12:09:04] WARNING root fetch - processPackages [usefulib]: Skipping, unable to determine old version
+[2023-04-21 12:09:04] INFO root fetch - main [MainThread]: End processing [usefulib] error
+[2023-04-21 12:09:04] INFO root fetch - main [MainThread]: End processing [stylo-metrix]: success
+[2023-04-21 12:09:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcqq-mcrcon]: success
+[2023-04-21 12:09:04] INFO root fetch - main [MainThread]: End processing [elefantolib-fastapi]: success
+[2023-04-21 12:09:05] INFO root fetch - main [MainThread]: End processing [emmett-sentry]: success
+[2023-04-21 12:09:05] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2023-04-21 12:09:05] INFO root fetch - main [MainThread]: End processing [directory-api-client]: success
+[2023-04-21 12:09:05] INFO root fetch - main [MainThread]: End processing [qlapi]: success
+[2023-04-21 12:09:06] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2023-04-21 12:09:08] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-04-21 12:09:08] INFO root fetch - main [MainThread]: Store serial: [17801664]
