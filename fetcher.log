@@ -11188,3 +11188,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 10:52:03] INFO root fetch - main [MainThread]: End processing [antgo]: success
 [2023-04-21 10:52:04] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-04-21 10:52:04] INFO root fetch - main [MainThread]: Store serial: [17800950]
+[2023-04-21 10:57:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800950]
+[2023-04-21 10:57:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HolyLightKnightPythonLibrary
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythoncolouringslibV1
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antgo
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ephysiopy
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: supervisely
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynometrics
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alphaz
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xbox-sdk
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tkinter-form
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ephysiopy]: New version: [1.9.12] Old Version: [1.9.11]
+[2023-04-21 10:57:14] INFO root fetch - processPackages [pynometrics]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 10:57:14] INFO root fetch - processPackages [antgo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 10:57:14] WARNING root fetch - processPackages [HolyLightKnightPythonLibrary]: Skipping, unable to determine old version
+[2023-04-21 10:57:14] INFO root fetch - processPackages [xbox-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-21 10:57:14] INFO root fetch - processPackages [alphaz]: New version: [0.7.5.1] Old Version: [0.7.5]
+[2023-04-21 10:57:14] INFO root fetch - main [MainThread]: End processing [HolyLightKnightPythonLibrary] error
+[2023-04-21 10:57:14] ERROR root fetch - processPackages [tkinter-form]: Unable to get metadata: No such project 'tkinter-form'
+[2023-04-21 10:57:14] INFO root fetch - main [MainThread]: End processing [tkinter-form] error
+[2023-04-21 10:57:14] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-04-21 10:57:14] WARNING root fetch - processPackages [pythoncolouringslibV1]: Skipping, unable to determine old version
+[2023-04-21 10:57:14] INFO root fetch - main [MainThread]: End processing [pythoncolouringslibV1] error
+[2023-04-21 10:57:14] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-04-21 10:57:14] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230421/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/14/2a/40ee9059a2c56f954573a76a42c9f96ba1cbacba24444844db30b3e4848b/ephysiopy-1.9.11.tar.gz
+[2023-04-21 10:57:14] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/60/74/245c90d5c4fecf451bcf1b9132babdfd0bcdd697af8023bb03079bffe2bf/antgo-0.1.2.tar.gz
+[2023-04-21 10:57:14] INFO root fetch - processPackages [pynometrics]: Downloading https://files.pythonhosted.org/packages/00/30/18094e61e80d58afd37cd3de6d083bb8a1539a94b7e9428b295c5114d6b0/pynometrics-0.1.3.tar.gz
+[2023-04-21 10:57:14] INFO root fetch - processPackages [xbox-sdk]: Downloading https://files.pythonhosted.org/packages/13/44/9c2491cfce0daae54f3211c57de11529ebaa0be9a3803e4a6cb02b0b1ef5/xbox-sdk-0.0.6.tar.gz
+[2023-04-21 10:57:14] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/3b/50/feec71dacac0b6119e54f8bcde0df4b4892bce375cc54d12f36b6ca6d161/alphaz-0.7.5.1.tar.gz
+[2023-04-21 10:57:14] INFO root fetch - processPackages [pynometrics]: executing diffoscope
+[2023-04-21 10:57:14] INFO root fetch - processPackages [pynometrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynometrics-0.1.2.tar.gz tmp/pynometrics-0.1.3.tar.gz --markdown 20230421/p/pynometrics/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 10:57:14] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-04-21 10:57:14] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.1.tar.gz tmp/antgo-0.1.2.tar.gz --markdown 20230421/a/antgo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 10:57:14] INFO root fetch - processPackages [xbox-sdk]: executing diffoscope
+[2023-04-21 10:57:14] INFO root fetch - processPackages [xbox-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbox-sdk-0.0.5.tar.gz tmp/xbox-sdk-0.0.6.tar.gz --markdown 20230421/x/xbox-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/f2/c9/69d1c2080acc6d0f2c7548f067435dcb75fd82daf9e2b0782eab614200f7/ephysiopy-1.9.12.tar.gz
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2023-04-21 10:57:14] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-1.9.11.tar.gz tmp/ephysiopy-1.9.12.tar.gz --markdown 20230421/e/ephysiopy/1.9.11-1.9.12/diff.md --exclude *.pyd
+[2023-04-21 10:57:15] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-04-21 10:57:15] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.5.tar.gz tmp/alphaz-0.7.5.1.tar.gz --markdown 20230421/a/alphaz/0.7.5-0.7.5.1/diff.md --exclude *.pyd
+[2023-04-21 10:57:15] INFO root fetch - main [MainThread]: End processing [pynometrics]: success
+[2023-04-21 10:57:15] INFO root fetch - main [MainThread]: End processing [xbox-sdk]: success
+[2023-04-21 10:57:16] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2023-04-21 10:57:16] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-04-21 10:57:19] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-04-21 10:57:22] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-04-21 10:57:22] INFO root fetch - main [MainThread]: Store serial: [17800979]
