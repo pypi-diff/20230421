@@ -13627,3 +13627,103 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 13:32:23] INFO root fetch - main [MainThread]: End processing [reptar]: success
 [2023-04-21 13:32:23] INFO root fetch - main [MainThread]: End processing [tuxmake]: success
 [2023-04-21 13:32:23] INFO root fetch - main [MainThread]: Store serial: [17802376]
+[2023-04-21 13:37:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802376]
+[2023-04-21 13:37:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-21 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talos-install
+[2023-04-21 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyre-check-nightly
+[2023-04-21 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchx-nightly
+[2023-04-21 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dfsjson
+[2023-04-21 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plex-nfs-watchdog
+[2023-04-21 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-dllib-spark3
+[2023-04-21 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-timeout
+[2023-04-21 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-orca-spark3
+[2023-04-21 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-friesian-spark3
+[2023-04-21 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-chronos-spark3
+[2023-04-21 13:37:32] WARNING root fetch - processPackages [plex-nfs-watchdog]: Skipping, unable to determine old version
+[2023-04-21 13:37:32] INFO root fetch - processPackages [plex-nfs-watchdog]: Start processing: bigdl-spark3
+[2023-04-21 13:37:32] INFO root fetch - processPackages [python-timeout]: New version: [4.8] Old Version: [4.7]
+[2023-04-21 13:37:32] INFO root fetch - main [MainThread]: End processing [plex-nfs-watchdog] error
+[2023-04-21 13:37:32] INFO root fetch - processPackages [dfsjson]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-21 13:37:32] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-21 13:37:32] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:37:32] INFO root fetch - processPackages [talos-install]: New version: [0.2.0.dev342] Old Version: [0.2.0.dev340]
+[2023-04-21 13:37:32] INFO root fetch - processPackages [python-timeout]: executing diffoscope
+[2023-04-21 13:37:32] INFO root fetch - processPackages [python-timeout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-timeout-4.7.tar.gz tmp/python-timeout-4.8.tar.gz --markdown 20230421/p/python-timeout/4.7-4.8/diff.md --exclude *.pyd
+[2023-04-21 13:37:32] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:37:32] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-04-21 13:37:32] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101682075441] Old Version: [0.0.101681989101]
+[2023-04-21 13:37:32] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.4.8-py3-none-any.whl.zip tmp/torchx_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230421/t/torchx-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-21 13:37:32] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:37:32] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:37:32] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/9e/36/8f177a2e2b0cceecdedf235c51a77b33c468eb00bf232cb3cef01fc791ce/bigdl-dllib-spark3-2.3.0b20230420.tar.gz
+[2023-04-21 13:37:33] INFO root fetch - processPackages [dfsjson]: Downloading https://files.pythonhosted.org/packages/64/9e/61d8de06a391ee0680ffaac1a6dae3497f2857a48fd38d80d21ba4c03ec2/dfsjson-1.0.0.tar.gz
+[2023-04-21 13:37:33] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/4d/ea/09e1d66ff06f6fb0bc8a0e03541d3fdb4ee94283392d323beed6ac755bd0/pyre-check-nightly-0.0.101681989101.tar.gz
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/e7/c9/c507d986846de836a5f3e75fe1541653e9923c6ae6235ee78e2fa7690ff3/bigdl_orca_spark3-2.3.0b20230420-py3-none-manylinux1_x86_64.whl
+[2023-04-21 13:37:33] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251932>=10485760
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: hyfi
+[2023-04-21 13:37:33] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-04-21 13:37:33] INFO root fetch - processPackages [hyfi]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/0e/7f/7ffdeff380bdfde35c5f69ba48759d26e0d83370a4a0c003499cedd7d751/bigdl_friesian_spark3-2.4.0b20230421-py3-none-manylinux1_x86_64.whl
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/34/ad/8228e2dd6eb0ce75f726004d1ea06a72f8a4a63c054dcac7bdec45964d0c/bigdl_spark3-2.4.0b20230421-py3-none-manylinux1_x86_64.whl
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/af/b8/aefeca17ca3b10f6256d20ea2e58503ee3c025bcef5887dd137d462d8801/bigdl_chronos_spark3-2.4.0b20230421-py3-none-manylinux1_x86_64.whl
+[2023-04-21 13:37:33] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23158126>=10485760
+[2023-04-21 13:37:33] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: dfsjson
+[2023-04-21 13:37:33] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-04-21 13:37:33] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-04-21 13:37:33] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.2.8.tar.gz tmp/hyfi-0.2.9.tar.gz --markdown 20230421/h/hyfi/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 13:37:33] INFO root fetch - processPackages [dfsjson]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 13:37:33] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207542>=10485760
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: robin-sd-download
+[2023-04-21 13:37:33] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-04-21 13:37:33] INFO root fetch - processPackages [dfsjson]: Downloading https://files.pythonhosted.org/packages/e0/0f/50463fe67c0c80f4fdc99874e8070a993acbd7ef96468540f54e9da980b5/dfsjson-1.0.1.tar.gz
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.3.0b20230420-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230421-py3-none-manylinux1_x86_64.whl.zip --markdown 20230421/b/bigdl-friesian-spark3/2.3.0b20230420-2.4.0b20230421/diff.md --exclude *.pyd
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.3.0b20230420-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230421-py3-none-manylinux1_x86_64.whl.zip --markdown 20230421/b/bigdl-spark3/2.3.0b20230420-2.4.0b20230421/diff.md --exclude *.pyd
+[2023-04-21 13:37:33] INFO root fetch - processPackages [robin-sd-download]: New version: [0.2.96] Old Version: [0.2.95]
+[2023-04-21 13:37:33] INFO root fetch - processPackages [dfsjson]: executing diffoscope
+[2023-04-21 13:37:33] INFO root fetch - processPackages [dfsjson]: Downloading https://files.pythonhosted.org/packages/46/6b/d513951198c8c42ff113104c5d463b3df8ba8e40c0a2b939476a4f3e78c5/dfsjson-1.0.2.tar.gz
+[2023-04-21 13:37:33] INFO root fetch - processPackages [dfsjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfsjson-1.0.0.tar.gz tmp/dfsjson-1.0.1.tar.gz --markdown 20230421/d/dfsjson/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 13:37:33] INFO root fetch - processPackages [talos-install]: Downloading https://files.pythonhosted.org/packages/10/0f/4ed1df3267e8c65289703683cc58d0052e7f159f2f42713e1268ec509709/talos_install-0.2.0.dev342.tar.gz
+[2023-04-21 13:37:33] INFO root fetch - processPackages [talos-install]: executing diffoscope
+[2023-04-21 13:37:33] INFO root fetch - processPackages [talos-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talos_install-0.2.0.dev340.tar.gz tmp/talos_install-0.2.0.dev342.tar.gz --markdown 20230421/t/talos-install/0.2.0.dev340-0.2.0.dev342/diff.md --exclude *.pyd
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-04-21 13:37:33] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.3.0b20230420-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230421-py3-none-manylinux1_x86_64.whl.zip --markdown 20230421/b/bigdl-chronos-spark3/2.3.0b20230420-2.4.0b20230421/diff.md --exclude *.pyd
+[2023-04-21 13:37:33] INFO root fetch - processPackages [dfsjson]: Downloading https://files.pythonhosted.org/packages/c1/26/50efa153de5c91579b794ed979c89fd1924401641a4e15967d32ec27bf41/dfsjson-1.0.3.tar.gz
+[2023-04-21 13:37:33] INFO root fetch - processPackages [robin-sd-download]: Downloading https://files.pythonhosted.org/packages/37/44/b67ee9ba7f47e45b2f8de5a5cffdd794f61e9ea2d26c8a7e1290c9be0b72/robin_sd_download-0.2.96.tar.gz
+[2023-04-21 13:37:33] INFO root fetch - processPackages [dfsjson]: executing diffoscope
+[2023-04-21 13:37:33] INFO root fetch - processPackages [dfsjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfsjson-1.0.2.tar.gz tmp/dfsjson-1.0.3.tar.gz --markdown 20230421/d/dfsjson/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 13:37:33] INFO root fetch - processPackages [robin-sd-download]: executing diffoscope
+[2023-04-21 13:37:33] INFO root fetch - processPackages [robin-sd-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_sd_download-0.2.95.tar.gz tmp/robin_sd_download-0.2.96.tar.gz --markdown 20230421/r/robin-sd-download/0.2.95-0.2.96/diff.md --exclude *.pyd
+[2023-04-21 13:37:34] INFO root fetch - processPackages [python-timeout]: Start processing: otlmow-model
+[2023-04-21 13:37:34] INFO root fetch - main [MainThread]: End processing [python-timeout]: success
+[2023-04-21 13:37:34] INFO root fetch - processPackages [otlmow-model]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-04-21 13:37:34] INFO root fetch - processPackages [otlmow-model]: Downloading https://files.pythonhosted.org/packages/4a/5c/ec60433949077deed1a282c3c87d660b048121039abeb2bb1263d69d52a7/otlmow_model-2.7.0.tar.gz
+[2023-04-21 13:37:34] INFO root fetch - processPackages [hyfi]: Start processing: hyfi-template
+[2023-04-21 13:37:34] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-04-21 13:37:34] INFO root fetch - processPackages [hyfi-template]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-21 13:37:34] INFO root fetch - processPackages [bigdl-spark3]: Start processing: lexikanon
+[2023-04-21 13:37:34] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-04-21 13:37:34] INFO root fetch - processPackages [lexikanon]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 13:37:34] INFO root fetch - processPackages [otlmow-model]: Downloading https://files.pythonhosted.org/packages/38/3a/3bf47b8a2f59e77e3111a3ad45471bf371cf99cd9a2ccec1ef9087468547/otlmow_model-2.7.1.tar.gz
+[2023-04-21 13:37:35] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-04-21 13:37:35] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/28/0e/610ed3f9037a06430685d8d1ff05454c2b0c3e6a6c03d4d673422434af59/lexikanon-0.1.0.tar.gz
+[2023-04-21 13:37:35] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/99/36/8821a054a092e1670598f6eba6a99c5bbaba5c89ff04e4f6104e3cf47c5a/hyfi_template-0.1.8.tar.gz
+[2023-04-21 13:37:35] INFO root fetch - main [MainThread]: End processing [dfsjson]: success
+[2023-04-21 13:37:35] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-04-21 13:37:35] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-04-21 13:37:35] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.1.7.tar.gz tmp/hyfi_template-0.1.8.tar.gz --markdown 20230421/h/hyfi-template/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-21 13:37:35] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/c2/82/5af4e028148d744c637e5331ccad9cc68f62403d1bc67c43ddd122750dd6/lexikanon-0.1.1.tar.gz
+[2023-04-21 13:37:35] INFO root fetch - processPackages [otlmow-model]: executing diffoscope
+[2023-04-21 13:37:35] INFO root fetch - processPackages [otlmow-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otlmow_model-2.7.0.tar.gz tmp/otlmow_model-2.7.1.tar.gz --markdown 20230421/o/otlmow-model/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-04-21 13:37:35] INFO root fetch - processPackages [lexikanon]: executing diffoscope
+[2023-04-21 13:37:35] INFO root fetch - processPackages [lexikanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikanon-0.1.0.tar.gz tmp/lexikanon-0.1.1.tar.gz --markdown 20230421/l/lexikanon/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 13:37:35] INFO root fetch - main [MainThread]: End processing [robin-sd-download]: success
+[2023-04-21 13:37:35] INFO root fetch - main [MainThread]: End processing [dfsjson]: success
+[2023-04-21 13:37:36] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-04-21 13:37:36] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-04-21 13:37:36] INFO root fetch - main [MainThread]: End processing [lexikanon]: success
+[2023-04-21 13:37:37] INFO root fetch - main [MainThread]: End processing [talos-install]: success
+[2023-04-21 13:38:24] INFO root fetch - main [MainThread]: End processing [otlmow-model]: success
+[2023-04-21 13:38:24] INFO root fetch - main [MainThread]: Store serial: [17802426]
