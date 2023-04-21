@@ -20421,3 +20421,62 @@ EOFError: EOF read where object expected
 [2023-04-21 20:11:50] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-04-21 20:11:57] INFO root fetch - main [MainThread]: End processing [cdp-data]: success
 [2023-04-21 20:11:57] INFO root fetch - main [MainThread]: Store serial: [17806880]
+[2023-04-21 20:17:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806880]
+[2023-04-21 20:17:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 20:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: histomicsui
+[2023-04-21 20:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycax-client
+[2023-04-21 20:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dann5
+[2023-04-21 20:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: georgio
+[2023-04-21 20:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: td-ml-autosegmentation
+[2023-04-21 20:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flavio
+[2023-04-21 20:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pseudopeople
+[2023-04-21 20:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: semgrep
+[2023-04-21 20:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-viewers-counts-middleware
+[2023-04-21 20:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xamalk
+[2023-04-21 20:17:08] WARNING root fetch - processPackages [pycax-client]: Skipping, unable to determine old version
+[2023-04-21 20:17:08] INFO root fetch - processPackages [pycax-client]: Start processing: airbyte-cdk
+[2023-04-21 20:17:08] INFO root fetch - main [MainThread]: End processing [pycax-client] error
+[2023-04-21 20:17:08] INFO root fetch - processPackages [dann5]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-04-21 20:17:08] INFO root fetch - processPackages [django-viewers-counts-middleware]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 20:17:08] WARNING root fetch - processPackages [xamalk]: Skipping, unable to determine old version
+[2023-04-21 20:17:08] INFO root fetch - processPackages [td-ml-autosegmentation]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 20:17:09] INFO root fetch - main [MainThread]: End processing [xamalk] error
+[2023-04-21 20:17:09] INFO root fetch - processPackages [georgio]: New version: [2023.111.1087] Old Version: [2023.111.1062]
+[2023-04-21 20:17:09] INFO root fetch - processPackages [pseudopeople]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-21 20:17:09] INFO root fetch - processPackages [semgrep]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-21 20:17:09] INFO root fetch - processPackages [flavio]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-04-21 20:17:09] INFO root fetch - processPackages [histomicsui]: New version: [1.4.3.dev8] Old Version: [1.4.3.dev5]
+[2023-04-21 20:17:09] INFO root fetch - processPackages [td-ml-autosegmentation]: executing diffoscope
+[2023-04-21 20:17:09] INFO root fetch - processPackages [td-ml-autosegmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/td_ml_autosegmentation-1.0.8.tar.gz tmp/td_ml_autosegmentation-1.0.9.tar.gz --markdown 20230421/t/td-ml-autosegmentation/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 20:17:09] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2023-04-21 20:17:09] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.4.3.dev5.tar.gz tmp/histomicsui-1.4.3.dev8.tar.gz --markdown 20230421/h/histomicsui/1.4.3.dev5-1.4.3.dev8/diff.md --exclude *.pyd
+[2023-04-21 20:17:09] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-21 20:17:09] INFO root fetch - processPackages [georgio]: Downloading https://files.pythonhosted.org/packages/50/94/1f29777b36e0dde706633e34b9cfa33d05f15a223e29d0c53be342350451/georgio-2023.111.1087-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 20:17:09] INFO root fetch - processPackages [django-viewers-counts-middleware]: Downloading https://files.pythonhosted.org/packages/24/54/36b9b45048aec62bb16fe52c04b687405560d96d0a710a6e9b68e32b6483/django-viewers-counts-middleware-0.0.1.tar.gz
+[2023-04-21 20:17:09] INFO root fetch - processPackages [flavio]: Downloading https://files.pythonhosted.org/packages/6b/a6/209aa899e5e714693251723c70894519715975461d7c7c05282fbe79d943/flavio-2.5.3.tar.gz
+[2023-04-21 20:17:09] INFO root fetch - processPackages [pseudopeople]: Downloading https://files.pythonhosted.org/packages/ea/b8/4efaf6811d6bd604b8b51936e12651923e8af9348eec0be8e9792f0d65f7/pseudopeople-0.6.0.tar.gz
+[2023-04-21 20:17:09] WARNING root fetch - processPackages [pseudopeople]: Skipping package: exceeds size limit 11621566>=10485760
+[2023-04-21 20:17:09] INFO root fetch - main [MainThread]: End processing [pseudopeople] error
+[2023-04-21 20:17:09] INFO root fetch - processPackages [georgio]: executing diffoscope
+[2023-04-21 20:17:09] INFO root fetch - processPackages [georgio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georgio-2023.111.1062-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/georgio-2023.111.1087-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230421/g/georgio/2023.111.1062-2023.111.1087/diff.md --exclude *.pyd
+[2023-04-21 20:17:09] INFO root fetch - processPackages [flavio]: executing diffoscope
+[2023-04-21 20:17:09] INFO root fetch - processPackages [flavio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flavio-2.5.2.tar.gz tmp/flavio-2.5.3.tar.gz --markdown 20230421/f/flavio/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-04-21 20:17:09] INFO root fetch - processPackages [dann5]: Downloading https://files.pythonhosted.org/packages/a4/79/eeb331f29c0ee12f28ed4192499787aaf6943f36c7c1039e871bbbd7f02d/dann5-2.2.1.tar.gz
+[2023-04-21 20:17:09] INFO root fetch - processPackages [semgrep]: executing diffoscope
+[2023-04-21 20:17:09] INFO root fetch - processPackages [semgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep-1.8.0.tar.gz tmp/semgrep-1.9.0.tar.gz --markdown 20230421/s/semgrep/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 20:17:09] INFO root fetch - processPackages [dann5]: executing diffoscope
+[2023-04-21 20:17:09] INFO root fetch - processPackages [dann5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dann5-2.2.0-py3-none-any.whl.zip tmp/dann5-2.2.1.tar.gz --markdown 20230421/d/dann5/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-04-21 20:17:09] INFO root fetch - processPackages [django-viewers-counts-middleware]: Downloading https://files.pythonhosted.org/packages/d3/96/ea86b04350db73e31c9c9e304a7f878166e8f6a37f11d21cc9f8206c623b/django-viewers-counts-middleware-0.0.2.tar.gz
+[2023-04-21 20:17:09] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-04-21 20:17:09] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230421/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-21 20:17:09] INFO root fetch - processPackages [django-viewers-counts-middleware]: executing diffoscope
+[2023-04-21 20:17:09] INFO root fetch - processPackages [django-viewers-counts-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-viewers-counts-middleware-0.0.1.tar.gz tmp/django-viewers-counts-middleware-0.0.2.tar.gz --markdown 20230421/d/django-viewers-counts-middleware/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 20:17:10] INFO root fetch - main [MainThread]: End processing [td-ml-autosegmentation]: success
+[2023-04-21 20:17:11] INFO root fetch - main [MainThread]: End processing [django-viewers-counts-middleware]: success
+[2023-04-21 20:17:11] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2023-04-21 20:17:12] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-04-21 20:17:12] INFO root fetch - main [MainThread]: End processing [flavio]: success
+[2023-04-21 20:17:12] INFO root fetch - main [MainThread]: End processing [semgrep]: success
+[2023-04-21 20:17:14] INFO root fetch - main [MainThread]: End processing [dann5]: success
+[2023-04-21 20:17:23] INFO root fetch - main [MainThread]: End processing [georgio]: success
+[2023-04-21 20:17:23] INFO root fetch - main [MainThread]: Store serial: [17806921]
