@@ -6322,3 +6322,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 03:46:42] INFO root fetch - main [MainThread]: End processing [dedscumulus]: success
 [2023-04-21 03:46:42] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-04-21 03:46:42] INFO root fetch - main [MainThread]: Store serial: [17798157]
+[2023-04-21 03:51:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798157]
+[2023-04-21 03:51:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 03:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhuque-dataloader
+[2023-04-21 03:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: txftools
+[2023-04-21 03:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySide2-Fluent-Widgets
+[2023-04-21 03:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dingtalk
+[2023-04-21 03:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: control-lab-ly
+[2023-04-21 03:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: factorslib
+[2023-04-21 03:51:51] INFO root fetch - processPackages [zhuque-dataloader]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 03:51:51] INFO root fetch - processPackages [factorslib]: New version: [3.0] Old Version: [2.0]
+[2023-04-21 03:51:51] INFO root fetch - processPackages [txftools]: New version: [2.2] Old Version: [2.1]
+[2023-04-21 03:51:51] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-04-21 03:51:51] INFO root fetch - processPackages [control-lab-ly]: New version: [1.0.0b1] Old Version: [1.0.0b0]
+[2023-04-21 03:51:51] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [1.5.65] Old Version: [1.5.64]
+[2023-04-21 03:51:52] INFO root fetch - processPackages [zhuque-dataloader]: Downloading https://files.pythonhosted.org/packages/38/b1/c37c64ca8f08f5215881e8c357bc91af165cf330c89be5e0588320dacdcc/zhuque-dataloader-0.1.0.tar.gz
+[2023-04-21 03:51:52] INFO root fetch - processPackages [factorslib]: Downloading https://files.pythonhosted.org/packages/2d/f7/11849c2e1d5754cf6775a9c659adabaaf2fa5e0b070f4dd1765c7ffbfb0b/factorslib-3.0.tar.gz
+[2023-04-21 03:51:52] INFO root fetch - processPackages [txftools]: Downloading https://files.pythonhosted.org/packages/3e/c0/06b04378565b538a41690172e1fc83b701bfde7647303f0b300e9568f293/txftools-2.1.tar.gz
+[2023-04-21 03:51:52] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/af/f4/fa41ed5c675a96ecaf02a1993e86357430e253c8b0c6821467cfe73ff493/alibabacloud_dingtalk-1.5.64.tar.gz
+[2023-04-21 03:51:52] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/25/7b/a14e349286495c7519294aa2d6bdb48abf66b21dfbfe03196a8d1dca3ecf/control-lab-ly-1.0.0b0.tar.gz
+[2023-04-21 03:51:52] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/2e/c8/2a6b1417f9693ee12b7daaa6f9c98632b8c1eb6e58e40bee0986080e0d8d/PySide2-Fluent-Widgets-0.7.2.tar.gz
+[2023-04-21 03:51:52] INFO root fetch - processPackages [factorslib]: executing diffoscope
+[2023-04-21 03:51:52] INFO root fetch - processPackages [factorslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorslib-2.0.tar.gz tmp/factorslib-3.0.tar.gz --markdown 20230421/f/factorslib/2.0-3.0/diff.md --exclude *.pyd
+[2023-04-21 03:51:52] INFO root fetch - processPackages [zhuque-dataloader]: Downloading https://files.pythonhosted.org/packages/33/8c/bb77409c812893e3e959a5fbef5af0e8372b4361cf7434769a3416b3e21c/zhuque-dataloader-0.1.1.tar.gz
+[2023-04-21 03:51:52] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-04-21 03:51:52] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.7.1.tar.gz tmp/PySide2-Fluent-Widgets-0.7.2.tar.gz --markdown 20230421/P/PySide2-Fluent-Widgets/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-04-21 03:51:52] INFO root fetch - processPackages [txftools]: Downloading https://files.pythonhosted.org/packages/2c/1b/1b791562ad79e141420f4de5410f3af1de93f2be16a4ce1d400c03f9e7cb/txftools-2.2.tar.gz
+[2023-04-21 03:51:52] INFO root fetch - processPackages [txftools]: executing diffoscope
+[2023-04-21 03:51:52] INFO root fetch - processPackages [txftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txftools-2.1.tar.gz tmp/txftools-2.2.tar.gz --markdown 20230421/t/txftools/2.1-2.2/diff.md --exclude *.pyd
+[2023-04-21 03:51:52] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/0e/6e/d517f8dc768bef4cbd674c96df74b7feefa96c90486b430f555e63019697/alibabacloud_dingtalk-1.5.65.tar.gz
+[2023-04-21 03:51:52] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/f3/19/468f52d865cfd2388c8715f667f9165dfddd43293ed53cc1dd617e4cd2e3/control-lab-ly-1.0.0b1.tar.gz
+[2023-04-21 03:51:52] INFO root fetch - processPackages [zhuque-dataloader]: executing diffoscope
+[2023-04-21 03:51:52] INFO root fetch - processPackages [zhuque-dataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhuque-dataloader-0.1.0.tar.gz tmp/zhuque-dataloader-0.1.1.tar.gz --markdown 20230421/z/zhuque-dataloader/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 03:51:52] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-04-21 03:51:52] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.0.0b0.tar.gz tmp/control-lab-ly-1.0.0b1.tar.gz --markdown 20230421/c/control-lab-ly/1.0.0b0-1.0.0b1/diff.md --exclude *.pyd
+[2023-04-21 03:51:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-04-21 03:51:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-1.5.64.tar.gz tmp/alibabacloud_dingtalk-1.5.65.tar.gz --markdown 20230421/a/alibabacloud-dingtalk/1.5.64-1.5.65/diff.md --exclude *.pyd
+[2023-04-21 03:51:53] INFO root fetch - main [MainThread]: End processing [txftools]: success
+[2023-04-21 03:51:53] INFO root fetch - main [MainThread]: End processing [zhuque-dataloader]: success
+[2023-04-21 03:51:53] INFO root fetch - main [MainThread]: End processing [factorslib]: success
+[2023-04-21 03:51:55] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-04-21 03:51:56] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-04-21 03:51:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-04-21 03:51:57] INFO root fetch - main [MainThread]: Store serial: [17798175]
