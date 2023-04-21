@@ -11236,3 +11236,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 10:57:19] INFO root fetch - main [MainThread]: End processing [alphaz]: success
 [2023-04-21 10:57:22] INFO root fetch - main [MainThread]: End processing [antgo]: success
 [2023-04-21 10:57:22] INFO root fetch - main [MainThread]: Store serial: [17800979]
+[2023-04-21 11:02:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800979]
+[2023-04-21 11:02:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 11:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edwh
+[2023-04-21 11:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2023-04-21 11:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edamame
+[2023-04-21 11:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-04-21 11:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itkdb-gtk
+[2023-04-21 11:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: optipack
+[2023-04-21 11:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proxyhandlercxp
+[2023-04-21 11:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: itemloaders
+[2023-04-21 11:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macrobond-data-api
+[2023-04-21 11:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphere-base
+[2023-04-21 11:02:31] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 11:02:31] INFO root fetch - processPackages [sphere-base]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 11:02:31] INFO root fetch - processPackages [edamame]: New version: [0.49] Old Version: [0.48]
+[2023-04-21 11:02:31] INFO root fetch - processPackages [edwh]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-04-21 11:02:31] WARNING root fetch - processPackages [proxyhandlercxp]: Skipping, unable to determine old version
+[2023-04-21 11:02:31] INFO root fetch - processPackages [proxyhandlercxp]: Start processing: har2jicase
+[2023-04-21 11:02:31] INFO root fetch - processPackages [optipack]: New version: [0.0.19.dev0] Old Version: [0.0.18.dev0]
+[2023-04-21 11:02:31] INFO root fetch - main [MainThread]: End processing [proxyhandlercxp] error
+[2023-04-21 11:02:31] INFO root fetch - processPackages [itemloaders]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-04-21 11:02:31] INFO root fetch - processPackages [macrobond-data-api]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-04-21 11:02:31] INFO root fetch - processPackages [cg]: New version: [29.1.2] Old Version: [29.1.1]
+[2023-04-21 11:02:31] INFO root fetch - processPackages [har2jicase]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 11:02:31] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-04-21 11:02:31] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/16/0e/46525b2db03442802ed88fc5eafe4db9459ef7dcdac1c300db442f0c4f10/itkdb_gtk-0.0.1.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/4d/54/9f0cf6570e23e64ea3931e39a53775a832bac64547fdb9cb088ab98c9835/edwh-0.6.5.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-04-21 11:02:31] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230421/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-04-21 11:02:31] INFO root fetch - processPackages [itemloaders]: Downloading https://files.pythonhosted.org/packages/94/eb/d520d68d5c69180e0593b7fa204351e0decb27e19437721c5a27f84e6aff/itemloaders-1.0.6.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [optipack]: Downloading https://files.pythonhosted.org/packages/e6/e8/88e0c5121a03c70b6f3945ff3b4bc9a0554df7cfddd99daa0a0381d9ea59/optipack-0.0.18.dev0.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [har2jicase]: Downloading https://files.pythonhosted.org/packages/61/14/8722f4597e827ec7bac643133b4baf7ffe310e76f0583905635ccab3b9e8/har2jicase-0.1.2.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/4a/6c/a0d93603987756d644bed204932e5a5bf4e53be6ec6d3ef15e3f018c4021/cg-29.1.1.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [sphere-base]: Downloading https://files.pythonhosted.org/packages/67/83/6003b40b3545b0e4aca4665b9b196478350cd36e85a10421200485e8ace1/sphere_base-0.1.3.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [edamame]: Downloading https://files.pythonhosted.org/packages/96/9c/d306ea5745da9e2bec00890a71e591b22e1c765b4b7a76dfe528ef241691/edamame-0.49.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/51/af/932431623772e0e57250d15c623e206391012ad6b4b9155a473f3371b0e5/macrobond-data-api-1.0.0.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/b1/24/1625b17052a8b962afb84447ce2aac03d1e0b897daaa9b38083f4d2d246b/itkdb_gtk-0.0.2.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [har2jicase]: executing diffoscope
+[2023-04-21 11:02:31] INFO root fetch - processPackages [har2jicase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2jicase-0.1.1.tar.gz tmp/har2jicase-0.1.2.tar.gz --markdown 20230421/h/har2jicase/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 11:02:31] INFO root fetch - processPackages [itemloaders]: Downloading https://files.pythonhosted.org/packages/17/38/07db5e6ebdbe7acec2341fb65603fe4639431aa0133748156368f17a6c8e/itemloaders-1.1.0.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-04-21 11:02:31] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.2.tar.gz tmp/sphere_base-0.1.3.tar.gz --markdown 20230421/s/sphere-base/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 11:02:31] INFO root fetch - processPackages [optipack]: Downloading https://files.pythonhosted.org/packages/ce/9c/5223011d979a85586d11aec6df97a1736967290644355a7b2f6a01720999/optipack-0.0.19.dev0.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/58/8e/9d91aecf92db8bb2f3a492762bd55c22f87ca28b055866ee02523edc58bc/edwh-0.6.6.tar.gz
+[2023-04-21 11:02:31] INFO root fetch - processPackages [edamame]: executing diffoscope
+[2023-04-21 11:02:31] INFO root fetch - processPackages [edamame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edamame-0.48.tar.gz tmp/edamame-0.49.tar.gz --markdown 20230421/e/edamame/0.48-0.49/diff.md --exclude *.pyd
+[2023-04-21 11:02:32] INFO root fetch - processPackages [macrobond-data-api]: executing diffoscope
+[2023-04-21 11:02:32] INFO root fetch - processPackages [macrobond-data-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrobond-data-api-0.0.9.tar.gz tmp/macrobond-data-api-1.0.0.tar.gz --markdown 20230421/m/macrobond-data-api/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-21 11:02:32] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2023-04-21 11:02:32] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.0.1.tar.gz tmp/itkdb_gtk-0.0.2.tar.gz --markdown 20230421/i/itkdb-gtk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 11:02:32] INFO root fetch - processPackages [itemloaders]: executing diffoscope
+[2023-04-21 11:02:32] INFO root fetch - processPackages [itemloaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itemloaders-1.0.6.tar.gz tmp/itemloaders-1.1.0.tar.gz --markdown 20230421/i/itemloaders/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-04-21 11:02:32] INFO root fetch - processPackages [optipack]: executing diffoscope
+[2023-04-21 11:02:32] INFO root fetch - processPackages [optipack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optipack-0.0.18.dev0.tar.gz tmp/optipack-0.0.19.dev0.tar.gz --markdown 20230421/o/optipack/0.0.18.dev0-0.0.19.dev0/diff.md --exclude *.pyd
+[2023-04-21 11:02:32] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/61/34/0a92e23572ca1ecfa4b2e09ed39cb4d0c9d49b0090d644fdcbeed28f11ed/cg-29.1.2.tar.gz
+[2023-04-21 11:02:32] INFO root fetch - processPackages [edwh]: executing diffoscope
+[2023-04-21 11:02:32] INFO root fetch - processPackages [edwh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh-0.6.5.tar.gz tmp/edwh-0.6.6.tar.gz --markdown 20230421/e/edwh/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-04-21 11:02:32] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-21 11:02:32] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.1.1.tar.gz tmp/cg-29.1.2.tar.gz --markdown 20230421/c/cg/29.1.1-29.1.2/diff.md --exclude *.pyd
+[2023-04-21 11:02:33] INFO root fetch - processPackages [har2jicase]: Start processing: polyaxon
+[2023-04-21 11:02:33] INFO root fetch - main [MainThread]: End processing [har2jicase]: success
+[2023-04-21 11:02:33] INFO root fetch - main [MainThread]: End processing [edamame]: success
+[2023-04-21 11:02:33] INFO root fetch - processPackages [polyaxon]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-04-21 11:02:34] INFO root fetch - main [MainThread]: End processing [itemloaders]: success
+[2023-04-21 11:02:34] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2023-04-21 11:02:34] INFO root fetch - main [MainThread]: End processing [optipack]: success
+[2023-04-21 11:02:34] INFO root fetch - processPackages [polyaxon]: executing diffoscope
+[2023-04-21 11:02:34] INFO root fetch - processPackages [polyaxon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-2.0.0rc8.tar.gz tmp/polyaxon-2.0.0rc9.tar.gz --markdown 20230421/p/polyaxon/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-04-21 11:02:34] INFO root fetch - main [MainThread]: End processing [macrobond-data-api]: success
+[2023-04-21 11:02:34] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-04-21 11:02:35] INFO root fetch - main [MainThread]: End processing [edwh]: success
+[2023-04-21 11:02:35] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-04-21 11:02:40] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
+[2023-04-21 11:02:45] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-21 11:02:45] INFO root fetch - main [MainThread]: Store serial: [17801013]
