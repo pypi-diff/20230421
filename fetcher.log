@@ -8914,3 +8914,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 08:23:35] INFO root fetch - main [MainThread]: End processing [waveforms]: success
 [2023-04-21 08:23:37] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-04-21 08:23:37] INFO root fetch - main [MainThread]: Store serial: [17799706]
+[2023-04-21 08:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799706]
+[2023-04-21 08:28:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 08:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waveforms
+[2023-04-21 08:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2023-04-21 08:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pcl-pangu
+[2023-04-21 08:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bp-data-fabric
+[2023-04-21 08:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynrl1
+[2023-04-21 08:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: systemrdl-compiler
+[2023-04-21 08:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hti-index
+[2023-04-21 08:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-mapper
+[2023-04-21 08:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fiddler-client
+[2023-04-21 08:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: muradmymodule
+[2023-04-21 08:28:46] INFO root fetch - processPackages [bp-data-fabric]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 08:28:46] INFO root fetch - processPackages [django-mapper]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-21 08:28:46] INFO root fetch - processPackages [pcl-pangu]: New version: [1.2.6.2] Old Version: [1.2.6.1]
+[2023-04-21 08:28:46] INFO root fetch - processPackages [hti-index]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 08:28:46] INFO root fetch - processPackages [waveforms]: New version: [1.5.90] Old Version: [1.5.89]
+[2023-04-21 08:28:46] INFO root fetch - processPackages [pynrl1]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-21 08:28:46] INFO root fetch - processPackages [muradmymodule]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 08:28:46] INFO root fetch - processPackages [systemrdl-compiler]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-21 08:28:46] INFO root fetch - processPackages [fiddler-client]: New version: [1.7.1.dev1] Old Version: [1.7.1]
+[2023-04-21 08:28:46] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230421] Old Version: [20230420]
+[2023-04-21 08:28:46] INFO root fetch - processPackages [pcl-pangu]: Downloading https://files.pythonhosted.org/packages/9f/04/298e2f229b71b31b843639dc00ea87e88f21db528ad3fcaddad7d66a01b3/pcl_pangu-1.2.6.1.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [muradmymodule]: Downloading https://files.pythonhosted.org/packages/13/c0/2d6c3e9fec7776dfc7cbabdf09be523829856c17ece654d336e82a707798/muradmymodule-0.0.2.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [bp-data-fabric]: Downloading https://files.pythonhosted.org/packages/3a/70/e871787f59b3dda5faad7403c562a7b5218e81f96e7ac3f2d77e5c6a6ef3/bp_data_fabric-0.0.9.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [systemrdl-compiler]: Downloading https://files.pythonhosted.org/packages/24/b3/2f21e1b9eb4f3c12980fed433a65ec43d39ef511990977d98a4af2859cb5/systemrdl-compiler-1.8.0.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [hti-index]: Downloading https://files.pythonhosted.org/packages/85/ea/5e14d8afca345ca9cebeb0ac0bc17539f67a3359b272d3551635cf900bbd/hti_index-0.1.0.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [django-mapper]: Downloading https://files.pythonhosted.org/packages/33/f6/308ed7cdb5c1e93b2b33d58980739024d2a9bfc995d27e103abc0c938c78/django-mapper-1.1.8.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/d6/bf/8ec4cc74223c7ce90150b042626d082a3b58894e2453bd2b844da7e4780c/fake-bpy-module-latest-20230420.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/bd/ac/83838947baf0d5f461d7ac409acbecf722ee3a81e0d62df216dd3b6cfc8a/fiddler-client-1.7.1.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [django-mapper]: executing diffoscope
+[2023-04-21 08:28:46] INFO root fetch - processPackages [django-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mapper-1.1.7.tar.gz tmp/django-mapper-1.1.8.tar.gz --markdown 20230421/d/django-mapper/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-21 08:28:46] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-04-21 08:28:46] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-0.0.8.tar.gz tmp/bp_data_fabric-0.0.9.tar.gz --markdown 20230421/b/bp-data-fabric/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 08:28:46] INFO root fetch - processPackages [pynrl1]: Downloading https://files.pythonhosted.org/packages/81/1c/3bdc24470a4a0be9ac7a3737aa5ea13123612a2a7828933f76730257f430/pynrl1-0.0.6.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/7d/68/e848997dc1720dd66aa4f81f634ae2cd3a2af2b7b0fa4c1bf400048266ae/waveforms-1.5.90.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-04-21 08:28:46] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-1.7.1.tar.gz tmp/fiddler-client-1.7.1.dev1.tar.gz --markdown 20230421/f/fiddler-client/1.7.1-1.7.1.dev1/diff.md --exclude *.pyd
+[2023-04-21 08:28:46] INFO root fetch - processPackages [muradmymodule]: Downloading https://files.pythonhosted.org/packages/ae/25/51fd41b78ced5701477e4445a1ea0429dda7e45c7854a17b6971572434f2/muradmymodule-0.0.3.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-04-21 08:28:46] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.89.tar.gz tmp/waveforms-1.5.90.tar.gz --markdown 20230421/w/waveforms/1.5.89-1.5.90/diff.md --exclude *.pyd
+[2023-04-21 08:28:46] INFO root fetch - processPackages [muradmymodule]: executing diffoscope
+[2023-04-21 08:28:46] INFO root fetch - processPackages [muradmymodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muradmymodule-0.0.2.tar.gz tmp/muradmymodule-0.0.3.tar.gz --markdown 20230421/m/muradmymodule/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 08:28:46] INFO root fetch - processPackages [hti-index]: Downloading https://files.pythonhosted.org/packages/3c/f3/bd3bb5eaeaf386736b594b19c5445a2f0d8dac5e0ba6b5c9c7cd5457e6b8/hti_index-0.1.1.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [hti-index]: executing diffoscope
+[2023-04-21 08:28:46] INFO root fetch - processPackages [hti-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hti_index-0.1.0.tar.gz tmp/hti_index-0.1.1.tar.gz --markdown 20230421/h/hti-index/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 08:28:46] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/f3/f4/39920571d1860b19fcf32b11b8f81b98417a685c5268fd2ede765d7770e8/fake-bpy-module-latest-20230421.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [pynrl1]: executing diffoscope
+[2023-04-21 08:28:46] INFO root fetch - processPackages [pynrl1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynrl1-0.0.5.tar.gz tmp/pynrl1-0.0.6.tar.gz --markdown 20230421/p/pynrl1/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 08:28:46] INFO root fetch - processPackages [systemrdl-compiler]: Downloading https://files.pythonhosted.org/packages/3c/ee/de4fae11995c64843ad11ad5085ee6d1de5b3dda00be2274aca72b5d9cf3/systemrdl-compiler-1.9.0.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [pcl-pangu]: Downloading https://files.pythonhosted.org/packages/50/af/138166f53f476e42e15b693229d2660ef938168628a11cea5a639eba67b3/pcl_pangu-1.2.6.2.tar.gz
+[2023-04-21 08:28:46] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-04-21 08:28:46] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230420.tar.gz tmp/fake-bpy-module-latest-20230421.tar.gz --markdown 20230421/f/fake-bpy-module-latest/20230420-20230421/diff.md --exclude *.pyd
+[2023-04-21 08:28:46] INFO root fetch - processPackages [systemrdl-compiler]: executing diffoscope
+[2023-04-21 08:28:46] INFO root fetch - processPackages [systemrdl-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemrdl-compiler-1.8.0.tar.gz tmp/systemrdl-compiler-1.9.0.tar.gz --markdown 20230421/s/systemrdl-compiler/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 08:28:47] INFO root fetch - processPackages [pcl-pangu]: executing diffoscope
+[2023-04-21 08:28:47] INFO root fetch - processPackages [pcl-pangu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcl_pangu-1.2.6.1.tar.gz tmp/pcl_pangu-1.2.6.2.tar.gz --markdown 20230421/p/pcl-pangu/1.2.6.1-1.2.6.2/diff.md --exclude *.pyd
+[2023-04-21 08:28:47] INFO root fetch - processPackages [bp-data-fabric]: Start processing: drf-remotejwt
+[2023-04-21 08:28:47] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-04-21 08:28:47] WARNING root fetch - processPackages [drf-remotejwt]: Skipping, unable to determine old version
+[2023-04-21 08:28:47] INFO root fetch - main [MainThread]: End processing [drf-remotejwt] error
+[2023-04-21 08:28:47] INFO root fetch - main [MainThread]: End processing [django-mapper]: success
+[2023-04-21 08:28:48] INFO root fetch - main [MainThread]: End processing [muradmymodule]: success
+[2023-04-21 08:28:48] INFO root fetch - main [MainThread]: End processing [hti-index]: success
+[2023-04-21 08:28:48] INFO root fetch - main [MainThread]: End processing [pynrl1]: success
+[2023-04-21 08:28:49] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-04-21 08:28:49] INFO root fetch - main [MainThread]: End processing [systemrdl-compiler]: success
+[2023-04-21 08:28:49] INFO root fetch - main [MainThread]: End processing [pcl-pangu]: success
+[2023-04-21 08:28:51] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-04-21 08:28:53] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-04-21 08:28:53] INFO root fetch - main [MainThread]: Store serial: [17799785]
