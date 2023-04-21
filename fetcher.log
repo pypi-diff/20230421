@@ -8803,3 +8803,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 08:12:43] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
 [2023-04-21 08:13:07] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
 [2023-04-21 08:13:07] INFO root fetch - main [MainThread]: Store serial: [17799647]
+[2023-04-21 08:18:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799647]
+[2023-04-21 08:18:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-purchase-workflow
+[2023-04-21 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bp-data-visualization
+[2023-04-21 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkgcore
+[2023-04-21 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-04-21 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HHLtools
+[2023-04-21 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypi-auto-release-xh
+[2023-04-21 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gwaslab
+[2023-04-21 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-stubs
+[2023-04-21 08:18:16] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230420.0] Old Version: [16.0.20230418.1]
+[2023-04-21 08:18:16] INFO root fetch - processPackages [odoo14-addons-oca-purchase-workflow]: New version: [14.0.20230420.0] Old Version: [14.0.20230413.0]
+[2023-04-21 08:18:16] INFO root fetch - processPackages [bp-data-visualization]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 08:18:16] INFO root fetch - processPackages [gwaslab]: New version: [3.4.8] Old Version: [3.4.7]
+[2023-04-21 08:18:16] INFO root fetch - processPackages [pkgcore]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-21 08:18:16] INFO root fetch - processPackages [HHLtools]: New version: [1.1.0] Old Version: [1.0.8.1]
+[2023-04-21 08:18:16] INFO root fetch - processPackages [botocore-stubs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-21 08:18:16] WARNING root fetch - processPackages [pypi-auto-release-xh]: Skipping, unable to determine old version
+[2023-04-21 08:18:16] INFO root fetch - main [MainThread]: End processing [pypi-auto-release-xh] error
+[2023-04-21 08:18:16] INFO root fetch - processPackages [odoo14-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/67/61/5a1a50e99107f9144e167a72ae521c52412c2f1d6a731159307591504266/odoo14_addons_oca_purchase_workflow-14.0.20230413.0-py3-none-any.whl
+[2023-04-21 08:18:16] INFO root fetch - processPackages [pkgcore]: Downloading https://files.pythonhosted.org/packages/b0/08/a6af872e6f6269f3b400686dde74bb4c6cad0c6a7ce8e1e998ee9efdd92d/pkgcore-0.9.6.tar.gz
+[2023-04-21 08:18:16] INFO root fetch - processPackages [gwaslab]: Downloading https://files.pythonhosted.org/packages/06/97/32e5a9e99e4ded39cf7c8897a555ead22c74bc3dbdfb4a632dd710cd5625/gwaslab-3.4.7.tar.gz
+[2023-04-21 08:18:16] INFO root fetch - processPackages [HHLtools]: Downloading https://files.pythonhosted.org/packages/81/36/5b04426a141d52b235ae82f83024bc28e913895725716dad7e73589a8244/HHLtools-1.0.8.1-py2.py3-none-any.whl
+[2023-04-21 08:18:16] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/d2/6f/1b73c7db0a1ea04fa9a7e7276a6a7be6471fd904817ea886693d11769940/odoo_addons_oca_purchase_workflow-16.0.20230420.0-py3-none-any.whl
+[2023-04-21 08:18:16] WARNING root fetch - processPackages [gwaslab]: Skipping package: exceeds size limit 20619022>=10485760
+[2023-04-21 08:18:16] INFO root fetch - main [MainThread]: End processing [gwaslab] error
+[2023-04-21 08:18:16] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-04-21 08:18:16] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.29.98.tar.gz tmp/botocore_stubs-1.29.99.tar.gz --markdown 20230421/b/botocore-stubs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-21 08:18:16] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-04-21 08:18:16] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230418.1-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230420.0-py3-none-any.whl.zip --markdown 20230421/o/odoo-addons-oca-purchase-workflow/16.0.20230418.1-16.0.20230420.0/diff.md --exclude *.pyd
+[2023-04-21 08:18:16] INFO root fetch - processPackages [odoo14-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/cc/c2/0aaba7d0c7b2e03b53457622099e5a157c45be6561e5775d09efa03efd4c/odoo14_addons_oca_purchase_workflow-14.0.20230420.0-py3-none-any.whl
+[2023-04-21 08:18:17] INFO root fetch - processPackages [bp-data-visualization]: Downloading https://files.pythonhosted.org/packages/00/ff/51d6213512c6a71d59b46ac7bcc501ba30ea9ce13bc696a72e8681597a8d/bp-data-visualization-0.0.9.tar.gz
+[2023-04-21 08:18:17] INFO root fetch - processPackages [HHLtools]: Downloading https://files.pythonhosted.org/packages/63/c2/7760ec34ca3b75d217ca5124a703fdc7c52aa756990258cf740fbe34ded4/HHLtools-1.1.0-py2.py3-none-any.whl
+[2023-04-21 08:18:17] INFO root fetch - processPackages [odoo14-addons-oca-purchase-workflow]: executing diffoscope
+[2023-04-21 08:18:17] INFO root fetch - processPackages [odoo14-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_purchase_workflow-14.0.20230413.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_purchase_workflow-14.0.20230420.0-py3-none-any.whl.zip --markdown 20230421/o/odoo14-addons-oca-purchase-workflow/14.0.20230413.0-14.0.20230420.0/diff.md --exclude *.pyd
+[2023-04-21 08:18:17] INFO root fetch - processPackages [HHLtools]: executing diffoscope
+[2023-04-21 08:18:17] INFO root fetch - processPackages [HHLtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HHLtools-1.0.8.1-py2.py3-none-any.whl.zip tmp/HHLtools-1.1.0-py2.py3-none-any.whl.zip --markdown 20230421/H/HHLtools/1.0.8.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-21 08:18:17] INFO root fetch - processPackages [pkgcore]: Downloading https://files.pythonhosted.org/packages/fd/25/d3bb2106d42651237b8bd4abdf0129981aaacbe65560bf7ec8744b2f54fc/pkgcore-0.9.7.tar.gz
+[2023-04-21 08:18:17] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-04-21 08:18:17] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp-data-visualization-0.0.8.tar.gz tmp/bp-data-visualization-0.0.9.tar.gz --markdown 20230421/b/bp-data-visualization/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 08:18:17] INFO root fetch - processPackages [pkgcore]: executing diffoscope
+[2023-04-21 08:18:17] INFO root fetch - processPackages [pkgcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgcore-0.9.6.tar.gz tmp/pkgcore-0.9.7.tar.gz --markdown 20230421/p/pkgcore/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-21 08:18:18] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-04-21 08:18:18] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-purchase-workflow]: success
+[2023-04-21 08:18:18] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-04-21 08:18:18] INFO root fetch - main [MainThread]: End processing [HHLtools]: success
+[2023-04-21 08:18:18] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-04-21 08:18:22] INFO root fetch - main [MainThread]: End processing [pkgcore]: success
+[2023-04-21 08:18:22] INFO root fetch - main [MainThread]: Store serial: [17799671]
