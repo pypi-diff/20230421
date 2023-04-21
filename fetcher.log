@@ -21767,3 +21767,134 @@ EOFError: EOF read where object expected
 [2023-04-21 21:29:45] INFO root fetch - main [MainThread]: End processing [wagtail-heroicons]: success
 [2023-04-21 21:30:02] INFO root fetch - main [MainThread]: End processing [botocore]: success
 [2023-04-21 21:30:02] INFO root fetch - main [MainThread]: Store serial: [17807733]
+[2023-04-21 21:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807733]
+[2023-04-21 21:35:12] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-21 21:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arvados-cwl-runner
+[2023-04-21 21:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awscli
+[2023-04-21 21:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arvados_fuse
+[2023-04-21 21:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crunchstat_summary
+[2023-04-21 21:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dicopp
+[2023-04-21 21:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: czech-workdays-holidays
+[2023-04-21 21:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adversarial-robustness-toolbox
+[2023-04-21 21:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pciw.py
+[2023-04-21 21:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: terrario
+[2023-04-21 21:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypy-boto3-ecs
+[2023-04-21 21:35:12] INFO root fetch - processPackages [czech-workdays-holidays]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 21:35:12] INFO root fetch - processPackages [crunchstat_summary]: New version: [2.6.2rc2] Old Version: [2.6.1]
+[2023-04-21 21:35:12] INFO root fetch - processPackages [dicopp]: New version: [1.0.35] Old Version: [1.0.34]
+[2023-04-21 21:35:12] INFO root fetch - processPackages [arvados_fuse]: New version: [2.6.2rc2] Old Version: [2.6.1]
+[2023-04-21 21:35:12] INFO root fetch - processPackages [arvados-cwl-runner]: New version: [2.6.2rc2] Old Version: [2.6.1]
+[2023-04-21 21:35:12] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:35:13] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-21 21:35:13] INFO root fetch - processPackages [pciw.py]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-21 21:35:13] INFO root fetch - processPackages [czech-workdays-holidays]: executing diffoscope
+[2023-04-21 21:35:13] INFO root fetch - processPackages [czech-workdays-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czech_workdays_holidays-0.0.6.tar.gz tmp/czech_workdays_holidays-0.0.7.tar.gz --markdown 20230421/c/czech-workdays-holidays/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 21:35:13] INFO root fetch - processPackages [adversarial-robustness-toolbox]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-21 21:35:13] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:35:13] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:35:13] INFO root fetch - processPackages [mypy-boto3-ecs]: New version: [1.26.78] Old Version: [1.26.7]
+[2023-04-21 21:35:13] INFO root fetch - processPackages [dicopp]: Downloading https://files.pythonhosted.org/packages/5d/bb/ccb8e2060faac1487c7c199ab2d4c5ae98028c299b7b63bc7062e3bdc424/dicopp-1.0.34.tar.gz
+[2023-04-21 21:35:13] INFO root fetch - processPackages [crunchstat_summary]: Downloading https://files.pythonhosted.org/packages/38/45/a7787d9d3d24c66b2f21fa2a2d68cbb13f4b632902241c6b1c6006f3c5b8/crunchstat_summary-2.6.2rc2.tar.gz
+[2023-04-21 21:35:13] INFO root fetch - processPackages [pciw.py]: Downloading https://files.pythonhosted.org/packages/08/a0/f15204296e4528fd1249f5260185eeafd2e2e77ee25294440fc0bf482dff/pciw.py-0.9.5.tar.gz
+[2023-04-21 21:35:13] INFO root fetch - processPackages [arvados_fuse]: Downloading https://files.pythonhosted.org/packages/0e/6d/25ab53c9f916e0e94a922a0a676903db9ac4eb71ae64116f9990eced4cba/arvados_fuse-2.6.2rc2.tar.gz
+[2023-04-21 21:35:13] INFO root fetch - processPackages [adversarial-robustness-toolbox]: Downloading https://files.pythonhosted.org/packages/29/55/e854f5a2e94adb92fedaf63a381f6af0d0236288b2ade2fe47a82f61abbc/adversarial-robustness-toolbox-1.9.0.tar.gz
+[2023-04-21 21:35:13] INFO root fetch - processPackages [arvados-cwl-runner]: Downloading https://files.pythonhosted.org/packages/91/08/6491b51595468cc8d27a2ddfd7952342c1051f31965a8ac189758ffd539d/arvados-cwl-runner-2.6.2rc2.tar.gz
+[2023-04-21 21:35:13] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-04-21 21:35:13] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230421/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-21 21:35:13] INFO root fetch - processPackages [crunchstat_summary]: executing diffoscope
+[2023-04-21 21:35:13] INFO root fetch - processPackages [crunchstat_summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunchstat_summary-2.6.1.tar.gz tmp/crunchstat_summary-2.6.2rc2.tar.gz --markdown 20230421/c/crunchstat_summary/2.6.1-2.6.2rc2/diff.md --exclude *.pyd
+[2023-04-21 21:35:13] INFO root fetch - processPackages [arvados_fuse]: executing diffoscope
+[2023-04-21 21:35:13] INFO root fetch - processPackages [arvados_fuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arvados_fuse-2.6.1.tar.gz tmp/arvados_fuse-2.6.2rc2.tar.gz --markdown 20230421/a/arvados_fuse/2.6.1-2.6.2rc2/diff.md --exclude *.pyd
+[2023-04-21 21:35:13] INFO root fetch - processPackages [arvados-cwl-runner]: executing diffoscope
+[2023-04-21 21:35:13] INFO root fetch - processPackages [arvados-cwl-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arvados-cwl-runner-2.6.1.tar.gz tmp/arvados-cwl-runner-2.6.2rc2.tar.gz --markdown 20230421/a/arvados-cwl-runner/2.6.1-2.6.2rc2/diff.md --exclude *.pyd
+[2023-04-21 21:35:13] INFO root fetch - processPackages [pciw.py]: Downloading https://files.pythonhosted.org/packages/10/06/e017c3350954c173bc2f5ff356e8c98aacc8868d1470192a34237a4d5f1d/pciw.py-0.9.6-py39-none-win_amd64.whl
+[2023-04-21 21:35:13] INFO root fetch - processPackages [dicopp]: Downloading https://files.pythonhosted.org/packages/fd/8e/5410915bf6752f0e5da1eb57b11bf7bc5e4ab9b3233518771393a8d2815c/dicopp-1.0.35.tar.gz
+[2023-04-21 21:35:13] INFO root fetch - processPackages [dicopp]: executing diffoscope
+[2023-04-21 21:35:13] INFO root fetch - processPackages [dicopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicopp-1.0.34.tar.gz tmp/dicopp-1.0.35.tar.gz --markdown 20230421/d/dicopp/1.0.34-1.0.35/diff.md --exclude *.pyd
+[2023-04-21 21:35:13] INFO root fetch - processPackages [pciw.py]: executing diffoscope
+[2023-04-21 21:35:13] INFO root fetch - processPackages [pciw.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pciw.py-0.9.5.tar.gz tmp/pciw.py-0.9.6-py39-none-win_amd64.whl.zip --markdown 20230421/p/pciw.py/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 21:35:13] INFO root fetch - processPackages [mypy-boto3-ecs]: executing diffoscope
+[2023-04-21 21:35:13] INFO root fetch - processPackages [mypy-boto3-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-ecs-1.26.7.tar.gz tmp/mypy-boto3-ecs-1.26.78.tar.gz --markdown 20230421/m/mypy-boto3-ecs/1.26.7-1.26.78/diff.md --exclude *.pyd
+[2023-04-21 21:35:14] INFO root fetch - processPackages [czech-workdays-holidays]: Start processing: mypy-boto3-connect
+[2023-04-21 21:35:14] INFO root fetch - main [MainThread]: End processing [czech-workdays-holidays]: success
+[2023-04-21 21:35:14] INFO root fetch - processPackages [mypy-boto3-connect]: New version: [1.26.88] Old Version: [1.26.79]
+[2023-04-21 21:35:14] INFO root fetch - processPackages [mypy-boto3-connect]: Downloading https://files.pythonhosted.org/packages/bf/dd/b1ad092b8e274388d431d92c909a99aa6ce207f1d7cb783543b574a447f8/mypy-boto3-connect-1.26.79.tar.gz
+[2023-04-21 21:35:14] INFO root fetch - processPackages [mypy-boto3-connect]: Downloading https://files.pythonhosted.org/packages/6d/7e/9234ade824a93e0ce48fee76c5187b7701a0ca9aefa6b420b41facb2ff2e/mypy-boto3-connect-1.26.88.tar.gz
+[2023-04-21 21:35:15] INFO root fetch - processPackages [crunchstat_summary]: Start processing: mypy-boto3-fms
+[2023-04-21 21:35:15] INFO root fetch - main [MainThread]: End processing [crunchstat_summary]: success
+[2023-04-21 21:35:15] INFO root fetch - processPackages [mypy-boto3-connect]: executing diffoscope
+[2023-04-21 21:35:15] INFO root fetch - processPackages [mypy-boto3-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-connect-1.26.79.tar.gz tmp/mypy-boto3-connect-1.26.88.tar.gz --markdown 20230421/m/mypy-boto3-connect/1.26.79-1.26.88/diff.md --exclude *.pyd
+[2023-04-21 21:35:15] INFO root fetch - processPackages [arvados_fuse]: Start processing: mypy-boto3
+[2023-04-21 21:35:15] INFO root fetch - main [MainThread]: End processing [arvados_fuse]: success
+[2023-04-21 21:35:15] INFO root fetch - processPackages [mypy-boto3]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-04-21 21:35:15] INFO root fetch - processPackages [adversarial-robustness-toolbox]: Downloading https://files.pythonhosted.org/packages/74/89/11f26d241b63c2f063a147c9c5ea25fad801e3534e8512201ee3484492ec/adversarial-robustness-toolbox-1.9.1.tar.gz
+[2023-04-21 21:35:15] INFO root fetch - processPackages [mypy-boto3-fms]: New version: [1.26.5] Old Version: [1.26.22]
+[2023-04-21 21:35:15] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-04-21 21:35:15] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.26.98.tar.gz tmp/mypy-boto3-1.26.99.tar.gz --markdown 20230421/m/mypy-boto3/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-04-21 21:35:15] INFO root fetch - processPackages [mypy-boto3-fms]: Downloading https://files.pythonhosted.org/packages/ec/77/69cf64e77c74b66260d9ff606909540d623cecae51a5643d344235d99d21/mypy-boto3-fms-1.26.22.tar.gz
+[2023-04-21 21:35:15] INFO root fetch - processPackages [dicopp]: Start processing: boto3-stubs
+[2023-04-21 21:35:15] INFO root fetch - main [MainThread]: End processing [dicopp]: success
+[2023-04-21 21:35:15] INFO root fetch - processPackages [terrario]: Start processing: boto3-stubs-lite
+[2023-04-21 21:35:15] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:35:15] INFO root fetch - processPackages [boto3-stubs]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-04-21 21:35:15] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-04-21 21:35:15] INFO root fetch - processPackages [arvados-cwl-runner]: Start processing: tomlize
+[2023-04-21 21:35:15] INFO root fetch - main [MainThread]: End processing [arvados-cwl-runner]: success
+[2023-04-21 21:35:15] INFO root fetch - processPackages [pciw.py]: Start processing: kaiju-redis
+[2023-04-21 21:35:15] INFO root fetch - main [MainThread]: End processing [pciw.py]: success
+[2023-04-21 21:35:15] INFO root fetch - processPackages [adversarial-robustness-toolbox]: executing diffoscope
+[2023-04-21 21:35:15] INFO root fetch - processPackages [adversarial-robustness-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adversarial-robustness-toolbox-1.9.0.tar.gz tmp/adversarial-robustness-toolbox-1.9.1.tar.gz --markdown 20230421/a/adversarial-robustness-toolbox/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-21 21:35:15] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-04-21 21:35:15] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.26.98.tar.gz tmp/boto3-stubs-lite-1.26.99.tar.gz --markdown 20230421/b/boto3-stubs-lite/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-04-21 21:35:15] WARNING root fetch - processPackages [tomlize]: Skipping, unable to determine old version
+[2023-04-21 21:35:15] INFO root fetch - processPackages [tomlize]: Start processing: cpppackage4
+[2023-04-21 21:35:15] INFO root fetch - main [MainThread]: End processing [tomlize] error
+[2023-04-21 21:35:15] INFO root fetch - processPackages [kaiju-redis]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-21 21:35:15] INFO root fetch - processPackages [mypy-boto3-fms]: Downloading https://files.pythonhosted.org/packages/dd/f6/7cd7e55d6916a0531d2b896d6fc25c5c7b838cd768add156ea0da8e89fee/mypy-boto3-fms-1.26.5.tar.gz
+[2023-04-21 21:35:15] WARNING root fetch - processPackages [cpppackage4]: Skipping, unable to determine old version
+[2023-04-21 21:35:15] INFO root fetch - processPackages [cpppackage4]: Start processing: plixkws
+[2023-04-21 21:35:15] INFO root fetch - main [MainThread]: End processing [cpppackage4] error
+[2023-04-21 21:35:15] WARNING root fetch - processPackages [plixkws]: Skipping, unable to determine old version
+[2023-04-21 21:35:15] INFO root fetch - processPackages [plixkws]: Start processing: streamlit-nightly
+[2023-04-21 21:35:15] INFO root fetch - main [MainThread]: End processing [plixkws] error
+[2023-04-21 21:35:15] INFO root fetch - processPackages [mypy-boto3-fms]: executing diffoscope
+[2023-04-21 21:35:15] INFO root fetch - processPackages [mypy-boto3-fms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-fms-1.26.22.tar.gz tmp/mypy-boto3-fms-1.26.5.tar.gz --markdown 20230421/m/mypy-boto3-fms/1.26.22-1.26.5/diff.md --exclude *.pyd
+[2023-04-21 21:35:15] INFO root fetch - processPackages [kaiju-redis]: Downloading https://files.pythonhosted.org/packages/4d/ce/88b01155b354ac08f595299c3bae2756c3d6ea7cba878334b6e85e3d89b1/kaiju_redis-2.0.4-py3-none-any.whl
+[2023-04-21 21:35:15] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-04-21 21:35:15] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.26.98.tar.gz tmp/boto3-stubs-1.26.99.tar.gz --markdown 20230421/b/boto3-stubs/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-04-21 21:35:15] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-04-21 21:35:16] INFO root fetch - processPackages [mypy-boto3-ecs]: Start processing: conda-store
+[2023-04-21 21:35:16] INFO root fetch - main [MainThread]: End processing [mypy-boto3-ecs]: success
+[2023-04-21 21:35:16] INFO root fetch - processPackages [conda-store]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-21 21:35:16] INFO root fetch - processPackages [kaiju-redis]: Downloading https://files.pythonhosted.org/packages/58/53/4dd26a7547fbbe5007566702657cc6fc0bf8cd163e8132a74a52c7f5a73a/kaiju_redis-2.0.5-py3-none-any.whl
+[2023-04-21 21:35:16] INFO root fetch - processPackages [kaiju-redis]: executing diffoscope
+[2023-04-21 21:35:16] INFO root fetch - processPackages [kaiju-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_redis-2.0.4-py3-none-any.whl.zip tmp/kaiju_redis-2.0.5-py3-none-any.whl.zip --markdown 20230421/k/kaiju-redis/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-21 21:35:16] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-04-21 21:35:16] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230421/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-04-21 21:35:16] INFO root fetch - processPackages [conda-store]: Downloading https://files.pythonhosted.org/packages/70/ff/ab0acc5134256aea60a2b1963e08847f50e78c675f3f15d58337cc832520/conda-store-0.4.8.tar.gz
+[2023-04-21 21:35:16] INFO root fetch - processPackages [conda-store]: Downloading https://files.pythonhosted.org/packages/b6/25/92e3602798f7b05f2d3fa4b44d2146be4b2387eea9dc822afd573682f031/conda-store-0.4.9.tar.gz
+[2023-04-21 21:35:16] INFO root fetch - processPackages [conda-store]: executing diffoscope
+[2023-04-21 21:35:16] INFO root fetch - processPackages [conda-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conda-store-0.4.8.tar.gz tmp/conda-store-0.4.9.tar.gz --markdown 20230421/c/conda-store/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-21 21:35:17] INFO root fetch - processPackages [boto3-stubs-lite]: Start processing: conda-store-server
+[2023-04-21 21:35:17] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-04-21 21:35:17] INFO root fetch - processPackages [conda-store-server]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-21 21:35:17] INFO root fetch - processPackages [mypy-boto3-connect]: Start processing: OncoAMBER
+[2023-04-21 21:35:17] INFO root fetch - main [MainThread]: End processing [mypy-boto3-connect]: success
+[2023-04-21 21:35:17] INFO root fetch - processPackages [OncoAMBER]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 21:35:17] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-04-21 21:35:17] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.0.8.tar.gz tmp/OncoAMBER-1.0.9.tar.gz --markdown 20230421/O/OncoAMBER/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:35:17] INFO root fetch - processPackages [conda-store-server]: Downloading https://files.pythonhosted.org/packages/72/d0/0517e6adc1304c6ec162741bf3713aef905a2b30293d378c9b8799e15b0f/conda-store-server-0.4.8.tar.gz
+[2023-04-21 21:35:17] INFO root fetch - main [MainThread]: End processing [kaiju-redis]: success
+[2023-04-21 21:35:18] INFO root fetch - processPackages [conda-store-server]: Downloading https://files.pythonhosted.org/packages/c1/e3/3df51243fbd7dac0e3fb47bc7ad39e594a769a75e95ea78a6e189330fa77/conda-store-server-0.4.9.tar.gz
+[2023-04-21 21:35:18] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-04-21 21:35:18] INFO root fetch - main [MainThread]: End processing [conda-store]: success
+[2023-04-21 21:35:18] INFO root fetch - processPackages [conda-store-server]: executing diffoscope
+[2023-04-21 21:35:18] INFO root fetch - processPackages [conda-store-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conda-store-server-0.4.8.tar.gz tmp/conda-store-server-0.4.9.tar.gz --markdown 20230421/c/conda-store-server/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-21 21:35:18] INFO root fetch - main [MainThread]: End processing [mypy-boto3-fms]: success
+[2023-04-21 21:35:19] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-04-21 21:35:19] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-04-21 21:35:19] INFO root fetch - main [MainThread]: End processing [conda-store-server]: success
+[2023-04-21 21:35:23] INFO root fetch - main [MainThread]: End processing [adversarial-robustness-toolbox]: success
+[2023-04-21 21:35:25] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-04-21 21:35:27] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-04-21 21:35:27] INFO root fetch - main [MainThread]: Store serial: [17807816]
