@@ -7541,3 +7541,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 05:58:52] INFO root fetch - main [MainThread]: End processing [pyXhUtils]: success
 [2023-04-21 05:58:52] INFO root fetch - main [MainThread]: End processing [pilotlight-tools]: success
 [2023-04-21 05:58:52] INFO root fetch - main [MainThread]: Store serial: [17798871]
+[2023-04-21 06:03:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798871]
+[2023-04-21 06:04:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-21 06:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dknovautils
+[2023-04-21 06:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: switch-guides
+[2023-04-21 06:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dargs
+[2023-04-21 06:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xarray
+[2023-04-21 06:04:01] INFO root fetch - processPackages [dknovautils]: New version: [0.0.3] Old Version: [0.0.24]
+[2023-04-21 06:04:01] INFO root fetch - processPackages [dargs]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-21 06:04:01] INFO root fetch - processPackages [switch-guides]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-21 06:04:01] INFO root fetch - processPackages [xarray]: New version: [2023.4.2] Old Version: [2023.4.1]
+[2023-04-21 06:04:01] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/df/59/5acf4d1f736b06f7543ef758b48e18ee108bd0c22b664cd0d70d50726002/dknovautils-0.0.24.tar.gz
+[2023-04-21 06:04:01] INFO root fetch - processPackages [dargs]: Downloading https://files.pythonhosted.org/packages/24/89/1ece42b9519a50edd05b74a422e09d605cdccb720b3a6f892bd086fc8507/dargs-0.3.4.tar.gz
+[2023-04-21 06:04:01] INFO root fetch - processPackages [switch-guides]: Downloading https://files.pythonhosted.org/packages/e2/42/1f3967f80163c6e8bef8334fab9b29f221b50c4937a33968b75d78c1b5e7/switch_guides-0.2.4.tar.gz
+[2023-04-21 06:04:01] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-04-21 06:04:01] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.0.24.tar.gz tmp/dknovautils-0.0.3.tar.gz --markdown 20230421/d/dknovautils/0.0.24-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 06:04:01] INFO root fetch - processPackages [xarray]: Downloading https://files.pythonhosted.org/packages/8b/33/0bef802b8528e823944becc850c6ea05404e1cdcd15e4d2ad55d5d5e87fb/xarray-2023.4.2.tar.gz
+[2023-04-21 06:04:01] INFO root fetch - processPackages [switch-guides]: Downloading https://files.pythonhosted.org/packages/f8/c6/be9c68a8b6eb5a03e03d5965464d398d872d68cff331bf701c1724d9afbc/switch_guides-0.2.5.tar.gz
+[2023-04-21 06:04:01] INFO root fetch - processPackages [dargs]: Downloading https://files.pythonhosted.org/packages/7b/f3/b0eb485260e5022dd2b7c6379134ea332c98feb5c0a1f19ac3364efe1852/dargs-0.3.5.tar.gz
+[2023-04-21 06:04:01] INFO root fetch - processPackages [xarray]: executing diffoscope
+[2023-04-21 06:04:01] INFO root fetch - processPackages [xarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-2023.4.1.tar.gz tmp/xarray-2023.4.2.tar.gz --markdown 20230421/x/xarray/2023.4.1-2023.4.2/diff.md --exclude *.pyd
+[2023-04-21 06:04:01] INFO root fetch - processPackages [switch-guides]: executing diffoscope
+[2023-04-21 06:04:01] INFO root fetch - processPackages [switch-guides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_guides-0.2.4.tar.gz tmp/switch_guides-0.2.5.tar.gz --markdown 20230421/s/switch-guides/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-21 06:04:01] INFO root fetch - processPackages [dargs]: executing diffoscope
+[2023-04-21 06:04:01] INFO root fetch - processPackages [dargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dargs-0.3.4.tar.gz tmp/dargs-0.3.5.tar.gz --markdown 20230421/d/dargs/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-21 06:04:02] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-04-21 06:04:03] INFO root fetch - main [MainThread]: End processing [switch-guides]: success
+[2023-04-21 06:04:03] INFO root fetch - main [MainThread]: End processing [dargs]: success
+[2023-04-21 06:04:05] INFO root fetch - main [MainThread]: End processing [xarray]: success
+[2023-04-21 06:04:05] INFO root fetch - main [MainThread]: Store serial: [17798883]
