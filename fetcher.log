@@ -10584,3 +10584,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 10:20:02] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-21 10:20:03] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-21 10:20:03] INFO root fetch - main [MainThread]: Store serial: [17800642]
+[2023-04-21 10:25:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800642]
+[2023-04-21 10:25:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-21 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynometrics
+[2023-04-21 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: steam-pysigma
+[2023-04-21 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socket-request
+[2023-04-21 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qlapi
+[2023-04-21 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qlapi
+[2023-04-21 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qlapi
+[2023-04-21 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pzfx-parser
+[2023-04-21 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: socket-request
+[2023-04-21 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: har2jicase
+[2023-04-21 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pywikibot
+[2023-04-21 10:25:13] INFO root fetch - processPackages [socket-request]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-04-21 10:25:13] INFO root fetch - processPackages [qlapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 10:25:13] INFO root fetch - processPackages [pynometrics]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 10:25:13] INFO root fetch - processPackages [socket-request]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-04-21 10:25:13] INFO root fetch - processPackages [har2jicase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 10:25:13] INFO root fetch - processPackages [qlapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 10:25:13] INFO root fetch - processPackages [qlapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 10:25:13] INFO root fetch - processPackages [pzfx-parser]: New version: [0.3.1] Old Version: [0.3]
+[2023-04-21 10:25:13] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.4.8] Old Version: [2023.4.7]
+[2023-04-21 10:25:13] INFO root fetch - processPackages [pywikibot]: New version: [8.1.1] Old Version: [8.1.0]
+[2023-04-21 10:25:13] INFO root fetch - processPackages [qlapi]: Downloading https://files.pythonhosted.org/packages/17/3f/c0f56101cba604579024ec00dc200ae627cc5bbfce44d5a099fc5b5bc9f6/qlapi-0.1.1-py3.9.egg
+[2023-04-21 10:25:13] INFO root fetch - processPackages [qlapi]: Downloading https://files.pythonhosted.org/packages/17/3f/c0f56101cba604579024ec00dc200ae627cc5bbfce44d5a099fc5b5bc9f6/qlapi-0.1.1-py3.9.egg
+[2023-04-21 10:25:13] INFO root fetch - processPackages [qlapi]: Downloading https://files.pythonhosted.org/packages/17/3f/c0f56101cba604579024ec00dc200ae627cc5bbfce44d5a099fc5b5bc9f6/qlapi-0.1.1-py3.9.egg
+[2023-04-21 10:25:13] INFO root fetch - processPackages [socket-request]: Downloading https://files.pythonhosted.org/packages/cd/e0/990864e0d546c17ee823f5e5cd230665faad39efc3ba65e139c89af01de8/socket_request-1.1.9-py3-none-any.whl
+[2023-04-21 10:25:13] INFO root fetch - processPackages [socket-request]: Downloading https://files.pythonhosted.org/packages/cd/e0/990864e0d546c17ee823f5e5cd230665faad39efc3ba65e139c89af01de8/socket_request-1.1.9-py3-none-any.whl
+[2023-04-21 10:25:13] INFO root fetch - processPackages [pzfx-parser]: Downloading https://files.pythonhosted.org/packages/d6/4f/60e5ba746fbf7b70b1d25c31fd7862b8b7c7f49fdc0547c4520d0c168fa0/pzfx_parser-0.3.tar.gz
+[2023-04-21 10:25:13] INFO root fetch - processPackages [har2jicase]: Downloading https://files.pythonhosted.org/packages/21/63/d337ecd5344d9a1909e5c6d932c8dcf29337e6c74bb75ce33197bc4ee970/har2jicase-0.0.9.tar.gz
+[2023-04-21 10:25:13] INFO root fetch - processPackages [pynometrics]: Downloading https://files.pythonhosted.org/packages/55/27/be72c5ce23d76335f2e0392bd5e4b4298dd0fece0af369182717835f44b1/pynometrics-0.1.1.tar.gz
+[2023-04-21 10:25:14] INFO root fetch - processPackages [socket-request]: executing diffoscope
+[2023-04-21 10:25:14] INFO root fetch - processPackages [socket-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket_request-1.1.7-py3-none-any.whl.zip tmp/socket_request-1.1.9-py3-none-any.whl.zip --markdown 20230421/s/socket-request/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-04-21 10:25:14] INFO root fetch - processPackages [socket-request]: executing diffoscope
+[2023-04-21 10:25:14] INFO root fetch - processPackages [socket-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket_request-1.1.7-py3-none-any.whl.zip tmp/socket_request-1.1.9-py3-none-any.whl.zip --markdown 20230421/s/socket-request/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-04-21 10:25:14] INFO root fetch - processPackages [har2jicase]: executing diffoscope
+[2023-04-21 10:25:14] INFO root fetch - processPackages [har2jicase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2jicase-0.0.8.tar.gz tmp/har2jicase-0.0.9.tar.gz --markdown 20230421/h/har2jicase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 10:25:14] INFO root fetch - processPackages [pywikibot]: Downloading https://files.pythonhosted.org/packages/02/4e/8d41c07e6e8203ad5a5e3aac67f0e1225217086a7dc9947cf660d9948e12/pywikibot-8.1.1.tar.gz
+[2023-04-21 10:25:14] INFO root fetch - processPackages [steam-pysigma]: executing diffoscope
+[2023-04-21 10:25:14] INFO root fetch - processPackages [steam-pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-pysigma-2023.4.7.tar.gz tmp/steam-pysigma-2023.4.8.tar.gz --markdown 20230421/s/steam-pysigma/2023.4.7-2023.4.8/diff.md --exclude *.pyd
+[2023-04-21 10:25:14] INFO root fetch - processPackages [pynometrics]: Downloading https://files.pythonhosted.org/packages/76/c6/5722688b268945a76c1f7f787537326d6d5edd86b1fa2287a87089b79b5d/pynometrics-0.1.2.tar.gz
+[2023-04-21 10:25:14] INFO root fetch - processPackages [pzfx-parser]: Downloading https://files.pythonhosted.org/packages/56/a4/ff96e448f5f5a4da38b29fac704710a8ab5196696bf600c0cce3c80ad161/pzfx_parser-0.3.1.tar.gz
+[2023-04-21 10:25:14] INFO root fetch - processPackages [qlapi]: Downloading https://files.pythonhosted.org/packages/21/e4/ed0dcc0d749e00e50d15a2459f547b6f1ade7ae692aed85e0ce6f7b4f4a8/qlapi-0.1.2.tar.gz
+[2023-04-21 10:25:14] INFO root fetch - processPackages [qlapi]: Downloading https://files.pythonhosted.org/packages/21/e4/ed0dcc0d749e00e50d15a2459f547b6f1ade7ae692aed85e0ce6f7b4f4a8/qlapi-0.1.2.tar.gz
+[2023-04-21 10:25:14] INFO root fetch - processPackages [qlapi]: Downloading https://files.pythonhosted.org/packages/21/e4/ed0dcc0d749e00e50d15a2459f547b6f1ade7ae692aed85e0ce6f7b4f4a8/qlapi-0.1.2.tar.gz
+[2023-04-21 10:25:14] INFO root fetch - processPackages [pywikibot]: executing diffoscope
+[2023-04-21 10:25:14] INFO root fetch - processPackages [pywikibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywikibot-8.1.0.tar.gz tmp/pywikibot-8.1.1.tar.gz --markdown 20230421/p/pywikibot/8.1.0-8.1.1/diff.md --exclude *.pyd
+[2023-04-21 10:25:14] INFO root fetch - processPackages [pynometrics]: executing diffoscope
+[2023-04-21 10:25:14] INFO root fetch - processPackages [pynometrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynometrics-0.1.1.tar.gz tmp/pynometrics-0.1.2.tar.gz --markdown 20230421/p/pynometrics/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 10:25:14] INFO root fetch - processPackages [pzfx-parser]: executing diffoscope
+[2023-04-21 10:25:14] INFO root fetch - processPackages [pzfx-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pzfx_parser-0.3.tar.gz tmp/pzfx_parser-0.3.1.tar.gz --markdown 20230421/p/pzfx-parser/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 10:25:14] INFO root fetch - processPackages [qlapi]: executing diffoscope
+[2023-04-21 10:25:14] INFO root fetch - processPackages [qlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlapi-0.1.1-py3.9.egg tmp/qlapi-0.1.2.tar.gz --markdown 20230421/q/qlapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 10:25:14] INFO root fetch - processPackages [qlapi]: executing diffoscope
+[2023-04-21 10:25:14] INFO root fetch - processPackages [qlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlapi-0.1.1-py3.9.egg tmp/qlapi-0.1.2.tar.gz --markdown 20230421/q/qlapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 10:25:14] INFO root fetch - processPackages [qlapi]: executing diffoscope
+[2023-04-21 10:25:14] INFO root fetch - processPackages [qlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlapi-0.1.1-py3.9.egg tmp/qlapi-0.1.2.tar.gz --markdown 20230421/q/qlapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 10:25:15] INFO root fetch - processPackages [socket-request]: Start processing: exudyn
+[2023-04-21 10:25:15] INFO root fetch - main [MainThread]: End processing [socket-request]: success
+[2023-04-21 10:25:15] INFO root fetch - processPackages [exudyn]: New version: [1.6.65.dev1] Old Version: [1.6.57.dev1]
+[2023-04-21 10:25:15] INFO root fetch - processPackages [socket-request]: Start processing: odoo-addon-mis-builder
+[2023-04-21 10:25:15] INFO root fetch - main [MainThread]: End processing [socket-request]: success
+[2023-04-21 10:25:15] INFO root fetch - processPackages [har2jicase]: Start processing: gspWeb
+[2023-04-21 10:25:15] INFO root fetch - main [MainThread]: End processing [har2jicase]: success
+[2023-04-21 10:25:15] INFO root fetch - processPackages [gspWeb]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 10:25:15] INFO root fetch - processPackages [exudyn]: Downloading https://files.pythonhosted.org/packages/ac/31/ba4e9d5c73453a96a249e0457f08b2f948b4dd1801beb0c9acb42f17512b/exudyn-1.6.65.dev1-cp39-cp39-win_amd64.whl
+[2023-04-21 10:25:15] INFO root fetch - processPackages [steam-pysigma]: Start processing: micromechanics-indentationGUI
+[2023-04-21 10:25:15] INFO root fetch - main [MainThread]: End processing [steam-pysigma]: success
+[2023-04-21 10:25:15] INFO root fetch - processPackages [odoo-addon-mis-builder]: New version: [16.0.5.1.1] Old Version: [16.0.5.1.0.4]
+[2023-04-21 10:25:15] INFO root fetch - processPackages [gspWeb]: executing diffoscope
+[2023-04-21 10:25:15] INFO root fetch - processPackages [gspWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspWeb-0.0.6.tar.gz tmp/gspWeb-0.0.7.tar.gz --markdown 20230421/g/gspWeb/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 10:25:15] INFO root fetch - processPackages [micromechanics-indentationGUI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 10:25:16] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/f2/56/c8a1c9931c48820ffe383145d5cb4d2abf9ff0408474ec669b889693624d/odoo_addon_mis_builder-16.0.5.1.0.4-py3-none-any.whl
+[2023-04-21 10:25:16] INFO root fetch - processPackages [pzfx-parser]: Start processing: structout
+[2023-04-21 10:25:16] INFO root fetch - main [MainThread]: End processing [pzfx-parser]: success
+[2023-04-21 10:25:16] INFO root fetch - processPackages [structout]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 10:25:16] INFO root fetch - main [MainThread]: End processing [pynometrics]: success
+[2023-04-21 10:25:16] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/b8/0f/a989bd07df24a61024d1a096bd2728d2bb78d3fa1f9c8b35fd50e0c2dbb9/odoo_addon_mis_builder-16.0.5.1.1-py3-none-any.whl
+[2023-04-21 10:25:16] INFO root fetch - processPackages [micromechanics-indentationGUI]: executing diffoscope
+[2023-04-21 10:25:16] INFO root fetch - processPackages [micromechanics-indentationGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micromechanics_indentationGUI-0.0.8-py3-none-any.whl.zip tmp/micromechanics_indentationGUI-0.0.9-py3-none-any.whl.zip --markdown 20230421/m/micromechanics-indentationGUI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 10:25:16] INFO root fetch - processPackages [exudyn]: executing diffoscope
+[2023-04-21 10:25:16] INFO root fetch - processPackages [exudyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exudyn-1.6.57.dev1-cp39-cp39-win_amd64.whl.zip tmp/exudyn-1.6.65.dev1-cp39-cp39-win_amd64.whl.zip --markdown 20230421/e/exudyn/1.6.57.dev1-1.6.65.dev1/diff.md --exclude *.pyd
+[2023-04-21 10:25:16] INFO root fetch - processPackages [structout]: Downloading https://files.pythonhosted.org/packages/a0/e9/df403c4db56790afea644b9804d91cfb7179f8b1ebc645cbd408335a4917/structout-0.1.8.tar.gz
+[2023-04-21 10:25:16] INFO root fetch - processPackages [odoo-addon-mis-builder]: executing diffoscope
+[2023-04-21 10:25:16] INFO root fetch - processPackages [odoo-addon-mis-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder-16.0.5.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_mis_builder-16.0.5.1.1-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-mis-builder/16.0.5.1.0.4-16.0.5.1.1/diff.md --exclude *.pyd
+[2023-04-21 10:25:17] INFO root fetch - processPackages [structout]: Downloading https://files.pythonhosted.org/packages/c2/20/061eeddc415dd766ab965643666cf8bd0b491ec7843e3b9649b6bd41532a/structout-0.1.9.tar.gz
+[2023-04-21 10:25:17] INFO root fetch - processPackages [structout]: executing diffoscope
+[2023-04-21 10:25:17] INFO root fetch - processPackages [structout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structout-0.1.8.tar.gz tmp/structout-0.1.9.tar.gz --markdown 20230421/s/structout/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 10:25:17] INFO root fetch - main [MainThread]: End processing [gspWeb]: success
+[2023-04-21 10:25:17] INFO root fetch - main [MainThread]: End processing [qlapi]: success
+[2023-04-21 10:25:17] INFO root fetch - main [MainThread]: End processing [micromechanics-indentationGUI]: success
+[2023-04-21 10:25:17] INFO root fetch - main [MainThread]: End processing [qlapi]: success
+[2023-04-21 10:25:17] INFO root fetch - main [MainThread]: End processing [qlapi]: success
+[2023-04-21 10:25:18] INFO root fetch - main [MainThread]: End processing [exudyn]: success
+[2023-04-21 10:25:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder]: success
+[2023-04-21 10:25:18] INFO root fetch - main [MainThread]: End processing [structout]: success
+[2023-04-21 10:25:21] INFO root fetch - main [MainThread]: End processing [pywikibot]: success
+[2023-04-21 10:25:21] INFO root fetch - main [MainThread]: Store serial: [17800692]
