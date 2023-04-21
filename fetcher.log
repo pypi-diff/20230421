@@ -22691,3 +22691,68 @@ EOFError: EOF read where object expected
 [2023-04-21 22:14:18] INFO root fetch - main [MainThread]: End processing [betterletter]: success
 [2023-04-21 22:14:20] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-04-21 22:14:20] INFO root fetch - main [MainThread]: Store serial: [17808315]
+[2023-04-21 22:19:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808315]
+[2023-04-21 22:19:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iambic-core
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yaml-stripper
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LabelFusion
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: folioclient
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peewee
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mythril
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finalynx
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yaml-stripper
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ReFrame-HPC
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tnsu
+[2023-04-21 22:19:29] INFO root fetch - processPackages [LabelFusion]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-21 22:19:29] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 22:19:29] INFO root fetch - processPackages [finalynx]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-04-21 22:19:29] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 22:19:29] INFO root fetch - processPackages [folioclient]: New version: [0.9] Old Version: [0.8]
+[2023-04-21 22:19:29] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 22:19:29] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 22:19:29] INFO root fetch - processPackages [iambic-core]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-04-21 22:19:29] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 22:19:29] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 22:19:29] INFO root fetch - processPackages [mythril]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-21 22:19:29] INFO root fetch - processPackages [LabelFusion]: executing diffoscope
+[2023-04-21 22:19:29] INFO root fetch - processPackages [LabelFusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LabelFusion-1.0.7-py3-none-any.whl.zip tmp/LabelFusion-1.0.8-py3-none-any.whl.zip --markdown 20230421/L/LabelFusion/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-21 22:19:29] INFO root fetch - processPackages [tnsu]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 22:19:29] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-04-21 22:19:29] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.0.tar.gz tmp/finalynx-1.8.1.tar.gz --markdown 20230421/f/finalynx/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-04-21 22:19:29] INFO root fetch - processPackages [peewee]: New version: [3.9.6] Old Version: [3.9.5]
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ReFrame-HPC]: New version: [4.2.0] Old Version: [4.1.3]
+[2023-04-21 22:19:29] INFO root fetch - processPackages [folioclient]: Downloading https://files.pythonhosted.org/packages/2a/68/41e785fbf4765b96038fdfb050eba48d06f8a12b9e09235aea8fe7536933/folioclient-0.8.tar.gz
+[2023-04-21 22:19:29] INFO root fetch - processPackages [ReFrame-HPC]: Downloading https://files.pythonhosted.org/packages/53/c3/994af81550cd962c12e16b73ec7af5573f912e07dab4f02c9c9296cfbaeb/ReFrame-HPC-4.1.3.tar.gz
+[2023-04-21 22:19:29] INFO root fetch - processPackages [tnsu]: Downloading https://files.pythonhosted.org/packages/3a/5f/ea358f666d7381e80c833705037accef5ab5bfb19408469789d14f0ba77b/tnsu-1.0.2.tar.gz
+[2023-04-21 22:19:29] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/96/dd/3b896db6bd982b807cf3c9102c6b4ea01d3886e212a20d7af545d1c32111/iambic_core-0.3.1.tar.gz
+[2023-04-21 22:19:29] INFO root fetch - processPackages [mythril]: executing diffoscope
+[2023-04-21 22:19:29] INFO root fetch - processPackages [mythril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythril-0.9.1.tar.gz tmp/mythril-0.9.2.tar.gz --markdown 20230421/m/mythril/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-21 22:19:30] INFO root fetch - processPackages [peewee]: executing diffoscope
+[2023-04-21 22:19:30] INFO root fetch - processPackages [peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee-3.9.5.tar.gz tmp/peewee-3.9.6.tar.gz --markdown 20230421/p/peewee/3.9.5-3.9.6/diff.md --exclude *.pyd
+[2023-04-21 22:19:30] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-04-21 22:19:30] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.2.1.tar.gz tmp/iambic_core-0.3.1.tar.gz --markdown 20230421/i/iambic-core/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 22:19:30] INFO root fetch - processPackages [ReFrame-HPC]: Downloading https://files.pythonhosted.org/packages/70/65/198dfe2893347f80195043c81472437f80794e9016de46a59c632c58307d/ReFrame-HPC-4.2.0.tar.gz
+[2023-04-21 22:19:30] INFO root fetch - processPackages [folioclient]: Downloading https://files.pythonhosted.org/packages/92/c5/da338f49117e5b64f4ec89667e37588e7fd20caf7bf0601a0bbc0d3e0641/folioclient-0.9.tar.gz
+[2023-04-21 22:19:30] INFO root fetch - processPackages [folioclient]: executing diffoscope
+[2023-04-21 22:19:30] INFO root fetch - processPackages [folioclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folioclient-0.8.tar.gz tmp/folioclient-0.9.tar.gz --markdown 20230421/f/folioclient/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-21 22:19:30] INFO root fetch - processPackages [ReFrame-HPC]: executing diffoscope
+[2023-04-21 22:19:30] INFO root fetch - processPackages [ReFrame-HPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReFrame-HPC-4.1.3.tar.gz tmp/ReFrame-HPC-4.2.0.tar.gz --markdown 20230421/R/ReFrame-HPC/4.1.3-4.2.0/diff.md --exclude *.pyd
+[2023-04-21 22:19:30] INFO root fetch - processPackages [tnsu]: Downloading https://files.pythonhosted.org/packages/08/a6/503b8e8167091279c63c33fa61d8fd3a58d73b20ba81673fc94198dbc368/tnsu-1.0.3.tar.gz
+[2023-04-21 22:19:31] INFO root fetch - processPackages [yaml-stripper]: Start processing: yaml-stripper
+[2023-04-21 22:19:31] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 22:19:31] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 22:19:31] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 22:19:31] INFO root fetch - main [MainThread]: End processing [LabelFusion]: success
+[2023-04-21 22:19:31] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 22:19:31] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 22:19:31] INFO root fetch - processPackages [tnsu]: executing diffoscope
+[2023-04-21 22:19:31] INFO root fetch - processPackages [tnsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tnsu-1.0.2.tar.gz tmp/tnsu-1.0.3.tar.gz --markdown 20230421/t/tnsu/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 22:19:31] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-04-21 22:19:31] INFO root fetch - main [MainThread]: End processing [mythril]: success
+[2023-04-21 22:19:32] INFO root fetch - main [MainThread]: End processing [folioclient]: success
+[2023-04-21 22:19:32] INFO root fetch - main [MainThread]: End processing [ReFrame-HPC]: success
+[2023-04-21 22:19:32] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 22:19:33] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-04-21 22:19:34] INFO root fetch - main [MainThread]: End processing [peewee]: success
+[2023-04-21 22:19:34] INFO root fetch - main [MainThread]: End processing [tnsu]: success
+[2023-04-21 22:19:34] INFO root fetch - main [MainThread]: Store serial: [17808346]
