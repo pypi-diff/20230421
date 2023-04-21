@@ -9798,3 +9798,118 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 09:37:27] INFO root fetch - main [MainThread]: End processing [jutool.spider-util]: success
 [2023-04-21 09:37:27] INFO root fetch - main [MainThread]: End processing [driveup]: success
 [2023-04-21 09:37:27] INFO root fetch - main [MainThread]: Store serial: [17800250]
+[2023-04-21 09:42:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800250]
+[2023-04-21 09:42:36] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinnire
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proteinTools
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proteinTools
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-mapper
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystream-pipeline
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aprilbox
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mw-aiohttp-security
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ortoolpy
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graal
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: transon
+[2023-04-21 09:42:36] INFO root fetch - processPackages [proteinTools]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-04-21 09:42:36] INFO root fetch - processPackages [proteinTools]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-04-21 09:42:36] INFO root fetch - processPackages [django-mapper]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-21 09:42:36] WARNING root fetch - processPackages [aprilbox]: Skipping, unable to determine old version
+[2023-04-21 09:42:36] INFO root fetch - processPackages [aprilbox]: Start processing: coso
+[2023-04-21 09:42:36] INFO root fetch - main [MainThread]: End processing [aprilbox] error
+[2023-04-21 09:42:36] INFO root fetch - processPackages [transon]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-21 09:42:36] INFO root fetch - processPackages [transon]: executing diffoscope
+[2023-04-21 09:42:36] INFO root fetch - processPackages [transon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transon-0.0.4.tar.gz tmp/transon-0.0.5.tar.gz --markdown 20230421/t/transon/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 09:42:36] WARNING root fetch - processPackages [tinnire]: Skipping, unable to determine old version
+[2023-04-21 09:42:36] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-21 09:42:36] INFO root fetch - processPackages [tinnire]: Start processing: nonebot-plugin-talk-with-chatgpt
+[2023-04-21 09:42:36] INFO root fetch - main [MainThread]: End processing [tinnire] error
+[2023-04-21 09:42:36] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.2.7.tar.gz tmp/proteinTools-1.2.8.tar.gz --markdown 20230421/p/proteinTools/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-04-21 09:42:36] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-21 09:42:36] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.2.7.tar.gz tmp/proteinTools-1.2.8.tar.gz --markdown 20230421/p/proteinTools/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-04-21 09:42:36] INFO root fetch - processPackages [mw-aiohttp-security]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 09:42:36] INFO root fetch - processPackages [graal]: New version: [0.4.5rc1] Old Version: [0.4.4]
+[2023-04-21 09:42:36] INFO root fetch - processPackages [pystream-pipeline]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ortoolpy]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-21 09:42:36] INFO root fetch - processPackages [coso]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 09:42:36] INFO root fetch - processPackages [django-mapper]: Downloading https://files.pythonhosted.org/packages/1b/14/e746f5577e525d7300025d05b4121891301bc319414721cf39c5fff33328/django-mapper-1.1.9.tar.gz
+[2023-04-21 09:42:36] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-21 09:42:36] INFO root fetch - processPackages [mw-aiohttp-security]: Downloading https://files.pythonhosted.org/packages/76/c0/e10d6f86f89c265c92dfa4e3fd76dc3314e4b552fbcfe99a530f76db2c37/mw-aiohttp-security-0.1.8.tar.gz
+[2023-04-21 09:42:36] INFO root fetch - processPackages [pystream-pipeline]: Downloading https://files.pythonhosted.org/packages/de/57/18225712fd381207cbe68c7f9e04d2e237ccad1d730aed9cd252efa074c6/pystream-pipeline-0.1.2.tar.gz
+[2023-04-21 09:42:36] INFO root fetch - processPackages [coso]: Downloading https://files.pythonhosted.org/packages/97/3b/3cef0e9b2f1fb886f8cf139f6f53845c52b1593e3d970f7060be47b8121f/coso-1.0.2.tar.gz
+[2023-04-21 09:42:36] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/8d/13/c5af616cb28afc94ff3edb101c5e00bf9a73bb2765bb05c7fe807f0a65ba/graal-0.4.4.tar.gz
+[2023-04-21 09:42:36] INFO root fetch - processPackages [ortoolpy]: Downloading https://files.pythonhosted.org/packages/bb/7e/fec0332655a0021e5b064176672ef547234209f444f2d9330d856e0d3cce/ortoolpy-0.5.0-py3-none-any.whl
+[2023-04-21 09:42:37] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Downloading https://files.pythonhosted.org/packages/dc/3b/14b6e235a28f8c7d158e623642065759c129ec4f7b2e2e00b85312159abc/nonebot_plugin_talk_with_chatgpt-0.3.0.tar.gz
+[2023-04-21 09:42:37] INFO root fetch - processPackages [django-mapper]: executing diffoscope
+[2023-04-21 09:42:37] INFO root fetch - processPackages [django-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mapper-1.1.8.tar.gz tmp/django-mapper-1.1.9.tar.gz --markdown 20230421/d/django-mapper/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-21 09:42:37] INFO root fetch - processPackages [coso]: Downloading https://files.pythonhosted.org/packages/bc/97/0d9a06f1865f3b9993f72aa6826a9f152913729efb35f7729a2b4ffe81f8/coso-1.0.3.tar.gz
+[2023-04-21 09:42:37] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/d5/ef/6e836ad42e53afb56f279e99d5be45a7abc53558bc0f6cc72e1e808ef462/graal-0.4.5rc1.tar.gz
+[2023-04-21 09:42:37] INFO root fetch - processPackages [pystream-pipeline]: Downloading https://files.pythonhosted.org/packages/8c/0a/b6e10b125a278a6e1c8f0e9b12e222f397d533ebe3c7dd6af30f5f7f8516/pystream_pipeline-0.1.3.tar.gz
+[2023-04-21 09:42:37] INFO root fetch - processPackages [ortoolpy]: Downloading https://files.pythonhosted.org/packages/f0/0b/6d75dd80c976f131cab3cf7feebdde2488dbef79e694aab4fffe2585a6c8/ortoolpy-0.6.0-py3-none-any.whl
+[2023-04-21 09:42:37] INFO root fetch - processPackages [mw-aiohttp-security]: Downloading https://files.pythonhosted.org/packages/88/1e/b42db49f85d79872fea0777988be107e2478fed13889844e640aa42e1b75/mw-aiohttp-security-0.1.9.tar.gz
+[2023-04-21 09:42:37] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Downloading https://files.pythonhosted.org/packages/b5/5b/81bd5f33070f6cd65b01b023e4010dcc7f0245d428ea583cdce2bb5d0ea2/nonebot_plugin_talk_with_chatgpt-0.3.1.tar.gz
+[2023-04-21 09:42:37] INFO root fetch - processPackages [coso]: executing diffoscope
+[2023-04-21 09:42:37] INFO root fetch - processPackages [coso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coso-1.0.2.tar.gz tmp/coso-1.0.3.tar.gz --markdown 20230421/c/coso/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 09:42:37] INFO root fetch - processPackages [graal]: executing diffoscope
+[2023-04-21 09:42:37] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-0.4.4.tar.gz tmp/graal-0.4.5rc1.tar.gz --markdown 20230421/g/graal/0.4.4-0.4.5rc1/diff.md --exclude *.pyd
+[2023-04-21 09:42:37] INFO root fetch - processPackages [pystream-pipeline]: executing diffoscope
+[2023-04-21 09:42:37] INFO root fetch - processPackages [pystream-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystream-pipeline-0.1.2.tar.gz tmp/pystream_pipeline-0.1.3.tar.gz --markdown 20230421/p/pystream-pipeline/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 09:42:37] INFO root fetch - processPackages [ortoolpy]: executing diffoscope
+[2023-04-21 09:42:37] INFO root fetch - processPackages [ortoolpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ortoolpy-0.5.0-py3-none-any.whl.zip tmp/ortoolpy-0.6.0-py3-none-any.whl.zip --markdown 20230421/o/ortoolpy/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-21 09:42:37] INFO root fetch - processPackages [mw-aiohttp-security]: executing diffoscope
+[2023-04-21 09:42:37] INFO root fetch - processPackages [mw-aiohttp-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mw-aiohttp-security-0.1.8.tar.gz tmp/mw-aiohttp-security-0.1.9.tar.gz --markdown 20230421/m/mw-aiohttp-security/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 09:42:37] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: executing diffoscope
+[2023-04-21 09:42:37] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_talk_with_chatgpt-0.3.0.tar.gz tmp/nonebot_plugin_talk_with_chatgpt-0.3.1.tar.gz --markdown 20230421/n/nonebot-plugin-talk-with-chatgpt/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 09:42:38] INFO root fetch - processPackages [transon]: Start processing: odoo-addon-account-payment-partner
+[2023-04-21 09:42:38] INFO root fetch - main [MainThread]: End processing [transon]: success
+[2023-04-21 09:42:38] INFO root fetch - processPackages [proteinTools]: Start processing: docarray
+[2023-04-21 09:42:38] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-21 09:42:38] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.1.1]
+[2023-04-21 09:42:38] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-21 09:42:38] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/02/29/002001a8b815fa2d2cd9ba92333aabd55769424d7f69cb99d787a995b440/odoo_addon_account_payment_partner-16.0.1.1.1.1-py3-none-any.whl
+[2023-04-21 09:42:38] INFO root fetch - processPackages [proteinTools]: Start processing: nonebot-plugin-talk-with-chatgpt
+[2023-04-21 09:42:38] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-21 09:42:38] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-21 09:42:38] INFO root fetch - processPackages [django-mapper]: Start processing: lovehim
+[2023-04-21 09:42:38] INFO root fetch - main [MainThread]: End processing [django-mapper]: success
+[2023-04-21 09:42:38] INFO root fetch - processPackages [lovehim]: New version: [0.2] Old Version: [0.1]
+[2023-04-21 09:42:38] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: executing diffoscope
+[2023-04-21 09:42:38] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_talk_with_chatgpt-0.3.0.tar.gz tmp/nonebot_plugin_talk_with_chatgpt-0.3.1.tar.gz --markdown 20230421/n/nonebot-plugin-talk-with-chatgpt/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 09:42:38] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/82/9d/44e5cb3074ba29ee2b1ed7cd6fdab0604d4023df3780fa4c147284fd1397/odoo_addon_account_payment_partner-16.0.1.2.0-py3-none-any.whl
+[2023-04-21 09:42:38] INFO root fetch - processPackages [lovehim]: executing diffoscope
+[2023-04-21 09:42:38] INFO root fetch - processPackages [lovehim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovehim-0.1.tar.gz tmp/lovehim-0.2.tar.gz --markdown 20230421/l/lovehim/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-21 09:42:38] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-21 09:42:38] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230421/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-21 09:42:38] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: executing diffoscope
+[2023-04-21 09:42:38] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_partner-16.0.1.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_partner-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-account-payment-partner/16.0.1.1.1.1-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-04-21 09:42:39] INFO root fetch - processPackages [coso]: Start processing: gboml
+[2023-04-21 09:42:39] INFO root fetch - main [MainThread]: End processing [coso]: success
+[2023-04-21 09:42:39] INFO root fetch - processPackages [gboml]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-21 09:42:39] INFO root fetch - processPackages [pystream-pipeline]: Start processing: nlpcloud
+[2023-04-21 09:42:39] INFO root fetch - main [MainThread]: End processing [pystream-pipeline]: success
+[2023-04-21 09:42:39] INFO root fetch - processPackages [gboml]: Downloading https://files.pythonhosted.org/packages/32/e0/68b0f744841e90557c9b3ebfa715db46df0ef5d1144332bfe54402af56e9/gboml-0.1.7.tar.gz
+[2023-04-21 09:42:39] INFO root fetch - processPackages [ortoolpy]: Start processing: odoo-addon-partner-contact-access-link
+[2023-04-21 09:42:39] INFO root fetch - main [MainThread]: End processing [ortoolpy]: success
+[2023-04-21 09:42:39] INFO root fetch - processPackages [nlpcloud]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 09:42:39] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-04-21 09:42:39] INFO root fetch - main [MainThread]: End processing [mw-aiohttp-security]: success
+[2023-04-21 09:42:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-talk-with-chatgpt]: success
+[2023-04-21 09:42:39] INFO root fetch - processPackages [nlpcloud]: Downloading https://files.pythonhosted.org/packages/12/38/9809a35eba0806fd5d8d19f6ddc00c694ddd5fb91f053875bd17d97b90f8/nlpcloud-1.0.8.tar.gz
+[2023-04-21 09:42:39] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: Downloading https://files.pythonhosted.org/packages/20/b4/e59f6069ab87cbe9f5615acbc3f48db07ef1cbcdbd4038796a8e2b1bd4e5/odoo_addon_partner_contact_access_link-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-21 09:42:39] INFO root fetch - processPackages [gboml]: Downloading https://files.pythonhosted.org/packages/50/07/7c0c05be9abc1c6552f0fcf71ecc2ef525104f6baae7b766e05023ea940d/gboml-0.1.8.tar.gz
+[2023-04-21 09:42:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-talk-with-chatgpt]: success
+[2023-04-21 09:42:40] INFO root fetch - processPackages [gboml]: executing diffoscope
+[2023-04-21 09:42:40] INFO root fetch - processPackages [gboml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gboml-0.1.7.tar.gz tmp/gboml-0.1.8.tar.gz --markdown 20230421/g/gboml/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-21 09:42:40] INFO root fetch - processPackages [nlpcloud]: Downloading https://files.pythonhosted.org/packages/3c/4d/85333181aba726d8c28ead2b2ca0c86fe3116d72b153045137ecd971e6d3/nlpcloud-1.0.9.tar.gz
+[2023-04-21 09:42:40] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: Downloading https://files.pythonhosted.org/packages/ea/7b/69aaf87816e12cdef02db773945dd7a394e0c982649d9cefb6f2a83f4d27/odoo_addon_partner_contact_access_link-16.0.1.0.0.4-py3-none-any.whl
+[2023-04-21 09:42:40] INFO root fetch - main [MainThread]: End processing [lovehim]: success
+[2023-04-21 09:42:40] INFO root fetch - processPackages [nlpcloud]: executing diffoscope
+[2023-04-21 09:42:40] INFO root fetch - processPackages [nlpcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpcloud-1.0.8.tar.gz tmp/nlpcloud-1.0.9.tar.gz --markdown 20230421/n/nlpcloud/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 09:42:40] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: executing diffoscope
+[2023-04-21 09:42:40] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_contact_access_link-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_partner_contact_access_link-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-partner-contact-access-link/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-04-21 09:42:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-partner]: success
+[2023-04-21 09:42:40] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2023-04-21 09:42:41] INFO root fetch - main [MainThread]: End processing [nlpcloud]: success
+[2023-04-21 09:42:41] INFO root fetch - main [MainThread]: End processing [gboml]: success
+[2023-04-21 09:42:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-contact-access-link]: success
+[2023-04-21 09:42:42] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-21 09:42:42] INFO root fetch - main [MainThread]: Store serial: [17800309]
