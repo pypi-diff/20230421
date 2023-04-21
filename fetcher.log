@@ -6982,3 +6982,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 05:04:44] INFO root fetch - main [MainThread]: End processing [socket-request]: success
 [2023-04-21 05:04:44] INFO root fetch - main [MainThread]: End processing [koya-scraper]: success
 [2023-04-21 05:04:44] INFO root fetch - main [MainThread]: Store serial: [17798528]
+[2023-04-21 05:09:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798528]
+[2023-04-21 05:09:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-21 05:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ifunnygifmaker
+[2023-04-21 05:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NbRisk
+[2023-04-21 05:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: har2jicase
+[2023-04-21 05:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yunchi
+[2023-04-21 05:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirque-pinnacle
+[2023-04-21 05:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirque-pinnacle
+[2023-04-21 05:09:53] INFO root fetch - processPackages [ifunnygifmaker]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 05:09:53] INFO root fetch - processPackages [NbRisk]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-21 05:09:53] WARNING root fetch - processPackages [har2jicase]: Skipping, unable to determine old version
+[2023-04-21 05:09:53] INFO root fetch - main [MainThread]: End processing [har2jicase] error
+[2023-04-21 05:09:53] INFO root fetch - processPackages [cirque-pinnacle]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-04-21 05:09:53] INFO root fetch - processPackages [cirque-pinnacle]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-04-21 05:09:53] WARNING root fetch - processPackages [yunchi]: Skipping, unable to determine old version
+[2023-04-21 05:09:53] INFO root fetch - main [MainThread]: End processing [yunchi] error
+[2023-04-21 05:09:53] INFO root fetch - processPackages [NbRisk]: executing diffoscope
+[2023-04-21 05:09:53] INFO root fetch - processPackages [NbRisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NbRisk-0.3.0.tar.gz tmp/NbRisk-0.3.1.tar.gz --markdown 20230421/N/NbRisk/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-21 05:09:53] INFO root fetch - processPackages [ifunnygifmaker]: executing diffoscope
+[2023-04-21 05:09:53] INFO root fetch - processPackages [ifunnygifmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifunnygifmaker-0.1.2.tar.gz tmp/ifunnygifmaker-0.1.3.tar.gz --markdown 20230421/i/ifunnygifmaker/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 05:09:53] INFO root fetch - processPackages [cirque-pinnacle]: Downloading https://files.pythonhosted.org/packages/19/ea/6ec502f5fe3e92329fbd52fb652086bdce5adceaad6e4ae1dd12b06d4c5a/cirque_pinnacle-0.0.0.tar.gz
+[2023-04-21 05:09:53] INFO root fetch - processPackages [cirque-pinnacle]: Downloading https://files.pythonhosted.org/packages/19/ea/6ec502f5fe3e92329fbd52fb652086bdce5adceaad6e4ae1dd12b06d4c5a/cirque_pinnacle-0.0.0.tar.gz
+[2023-04-21 05:09:54] INFO root fetch - processPackages [cirque-pinnacle]: Downloading https://files.pythonhosted.org/packages/d9/d3/f092ac15f7e78c4659fd60502ffad88b9630f1e999122a9ad5c301f0e79a/cirque_pinnacle-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 05:09:54] INFO root fetch - processPackages [cirque-pinnacle]: Downloading https://files.pythonhosted.org/packages/d9/d3/f092ac15f7e78c4659fd60502ffad88b9630f1e999122a9ad5c301f0e79a/cirque_pinnacle-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 05:09:54] INFO root fetch - processPackages [cirque-pinnacle]: executing diffoscope
+[2023-04-21 05:09:54] INFO root fetch - processPackages [cirque-pinnacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirque_pinnacle-0.0.0.tar.gz tmp/cirque_pinnacle-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230421/c/cirque-pinnacle/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-21 05:09:54] INFO root fetch - processPackages [cirque-pinnacle]: executing diffoscope
+[2023-04-21 05:09:54] INFO root fetch - processPackages [cirque-pinnacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirque_pinnacle-0.0.0.tar.gz tmp/cirque_pinnacle-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230421/c/cirque-pinnacle/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-21 05:09:54] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker]: success
+[2023-04-21 05:09:54] INFO root fetch - main [MainThread]: End processing [NbRisk]: success
+[2023-04-21 05:09:55] INFO root fetch - main [MainThread]: End processing [cirque-pinnacle]: success
+[2023-04-21 05:09:55] INFO root fetch - main [MainThread]: End processing [cirque-pinnacle]: success
+[2023-04-21 05:09:55] INFO root fetch - main [MainThread]: Store serial: [17798561]
