@@ -8579,3 +8579,34 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 07:51:20] INFO root fetch - main [MainThread]: End processing [nfl-veripy]: success
 [2023-04-21 07:51:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-payroll]: success
 [2023-04-21 07:51:23] INFO root fetch - main [MainThread]: Store serial: [17799522]
+[2023-04-21 07:56:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799522]
+[2023-04-21 07:56:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-21 07:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-parquet-viewer
+[2023-04-21 07:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monashspa
+[2023-04-21 07:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySquashfsImage
+[2023-04-21 07:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python3-commons
+[2023-04-21 07:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm4gpt
+[2023-04-21 07:56:32] INFO root fetch - processPackages [python3-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 07:56:32] INFO root fetch - processPackages [simple-parquet-viewer]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-21 07:56:32] INFO root fetch - processPackages [PySquashfsImage]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-04-21 07:56:32] INFO root fetch - processPackages [monashspa]: New version: [1.9.9] Old Version: [1.9.4]
+[2023-04-21 07:56:32] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-04-21 07:56:32] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.8.tar.gz tmp/python3-commons-0.0.9.tar.gz --markdown 20230421/p/python3-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 07:56:32] INFO root fetch - processPackages [monashspa]: executing diffoscope
+[2023-04-21 07:56:32] INFO root fetch - processPackages [monashspa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monashspa-1.9.4.tar.gz tmp/monashspa-1.9.9.tar.gz --markdown 20230421/m/monashspa/1.9.4-1.9.9/diff.md --exclude *.pyd
+[2023-04-21 07:56:32] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.21.13.7.20] Old Version: [2023.4.21.13.56.26]
+[2023-04-21 07:56:32] INFO root fetch - processPackages [PySquashfsImage]: Downloading https://files.pythonhosted.org/packages/eb/cf/ede3adf4105689476b115c8a64d15d7b2bcad5b3bb0aa258407a1bfdf1ac/PySquashfsImage-0.7.1.tar.gz
+[2023-04-21 07:56:32] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/95/82/520d1a37dc6d040fb6b193f0cb9eaaea5a7663891a7cde16c7626a38adec/llm4gpt-2023.4.21.13.56.26-py2.py3-none-any.whl
+[2023-04-21 07:56:32] INFO root fetch - processPackages [simple-parquet-viewer]: executing diffoscope
+[2023-04-21 07:56:32] INFO root fetch - processPackages [simple-parquet-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_parquet_viewer-0.9.0.tar.gz tmp/simple_parquet_viewer-0.9.1.tar.gz --markdown 20230421/s/simple-parquet-viewer/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-21 07:56:32] INFO root fetch - processPackages [PySquashfsImage]: Downloading https://files.pythonhosted.org/packages/e0/1a/3a41172a536b2de9adf4193a083e929e2d75df9c9a5a35254e7ed8807611/PySquashfsImage-0.8.0-py3-none-any.whl
+[2023-04-21 07:56:32] INFO root fetch - processPackages [PySquashfsImage]: executing diffoscope
+[2023-04-21 07:56:32] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-21 07:56:32] INFO root fetch - processPackages [PySquashfsImage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySquashfsImage-0.7.1.tar.gz tmp/PySquashfsImage-0.8.0-py3-none-any.whl.zip --markdown 20230421/P/PySquashfsImage/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-04-21 07:56:32] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.21.13.56.26-py2.py3-none-any.whl.zip tmp/llm4gpt-2023.4.21.13.7.20.tar.gz --markdown 20230421/l/llm4gpt/2023.4.21.13.56.26-2023.4.21.13.7.20/diff.md --exclude *.pyd
+[2023-04-21 07:56:33] INFO root fetch - main [MainThread]: End processing [simple-parquet-viewer]: success
+[2023-04-21 07:56:33] INFO root fetch - main [MainThread]: End processing [PySquashfsImage]: success
+[2023-04-21 07:56:33] INFO root fetch - main [MainThread]: End processing [monashspa]: success
+[2023-04-21 07:56:36] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-21 07:56:48] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-04-21 07:56:48] INFO root fetch - main [MainThread]: Store serial: [17799535]
