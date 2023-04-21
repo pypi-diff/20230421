@@ -1319,3 +1319,16 @@
 [2023-04-21 01:55:37] INFO root fetch - main [MainThread]: End processing [digautoprofiler]: success
 [2023-04-21 01:55:47] INFO root fetch - main [MainThread]: End processing [skainet]: success
 [2023-04-21 01:55:47] INFO root fetch - main [MainThread]: Store serial: [17795428]
+[2023-04-21 02:00:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17795428]
+[2023-04-21 02:00:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-21 02:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meile-gui
+[2023-04-21 02:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hedera-sdk-py
+[2023-04-21 02:00:56] INFO root fetch - processPackages [hedera-sdk-py]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-21 02:00:56] INFO root fetch - processPackages [meile-gui]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-21 02:00:57] INFO root fetch - processPackages [hedera-sdk-py]: Downloading https://files.pythonhosted.org/packages/01/6f/5f0ba894e9458cacbf0396502ee98746f55fd804dd1e038e488d1a7174fb/hedera-sdk-py-2.8.0.tar.gz
+[2023-04-21 02:00:57] INFO root fetch - processPackages [meile-gui]: Downloading https://files.pythonhosted.org/packages/3d/94/13239b28ba753f9e05bbaec4c80899f4261468b001ed61352bae227b8b77/meile-gui-0.9.8.tar.gz
+[2023-04-21 02:00:57] WARNING root fetch - processPackages [hedera-sdk-py]: Skipping package: exceeds size limit 20648874>=10485760
+[2023-04-21 02:00:57] INFO root fetch - main [MainThread]: End processing [hedera-sdk-py] error
+[2023-04-21 02:00:58] WARNING root fetch - processPackages [meile-gui]: Skipping package: exceeds size limit 12480847>=10485760
+[2023-04-21 02:00:58] INFO root fetch - main [MainThread]: End processing [meile-gui] error
+[2023-04-21 02:00:58] INFO root fetch - main [MainThread]: Store serial: [17795434]
