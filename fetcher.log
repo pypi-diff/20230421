@@ -9163,3 +9163,22 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 08:44:33] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
 [2023-04-21 08:44:42] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-21 08:44:42] INFO root fetch - main [MainThread]: Store serial: [17799882]
+[2023-04-21 08:49:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799882]
+[2023-04-21 08:49:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-21 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-scw-vpc
+[2023-04-21 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tom-hermes
+[2023-04-21 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grizzly-loadtester
+[2023-04-21 08:49:51] WARNING root fetch - processPackages [tom-hermes]: Skipping, unable to determine old version
+[2023-04-21 08:49:51] INFO root fetch - main [MainThread]: End processing [tom-hermes] error
+[2023-04-21 08:49:51] INFO root fetch - processPackages [xia-scw-vpc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 08:49:51] INFO root fetch - processPackages [grizzly-loadtester]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-04-21 08:49:51] INFO root fetch - processPackages [grizzly-loadtester]: Downloading https://files.pythonhosted.org/packages/ae/85/d7d53dc1f465c7efeb7a1fe366adb6eb5ef299a091b87e357c1954bcc936/grizzly-loadtester-2.6.2.tar.gz
+[2023-04-21 08:49:51] INFO root fetch - processPackages [xia-scw-vpc]: Downloading https://files.pythonhosted.org/packages/8a/df/0b0f3c9320c5d937b49e3d927be006b13d8bbf0f22445bef60d80020eb30/xia_scw_vpc-0.0.4-cp39-none-win_amd64.whl
+[2023-04-21 08:49:51] INFO root fetch - processPackages [xia-scw-vpc]: executing diffoscope
+[2023-04-21 08:49:51] INFO root fetch - processPackages [xia-scw-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_vpc-0.0.3-cp39-none-win_amd64.whl.zip tmp/xia_scw_vpc-0.0.4-cp39-none-win_amd64.whl.zip --markdown 20230421/x/xia-scw-vpc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 08:49:52] INFO root fetch - processPackages [grizzly-loadtester]: Downloading https://files.pythonhosted.org/packages/8d/5b/3601e3a292beaac29a8d391293a1ec27371f8baed290471341b9b96374cd/grizzly-loadtester-2.6.3.tar.gz
+[2023-04-21 08:49:52] INFO root fetch - processPackages [grizzly-loadtester]: executing diffoscope
+[2023-04-21 08:49:52] INFO root fetch - processPackages [grizzly-loadtester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizzly-loadtester-2.6.2.tar.gz tmp/grizzly-loadtester-2.6.3.tar.gz --markdown 20230421/g/grizzly-loadtester/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-04-21 08:49:52] INFO root fetch - main [MainThread]: End processing [xia-scw-vpc]: success
+[2023-04-21 08:49:56] INFO root fetch - main [MainThread]: End processing [grizzly-loadtester]: success
+[2023-04-21 08:49:56] INFO root fetch - main [MainThread]: Store serial: [17799899]
