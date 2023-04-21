@@ -21898,3 +21898,100 @@ EOFError: EOF read where object expected
 [2023-04-21 21:35:25] INFO root fetch - main [MainThread]: End processing [awscli]: success
 [2023-04-21 21:35:27] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-04-21 21:35:27] INFO root fetch - main [MainThread]: Store serial: [17807816]
+[2023-04-21 21:40:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807816]
+[2023-04-21 21:40:36] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-21 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OncoAMBER
+[2023-04-21 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arize-phoenix
+[2023-04-21 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commutation-Spuriosity1
+[2023-04-21 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terrario
+[2023-04-21 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Simba-UW-tf-dev
+[2023-04-21 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numlpa
+[2023-04-21 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cancelchain
+[2023-04-21 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yaml-stripper
+[2023-04-21 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: masterqa
+[2023-04-21 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twot
+[2023-04-21 21:40:36] INFO root fetch - processPackages [OncoAMBER]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 21:40:36] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 21:40:36] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-04-21 21:40:36] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.0.8.tar.gz tmp/OncoAMBER-1.0.9.tar.gz --markdown 20230421/O/OncoAMBER/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:40:36] ERROR root fetch - processPackages [commutation-Spuriosity1]: Unable to get metadata: No such project 'commutation-Spuriosity1'
+[2023-04-21 21:40:36] INFO root fetch - processPackages [commutation-Spuriosity1]: Start processing: czech-workdays-holidays
+[2023-04-21 21:40:36] INFO root fetch - main [MainThread]: End processing [commutation-Spuriosity1] error
+[2023-04-21 21:40:36] WARNING root fetch - processPackages [twot]: Skipping, unable to determine old version
+[2023-04-21 21:40:36] INFO root fetch - processPackages [twot]: Start processing: notion-backup
+[2023-04-21 21:40:36] INFO root fetch - main [MainThread]: End processing [twot] error
+[2023-04-21 21:40:36] INFO root fetch - processPackages [cancelchain]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-21 21:40:36] INFO root fetch - processPackages [numlpa]: New version: [1.0.0b5] Old Version: [1.0.0b4]
+[2023-04-21 21:40:36] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:40:36] INFO root fetch - processPackages [masterqa]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-04-21 21:40:36] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:40:36] INFO root fetch - processPackages [czech-workdays-holidays]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 21:40:36] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.57.2] Old Version: [1.56.9]
+[2023-04-21 21:40:36] INFO root fetch - processPackages [notion-backup]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-21 21:40:36] INFO root fetch - processPackages [cancelchain]: Downloading https://files.pythonhosted.org/packages/67/41/253c39d453d9d6d305955b22f347bf85ac834fbcd206f9fa167f07ede743/cancelchain-1.2.0.tar.gz
+[2023-04-21 21:40:37] INFO root fetch - processPackages [numlpa]: Downloading https://files.pythonhosted.org/packages/f0/c1/918d59fdc17f01e3c40fe439997f19e9e11f9187f705ae5347a0becca84a/numlpa-1.0.0b4.tar.gz
+[2023-04-21 21:40:37] INFO root fetch - processPackages [masterqa]: Downloading https://files.pythonhosted.org/packages/7e/4c/0411d5bdb67ceb1aaac778dad387b9e21b3ba7a728574b48f40a62757b32/masterqa-1.8.1.tar.gz
+[2023-04-21 21:40:37] INFO root fetch - processPackages [yaml-stripper]: Downloading https://files.pythonhosted.org/packages/c7/8e/c1195c7e4088a90de565b6372327f4dfd9e0a07b445f87208bfcb5995a4a/yaml-stripper-0.1.2.tar.gz
+[2023-04-21 21:40:37] INFO root fetch - processPackages [czech-workdays-holidays]: Downloading https://files.pythonhosted.org/packages/ee/6c/496c52b84370409df2ab535bdd8e5c9eac71c8f85321ef0827fb5b9aeb4f/czech_workdays_holidays-0.0.8.tar.gz
+[2023-04-21 21:40:37] INFO root fetch - processPackages [notion-backup]: Downloading https://files.pythonhosted.org/packages/ac/a4/86f6552d0be38c8f3621d24bdc3ebe2a5f8bdd4c23d0945be84497f45159/notion_backup-0.3.4.tar.gz
+[2023-04-21 21:40:37] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 21:40:37] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.1.tar.gz tmp/yaml-stripper-0.1.2.tar.gz --markdown 20230421/y/yaml-stripper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 21:40:37] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:40:37] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:40:37] INFO root fetch - processPackages [czech-workdays-holidays]: executing diffoscope
+[2023-04-21 21:40:37] INFO root fetch - processPackages [czech-workdays-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czech_workdays_holidays-0.0.7.tar.gz tmp/czech_workdays_holidays-0.0.8.tar.gz --markdown 20230421/c/czech-workdays-holidays/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 21:40:37] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-04-21 21:40:37] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230421/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:40:37] INFO root fetch - processPackages [numlpa]: Downloading https://files.pythonhosted.org/packages/ed/3c/5fb9efc4e9b2447cb307e834f6fba9f73bd34444c96fe931e97030fbe5e1/numlpa-1.0.0b5.tar.gz
+[2023-04-21 21:40:37] INFO root fetch - processPackages [cancelchain]: Downloading https://files.pythonhosted.org/packages/69/b3/3a51e2688e1203f2758179fc4adb2dd552d0196ac0d6c7cd52b145e728a1/cancelchain-1.3.0.tar.gz
+[2023-04-21 21:40:37] INFO root fetch - processPackages [masterqa]: Downloading https://files.pythonhosted.org/packages/ea/da/fb98236481aa06af8cb2fcbbf678832b0461f6e9092320713954ba8ef289/masterqa-1.8.2.tar.gz
+[2023-04-21 21:40:37] INFO root fetch - processPackages [notion-backup]: Downloading https://files.pythonhosted.org/packages/8d/9e/fa1ad97b0546056a59e84abc554d1ec1aaec63eedc71ad851e64b5b14234/notion_backup-0.3.5.tar.gz
+[2023-04-21 21:40:37] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/fb/34/95c88c96250227d83d152a83abd9c532846e931509ca3a251e6bf2cea103/Simba-UW-tf-dev-1.57.2.tar.gz
+[2023-04-21 21:40:37] INFO root fetch - processPackages [cancelchain]: executing diffoscope
+[2023-04-21 21:40:37] INFO root fetch - processPackages [cancelchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cancelchain-1.2.0.tar.gz tmp/cancelchain-1.3.0.tar.gz --markdown 20230421/c/cancelchain/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-21 21:40:37] INFO root fetch - processPackages [numlpa]: executing diffoscope
+[2023-04-21 21:40:37] INFO root fetch - processPackages [numlpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numlpa-1.0.0b4.tar.gz tmp/numlpa-1.0.0b5.tar.gz --markdown 20230421/n/numlpa/1.0.0b4-1.0.0b5/diff.md --exclude *.pyd
+[2023-04-21 21:40:37] INFO root fetch - processPackages [masterqa]: executing diffoscope
+[2023-04-21 21:40:37] INFO root fetch - processPackages [masterqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masterqa-1.8.1.tar.gz tmp/masterqa-1.8.2.tar.gz --markdown 20230421/m/masterqa/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-04-21 21:40:37] INFO root fetch - processPackages [notion-backup]: executing diffoscope
+[2023-04-21 21:40:37] INFO root fetch - processPackages [notion-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion_backup-0.3.4.tar.gz tmp/notion_backup-0.3.5.tar.gz --markdown 20230421/n/notion-backup/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-21 21:40:37] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-04-21 21:40:37] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.56.9.tar.gz tmp/Simba-UW-tf-dev-1.57.2.tar.gz --markdown 20230421/S/Simba-UW-tf-dev/1.56.9-1.57.2/diff.md --exclude *.pyd
+[2023-04-21 21:40:38] INFO root fetch - processPackages [OncoAMBER]: Start processing: yaml-stripper
+[2023-04-21 21:40:38] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-04-21 21:40:38] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-21 21:40:38] INFO root fetch - processPackages [yaml-stripper]: Start processing: arize
+[2023-04-21 21:40:38] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 21:40:38] INFO root fetch - processPackages [yaml-stripper]: Downloading https://files.pythonhosted.org/packages/f7/17/164ce61a7225c88b8a9f40f384c3bfa710395c89818a637263eda6173262/yaml-stripper-0.1.4.tar.gz
+[2023-04-21 21:40:38] INFO root fetch - processPackages [arize]: New version: [7.0.1rc0] Old Version: [7.0.0rc6]
+[2023-04-21 21:40:38] INFO root fetch - processPackages [czech-workdays-holidays]: Start processing: tomlize
+[2023-04-21 21:40:38] INFO root fetch - main [MainThread]: End processing [czech-workdays-holidays]: success
+[2023-04-21 21:40:38] WARNING root fetch - processPackages [tomlize]: Skipping, unable to determine old version
+[2023-04-21 21:40:38] INFO root fetch - processPackages [tomlize]: Start processing: cwsearch-utils
+[2023-04-21 21:40:38] INFO root fetch - main [MainThread]: End processing [tomlize] error
+[2023-04-21 21:40:38] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 21:40:38] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/41/02/2b373e33e54cc5d548dc7dd4b90547e8958fc605c701982d743b02c53e0e/arize-7.0.0rc6.tar.gz
+[2023-04-21 21:40:38] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-04-21 21:40:38] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230421/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 21:40:38] INFO root fetch - processPackages [yaml-stripper]: Downloading https://files.pythonhosted.org/packages/d0/f2/42a81b238a5dfa5c213b788722c866cec095ea3b076f048a09ddc88041fd/yaml-stripper-0.1.5.tar.gz
+[2023-04-21 21:40:39] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 21:40:39] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.4.tar.gz tmp/yaml-stripper-0.1.5.tar.gz --markdown 20230421/y/yaml-stripper/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-21 21:40:39] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/1a/19/a3b08be1db2f555f449cec1d7b17ab9ca51f2757226b5e14a9cad118bebe/arize-7.0.1rc0.tar.gz
+[2023-04-21 21:40:39] INFO root fetch - processPackages [notion-backup]: Start processing: ultima-scraper-api
+[2023-04-21 21:40:39] INFO root fetch - main [MainThread]: End processing [notion-backup]: success
+[2023-04-21 21:40:39] INFO root fetch - processPackages [ultima-scraper-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-21 21:40:39] INFO root fetch - main [MainThread]: End processing [masterqa]: success
+[2023-04-21 21:40:39] INFO root fetch - processPackages [arize]: executing diffoscope
+[2023-04-21 21:40:39] INFO root fetch - processPackages [arize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize-7.0.0rc6.tar.gz tmp/arize-7.0.1rc0.tar.gz --markdown 20230421/a/arize/7.0.0rc6-7.0.1rc0/diff.md --exclude *.pyd
+[2023-04-21 21:40:39] INFO root fetch - processPackages [ultima-scraper-api]: executing diffoscope
+[2023-04-21 21:40:39] INFO root fetch - processPackages [ultima-scraper-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_api-1.0.1.tar.gz tmp/ultima_scraper_api-1.0.2.tar.gz --markdown 20230421/u/ultima-scraper-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-21 21:40:39] INFO root fetch - main [MainThread]: End processing [cancelchain]: success
+[2023-04-21 21:40:39] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:40:40] INFO root fetch - main [MainThread]: End processing [numlpa]: success
+[2023-04-21 21:40:40] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 21:40:40] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-04-21 21:40:40] INFO root fetch - main [MainThread]: End processing [ultima-scraper-api]: success
+[2023-04-21 21:40:41] INFO root fetch - main [MainThread]: End processing [arize]: success
+[2023-04-21 21:40:45] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-04-21 21:40:57] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-04-21 21:40:57] INFO root fetch - main [MainThread]: Store serial: [17807872]
