@@ -12974,3 +12974,112 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 12:52:42] INFO root fetch - main [MainThread]: End processing [coco_types]: success
 [2023-04-21 12:54:48] INFO root fetch - main [MainThread]: End processing [meson]: success
 [2023-04-21 12:54:48] INFO root fetch - main [MainThread]: Store serial: [17802019]
+[2023-04-21 12:59:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802019]
+[2023-04-21 12:59:58] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyagi
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: region-search
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dfsjson
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: impsparc
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperfast-python-template
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyfi
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lamindb
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openqaoa
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyfi-template
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bacteria
+[2023-04-21 12:59:58] INFO root fetch - processPackages [hyfi-template]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 12:59:58] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-04-21 12:59:58] WARNING root fetch - processPackages [region-search]: Skipping, unable to determine old version
+[2023-04-21 12:59:58] INFO root fetch - processPackages [skyagi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 12:59:58] WARNING root fetch - processPackages [dfsjson]: Skipping, unable to determine old version
+[2023-04-21 12:59:58] INFO root fetch - processPackages [region-search]: Start processing: ekonlpy
+[2023-04-21 12:59:58] INFO root fetch - main [MainThread]: End processing [region-search] error
+[2023-04-21 12:59:58] WARNING root fetch - processPackages [bacteria]: Skipping, unable to determine old version
+[2023-04-21 12:59:58] INFO root fetch - processPackages [dfsjson]: Start processing: lexikanon
+[2023-04-21 12:59:58] INFO root fetch - processPackages [hyfi]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 12:59:58] INFO root fetch - processPackages [openqaoa]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 12:59:58] INFO root fetch - processPackages [impsparc]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-21 12:59:58] INFO root fetch - main [MainThread]: End processing [dfsjson] error
+[2023-04-21 12:59:58] INFO root fetch - processPackages [bacteria]: Start processing: protypo
+[2023-04-21 12:59:58] INFO root fetch - main [MainThread]: End processing [bacteria] error
+[2023-04-21 12:59:58] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 12:59:58] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-04-21 12:59:58] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.1.5.tar.gz tmp/hyfi_template-0.1.6.tar.gz --markdown 20230421/h/hyfi-template/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 12:59:58] WARNING root fetch - processPackages [protypo]: Skipping, unable to determine old version
+[2023-04-21 12:59:58] INFO root fetch - processPackages [protypo]: Start processing: thematos
+[2023-04-21 12:59:58] INFO root fetch - main [MainThread]: End processing [protypo] error
+[2023-04-21 12:59:58] WARNING root fetch - processPackages [lexikanon]: Skipping, unable to determine old version
+[2023-04-21 12:59:58] INFO root fetch - processPackages [lexikanon]: Start processing: pymccool
+[2023-04-21 12:59:58] INFO root fetch - main [MainThread]: End processing [lexikanon] error
+[2023-04-21 12:59:58] WARNING root fetch - processPackages [thematos]: Skipping, unable to determine old version
+[2023-04-21 12:59:58] INFO root fetch - processPackages [thematos]: Start processing: neulabs-cdk-constructs
+[2023-04-21 12:59:58] INFO root fetch - main [MainThread]: End processing [thematos] error
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ekonlpy]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-21 12:59:58] INFO root fetch - processPackages [neulabs-cdk-constructs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-21 12:59:58] INFO root fetch - processPackages [pymccool]: New version: [0.3.3] Old Version: [0.2.3]
+[2023-04-21 12:59:58] INFO root fetch - processPackages [openqaoa]: Downloading https://files.pythonhosted.org/packages/83/d9/af243b0f7cdc2267590ac6c8ebc7f48fdddf97dbe445c11cee3c64790496/openqaoa-0.1.2.tar.gz
+[2023-04-21 12:59:58] INFO root fetch - processPackages [skyagi]: Downloading https://files.pythonhosted.org/packages/e7/6d/94b74c81494bc6abb7880d08e81a3f5fc789368c288d1234f9d367f4c2aa/skyagi-0.0.9.tar.gz
+[2023-04-21 12:59:58] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-04-21 12:59:58] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230421/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 12:59:58] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/49/ae/21cf5e78f7d6fd2d88dcf5ac1a0c57ee014f48806bd67bb115bb2a10fffb/hyfi-0.2.8.tar.gz
+[2023-04-21 12:59:58] INFO root fetch - processPackages [ekonlpy]: Downloading https://files.pythonhosted.org/packages/f9/a4/8c6da10bfdae684240d719df2cebf81f7fbb929d884664fe4367238d3931/ekonlpy-1.1.4.tar.gz
+[2023-04-21 12:59:58] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/66/af/ed14810b1fa7a0e396c46e71a228e45272faf555b97c5d94fcf72d2d99e1/impsparc-2.0.3.tar.gz
+[2023-04-21 12:59:58] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/f8/2f/16cd0a334de91bfc8b5eb1f30c9891df79a4595c1c6cd793c69aa92b7ad6/neulabs-cdk-constructs-0.2.2.tar.gz
+[2023-04-21 12:59:58] INFO root fetch - processPackages [pymccool]: Downloading https://files.pythonhosted.org/packages/8d/28/f493eab8906c1c2f4469ea80aaef45f618141de60bc2103c1d0ae9ef05d9/pymccool-0.2.3.tar.gz
+[2023-04-21 12:59:59] INFO root fetch - processPackages [skyagi]: executing diffoscope
+[2023-04-21 12:59:59] INFO root fetch - processPackages [skyagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyagi-0.0.8.tar.gz tmp/skyagi-0.0.9.tar.gz --markdown 20230421/s/skyagi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 12:59:59] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-21 12:59:59] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.2.8.tar.gz tmp/hyperfast_python_template-0.2.9.tar.gz --markdown 20230421/h/hyperfast-python-template/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 12:59:59] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-04-21 12:59:59] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.2.7.tar.gz tmp/hyfi-0.2.8.tar.gz --markdown 20230421/h/hyfi/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 12:59:59] INFO root fetch - processPackages [openqaoa]: Downloading https://files.pythonhosted.org/packages/aa/07/8688157264b4f448afbb75ae22f2376df8e798034e50d9560fcb38f0228c/openqaoa-0.1.3.tar.gz
+[2023-04-21 12:59:59] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/2c/09/49b6abb8179c6c4ed932454e193276111f2c91320cb694ca18feb3575919/neulabs-cdk-constructs-0.2.3.tar.gz
+[2023-04-21 12:59:59] INFO root fetch - processPackages [pymccool]: Downloading https://files.pythonhosted.org/packages/e6/fb/160a6e2953a6841087e8af385a0834abc5503ba258d9d737af05b634e551/pymccool-0.3.3.tar.gz
+[2023-04-21 12:59:59] INFO root fetch - processPackages [impsparc]: executing diffoscope
+[2023-04-21 12:59:59] INFO root fetch - processPackages [impsparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impsparc-2.0.2.tar.gz tmp/impsparc-2.0.3.tar.gz --markdown 20230421/i/impsparc/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-21 12:59:59] INFO root fetch - processPackages [openqaoa]: executing diffoscope
+[2023-04-21 12:59:59] INFO root fetch - processPackages [openqaoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openqaoa-0.1.2.tar.gz tmp/openqaoa-0.1.3.tar.gz --markdown 20230421/o/openqaoa/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 12:59:59] INFO root fetch - processPackages [neulabs-cdk-constructs]: executing diffoscope
+[2023-04-21 12:59:59] INFO root fetch - processPackages [neulabs-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neulabs-cdk-constructs-0.2.2.tar.gz tmp/neulabs-cdk-constructs-0.2.3.tar.gz --markdown 20230421/n/neulabs-cdk-constructs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-21 12:59:59] INFO root fetch - processPackages [pymccool]: executing diffoscope
+[2023-04-21 12:59:59] INFO root fetch - processPackages [pymccool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymccool-0.2.3.tar.gz tmp/pymccool-0.3.3.tar.gz --markdown 20230421/p/pymccool/0.2.3-0.3.3/diff.md --exclude *.pyd
+[2023-04-21 13:00:00] INFO root fetch - processPackages [hyfi-template]: Start processing: dedomenon
+[2023-04-21 13:00:00] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-04-21 13:00:00] INFO root fetch - processPackages [dedomenon]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 13:00:00] INFO root fetch - processPackages [ekonlpy]: Downloading https://files.pythonhosted.org/packages/31/8f/812dba0e1c947c3bcb7fbc1d5ec271e6e40df45aec33034baf2276ff7aa4/ekonlpy-1.1.5.tar.gz
+[2023-04-21 13:00:00] INFO root fetch - processPackages [hyperfast-python-template]: Start processing: llm4gpt
+[2023-04-21 13:00:00] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-21 13:00:00] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.21.18.47.0] Old Version: [2023.4.21.17.43.4]
+[2023-04-21 13:00:00] INFO root fetch - processPackages [dedomenon]: Downloading https://files.pythonhosted.org/packages/81/da/2487adfcdb523574e65d7c7f0b482a005d3deb89d99524ec340cce83c719/dedomenon-0.1.0.tar.gz
+[2023-04-21 13:00:00] INFO root fetch - processPackages [lamindb]: Start processing: sirmordred
+[2023-04-21 13:00:00] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-04-21 13:00:00] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/98/10/a52fbd37336c61aa44bc621ae3f9849b53a4a1d18394e4f2cbc37e1d8ade/llm4gpt-2023.4.21.18.47.0.tar.gz
+[2023-04-21 13:00:00] INFO root fetch - processPackages [dedomenon]: Downloading https://files.pythonhosted.org/packages/d0/7e/ea61049293b5a214683a33d5f3f54f953ebb2686c3761430b42c2382daf4/dedomenon-0.1.1.tar.gz
+[2023-04-21 13:00:00] INFO root fetch - processPackages [sirmordred]: New version: [0.7.0rc1] Old Version: [0.6.1]
+[2023-04-21 13:00:00] INFO root fetch - processPackages [dedomenon]: executing diffoscope
+[2023-04-21 13:00:00] INFO root fetch - processPackages [dedomenon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dedomenon-0.1.0.tar.gz tmp/dedomenon-0.1.1.tar.gz --markdown 20230421/d/dedomenon/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 13:00:00] INFO root fetch - processPackages [pymccool]: Start processing: ubiops-cli
+[2023-04-21 13:00:00] INFO root fetch - main [MainThread]: End processing [pymccool]: success
+[2023-04-21 13:00:00] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/14/e8/ba1d326c41a69cf311761cd9ff8e7a693570a576c9ea858a6b6486c5500d/sirmordred-0.6.1.tar.gz
+[2023-04-21 13:00:01] INFO root fetch - processPackages [ubiops-cli]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-21 13:00:01] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-21 13:00:01] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.21.17.43.4.tar.gz tmp/llm4gpt-2023.4.21.18.47.0.tar.gz --markdown 20230421/l/llm4gpt/2023.4.21.17.43.4-2023.4.21.18.47.0/diff.md --exclude *.pyd
+[2023-04-21 13:00:01] INFO root fetch - main [MainThread]: End processing [skyagi]: success
+[2023-04-21 13:00:01] INFO root fetch - processPackages [ubiops-cli]: Downloading https://files.pythonhosted.org/packages/64/72/16e4ccf487f0a7208f959930705b2a0782b903f07d5fff8b12ee0f61848a/ubiops-cli-2.8.0.tar.gz
+[2023-04-21 13:00:01] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-04-21 13:00:01] INFO root fetch - processPackages [ubiops-cli]: Downloading https://files.pythonhosted.org/packages/c8/03/81e588785a9b0180e5464ebcf5b010b4dff3d636c707b67bfe5634fbf451/ubiops-cli-2.9.0.tar.gz
+[2023-04-21 13:00:01] INFO root fetch - processPackages [ekonlpy]: executing diffoscope
+[2023-04-21 13:00:01] INFO root fetch - processPackages [ekonlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekonlpy-1.1.4.tar.gz tmp/ekonlpy-1.1.5.tar.gz --markdown 20230421/e/ekonlpy/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-21 13:00:02] INFO root fetch - processPackages [ubiops-cli]: executing diffoscope
+[2023-04-21 13:00:02] INFO root fetch - processPackages [ubiops-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubiops-cli-2.8.0.tar.gz tmp/ubiops-cli-2.9.0.tar.gz --markdown 20230421/u/ubiops-cli/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-21 13:00:02] INFO root fetch - main [MainThread]: End processing [dedomenon]: success
+[2023-04-21 13:00:02] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/86/9c/1393403bec04048f86ebd42939b690e36203e36fa7ecd9ec1009f31089b5/sirmordred-0.7.0rc1.tar.gz
+[2023-04-21 13:00:02] INFO root fetch - main [MainThread]: End processing [openqaoa]: success
+[2023-04-21 13:00:02] INFO root fetch - main [MainThread]: End processing [neulabs-cdk-constructs]: success
+[2023-04-21 13:00:03] INFO root fetch - processPackages [sirmordred]: executing diffoscope
+[2023-04-21 13:00:03] INFO root fetch - processPackages [sirmordred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirmordred-0.6.1.tar.gz tmp/sirmordred-0.7.0rc1.tar.gz --markdown 20230421/s/sirmordred/0.6.1-0.7.0rc1/diff.md --exclude *.pyd
+[2023-04-21 13:00:03] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-21 13:00:03] INFO root fetch - main [MainThread]: End processing [ubiops-cli]: success
+[2023-04-21 13:00:03] INFO root fetch - main [MainThread]: End processing [impsparc]: success
+[2023-04-21 13:00:07] INFO root fetch - main [MainThread]: End processing [ekonlpy]: success
+[2023-04-21 13:00:08] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
+[2023-04-21 13:00:08] INFO root fetch - main [MainThread]: Store serial: [17802086]
