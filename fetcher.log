@@ -23062,3 +23062,120 @@ EOFError: EOF read where object expected
 [2023-04-21 22:36:15] INFO root fetch - main [MainThread]: End processing [robotcode]: success
 [2023-04-21 22:36:25] INFO root fetch - main [MainThread]: End processing [jupyterlab-optumi]: success
 [2023-04-21 22:36:25] INFO root fetch - main [MainThread]: Store serial: [17808513]
+[2023-04-21 22:41:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808513]
+[2023-04-21 22:41:34] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-21 22:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotcode-debugger
+[2023-04-21 22:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotcode
+[2023-04-21 22:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotcode-runner
+[2023-04-21 22:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotcode-plugin
+[2023-04-21 22:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotcode-language-server
+[2023-04-21 22:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thetadata
+[2023-04-21 22:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easy-mvp
+[2023-04-21 22:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pulse3D
+[2023-04-21 22:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mongo-db-operation
+[2023-04-21 22:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pynamer
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-debugger]: New version: [0.34.1] Old Version: [0.33.0]
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-plugin]: New version: [0.34.1] Old Version: [0.33.0]
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode]: executing diffoscope
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode-0.9.5.tar.gz tmp/robotcode-0.9.6.tar.gz --markdown 20230421/r/robotcode/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 22:41:34] INFO root fetch - processPackages [easy-mvp]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-21 22:41:34] INFO root fetch - processPackages [mongo-db-operation]: New version: [1.0.6] Old Version: [1.0.3]
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-language-server]: New version: [0.34.1] Old Version: [0.33.0]
+[2023-04-21 22:41:34] INFO root fetch - processPackages [thetadata]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-21 22:41:34] INFO root fetch - processPackages [pynamer]: New version: [0.2.0] Old Version: [0.0.2]
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-runner]: New version: [0.34.1] Old Version: [0.33.0]
+[2023-04-21 22:41:34] INFO root fetch - processPackages [Pulse3D]: New version: [0.32.4] Old Version: [0.32.3]
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-plugin]: Downloading https://files.pythonhosted.org/packages/cd/6a/16fd2b1a8f99de7e9ee6e455bf2ed30eceb01a82be2a31c6aa60eb02a175/robotcode_plugin-0.33.0.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [pynamer]: Downloading https://files.pythonhosted.org/packages/8d/17/d3d801102a7c59e3281c8345b19e64a228f1e903f7c7762ff525c13f4df3/pynamer-0.0.2.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-runner]: Downloading https://files.pythonhosted.org/packages/53/23/7020bf590b8e9a54ad081ccef2d733727d828713ed0677680f0224f236da/robotcode_runner-0.33.0.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-language-server]: Downloading https://files.pythonhosted.org/packages/dd/89/28b749007262660669208fe44b97274c2167825ba62093ad718674f4fca9/robotcode_language_server-0.33.0.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [thetadata]: Downloading https://files.pythonhosted.org/packages/aa/12/f4bc20d098508e9220ef788fe159e34c32c18d6f4d35ff1d43fa975ac9ad/thetadata-0.9.5.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/25/b6/a9183cfc2fde3e1e058d0e406d1fc7e9f048c887b0f088e5cc85f0795342/Pulse3D-0.32.3.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-debugger]: executing diffoscope
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_debugger-0.33.0.tar.gz tmp/robotcode_debugger-0.34.1.tar.gz --markdown 20230421/r/robotcode-debugger/0.33.0-0.34.1/diff.md --exclude *.pyd
+[2023-04-21 22:41:34] INFO root fetch - processPackages [mongo-db-operation]: Downloading https://files.pythonhosted.org/packages/cc/5a/d172e848df67e96d5b477af2b393d229164ec61a38dc755f39147eee1eca/mongo_db_operation-1.0.6-py3-none-any.whl
+[2023-04-21 22:41:34] INFO root fetch - processPackages [easy-mvp]: Downloading https://files.pythonhosted.org/packages/28/8d/0570b98d5deea23cf91884118bddd4fe2b4d77183cbbe4b1e89d71a5c993/easy_mvp-0.2.0.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [pynamer]: Downloading https://files.pythonhosted.org/packages/68/02/19292e19c0f1f63fd9e362449e70499b7d56f9acead540e19f9a215feeed/pynamer-0.2.0.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-plugin]: Downloading https://files.pythonhosted.org/packages/a0/8c/408505e939d23e1ec462d6927fa3cabfa168bc93f1c983102e9627f2ba74/robotcode_plugin-0.34.1.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-runner]: Downloading https://files.pythonhosted.org/packages/9f/80/63add1663cf009e4e2471010deb6ebca01538767966d6afefe6e425845c4/robotcode_runner-0.34.1.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/47/10/de060086b152f2df7571347dbc8f94346baaf522d4d89259fd69845bd096/Pulse3D-0.32.4.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-language-server]: Downloading https://files.pythonhosted.org/packages/af/30/ef77635fbd1028dec2f192edace8b2223f77d7a303dd42517b05b4360147/robotcode_language_server-0.34.1.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [thetadata]: Downloading https://files.pythonhosted.org/packages/99/5a/e5e35b98cae8d5792c1de4c99e4d10c1f4d4a0b522f02fbd995adea69bea/thetadata-0.9.6.tar.gz
+[2023-04-21 22:41:34] INFO root fetch - processPackages [mongo-db-operation]: executing diffoscope
+[2023-04-21 22:41:34] INFO root fetch - processPackages [mongo-db-operation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_db_operation-1.0.3.tar.gz tmp/mongo_db_operation-1.0.6-py3-none-any.whl.zip --markdown 20230421/m/mongo-db-operation/1.0.3-1.0.6/diff.md --exclude *.pyd
+[2023-04-21 22:41:34] INFO root fetch - processPackages [easy-mvp]: executing diffoscope
+[2023-04-21 22:41:34] INFO root fetch - processPackages [easy-mvp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_mvp-0.1.2.tar.gz tmp/easy_mvp-0.2.0.tar.gz --markdown 20230421/e/easy-mvp/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 22:41:34] INFO root fetch - processPackages [pynamer]: executing diffoscope
+[2023-04-21 22:41:34] INFO root fetch - processPackages [pynamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamer-0.0.2.tar.gz tmp/pynamer-0.2.0.tar.gz --markdown 20230421/p/pynamer/0.0.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-plugin]: executing diffoscope
+[2023-04-21 22:41:34] INFO root fetch - processPackages [robotcode-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_plugin-0.33.0.tar.gz tmp/robotcode_plugin-0.34.1.tar.gz --markdown 20230421/r/robotcode-plugin/0.33.0-0.34.1/diff.md --exclude *.pyd
+[2023-04-21 22:41:35] INFO root fetch - processPackages [robotcode-runner]: executing diffoscope
+[2023-04-21 22:41:35] INFO root fetch - processPackages [robotcode-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_runner-0.33.0.tar.gz tmp/robotcode_runner-0.34.1.tar.gz --markdown 20230421/r/robotcode-runner/0.33.0-0.34.1/diff.md --exclude *.pyd
+[2023-04-21 22:41:35] INFO root fetch - processPackages [robotcode-language-server]: executing diffoscope
+[2023-04-21 22:41:35] INFO root fetch - processPackages [robotcode-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_language_server-0.33.0.tar.gz tmp/robotcode_language_server-0.34.1.tar.gz --markdown 20230421/r/robotcode-language-server/0.33.0-0.34.1/diff.md --exclude *.pyd
+[2023-04-21 22:41:35] INFO root fetch - processPackages [thetadata]: executing diffoscope
+[2023-04-21 22:41:35] INFO root fetch - processPackages [thetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thetadata-0.9.5.tar.gz tmp/thetadata-0.9.6.tar.gz --markdown 20230421/t/thetadata/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 22:41:35] INFO root fetch - processPackages [Pulse3D]: executing diffoscope
+[2023-04-21 22:41:35] INFO root fetch - processPackages [Pulse3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pulse3D-0.32.3.tar.gz tmp/Pulse3D-0.32.4.tar.gz --markdown 20230421/P/Pulse3D/0.32.3-0.32.4/diff.md --exclude *.pyd
+[2023-04-21 22:41:36] INFO root fetch - processPackages [robotcode-debugger]: Start processing: XMLCit
+[2023-04-21 22:41:36] INFO root fetch - main [MainThread]: End processing [robotcode-debugger]: success
+[2023-04-21 22:41:36] INFO root fetch - processPackages [mongo-db-operation]: Start processing: dcicutils
+[2023-04-21 22:41:36] INFO root fetch - main [MainThread]: End processing [mongo-db-operation]: success
+[2023-04-21 22:41:36] INFO root fetch - processPackages [XMLCit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-21 22:41:36] INFO root fetch - processPackages [dcicutils]: New version: [7.2.0.1b3] Old Version: [7.2.0.1b2]
+[2023-04-21 22:41:36] INFO root fetch - processPackages [pynamer]: Start processing: sumatra-client
+[2023-04-21 22:41:36] INFO root fetch - main [MainThread]: End processing [pynamer]: success
+[2023-04-21 22:41:36] INFO root fetch - processPackages [robotcode]: Start processing: flash-attn
+[2023-04-21 22:41:36] INFO root fetch - main [MainThread]: End processing [robotcode]: success
+[2023-04-21 22:41:36] INFO root fetch - processPackages [sumatra-client]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-04-21 22:41:36] INFO root fetch - processPackages [flash-attn]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-21 22:41:36] INFO root fetch - processPackages [XMLCit]: executing diffoscope
+[2023-04-21 22:41:36] INFO root fetch - processPackages [XMLCit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlcit-0.0.5.tar.gz tmp/XMLCit-0.0.6.tar.gz --markdown 20230421/X/XMLCit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 22:41:36] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/c8/2b/a91464edb6c36129090ee18e821bd7ea70880dc947c7732345b2083f4120/dcicutils-7.2.0.1b3.tar.gz
+[2023-04-21 22:41:36] INFO root fetch - processPackages [flash-attn]: executing diffoscope
+[2023-04-21 22:41:36] INFO root fetch - processPackages [flash-attn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_attn-1.0.2.tar.gz tmp/flash_attn-1.0.3.tar.gz --markdown 20230421/f/flash-attn/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-21 22:41:36] INFO root fetch - processPackages [robotcode-runner]: Start processing: python-poppler
+[2023-04-21 22:41:36] INFO root fetch - main [MainThread]: End processing [robotcode-runner]: success
+[2023-04-21 22:41:36] INFO root fetch - processPackages [sumatra-client]: Downloading https://files.pythonhosted.org/packages/46/9f/7120f5ba4cbb923aa95eccd59eb245bb466eb4b6464a05d741e074193c17/sumatra-client-1.1.2.tar.gz
+[2023-04-21 22:41:36] INFO root fetch - processPackages [robotcode-plugin]: Start processing: certora-cli-alpha-master
+[2023-04-21 22:41:36] INFO root fetch - main [MainThread]: End processing [robotcode-plugin]: success
+[2023-04-21 22:41:36] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-04-21 22:41:36] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.2.0.1b2.tar.gz tmp/dcicutils-7.2.0.1b3.tar.gz --markdown 20230421/d/dcicutils/7.2.0.1b2-7.2.0.1b3/diff.md --exclude *.pyd
+[2023-04-21 22:41:37] INFO root fetch - processPackages [easy-mvp]: Start processing: pain001
+[2023-04-21 22:41:37] INFO root fetch - main [MainThread]: End processing [easy-mvp]: success
+[2023-04-21 22:41:37] INFO root fetch - processPackages [python-poppler]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-21 22:41:37] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230421.20.41.261084] Old Version: [20230420.17.13.769351]
+[2023-04-21 22:41:37] INFO root fetch - processPackages [pain001]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 22:41:37] INFO root fetch - processPackages [thetadata]: Start processing: podcast-archiver
+[2023-04-21 22:41:37] INFO root fetch - main [MainThread]: End processing [thetadata]: success
+[2023-04-21 22:41:37] WARNING root fetch - processPackages [podcast-archiver]: Skipping, unable to determine old version
+[2023-04-21 22:41:37] INFO root fetch - processPackages [podcast-archiver]: Start processing: yaml-stripper
+[2023-04-21 22:41:37] INFO root fetch - main [MainThread]: End processing [podcast-archiver] error
+[2023-04-21 22:41:37] INFO root fetch - processPackages [python-poppler]: Downloading https://files.pythonhosted.org/packages/ef/02/8589c3eefdb73a5229a446e557551fa1bbc168e52ea5e334b87c307024c0/python_poppler-0.4.0.tar.gz
+[2023-04-21 22:41:37] INFO root fetch - processPackages [sumatra-client]: Downloading https://files.pythonhosted.org/packages/e0/a8/72ddb4f18ebdcc22e8cf8a1ecfcf77e6354a295e8ab8d420b8ba2d4fdef1/sumatra-client-1.2.0.tar.gz
+[2023-04-21 22:41:37] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/cc/0a/327d4f332aa64bc751e497b20eda7686d97947c6fe067539ba16937c9a01/certora-cli-alpha-master-20230420.17.13.769351.tar.gz
+[2023-04-21 22:41:37] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 22:41:37] INFO root fetch - processPackages [pain001]: Downloading https://files.pythonhosted.org/packages/4a/3d/d7e0138fb8e4374dd250c07d0545376b3f547ff00c3971b4eec2d3eca3d7/pain001-0.0.8.tar.gz
+[2023-04-21 22:41:37] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38070823>=10485760
+[2023-04-21 22:41:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-21 22:41:37] INFO root fetch - processPackages [sumatra-client]: executing diffoscope
+[2023-04-21 22:41:37] INFO root fetch - processPackages [sumatra-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumatra-client-1.1.2.tar.gz tmp/sumatra-client-1.2.0.tar.gz --markdown 20230421/s/sumatra-client/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-21 22:41:37] INFO root fetch - processPackages [python-poppler]: Downloading https://files.pythonhosted.org/packages/15/ff/e9c8f176c376223146d212771016595b4ad8d0a83d40636b7b39798a7219/python_poppler-0.4.1.tar.gz
+[2023-04-21 22:41:37] INFO root fetch - main [MainThread]: End processing [robotcode-language-server]: success
+[2023-04-21 22:41:37] INFO root fetch - processPackages [pain001]: Downloading https://files.pythonhosted.org/packages/dd/25/3eca8b1274384435ffb54b9a70f098888e7946583f195e055315bc9f82f8/pain001-0.0.9.tar.gz
+[2023-04-21 22:41:37] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 22:41:37] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 22:41:37] INFO root fetch - main [MainThread]: End processing [Pulse3D]: success
+[2023-04-21 22:41:37] INFO root fetch - processPackages [pain001]: executing diffoscope
+[2023-04-21 22:41:37] INFO root fetch - processPackages [pain001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pain001-0.0.8.tar.gz tmp/pain001-0.0.9.tar.gz --markdown 20230421/p/pain001/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 22:41:37] INFO root fetch - processPackages [python-poppler]: executing diffoscope
+[2023-04-21 22:41:37] INFO root fetch - processPackages [python-poppler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_poppler-0.4.0.tar.gz tmp/python_poppler-0.4.1.tar.gz --markdown 20230421/p/python-poppler/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-21 22:41:38] INFO root fetch - main [MainThread]: End processing [XMLCit]: success
+[2023-04-21 22:41:39] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 22:41:39] INFO root fetch - main [MainThread]: End processing [pain001]: success
+[2023-04-21 22:41:39] INFO root fetch - main [MainThread]: End processing [python-poppler]: success
+[2023-04-21 22:41:39] INFO root fetch - main [MainThread]: End processing [sumatra-client]: success
+[2023-04-21 22:41:40] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-04-21 22:42:02] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
+[2023-04-21 22:42:02] INFO root fetch - main [MainThread]: Store serial: [17808580]
