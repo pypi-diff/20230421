@@ -19352,3 +19352,74 @@ EOFError: EOF read where object expected
 [2023-04-21 18:51:32] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
 [2023-04-21 18:51:33] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-04-21 18:51:33] INFO root fetch - main [MainThread]: Store serial: [17806189]
+[2023-04-21 18:56:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806189]
+[2023-04-21 18:56:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audiolm-pytorch
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ambrosia
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thorpy
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tegracli
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skale-checks
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: freemocap
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multicall-zksync
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyllms
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: audiolm-pytorch
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pgeng
+[2023-04-21 18:56:44] INFO root fetch - processPackages [thorpy]: New version: [2.0] Old Version: [1.8.1]
+[2023-04-21 18:56:44] INFO root fetch - processPackages [tegracli]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ambrosia]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-21 18:56:44] INFO root fetch - processPackages [tegracli]: executing diffoscope
+[2023-04-21 18:56:44] INFO root fetch - processPackages [tegracli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tegracli-0.2.3.tar.gz tmp/tegracli-0.2.4.tar.gz --markdown 20230421/t/tegracli/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ambrosia]: executing diffoscope
+[2023-04-21 18:56:44] INFO root fetch - processPackages [ambrosia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambrosia-0.3.0.tar.gz tmp/ambrosia-0.4.0.tar.gz --markdown 20230421/a/ambrosia/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-21 18:56:44] INFO root fetch - processPackages [audiolm-pytorch]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-21 18:56:44] INFO root fetch - processPackages [multicall-zksync]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 18:56:44] INFO root fetch - processPackages [skale-checks]: New version: [1.0.dev9] Old Version: [1.0.dev8]
+[2023-04-21 18:56:44] INFO root fetch - processPackages [pgeng]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-04-21 18:56:44] INFO root fetch - processPackages [audiolm-pytorch]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-21 18:56:44] INFO root fetch - processPackages [pyllms]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-21 18:56:44] INFO root fetch - processPackages [freemocap]: New version: [1.0.9rc0] Old Version: [1.0.8rc0]
+[2023-04-21 18:56:44] INFO root fetch - processPackages [thorpy]: executing diffoscope
+[2023-04-21 18:56:44] INFO root fetch - processPackages [thorpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thorpy-1.8.1-py2.py3-none-any.whl.zip tmp/thorpy-2.0.tar.gz --markdown 20230421/t/thorpy/1.8.1-2.0/diff.md --exclude *.pyd
+[2023-04-21 18:56:45] INFO root fetch - processPackages [skale-checks]: Downloading https://files.pythonhosted.org/packages/d3/d2/f3dfbebe01ee393e99edb97ea06e4922ee80a1e9a0ec27d46147a50a6694/skale-checks-1.0.dev8.tar.gz
+[2023-04-21 18:56:45] INFO root fetch - processPackages [pgeng]: Downloading https://files.pythonhosted.org/packages/ea/9c/11d7828133805f127871afcc9695996f7a0c1b4f506811dd5dddc412b2da/pgeng-1.8.2.tar.gz
+[2023-04-21 18:56:45] INFO root fetch - processPackages [multicall-zksync]: Downloading https://files.pythonhosted.org/packages/15/a1/ba7262b66d32b71f84096013bafe7c9e48fdd58695b66235e3e8eb6cf0dd/multicall_zksync-0.1.1.tar.gz
+[2023-04-21 18:56:45] INFO root fetch - processPackages [pyllms]: Downloading https://files.pythonhosted.org/packages/7d/2a/292bf64c6b4481cf30df50392f3daae116bae163f4f4eaa9171a9f4e1284/pyllms-0.1.8.tar.gz
+[2023-04-21 18:56:45] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-04-21 18:56:45] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-0.9.6.tar.gz tmp/audiolm-pytorch-0.9.7.tar.gz --markdown 20230421/a/audiolm-pytorch/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-21 18:56:45] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-04-21 18:56:45] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-0.9.6.tar.gz tmp/audiolm-pytorch-0.9.7.tar.gz --markdown 20230421/a/audiolm-pytorch/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-21 18:56:45] INFO root fetch - processPackages [freemocap]: executing diffoscope
+[2023-04-21 18:56:45] INFO root fetch - processPackages [freemocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freemocap-1.0.8rc0.tar.gz tmp/freemocap-1.0.9rc0.tar.gz --markdown 20230421/f/freemocap/1.0.8rc0-1.0.9rc0/diff.md --exclude *.pyd
+[2023-04-21 18:56:45] INFO root fetch - processPackages [pgeng]: Downloading https://files.pythonhosted.org/packages/f0/3e/fca43d3c94e7ddaaf15fa89f0710abc8cacacdaa35ebc6a70950dbc8ac28/pgeng-1.8.3.tar.gz
+[2023-04-21 18:56:45] INFO root fetch - processPackages [pyllms]: executing diffoscope
+[2023-04-21 18:56:45] INFO root fetch - processPackages [pyllms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllms-0.1.7.tar.gz tmp/pyllms-0.1.8.tar.gz --markdown 20230421/p/pyllms/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-21 18:56:45] INFO root fetch - processPackages [multicall-zksync]: Downloading https://files.pythonhosted.org/packages/47/af/3065a908d407dcc8a58421f765ddeb36fe71a24ca57777fc4c43dd5a1a14/multicall_zksync-0.1.2.tar.gz
+[2023-04-21 18:56:45] INFO root fetch - processPackages [skale-checks]: Downloading https://files.pythonhosted.org/packages/b5/79/510aaba7847341d98b58ac50426a7bb9a4dd04e521b821cfacd16d1d7c50/skale-checks-1.0.dev9.tar.gz
+[2023-04-21 18:56:45] INFO root fetch - processPackages [skale-checks]: executing diffoscope
+[2023-04-21 18:56:45] INFO root fetch - processPackages [skale-checks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-checks-1.0.dev8.tar.gz tmp/skale-checks-1.0.dev9.tar.gz --markdown 20230421/s/skale-checks/1.0.dev8-1.0.dev9/diff.md --exclude *.pyd
+[2023-04-21 18:56:45] INFO root fetch - processPackages [multicall-zksync]: executing diffoscope
+[2023-04-21 18:56:45] INFO root fetch - processPackages [multicall-zksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicall_zksync-0.1.1.tar.gz tmp/multicall_zksync-0.1.2.tar.gz --markdown 20230421/m/multicall-zksync/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 18:56:46] INFO root fetch - processPackages [tegracli]: Start processing: coderedcms
+[2023-04-21 18:56:46] INFO root fetch - main [MainThread]: End processing [tegracli]: success
+[2023-04-21 18:56:46] INFO root fetch - processPackages [pgeng]: executing diffoscope
+[2023-04-21 18:56:46] INFO root fetch - processPackages [pgeng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgeng-1.8.2.tar.gz tmp/pgeng-1.8.3.tar.gz --markdown 20230421/p/pgeng/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-04-21 18:56:46] INFO root fetch - processPackages [coderedcms]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-21 18:56:46] INFO root fetch - processPackages [coderedcms]: executing diffoscope
+[2023-04-21 18:56:46] INFO root fetch - processPackages [coderedcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coderedcms-2.0.0.tar.gz tmp/coderedcms-2.1.0.tar.gz --markdown 20230421/c/coderedcms/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-21 18:56:47] INFO root fetch - processPackages [audiolm-pytorch]: Start processing: starbot-bilibili
+[2023-04-21 18:56:47] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-04-21 18:56:47] INFO root fetch - processPackages [thorpy]: Start processing: llegom
+[2023-04-21 18:56:47] INFO root fetch - main [MainThread]: End processing [thorpy]: success
+[2023-04-21 18:56:47] WARNING root fetch - processPackages [starbot-bilibili]: Skipping, unable to determine old version
+[2023-04-21 18:56:47] INFO root fetch - main [MainThread]: End processing [starbot-bilibili] error
+[2023-04-21 18:56:47] WARNING root fetch - processPackages [llegom]: Skipping, unable to determine old version
+[2023-04-21 18:56:47] INFO root fetch - main [MainThread]: End processing [llegom] error
+[2023-04-21 18:56:47] INFO root fetch - main [MainThread]: End processing [ambrosia]: success
+[2023-04-21 18:56:47] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-04-21 18:56:47] INFO root fetch - main [MainThread]: End processing [pyllms]: success
+[2023-04-21 18:56:47] INFO root fetch - main [MainThread]: End processing [multicall-zksync]: success
+[2023-04-21 18:56:47] INFO root fetch - main [MainThread]: End processing [skale-checks]: success
+[2023-04-21 18:56:48] INFO root fetch - main [MainThread]: End processing [freemocap]: success
+[2023-04-21 18:56:51] INFO root fetch - main [MainThread]: End processing [coderedcms]: success
+[2023-04-21 18:56:53] INFO root fetch - main [MainThread]: End processing [pgeng]: success
+[2023-04-21 18:56:53] INFO root fetch - main [MainThread]: Store serial: [17806250]
