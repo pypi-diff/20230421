@@ -19812,3 +19812,76 @@ EOFError: EOF read where object expected
 [2023-04-21 19:23:45] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-04-21 19:23:54] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-04-21 19:23:54] INFO root fetch - main [MainThread]: Store serial: [17806488]
+[2023-04-21 19:28:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806488]
+[2023-04-21 19:29:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 19:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandora-plugin-libsgm
+[2023-04-21 19:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PartSegCore-compiled-backend
+[2023-04-21 19:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boris-behav-obs
+[2023-04-21 19:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asaman
+[2023-04-21 19:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: montecarlodata
+[2023-04-21 19:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meshlib
+[2023-04-21 19:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spark-sql-to-sqlite
+[2023-04-21 19:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alcf
+[2023-04-21 19:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sincei
+[2023-04-21 19:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: td-ml-autosegmentation
+[2023-04-21 19:29:03] INFO root fetch - processPackages [td-ml-autosegmentation]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-21 19:29:03] INFO root fetch - processPackages [pandora-plugin-libsgm]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-21 19:29:03] INFO root fetch - processPackages [PartSegCore-compiled-backend]: New version: [0.15.1] Old Version: [0.15.0]
+[2023-04-21 19:29:03] INFO root fetch - processPackages [alcf]: New version: [1.4.0] Old Version: [1.3.1.post1]
+[2023-04-21 19:29:03] INFO root fetch - processPackages [td-ml-autosegmentation]: executing diffoscope
+[2023-04-21 19:29:03] INFO root fetch - processPackages [asaman]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 19:29:03] INFO root fetch - processPackages [td-ml-autosegmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/td_ml_autosegmentation-1.0.7.tar.gz tmp/td_ml_autosegmentation-1.0.8.tar.gz --markdown 20230421/t/td-ml-autosegmentation/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-21 19:29:03] INFO root fetch - processPackages [sincei]: New version: [0.3] Old Version: [0.2]
+[2023-04-21 19:29:03] WARNING root fetch - processPackages [spark-sql-to-sqlite]: Skipping, unable to determine old version
+[2023-04-21 19:29:03] INFO root fetch - processPackages [spark-sql-to-sqlite]: Start processing: crazy-thursday
+[2023-04-21 19:29:03] INFO root fetch - main [MainThread]: End processing [spark-sql-to-sqlite] error
+[2023-04-21 19:29:03] INFO root fetch - processPackages [boris-behav-obs]: New version: [8.9.8] Old Version: [8.9.6]
+[2023-04-21 19:29:03] INFO root fetch - processPackages [montecarlodata]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-21 19:29:03] INFO root fetch - processPackages [meshlib]: New version: [2.1.4.62] Old Version: [2.1.3]
+[2023-04-21 19:29:03] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-21 19:29:03] INFO root fetch - processPackages [pandora-plugin-libsgm]: Downloading https://files.pythonhosted.org/packages/80/38/bc8826fa3440e3b5a53850ce1b999980736e50ed3b3e2c2fdb37c6c85cdc/pandora_plugin_libsgm-1.3.0.tar.gz
+[2023-04-21 19:29:03] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-21 19:29:03] INFO root fetch - processPackages [alcf]: Downloading https://files.pythonhosted.org/packages/d7/33/843a312a30665757e791cf4a9524010f7823bf5c72485871780fbaa51912/alcf-1.3.1.post1.tar.gz
+[2023-04-21 19:29:03] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230421/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-21 19:29:03] INFO root fetch - processPackages [sincei]: Downloading https://files.pythonhosted.org/packages/a4/2d/13333fd3cef682178ca3886c10365e8867e11d8e976d150e496f4d2c10a4/sincei-0.2.tar.gz
+[2023-04-21 19:29:03] INFO root fetch - processPackages [montecarlodata]: Downloading https://files.pythonhosted.org/packages/db/0d/aecc03a79df2b9dfdaef8e4452e6b9e2947bf5ad211f43e5f9a4d27ac076/montecarlodata-0.9.1.tar.gz
+[2023-04-21 19:29:03] INFO root fetch - processPackages [PartSegCore-compiled-backend]: Downloading https://files.pythonhosted.org/packages/bb/75/2adc84a32b809121729bad87f86b9f9fddfb81b6996b9659af612ebf5c69/PartSegCore_compiled_backend-0.15.0.tar.gz
+[2023-04-21 19:29:03] INFO root fetch - processPackages [meshlib]: Downloading https://files.pythonhosted.org/packages/c3/22/f24bac7c71f6eae31d8030fc50ff89096139a53b2ccdfc7f476a0bbd9571/meshlib-2.1.3-cp39-none-win_amd64.whl
+[2023-04-21 19:29:04] WARNING root fetch - processPackages [meshlib]: Skipping package: exceeds size limit 14513208>=10485760
+[2023-04-21 19:29:04] INFO root fetch - processPackages [meshlib]: Start processing: pulumi-docker
+[2023-04-21 19:29:04] INFO root fetch - main [MainThread]: End processing [meshlib] error
+[2023-04-21 19:29:04] INFO root fetch - processPackages [asaman]: Downloading https://files.pythonhosted.org/packages/53/83/9757885f5151395f31a33cf32887bea42242b5f90afdbcfb59b857ac5dfb/asaman-0.2.1.tar.gz
+[2023-04-21 19:29:04] INFO root fetch - processPackages [pulumi-docker]: New version: [4.2.0a1682096065] Old Version: [4.2.0a1681928653]
+[2023-04-21 19:29:04] INFO root fetch - processPackages [boris-behav-obs]: executing diffoscope
+[2023-04-21 19:29:04] INFO root fetch - processPackages [boris-behav-obs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boris-behav-obs-8.9.6.tar.gz tmp/boris-behav-obs-8.9.8.tar.gz --markdown 20230421/b/boris-behav-obs/8.9.6-8.9.8/diff.md --exclude *.pyd
+[2023-04-21 19:29:04] INFO root fetch - processPackages [PartSegCore-compiled-backend]: Downloading https://files.pythonhosted.org/packages/7a/cf/578593f58b0c988de04b65df42a6a615c38aa597260d34d95a672fb04b9e/PartSegCore_compiled_backend-0.15.1.tar.gz
+[2023-04-21 19:29:04] INFO root fetch - processPackages [asaman]: executing diffoscope
+[2023-04-21 19:29:04] INFO root fetch - processPackages [asaman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asaman-0.2.0.tar.gz tmp/asaman-0.2.1.tar.gz --markdown 20230421/a/asaman/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 19:29:04] INFO root fetch - processPackages [sincei]: Downloading https://files.pythonhosted.org/packages/56/a8/c2066f6a2f8da6cedca1267da4321f584b6dd7507c4f1b433b960bf94908/sincei-0.3.tar.gz
+[2023-04-21 19:29:04] INFO root fetch - processPackages [PartSegCore-compiled-backend]: executing diffoscope
+[2023-04-21 19:29:04] INFO root fetch - processPackages [PartSegCore-compiled-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PartSegCore_compiled_backend-0.15.0.tar.gz tmp/PartSegCore_compiled_backend-0.15.1.tar.gz --markdown 20230421/P/PartSegCore-compiled-backend/0.15.0-0.15.1/diff.md --exclude *.pyd
+[2023-04-21 19:29:04] INFO root fetch - processPackages [montecarlodata]: Downloading https://files.pythonhosted.org/packages/db/e4/113cd728e2daba98e9a0ab50ceb4c29e0d6c8d370f1b4e6edf9b9fa5ae12/montecarlodata-0.9.2.tar.gz
+[2023-04-21 19:29:04] INFO root fetch - processPackages [sincei]: executing diffoscope
+[2023-04-21 19:29:04] INFO root fetch - processPackages [sincei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sincei-0.2.tar.gz tmp/sincei-0.3.tar.gz --markdown 20230421/s/sincei/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-21 19:29:04] INFO root fetch - processPackages [alcf]: Downloading https://files.pythonhosted.org/packages/2a/32/ce3c878c29a1034b044a31a39bdfb12b1caf92b8885ac1d5bd8687d4960c/alcf-1.4.0.tar.gz
+[2023-04-21 19:29:04] INFO root fetch - processPackages [pandora-plugin-libsgm]: Downloading https://files.pythonhosted.org/packages/96/d8/03fa86ac5ec49fb121e8ef6fb33ccb792fafff4c26b25899703a23354170/pandora_plugin_libsgm-1.4.0.tar.gz
+[2023-04-21 19:29:04] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/f7/b7/f6e3c3e8c65512125f6fb43261edda09e4a59d3cdd1268c181c96eacbfa1/pulumi_docker-4.2.0a1682096065.tar.gz
+[2023-04-21 19:29:04] INFO root fetch - processPackages [montecarlodata]: executing diffoscope
+[2023-04-21 19:29:04] INFO root fetch - processPackages [montecarlodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/montecarlodata-0.9.1.tar.gz tmp/montecarlodata-0.9.2.tar.gz --markdown 20230421/m/montecarlodata/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-21 19:29:04] INFO root fetch - processPackages [alcf]: executing diffoscope
+[2023-04-21 19:29:04] INFO root fetch - processPackages [alcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alcf-1.3.1.post1.tar.gz tmp/alcf-1.4.0.tar.gz --markdown 20230421/a/alcf/1.3.1.post1-1.4.0/diff.md --exclude *.pyd
+[2023-04-21 19:29:04] INFO root fetch - processPackages [pandora-plugin-libsgm]: executing diffoscope
+[2023-04-21 19:29:04] INFO root fetch - processPackages [pandora-plugin-libsgm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandora_plugin_libsgm-1.3.0.tar.gz tmp/pandora_plugin_libsgm-1.4.0.tar.gz --markdown 20230421/p/pandora-plugin-libsgm/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-21 19:29:04] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-04-21 19:29:04] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.2.0a1681928653.tar.gz tmp/pulumi_docker-4.2.0a1682096065.tar.gz --markdown 20230421/p/pulumi-docker/4.2.0a1681928653-4.2.0a1682096065/diff.md --exclude *.pyd
+[2023-04-21 19:29:05] INFO root fetch - main [MainThread]: End processing [td-ml-autosegmentation]: success
+[2023-04-21 19:29:05] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-21 19:29:05] INFO root fetch - main [MainThread]: End processing [asaman]: success
+[2023-04-21 19:29:06] INFO root fetch - main [MainThread]: End processing [sincei]: success
+[2023-04-21 19:29:06] INFO root fetch - main [MainThread]: End processing [montecarlodata]: success
+[2023-04-21 19:29:06] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-04-21 19:29:07] INFO root fetch - main [MainThread]: End processing [PartSegCore-compiled-backend]: success
+[2023-04-21 19:29:07] INFO root fetch - main [MainThread]: End processing [pandora-plugin-libsgm]: success
+[2023-04-21 19:29:08] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
+[2023-04-21 19:29:09] INFO root fetch - main [MainThread]: End processing [alcf]: success
+[2023-04-21 19:29:09] INFO root fetch - main [MainThread]: Store serial: [17806559]
