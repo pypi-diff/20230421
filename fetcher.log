@@ -7493,3 +7493,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 05:53:41] INFO root fetch - main [MainThread]: End processing [terminalpackagehamderber]: success
 [2023-04-21 05:53:41] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
 [2023-04-21 05:53:41] INFO root fetch - main [MainThread]: Store serial: [17798832]
+[2023-04-21 05:58:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798832]
+[2023-04-21 05:58:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 05:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openscm-calibration
+[2023-04-21 05:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pilotlight-tools
+[2023-04-21 05:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmapps.neon
+[2023-04-21 05:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pychd
+[2023-04-21 05:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-donation-base
+[2023-04-21 05:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cs.fileutils
+[2023-04-21 05:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirque-pinnacle
+[2023-04-21 05:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyXhUtils
+[2023-04-21 05:58:49] WARNING root fetch - processPackages [openscm-calibration]: Skipping, unable to determine old version
+[2023-04-21 05:58:49] INFO root fetch - main [MainThread]: End processing [openscm-calibration] error
+[2023-04-21 05:58:49] WARNING root fetch - processPackages [cmapps.neon]: Skipping, unable to determine old version
+[2023-04-21 05:58:49] INFO root fetch - main [MainThread]: End processing [cmapps.neon] error
+[2023-04-21 05:58:49] INFO root fetch - processPackages [pilotlight-tools]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-04-21 05:58:49] INFO root fetch - processPackages [pychd]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 05:58:49] INFO root fetch - processPackages [pyXhUtils]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-04-21 05:58:49] INFO root fetch - processPackages [odoo-addon-donation-base]: New version: [16.0.2.0.0.2] Old Version: [16.0.2.0.0.1]
+[2023-04-21 05:58:49] INFO root fetch - processPackages [cirque-pinnacle]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-21 05:58:49] INFO root fetch - processPackages [cs.fileutils]: New version: [20230421] Old Version: [20230401]
+[2023-04-21 05:58:50] INFO root fetch - processPackages [pilotlight-tools]: Downloading https://files.pythonhosted.org/packages/7e/5a/a9130cc111db4628914ebd8c2d6a2c1d40bbe031c44d38f86d9d64d42deb/pilotlight_tools-0.6.1.tar.gz
+[2023-04-21 05:58:50] INFO root fetch - processPackages [odoo-addon-donation-base]: Downloading https://files.pythonhosted.org/packages/1a/f8/224e18da92a10eedddc031dfdb09daf1cf6471f894e109b1c62de9748098/odoo_addon_donation_base-16.0.2.0.0.2-py3-none-any.whl
+[2023-04-21 05:58:50] INFO root fetch - processPackages [pyXhUtils]: Downloading https://files.pythonhosted.org/packages/43/1c/0c134b61400629daf540a76603f19724f4ec60f1c7076ffd546ce3e0667d/pyXhUtils-0.0.9.tar.gz
+[2023-04-21 05:58:50] INFO root fetch - processPackages [cs.fileutils]: Downloading https://files.pythonhosted.org/packages/3d/a8/42952e80e23fd9afe0d84d30eb700a33bf0e0b25b0d8d3cfc4f33513b107/cs.fileutils-20230401.tar.gz
+[2023-04-21 05:58:50] INFO root fetch - processPackages [pychd]: Downloading https://files.pythonhosted.org/packages/99/5b/a019586ebb976bc757275369d6a66fb7eeedcc58bac7594b8cf7789109b3/pychd-0.1.2.tar.gz
+[2023-04-21 05:58:50] INFO root fetch - processPackages [cirque-pinnacle]: Downloading https://files.pythonhosted.org/packages/74/04/3283b4bd83b44b46a36dab91247af0d6bf1bf71f3d9c5684d464fd938679/cirque_pinnacle-1.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-21 05:58:50] INFO root fetch - processPackages [odoo-addon-donation-base]: executing diffoscope
+[2023-04-21 05:58:50] INFO root fetch - processPackages [odoo-addon-donation-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation_base-16.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_donation_base-16.0.2.0.0.2-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-donation-base/16.0.2.0.0.1-16.0.2.0.0.2/diff.md --exclude *.pyd
+[2023-04-21 05:58:50] INFO root fetch - processPackages [pychd]: executing diffoscope
+[2023-04-21 05:58:50] INFO root fetch - processPackages [pychd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychd-0.1.1.tar.gz tmp/pychd-0.1.2.tar.gz --markdown 20230421/p/pychd/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 05:58:50] INFO root fetch - processPackages [cs.fileutils]: Downloading https://files.pythonhosted.org/packages/c0/c6/40f4b9caa65c646b21b01cc7d70ec08db0ed1958f33dfda8fadcac649305/cs.fileutils-20230421.tar.gz
+[2023-04-21 05:58:50] INFO root fetch - processPackages [pilotlight-tools]: Downloading https://files.pythonhosted.org/packages/8e/b4/0d9be988f473ce20519eb1de5e7ed72e812824e5d584ee6f5a0901432194/pilotlight_tools-0.7.0.tar.gz
+[2023-04-21 05:58:50] INFO root fetch - processPackages [cirque-pinnacle]: executing diffoscope
+[2023-04-21 05:58:50] INFO root fetch - processPackages [cirque-pinnacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirque_pinnacle-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/cirque_pinnacle-1.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230421/c/cirque-pinnacle/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-21 05:58:50] INFO root fetch - processPackages [pyXhUtils]: Downloading https://files.pythonhosted.org/packages/dd/dc/aca8deb3a726f23a9a521d8999e2ad9112d8db6ae083f0376e701ddfd4b2/pyXhUtils-1.0.0.tar.gz
+[2023-04-21 05:58:50] INFO root fetch - processPackages [pilotlight-tools]: executing diffoscope
+[2023-04-21 05:58:50] INFO root fetch - processPackages [pilotlight-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pilotlight_tools-0.6.1.tar.gz tmp/pilotlight_tools-0.7.0.tar.gz --markdown 20230421/p/pilotlight-tools/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-04-21 05:58:50] INFO root fetch - processPackages [cs.fileutils]: executing diffoscope
+[2023-04-21 05:58:50] INFO root fetch - processPackages [cs.fileutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.fileutils-20230401.tar.gz tmp/cs.fileutils-20230421.tar.gz --markdown 20230421/c/cs.fileutils/20230401-20230421/diff.md --exclude *.pyd
+[2023-04-21 05:58:50] INFO root fetch - processPackages [pyXhUtils]: executing diffoscope
+[2023-04-21 05:58:50] INFO root fetch - processPackages [pyXhUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyXhUtils-0.0.9.tar.gz tmp/pyXhUtils-1.0.0.tar.gz --markdown 20230421/p/pyXhUtils/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-21 05:58:51] INFO root fetch - main [MainThread]: End processing [pychd]: success
+[2023-04-21 05:58:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-base]: success
+[2023-04-21 05:58:51] INFO root fetch - main [MainThread]: End processing [cirque-pinnacle]: success
+[2023-04-21 05:58:51] INFO root fetch - main [MainThread]: End processing [cs.fileutils]: success
+[2023-04-21 05:58:52] INFO root fetch - main [MainThread]: End processing [pyXhUtils]: success
+[2023-04-21 05:58:52] INFO root fetch - main [MainThread]: End processing [pilotlight-tools]: success
+[2023-04-21 05:58:52] INFO root fetch - main [MainThread]: Store serial: [17798871]
