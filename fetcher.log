@@ -19263,3 +19263,92 @@ EOFError: EOF read where object expected
 [2023-04-21 18:46:13] INFO root fetch - main [MainThread]: End processing [ValiotWorker]: success
 [2023-04-21 18:46:17] INFO root fetch - main [MainThread]: End processing [deeplake]: success
 [2023-04-21 18:46:17] INFO root fetch - main [MainThread]: Store serial: [17806136]
+[2023-04-21 18:51:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17806136]
+[2023-04-21 18:51:26] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-21 18:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thorpy
+[2023-04-21 18:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-bilichat
+[2023-04-21 18:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qmuvi
+[2023-04-21 18:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mtbase
+[2023-04-21 18:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starbot-bilibili
+[2023-04-21 18:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synthdid
+[2023-04-21 18:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dandi
+[2023-04-21 18:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mtpandas
+[2023-04-21 18:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-deno
+[2023-04-21 18:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: can-explorer
+[2023-04-21 18:51:26] WARNING root fetch - processPackages [can-explorer]: Skipping, unable to determine old version
+[2023-04-21 18:51:26] INFO root fetch - processPackages [can-explorer]: Start processing: deprl
+[2023-04-21 18:51:26] INFO root fetch - main [MainThread]: End processing [can-explorer] error
+[2023-04-21 18:51:26] INFO root fetch - processPackages [mtpandas]: New version: [1.9.202208120520] Old Version: [1.9.202208011136]
+[2023-04-21 18:51:26] WARNING root fetch - processPackages [deprl]: Skipping, unable to determine old version
+[2023-04-21 18:51:26] INFO root fetch - processPackages [deprl]: Start processing: synthdid
+[2023-04-21 18:51:26] INFO root fetch - main [MainThread]: End processing [deprl] error
+[2023-04-21 18:51:26] INFO root fetch - processPackages [mtpandas]: executing diffoscope
+[2023-04-21 18:51:26] INFO root fetch - processPackages [mtpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtpandas-1.9.202208011136-py3-none-any.whl.zip tmp/mtpandas-1.9.202208120520-py3-none-any.whl.zip --markdown 20230421/m/mtpandas/1.9.202208011136-1.9.202208120520/diff.md --exclude *.pyd
+[2023-04-21 18:51:26] WARNING root fetch - processPackages [starbot-bilibili]: Skipping, unable to determine old version
+[2023-04-21 18:51:26] INFO root fetch - processPackages [starbot-bilibili]: Start processing: maxilearn
+[2023-04-21 18:51:26] WARNING root fetch - processPackages [qmuvi]: Skipping, unable to determine old version
+[2023-04-21 18:51:26] INFO root fetch - main [MainThread]: End processing [starbot-bilibili] error
+[2023-04-21 18:51:26] INFO root fetch - processPackages [qmuvi]: Start processing: tensorflow-nearest-neighbours
+[2023-04-21 18:51:26] INFO root fetch - main [MainThread]: End processing [qmuvi] error
+[2023-04-21 18:51:26] INFO root fetch - processPackages [thorpy]: New version: [2.0] Old Version: [1.8.1]
+[2023-04-21 18:51:26] INFO root fetch - processPackages [synthdid]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-21 18:51:26] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-04-21 18:51:26] INFO root fetch - processPackages [synthdid]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-21 18:51:26] INFO root fetch - processPackages [django-deno]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 18:51:26] INFO root fetch - processPackages [maxilearn]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-21 18:51:26] INFO root fetch - processPackages [dandi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-21 18:51:26] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 18:51:26] INFO root fetch - processPackages [mtbase]: New version: [4.4.202304211646] Old Version: [4.3.202304201348]
+[2023-04-21 18:51:26] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: executing diffoscope
+[2023-04-21 18:51:26] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_nearest_neighbours-0.0.2-cp39-cp39-macosx_13_0_arm64.whl.zip tmp/tensorflow_nearest_neighbours-0.0.3-cp39-cp39-macosx_13_0_arm64.whl.zip --markdown 20230421/t/tensorflow-nearest-neighbours/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 18:51:26] INFO root fetch - processPackages [synthdid]: Downloading https://files.pythonhosted.org/packages/57/f6/3401dff5fd94fa98c33794ca7302193bf6084e2d75f6653edd235dd19c2a/synthdid-0.9.4.tar.gz
+[2023-04-21 18:51:26] INFO root fetch - processPackages [synthdid]: Downloading https://files.pythonhosted.org/packages/57/f6/3401dff5fd94fa98c33794ca7302193bf6084e2d75f6653edd235dd19c2a/synthdid-0.9.4.tar.gz
+[2023-04-21 18:51:26] INFO root fetch - processPackages [thorpy]: Downloading https://files.pythonhosted.org/packages/a5/51/c8b1d2a7b57644515ff43cf8fea36d4c7068f2b4dbff85585040a7370c20/thorpy-1.8.1-py2.py3-none-any.whl
+[2023-04-21 18:51:26] INFO root fetch - processPackages [maxilearn]: Downloading https://files.pythonhosted.org/packages/4b/8d/9e55ee0eaa31707af823d0fa0bcd2408df8235dd349f75e343d9b614bede/maxilearn-0.4.9.tar.gz
+[2023-04-21 18:51:26] INFO root fetch - processPackages [django-deno]: Downloading https://files.pythonhosted.org/packages/42/e0/e8d78536e7eaeedd73c01fb531f1e52f1bb6ffca8f1bce0210a44225d1c6/django-deno-0.1.2.tar.gz
+[2023-04-21 18:51:26] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/c8/2a/3a9aad0585746d466041691c07a9e5f8c404b4cfcbdf405cdb9e0567e592/nonebot_plugin_bilichat-1.5.0.tar.gz
+[2023-04-21 18:51:26] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/e9/9a/8bb23e5acf98256fe5a63c948af225e63b4bdccfdada14c59b29a799fcbc/mtbase-4.4.202304211646-py3-none-any.whl
+[2023-04-21 18:51:26] INFO root fetch - processPackages [maxilearn]: executing diffoscope
+[2023-04-21 18:51:26] INFO root fetch - processPackages [maxilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxilearn-0.4.8-py3-none-any.whl.zip tmp/maxilearn-0.4.9.tar.gz --markdown 20230421/m/maxilearn/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-21 18:51:26] INFO root fetch - processPackages [dandi]: executing diffoscope
+[2023-04-21 18:51:26] INFO root fetch - processPackages [dandi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dandi-0.8.0.tar.gz tmp/dandi-0.9.0.tar.gz --markdown 20230421/d/dandi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 18:51:27] INFO root fetch - processPackages [synthdid]: Downloading https://files.pythonhosted.org/packages/3d/f3/a197158bd4c36ed6bee171fca35e31d4e19f41caead90fb8d23dd4bc2241/synthdid-0.9.5.tar.gz
+[2023-04-21 18:51:27] INFO root fetch - processPackages [synthdid]: Downloading https://files.pythonhosted.org/packages/3d/f3/a197158bd4c36ed6bee171fca35e31d4e19f41caead90fb8d23dd4bc2241/synthdid-0.9.5.tar.gz
+[2023-04-21 18:51:27] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-04-21 18:51:27] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-1.4.1.tar.gz tmp/nonebot_plugin_bilichat-1.5.0.tar.gz --markdown 20230421/n/nonebot-plugin-bilichat/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-04-21 18:51:27] INFO root fetch - processPackages [thorpy]: Downloading https://files.pythonhosted.org/packages/c6/9d/26d59aaa3dca04cc81310b01d4e835fe35282963e14e4680858cfbfe94d0/thorpy-2.0.tar.gz
+[2023-04-21 18:51:27] INFO root fetch - processPackages [synthdid]: executing diffoscope
+[2023-04-21 18:51:27] INFO root fetch - processPackages [synthdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthdid-0.9.4.tar.gz tmp/synthdid-0.9.5.tar.gz --markdown 20230421/s/synthdid/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-21 18:51:27] INFO root fetch - processPackages [synthdid]: executing diffoscope
+[2023-04-21 18:51:27] INFO root fetch - processPackages [synthdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthdid-0.9.4.tar.gz tmp/synthdid-0.9.5.tar.gz --markdown 20230421/s/synthdid/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-21 18:51:27] INFO root fetch - processPackages [mtbase]: executing diffoscope
+[2023-04-21 18:51:27] INFO root fetch - processPackages [mtbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtbase-4.3.202304201348-py3-none-any.whl.zip tmp/mtbase-4.4.202304211646-py3-none-any.whl.zip --markdown 20230421/m/mtbase/4.3.202304201348-4.4.202304211646/diff.md --exclude *.pyd
+[2023-04-21 18:51:27] INFO root fetch - processPackages [thorpy]: executing diffoscope
+[2023-04-21 18:51:27] INFO root fetch - processPackages [thorpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thorpy-1.8.1-py2.py3-none-any.whl.zip tmp/thorpy-2.0.tar.gz --markdown 20230421/t/thorpy/1.8.1-2.0/diff.md --exclude *.pyd
+[2023-04-21 18:51:27] INFO root fetch - processPackages [django-deno]: Downloading https://files.pythonhosted.org/packages/9b/d0/3192c5723bc07ae15c7aed9225139c8e80bdc35065b25fcf82b8758434ca/django_deno-0.1.3-py2.py3-none-any.whl
+[2023-04-21 18:51:27] INFO root fetch - processPackages [mtpandas]: Start processing: dcicsnovault
+[2023-04-21 18:51:27] INFO root fetch - main [MainThread]: End processing [mtpandas]: success
+[2023-04-21 18:51:27] INFO root fetch - processPackages [django-deno]: executing diffoscope
+[2023-04-21 18:51:27] INFO root fetch - processPackages [django-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-deno-0.1.2.tar.gz tmp/django_deno-0.1.3-py2.py3-none-any.whl.zip --markdown 20230421/d/django-deno/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 18:51:27] INFO root fetch - processPackages [dcicsnovault]: New version: [8.0.1.0b0] Old Version: [8.0.1]
+[2023-04-21 18:51:28] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/03/f2/d4ac12354a0a7d2bce828fbae12c03106d24c587863b7ca783ee472c9370/dcicsnovault-8.0.1.tar.gz
+[2023-04-21 18:51:28] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/2e/d0/ef4fad2ee51b1f0c44ed740af9ddea002c1ff5d33d6ceec9c3e045d0b1de/dcicsnovault-8.0.1.0b0.tar.gz
+[2023-04-21 18:51:28] INFO root fetch - processPackages [maxilearn]: Start processing: pypcapkit
+[2023-04-21 18:51:28] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
+[2023-04-21 18:51:28] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2023-04-21 18:51:28] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/57/e1/86496ffe80729a7936129ed02b5c42e8abee93564f6fa34158587081ec81/pypcapkit-1.0.0b4.tar.gz
+[2023-04-21 18:51:28] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-04-21 18:51:28] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.0.1.tar.gz tmp/dcicsnovault-8.0.1.0b0.tar.gz --markdown 20230421/d/dcicsnovault/8.0.1-8.0.1.0b0/diff.md --exclude *.pyd
+[2023-04-21 18:51:28] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-04-21 18:51:28] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.0b3.tar.gz tmp/pypcapkit-1.0.0b4.tar.gz --markdown 20230421/p/pypcapkit/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2023-04-21 18:51:28] INFO root fetch - main [MainThread]: End processing [tensorflow-nearest-neighbours]: success
+[2023-04-21 18:51:29] INFO root fetch - main [MainThread]: End processing [synthdid]: success
+[2023-04-21 18:51:29] INFO root fetch - main [MainThread]: End processing [dandi]: success
+[2023-04-21 18:51:29] INFO root fetch - main [MainThread]: End processing [synthdid]: success
+[2023-04-21 18:51:29] INFO root fetch - main [MainThread]: End processing [thorpy]: success
+[2023-04-21 18:51:29] INFO root fetch - main [MainThread]: End processing [mtbase]: success
+[2023-04-21 18:51:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-04-21 18:51:31] INFO root fetch - main [MainThread]: End processing [django-deno]: success
+[2023-04-21 18:51:32] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-04-21 18:51:33] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-04-21 18:51:33] INFO root fetch - main [MainThread]: Store serial: [17806189]
