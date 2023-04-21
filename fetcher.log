@@ -8610,3 +8610,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 07:56:36] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
 [2023-04-21 07:56:48] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
 [2023-04-21 07:56:48] INFO root fetch - main [MainThread]: Store serial: [17799535]
+[2023-04-21 08:01:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799535]
+[2023-04-21 08:02:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 08:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm4gpt
+[2023-04-21 08:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-product-route-mto
+[2023-04-21 08:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discotoolkit
+[2023-04-21 08:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-product-attribute
+[2023-04-21 08:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alnoda-wrk
+[2023-04-21 08:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bp-query-tool
+[2023-04-21 08:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-scw-vpc
+[2023-04-21 08:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lexikanon
+[2023-04-21 08:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: danio
+[2023-04-21 08:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llm4gpt
+[2023-04-21 08:02:03] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.21.14.0.12] Old Version: [2023.4.21.13.7.20]
+[2023-04-21 08:02:03] INFO root fetch - processPackages [bp-query-tool]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 08:02:03] INFO root fetch - processPackages [discotoolkit]: New version: [1.0.0.1] Old Version: [1.0]
+[2023-04-21 08:02:03] INFO root fetch - processPackages [odoo-addon-product-route-mto]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-04-21 08:02:03] INFO root fetch - processPackages [danio]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-21 08:02:03] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.21.14.0.12] Old Version: [2023.4.21.13.7.20]
+[2023-04-21 08:02:03] WARNING root fetch - processPackages [lexikanon]: Skipping, unable to determine old version
+[2023-04-21 08:02:03] INFO root fetch - processPackages [lexikanon]: Start processing: llm4gpt
+[2023-04-21 08:02:03] INFO root fetch - main [MainThread]: End processing [lexikanon] error
+[2023-04-21 08:02:03] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: New version: [16.0.20230420.2] Old Version: [16.0.20230403.0]
+[2023-04-21 08:02:03] INFO root fetch - processPackages [xia-scw-vpc]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 08:02:03] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-04-21 08:02:03] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.21.14.0.12] Old Version: [2023.4.21.13.7.20]
+[2023-04-21 08:02:03] INFO root fetch - processPackages [bp-query-tool]: Downloading https://files.pythonhosted.org/packages/2d/5d/6b610f4982b6a590a1546caeb7b4a2f31c426f5539a717720d5b0f9aca51/bp_query_tool-0.0.2.tar.gz
+[2023-04-21 08:02:03] INFO root fetch - processPackages [discotoolkit]: Downloading https://files.pythonhosted.org/packages/ff/32/4eea619fb609906eace6fb306ecf050e5eb454c202fd7e92f29c050eb0d3/discotoolkit-1.0.tar.gz
+[2023-04-21 08:02:03] INFO root fetch - processPackages [odoo-addon-product-route-mto]: Downloading https://files.pythonhosted.org/packages/40/01/3ad2d3b08f86fc4de39299104fdde73f694e1c54e93d971cf21dcee5e3d9/odoo_addon_product_route_mto-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-21 08:02:03] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/3a/2f/621f4f170d469c27c772f6309f82e3a39932f27165da6b6139507792eb40/odoo_addons_oca_product_attribute-16.0.20230403.0-py3-none-any.whl
+[2023-04-21 08:02:03] INFO root fetch - processPackages [danio]: Downloading https://files.pythonhosted.org/packages/c4/25/b81024c3d23ef3966310f2234405cb5c97602538e4aea446e8bb235ca237/danio-0.5.0.tar.gz
+[2023-04-21 08:02:03] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/33/f1/c6810d231ace0a92f0f6e1dc57f337abddae685ced5c3fc8f6e9e2ceaf1c/llm4gpt-2023.4.21.14.0.12.tar.gz
+[2023-04-21 08:02:03] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/bf/2b/65abcc0c677704d4f761bd40adabb3685806c21afc6695b54f8af2b5d5b2/alnoda_wrk-0.4.7.tar.gz
+[2023-04-21 08:02:03] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/33/f1/c6810d231ace0a92f0f6e1dc57f337abddae685ced5c3fc8f6e9e2ceaf1c/llm4gpt-2023.4.21.14.0.12.tar.gz
+[2023-04-21 08:02:03] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/33/f1/c6810d231ace0a92f0f6e1dc57f337abddae685ced5c3fc8f6e9e2ceaf1c/llm4gpt-2023.4.21.14.0.12.tar.gz
+[2023-04-21 08:02:03] INFO root fetch - processPackages [bp-query-tool]: Downloading https://files.pythonhosted.org/packages/c9/2d/92bed50f531fcc0157a8abc09a42b84b28c8d8f1edc20fe0fe1859804146/bp_query_tool-0.0.3.tar.gz
+[2023-04-21 08:02:03] INFO root fetch - processPackages [xia-scw-vpc]: Downloading https://files.pythonhosted.org/packages/b6/8e/e1204f003d46fa3a1770577baee9e4391914b6ed3ef2fb86b70ec7536a6c/xia_scw_vpc-0.0.3-cp39-none-win_amd64.whl
+[2023-04-21 08:02:03] INFO root fetch - processPackages [discotoolkit]: Downloading https://files.pythonhosted.org/packages/5e/b6/ac153f72f2e49bd04c4742ec184311cff74406e8b89b0c5f93b3e17fbbcf/discotoolkit-1.0.0.1.tar.gz
+[2023-04-21 08:02:03] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/9d/3a/062ea9e010b7ba8d27016f8a7311fe58e5a560232554879772439983798d/odoo_addons_oca_product_attribute-16.0.20230420.2-py3-none-any.whl
+[2023-04-21 08:02:03] INFO root fetch - processPackages [danio]: Downloading https://files.pythonhosted.org/packages/c2/3c/99835f99ec529d110d5075c79cdcd5d903e6b05ff1db24a950ef724d3de7/danio-0.5.1.tar.gz
+[2023-04-21 08:02:03] INFO root fetch - processPackages [odoo-addon-product-route-mto]: Downloading https://files.pythonhosted.org/packages/35/61/30b38cd992b92892e76edfdd587075317c6c1801c9cf25f0748c3c6dde39/odoo_addon_product_route_mto-16.0.1.0.0.4-py3-none-any.whl
+[2023-04-21 08:02:03] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-04-21 08:02:03] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.6.tar.gz tmp/alnoda_wrk-0.4.7.tar.gz --markdown 20230421/a/alnoda-wrk/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-04-21 08:02:03] INFO root fetch - processPackages [xia-scw-vpc]: executing diffoscope
+[2023-04-21 08:02:03] INFO root fetch - processPackages [xia-scw-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_vpc-0.0.2-cp39-none-win_amd64.whl.zip tmp/xia_scw_vpc-0.0.3-cp39-none-win_amd64.whl.zip --markdown 20230421/x/xia-scw-vpc/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 08:02:03] INFO root fetch - processPackages [bp-query-tool]: executing diffoscope
+[2023-04-21 08:02:03] INFO root fetch - processPackages [bp-query-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_query_tool-0.0.2.tar.gz tmp/bp_query_tool-0.0.3.tar.gz --markdown 20230421/b/bp-query-tool/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 08:02:03] INFO root fetch - processPackages [danio]: executing diffoscope
+[2023-04-21 08:02:03] INFO root fetch - processPackages [danio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danio-0.5.0.tar.gz tmp/danio-0.5.1.tar.gz --markdown 20230421/d/danio/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-21 08:02:03] INFO root fetch - processPackages [odoo-addon-product-route-mto]: executing diffoscope
+[2023-04-21 08:02:03] INFO root fetch - processPackages [odoo-addon-product-route-mto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_route_mto-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_route_mto-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-product-route-mto/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-04-21 08:02:03] INFO root fetch - processPackages [discotoolkit]: executing diffoscope
+[2023-04-21 08:02:03] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: executing diffoscope
+[2023-04-21 08:02:03] INFO root fetch - processPackages [discotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discotoolkit-1.0.tar.gz tmp/discotoolkit-1.0.0.1.tar.gz --markdown 20230421/d/discotoolkit/1.0-1.0.0.1/diff.md --exclude *.pyd
+[2023-04-21 08:02:03] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_attribute-16.0.20230403.0-py3-none-any.whl.zip tmp/odoo_addons_oca_product_attribute-16.0.20230420.2-py3-none-any.whl.zip --markdown 20230421/o/odoo-addons-oca-product-attribute/16.0.20230403.0-16.0.20230420.2/diff.md --exclude *.pyd
+[2023-04-21 08:02:04] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-21 08:02:04] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.21.13.7.20.tar.gz tmp/llm4gpt-2023.4.21.14.0.12.tar.gz --markdown 20230421/l/llm4gpt/2023.4.21.13.7.20-2023.4.21.14.0.12/diff.md --exclude *.pyd
+[2023-04-21 08:02:04] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-21 08:02:04] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.21.13.7.20.tar.gz tmp/llm4gpt-2023.4.21.14.0.12.tar.gz --markdown 20230421/l/llm4gpt/2023.4.21.13.7.20-2023.4.21.14.0.12/diff.md --exclude *.pyd
+[2023-04-21 08:02:04] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-21 08:02:04] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.21.13.7.20.tar.gz tmp/llm4gpt-2023.4.21.14.0.12.tar.gz --markdown 20230421/l/llm4gpt/2023.4.21.13.7.20-2023.4.21.14.0.12/diff.md --exclude *.pyd
+[2023-04-21 08:02:05] INFO root fetch - main [MainThread]: End processing [xia-scw-vpc]: success
+[2023-04-21 08:02:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-route-mto]: success
+[2023-04-21 08:02:05] INFO root fetch - main [MainThread]: End processing [danio]: success
+[2023-04-21 08:02:05] INFO root fetch - main [MainThread]: End processing [discotoolkit]: success
+[2023-04-21 08:02:05] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-attribute]: success
+[2023-04-21 08:02:06] INFO root fetch - main [MainThread]: End processing [bp-query-tool]: success
+[2023-04-21 08:02:06] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-04-21 08:02:06] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-21 08:02:06] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-21 08:02:07] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-21 08:02:07] INFO root fetch - main [MainThread]: Store serial: [17799569]
