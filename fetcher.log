@@ -23414,3 +23414,82 @@ EOFError: EOF read where object expected
 [2023-04-21 22:58:36] INFO root fetch - main [MainThread]: End processing [foursight]: success
 [2023-04-21 22:58:37] INFO root fetch - main [MainThread]: End processing [camerahub]: success
 [2023-04-21 22:58:37] INFO root fetch - main [MainThread]: Store serial: [17808714]
+[2023-04-21 23:03:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17808714]
+[2023-04-21 23:03:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaml-stripper
+[2023-04-21 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liftcord
+[2023-04-21 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ktrain
+[2023-04-21 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talkwave
+[2023-04-21 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bumble
+[2023-04-21 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yandex-asyncpg_debug
+[2023-04-21 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: griptape
+[2023-04-21 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yandex-cme-api-clients
+[2023-04-21 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ucx-py-cu11
+[2023-04-21 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cuml-cu11
+[2023-04-21 23:03:47] INFO root fetch - processPackages [griptape]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-21 23:03:47] INFO root fetch - processPackages [liftcord]: New version: [7.1] Old Version: [2.3.0a0]
+[2023-04-21 23:03:47] INFO root fetch - processPackages [talkwave]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-21 23:03:47] INFO root fetch - processPackages [bumble]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 23:03:47] INFO root fetch - processPackages [ktrain]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-21 23:03:47] WARNING root fetch - processPackages [yandex-asyncpg_debug]: Skipping, unable to determine old version
+[2023-04-21 23:03:47] WARNING root fetch - processPackages [yandex-cme-api-clients]: Skipping, unable to determine old version
+[2023-04-21 23:03:47] INFO root fetch - processPackages [yandex-asyncpg_debug]: Start processing: pypotlib
+[2023-04-21 23:03:47] INFO root fetch - processPackages [cuml-cu11]: New version: [23.4.1] Old Version: [23.4.0.1681368248]
+[2023-04-21 23:03:47] INFO root fetch - processPackages [ucx-py-cu11]: New version: [0.31.1] Old Version: [0.31.0.1681362077]
+[2023-04-21 23:03:47] INFO root fetch - main [MainThread]: End processing [yandex-asyncpg_debug] error
+[2023-04-21 23:03:47] INFO root fetch - processPackages [yandex-cme-api-clients]: Start processing: cudf-cu11
+[2023-04-21 23:03:47] INFO root fetch - main [MainThread]: End processing [yandex-cme-api-clients] error
+[2023-04-21 23:03:47] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 23:03:47] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/0c/f8/f0623df3f99e5783ddffdaca95235ab7b90ba3b2df21f85f272972decd98/griptape-0.5.0.tar.gz
+[2023-04-21 23:03:47] WARNING root fetch - processPackages [pypotlib]: Skipping, unable to determine old version
+[2023-04-21 23:03:47] INFO root fetch - processPackages [pypotlib]: Start processing: dask-cudf-cu11
+[2023-04-21 23:03:47] INFO root fetch - main [MainThread]: End processing [pypotlib] error
+[2023-04-21 23:03:47] INFO root fetch - processPackages [cudf-cu11]: New version: [23.4.1] Old Version: [23.4.0.1681363056]
+[2023-04-21 23:03:47] INFO root fetch - processPackages [bumble]: Downloading https://files.pythonhosted.org/packages/5c/cc/2050aa113bf91c23119ba662d8833cb2442c86a9be578ea2ef801786e1bc/bumble-0.0.7.tar.gz
+[2023-04-21 23:03:47] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-04-21 23:03:47] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.4.0.tar.gz tmp/griptape-0.5.0.tar.gz --markdown 20230421/g/griptape/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-21 23:03:47] INFO root fetch - processPackages [talkwave]: Downloading https://files.pythonhosted.org/packages/d6/b7/cda6534bb9f5af7a914a542f7bb1bec18e0ae4f65f239e7eec02a82bfb8c/talkwave-0.0.5.tar.gz
+[2023-04-21 23:03:47] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/4c/eb/f7c8eecbaa0e06d80dbf78e1ae6b293b944d89a1f294331324c0b5262ad4/ktrain-0.9.3.tar.gz
+[2023-04-21 23:03:47] INFO root fetch - processPackages [dask-cudf-cu11]: New version: [23.4.1] Old Version: [23.4.0.1681364034]
+[2023-04-21 23:03:47] INFO root fetch - processPackages [liftcord]: executing diffoscope
+[2023-04-21 23:03:47] INFO root fetch - processPackages [liftcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liftcord-2.3.0a0.tar.gz tmp/liftcord-7.1.tar.gz --markdown 20230421/l/liftcord/2.3.0a0-7.1/diff.md --exclude *.pyd
+[2023-04-21 23:03:47] INFO root fetch - processPackages [cuml-cu11]: Downloading https://files.pythonhosted.org/packages/e5/cf/95745d76ef17fde6f6974b5b93c67a3bc512c0b4994f9d4131512f6d469c/cuml_cu11-23.4.1.tar.gz
+[2023-04-21 23:03:47] INFO root fetch - processPackages [ucx-py-cu11]: Downloading https://files.pythonhosted.org/packages/96/9e/ccd1e5d31966a1db671b0cd370dc972b9a04d1c6c434898ec4b625c3f836/ucx_py_cu11-0.31.1.tar.gz
+[2023-04-21 23:03:47] INFO root fetch - processPackages [talkwave]: Downloading https://files.pythonhosted.org/packages/9e/20/4d356c75835c675f5dda07f0462391709b0b6a2b949761c45a2481f4621e/talkwave-0.0.6.tar.gz
+[2023-04-21 23:03:47] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 23:03:47] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.8.tar.gz tmp/yaml-stripper-0.1.9.tar.gz --markdown 20230421/y/yaml-stripper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 23:03:47] INFO root fetch - processPackages [cudf-cu11]: Downloading https://files.pythonhosted.org/packages/82/b1/5164499f0da832cd3a4da31d9e17bc4b093a33b23baab2ae6bc5f86bf49a/cudf_cu11-23.4.1.tar.gz
+[2023-04-21 23:03:47] INFO root fetch - processPackages [cuml-cu11]: executing diffoscope
+[2023-04-21 23:03:47] INFO root fetch - processPackages [cuml-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuml_cu11-23.4.0.1681368248.tar.gz tmp/cuml_cu11-23.4.1.tar.gz --markdown 20230421/c/cuml-cu11/23.4.0.1681368248-23.4.1/diff.md --exclude *.pyd
+[2023-04-21 23:03:47] INFO root fetch - processPackages [ucx-py-cu11]: executing diffoscope
+[2023-04-21 23:03:47] INFO root fetch - processPackages [ucx-py-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucx_py_cu11-0.31.0.1681362077.tar.gz tmp/ucx_py_cu11-0.31.1.tar.gz --markdown 20230421/u/ucx-py-cu11/0.31.0.1681362077-0.31.1/diff.md --exclude *.pyd
+[2023-04-21 23:03:47] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/73/d5/77df174a24b752d0c7bb5a140591e2c909781b0ab6d9d73451d484a6ede2/ktrain-0.9.4.tar.gz
+[2023-04-21 23:03:47] INFO root fetch - processPackages [talkwave]: executing diffoscope
+[2023-04-21 23:03:47] INFO root fetch - processPackages [talkwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkwave-0.0.5.tar.gz tmp/talkwave-0.0.6.tar.gz --markdown 20230421/t/talkwave/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 23:03:47] INFO root fetch - processPackages [dask-cudf-cu11]: Downloading https://files.pythonhosted.org/packages/da/11/50ccbadde47e5b831ec625d6d94276edc3d1a97882a7ff0fb232880c1219/dask_cudf_cu11-23.4.1.tar.gz
+[2023-04-21 23:03:47] INFO root fetch - processPackages [cudf-cu11]: executing diffoscope
+[2023-04-21 23:03:47] INFO root fetch - processPackages [cudf-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudf_cu11-23.4.0.1681363056.tar.gz tmp/cudf_cu11-23.4.1.tar.gz --markdown 20230421/c/cudf-cu11/23.4.0.1681363056-23.4.1/diff.md --exclude *.pyd
+[2023-04-21 23:03:47] INFO root fetch - processPackages [ktrain]: executing diffoscope
+[2023-04-21 23:03:47] INFO root fetch - processPackages [ktrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktrain-0.9.3.tar.gz tmp/ktrain-0.9.4.tar.gz --markdown 20230421/k/ktrain/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-21 23:03:47] INFO root fetch - processPackages [dask-cudf-cu11]: executing diffoscope
+[2023-04-21 23:03:47] INFO root fetch - processPackages [dask-cudf-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask_cudf_cu11-23.4.0.1681364034.tar.gz tmp/dask_cudf_cu11-23.4.1.tar.gz --markdown 20230421/d/dask-cudf-cu11/23.4.0.1681364034-23.4.1/diff.md --exclude *.pyd
+[2023-04-21 23:03:48] INFO root fetch - processPackages [bumble]: Downloading https://files.pythonhosted.org/packages/68/35/9a248bc72c337b8ddaaa686a9f635b08670845ec0d96933f6e246cb6f7c2/bumble-0.0.8.tar.gz
+[2023-04-21 23:03:48] INFO root fetch - processPackages [bumble]: executing diffoscope
+[2023-04-21 23:03:48] INFO root fetch - processPackages [bumble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bumble-0.0.7.tar.gz tmp/bumble-0.0.8.tar.gz --markdown 20230421/b/bumble/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 23:03:48] INFO root fetch - processPackages [griptape]: Start processing: cloud-governance
+[2023-04-21 23:03:48] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-04-21 23:03:48] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.91] Old Version: [1.1.90]
+[2023-04-21 23:03:49] INFO root fetch - main [MainThread]: End processing [cuml-cu11]: success
+[2023-04-21 23:03:49] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 23:03:49] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/21/94/fac5f8a8b4a21ea4903f475e29338f40b48f6b0bb345a458746135b7f4b5/cloud-governance-1.1.91.tar.gz
+[2023-04-21 23:03:49] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-04-21 23:03:49] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.90.tar.gz tmp/cloud-governance-1.1.91.tar.gz --markdown 20230421/c/cloud-governance/1.1.90-1.1.91/diff.md --exclude *.pyd
+[2023-04-21 23:03:49] INFO root fetch - main [MainThread]: End processing [cudf-cu11]: success
+[2023-04-21 23:03:49] INFO root fetch - main [MainThread]: End processing [dask-cudf-cu11]: success
+[2023-04-21 23:03:49] INFO root fetch - main [MainThread]: End processing [ucx-py-cu11]: success
+[2023-04-21 23:03:49] INFO root fetch - main [MainThread]: End processing [liftcord]: success
+[2023-04-21 23:03:49] INFO root fetch - main [MainThread]: End processing [talkwave]: success
+[2023-04-21 23:03:50] INFO root fetch - main [MainThread]: End processing [ktrain]: success
+[2023-04-21 23:03:51] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-04-21 23:03:52] INFO root fetch - main [MainThread]: End processing [bumble]: success
+[2023-04-21 23:03:52] INFO root fetch - main [MainThread]: Store serial: [17808755]
