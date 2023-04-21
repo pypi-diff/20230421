@@ -16261,3 +16261,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 16:05:20] INFO root fetch - main [MainThread]: End processing [clang-format]: success
 [2023-04-21 16:05:41] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-21 16:05:41] INFO root fetch - main [MainThread]: Store serial: [17804126]
+[2023-04-21 16:10:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17804126]
+[2023-04-21 16:10:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 16:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sherpa-client
+[2023-04-21 16:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-autoreply
+[2023-04-21 16:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-hr-contract-multi-job
+[2023-04-21 16:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: compoundwidgets
+[2023-04-21 16:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discminer
+[2023-04-21 16:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: render50
+[2023-04-21 16:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beit-qubo-solver
+[2023-04-21 16:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: not1mm
+[2023-04-21 16:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdp-client
+[2023-04-21 16:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neo-grammar-graph
+[2023-04-21 16:10:54] INFO root fetch - processPackages [discminer]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 16:10:54] INFO root fetch - processPackages [not1mm]: New version: [23.4.6] Old Version: [23.4.5]
+[2023-04-21 16:10:54] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-04-21 16:10:54] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.4.5.tar.gz tmp/not1mm-23.4.6.tar.gz --markdown 20230421/n/not1mm/23.4.5-23.4.6/diff.md --exclude *.pyd
+[2023-04-21 16:10:54] WARNING root fetch - processPackages [odoo-addon-hr-contract-multi-job]: Skipping, unable to determine old version
+[2023-04-21 16:10:54] INFO root fetch - processPackages [odoo-addon-hr-contract-multi-job]: Start processing: siat
+[2023-04-21 16:10:54] INFO root fetch - processPackages [compoundwidgets]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-21 16:10:54] INFO root fetch - processPackages [nonebot-plugin-autoreply]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-21 16:10:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-contract-multi-job] error
+[2023-04-21 16:10:54] INFO root fetch - processPackages [sherpa-client]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-21 16:10:54] INFO root fetch - processPackages [beit-qubo-solver]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-04-21 16:10:54] INFO root fetch - processPackages [render50]: New version: [9.1.2] Old Version: [9.1.1]
+[2023-04-21 16:10:54] INFO root fetch - processPackages [cdp-client]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-21 16:10:54] INFO root fetch - processPackages [neo-grammar-graph]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-21 16:10:54] INFO root fetch - processPackages [discminer]: executing diffoscope
+[2023-04-21 16:10:54] INFO root fetch - processPackages [discminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discminer-0.2.0.tar.gz tmp/discminer-0.2.1.tar.gz --markdown 20230421/d/discminer/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 16:10:54] INFO root fetch - processPackages [siat]: New version: [1.9.5] Old Version: [1.9.1]
+[2023-04-21 16:10:54] INFO root fetch - processPackages [sherpa-client]: Downloading https://files.pythonhosted.org/packages/0e/01/05464e707db4039201ea27ecee5c24fa01dacc6d5b0602658f54099b437f/sherpa-client-0.9.5.tar.gz
+[2023-04-21 16:10:54] INFO root fetch - processPackages [nonebot-plugin-autoreply]: Downloading https://files.pythonhosted.org/packages/4b/8b/bac75f7bc7dffdc9052aac535e382a8fd3abd9cb097f82c7c53ec3d38e8a/nonebot_plugin_autoreply-0.2.3.tar.gz
+[2023-04-21 16:10:54] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/51/c2/12e9a266c1188f51237fe70db635d1c5fb4a03a7888ba459f30c34d1f610/compoundwidgets-0.2.3.tar.gz
+[2023-04-21 16:10:54] INFO root fetch - processPackages [beit-qubo-solver]: Downloading https://files.pythonhosted.org/packages/6e/a6/f52b0e646b8513c601f8d32b1084eb3cf77cd8b835bb6efdb4fd6ab0924e/beit_qubo_solver-0.1.3-py3-none-any.whl
+[2023-04-21 16:10:54] INFO root fetch - processPackages [cdp-client]: Downloading https://files.pythonhosted.org/packages/95/14/4ec64c2cc6eedf93e3967534bab27da8ba6fc32bb23e0d70cd6e3061aa18/cdp-client-2.0.4.tar.gz
+[2023-04-21 16:10:54] INFO root fetch - processPackages [render50]: Downloading https://files.pythonhosted.org/packages/50/b8/aff1c0374412c222040cb5c762bdbbf1f510182958cb673df1561f067f09/render50-9.1.1.tar.gz
+[2023-04-21 16:10:54] INFO root fetch - processPackages [neo-grammar-graph]: Downloading https://files.pythonhosted.org/packages/f9/65/b6d49ef0d84d3c8617856d395c49a6b83ef4252d852d815eead3c1f9f88e/neo_grammar_graph-0.0.5.tar.gz
+[2023-04-21 16:10:54] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/2c/c6/262b6305622d715f1b8d8e4991d3d89d917662781a0d21f25c1575d28a76/compoundwidgets-0.2.4.tar.gz
+[2023-04-21 16:10:54] INFO root fetch - processPackages [render50]: Downloading https://files.pythonhosted.org/packages/f8/07/0bd5f2f91a67a0c99ed64e3c16756542effaba9a9dd568fbf82dc90b6117/render50-9.1.2.tar.gz
+[2023-04-21 16:10:54] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/37/ca/1eabe16c4aff7953972034daf655eada9ac227032a1de5c24488ebb06945/siat-1.9.5-py3-none-any.whl
+[2023-04-21 16:10:54] INFO root fetch - processPackages [nonebot-plugin-autoreply]: Downloading https://files.pythonhosted.org/packages/eb/cb/76dc8d76406d7d7a92214417e0fc6eaf52eea17ab8274ca8170f88eeed21/nonebot_plugin_autoreply-0.2.4.tar.gz
+[2023-04-21 16:10:54] INFO root fetch - processPackages [beit-qubo-solver]: Downloading https://files.pythonhosted.org/packages/12/2f/f4c981e0ef351ff2c055be202d09570c1e86f1f47932eb579c043848466f/beit_qubo_solver-0.2.0-py3-none-any.whl
+[2023-04-21 16:10:54] INFO root fetch - processPackages [cdp-client]: Downloading https://files.pythonhosted.org/packages/e0/a5/df09415ff1c5cb35cf2bcb5a71c29c0c5f252f3f0d29d733aa6e1a428b32/cdp-client-2.0.5.tar.gz
+[2023-04-21 16:10:54] INFO root fetch - processPackages [neo-grammar-graph]: executing diffoscope
+[2023-04-21 16:10:54] INFO root fetch - processPackages [neo-grammar-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo_grammar_graph-0.0.4.tar.gz tmp/neo_grammar_graph-0.0.5.tar.gz --markdown 20230421/n/neo-grammar-graph/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 16:10:54] INFO root fetch - processPackages [compoundwidgets]: executing diffoscope
+[2023-04-21 16:10:55] INFO root fetch - processPackages [compoundwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compoundwidgets-0.2.3.tar.gz tmp/compoundwidgets-0.2.4.tar.gz --markdown 20230421/c/compoundwidgets/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-21 16:10:55] INFO root fetch - processPackages [render50]: executing diffoscope
+[2023-04-21 16:10:55] INFO root fetch - processPackages [render50]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render50-9.1.1.tar.gz tmp/render50-9.1.2.tar.gz --markdown 20230421/r/render50/9.1.1-9.1.2/diff.md --exclude *.pyd
+[2023-04-21 16:10:55] INFO root fetch - processPackages [nonebot-plugin-autoreply]: executing diffoscope
+[2023-04-21 16:10:55] INFO root fetch - processPackages [nonebot-plugin-autoreply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_autoreply-0.2.3.tar.gz tmp/nonebot_plugin_autoreply-0.2.4.tar.gz --markdown 20230421/n/nonebot-plugin-autoreply/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-21 16:10:55] INFO root fetch - processPackages [cdp-client]: executing diffoscope
+[2023-04-21 16:10:55] INFO root fetch - processPackages [cdp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdp-client-2.0.4.tar.gz tmp/cdp-client-2.0.5.tar.gz --markdown 20230421/c/cdp-client/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-21 16:10:55] INFO root fetch - processPackages [beit-qubo-solver]: executing diffoscope
+[2023-04-21 16:10:55] INFO root fetch - processPackages [beit-qubo-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beit_qubo_solver-0.1.3-py3-none-any.whl.zip tmp/beit_qubo_solver-0.2.0-py3-none-any.whl.zip --markdown 20230421/b/beit-qubo-solver/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 16:10:55] INFO root fetch - processPackages [sherpa-client]: Downloading https://files.pythonhosted.org/packages/b6/02/915b74a45b4bf3ffe43573df89b23953b8bce3cc591bcb560932e7704139/sherpa-client-0.9.6.tar.gz
+[2023-04-21 16:10:55] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-04-21 16:10:55] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-1.9.1-py3-none-any.whl.zip tmp/siat-1.9.5-py3-none-any.whl.zip --markdown 20230421/s/siat/1.9.1-1.9.5/diff.md --exclude *.pyd
+[2023-04-21 16:10:55] INFO root fetch - processPackages [sherpa-client]: executing diffoscope
+[2023-04-21 16:10:55] INFO root fetch - processPackages [sherpa-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa-client-0.9.5.tar.gz tmp/sherpa-client-0.9.6.tar.gz --markdown 20230421/s/sherpa-client/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 16:10:56] INFO root fetch - main [MainThread]: End processing [discminer]: success
+[2023-04-21 16:10:56] INFO root fetch - main [MainThread]: End processing [beit-qubo-solver]: success
+[2023-04-21 16:10:56] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-autoreply]: success
+[2023-04-21 16:10:56] INFO root fetch - main [MainThread]: End processing [render50]: success
+[2023-04-21 16:10:57] INFO root fetch - main [MainThread]: End processing [neo-grammar-graph]: success
+[2023-04-21 16:10:57] INFO root fetch - main [MainThread]: End processing [cdp-client]: success
+[2023-04-21 16:10:57] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-04-21 16:10:57] INFO root fetch - main [MainThread]: End processing [compoundwidgets]: success
+[2023-04-21 16:10:57] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-04-21 16:10:59] INFO root fetch - main [MainThread]: End processing [sherpa-client]: success
+[2023-04-21 16:10:59] INFO root fetch - main [MainThread]: Store serial: [17804196]
