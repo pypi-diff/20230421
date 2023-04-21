@@ -18110,3 +18110,82 @@ EOFError: EOF read where object expected
 [2023-04-21 17:35:46] INFO root fetch - main [MainThread]: End processing [quarchCalibration]: success
 [2023-04-21 17:35:46] INFO root fetch - main [MainThread]: End processing [up-fast-downward]: success
 [2023-04-21 17:35:46] INFO root fetch - main [MainThread]: Store serial: [17805220]
+[2023-04-21 17:40:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805220]
+[2023-04-21 17:40:55] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 17:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypcapkit
+[2023-04-21 17:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wam2layers
+[2023-04-21 17:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oc-ocdm
+[2023-04-21 17:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tasmota-metrics
+[2023-04-21 17:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: baiduspiderCreatedByHanXu
+[2023-04-21 17:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funasr
+[2023-04-21 17:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maxilearn
+[2023-04-21 17:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ultracart-rest-sdk
+[2023-04-21 17:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bioturing-connector
+[2023-04-21 17:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nautobot-device-lifecycle-mgmt
+[2023-04-21 17:40:55] INFO root fetch - processPackages [tasmota-metrics]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-21 17:40:55] INFO root fetch - processPackages [oc-ocdm]: New version: [7.1.9] Old Version: [7.1.8]
+[2023-04-21 17:40:55] INFO root fetch - processPackages [funasr]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-21 17:40:55] INFO root fetch - processPackages [maxilearn]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-04-21 17:40:56] WARNING root fetch - processPackages [baiduspiderCreatedByHanXu]: Skipping, unable to determine old version
+[2023-04-21 17:40:56] INFO root fetch - processPackages [baiduspiderCreatedByHanXu]: Start processing: odoo-models-connect
+[2023-04-21 17:40:56] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-04-21 17:40:56] INFO root fetch - main [MainThread]: End processing [baiduspiderCreatedByHanXu] error
+[2023-04-21 17:40:56] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.4.1.tar.gz tmp/funasr-0.4.2.tar.gz --markdown 20230421/f/funasr/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-21 17:40:56] INFO root fetch - processPackages [wam2layers]: New version: [3.0.0b4] Old Version: [3.0.0b3]
+[2023-04-21 17:40:56] INFO root fetch - processPackages [nautobot-device-lifecycle-mgmt]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-04-21 17:40:56] INFO root fetch - processPackages [oc-ocdm]: executing diffoscope
+[2023-04-21 17:40:56] INFO root fetch - processPackages [oc-ocdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_ocdm-7.1.8.tar.gz tmp/oc_ocdm-7.1.9.tar.gz --markdown 20230421/o/oc-ocdm/7.1.8-7.1.9/diff.md --exclude *.pyd
+[2023-04-21 17:40:56] INFO root fetch - processPackages [bioturing-connector]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-21 17:40:56] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-04-21 17:40:56] INFO root fetch - processPackages [tasmota-metrics]: executing diffoscope
+[2023-04-21 17:40:56] INFO root fetch - processPackages [tasmota-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasmota-metrics-0.3.1.tar.gz tmp/tasmota-metrics-0.3.2.tar.gz --markdown 20230421/t/tasmota-metrics/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-21 17:40:56] INFO root fetch - processPackages [odoo-models-connect]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 17:40:56] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2023-04-21 17:40:56] INFO root fetch - processPackages [maxilearn]: Downloading https://files.pythonhosted.org/packages/ef/82/266f83d9fd7b55cf1331048861e29da9fa431ac2c51e1e73cda819679ec5/maxilearn-0.0.5.tar.gz
+[2023-04-21 17:40:56] INFO root fetch - processPackages [odoo-models-connect]: executing diffoscope
+[2023-04-21 17:40:56] INFO root fetch - processPackages [odoo-models-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_models_connect-0.1.8.tar.gz tmp/odoo_models_connect-0.1.9.tar.gz --markdown 20230421/o/odoo-models-connect/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 17:40:56] INFO root fetch - processPackages [bioturing-connector]: Downloading https://files.pythonhosted.org/packages/6b/67/1eaba73e8ffdbb2333f80db4cbe54b77a5bb7ef8b51bec2229598444159a/bioturing-connector-1.1.1.tar.gz
+[2023-04-21 17:40:56] INFO root fetch - processPackages [wam2layers]: Downloading https://files.pythonhosted.org/packages/53/7d/85c6432ea9ad800af8bfeda1daf766f0ccd58ea8f8bba35627040870d673/wam2layers-3.0.0b3.tar.gz
+[2023-04-21 17:40:56] INFO root fetch - processPackages [nautobot-device-lifecycle-mgmt]: Downloading https://files.pythonhosted.org/packages/bb/cd/093105bbf24ac98ef4f54671573edd9c8c434dd3b521382e8e38634c1e9a/nautobot_device_lifecycle_mgmt-1.1.2.tar.gz
+[2023-04-21 17:40:56] INFO root fetch - processPackages [maxilearn]: executing diffoscope
+[2023-04-21 17:40:56] INFO root fetch - processPackages [maxilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxilearn-0.0.3.tar.gz tmp/maxilearn-0.0.5.tar.gz --markdown 20230421/m/maxilearn/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-04-21 17:40:56] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/f0/e6/c27a142c419dd4ee2afffb3b9af40dcccc43d82f7057ad6ae6ad48dcc79e/pypcapkit-1.0.0b2.tar.gz
+[2023-04-21 17:40:56] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2023-04-21 17:40:56] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20230421/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2023-04-21 17:40:56] INFO root fetch - processPackages [bioturing-connector]: Downloading https://files.pythonhosted.org/packages/1f/79/138fd42d9b5a91fe48ba5358d6d5e3173bc57bb74802067cbb69be8a2b20/bioturing-connector-1.2.0.tar.gz
+[2023-04-21 17:40:56] INFO root fetch - processPackages [wam2layers]: Downloading https://files.pythonhosted.org/packages/45/8e/db475bcfac8813db238999ad4702d39be419b18a76200dc95ef3992d3a22/wam2layers-3.0.0b4.tar.gz
+[2023-04-21 17:40:56] INFO root fetch - processPackages [nautobot-device-lifecycle-mgmt]: Downloading https://files.pythonhosted.org/packages/d2/0f/6031cf5c47e21653733afa2bf74a14f293e0e01a890465a47bf5dce04435/nautobot_device_lifecycle_mgmt-1.2.0.tar.gz
+[2023-04-21 17:40:56] INFO root fetch - processPackages [bioturing-connector]: executing diffoscope
+[2023-04-21 17:40:56] INFO root fetch - processPackages [bioturing-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioturing-connector-1.1.1.tar.gz tmp/bioturing-connector-1.2.0.tar.gz --markdown 20230421/b/bioturing-connector/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-21 17:40:56] INFO root fetch - processPackages [wam2layers]: executing diffoscope
+[2023-04-21 17:40:56] INFO root fetch - processPackages [wam2layers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wam2layers-3.0.0b3.tar.gz tmp/wam2layers-3.0.0b4.tar.gz --markdown 20230421/w/wam2layers/3.0.0b3-3.0.0b4/diff.md --exclude *.pyd
+[2023-04-21 17:40:56] INFO root fetch - processPackages [nautobot-device-lifecycle-mgmt]: executing diffoscope
+[2023-04-21 17:40:56] INFO root fetch - processPackages [nautobot-device-lifecycle-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot_device_lifecycle_mgmt-1.1.2.tar.gz tmp/nautobot_device_lifecycle_mgmt-1.2.0.tar.gz --markdown 20230421/n/nautobot-device-lifecycle-mgmt/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-21 17:40:56] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-04-21 17:40:56] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.0b1.tar.gz tmp/pypcapkit-1.0.0b2.tar.gz --markdown 20230421/p/pypcapkit/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-04-21 17:40:57] INFO root fetch - processPackages [odoo-models-connect]: Start processing: PyMolDesc
+[2023-04-21 17:40:57] INFO root fetch - main [MainThread]: End processing [odoo-models-connect]: success
+[2023-04-21 17:40:57] INFO root fetch - processPackages [tasmota-metrics]: Start processing: crowdcores-node
+[2023-04-21 17:40:57] INFO root fetch - main [MainThread]: End processing [tasmota-metrics]: success
+[2023-04-21 17:40:57] WARNING root fetch - processPackages [PyMolDesc]: Skipping, unable to determine old version
+[2023-04-21 17:40:57] INFO root fetch - processPackages [PyMolDesc]: Start processing: titan-iris
+[2023-04-21 17:40:57] INFO root fetch - main [MainThread]: End processing [PyMolDesc] error
+[2023-04-21 17:40:57] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-04-21 17:40:57] INFO root fetch - processPackages [crowdcores-node]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-21 17:40:58] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-04-21 17:40:58] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230421/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-04-21 17:40:58] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
+[2023-04-21 17:40:58] INFO root fetch - processPackages [crowdcores-node]: Downloading https://files.pythonhosted.org/packages/f7/22/251487c3dc80a47462cd7a9112ccc51aebce64d365eb0f6a779d2137bb27/crowdcores-node-1.1.1.tar.gz
+[2023-04-21 17:40:58] INFO root fetch - main [MainThread]: End processing [oc-ocdm]: success
+[2023-04-21 17:40:58] INFO root fetch - main [MainThread]: End processing [bioturing-connector]: success
+[2023-04-21 17:40:58] INFO root fetch - processPackages [crowdcores-node]: Downloading https://files.pythonhosted.org/packages/b2/32/6e0f7e4529a4d1a30e38a89b8bd95549bc8c74e8ee747ae37a3574c98ed2/crowdcores-node-1.1.2.tar.gz
+[2023-04-21 17:40:58] INFO root fetch - processPackages [crowdcores-node]: executing diffoscope
+[2023-04-21 17:40:58] INFO root fetch - processPackages [crowdcores-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdcores-node-1.1.1.tar.gz tmp/crowdcores-node-1.1.2.tar.gz --markdown 20230421/c/crowdcores-node/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-21 17:40:59] INFO root fetch - main [MainThread]: End processing [nautobot-device-lifecycle-mgmt]: success
+[2023-04-21 17:40:59] INFO root fetch - main [MainThread]: End processing [wam2layers]: success
+[2023-04-21 17:40:59] INFO root fetch - main [MainThread]: End processing [crowdcores-node]: success
+[2023-04-21 17:40:59] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-04-21 17:41:00] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-04-21 17:41:04] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-04-21 17:41:06] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2023-04-21 17:41:06] INFO root fetch - main [MainThread]: Store serial: [17805274]
