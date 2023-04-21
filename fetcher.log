@@ -6239,3 +6239,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 03:41:29] INFO root fetch - main [MainThread]: End processing [petals]: success
 [2023-04-21 03:41:29] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
 [2023-04-21 03:41:29] INFO root fetch - main [MainThread]: Store serial: [17798117]
+[2023-04-21 03:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798117]
+[2023-04-21 03:46:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 03:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive
+[2023-04-21 03:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: distributed-transcoder-common
+[2023-04-21 03:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-django
+[2023-04-21 03:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-keycloak
+[2023-04-21 03:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PRauto
+[2023-04-21 03:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proactive-jupyter-kernel
+[2023-04-21 03:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-apl
+[2023-04-21 03:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: realnet
+[2023-04-21 03:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: notion-api
+[2023-04-21 03:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rubpy
+[2023-04-21 03:46:38] INFO root fetch - processPackages [PRauto]: New version: [0.124] Old Version: [0.123]
+[2023-04-21 03:46:38] INFO root fetch - processPackages [realnet]: New version: [0.0.9] Old Version: [0.0.88]
+[2023-04-21 03:46:38] INFO root fetch - processPackages [distributed-transcoder-common]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 03:46:38] INFO root fetch - processPackages [cdk-keycloak]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-04-21 03:46:38] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-04-21 03:46:38] INFO root fetch - processPackages [notion-api]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-21 03:46:38] INFO root fetch - processPackages [rubpy]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-04-21 03:46:38] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-04-21 03:46:38] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 03:46:38] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.726] Old Version: [0.0.725]
+[2023-04-21 03:46:38] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-04-21 03:46:38] INFO root fetch - processPackages [distributed-transcoder-common]: executing diffoscope
+[2023-04-21 03:46:38] INFO root fetch - processPackages [distributed-transcoder-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distributed-transcoder-common-0.2.8.tar.gz tmp/distributed_transcoder_common-0.2.9.tar.gz --markdown 20230421/d/distributed-transcoder-common/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 03:46:38] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/db/85/4316f1f59e1be5010890de879402a9825f05289c3c7987467e87eefa8e5c/realnet-0.0.88.tar.gz
+[2023-04-21 03:46:38] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-21 03:46:38] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230421/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 03:46:38] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-04-21 03:46:38] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230421/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-04-21 03:46:38] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/84/81/768fc41c1b3e248994d1bb6203f007790f85b49c9bf548697e6ddbb3b9fb/PRauto-0.124.tar.gz
+[2023-04-21 03:46:38] INFO root fetch - processPackages [cdk-keycloak]: Downloading https://files.pythonhosted.org/packages/74/2a/6c2bfe7361b17452834dbd34ffc073b68a73f1cdd93c82233f60ad479433/cdk-keycloak-2.7.0.tar.gz
+[2023-04-21 03:46:38] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/a0/a7/d08dd5d2b061a5192acb19e039d0243ac1bf5b69d233de2a55920322a2c8/nbdev-apl-0.0.726.tar.gz
+[2023-04-21 03:46:38] INFO root fetch - processPackages [notion-api]: Downloading https://files.pythonhosted.org/packages/37/8e/74e8bc54423a65428b8bbbd2359330e3fc2e98279132efe5ad9126a7c329/notion_api-0.4.2.tar.gz
+[2023-04-21 03:46:38] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/40/88/1fb175262fa4c4428b5c771d349be87194fda3f699a3b1eab03317445374/rubpy-6.0.4.tar.gz
+[2023-04-21 03:46:38] INFO root fetch - processPackages [PRauto]: executing diffoscope
+[2023-04-21 03:46:38] INFO root fetch - processPackages [PRauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PRauto-0.123.tar.gz tmp/PRauto-0.124.tar.gz --markdown 20230421/P/PRauto/0.123-0.124/diff.md --exclude *.pyd
+[2023-04-21 03:46:38] INFO root fetch - processPackages [cdk-keycloak]: Downloading https://files.pythonhosted.org/packages/fd/6c/6a76b14652c8fc21de4c53c3ae939b6e484c1f4cdc3969124a876cd9d060/cdk-keycloak-2.7.1.tar.gz
+[2023-04-21 03:46:38] INFO root fetch - processPackages [notion-api]: executing diffoscope
+[2023-04-21 03:46:38] INFO root fetch - processPackages [notion-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion_api-0.4.1.tar.gz tmp/notion_api-0.4.2.tar.gz --markdown 20230421/n/notion-api/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-21 03:46:38] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-21 03:46:38] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.725.tar.gz tmp/nbdev-apl-0.0.726.tar.gz --markdown 20230421/n/nbdev-apl/0.0.725-0.0.726/diff.md --exclude *.pyd
+[2023-04-21 03:46:38] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2023-04-21 03:46:38] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-6.0.3.tar.gz tmp/rubpy-6.0.4.tar.gz --markdown 20230421/r/rubpy/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-04-21 03:46:39] INFO root fetch - processPackages [cdk-keycloak]: executing diffoscope
+[2023-04-21 03:46:39] INFO root fetch - processPackages [cdk-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-keycloak-2.7.0.tar.gz tmp/cdk-keycloak-2.7.1.tar.gz --markdown 20230421/c/cdk-keycloak/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-04-21 03:46:39] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-04-21 03:46:39] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.88.tar.gz tmp/realnet-0.0.9.tar.gz --markdown 20230421/r/realnet/0.0.88-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 03:46:39] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-04-21 03:46:39] INFO root fetch - processPackages [proactive]: Start processing: factorslib
+[2023-04-21 03:46:39] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-04-21 03:46:39] INFO root fetch - processPackages [factorslib]: New version: [2.0] Old Version: [1.0]
+[2023-04-21 03:46:39] INFO root fetch - processPackages [factorslib]: Downloading https://files.pythonhosted.org/packages/17/2a/7f4330711dbbb87b695e08a080f942d7c7623abab48fe170a96f16b8cfe1/factorslib-1.0.tar.gz
+[2023-04-21 03:46:39] INFO root fetch - processPackages [factorslib]: Downloading https://files.pythonhosted.org/packages/5d/29/d9f70a54f031308f18e7cd217fa47a8ea9ce7619ba5b1bf389033c87d675/factorslib-2.0.tar.gz
+[2023-04-21 03:46:39] INFO root fetch - processPackages [distributed-transcoder-common]: Start processing: symdexer
+[2023-04-21 03:46:39] INFO root fetch - main [MainThread]: End processing [distributed-transcoder-common]: success
+[2023-04-21 03:46:39] INFO root fetch - processPackages [symdexer]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 03:46:39] INFO root fetch - processPackages [factorslib]: executing diffoscope
+[2023-04-21 03:46:39] INFO root fetch - processPackages [factorslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorslib-1.0.tar.gz tmp/factorslib-2.0.tar.gz --markdown 20230421/f/factorslib/1.0-2.0/diff.md --exclude *.pyd
+[2023-04-21 03:46:39] INFO root fetch - processPackages [nbdev-django]: Start processing: distributed-transcoder-common
+[2023-04-21 03:46:39] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-21 03:46:40] INFO root fetch - processPackages [distributed-transcoder-common]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 03:46:40] INFO root fetch - processPackages [symdexer]: Downloading https://files.pythonhosted.org/packages/c8/c7/2b7323eda11dc1ea50e96636d89b75c284c130c9c23c3d2d30e5e567b6e0/symdexer-0.2.8.tar.gz
+[2023-04-21 03:46:40] INFO root fetch - processPackages [distributed-transcoder-common]: executing diffoscope
+[2023-04-21 03:46:40] INFO root fetch - processPackages [distributed-transcoder-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distributed-transcoder-common-0.2.8.tar.gz tmp/distributed_transcoder_common-0.2.9.tar.gz --markdown 20230421/d/distributed-transcoder-common/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 03:46:40] INFO root fetch - processPackages [symdexer]: executing diffoscope
+[2023-04-21 03:46:40] INFO root fetch - processPackages [symdexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symdexer-0.2.7.tar.gz tmp/symdexer-0.2.8.tar.gz --markdown 20230421/s/symdexer/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 03:46:40] INFO root fetch - processPackages [PRauto]: Start processing: dedscumulus
+[2023-04-21 03:46:40] INFO root fetch - main [MainThread]: End processing [PRauto]: success
+[2023-04-21 03:46:40] INFO root fetch - processPackages [dedscumulus]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-21 03:46:40] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-04-21 03:46:40] INFO root fetch - processPackages [dedscumulus]: executing diffoscope
+[2023-04-21 03:46:40] INFO root fetch - processPackages [dedscumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dedscumulus-0.0.1.tar.gz tmp/dedscumulus-0.0.3.tar.gz --markdown 20230421/d/dedscumulus/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 03:46:40] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-21 03:46:40] INFO root fetch - main [MainThread]: End processing [notion-api]: success
+[2023-04-21 03:46:41] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2023-04-21 03:46:41] INFO root fetch - main [MainThread]: End processing [cdk-keycloak]: success
+[2023-04-21 03:46:41] INFO root fetch - main [MainThread]: End processing [factorslib]: success
+[2023-04-21 03:46:41] INFO root fetch - main [MainThread]: End processing [distributed-transcoder-common]: success
+[2023-04-21 03:46:41] INFO root fetch - main [MainThread]: End processing [symdexer]: success
+[2023-04-21 03:46:42] INFO root fetch - main [MainThread]: End processing [dedscumulus]: success
+[2023-04-21 03:46:42] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-04-21 03:46:42] INFO root fetch - main [MainThread]: Store serial: [17798157]
