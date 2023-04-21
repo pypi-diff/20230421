@@ -17518,3 +17518,66 @@ EOFError: EOF read where object expected
 [2023-04-21 16:57:29] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-04-21 16:57:29] INFO root fetch - main [MainThread]: End processing [PyCondorRaven]: success
 [2023-04-21 16:57:29] INFO root fetch - main [MainThread]: Store serial: [17804899]
+[2023-04-21 17:02:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17804899]
+[2023-04-21 17:02:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-21 17:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testgear-adapter-behave
+[2023-04-21 17:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-poe-chat
+[2023-04-21 17:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gefyra
+[2023-04-21 17:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docarray
+[2023-04-21 17:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-diode
+[2023-04-21 17:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cjdb
+[2023-04-21 17:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flow-pilot
+[2023-04-21 17:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-partner-risk-insurance
+[2023-04-21 17:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kaiju-auth
+[2023-04-21 17:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nextcloudtalkbot
+[2023-04-21 17:02:40] WARNING root fetch - processPackages [nonebot-poe-chat]: Skipping, unable to determine old version
+[2023-04-21 17:02:40] INFO root fetch - main [MainThread]: End processing [nonebot-poe-chat] error
+[2023-04-21 17:02:40] INFO root fetch - processPackages [nextcloudtalkbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 17:02:40] INFO root fetch - processPackages [flow-pilot]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-21 17:02:40] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-21 17:02:40] INFO root fetch - processPackages [data-diode]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 17:02:40] INFO root fetch - processPackages [nextcloudtalkbot]: executing diffoscope
+[2023-04-21 17:02:40] INFO root fetch - processPackages [nextcloudtalkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcloudtalkbot-0.0.8.tar.gz tmp/nextcloudtalkbot-0.0.9.tar.gz --markdown 20230421/n/nextcloudtalkbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 17:02:40] INFO root fetch - processPackages [gefyra]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-21 17:02:40] INFO root fetch - processPackages [testgear-adapter-behave]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-04-21 17:02:40] INFO root fetch - processPackages [odoo-addon-partner-risk-insurance]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1.1]
+[2023-04-21 17:02:40] INFO root fetch - processPackages [cjdb]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-21 17:02:40] INFO root fetch - processPackages [kaiju-auth]: New version: [2.0.15] Old Version: [2.0.14]
+[2023-04-21 17:02:40] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-21 17:02:40] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230421/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-21 17:02:40] INFO root fetch - processPackages [flow-pilot]: Downloading https://files.pythonhosted.org/packages/b5/d7/17dd40ec7259d9aefd33305814c84cc158c36a5ed0c2a5814fba34dd81bb/flow_pilot-0.1.7.tar.gz
+[2023-04-21 17:02:40] INFO root fetch - processPackages [data-diode]: Downloading https://files.pythonhosted.org/packages/95/89/94af741c1699aabba6ac38e6f789b989d85d690b2c2c3832fcea68a55210/data-diode-0.0.1.tar.gz
+[2023-04-21 17:02:40] INFO root fetch - processPackages [gefyra]: Downloading https://files.pythonhosted.org/packages/0f/10/735bec373ab91cd964d5463b069629f202ee00343402865629e107ad9bfe/gefyra-1.0.4.tar.gz
+[2023-04-21 17:02:40] INFO root fetch - processPackages [odoo-addon-partner-risk-insurance]: Downloading https://files.pythonhosted.org/packages/e6/c3/e6a56381bcbc485b4f81d0b5dae901799c7a1ec5a7e4f14ac1921b1c8a01/odoo_addon_partner_risk_insurance-15.0.1.0.1.1-py3-none-any.whl
+[2023-04-21 17:02:40] INFO root fetch - processPackages [cjdb]: Downloading https://files.pythonhosted.org/packages/e2/fa/f64eff57b46f435e2fa08be7bc8c4ab28f254eea4cf7a2a0c065f373b848/cjdb-1.1.0.tar.gz
+[2023-04-21 17:02:40] INFO root fetch - processPackages [testgear-adapter-behave]: Downloading https://files.pythonhosted.org/packages/ef/6d/16d595f1d391ea1b66a8065157272667033c0c66cfa45352a547b812fe29/testgear-adapter-behave-2.1.1.tar.gz
+[2023-04-21 17:02:40] INFO root fetch - processPackages [flow-pilot]: executing diffoscope
+[2023-04-21 17:02:40] INFO root fetch - processPackages [flow-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow_pilot-0.1.6.tar.gz tmp/flow_pilot-0.1.7.tar.gz --markdown 20230421/f/flow-pilot/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-21 17:02:40] INFO root fetch - processPackages [kaiju-auth]: Downloading https://files.pythonhosted.org/packages/d4/98/38c7cc794ceca1891657244a47501b481a4fbcbf9d5079e5da45fe12d546/kaiju_auth-2.0.15-py3-none-any.whl
+[2023-04-21 17:02:40] INFO root fetch - processPackages [data-diode]: Downloading https://files.pythonhosted.org/packages/ff/ae/45505b307f7ef8d515446f319a82bd4af216390dd9948551a288aee0f6d2/data-diode-0.0.2.tar.gz
+[2023-04-21 17:02:40] INFO root fetch - processPackages [gefyra]: Downloading https://files.pythonhosted.org/packages/f5/6d/cc88ecb1d41566070fbadd5757b13c035399234797c5c3b4a36d0a1b1ab5/gefyra-1.0.5.tar.gz
+[2023-04-21 17:02:40] INFO root fetch - processPackages [odoo-addon-partner-risk-insurance]: Downloading https://files.pythonhosted.org/packages/79/66/6b070ac8bd20a326ac93a4599af25000dcb091419d98d680590d8052f555/odoo_addon_partner_risk_insurance-15.0.1.0.2-py3-none-any.whl
+[2023-04-21 17:02:40] INFO root fetch - processPackages [cjdb]: Downloading https://files.pythonhosted.org/packages/af/bf/91dcdd70a69a5e60469453d6cd372782d4fc1a8d3ff49aa71680d0f0350a/cjdb-1.2.0.tar.gz
+[2023-04-21 17:02:40] INFO root fetch - processPackages [kaiju-auth]: executing diffoscope
+[2023-04-21 17:02:40] INFO root fetch - processPackages [kaiju-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_auth-2.0.14-py3-none-any.whl.zip tmp/kaiju_auth-2.0.15-py3-none-any.whl.zip --markdown 20230421/k/kaiju-auth/2.0.14-2.0.15/diff.md --exclude *.pyd
+[2023-04-21 17:02:40] INFO root fetch - processPackages [testgear-adapter-behave]: Downloading https://files.pythonhosted.org/packages/a1/53/6bfb1a09829a12b276bb17498bcc985a5682c4a3c148c4eb922472d8663e/testgear-adapter-behave-2.1.2.tar.gz
+[2023-04-21 17:02:40] INFO root fetch - processPackages [data-diode]: executing diffoscope
+[2023-04-21 17:02:40] INFO root fetch - processPackages [data-diode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-diode-0.0.1.tar.gz tmp/data-diode-0.0.2.tar.gz --markdown 20230421/d/data-diode/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 17:02:40] INFO root fetch - processPackages [odoo-addon-partner-risk-insurance]: executing diffoscope
+[2023-04-21 17:02:40] INFO root fetch - processPackages [odoo-addon-partner-risk-insurance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_risk_insurance-15.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_partner_risk_insurance-15.0.1.0.2-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-partner-risk-insurance/15.0.1.0.1.1-15.0.1.0.2/diff.md --exclude *.pyd
+[2023-04-21 17:02:40] INFO root fetch - processPackages [gefyra]: executing diffoscope
+[2023-04-21 17:02:40] INFO root fetch - processPackages [gefyra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gefyra-1.0.4.tar.gz tmp/gefyra-1.0.5.tar.gz --markdown 20230421/g/gefyra/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-21 17:02:41] INFO root fetch - processPackages [cjdb]: executing diffoscope
+[2023-04-21 17:02:41] INFO root fetch - processPackages [cjdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjdb-1.1.0.tar.gz tmp/cjdb-1.2.0.tar.gz --markdown 20230421/c/cjdb/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-21 17:02:41] INFO root fetch - processPackages [testgear-adapter-behave]: executing diffoscope
+[2023-04-21 17:02:41] INFO root fetch - processPackages [testgear-adapter-behave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testgear-adapter-behave-2.1.1.tar.gz tmp/testgear-adapter-behave-2.1.2.tar.gz --markdown 20230421/t/testgear-adapter-behave/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-04-21 17:02:41] INFO root fetch - main [MainThread]: End processing [flow-pilot]: success
+[2023-04-21 17:02:42] INFO root fetch - main [MainThread]: End processing [kaiju-auth]: success
+[2023-04-21 17:02:42] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-21 17:02:42] INFO root fetch - main [MainThread]: End processing [data-diode]: success
+[2023-04-21 17:02:42] INFO root fetch - main [MainThread]: End processing [gefyra]: success
+[2023-04-21 17:02:42] INFO root fetch - main [MainThread]: End processing [cjdb]: success
+[2023-04-21 17:02:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-risk-insurance]: success
+[2023-04-21 17:02:42] INFO root fetch - main [MainThread]: End processing [testgear-adapter-behave]: success
+[2023-04-21 17:02:45] INFO root fetch - main [MainThread]: End processing [nextcloudtalkbot]: success
+[2023-04-21 17:02:45] INFO root fetch - main [MainThread]: Store serial: [17804928]
