@@ -21105,3 +21105,67 @@ EOFError: EOF read where object expected
 [2023-04-21 20:50:44] INFO root fetch - main [MainThread]: End processing [markit-realsense-recorder]: success
 [2023-04-21 20:50:48] INFO root fetch - main [MainThread]: End processing [itk-ultrasound]: success
 [2023-04-21 20:50:48] INFO root fetch - main [MainThread]: Store serial: [17807331]
+[2023-04-21 20:55:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807331]
+[2023-04-21 20:55:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-21 20:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: td-ml-autosegmentation
+[2023-04-21 20:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstructured
+[2023-04-21 20:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ciphers-codes
+[2023-04-21 20:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-sql-to-sqlite
+[2023-04-21 20:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasette-sqlite-vss
+[2023-04-21 20:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-vss
+[2023-04-21 20:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prodia-python
+[2023-04-21 20:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openmsistream
+[2023-04-21 20:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: terrario
+[2023-04-21 20:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cpppackage3
+[2023-04-21 20:55:57] INFO root fetch - processPackages [sqlite-vss]: New version: [0.0.4a6] Old Version: [0.0.4a5]
+[2023-04-21 20:55:57] WARNING root fetch - processPackages [ciphers-codes]: Skipping, unable to determine old version
+[2023-04-21 20:55:57] INFO root fetch - processPackages [ciphers-codes]: Start processing: djangorestframework-simple-apikey
+[2023-04-21 20:55:57] INFO root fetch - main [MainThread]: End processing [ciphers-codes] error
+[2023-04-21 20:55:57] INFO root fetch - processPackages [td-ml-autosegmentation]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 20:55:57] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.0.4a6] Old Version: [0.0.4a5]
+[2023-04-21 20:55:57] INFO root fetch - processPackages [spark-sql-to-sqlite]: New version: [0.3] Old Version: [0.2]
+[2023-04-21 20:55:57] INFO root fetch - processPackages [unstructured]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-21 20:55:57] INFO root fetch - processPackages [prodia-python]: New version: [1.1] Old Version: [1.0]
+[2023-04-21 20:55:57] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 20:55:57] WARNING root fetch - processPackages [cpppackage3]: Skipping, unable to determine old version
+[2023-04-21 20:55:57] INFO root fetch - processPackages [openmsistream]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-21 20:55:57] INFO root fetch - main [MainThread]: End processing [cpppackage3] error
+[2023-04-21 20:55:57] INFO root fetch - processPackages [djangorestframework-simple-apikey]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 20:55:57] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 20:55:57] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 20:55:57] INFO root fetch - processPackages [spark-sql-to-sqlite]: Downloading https://files.pythonhosted.org/packages/df/34/e79942bf7aa76afaaef4fe5cae12bc185ce0d78cb4957e460d5fd0325b7b/spark_sql_to_sqlite-0.2.tar.gz
+[2023-04-21 20:55:57] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/e3/ed/b351d135da65fcfad8caa0562afc3780d3ea3415986a5ae6925c54a9f341/sqlite_vss-0.0.4a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-04-21 20:55:57] INFO root fetch - processPackages [prodia-python]: Downloading https://files.pythonhosted.org/packages/ae/ca/1401b72ea578527180ca6f5871bbff84b3cd0cc995c058a4b7aa50ac5298/prodia-python-1.0.tar.gz
+[2023-04-21 20:55:57] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/7d/8c/415b9f965f1aaca8586d8e1b89a9515e7378d2eecfe4fa59023242982945/datasette_sqlite_vss-0.0.4a6-py3-none-any.whl
+[2023-04-21 20:55:57] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/46/41/68652f712a8d86a20d72a031539f7b9d6383b30ac418d2ade1b09bf300f0/unstructured-0.6.1.tar.gz
+[2023-04-21 20:55:57] INFO root fetch - processPackages [openmsistream]: Downloading https://files.pythonhosted.org/packages/4e/a5/8ef162e00dbf17996c51061f4941d8d8ec91450814fc950150f758503074/openmsistream-1.3.4.tar.gz
+[2023-04-21 20:55:57] INFO root fetch - processPackages [openmsistream]: executing diffoscope
+[2023-04-21 20:55:57] INFO root fetch - processPackages [openmsistream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmsistream-1.3.3.tar.gz tmp/openmsistream-1.3.4.tar.gz --markdown 20230421/o/openmsistream/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-21 20:55:57] INFO root fetch - processPackages [djangorestframework-simple-apikey]: Downloading https://files.pythonhosted.org/packages/4c/08/be854760024c96354f8da88c86a14df2fff96e9756b204468dba4359c9f2/djangorestframework-simple-apikey-0.1.1.tar.gz
+[2023-04-21 20:55:57] INFO root fetch - processPackages [td-ml-autosegmentation]: executing diffoscope
+[2023-04-21 20:55:57] INFO root fetch - processPackages [td-ml-autosegmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/td_ml_autosegmentation-1.0.8.tar.gz tmp/td_ml_autosegmentation-1.0.9.tar.gz --markdown 20230421/t/td-ml-autosegmentation/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 20:55:58] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-04-21 20:55:58] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.0.4a5-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.0.4a6-py3-none-any.whl.zip --markdown 20230421/d/datasette-sqlite-vss/0.0.4a5-0.0.4a6/diff.md --exclude *.pyd
+[2023-04-21 20:55:58] INFO root fetch - processPackages [prodia-python]: Downloading https://files.pythonhosted.org/packages/06/88/c18368d54dc1890979ed7711eaa0d49752e100f240be945d0e7c11d72c66/prodia-python-1.1.tar.gz
+[2023-04-21 20:55:58] INFO root fetch - processPackages [prodia-python]: executing diffoscope
+[2023-04-21 20:55:58] INFO root fetch - processPackages [prodia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodia-python-1.0.tar.gz tmp/prodia-python-1.1.tar.gz --markdown 20230421/p/prodia-python/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-21 20:55:58] INFO root fetch - processPackages [spark-sql-to-sqlite]: Downloading https://files.pythonhosted.org/packages/7a/89/b0b8cf1f89d30ab6780a5e27edfdd5496f5b45aaf8ba8e95e208b4b1fcc8/spark_sql_to_sqlite-0.3.tar.gz
+[2023-04-21 20:55:58] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-04-21 20:55:58] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.0.4a5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.0.4a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230421/s/sqlite-vss/0.0.4a5-0.0.4a6/diff.md --exclude *.pyd
+[2023-04-21 20:55:58] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-04-21 20:55:58] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.6.0.tar.gz tmp/unstructured-0.6.1.tar.gz --markdown 20230421/u/unstructured/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-21 20:55:58] INFO root fetch - processPackages [spark-sql-to-sqlite]: executing diffoscope
+[2023-04-21 20:55:58] INFO root fetch - processPackages [spark-sql-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sql_to_sqlite-0.2.tar.gz tmp/spark_sql_to_sqlite-0.3.tar.gz --markdown 20230421/s/spark-sql-to-sqlite/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-21 20:55:58] INFO root fetch - processPackages [djangorestframework-simple-apikey]: Downloading https://files.pythonhosted.org/packages/39/e7/5be11839bd985f88b88a025ff03ea6df38bae0e01b2e2e7c3035a8685ab8/djangorestframework-simple-apikey-0.1.2.tar.gz
+[2023-04-21 20:55:58] INFO root fetch - processPackages [djangorestframework-simple-apikey]: executing diffoscope
+[2023-04-21 20:55:58] INFO root fetch - processPackages [djangorestframework-simple-apikey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-simple-apikey-0.1.1.tar.gz tmp/djangorestframework-simple-apikey-0.1.2.tar.gz --markdown 20230421/d/djangorestframework-simple-apikey/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 20:55:59] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-04-21 20:55:59] INFO root fetch - main [MainThread]: End processing [td-ml-autosegmentation]: success
+[2023-04-21 20:55:59] INFO root fetch - main [MainThread]: End processing [prodia-python]: success
+[2023-04-21 20:56:00] INFO root fetch - main [MainThread]: End processing [openmsistream]: success
+[2023-04-21 20:56:00] INFO root fetch - main [MainThread]: End processing [spark-sql-to-sqlite]: success
+[2023-04-21 20:56:00] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 20:56:00] INFO root fetch - main [MainThread]: End processing [djangorestframework-simple-apikey]: success
+[2023-04-21 20:56:01] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-04-21 20:56:37] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-04-21 20:56:37] INFO root fetch - main [MainThread]: Store serial: [17807367]
