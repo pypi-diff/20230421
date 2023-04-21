@@ -7408,3 +7408,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 05:46:56] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230421/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
 [2023-04-21 05:48:14] INFO root fetch - main [MainThread]: End processing [envd]: success
 [2023-04-21 05:48:14] INFO root fetch - main [MainThread]: Store serial: [17798785]
+[2023-04-21 05:53:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798785]
+[2023-04-21 05:53:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 05:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: futhark-ffi
+[2023-04-21 05:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dea-tools
+[2023-04-21 05:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbase
+[2023-04-21 05:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selenium-base
+[2023-04-21 05:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-ecd20200930-py2
+[2023-04-21 05:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-seleniumbase
+[2023-04-21 05:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-ecd20200930
+[2023-04-21 05:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-sbase
+[2023-04-21 05:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ats-case
+[2023-04-21 05:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: file-io
+[2023-04-21 05:53:37] INFO root fetch - processPackages [futhark-ffi]: New version: [0.6.1b2] Old Version: [0.6.1b1]
+[2023-04-21 05:53:37] INFO root fetch - processPackages [alibabacloud-ecd20200930]: New version: [2.0.7] Old Version: [2.0.15]
+[2023-04-21 05:53:37] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: New version: [2.0.7] Old Version: [2.0.14]
+[2023-04-21 05:53:37] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-21 05:53:37] INFO root fetch - processPackages [ats-case]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-21 05:53:37] INFO root fetch - processPackages [file-io]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-21 05:53:37] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-21 05:53:37] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-21 05:53:37] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-21 05:53:37] INFO root fetch - processPackages [futhark-ffi]: Downloading https://files.pythonhosted.org/packages/a1/f1/c87d0653ae161e00bfd39d60d61fa6ca750bfac229fedf8a43f76fbfcfdf/futhark_ffi-0.6.1b1.tar.gz
+[2023-04-21 05:53:37] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: Downloading https://files.pythonhosted.org/packages/10/7a/de80782eecc8d4d46d6c78fe827e685017de54f7f8fdb7a35c8c1b194635/alibabacloud_ecd20200930_py2-2.0.14.tar.gz
+[2023-04-21 05:53:37] INFO root fetch - processPackages [alibabacloud-ecd20200930]: Downloading https://files.pythonhosted.org/packages/0d/74/e20fd9e323d313cdf142ba80b0985224e957b87ff9c1e4b16afb4716a715/alibabacloud_ecd20200930-2.0.15.tar.gz
+[2023-04-21 05:53:37] INFO root fetch - processPackages [file-io]: Downloading https://files.pythonhosted.org/packages/59/c1/689b90a6d66afe1d567fdb496b7888e2831d307e176b8d169266784ed995/file-io-0.4.5.tar.gz
+[2023-04-21 05:53:37] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/dd/a5/420802e89005d784f1adc7607be365df9f7dc923cadeca04acbccf0efed1/ats_case-0.5.2.tar.gz
+[2023-04-21 05:53:37] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev9] Old Version: [0.2.8.dev8]
+[2023-04-21 05:53:37] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-04-21 05:53:37] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.5.1.tar.gz tmp/ats_case-0.5.2.tar.gz --markdown 20230421/a/ats-case/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-21 05:53:37] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-04-21 05:53:37] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230421/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-21 05:53:37] INFO root fetch - processPackages [futhark-ffi]: Downloading https://files.pythonhosted.org/packages/4e/1f/777c4572d70c94b05b9eccc78043822868d95fe504c1c22d8930f71ffa27/futhark_ffi-0.6.1b2.tar.gz
+[2023-04-21 05:53:37] INFO root fetch - processPackages [file-io]: Downloading https://files.pythonhosted.org/packages/50/0e/6c81ff70899da8c46bbef047d59bcef6dfe6d18aa7b5bbc0e5d77ed3d96c/file-io-0.4.6.tar.gz
+[2023-04-21 05:53:37] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-04-21 05:53:37] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230421/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-21 05:53:37] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-04-21 05:53:37] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230421/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-21 05:53:37] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-04-21 05:53:37] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev8.tar.gz tmp/dea-tools-0.2.8.dev9.tar.gz --markdown 20230421/d/dea-tools/0.2.8.dev8-0.2.8.dev9/diff.md --exclude *.pyd
+[2023-04-21 05:53:37] INFO root fetch - processPackages [alibabacloud-ecd20200930]: Downloading https://files.pythonhosted.org/packages/a5/19/52b22502aa2057b16cba160b800f096bc7a4f1baedbc1c8b3d7921e09597/alibabacloud_ecd20200930-2.0.7.tar.gz
+[2023-04-21 05:53:37] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: Downloading https://files.pythonhosted.org/packages/bd/0f/a90880b0c073d63b5d44ef234bb8fb357bf112d9d87b1b584d57e572418b/alibabacloud_ecd20200930_py2-2.0.7.tar.gz
+[2023-04-21 05:53:37] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-04-21 05:53:37] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230421/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-21 05:53:37] INFO root fetch - processPackages [futhark-ffi]: executing diffoscope
+[2023-04-21 05:53:37] INFO root fetch - processPackages [futhark-ffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/futhark_ffi-0.6.1b1.tar.gz tmp/futhark_ffi-0.6.1b2.tar.gz --markdown 20230421/f/futhark-ffi/0.6.1b1-0.6.1b2/diff.md --exclude *.pyd
+[2023-04-21 05:53:37] INFO root fetch - processPackages [file-io]: executing diffoscope
+[2023-04-21 05:53:37] INFO root fetch - processPackages [file-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-io-0.4.5.tar.gz tmp/file-io-0.4.6.tar.gz --markdown 20230421/f/file-io/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-21 05:53:37] INFO root fetch - processPackages [alibabacloud-ecd20200930]: executing diffoscope
+[2023-04-21 05:53:37] INFO root fetch - processPackages [alibabacloud-ecd20200930]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecd20200930-2.0.15.tar.gz tmp/alibabacloud_ecd20200930-2.0.7.tar.gz --markdown 20230421/a/alibabacloud-ecd20200930/2.0.15-2.0.7/diff.md --exclude *.pyd
+[2023-04-21 05:53:37] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: executing diffoscope
+[2023-04-21 05:53:37] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecd20200930_py2-2.0.14.tar.gz tmp/alibabacloud_ecd20200930_py2-2.0.7.tar.gz --markdown 20230421/a/alibabacloud-ecd20200930-py2/2.0.14-2.0.7/diff.md --exclude *.pyd
+[2023-04-21 05:53:38] INFO root fetch - processPackages [ats-case]: Start processing: tacv
+[2023-04-21 05:53:38] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-04-21 05:53:39] INFO root fetch - processPackages [tacv]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-21 05:53:39] INFO root fetch - processPackages [sbase]: Start processing: terminalpackagehamderber
+[2023-04-21 05:53:39] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-04-21 05:53:39] INFO root fetch - processPackages [terminalpackagehamderber]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 05:53:39] INFO root fetch - processPackages [tacv]: Downloading https://files.pythonhosted.org/packages/ca/fe/a17b0a673d11ae9c496a635246e6d994ee2d8a05800a5cba02fe306c5b35/tacv-1.1.4.tar.gz
+[2023-04-21 05:53:39] INFO root fetch - processPackages [pytest-sbase]: Start processing: muradmymodule
+[2023-04-21 05:53:39] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-04-21 05:53:39] INFO root fetch - processPackages [terminalpackagehamderber]: Downloading https://files.pythonhosted.org/packages/66/7a/82d899c90e284ef42417155a7e07c8541accb937ba9117de61e580f28af8/terminalpackagehamderber-0.0.7.tar.gz
+[2023-04-21 05:53:39] WARNING root fetch - processPackages [muradmymodule]: Skipping, unable to determine old version
+[2023-04-21 05:53:39] INFO root fetch - processPackages [muradmymodule]: Start processing: lsptrain
+[2023-04-21 05:53:39] INFO root fetch - main [MainThread]: End processing [muradmymodule] error
+[2023-04-21 05:53:39] INFO root fetch - processPackages [lsptrain]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-04-21 05:53:39] INFO root fetch - processPackages [tacv]: Downloading https://files.pythonhosted.org/packages/6f/75/0a8495cb1a9031bbee0c930cb09a062a8b5bd91c18eef09ec30b04b4e6fe/tacv-1.1.5.tar.gz
+[2023-04-21 05:53:39] INFO root fetch - main [MainThread]: End processing [futhark-ffi]: success
+[2023-04-21 05:53:39] INFO root fetch - processPackages [terminalpackagehamderber]: Downloading https://files.pythonhosted.org/packages/84/e8/85c8d468a0b30169683ad0f12335d55ed4c9179087b8ec0135b710cd7f3f/terminalpackagehamderber-0.0.8.tar.gz
+[2023-04-21 05:53:39] INFO root fetch - processPackages [tacv]: executing diffoscope
+[2023-04-21 05:53:39] INFO root fetch - processPackages [tacv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tacv-1.1.4.tar.gz tmp/tacv-1.1.5.tar.gz --markdown 20230421/t/tacv/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-21 05:53:39] INFO root fetch - processPackages [lsptrain]: Downloading https://files.pythonhosted.org/packages/35/55/1685eaf868312c9e05fa50e352c4e0aeb50b533e3cba140d3806292f1e3f/lsptrain-0.0.44.tar.gz
+[2023-04-21 05:53:39] INFO root fetch - processPackages [terminalpackagehamderber]: executing diffoscope
+[2023-04-21 05:53:39] INFO root fetch - processPackages [terminalpackagehamderber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminalpackagehamderber-0.0.7.tar.gz tmp/terminalpackagehamderber-0.0.8.tar.gz --markdown 20230421/t/terminalpackagehamderber/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 05:53:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecd20200930-py2]: success
+[2023-04-21 05:53:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecd20200930]: success
+[2023-04-21 05:53:39] INFO root fetch - main [MainThread]: End processing [file-io]: success
+[2023-04-21 05:53:39] INFO root fetch - processPackages [lsptrain]: executing diffoscope
+[2023-04-21 05:53:39] INFO root fetch - processPackages [lsptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsptrain-0.0.43.tar.gz tmp/lsptrain-0.0.44.tar.gz --markdown 20230421/l/lsptrain/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-04-21 05:53:39] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-04-21 05:53:40] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-04-21 05:53:40] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-04-21 05:53:41] INFO root fetch - main [MainThread]: End processing [tacv]: success
+[2023-04-21 05:53:41] INFO root fetch - main [MainThread]: End processing [terminalpackagehamderber]: success
+[2023-04-21 05:53:41] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
+[2023-04-21 05:53:41] INFO root fetch - main [MainThread]: Store serial: [17798832]
