@@ -17830,3 +17830,80 @@ EOFError: EOF read where object expected
 [2023-04-21 17:19:47] INFO root fetch - main [MainThread]: End processing [depthai-sdk]: success
 [2023-04-21 17:19:49] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-21 17:19:49] INFO root fetch - main [MainThread]: Store serial: [17805084]
+[2023-04-21 17:24:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805084]
+[2023-04-21 17:24:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 17:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kasearch
+[2023-04-21 17:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pvmodule
+[2023-04-21 17:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdm-conda
+[2023-04-21 17:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dfk-contracts
+[2023-04-21 17:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyorbit-package
+[2023-04-21 17:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acdh-django-charts
+[2023-04-21 17:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esdbclient
+[2023-04-21 17:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: digimat.bac0
+[2023-04-21 17:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OMGITSLACKO
+[2023-04-21 17:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fold-core
+[2023-04-21 17:24:58] INFO root fetch - processPackages [OMGITSLACKO]: New version: [0.1.1] Old Version: [0.1]
+[2023-04-21 17:24:58] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-21 17:24:58] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 17:24:58] INFO root fetch - processPackages [kasearch]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-21 17:24:58] INFO root fetch - processPackages [acdh-django-charts]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-04-21 17:24:58] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.1b1] Old Version: [0.9.1b0]
+[2023-04-21 17:24:58] INFO root fetch - processPackages [dfk-contracts]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-21 17:24:58] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-04-21 17:24:58] INFO root fetch - processPackages [fold-core]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 17:24:58] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230421/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-21 17:24:58] INFO root fetch - processPackages [pyorbit-package]: New version: [9.1.9] Old Version: [9.1.8]
+[2023-04-21 17:24:58] INFO root fetch - processPackages [esdbclient]: New version: [0.9] Old Version: [0.8]
+[2023-04-21 17:24:59] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-04-21 17:24:59] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230421/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 17:24:59] INFO root fetch - processPackages [OMGITSLACKO]: Downloading https://files.pythonhosted.org/packages/3e/a3/39f0334e05ab5758d562649ef5136c909bf06295b186201929e08d8db468/OMGITSLACKO-0.1.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [kasearch]: Downloading https://files.pythonhosted.org/packages/7e/13/1478b69e11aed5c2a5496becace44a99990635d4015da6e546ce8a24f80d/kasearch-0.0.7.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [acdh-django-charts]: Downloading https://files.pythonhosted.org/packages/f3/c4/994745a1bd0b651a2d812cc1ab0d2b6724687dff36791917fd4e40ddf535/acdh-django-charts-0.5.3.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/1f/74/2ad196447f5967b3182c9544d17b2d5ef1128a3335c0f81d851e055eb0ce/pdm_conda-0.9.1b1.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [pyorbit-package]: Downloading https://files.pythonhosted.org/packages/51/4d/f9b01f3ef884f30afd4af88289ecbde044aecd47f1f4544d2ce38cab815c/pyorbit-package-9.1.8.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [dfk-contracts]: Downloading https://files.pythonhosted.org/packages/53/4a/45c3d544950d70f47900311644d0cd58aaf7410611ac5a3b3e0033d5a597/dfk_contracts-0.1.5.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [esdbclient]: Downloading https://files.pythonhosted.org/packages/b8/56/a19381759e8e118e2185f1e6f35daee96f86c447c28297d97d31b45514c6/esdbclient-0.8.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [fold-core]: Downloading https://files.pythonhosted.org/packages/65/25/e399cfca614095e52ace93b8f8773cef8582b9af49b54a4e5c35d15fb795/fold_core-0.1.3.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-04-21 17:24:59] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.1b0.tar.gz tmp/pdm_conda-0.9.1b1.tar.gz --markdown 20230421/p/pdm-conda/0.9.1b0-0.9.1b1/diff.md --exclude *.pyd
+[2023-04-21 17:24:59] INFO root fetch - processPackages [OMGITSLACKO]: Downloading https://files.pythonhosted.org/packages/ff/16/e37cc1d73a08f269027227e264b27bba45159548d91ef746f2d994b7c9f3/OMGITSLACKO-0.1.1.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [kasearch]: Downloading https://files.pythonhosted.org/packages/7c/1d/d69558c539dfb461623f38013f840e358069509b09888a54d25c48a7994a/kasearch-0.0.9.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [acdh-django-charts]: Downloading https://files.pythonhosted.org/packages/12/96/bbe478c5f49e8b66d503d0446d2cd63ef49035416c7406debb89d0ecee1d/acdh-django-charts-0.6.0.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [dfk-contracts]: Downloading https://files.pythonhosted.org/packages/80/2f/eafce0f071fd6c6a7d49f20916e1a46d1120e423abb6e516c3ad6db7facd/dfk_contracts-0.1.6.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [fold-core]: executing diffoscope
+[2023-04-21 17:24:59] INFO root fetch - processPackages [fold-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fold_core-0.1.2.tar.gz tmp/fold_core-0.1.3.tar.gz --markdown 20230421/f/fold-core/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 17:24:59] INFO root fetch - processPackages [OMGITSLACKO]: executing diffoscope
+[2023-04-21 17:24:59] INFO root fetch - processPackages [OMGITSLACKO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OMGITSLACKO-0.1.tar.gz tmp/OMGITSLACKO-0.1.1.tar.gz --markdown 20230421/O/OMGITSLACKO/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 17:24:59] INFO root fetch - processPackages [esdbclient]: Downloading https://files.pythonhosted.org/packages/6e/34/77debc175463d5f3c711f74a336ed6ff2540f96caf99f248b20e06eea78b/esdbclient-0.9.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [kasearch]: executing diffoscope
+[2023-04-21 17:24:59] INFO root fetch - processPackages [kasearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kasearch-0.0.7.tar.gz tmp/kasearch-0.0.9.tar.gz --markdown 20230421/k/kasearch/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 17:24:59] INFO root fetch - processPackages [acdh-django-charts]: executing diffoscope
+[2023-04-21 17:24:59] INFO root fetch - processPackages [acdh-django-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdh-django-charts-0.5.3.tar.gz tmp/acdh-django-charts-0.6.0.tar.gz --markdown 20230421/a/acdh-django-charts/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-04-21 17:24:59] INFO root fetch - processPackages [pyorbit-package]: Downloading https://files.pythonhosted.org/packages/2f/34/aed20c44ef64b52985421c610600bab8b122fccc2fdba3aceeb2676ece78/pyorbit-package-9.1.9.tar.gz
+[2023-04-21 17:24:59] INFO root fetch - processPackages [dfk-contracts]: executing diffoscope
+[2023-04-21 17:24:59] INFO root fetch - processPackages [dfk-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfk_contracts-0.1.5.tar.gz tmp/dfk_contracts-0.1.6.tar.gz --markdown 20230421/d/dfk-contracts/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-21 17:24:59] INFO root fetch - processPackages [esdbclient]: executing diffoscope
+[2023-04-21 17:24:59] INFO root fetch - processPackages [esdbclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esdbclient-0.8.tar.gz tmp/esdbclient-0.9.tar.gz --markdown 20230421/e/esdbclient/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-21 17:24:59] INFO root fetch - processPackages [pyorbit-package]: executing diffoscope
+[2023-04-21 17:24:59] INFO root fetch - processPackages [pyorbit-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyorbit-package-9.1.8.tar.gz tmp/pyorbit-package-9.1.9.tar.gz --markdown 20230421/p/pyorbit-package/9.1.8-9.1.9/diff.md --exclude *.pyd
+[2023-04-21 17:25:00] INFO root fetch - processPackages [digimat.bac0]: Start processing: w-fast-logging
+[2023-04-21 17:25:00] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-04-21 17:25:00] WARNING root fetch - processPackages [w-fast-logging]: Skipping, unable to determine old version
+[2023-04-21 17:25:00] INFO root fetch - processPackages [w-fast-logging]: Start processing: pose-format
+[2023-04-21 17:25:00] INFO root fetch - main [MainThread]: End processing [w-fast-logging] error
+[2023-04-21 17:25:00] INFO root fetch - processPackages [pose-format]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 17:25:00] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-04-21 17:25:00] INFO root fetch - processPackages [pose-format]: Downloading https://files.pythonhosted.org/packages/a0/07/a1857b65053ee3208fd4fa185b97403a0877818edb78a69b4ad25323f3bc/pose_format-0.2.1.tar.gz
+[2023-04-21 17:25:00] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-04-21 17:25:01] INFO root fetch - processPackages [pose-format]: Downloading https://files.pythonhosted.org/packages/01/3c/f47eebf8c0535fd02a6680a50065fe539b2d46509961648ebd1536030d9e/pose_format-0.2.2.tar.gz
+[2023-04-21 17:25:01] INFO root fetch - main [MainThread]: End processing [OMGITSLACKO]: success
+[2023-04-21 17:25:01] INFO root fetch - main [MainThread]: End processing [fold-core]: success
+[2023-04-21 17:25:01] INFO root fetch - processPackages [pose-format]: executing diffoscope
+[2023-04-21 17:25:01] INFO root fetch - processPackages [pose-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pose_format-0.2.1.tar.gz tmp/pose_format-0.2.2.tar.gz --markdown 20230421/p/pose-format/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 17:25:01] INFO root fetch - main [MainThread]: End processing [kasearch]: success
+[2023-04-21 17:25:01] INFO root fetch - main [MainThread]: End processing [esdbclient]: success
+[2023-04-21 17:25:01] INFO root fetch - main [MainThread]: End processing [acdh-django-charts]: success
+[2023-04-21 17:25:02] INFO root fetch - main [MainThread]: End processing [pose-format]: success
+[2023-04-21 17:25:05] INFO root fetch - main [MainThread]: End processing [pyorbit-package]: success
+[2023-04-21 17:25:08] INFO root fetch - main [MainThread]: End processing [dfk-contracts]: success
+[2023-04-21 17:25:08] INFO root fetch - main [MainThread]: Store serial: [17805119]
