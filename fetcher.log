@@ -17907,3 +17907,116 @@ EOFError: EOF read where object expected
 [2023-04-21 17:25:05] INFO root fetch - main [MainThread]: End processing [pyorbit-package]: success
 [2023-04-21 17:25:08] INFO root fetch - main [MainThread]: End processing [dfk-contracts]: success
 [2023-04-21 17:25:08] INFO root fetch - main [MainThread]: Store serial: [17805119]
+[2023-04-21 17:30:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805119]
+[2023-04-21 17:30:17] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-21 17:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oc-ocdm
+[2023-04-21 17:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: czech-workdays-holidays
+[2023-04-21 17:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colemen-volent
+[2023-04-21 17:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bdating-common
+[2023-04-21 17:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nunchaku
+[2023-04-21 17:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: splight-cli
+[2023-04-21 17:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docarray
+[2023-04-21 17:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libertem-live
+[2023-04-21 17:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymafia
+[2023-04-21 17:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sims-pars
+[2023-04-21 17:30:17] WARNING root fetch - processPackages [colemen-volent]: Skipping, unable to determine old version
+[2023-04-21 17:30:17] INFO root fetch - processPackages [colemen-volent]: Start processing: fml40-reference-implementation
+[2023-04-21 17:30:17] INFO root fetch - main [MainThread]: End processing [colemen-volent] error
+[2023-04-21 17:30:17] WARNING root fetch - processPackages [czech-workdays-holidays]: Skipping, unable to determine old version
+[2023-04-21 17:30:17] INFO root fetch - processPackages [czech-workdays-holidays]: Start processing: sims-pars
+[2023-04-21 17:30:17] INFO root fetch - main [MainThread]: End processing [czech-workdays-holidays] error
+[2023-04-21 17:30:17] INFO root fetch - processPackages [nunchaku]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-21 17:30:17] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-21 17:30:18] INFO root fetch - processPackages [splight-cli]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-21 17:30:18] INFO root fetch - processPackages [nunchaku]: executing diffoscope
+[2023-04-21 17:30:18] INFO root fetch - processPackages [nunchaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nunchaku-0.8.0.tar.gz tmp/nunchaku-0.9.0.tar.gz --markdown 20230421/n/nunchaku/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 17:30:18] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-04-21 17:30:18] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230421/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 17:30:18] INFO root fetch - processPackages [oc-ocdm]: New version: [7.1.9] Old Version: [7.1.8]
+[2023-04-21 17:30:18] INFO root fetch - processPackages [pymafia]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-21 17:30:18] INFO root fetch - processPackages [libertem-live]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-21 17:30:18] INFO root fetch - processPackages [sims-pars]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-04-21 17:30:18] INFO root fetch - processPackages [fml40-reference-implementation]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 17:30:18] INFO root fetch - processPackages [sims-pars]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-04-21 17:30:18] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-21 17:30:18] INFO root fetch - processPackages [sims-pars]: Downloading https://files.pythonhosted.org/packages/cf/47/124d68b477e3d093dffdececee37d9c371a6c318f4e3f25f67b75e8f6b53/sims-pars-2.6.0.tar.gz
+[2023-04-21 17:30:18] INFO root fetch - processPackages [sims-pars]: Downloading https://files.pythonhosted.org/packages/cf/47/124d68b477e3d093dffdececee37d9c371a6c318f4e3f25f67b75e8f6b53/sims-pars-2.6.0.tar.gz
+[2023-04-21 17:30:18] INFO root fetch - processPackages [oc-ocdm]: Downloading https://files.pythonhosted.org/packages/81/7c/a54b997e013aef4db7bb00d5bf680abf33c3b6f5846c3421414d6daa74cd/oc_ocdm-7.1.8.tar.gz
+[2023-04-21 17:30:18] INFO root fetch - processPackages [libertem-live]: Downloading https://files.pythonhosted.org/packages/5c/16/5df5e7c7f75241267a99ea7846ce2b138ac8f641c0d1f2eabe336bf6b37e/libertem-live-0.1.0.tar.gz
+[2023-04-21 17:30:18] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-21 17:30:18] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230421/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-21 17:30:18] INFO root fetch - processPackages [pymafia]: Downloading https://files.pythonhosted.org/packages/93/e1/a869669a64e3d444cd855cbb7b129625236b24ad81a5a6c9d1352babc4df/pymafia-0.1.9.tar.gz
+[2023-04-21 17:30:18] INFO root fetch - processPackages [fml40-reference-implementation]: Downloading https://files.pythonhosted.org/packages/39/5c/8491937da6f8b004368535a85506fe6316a95162832d7585940b93627b75/fml40_reference_implementation-0.2.8-py3-none-any.whl
+[2023-04-21 17:30:18] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-04-21 17:30:18] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-2.3.8.tar.gz tmp/splight-cli-2.3.9.tar.gz --markdown 20230421/s/splight-cli/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-21 17:30:18] INFO root fetch - processPackages [sims-pars]: Downloading https://files.pythonhosted.org/packages/96/4b/da0c448f0fd6567d4e6ab9a11051091aa145d87ac93d9bd49455c1d8013c/sims-pars-2.6.1.tar.gz
+[2023-04-21 17:30:18] INFO root fetch - processPackages [sims-pars]: Downloading https://files.pythonhosted.org/packages/96/4b/da0c448f0fd6567d4e6ab9a11051091aa145d87ac93d9bd49455c1d8013c/sims-pars-2.6.1.tar.gz
+[2023-04-21 17:30:18] INFO root fetch - processPackages [pymafia]: Downloading https://files.pythonhosted.org/packages/76/7c/2c0d03208b208874a712e57362cdd640e44c659d6ae5397b1f79ea591910/pymafia-0.2.0.tar.gz
+[2023-04-21 17:30:18] INFO root fetch - processPackages [libertem-live]: Downloading https://files.pythonhosted.org/packages/92/31/729304b940a04e0225d5219a68e92a20e3774c9469bedf7e4fc28651cb67/libertem-live-0.2.0.tar.gz
+[2023-04-21 17:30:18] INFO root fetch - processPackages [oc-ocdm]: Downloading https://files.pythonhosted.org/packages/bd/cb/2ff41e8d4621489f46a10c0d4087273899da894461046a72a0f6839f1e8b/oc_ocdm-7.1.9.tar.gz
+[2023-04-21 17:30:18] INFO root fetch - processPackages [fml40-reference-implementation]: Downloading https://files.pythonhosted.org/packages/52/d7/2b94aa0bf72713b0ba072c8a05bba9ee76f145bad54c95aafae62594cc3f/fml40_reference_implementation-0.2.9-py3-none-any.whl
+[2023-04-21 17:30:18] INFO root fetch - processPackages [sims-pars]: executing diffoscope
+[2023-04-21 17:30:18] INFO root fetch - processPackages [sims-pars]: executing diffoscope
+[2023-04-21 17:30:18] INFO root fetch - processPackages [sims-pars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sims-pars-2.6.0.tar.gz tmp/sims-pars-2.6.1.tar.gz --markdown 20230421/s/sims-pars/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-04-21 17:30:18] INFO root fetch - processPackages [sims-pars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sims-pars-2.6.0.tar.gz tmp/sims-pars-2.6.1.tar.gz --markdown 20230421/s/sims-pars/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-04-21 17:30:18] INFO root fetch - processPackages [pymafia]: executing diffoscope
+[2023-04-21 17:30:18] INFO root fetch - processPackages [pymafia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymafia-0.1.9.tar.gz tmp/pymafia-0.2.0.tar.gz --markdown 20230421/p/pymafia/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 17:30:18] INFO root fetch - processPackages [oc-ocdm]: executing diffoscope
+[2023-04-21 17:30:18] INFO root fetch - processPackages [oc-ocdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_ocdm-7.1.8.tar.gz tmp/oc_ocdm-7.1.9.tar.gz --markdown 20230421/o/oc-ocdm/7.1.8-7.1.9/diff.md --exclude *.pyd
+[2023-04-21 17:30:18] INFO root fetch - processPackages [libertem-live]: executing diffoscope
+[2023-04-21 17:30:18] INFO root fetch - processPackages [libertem-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem-live-0.1.0.tar.gz tmp/libertem-live-0.2.0.tar.gz --markdown 20230421/l/libertem-live/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 17:30:18] INFO root fetch - processPackages [fml40-reference-implementation]: executing diffoscope
+[2023-04-21 17:30:18] INFO root fetch - processPackages [fml40-reference-implementation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fml40_reference_implementation-0.2.8-py3-none-any.whl.zip tmp/fml40_reference_implementation-0.2.9-py3-none-any.whl.zip --markdown 20230421/f/fml40-reference-implementation/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 17:30:19] INFO root fetch - processPackages [nunchaku]: Start processing: doc2tei-CERTIC
+[2023-04-21 17:30:19] INFO root fetch - main [MainThread]: End processing [nunchaku]: success
+[2023-04-21 17:30:19] INFO root fetch - processPackages [doc2tei-CERTIC]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 17:30:19] INFO root fetch - processPackages [doc2tei-CERTIC]: executing diffoscope
+[2023-04-21 17:30:19] INFO root fetch - processPackages [doc2tei-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc2tei-CERTIC-0.0.8.tar.gz tmp/doc2tei-CERTIC-0.0.9.tar.gz --markdown 20230421/d/doc2tei-CERTIC/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 17:30:20] INFO root fetch - processPackages [bdating-common]: Start processing: nonebot-poe-chat
+[2023-04-21 17:30:20] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-04-21 17:30:20] INFO root fetch - processPackages [nonebot-poe-chat]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 17:30:20] INFO root fetch - processPackages [splight-cli]: Start processing: minet
+[2023-04-21 17:30:20] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-04-21 17:30:20] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-04-21 17:30:20] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-04-21 17:30:20] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230421/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-04-21 17:30:20] INFO root fetch - processPackages [nonebot-poe-chat]: Downloading https://files.pythonhosted.org/packages/91/74/cd123e2d964f49c8d85bb8f7dcc1d1643516495e9b6421236a3b3e64f980/nonebot_poe_chat-0.0.2.tar.gz
+[2023-04-21 17:30:20] INFO root fetch - processPackages [nonebot-poe-chat]: Downloading https://files.pythonhosted.org/packages/41/d8/b9adcb2d9e58e3f81ece02a5854195107286ecea9500c2a6d478c806258a/nonebot_poe_chat-0.0.3.tar.gz
+[2023-04-21 17:30:20] INFO root fetch - processPackages [pymafia]: Start processing: maxilearn
+[2023-04-21 17:30:20] INFO root fetch - main [MainThread]: End processing [pymafia]: success
+[2023-04-21 17:30:20] INFO root fetch - processPackages [maxilearn]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 17:30:20] INFO root fetch - processPackages [sims-pars]: Start processing: google-cloud-aiplatform
+[2023-04-21 17:30:20] INFO root fetch - main [MainThread]: End processing [sims-pars]: success
+[2023-04-21 17:30:20] INFO root fetch - processPackages [nonebot-poe-chat]: executing diffoscope
+[2023-04-21 17:30:20] INFO root fetch - processPackages [nonebot-poe-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_poe_chat-0.0.2.tar.gz tmp/nonebot_poe_chat-0.0.3.tar.gz --markdown 20230421/n/nonebot-poe-chat/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 17:30:20] INFO root fetch - processPackages [maxilearn]: executing diffoscope
+[2023-04-21 17:30:20] INFO root fetch - processPackages [maxilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxilearn-0.0.2.tar.gz tmp/maxilearn-0.0.3.tar.gz --markdown 20230421/m/maxilearn/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 17:30:20] INFO root fetch - processPackages [google-cloud-aiplatform]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-21 17:30:20] INFO root fetch - processPackages [sims-pars]: Start processing: pokelance
+[2023-04-21 17:30:20] INFO root fetch - main [MainThread]: End processing [sims-pars]: success
+[2023-04-21 17:30:21] INFO root fetch - processPackages [google-cloud-aiplatform]: Downloading https://files.pythonhosted.org/packages/87/ed/ff22ee773fb07107589eec61c3659904016820ba5aed048a68bf3eba44a9/google-cloud-aiplatform-1.8.1.tar.gz
+[2023-04-21 17:30:21] INFO root fetch - processPackages [pokelance]: New version: [0.1.0] Old Version: [0.0.9a0]
+[2023-04-21 17:30:21] INFO root fetch - processPackages [pokelance]: Downloading https://files.pythonhosted.org/packages/a3/e3/9223362ddff3c3ed1633610f25e51f6bff5015b4196c7fbbdd9791f37162/pokelance-0.0.9a0.tar.gz
+[2023-04-21 17:30:21] INFO root fetch - processPackages [doc2tei-CERTIC]: Start processing: nalyst
+[2023-04-21 17:30:21] INFO root fetch - main [MainThread]: End processing [doc2tei-CERTIC]: success
+[2023-04-21 17:30:21] INFO root fetch - processPackages [nalyst]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-04-21 17:30:21] INFO root fetch - processPackages [nalyst]: Downloading https://files.pythonhosted.org/packages/e9/03/46b6d88c5e01ae1de504a682d4a854534593fc6b96bcbaf78bb4775eecba/nalyst-0.1.5.tar.gz
+[2023-04-21 17:30:21] INFO root fetch - processPackages [nalyst]: executing diffoscope
+[2023-04-21 17:30:21] INFO root fetch - processPackages [nalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nalyst-0.1.3.tar.gz tmp/nalyst-0.1.5.tar.gz --markdown 20230421/n/nalyst/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-04-21 17:30:21] INFO root fetch - processPackages [pokelance]: Downloading https://files.pythonhosted.org/packages/46/81/1dc9ef1eb474896ff026f84ae6da4ccef9b16d74527f63ec840a5e2b647b/pokelance-0.1.0.tar.gz
+[2023-04-21 17:30:21] INFO root fetch - processPackages [google-cloud-aiplatform]: Downloading https://files.pythonhosted.org/packages/4d/c4/93fac91a85d9ee19de83e183b5b8980a3fe9e3a193e1a27c3574c7899c9c/google-cloud-aiplatform-1.9.0.tar.gz
+[2023-04-21 17:30:21] INFO root fetch - processPackages [pokelance]: executing diffoscope
+[2023-04-21 17:30:21] INFO root fetch - processPackages [pokelance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokelance-0.0.9a0.tar.gz tmp/pokelance-0.1.0.tar.gz --markdown 20230421/p/pokelance/0.0.9a0-0.1.0/diff.md --exclude *.pyd
+[2023-04-21 17:30:22] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
+[2023-04-21 17:30:22] INFO root fetch - main [MainThread]: End processing [nonebot-poe-chat]: success
+[2023-04-21 17:30:22] INFO root fetch - processPackages [google-cloud-aiplatform]: executing diffoscope
+[2023-04-21 17:30:22] INFO root fetch - processPackages [google-cloud-aiplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-aiplatform-1.8.1.tar.gz tmp/google-cloud-aiplatform-1.9.0.tar.gz --markdown 20230421/g/google-cloud-aiplatform/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 17:30:22] INFO root fetch - main [MainThread]: End processing [oc-ocdm]: success
+[2023-04-21 17:30:22] INFO root fetch - main [MainThread]: End processing [nalyst]: success
+[2023-04-21 17:30:23] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-21 17:30:23] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-04-21 17:30:23] INFO root fetch - main [MainThread]: End processing [pokelance]: success
+[2023-04-21 17:30:23] INFO root fetch - main [MainThread]: End processing [libertem-live]: success
+[2023-04-21 17:30:24] INFO root fetch - main [MainThread]: End processing [fml40-reference-implementation]: success
+[2023-04-21 17:30:32] INFO root fetch - main [MainThread]: End processing [google-cloud-aiplatform]: success
+[2023-04-21 17:30:32] INFO root fetch - main [MainThread]: Store serial: [17805177]
