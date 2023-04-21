@@ -19025,3 +19025,108 @@ EOFError: EOF read where object expected
 [2023-04-21 18:35:30] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
 [2023-04-21 18:35:30] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2023-04-21 18:35:30] INFO root fetch - main [MainThread]: Store serial: [17805986]
+[2023-04-21 18:40:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805986]
+[2023-04-21 18:40:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-21 18:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2023-04-21 18:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pychi
+[2023-04-21 18:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-roborock
+[2023-04-21 18:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maxilearn
+[2023-04-21 18:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iseg-nhr
+[2023-04-21 18:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multicall-zksync
+[2023-04-21 18:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biliup
+[2023-04-21 18:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybefit
+[2023-04-21 18:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytictacbot
+[2023-04-21 18:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cornflakes
+[2023-04-21 18:40:39] INFO root fetch - processPackages [python-roborock]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-21 18:40:39] INFO root fetch - processPackages [pychi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 18:40:39] INFO root fetch - processPackages [maxilearn]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-21 18:40:39] INFO root fetch - processPackages [pytictacbot]: New version: [1.7] Old Version: [1.6]
+[2023-04-21 18:40:39] INFO root fetch - processPackages [pychi]: executing diffoscope
+[2023-04-21 18:40:39] INFO root fetch - processPackages [pychi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychi-0.0.8.tar.gz tmp/pychi-0.0.9.tar.gz --markdown 20230421/p/pychi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 18:40:39] INFO root fetch - processPackages [yeref]: New version: [0.1.31] Old Version: [0.1.30]
+[2023-04-21 18:40:39] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-21 18:40:39] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.6.8.tar.gz tmp/python_roborock-0.6.9.tar.gz --markdown 20230421/p/python-roborock/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-21 18:40:39] WARNING root fetch - processPackages [multicall-zksync]: Skipping, unable to determine old version
+[2023-04-21 18:40:39] INFO root fetch - processPackages [multicall-zksync]: Start processing: natml
+[2023-04-21 18:40:39] INFO root fetch - main [MainThread]: End processing [multicall-zksync] error
+[2023-04-21 18:40:39] INFO root fetch - processPackages [pybefit]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-04-21 18:40:39] WARNING root fetch - processPackages [iseg-nhr]: Skipping, unable to determine old version
+[2023-04-21 18:40:39] INFO root fetch - processPackages [iseg-nhr]: Start processing: varsdump
+[2023-04-21 18:40:39] INFO root fetch - main [MainThread]: End processing [iseg-nhr] error
+[2023-04-21 18:40:39] INFO root fetch - processPackages [biliup]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-21 18:40:39] INFO root fetch - processPackages [cornflakes]: New version: [3.2.8] Old Version: [3.2.7]
+[2023-04-21 18:40:39] INFO root fetch - processPackages [natml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 18:40:39] INFO root fetch - processPackages [pytictacbot]: Downloading https://files.pythonhosted.org/packages/67/32/0f3f28c5765f1d6b628e3d0db2deb1521b3558ce8d78548be53dd00a56a5/pytictacbot-1.7.tar.gz
+[2023-04-21 18:40:39] WARNING root fetch - processPackages [varsdump]: Skipping, unable to determine old version
+[2023-04-21 18:40:39] INFO root fetch - processPackages [varsdump]: Start processing: nudeny
+[2023-04-21 18:40:39] INFO root fetch - main [MainThread]: End processing [varsdump] error
+[2023-04-21 18:40:39] INFO root fetch - processPackages [nudeny]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-21 18:40:39] INFO root fetch - processPackages [maxilearn]: Downloading https://files.pythonhosted.org/packages/16/b1/cffdc0661bb14eca388fc8ac770ebb6a25f3d0cbe9da7357aa4512f2cb2a/maxilearn-0.4.5.tar.gz
+[2023-04-21 18:40:39] INFO root fetch - processPackages [pytictacbot]: executing diffoscope
+[2023-04-21 18:40:39] INFO root fetch - processPackages [pytictacbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytictacbot-1.6.tar.gz tmp/pytictacbot-1.7.tar.gz --markdown 20230421/p/pytictacbot/1.6-1.7/diff.md --exclude *.pyd
+[2023-04-21 18:40:39] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/33/26/87446b9e80024414938248abd6d5d23524d52b9a0e07980909695db33a0a/biliup-0.4.8.tar.gz
+[2023-04-21 18:40:39] INFO root fetch - processPackages [maxilearn]: Downloading https://files.pythonhosted.org/packages/23/04/9adcecae240d554cc9f2ff2e7ec22a0cca2ae59855537e5b48d32ede9b14/maxilearn-0.4.6.tar.gz
+[2023-04-21 18:40:40] INFO root fetch - processPackages [maxilearn]: executing diffoscope
+[2023-04-21 18:40:40] INFO root fetch - processPackages [maxilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxilearn-0.4.5.tar.gz tmp/maxilearn-0.4.6.tar.gz --markdown 20230421/m/maxilearn/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-21 18:40:40] INFO root fetch - processPackages [pychi]: Start processing: pulumi-twingate
+[2023-04-21 18:40:40] INFO root fetch - main [MainThread]: End processing [pychi]: success
+[2023-04-21 18:40:40] INFO root fetch - processPackages [natml]: Downloading https://files.pythonhosted.org/packages/12/45/304d4a990407d7cbadc7812d1403334aebe61ee08ba68327cc3b08322342/natml-0.0.8.tar.gz
+[2023-04-21 18:40:40] INFO root fetch - processPackages [pulumi-twingate]: New version: [0.0.9] Old Version: [0.0.5]
+[2023-04-21 18:40:40] INFO root fetch - processPackages [python-roborock]: Start processing: titan-iris
+[2023-04-21 18:40:40] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-21 18:40:40] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-04-21 18:40:40] INFO root fetch - processPackages [nudeny]: Downloading https://files.pythonhosted.org/packages/15/ae/9b9eb00daa225ad562bf47ca645e94b70d60d50ffd03cb403554f4adde59/nudeny-0.0.5.tar.gz
+[2023-04-21 18:40:40] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/27/5c/b9dd7fb9227a8c312eed1d2de1ac391b6dd87f975bfa57c5265d14d37d70/yeref-0.1.30.tar.gz
+[2023-04-21 18:40:40] INFO root fetch - processPackages [pybefit]: Downloading https://files.pythonhosted.org/packages/60/78/cc6eb12ed0b36796f96789044fda2df3582b72a4f97c241e7ee52ab2b168/pybefit-0.1.0.tar.gz
+[2023-04-21 18:40:40] INFO root fetch - processPackages [nudeny]: Downloading https://files.pythonhosted.org/packages/bc/50/c97c95b034bbeb131907491f43b04ab085f9030ec06c378c96659469adb6/nudeny-0.0.6.tar.gz
+[2023-04-21 18:40:40] INFO root fetch - processPackages [pybefit]: Downloading https://files.pythonhosted.org/packages/9e/9d/2ceeb4260d33244967b4afebb45025599dc06e67fb9bdf02f6216fa394f1/pybefit-0.1.2.tar.gz
+[2023-04-21 18:40:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/af/d6/1c010fe72eb44015b98fb4bf7896d956685e586b4c72ab297e657a371240/yeref-0.1.31.tar.gz
+[2023-04-21 18:40:41] INFO root fetch - processPackages [nudeny]: executing diffoscope
+[2023-04-21 18:40:41] INFO root fetch - processPackages [nudeny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nudeny-0.0.5.tar.gz tmp/nudeny-0.0.6.tar.gz --markdown 20230421/n/nudeny/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 18:40:41] INFO root fetch - processPackages [natml]: Downloading https://files.pythonhosted.org/packages/79/72/3d7ac385ec528b2b365f2e52f63790707f2bbb1bd6acb4e59ae752028f6b/natml-0.0.9.tar.gz
+[2023-04-21 18:40:41] INFO root fetch - processPackages [pybefit]: executing diffoscope
+[2023-04-21 18:40:41] INFO root fetch - processPackages [pybefit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybefit-0.1.0.tar.gz tmp/pybefit-0.1.2.tar.gz --markdown 20230421/p/pybefit/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 18:40:41] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/ca/50/28c81627954370eeba7075b44c9ef20597ed8f140a1390c814dd976e6c70/biliup-0.4.9.tar.gz
+[2023-04-21 18:40:41] INFO root fetch - processPackages [natml]: executing diffoscope
+[2023-04-21 18:40:41] INFO root fetch - processPackages [natml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natml-0.0.8.tar.gz tmp/natml-0.0.9.tar.gz --markdown 20230421/n/natml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 18:40:41] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-04-21 18:40:41] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.30.tar.gz tmp/yeref-0.1.31.tar.gz --markdown 20230421/y/yeref/0.1.30-0.1.31/diff.md --exclude *.pyd
+[2023-04-21 18:40:41] INFO root fetch - processPackages [biliup]: executing diffoscope
+[2023-04-21 18:40:41] INFO root fetch - processPackages [biliup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliup-0.4.8.tar.gz tmp/biliup-0.4.9.tar.gz --markdown 20230421/b/biliup/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-21 18:40:41] INFO root fetch - processPackages [maxilearn]: Start processing: maxilearn
+[2023-04-21 18:40:41] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
+[2023-04-21 18:40:41] INFO root fetch - processPackages [maxilearn]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-04-21 18:40:41] INFO root fetch - processPackages [maxilearn]: Downloading https://files.pythonhosted.org/packages/8d/7e/09c4890d5290f64cccaabbad73d6c75ef801aeab2c3915b485d23eddd7f7/maxilearn-0.4.7.tar.gz
+[2023-04-21 18:40:41] INFO root fetch - processPackages [cornflakes]: Downloading https://files.pythonhosted.org/packages/cf/ea/2ed801d8d82f407e258c1b872bd6ba890b97117d77b0ae0df0655b93a7b8/cornflakes-3.2.8.tar.gz
+[2023-04-21 18:40:41] INFO root fetch - processPackages [pulumi-twingate]: executing diffoscope
+[2023-04-21 18:40:41] INFO root fetch - processPackages [pulumi-twingate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_twingate-0.0.5.tar.gz tmp/pulumi_twingate-0.0.9.tar.gz --markdown 20230421/p/pulumi-twingate/0.0.5-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 18:40:42] INFO root fetch - processPackages [maxilearn]: Downloading https://files.pythonhosted.org/packages/0e/fa/b44080a336364dc1d8abbbd174b82d4f7b3aea6c4cba1ae9f85e91611410/maxilearn-0.4.8-py3-none-any.whl
+[2023-04-21 18:40:42] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-04-21 18:40:42] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230421/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-04-21 18:40:42] INFO root fetch - processPackages [maxilearn]: executing diffoscope
+[2023-04-21 18:40:42] INFO root fetch - processPackages [maxilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxilearn-0.4.7.tar.gz tmp/maxilearn-0.4.8-py3-none-any.whl.zip --markdown 20230421/m/maxilearn/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-04-21 18:40:42] INFO root fetch - processPackages [nudeny]: Start processing: tsidpy
+[2023-04-21 18:40:42] INFO root fetch - main [MainThread]: End processing [nudeny]: success
+[2023-04-21 18:40:42] INFO root fetch - processPackages [tsidpy]: New version: [1.1.0.1] Old Version: [1.1.0.0]
+[2023-04-21 18:40:42] INFO root fetch - processPackages [yeref]: Start processing: ratinabox
+[2023-04-21 18:40:42] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-04-21 18:40:42] INFO root fetch - processPackages [ratinabox]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-04-21 18:40:42] INFO root fetch - processPackages [ratinabox]: executing diffoscope
+[2023-04-21 18:40:42] INFO root fetch - processPackages [ratinabox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratinabox-1.4.2.tar.gz tmp/ratinabox-1.5.0.tar.gz --markdown 20230421/r/ratinabox/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-04-21 18:40:42] INFO root fetch - main [MainThread]: End processing [pytictacbot]: success
+[2023-04-21 18:40:43] INFO root fetch - processPackages [cornflakes]: executing diffoscope
+[2023-04-21 18:40:43] INFO root fetch - processPackages [cornflakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflakes-3.2.7.tar.gz tmp/cornflakes-3.2.8.tar.gz --markdown 20230421/c/cornflakes/3.2.7-3.2.8/diff.md --exclude *.pyd
+[2023-04-21 18:40:43] INFO root fetch - main [MainThread]: End processing [pybefit]: success
+[2023-04-21 18:40:43] INFO root fetch - main [MainThread]: End processing [natml]: success
+[2023-04-21 18:40:43] INFO root fetch - main [MainThread]: End processing [pulumi-twingate]: success
+[2023-04-21 18:40:43] INFO root fetch - main [MainThread]: End processing [maxilearn]: success
+[2023-04-21 18:40:44] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-04-21 18:40:44] INFO root fetch - processPackages [tsidpy]: Downloading https://files.pythonhosted.org/packages/7d/89/7596c2465856016ae4e2215862203bc545034f3b0abd0051392b11870fc3/tsidpy-1.1.0.0.tar.gz
+[2023-04-21 18:40:44] INFO root fetch - main [MainThread]: End processing [ratinabox]: success
+[2023-04-21 18:40:45] INFO root fetch - main [MainThread]: End processing [biliup]: success
+[2023-04-21 18:40:46] INFO root fetch - processPackages [tsidpy]: Downloading https://files.pythonhosted.org/packages/12/1f/76095748856ef51dbd99c1646a948aac7d05dcd30d2370363ffc54aff290/tsidpy-1.1.0.1.tar.gz
+[2023-04-21 18:40:46] INFO root fetch - processPackages [tsidpy]: executing diffoscope
+[2023-04-21 18:40:46] INFO root fetch - processPackages [tsidpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsidpy-1.1.0.0.tar.gz tmp/tsidpy-1.1.0.1.tar.gz --markdown 20230421/t/tsidpy/1.1.0.0-1.1.0.1/diff.md --exclude *.pyd
+[2023-04-21 18:40:47] INFO root fetch - main [MainThread]: End processing [tsidpy]: success
+[2023-04-21 18:40:55] INFO root fetch - main [MainThread]: End processing [cornflakes]: success
+[2023-04-21 18:40:55] INFO root fetch - main [MainThread]: Store serial: [17806058]
