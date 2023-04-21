@@ -11077,3 +11077,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 10:46:42] INFO root fetch - main [MainThread]: End processing [collective.z3cform.jsonwidget]: success
 [2023-04-21 10:46:44] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-21 10:46:44] INFO root fetch - main [MainThread]: Store serial: [17800908]
+[2023-04-21 10:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800908]
+[2023-04-21 10:51:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-21 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slurmui
+[2023-04-21 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: racetrack-client
+[2023-04-21 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dtwinpy
+[2023-04-21 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: govuk-frontend-django
+[2023-04-21 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antgo
+[2023-04-21 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfp-nightly
+[2023-04-21 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modal-client
+[2023-04-21 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-common-task-system
+[2023-04-21 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: attini-cdk-lib
+[2023-04-21 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-azuread
+[2023-04-21 10:51:53] INFO root fetch - processPackages [slurmui]: New version: [0.3.0.4] Old Version: [0.3.0.3]
+[2023-04-21 10:51:53] INFO root fetch - processPackages [django-common-task-system]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-21 10:51:53] INFO root fetch - processPackages [dtwinpy]: New version: [0.1.0] Old Version: [0.0.3.9]
+[2023-04-21 10:51:53] INFO root fetch - processPackages [govuk-frontend-django]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 10:51:53] INFO root fetch - processPackages [racetrack-client]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-04-21 10:51:53] INFO root fetch - processPackages [antgo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 10:51:53] INFO root fetch - processPackages [modal-client]: New version: [0.49.1995] Old Version: [0.48.1989]
+[2023-04-21 10:51:53] INFO root fetch - processPackages [attini-cdk-lib]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-21 10:51:53] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-04-21 10:51:53] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-04-21 10:51:53] INFO root fetch - processPackages [dtwinpy]: Downloading https://files.pythonhosted.org/packages/28/db/359685ee108c8a582016f1dd74d679201fad6806fcb9a37ff5172a48495b/dtwinpy-0.0.3.9-py3-none-any.whl
+[2023-04-21 10:51:53] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-04-21 10:51:53] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230421/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-04-21 10:51:53] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-04-21 10:51:53] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230421/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-04-21 10:51:53] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/0f/b2/2568141e526f2929763a71b777858db5d3c6cc035a1b8c4e97e86c9f1276/antgo-0.1.0.tar.gz
+[2023-04-21 10:51:53] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/4a/1b/59f082aafcbf55225eb287821a6061af947fcf1e1a5c79a7e955a30a21b3/govuk_frontend_django-0.1.1.tar.gz
+[2023-04-21 10:51:53] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/c5/e0/1b3995d689b069da3b46aac4720caa0e0ad499503dd8f940924776f80602/racetrack-client-2.9.0.tar.gz
+[2023-04-21 10:51:53] INFO root fetch - processPackages [attini-cdk-lib]: Downloading https://files.pythonhosted.org/packages/04/6a/805ccd15f82444ffc79e78bee28bc43d1b48aa10fbdb2bf5a5dd99f290fe/attini-cdk-lib-1.3.0.tar.gz
+[2023-04-21 10:51:53] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/81/c6/1dad4071d285b7d91b0ddf3d906ea2708564eb037de9cf2a854f4bb5440b/modal_client-0.49.1995-py3-none-any.whl
+[2023-04-21 10:51:53] INFO root fetch - processPackages [django-common-task-system]: Downloading https://files.pythonhosted.org/packages/92/49/2b51e7a16a7d9202dded6857f3799427ca4ac45308b661b8149ef6bf1351/django-common-task-system-1.2.1.tar.gz
+[2023-04-21 10:51:53] INFO root fetch - processPackages [slurmui]: Downloading https://files.pythonhosted.org/packages/a8/9a/1d8c23d62137b411cc432af7a929be8cb3329a677822feea83ee83376484/slurmui-0.3.0.4-py3-none-any.whl
+[2023-04-21 10:51:53] INFO root fetch - processPackages [dtwinpy]: Downloading https://files.pythonhosted.org/packages/63/4b/60894c79ce8de26cc02b327c89eddf6174fdc342474750a4a32f032a90e2/dtwinpy-0.1.0-py3-none-any.whl
+[2023-04-21 10:51:53] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-04-21 10:51:53] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.48.1989-py3-none-any.whl.zip tmp/modal_client-0.49.1995-py3-none-any.whl.zip --markdown 20230421/m/modal-client/0.48.1989-0.49.1995/diff.md --exclude *.pyd
+[2023-04-21 10:51:53] INFO root fetch - processPackages [attini-cdk-lib]: Downloading https://files.pythonhosted.org/packages/70/b7/956df917944f2724324b8fcc7974730b686e90318521f36d5b3e27508de6/attini-cdk-lib-1.4.0.tar.gz
+[2023-04-21 10:51:53] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/a3/cc/fb6d40f92b96278a16e133f99ef397c97c09211913cb331b846c4dc9fa85/racetrack-client-2.9.1.tar.gz
+[2023-04-21 10:51:53] INFO root fetch - processPackages [django-common-task-system]: executing diffoscope
+[2023-04-21 10:51:53] INFO root fetch - processPackages [django-common-task-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-common-task-system-1.2.0.tar.gz tmp/django-common-task-system-1.2.1.tar.gz --markdown 20230421/d/django-common-task-system/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-21 10:51:53] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/61/65/d6fc9886a94736f6090170d8dbebca54980f5d9e53ae28f2823b20ca7e3b/govuk_frontend_django-0.1.2.tar.gz
+[2023-04-21 10:51:53] INFO root fetch - processPackages [slurmui]: executing diffoscope
+[2023-04-21 10:51:53] INFO root fetch - processPackages [slurmui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmui-0.3.0.3-py3-none-any.whl.zip tmp/slurmui-0.3.0.4-py3-none-any.whl.zip --markdown 20230421/s/slurmui/0.3.0.3-0.3.0.4/diff.md --exclude *.pyd
+[2023-04-21 10:51:53] INFO root fetch - processPackages [racetrack-client]: executing diffoscope
+[2023-04-21 10:51:53] INFO root fetch - processPackages [racetrack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrack-client-2.9.0.tar.gz tmp/racetrack-client-2.9.1.tar.gz --markdown 20230421/r/racetrack-client/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-04-21 10:51:53] INFO root fetch - processPackages [dtwinpy]: executing diffoscope
+[2023-04-21 10:51:53] INFO root fetch - processPackages [dtwinpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtwinpy-0.0.3.9-py3-none-any.whl.zip tmp/dtwinpy-0.1.0-py3-none-any.whl.zip --markdown 20230421/d/dtwinpy/0.0.3.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-21 10:51:53] INFO root fetch - processPackages [attini-cdk-lib]: executing diffoscope
+[2023-04-21 10:51:53] INFO root fetch - processPackages [attini-cdk-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attini-cdk-lib-1.3.0.tar.gz tmp/attini-cdk-lib-1.4.0.tar.gz --markdown 20230421/a/attini-cdk-lib/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-21 10:51:53] INFO root fetch - processPackages [govuk-frontend-django]: executing diffoscope
+[2023-04-21 10:51:53] INFO root fetch - processPackages [govuk-frontend-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govuk_frontend_django-0.1.1.tar.gz tmp/govuk_frontend_django-0.1.2.tar.gz --markdown 20230421/g/govuk-frontend-django/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 10:51:53] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/7b/2a/808f673acdfb704dbf8803d9dc3e10ec4cff8c00d20f18add685534766b1/antgo-0.1.1.tar.gz
+[2023-04-21 10:51:54] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-04-21 10:51:54] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.0.tar.gz tmp/antgo-0.1.1.tar.gz --markdown 20230421/a/antgo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 10:51:54] INFO root fetch - processPackages [pulumi-azuread]: Start processing: bamboo-hep
+[2023-04-21 10:51:54] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-04-21 10:51:54] INFO root fetch - processPackages [bamboo-hep]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-21 10:51:55] INFO root fetch - processPackages [bamboo-hep]: Downloading https://files.pythonhosted.org/packages/91/02/09d84c49fe7600189e3321d9cbe54d5bbc6e6938acc7893d85dec0a18c1a/bamboo-hep-1.0.1.tar.gz
+[2023-04-21 10:51:55] INFO root fetch - processPackages [slurmui]: Start processing: dbdemos
+[2023-04-21 10:51:55] INFO root fetch - main [MainThread]: End processing [slurmui]: success
+[2023-04-21 10:51:55] INFO root fetch - processPackages [dbdemos]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-21 10:51:55] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/0b/d1/ccc9331ceaa8f9601d41f80a7b59d9a7f5be434d1c817bf7a8ca7cd9a9d8/dbdemos-0.3.2-py3-none-any.whl
+[2023-04-21 10:51:55] INFO root fetch - processPackages [bamboo-hep]: Downloading https://files.pythonhosted.org/packages/e8/2a/a253630e20f79de6f54f1ea5846c50452ec3da9320d5935d9b5e66c0dfac/bamboo-hep-1.1.0.tar.gz
+[2023-04-21 10:51:55] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 26127825>=10485760
+[2023-04-21 10:51:55] INFO root fetch - processPackages [dbdemos]: Start processing: th2-data-services
+[2023-04-21 10:51:55] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2023-04-21 10:51:55] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev4763134463] Old Version: [2.0.0.dev4658417405]
+[2023-04-21 10:51:55] INFO root fetch - processPackages [django-common-task-system]: Start processing: failures
+[2023-04-21 10:51:55] INFO root fetch - main [MainThread]: End processing [django-common-task-system]: success
+[2023-04-21 10:51:55] INFO root fetch - processPackages [failures]: New version: [0.2.0] Old Version: [0.1.0b0]
+[2023-04-21 10:51:55] INFO root fetch - processPackages [racetrack-client]: Start processing: safe-ds
+[2023-04-21 10:51:55] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
+[2023-04-21 10:51:55] INFO root fetch - processPackages [safe-ds]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-21 10:51:55] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/3b/ec/32ed829f3c754f62a32b6284647b203cc0477e7df421341da88e104a1f75/th2_data_services-2.0.0.dev4658417405.tar.gz
+[2023-04-21 10:51:55] INFO root fetch - processPackages [failures]: Downloading https://files.pythonhosted.org/packages/ff/6f/a9102e450d0163bdf31a1fecf188c5e535e23c7e9257ded72cc66961de32/failures-0.1.0b0.tar.gz
+[2023-04-21 10:51:55] INFO root fetch - processPackages [dtwinpy]: Start processing: appmesh
+[2023-04-21 10:51:55] INFO root fetch - main [MainThread]: End processing [dtwinpy]: success
+[2023-04-21 10:51:55] INFO root fetch - processPackages [safe-ds]: Downloading https://files.pythonhosted.org/packages/09/f6/a6b32c0bddd70e357b5ee90c9b88c336cc90c5fb454915f0b87e3d58a1b6/safe_ds-0.8.0.tar.gz
+[2023-04-21 10:51:55] INFO root fetch - processPackages [appmesh]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-21 10:51:55] INFO root fetch - processPackages [bamboo-hep]: executing diffoscope
+[2023-04-21 10:51:55] INFO root fetch - processPackages [bamboo-hep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamboo-hep-1.0.1.tar.gz tmp/bamboo-hep-1.1.0.tar.gz --markdown 20230421/b/bamboo-hep/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-21 10:51:56] INFO root fetch - processPackages [govuk-frontend-django]: Start processing: sphere-base
+[2023-04-21 10:51:56] INFO root fetch - main [MainThread]: End processing [govuk-frontend-django]: success
+[2023-04-21 10:51:56] INFO root fetch - processPackages [sphere-base]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-21 10:51:56] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/aa/f2/2e238ab9eae9115137d7caf2192f7116be1c36e50f0feb59b82de1c21647/th2_data_services-2.0.0.dev4763134463.tar.gz
+[2023-04-21 10:51:56] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-04-21 10:51:56] INFO root fetch - processPackages [failures]: Downloading https://files.pythonhosted.org/packages/51/93/c41252aca46e1d9b61e6a3407f24e057707445b9afac946659e9b8df43c1/failures-0.2.0.tar.gz
+[2023-04-21 10:51:56] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/43/45/503ef5ebdbc2738c82cbbb80537a5bf115e4bed41edfaf9e30a244d34f0a/appmesh-0.4.2-py3-none-any.whl
+[2023-04-21 10:51:56] INFO root fetch - processPackages [sphere-base]: Downloading https://files.pythonhosted.org/packages/c3/22/4b5b8f8c0bf15911fc067a6a74b32d87f78286fe2a0e65e1743508088a0b/sphere_base-0.1.2.tar.gz
+[2023-04-21 10:51:56] INFO root fetch - processPackages [safe-ds]: Downloading https://files.pythonhosted.org/packages/bd/f8/60207d42597a9f68aa486aee74213d0424e53d4bd7cce2a8b050d148f4ed/safe_ds-0.9.0.tar.gz
+[2023-04-21 10:51:56] INFO root fetch - processPackages [failures]: executing diffoscope
+[2023-04-21 10:51:56] INFO root fetch - processPackages [failures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/failures-0.1.0b0.tar.gz tmp/failures-0.2.0.tar.gz --markdown 20230421/f/failures/0.1.0b0-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 10:51:56] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-04-21 10:51:56] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev4658417405.tar.gz tmp/th2_data_services-2.0.0.dev4763134463.tar.gz --markdown 20230421/t/th2-data-services/2.0.0.dev4658417405-2.0.0.dev4763134463/diff.md --exclude *.pyd
+[2023-04-21 10:51:56] INFO root fetch - processPackages [safe-ds]: executing diffoscope
+[2023-04-21 10:51:56] INFO root fetch - processPackages [safe-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_ds-0.8.0.tar.gz tmp/safe_ds-0.9.0.tar.gz --markdown 20230421/s/safe-ds/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-21 10:51:56] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2023-04-21 10:51:56] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.4.1-py3-none-any.whl.zip tmp/appmesh-0.4.2-py3-none-any.whl.zip --markdown 20230421/a/appmesh/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-21 10:51:56] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-04-21 10:51:56] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.1.tar.gz tmp/sphere_base-0.1.2.tar.gz --markdown 20230421/s/sphere-base/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-21 10:51:56] INFO root fetch - main [MainThread]: End processing [attini-cdk-lib]: success
+[2023-04-21 10:51:57] INFO root fetch - main [MainThread]: End processing [failures]: success
+[2023-04-21 10:51:57] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2023-04-21 10:51:58] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-04-21 10:51:59] INFO root fetch - main [MainThread]: End processing [safe-ds]: success
+[2023-04-21 10:52:00] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-04-21 10:52:00] INFO root fetch - main [MainThread]: End processing [bamboo-hep]: success
+[2023-04-21 10:52:03] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-04-21 10:52:04] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-04-21 10:52:04] INFO root fetch - main [MainThread]: Store serial: [17800950]
