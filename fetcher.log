@@ -9913,3 +9913,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 09:42:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-contact-access-link]: success
 [2023-04-21 09:42:42] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-04-21 09:42:42] INFO root fetch - main [MainThread]: Store serial: [17800309]
+[2023-04-21 09:47:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17800309]
+[2023-04-21 09:47:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-21 09:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitranscode
+[2023-04-21 09:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mindsdb-sql
+[2023-04-21 09:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cc-lvs
+[2023-04-21 09:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparrow-order-lib
+[2023-04-21 09:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-mrp-multi-level
+[2023-04-21 09:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spacectl
+[2023-04-21 09:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: econll
+[2023-04-21 09:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: write-the
+[2023-04-21 09:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: videobox
+[2023-04-21 09:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-mrp-lot-number-propagation
+[2023-04-21 09:47:51] INFO root fetch - processPackages [unitranscode]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-21 09:47:51] INFO root fetch - processPackages [cc-lvs]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-04-21 09:47:51] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1]
+[2023-04-21 09:47:51] INFO root fetch - processPackages [mindsdb-sql]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-21 09:47:51] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.1.9] Old Version: [0.1.83]
+[2023-04-21 09:47:51] INFO root fetch - processPackages [econll]: New version: [0.2.1] Old Version: [0.1.2]
+[2023-04-21 09:47:51] INFO root fetch - processPackages [odoo-addon-mrp-lot-number-propagation]: New version: [15.0.0.3.0] Old Version: [15.0.0.2.0.2]
+[2023-04-21 09:47:51] INFO root fetch - processPackages [write-the]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-21 09:47:51] INFO root fetch - processPackages [spacectl]: New version: [1.9.7rc3] Old Version: [1.9.7rc2]
+[2023-04-21 09:47:51] INFO root fetch - processPackages [videobox]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-21 09:47:51] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/21/32/801b874aa9eec0e19f9a9089d81f2fc268d6cf732c654863bc75981ea16c/sparrow-order-lib-0.1.83.tar.gz
+[2023-04-21 09:47:51] INFO root fetch - processPackages [unitranscode]: Downloading https://files.pythonhosted.org/packages/4e/10/1b4b08db4b031931f88f7fefa7226a7f82e70ff3856d933ebe8ff8001b34/unitranscode-0.1.0.tar.gz
+[2023-04-21 09:47:51] INFO root fetch - processPackages [mindsdb-sql]: Downloading https://files.pythonhosted.org/packages/93/a8/e542f25ae36e20063e14e328df149a27dd14ef79a0c6a7aa896044ec2184/mindsdb_sql-0.5.1.tar.gz
+[2023-04-21 09:47:51] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/27/03/4310ba971dc95afc05e2f77cb8939920e7a20bea4534f297c5d6d9acbce2/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl
+[2023-04-21 09:47:52] INFO root fetch - processPackages [econll]: Downloading https://files.pythonhosted.org/packages/fc/15/60379265786410166d8dc6999d92358e19c90370b52f389a8ff421af2f1e/econll-0.1.2.tar.gz
+[2023-04-21 09:47:52] INFO root fetch - processPackages [odoo-addon-mrp-lot-number-propagation]: Downloading https://files.pythonhosted.org/packages/a2/47/55bae1da95e62bec47d1d2a9672292b970374296177f667b44dd2f5de321/odoo_addon_mrp_lot_number_propagation-15.0.0.2.0.2-py3-none-any.whl
+[2023-04-21 09:47:52] INFO root fetch - processPackages [videobox]: Downloading https://files.pythonhosted.org/packages/f3/54/c2f570573bf660a379c72133aa19925f08c7d139cc8fcfaa9a69224c45d7/videobox-0.4.0.tar.gz
+[2023-04-21 09:47:52] INFO root fetch - processPackages [cc-lvs]: Downloading https://files.pythonhosted.org/packages/34/3d/9f3a082913aeb381649f329fb60b94bcc6a28be25c447912a7280445fb0c/cc-lvs-2.1.6.tar.gz
+[2023-04-21 09:47:52] INFO root fetch - processPackages [cc-lvs]: executing diffoscope
+[2023-04-21 09:47:52] INFO root fetch - processPackages [cc-lvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc-lvs-2.1.5.tar.gz tmp/cc-lvs-2.1.6.tar.gz --markdown 20230421/c/cc-lvs/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-04-21 09:47:52] INFO root fetch - processPackages [write-the]: Downloading https://files.pythonhosted.org/packages/83/72/bfe354326b01153bec841e2e928b3fb903efe45c2e57cbd778309c9d70a4/write_the-0.7.1.tar.gz
+[2023-04-21 09:47:52] INFO root fetch - processPackages [mindsdb-sql]: Downloading https://files.pythonhosted.org/packages/91/35/0bbbe1ecd10cbd4fd6356a0bb696f4f1509f2f2db9bbc42b8aa3c9e4d1db/mindsdb_sql-0.6.0.tar.gz
+[2023-04-21 09:47:52] INFO root fetch - processPackages [spacectl]: executing diffoscope
+[2023-04-21 09:47:52] INFO root fetch - processPackages [spacectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacectl-1.9.7rc2-py3-none-any.whl.zip tmp/spacectl-1.9.7rc3-py3-none-any.whl.zip --markdown 20230421/s/spacectl/1.9.7rc2-1.9.7rc3/diff.md --exclude *.pyd
+[2023-04-21 09:47:52] INFO root fetch - processPackages [unitranscode]: Downloading https://files.pythonhosted.org/packages/48/e1/84b6520fb2dff374a846b12964b95086a7e8223cf1dff202f8dbf935e84c/unitranscode-0.2.0.tar.gz
+[2023-04-21 09:47:52] INFO root fetch - processPackages [mindsdb-sql]: executing diffoscope
+[2023-04-21 09:47:52] INFO root fetch - processPackages [mindsdb-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsdb_sql-0.5.1.tar.gz tmp/mindsdb_sql-0.6.0.tar.gz --markdown 20230421/m/mindsdb-sql/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-21 09:47:52] INFO root fetch - processPackages [unitranscode]: executing diffoscope
+[2023-04-21 09:47:52] INFO root fetch - processPackages [unitranscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitranscode-0.1.0.tar.gz tmp/unitranscode-0.2.0.tar.gz --markdown 20230421/u/unitranscode/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 09:47:52] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-04-21 09:47:52] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.1.83.tar.gz tmp/sparrow-order-lib-0.1.9.tar.gz --markdown 20230421/s/sparrow-order-lib/0.1.83-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 09:47:52] INFO root fetch - processPackages [econll]: Downloading https://files.pythonhosted.org/packages/b0/d3/b214fd2e04ffeed3a6a97ba03b127d9836e98927ee3cb176a379eb9b51c3/econll-0.2.1-py3-none-any.whl
+[2023-04-21 09:47:52] INFO root fetch - processPackages [odoo-addon-mrp-lot-number-propagation]: Downloading https://files.pythonhosted.org/packages/7f/b8/2286bb0b6bce77ac319dbf60c8f82e4c84a501dcc326ee29be93d9db7d17/odoo_addon_mrp_lot_number_propagation-15.0.0.3.0-py3-none-any.whl
+[2023-04-21 09:47:52] INFO root fetch - processPackages [videobox]: Downloading https://files.pythonhosted.org/packages/04/eb/6f80d43748264b4e5cde30b87d808ff18384665a32a390f0a3878dd06cbc/videobox-0.4.1.tar.gz
+[2023-04-21 09:47:52] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/73/c1/ef9e846f2158c75b1453aca3e9412c8844732f43768791438fd14ad4a409/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl
+[2023-04-21 09:47:52] INFO root fetch - processPackages [odoo-addon-mrp-lot-number-propagation]: executing diffoscope
+[2023-04-21 09:47:52] INFO root fetch - processPackages [odoo-addon-mrp-lot-number-propagation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_lot_number_propagation-15.0.0.2.0.2-py3-none-any.whl.zip tmp/odoo_addon_mrp_lot_number_propagation-15.0.0.3.0-py3-none-any.whl.zip --markdown 20230421/o/odoo-addon-mrp-lot-number-propagation/15.0.0.2.0.2-15.0.0.3.0/diff.md --exclude *.pyd
+[2023-04-21 09:47:52] INFO root fetch - processPackages [videobox]: executing diffoscope
+[2023-04-21 09:47:52] INFO root fetch - processPackages [videobox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videobox-0.4.0.tar.gz tmp/videobox-0.4.1.tar.gz --markdown 20230421/v/videobox/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-21 09:47:52] INFO root fetch - processPackages [econll]: executing diffoscope
+[2023-04-21 09:47:52] INFO root fetch - processPackages [econll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econll-0.1.2.tar.gz tmp/econll-0.2.1-py3-none-any.whl.zip --markdown 20230421/e/econll/0.1.2-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 09:47:52] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: executing diffoscope
+[2023-04-21 09:47:52] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl.zip tmp/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230421/o/odoo14-addon-mrp-multi-level/14.0.1.8.1-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-04-21 09:47:52] INFO root fetch - processPackages [write-the]: executing diffoscope
+[2023-04-21 09:47:52] INFO root fetch - processPackages [write-the]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_the-0.7.0.tar.gz tmp/write_the-0.7.1.tar.gz --markdown 20230421/w/write-the/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-21 09:47:53] INFO root fetch - processPackages [cc-lvs]: Start processing: lovehim
+[2023-04-21 09:47:53] INFO root fetch - main [MainThread]: End processing [cc-lvs]: success
+[2023-04-21 09:47:53] INFO root fetch - processPackages [lovehim]: New version: [0.4] Old Version: [0.3]
+[2023-04-21 09:47:53] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/9d/05/b3d279cea35ef7438d3ffb17a1a0374598d8ab8757fb8f8196996d21beeb/lovehim-0.3.tar.gz
+[2023-04-21 09:47:53] INFO root fetch - processPackages [spacectl]: Start processing: keras-nightly
+[2023-04-21 09:47:53] INFO root fetch - main [MainThread]: End processing [spacectl]: success
+[2023-04-21 09:47:53] INFO root fetch - processPackages [lovehim]: Downloading https://files.pythonhosted.org/packages/96/f1/afdc1ae334d87c1033a0ec660e43d12560bfd7850785ebb5f46765e4f28d/lovehim-0.4.tar.gz
+[2023-04-21 09:47:53] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-04-21 09:47:53] INFO root fetch - processPackages [lovehim]: executing diffoscope
+[2023-04-21 09:47:53] INFO root fetch - processPackages [lovehim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovehim-0.3.tar.gz tmp/lovehim-0.4.tar.gz --markdown 20230421/l/lovehim/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-21 09:47:54] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-04-21 09:47:54] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230421/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-04-21 09:47:54] INFO root fetch - main [MainThread]: End processing [econll]: success
+[2023-04-21 09:47:54] INFO root fetch - main [MainThread]: End processing [unitranscode]: success
+[2023-04-21 09:47:54] INFO root fetch - main [MainThread]: End processing [mindsdb-sql]: success
+[2023-04-21 09:47:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-lot-number-propagation]: success
+[2023-04-21 09:47:54] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-04-21 09:47:54] INFO root fetch - main [MainThread]: End processing [write-the]: success
+[2023-04-21 09:47:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-multi-level]: success
+[2023-04-21 09:47:55] INFO root fetch - main [MainThread]: End processing [videobox]: success
+[2023-04-21 09:47:55] INFO root fetch - main [MainThread]: End processing [lovehim]: success
+[2023-04-21 09:48:04] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-04-21 09:48:04] INFO root fetch - main [MainThread]: Store serial: [17800347]
