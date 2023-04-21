@@ -6619,3 +6619,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 04:28:21] INFO root fetch - main [MainThread]: End processing [synapseclient]: success
 [2023-04-21 04:28:22] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-04-21 04:28:22] INFO root fetch - main [MainThread]: Store serial: [17798348]
+[2023-04-21 04:33:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798348]
+[2023-04-21 04:33:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 04:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-25
+[2023-04-21 04:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vmilog-py
+[2023-04-21 04:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-26
+[2023-04-21 04:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: banditcoot
+[2023-04-21 04:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuzzly
+[2023-04-21 04:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-service-client
+[2023-04-21 04:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-service-server
+[2023-04-21 04:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scale-sensor-fusion-io
+[2023-04-21 04:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-ui
+[2023-04-21 04:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-v4-service
+[2023-04-21 04:33:31] INFO root fetch - processPackages [banditcoot]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-21 04:33:31] INFO root fetch - processPackages [fuzzly]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-21 04:33:31] INFO root fetch - processPackages [scale-sensor-fusion-io]: New version: [0.0.6] Old Version: [0.0.10]
+[2023-04-21 04:33:31] INFO root fetch - processPackages [vmilog-py]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-21 04:33:31] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-04-21 04:33:31] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.4] Old Version: [2.7.3]
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 04:33:31] INFO root fetch - processPackages [scale-sensor-fusion-io]: Downloading https://files.pythonhosted.org/packages/73/e4/8a99141d860f57e77c032545757fc10b15eef02a14d556976f9eee798684/scale_sensor_fusion_io-0.0.10.tar.gz
+[2023-04-21 04:33:31] INFO root fetch - processPackages [fuzzly]: Downloading https://files.pythonhosted.org/packages/1f/31/0c65eb40e6c145ccc850558feeec82ce12fbc0a74fa11847714c524c00d0/fuzzly-0.0.2.tar.gz
+[2023-04-21 04:33:31] INFO root fetch - processPackages [banditcoot]: Downloading https://files.pythonhosted.org/packages/14/d3/49afd694eda63945b946e2232f4725eb5e1d537a9df8e476a1283c0dbc2d/banditcoot-0.1.3.tar.gz
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-04-21 04:33:31] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230421/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 04:33:31] INFO root fetch - processPackages [vmilog-py]: Downloading https://files.pythonhosted.org/packages/6a/1b/a2bb3fd94bb512fae48d73aa2355d35f1d45d2b250ece490e88be6add241/vmilog-py-0.5.0.tar.gz
+[2023-04-21 04:33:32] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/c6/87/79414f918342b24e3fc65e4097f546ac55b0b258e41848a6fd3766d73026/cdk8s-plus-26-2.3.4.tar.gz
+[2023-04-21 04:33:32] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/54/5d/2e585c3c5048ab42e0b0b72b9acc3ba72b122bf19b2f34b23e1c1a27f62c/cdk8s-plus-25-2.7.4.tar.gz
+[2023-04-21 04:33:32] INFO root fetch - processPackages [fuzzly]: Downloading https://files.pythonhosted.org/packages/9c/83/6494090cdfc76d90b0ec2935b735627507a25e5823e2c8462e892d7c129f/fuzzly-0.0.3.tar.gz
+[2023-04-21 04:33:32] INFO root fetch - processPackages [banditcoot]: Downloading https://files.pythonhosted.org/packages/bb/64/14091fd95da13d30c56a73f9c7d21e01aa2873ea5140e3f49e69bd44db0e/banditcoot-0.1.4.tar.gz
+[2023-04-21 04:33:32] INFO root fetch - processPackages [vmilog-py]: executing diffoscope
+[2023-04-21 04:33:32] INFO root fetch - processPackages [vmilog-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmilog-py-0.4.0.tar.gz tmp/vmilog-py-0.5.0.tar.gz --markdown 20230421/v/vmilog-py/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-21 04:33:32] INFO root fetch - processPackages [scale-sensor-fusion-io]: Downloading https://files.pythonhosted.org/packages/6e/6b/364c5837d4889c8048d4abdaa5064f01f9a41a89ac97bc3ecd647e3b03d4/scale_sensor_fusion_io-0.0.6-py3-none-any.whl
+[2023-04-21 04:33:32] INFO root fetch - processPackages [fuzzly]: executing diffoscope
+[2023-04-21 04:33:32] INFO root fetch - processPackages [fuzzly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzly-0.0.2.tar.gz tmp/fuzzly-0.0.3.tar.gz --markdown 20230421/f/fuzzly/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 04:33:32] INFO root fetch - processPackages [banditcoot]: executing diffoscope
+[2023-04-21 04:33:32] INFO root fetch - processPackages [banditcoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banditcoot-0.1.3.tar.gz tmp/banditcoot-0.1.4.tar.gz --markdown 20230421/b/banditcoot/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-21 04:33:32] INFO root fetch - processPackages [scale-sensor-fusion-io]: executing diffoscope
+[2023-04-21 04:33:32] INFO root fetch - processPackages [scale-sensor-fusion-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_sensor_fusion_io-0.0.10.tar.gz tmp/scale_sensor_fusion_io-0.0.6-py3-none-any.whl.zip --markdown 20230421/s/scale-sensor-fusion-io/0.0.10-0.0.6/diff.md --exclude *.pyd
+[2023-04-21 04:33:32] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-04-21 04:33:32] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.3.tar.gz tmp/cdk8s-plus-26-2.3.4.tar.gz --markdown 20230421/c/cdk8s-plus-26/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-04-21 04:33:32] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-04-21 04:33:32] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.3.tar.gz tmp/cdk8s-plus-25-2.7.4.tar.gz --markdown 20230421/c/cdk8s-plus-25/2.7.3-2.7.4/diff.md --exclude *.pyd
+[2023-04-21 04:33:33] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline
+[2023-04-21 04:33:33] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-04-21 04:33:33] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 04:33:33] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline-core
+[2023-04-21 04:33:33] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-04-21 04:33:33] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-21 04:33:33] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-04-21 04:33:33] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230421/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 04:33:33] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-04-21 04:33:33] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230421/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-21 04:33:33] INFO root fetch - processPackages [assemblyline-ui]: Start processing: agpt
+[2023-04-21 04:33:33] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-04-21 04:33:34] INFO root fetch - processPackages [banditcoot]: Start processing: JustDeepIt
+[2023-04-21 04:33:34] INFO root fetch - main [MainThread]: End processing [banditcoot]: success
+[2023-04-21 04:33:34] WARNING root fetch - processPackages [agpt]: Skipping, unable to determine old version
+[2023-04-21 04:33:34] INFO root fetch - main [MainThread]: End processing [agpt] error
+[2023-04-21 04:33:34] INFO root fetch - processPackages [JustDeepIt]: New version: [0.1.28] Old Version: [0.1.27]
+[2023-04-21 04:33:34] INFO root fetch - main [MainThread]: End processing [vmilog-py]: success
+[2023-04-21 04:33:34] INFO root fetch - main [MainThread]: End processing [fuzzly]: success
+[2023-04-21 04:33:34] INFO root fetch - processPackages [JustDeepIt]: Downloading https://files.pythonhosted.org/packages/81/cd/418a5561ba5c8b4c3fe7c5d6ab2b435608c721a22d58678a8cab0c692f80/JustDeepIt-0.1.27.tar.gz
+[2023-04-21 04:33:34] INFO root fetch - main [MainThread]: End processing [scale-sensor-fusion-io]: success
+[2023-04-21 04:33:34] INFO root fetch - processPackages [JustDeepIt]: Downloading https://files.pythonhosted.org/packages/20/f8/bcd3504c23a5b086f2008b3092c9bd6449c6a7a419f69521b37954d5a6cf/JustDeepIt-0.1.28.tar.gz
+[2023-04-21 04:33:34] INFO root fetch - processPackages [JustDeepIt]: executing diffoscope
+[2023-04-21 04:33:34] INFO root fetch - processPackages [JustDeepIt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustDeepIt-0.1.27.tar.gz tmp/JustDeepIt-0.1.28.tar.gz --markdown 20230421/J/JustDeepIt/0.1.27-0.1.28/diff.md --exclude *.pyd
+[2023-04-21 04:33:34] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-04-21 04:33:35] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-04-21 04:33:35] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-04-21 04:33:35] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-04-21 04:33:36] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-04-21 04:33:36] INFO root fetch - main [MainThread]: End processing [JustDeepIt]: success
+[2023-04-21 04:33:36] INFO root fetch - main [MainThread]: Store serial: [17798394]
