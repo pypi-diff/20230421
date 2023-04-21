@@ -18918,3 +18918,60 @@ EOFError: EOF read where object expected
 [2023-04-21 18:24:57] INFO root fetch - main [MainThread]: End processing [lightkube]: success
 [2023-04-21 18:24:58] INFO root fetch - main [MainThread]: End processing [tensorflow-nearest-neighbours]: success
 [2023-04-21 18:24:58] INFO root fetch - main [MainThread]: Store serial: [17805906]
+[2023-04-21 18:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17805906]
+[2023-04-21 18:30:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-21 18:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psycopg2-mq
+[2023-04-21 18:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cfgs
+[2023-04-21 18:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linearmodels
+[2023-04-21 18:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmrsim
+[2023-04-21 18:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysIyte
+[2023-04-21 18:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geovista-slam
+[2023-04-21 18:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: feathub-nightly
+[2023-04-21 18:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: isa-ssl
+[2023-04-21 18:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ibmsecurity
+[2023-04-21 18:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sharingiscaring
+[2023-04-21 18:30:09] INFO root fetch - processPackages [cfgs]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-04-21 18:30:09] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 18:30:09] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230420] Old Version: [0.1.dev20230419]
+[2023-04-21 18:30:09] INFO root fetch - processPackages [geovista-slam]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 18:30:09] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-04-21 18:30:09] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230421/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 18:30:09] INFO root fetch - processPackages [cfgs]: executing diffoscope
+[2023-04-21 18:30:09] INFO root fetch - processPackages [cfgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfgs-0.9.7.tar.gz tmp/cfgs-0.9.9.tar.gz --markdown 20230421/c/cfgs/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 18:30:09] WARNING root fetch - processPackages [pysIyte]: Skipping, unable to determine old version
+[2023-04-21 18:30:09] INFO root fetch - main [MainThread]: End processing [pysIyte] error
+[2023-04-21 18:30:09] INFO root fetch - processPackages [cmrsim]: New version: [0.26] Old Version: [0.25]
+[2023-04-21 18:30:09] INFO root fetch - processPackages [feathub-nightly]: executing diffoscope
+[2023-04-21 18:30:09] INFO root fetch - processPackages [feathub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feathub_nightly-0.1.dev20230419-py3-none-any.whl.zip tmp/feathub_nightly-0.1.dev20230420-py3-none-any.whl.zip --markdown 20230421/f/feathub-nightly/0.1.dev20230419-0.1.dev20230420/diff.md --exclude *.pyd
+[2023-04-21 18:30:09] INFO root fetch - processPackages [linearmodels]: New version: [4.9] Old Version: [4.8]
+[2023-04-21 18:30:09] INFO root fetch - processPackages [psycopg2-mq]: New version: [0.9] Old Version: [0.8.3]
+[2023-04-21 18:30:09] WARNING root fetch - processPackages [isa-ssl]: Skipping, unable to determine old version
+[2023-04-21 18:30:09] INFO root fetch - main [MainThread]: End processing [isa-ssl] error
+[2023-04-21 18:30:10] INFO root fetch - processPackages [geovista-slam]: executing diffoscope
+[2023-04-21 18:30:10] INFO root fetch - processPackages [geovista-slam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovista-slam-0.1.0.tar.gz tmp/geovista-slam-0.1.1.tar.gz --markdown 20230421/g/geovista-slam/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 18:30:10] INFO root fetch - processPackages [ibmsecurity]: New version: [2023.4.21.0] Old Version: [2023.3.10.0]
+[2023-04-21 18:30:10] INFO root fetch - processPackages [ibmsecurity]: Downloading https://files.pythonhosted.org/packages/78/29/8e3fe553824c4b8ab81532d08e399ef0df7ff9b121541c9269d0c1addb59/ibmsecurity-2023.3.10.0.tar.gz
+[2023-04-21 18:30:10] INFO root fetch - processPackages [psycopg2-mq]: Downloading https://files.pythonhosted.org/packages/f8/2b/a686e90658016aa015b3f2f821d57a03e56c18e4d647ba679ecbfe1aa1ae/psycopg2_mq-0.8.3.tar.gz
+[2023-04-21 18:30:10] INFO root fetch - processPackages [cmrsim]: Downloading https://files.pythonhosted.org/packages/4c/c5/0e17b3a451e2c30649adc4808d1fee5df0efebe6205d9a144c2c0dbacc22/cmrsim-0.25-py3-none-any.whl
+[2023-04-21 18:30:10] INFO root fetch - processPackages [ibmsecurity]: Downloading https://files.pythonhosted.org/packages/f9/ef/310f8e8c04580e15b88aef98af5fcec4862281f7a81b3dcd8dcf2c876758/ibmsecurity-2023.4.21.0.tar.gz
+[2023-04-21 18:30:10] INFO root fetch - processPackages [psycopg2-mq]: Downloading https://files.pythonhosted.org/packages/cc/2e/daacc6b2f583ef121d74d9085841af8ff64426f8c5cd1040a9935654cc03/psycopg2_mq-0.9.tar.gz
+[2023-04-21 18:30:10] INFO root fetch - processPackages [cmrsim]: Downloading https://files.pythonhosted.org/packages/5d/8d/a523fd69d449170f3d5c6cb2992bc162337eafedda95e6323b8faf292895/cmrsim-0.26-py3-none-any.whl
+[2023-04-21 18:30:10] INFO root fetch - processPackages [ibmsecurity]: executing diffoscope
+[2023-04-21 18:30:10] INFO root fetch - processPackages [ibmsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibmsecurity-2023.3.10.0.tar.gz tmp/ibmsecurity-2023.4.21.0.tar.gz --markdown 20230421/i/ibmsecurity/2023.3.10.0-2023.4.21.0/diff.md --exclude *.pyd
+[2023-04-21 18:30:10] INFO root fetch - processPackages [psycopg2-mq]: executing diffoscope
+[2023-04-21 18:30:10] INFO root fetch - processPackages [psycopg2-mq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg2_mq-0.8.3.tar.gz tmp/psycopg2_mq-0.9.tar.gz --markdown 20230421/p/psycopg2-mq/0.8.3-0.9/diff.md --exclude *.pyd
+[2023-04-21 18:30:10] INFO root fetch - processPackages [cmrsim]: executing diffoscope
+[2023-04-21 18:30:10] INFO root fetch - processPackages [cmrsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmrsim-0.25-py3-none-any.whl.zip tmp/cmrsim-0.26-py3-none-any.whl.zip --markdown 20230421/c/cmrsim/0.25-0.26/diff.md --exclude *.pyd
+[2023-04-21 18:30:10] INFO root fetch - processPackages [linearmodels]: Downloading https://files.pythonhosted.org/packages/e7/1c/57d5c57c0db9663b727328ceaa0c3b322d9d732cbb6e6ce837aa96d7dd8a/linearmodels-4.8.tar.gz
+[2023-04-21 18:30:11] INFO root fetch - main [MainThread]: End processing [cfgs]: success
+[2023-04-21 18:30:11] INFO root fetch - main [MainThread]: End processing [geovista-slam]: success
+[2023-04-21 18:30:12] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-04-21 18:30:12] INFO root fetch - processPackages [linearmodels]: Downloading https://files.pythonhosted.org/packages/85/67/e8661132e2c1859c0e9d498c6d0932b43b45d59ae4db0cefd91f758f8e1d/linearmodels-4.9.tar.gz
+[2023-04-21 18:30:12] INFO root fetch - main [MainThread]: End processing [psycopg2-mq]: success
+[2023-04-21 18:30:12] INFO root fetch - main [MainThread]: End processing [cmrsim]: success
+[2023-04-21 18:30:12] INFO root fetch - processPackages [linearmodels]: executing diffoscope
+[2023-04-21 18:30:12] INFO root fetch - processPackages [linearmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linearmodels-4.8.tar.gz tmp/linearmodels-4.9.tar.gz --markdown 20230421/l/linearmodels/4.8-4.9/diff.md --exclude *.pyd
+[2023-04-21 18:30:12] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
+[2023-04-21 18:30:14] INFO root fetch - main [MainThread]: End processing [ibmsecurity]: success
+[2023-04-21 18:30:17] INFO root fetch - main [MainThread]: End processing [linearmodels]: success
+[2023-04-21 18:30:17] INFO root fetch - main [MainThread]: Store serial: [17805949]
