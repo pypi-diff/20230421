@@ -21437,3 +21437,87 @@ EOFError: EOF read where object expected
 [2023-04-21 21:13:38] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
 [2023-04-21 21:13:48] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-04-21 21:13:48] INFO root fetch - main [MainThread]: Store serial: [17807524]
+[2023-04-21 21:18:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17807524]
+[2023-04-21 21:18:59] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-21 21:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shunting-yard
+[2023-04-21 21:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seleniumbase
+[2023-04-21 21:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaml-stripper
+[2023-04-21 21:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prodia-python
+[2023-04-21 21:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terrario
+[2023-04-21 21:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bizlogic
+[2023-04-21 21:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pylibcugraph-cu11
+[2023-04-21 21:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: formfyxer
+[2023-04-21 21:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plixkws
+[2023-04-21 21:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spark-sql-to-sqlite
+[2023-04-21 21:18:59] INFO root fetch - processPackages [yaml-stripper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 21:18:59] WARNING root fetch - processPackages [bizlogic]: Skipping, unable to determine old version
+[2023-04-21 21:18:59] INFO root fetch - processPackages [bizlogic]: Start processing: liftcord
+[2023-04-21 21:18:59] INFO root fetch - main [MainThread]: End processing [bizlogic] error
+[2023-04-21 21:18:59] INFO root fetch - processPackages [pylibcugraph-cu11]: New version: [23.4.1] Old Version: [23.4.0.1681368249]
+[2023-04-21 21:18:59] INFO root fetch - processPackages [prodia-python]: New version: [1.6] Old Version: [1.5]
+[2023-04-21 21:18:59] WARNING root fetch - processPackages [plixkws]: Skipping, unable to determine old version
+[2023-04-21 21:18:59] INFO root fetch - processPackages [shunting-yard]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-21 21:18:59] INFO root fetch - processPackages [plixkws]: Start processing: liftcord
+[2023-04-21 21:18:59] INFO root fetch - main [MainThread]: End processing [plixkws] error
+[2023-04-21 21:18:59] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:18:59] INFO root fetch - processPackages [spark-sql-to-sqlite]: New version: [0.5] Old Version: [0.4]
+[2023-04-21 21:18:59] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-21 21:18:59] INFO root fetch - processPackages [formfyxer]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-21 21:18:59] INFO root fetch - processPackages [liftcord]: New version: [2.3.0a0] Old Version: [1.1]
+[2023-04-21 21:18:59] INFO root fetch - processPackages [liftcord]: New version: [2.3.0a0] Old Version: [1.1]
+[2023-04-21 21:18:59] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:18:59] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:18:59] INFO root fetch - processPackages [yaml-stripper]: Downloading https://files.pythonhosted.org/packages/b6/fe/7bf56efeb27e3191b083b36a622640e76e38f45ab41797e9ee15939616a4/yaml-stripper-0.1.0.tar.gz
+[2023-04-21 21:18:59] INFO root fetch - processPackages [spark-sql-to-sqlite]: executing diffoscope
+[2023-04-21 21:18:59] INFO root fetch - processPackages [spark-sql-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sql_to_sqlite-0.4.tar.gz tmp/spark_sql_to_sqlite-0.5.tar.gz --markdown 20230421/s/spark-sql-to-sqlite/0.4-0.5/diff.md --exclude *.pyd
+[2023-04-21 21:18:59] INFO root fetch - processPackages [prodia-python]: Downloading https://files.pythonhosted.org/packages/ae/8c/0d6e168445517ad1f9627280b270635e41445b18579408c6e3879f777afb/prodia-python-1.6.tar.gz
+[2023-04-21 21:18:59] INFO root fetch - processPackages [liftcord]: Downloading https://files.pythonhosted.org/packages/80/38/e6a1d6a96151837d64807f6bc387f1e6e021294eb716bfbc73edf26dd519/liftcord-1.1.tar.gz
+[2023-04-21 21:18:59] INFO root fetch - processPackages [liftcord]: Downloading https://files.pythonhosted.org/packages/80/38/e6a1d6a96151837d64807f6bc387f1e6e021294eb716bfbc73edf26dd519/liftcord-1.1.tar.gz
+[2023-04-21 21:18:59] INFO root fetch - processPackages [formfyxer]: Downloading https://files.pythonhosted.org/packages/60/58/92652592612ef87caeda392c3861fb4733ee94221d13d0d98ab7dba5706a/formfyxer-0.1.1.tar.gz
+[2023-04-21 21:18:59] INFO root fetch - processPackages [prodia-python]: executing diffoscope
+[2023-04-21 21:18:59] INFO root fetch - processPackages [prodia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodia-python-1.5.tar.gz tmp/prodia-python-1.6.tar.gz --markdown 20230421/p/prodia-python/1.5-1.6/diff.md --exclude *.pyd
+[2023-04-21 21:18:59] INFO root fetch - processPackages [pylibcugraph-cu11]: Downloading https://files.pythonhosted.org/packages/c2/28/84c2534cd3f83191737529c69809b3c0ed0a75ebaf0666e8b72cdeb022f5/pylibcugraph_cu11-23.4.1.tar.gz
+[2023-04-21 21:18:59] INFO root fetch - processPackages [shunting-yard]: executing diffoscope
+[2023-04-21 21:18:59] INFO root fetch - processPackages [shunting-yard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shunting-yard-1.0.8.tar.gz tmp/shunting-yard-1.0.9.tar.gz --markdown 20230421/s/shunting-yard/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:18:59] INFO root fetch - processPackages [yaml-stripper]: Downloading https://files.pythonhosted.org/packages/2e/a7/6cbd0f8a6dc262ab6dcd8fe7621554703474464bfda4b69d0e79860810df/yaml-stripper-0.1.1.tar.gz
+[2023-04-21 21:18:59] INFO root fetch - processPackages [pylibcugraph-cu11]: executing diffoscope
+[2023-04-21 21:18:59] INFO root fetch - processPackages [pylibcugraph-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibcugraph_cu11-23.4.0.1681368249.tar.gz tmp/pylibcugraph_cu11-23.4.1.tar.gz --markdown 20230421/p/pylibcugraph-cu11/23.4.0.1681368249-23.4.1/diff.md --exclude *.pyd
+[2023-04-21 21:18:59] INFO root fetch - processPackages [yaml-stripper]: executing diffoscope
+[2023-04-21 21:18:59] INFO root fetch - processPackages [yaml-stripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-stripper-0.1.0.tar.gz tmp/yaml-stripper-0.1.1.tar.gz --markdown 20230421/y/yaml-stripper/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 21:18:59] INFO root fetch - processPackages [liftcord]: Downloading https://files.pythonhosted.org/packages/7b/5b/e5c3128728cb25dd8c1d5ca93b0e01ba64e09aadc36819dbb07d57e07aaf/liftcord-2.3.0a0.tar.gz
+[2023-04-21 21:18:59] INFO root fetch - processPackages [liftcord]: Downloading https://files.pythonhosted.org/packages/7b/5b/e5c3128728cb25dd8c1d5ca93b0e01ba64e09aadc36819dbb07d57e07aaf/liftcord-2.3.0a0.tar.gz
+[2023-04-21 21:18:59] INFO root fetch - processPackages [formfyxer]: Downloading https://files.pythonhosted.org/packages/4a/d5/fe124ca3c060f5e7152bc479ee22e77ce660d12be8f242bed16188a92948/formfyxer-0.2.0.tar.gz
+[2023-04-21 21:18:59] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-04-21 21:18:59] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230421/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-21 21:18:59] INFO root fetch - processPackages [liftcord]: executing diffoscope
+[2023-04-21 21:18:59] INFO root fetch - processPackages [liftcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liftcord-1.1.tar.gz tmp/liftcord-2.3.0a0.tar.gz --markdown 20230421/l/liftcord/1.1-2.3.0a0/diff.md --exclude *.pyd
+[2023-04-21 21:18:59] INFO root fetch - processPackages [liftcord]: executing diffoscope
+[2023-04-21 21:18:59] INFO root fetch - processPackages [liftcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liftcord-1.1.tar.gz tmp/liftcord-2.3.0a0.tar.gz --markdown 20230421/l/liftcord/1.1-2.3.0a0/diff.md --exclude *.pyd
+[2023-04-21 21:18:59] INFO root fetch - processPackages [formfyxer]: executing diffoscope
+[2023-04-21 21:18:59] INFO root fetch - processPackages [formfyxer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formfyxer-0.1.1.tar.gz tmp/formfyxer-0.2.0.tar.gz --markdown 20230421/f/formfyxer/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-21 21:19:00] INFO root fetch - processPackages [spark-sql-to-sqlite]: Start processing: mythic-container
+[2023-04-21 21:19:00] INFO root fetch - main [MainThread]: End processing [spark-sql-to-sqlite]: success
+[2023-04-21 21:19:00] INFO root fetch - processPackages [terrario]: Start processing: terrario
+[2023-04-21 21:19:00] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:19:00] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 21:19:00] INFO root fetch - processPackages [mythic-container]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2023-04-21 21:19:00] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-21 21:19:00] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230421/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 21:19:01] INFO root fetch - processPackages [prodia-python]: Start processing: pvmodule
+[2023-04-21 21:19:01] INFO root fetch - main [MainThread]: End processing [prodia-python]: success
+[2023-04-21 21:19:01] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-04-21 21:19:01] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.0rc8.tar.gz tmp/mythic_container-0.2.0rc9.tar.gz --markdown 20230421/m/mythic-container/0.2.0rc8-0.2.0rc9/diff.md --exclude *.pyd
+[2023-04-21 21:19:01] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-21 21:19:01] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-04-21 21:19:01] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230421/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-21 21:19:01] INFO root fetch - main [MainThread]: End processing [pylibcugraph-cu11]: success
+[2023-04-21 21:19:01] INFO root fetch - main [MainThread]: End processing [shunting-yard]: success
+[2023-04-21 21:19:01] INFO root fetch - main [MainThread]: End processing [yaml-stripper]: success
+[2023-04-21 21:19:02] INFO root fetch - main [MainThread]: End processing [liftcord]: success
+[2023-04-21 21:19:02] INFO root fetch - main [MainThread]: End processing [liftcord]: success
+[2023-04-21 21:19:02] INFO root fetch - main [MainThread]: End processing [terrario]: success
+[2023-04-21 21:19:03] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-04-21 21:19:03] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-04-21 21:19:04] INFO root fetch - main [MainThread]: End processing [formfyxer]: success
+[2023-04-21 21:19:05] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-04-21 21:19:05] INFO root fetch - main [MainThread]: Store serial: [17807571]
