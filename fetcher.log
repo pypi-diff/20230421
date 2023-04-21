@@ -13083,3 +13083,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 13:00:07] INFO root fetch - main [MainThread]: End processing [ekonlpy]: success
 [2023-04-21 13:00:08] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
 [2023-04-21 13:00:08] INFO root fetch - main [MainThread]: Store serial: [17802086]
+[2023-04-21 13:05:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802086]
+[2023-04-21 13:05:17] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-21 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pre-commit-update
+[2023-04-21 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mikro
+[2023-04-21 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk-preview
+[2023-04-21 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fractal-server
+[2023-04-21 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-sdk
+[2023-04-21 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skyagi
+[2023-04-21 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dune-harmonizer
+[2023-04-21 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mikro
+[2023-04-21 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorcro
+[2023-04-21 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyfi
+[2023-04-21 13:05:17] INFO root fetch - processPackages [fractal-server]: New version: [1.2.1] Old Version: [1.2.0a5]
+[2023-04-21 13:05:17] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 13:05:17] INFO root fetch - processPackages [skyagi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-21 13:05:17] INFO root fetch - processPackages [tensorcro]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-04-21 13:05:17] INFO root fetch - processPackages [hyfi]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 13:05:17] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-21 13:05:17] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 13:05:17] INFO root fetch - processPackages [pre-commit-update]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-21 13:05:17] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-04-21 13:05:17] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.2.0a5.tar.gz tmp/fractal_server-1.2.1.tar.gz --markdown 20230421/f/fractal-server/1.2.0a5-1.2.1/diff.md --exclude *.pyd
+[2023-04-21 13:05:17] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-04-21 13:05:17] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230421/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 13:05:17] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-04-21 13:05:17] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230421/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 13:05:17] INFO root fetch - processPackages [skyagi]: executing diffoscope
+[2023-04-21 13:05:17] INFO root fetch - processPackages [skyagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyagi-0.0.8.tar.gz tmp/skyagi-0.0.9.tar.gz --markdown 20230421/s/skyagi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 13:05:17] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.91] Old Version: [1.0.9]
+[2023-04-21 13:05:17] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-04-21 13:05:17] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.2.7.tar.gz tmp/hyfi-0.2.8.tar.gz --markdown 20230421/h/hyfi/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 13:05:18] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.91] Old Version: [1.0.9]
+[2023-04-21 13:05:18] INFO root fetch - processPackages [tensorcro]: Downloading https://files.pythonhosted.org/packages/9c/8d/1c4849428804bb6f58691f0633023aae78f5d440447f90494b8e5fc27a49/tensorcro-1.1.2.tar.gz
+[2023-04-21 13:05:18] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/39/22/73d22ee87cba96c2e4719fc1302cb8a685ddd8f94d4e48986f13300212a7/dune_harmonizer-0.4.1.tar.gz
+[2023-04-21 13:05:18] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-04-21 13:05:18] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.4.0.tar.gz tmp/dune_harmonizer-0.4.1.tar.gz --markdown 20230421/d/dune-harmonizer/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-21 13:05:18] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/14/a1/02be5b7e9b3b387204a90a6cf26662b5c4e3d32e21f5e683f97153c7977a/pre_commit_update-0.0.7.tar.gz
+[2023-04-21 13:05:18] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-04-21 13:05:18] INFO root fetch - processPackages [tensorcro]: Downloading https://files.pythonhosted.org/packages/89/aa/c931a22b625c8ced4dd9e50c4c3ff7f8b24c05139609abe26747f56db000/tensorcro-1.2.0.tar.gz
+[2023-04-21 13:05:18] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-04-21 13:05:18] INFO root fetch - processPackages [pre-commit-update]: executing diffoscope
+[2023-04-21 13:05:18] INFO root fetch - processPackages [pre-commit-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit_update-0.0.6.tar.gz tmp/pre_commit_update-0.0.7.tar.gz --markdown 20230421/p/pre-commit-update/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-21 13:05:18] INFO root fetch - processPackages [tensorcro]: executing diffoscope
+[2023-04-21 13:05:18] INFO root fetch - processPackages [tensorcro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcro-1.1.2.tar.gz tmp/tensorcro-1.2.0.tar.gz --markdown 20230421/t/tensorcro/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-21 13:05:18] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-04-21 13:05:18] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.9.tar.gz tmp/lusid-sdk-preview-1.0.91.tar.gz --markdown 20230421/l/lusid-sdk-preview/1.0.9-1.0.91/diff.md --exclude *.pyd
+[2023-04-21 13:05:18] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-04-21 13:05:18] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.9.tar.gz tmp/lusid-sdk-1.0.91.tar.gz --markdown 20230421/l/lusid-sdk/1.0.9-1.0.91/diff.md --exclude *.pyd
+[2023-04-21 13:05:19] INFO root fetch - processPackages [mikro]: Start processing: catprompt
+[2023-04-21 13:05:19] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-04-21 13:05:19] INFO root fetch - processPackages [catprompt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-21 13:05:19] INFO root fetch - processPackages [mikro]: Start processing: scrape-schema
+[2023-04-21 13:05:19] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-04-21 13:05:19] INFO root fetch - processPackages [skyagi]: Start processing: tinytag
+[2023-04-21 13:05:19] INFO root fetch - main [MainThread]: End processing [skyagi]: success
+[2023-04-21 13:05:19] INFO root fetch - processPackages [dune-harmonizer]: Start processing: bigdl-nano
+[2023-04-21 13:05:19] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-04-21 13:05:19] INFO root fetch - processPackages [scrape-schema]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 13:05:19] INFO root fetch - processPackages [catprompt]: Downloading https://files.pythonhosted.org/packages/f0/e2/93155b675777440e4bcbf23847248db0ff33977661e669178d0c6741849c/catprompt-0.0.4.tar.gz
+[2023-04-21 13:05:20] INFO root fetch - processPackages [tinytag]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-21 13:05:20] INFO root fetch - processPackages [catprompt]: executing diffoscope
+[2023-04-21 13:05:20] INFO root fetch - processPackages [catprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catprompt-0.0.3.tar.gz tmp/catprompt-0.0.4.tar.gz --markdown 20230421/c/catprompt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-21 13:05:20] INFO root fetch - processPackages [tinytag]: Downloading https://files.pythonhosted.org/packages/0b/19/070bfa9fe5fa2bf220282842621ec48b03896213683de284fdf727e8fd93/tinytag-1.8.1.tar.gz
+[2023-04-21 13:05:20] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/7d/72/1a6a4cba9e32ba93a3e8ba0399e37eddcfb626faf9277343c9a531cf8c20/scrape_schema-0.0.1.tar.gz
+[2023-04-21 13:05:20] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-04-21 13:05:20] INFO root fetch - main [MainThread]: End processing [pre-commit-update]: success
+[2023-04-21 13:05:20] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-04-21 13:05:20] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/51/f5/7e6dac5d5bfcae7310710bf05c9390b29ca27ec2c72aa398b898a6baf3f7/scrape_schema-0.0.2.tar.gz
+[2023-04-21 13:05:20] INFO root fetch - processPackages [tinytag]: Downloading https://files.pythonhosted.org/packages/33/58/ff5f7a345b6448b6ad3cb8dd3c9a6cb4100e3359468e5f984aaca2634213/tinytag-1.9.0.tar.gz
+[2023-04-21 13:05:20] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230421] Old Version: [2.3.0b20230420]
+[2023-04-21 13:05:20] INFO root fetch - main [MainThread]: End processing [tensorcro]: success
+[2023-04-21 13:05:20] INFO root fetch - processPackages [scrape-schema]: executing diffoscope
+[2023-04-21 13:05:20] INFO root fetch - processPackages [scrape-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrape_schema-0.0.1.tar.gz tmp/scrape_schema-0.0.2.tar.gz --markdown 20230421/s/scrape-schema/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 13:05:20] INFO root fetch - processPackages [tinytag]: executing diffoscope
+[2023-04-21 13:05:20] INFO root fetch - processPackages [tinytag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinytag-1.8.1.tar.gz tmp/tinytag-1.9.0.tar.gz --markdown 20230421/t/tinytag/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-21 13:05:20] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/f3/e8/39818f49dccd47f4acd1bb7ebf9528ca33d6e4b05512c64d2bc60c433990/bigdl_nano-2.4.0b20230421-py3-none-win_amd64.whl
+[2023-04-21 13:05:21] INFO root fetch - main [MainThread]: End processing [catprompt]: success
+[2023-04-21 13:05:21] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-04-21 13:05:21] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.3.0b20230420-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230421-py3-none-win_amd64.whl.zip --markdown 20230421/b/bigdl-nano/2.3.0b20230420-2.4.0b20230421/diff.md --exclude *.pyd
+[2023-04-21 13:05:21] INFO root fetch - main [MainThread]: End processing [scrape-schema]: success
+[2023-04-21 13:05:21] INFO root fetch - main [MainThread]: End processing [tinytag]: success
+[2023-04-21 13:05:24] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-04-21 13:05:40] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-04-21 13:05:54] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-04-21 13:05:54] INFO root fetch - main [MainThread]: Store serial: [17802129]
