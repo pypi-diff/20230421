@@ -12680,3 +12680,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 12:31:08] INFO root fetch - main [MainThread]: End processing [pear-ebi]: success
 [2023-04-21 12:31:10] INFO root fetch - main [MainThread]: End processing [distgen]: success
 [2023-04-21 12:31:10] INFO root fetch - main [MainThread]: Store serial: [17801855]
+[2023-04-21 12:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17801855]
+[2023-04-21 12:36:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-21 12:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: themachinethatgoesping
+[2023-04-21 12:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libcnmc
+[2023-04-21 12:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auraboros
+[2023-04-21 12:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Turk-game
+[2023-04-21 12:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grimoire-elk
+[2023-04-21 12:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: planetmapper
+[2023-04-21 12:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: samna
+[2023-04-21 12:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quocs-lib
+[2023-04-21 12:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wikitextparser
+[2023-04-21 12:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dcef
+[2023-04-21 12:36:19] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-04-21 12:36:19] INFO root fetch - processPackages [planetmapper]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-04-21 12:36:19] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-21 12:36:19] INFO root fetch - processPackages [dcef]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-21 12:36:19] INFO root fetch - processPackages [Turk-game]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-21 12:36:19] INFO root fetch - processPackages [quocs-lib]: New version: [0.0a19] Old Version: [0.0a18]
+[2023-04-21 12:36:19] INFO root fetch - processPackages [grimoire-elk]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-21 12:36:19] INFO root fetch - processPackages [themachinethatgoesping]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-04-21 12:36:19] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-04-21 12:36:19] INFO root fetch - processPackages [wikitextparser]: New version: [0.9.1] Old Version: [0.9.0.dev1]
+[2023-04-21 12:36:19] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-04-21 12:36:19] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230421/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-04-21 12:36:19] INFO root fetch - processPackages [quocs-lib]: executing diffoscope
+[2023-04-21 12:36:19] INFO root fetch - processPackages [quocs-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quocs-lib-0.0a18.tar.gz tmp/quocs-lib-0.0a19.tar.gz --markdown 20230421/q/quocs-lib/0.0a18-0.0a19/diff.md --exclude *.pyd
+[2023-04-21 12:36:19] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2023-04-21 12:36:19] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire-elk-0.98.0.tar.gz tmp/grimoire-elk-0.99.0.tar.gz --markdown 20230421/g/grimoire-elk/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-21 12:36:19] INFO root fetch - processPackages [themachinethatgoesping]: Downloading https://files.pythonhosted.org/packages/d9/7c/7fe07958afadeb6289599e8f14fe3eeeadac79542d806078bd1e9bba1588/themachinethatgoesping-0.6.7-cp39-cp39-win_amd64.whl
+[2023-04-21 12:36:19] INFO root fetch - processPackages [wikitextparser]: Downloading https://files.pythonhosted.org/packages/6f/93/c5b71f691b2995822f12e68410a4c00434f8e5c6a7a1220424e32b2ccd3f/wikitextparser-0.9.0.dev1.tar.gz
+[2023-04-21 12:36:19] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/b9/03/76137e9b96d5a8c37b1c9e86e4cbe7fcf53faacdd9d1f3b53ee4bf2a30cf/planetmapper-1.6.3.tar.gz
+[2023-04-21 12:36:19] INFO root fetch - processPackages [dcef]: Downloading https://files.pythonhosted.org/packages/92/be/125fb73a9fffc1f2f7f47f4b6bc025fc9816365ebb38defcbe5a9c3b1b84/dcef-0.2.2.tar.gz
+[2023-04-21 12:36:19] INFO root fetch - processPackages [Turk-game]: Downloading https://files.pythonhosted.org/packages/3d/72/fb7bcb93be01a06d0ebacbe1b445c09a06fec04689b755e09d0487d358b1/Turk_game-1.0.2.tar.gz
+[2023-04-21 12:36:19] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-21 12:36:19] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230421/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-21 12:36:19] INFO root fetch - processPackages [planetmapper]: executing diffoscope
+[2023-04-21 12:36:19] INFO root fetch - processPackages [planetmapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmapper-1.6.2.tar.gz tmp/planetmapper-1.6.3.tar.gz --markdown 20230421/p/planetmapper/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-04-21 12:36:19] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-04-21 12:36:19] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230421/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-04-21 12:36:19] INFO root fetch - processPackages [Turk-game]: executing diffoscope
+[2023-04-21 12:36:19] INFO root fetch - processPackages [Turk-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Turk_game-1.0.1.tar.gz tmp/Turk_game-1.0.2.tar.gz --markdown 20230421/T/Turk-game/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-21 12:36:20] INFO root fetch - processPackages [wikitextparser]: Downloading https://files.pythonhosted.org/packages/4a/61/3eb816801c68e7fd8b698d04ce74275480d5a3381b157c3813e7f5039b2a/wikitextparser-0.9.1.tar.gz
+[2023-04-21 12:36:20] INFO root fetch - processPackages [dcef]: executing diffoscope
+[2023-04-21 12:36:20] INFO root fetch - processPackages [dcef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcef-0.2.1.tar.gz tmp/dcef-0.2.2.tar.gz --markdown 20230421/d/dcef/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-21 12:36:20] WARNING root fetch - processPackages [themachinethatgoesping]: Skipping package: exceeds size limit 13303183>=10485760
+[2023-04-21 12:36:20] INFO root fetch - main [MainThread]: End processing [themachinethatgoesping] error
+[2023-04-21 12:36:20] INFO root fetch - processPackages [wikitextparser]: executing diffoscope
+[2023-04-21 12:36:20] INFO root fetch - processPackages [wikitextparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikitextparser-0.9.0.dev1.tar.gz tmp/wikitextparser-0.9.1.tar.gz --markdown 20230421/w/wikitextparser/0.9.0.dev1-0.9.1/diff.md --exclude *.pyd
+[2023-04-21 12:36:21] INFO root fetch - main [MainThread]: End processing [quocs-lib]: success
+[2023-04-21 12:36:21] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-04-21 12:36:21] INFO root fetch - main [MainThread]: End processing [planetmapper]: success
+[2023-04-21 12:36:21] INFO root fetch - main [MainThread]: End processing [Turk-game]: success
+[2023-04-21 12:36:21] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-04-21 12:36:21] INFO root fetch - main [MainThread]: End processing [wikitextparser]: success
+[2023-04-21 12:36:23] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2023-04-21 12:36:24] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-21 12:36:46] INFO root fetch - main [MainThread]: End processing [dcef]: success
+[2023-04-21 12:36:46] INFO root fetch - main [MainThread]: Store serial: [17801884]
