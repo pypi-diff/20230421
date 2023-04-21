@@ -13727,3 +13727,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 13:37:37] INFO root fetch - main [MainThread]: End processing [talos-install]: success
 [2023-04-21 13:38:24] INFO root fetch - main [MainThread]: End processing [otlmow-model]: success
 [2023-04-21 13:38:24] INFO root fetch - main [MainThread]: Store serial: [17802426]
+[2023-04-21 13:43:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17802426]
+[2023-04-21 13:43:32] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-21 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thematos
+[2023-04-21 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mikro
+[2023-04-21 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dfsjson
+[2023-04-21 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grimoirelab-toolkit
+[2023-04-21 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vidis-algorithms-api
+[2023-04-21 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kidash
+[2023-04-21 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: styledlogger
+[2023-04-21 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geolink-formatter
+[2023-04-21 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: griffon
+[2023-04-21 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ekonlpy
+[2023-04-21 13:43:32] INFO root fetch - processPackages [vidis-algorithms-api]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-21 13:43:32] INFO root fetch - processPackages [grimoirelab-toolkit]: New version: [0.3.4rc1] Old Version: [0.3.3rc2]
+[2023-04-21 13:43:32] INFO root fetch - processPackages [ekonlpy]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-21 13:43:33] INFO root fetch - processPackages [kidash]: New version: [0.5.4rc1] Old Version: [0.5.3rc3]
+[2023-04-21 13:43:33] INFO root fetch - processPackages [ekonlpy]: executing diffoscope
+[2023-04-21 13:43:33] INFO root fetch - processPackages [ekonlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekonlpy-1.1.4.tar.gz tmp/ekonlpy-1.1.5.tar.gz --markdown 20230421/e/ekonlpy/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-21 13:43:33] INFO root fetch - processPackages [thematos]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-21 13:43:33] INFO root fetch - processPackages [dfsjson]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-21 13:43:33] WARNING root fetch - processPackages [styledlogger]: Skipping, unable to determine old version
+[2023-04-21 13:43:33] INFO root fetch - processPackages [styledlogger]: Start processing: otlmow-modelbuilder
+[2023-04-21 13:43:33] INFO root fetch - main [MainThread]: End processing [styledlogger] error
+[2023-04-21 13:43:33] INFO root fetch - processPackages [griffon]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 13:43:33] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-21 13:43:33] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2023-04-21 13:43:33] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-0.5.3rc3.tar.gz tmp/kidash-0.5.4rc1.tar.gz --markdown 20230421/k/kidash/0.5.3rc3-0.5.4rc1/diff.md --exclude *.pyd
+[2023-04-21 13:43:33] INFO root fetch - processPackages [geolink-formatter]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-21 13:43:33] INFO root fetch - processPackages [vidis-algorithms-api]: Downloading https://files.pythonhosted.org/packages/e2/aa/4f2140348e7291c0cfc061b8872037f878ab4ff8f21aae06e9b2ba66615b/vidis_algorithms_api-0.4.2.tar.gz
+[2023-04-21 13:43:33] INFO root fetch - processPackages [dfsjson]: Downloading https://files.pythonhosted.org/packages/c1/5e/057ab0ff852f5fb2791596d3b19c5a74f3d5e43e82c8aa9a6b20de7c9d40/dfsjson-1.0.4.tar.gz
+[2023-04-21 13:43:33] INFO root fetch - processPackages [grimoirelab-toolkit]: executing diffoscope
+[2023-04-21 13:43:33] INFO root fetch - processPackages [grimoirelab-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab_toolkit-0.3.3rc2.tar.gz tmp/grimoirelab_toolkit-0.3.4rc1.tar.gz --markdown 20230421/g/grimoirelab-toolkit/0.3.3rc2-0.3.4rc1/diff.md --exclude *.pyd
+[2023-04-21 13:43:33] INFO root fetch - processPackages [otlmow-modelbuilder]: New version: [0.7] Old Version: [0.6]
+[2023-04-21 13:43:33] INFO root fetch - processPackages [thematos]: Downloading https://files.pythonhosted.org/packages/c9/33/e3fa86f23f83d8757c9fe2e36d3eebdc383f76cc6bf50e150f157349fffb/thematos-0.1.2.tar.gz
+[2023-04-21 13:43:33] INFO root fetch - processPackages [geolink-formatter]: Downloading https://files.pythonhosted.org/packages/25/a3/11fe7e47026fcfa16c747d8578cfbc24095c7ea461790ebee5ef12c49e6c/geolink_formatter-2.0.3.tar.gz
+[2023-04-21 13:43:33] INFO root fetch - processPackages [vidis-algorithms-api]: executing diffoscope
+[2023-04-21 13:43:33] INFO root fetch - processPackages [vidis-algorithms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidis_algorithms_api-0.4.1.tar.gz tmp/vidis_algorithms_api-0.4.2.tar.gz --markdown 20230421/v/vidis-algorithms-api/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-21 13:43:33] INFO root fetch - processPackages [otlmow-modelbuilder]: Downloading https://files.pythonhosted.org/packages/ff/6d/e88ef69b4544b0744283911fa74a50acc69a4f09671edcfa7cbfa831b43b/otlmow_modelbuilder-0.6.tar.gz
+[2023-04-21 13:43:33] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-04-21 13:43:33] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230421/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-21 13:43:33] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-04-21 13:43:33] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.1.8.tar.gz tmp/griffon-0.1.9.tar.gz --markdown 20230421/g/griffon/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 13:43:33] INFO root fetch - processPackages [dfsjson]: Downloading https://files.pythonhosted.org/packages/df/f3/5d2c712c0fb92b2793f941178aad0556c615e704469716e79fe11d6bef12/dfsjson-1.0.5.tar.gz
+[2023-04-21 13:43:33] INFO root fetch - processPackages [thematos]: Downloading https://files.pythonhosted.org/packages/15/d9/4b330a46a2557329f25b96a8f5bfe17a5e9152eb9968d8e81cdd4750d42e/thematos-0.1.3.tar.gz
+[2023-04-21 13:43:33] INFO root fetch - processPackages [geolink-formatter]: Downloading https://files.pythonhosted.org/packages/23/de/a8039290c13756fd0a6b241581c3abd0bb44453e505f3a2b58c6b347664b/geolink_formatter-2.0.4.tar.gz
+[2023-04-21 13:43:33] INFO root fetch - processPackages [dfsjson]: executing diffoscope
+[2023-04-21 13:43:33] INFO root fetch - processPackages [dfsjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfsjson-1.0.4.tar.gz tmp/dfsjson-1.0.5.tar.gz --markdown 20230421/d/dfsjson/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-21 13:43:33] INFO root fetch - processPackages [thematos]: executing diffoscope
+[2023-04-21 13:43:33] INFO root fetch - processPackages [thematos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thematos-0.1.2.tar.gz tmp/thematos-0.1.3.tar.gz --markdown 20230421/t/thematos/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-21 13:43:33] INFO root fetch - processPackages [geolink-formatter]: executing diffoscope
+[2023-04-21 13:43:33] INFO root fetch - processPackages [geolink-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolink_formatter-2.0.3.tar.gz tmp/geolink_formatter-2.0.4.tar.gz --markdown 20230421/g/geolink-formatter/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-21 13:43:33] INFO root fetch - processPackages [otlmow-modelbuilder]: Downloading https://files.pythonhosted.org/packages/3d/ac/ab89fa75d14406f05e38c121b88789054230005a3fb881aa62f35054f64a/otlmow_modelbuilder-0.7.tar.gz
+[2023-04-21 13:43:33] INFO root fetch - processPackages [otlmow-modelbuilder]: executing diffoscope
+[2023-04-21 13:43:33] INFO root fetch - processPackages [otlmow-modelbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otlmow_modelbuilder-0.6.tar.gz tmp/otlmow_modelbuilder-0.7.tar.gz --markdown 20230421/o/otlmow-modelbuilder/0.6-0.7/diff.md --exclude *.pyd
+[2023-04-21 13:43:34] INFO root fetch - processPackages [vidis-algorithms-api]: Start processing: camerahub
+[2023-04-21 13:43:34] INFO root fetch - main [MainThread]: End processing [vidis-algorithms-api]: success
+[2023-04-21 13:43:34] INFO root fetch - processPackages [camerahub]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-21 13:43:34] INFO root fetch - processPackages [camerahub]: executing diffoscope
+[2023-04-21 13:43:34] INFO root fetch - processPackages [camerahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub-0.9.7.tar.gz tmp/camerahub-0.9.8.tar.gz --markdown 20230421/c/camerahub/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-21 13:43:35] INFO root fetch - processPackages [mikro]: Start processing: dfsjson
+[2023-04-21 13:43:35] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-04-21 13:43:35] INFO root fetch - processPackages [grimoirelab-toolkit]: Start processing: pywdgen
+[2023-04-21 13:43:35] INFO root fetch - main [MainThread]: End processing [grimoirelab-toolkit]: success
+[2023-04-21 13:43:35] INFO root fetch - processPackages [dfsjson]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-21 13:43:35] WARNING root fetch - processPackages [pywdgen]: Skipping, unable to determine old version
+[2023-04-21 13:43:35] INFO root fetch - processPackages [pywdgen]: Start processing: hyperfast-python-template
+[2023-04-21 13:43:35] INFO root fetch - main [MainThread]: End processing [pywdgen] error
+[2023-04-21 13:43:35] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-21 13:43:35] INFO root fetch - processPackages [dfsjson]: executing diffoscope
+[2023-04-21 13:43:35] INFO root fetch - processPackages [dfsjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfsjson-1.0.4.tar.gz tmp/dfsjson-1.0.5.tar.gz --markdown 20230421/d/dfsjson/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-21 13:43:35] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-21 13:43:35] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.2.8.tar.gz tmp/hyperfast_python_template-0.2.9.tar.gz --markdown 20230421/h/hyperfast-python-template/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-21 13:43:35] INFO root fetch - processPackages [griffon]: Start processing: soil
+[2023-04-21 13:43:35] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-04-21 13:43:35] INFO root fetch - processPackages [kidash]: Start processing: omnisearch
+[2023-04-21 13:43:35] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2023-04-21 13:43:35] INFO root fetch - processPackages [dfsjson]: Start processing: dedomenon
+[2023-04-21 13:43:35] INFO root fetch - main [MainThread]: End processing [dfsjson]: success
+[2023-04-21 13:43:35] INFO root fetch - processPackages [dedomenon]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 13:43:35] INFO root fetch - processPackages [thematos]: Start processing: IQM-Vis
+[2023-04-21 13:43:35] INFO root fetch - main [MainThread]: End processing [thematos]: success
+[2023-04-21 13:43:35] INFO root fetch - processPackages [soil]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-04-21 13:43:35] INFO root fetch - processPackages [omnisearch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-21 13:43:35] INFO root fetch - processPackages [dedomenon]: executing diffoscope
+[2023-04-21 13:43:35] INFO root fetch - processPackages [dedomenon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dedomenon-0.1.0.tar.gz tmp/dedomenon-0.1.1.tar.gz --markdown 20230421/d/dedomenon/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 13:43:35] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.9] Old Version: [0.2.5.8]
+[2023-04-21 13:43:35] INFO root fetch - processPackages [soil]: Downloading https://files.pythonhosted.org/packages/3b/e3/9914bd804d394c3a954fbbc463fa55b608d5dbab7a1b8f044d9fa5a687d5/soil-1.0.0rc2.tar.gz
+[2023-04-21 13:43:35] INFO root fetch - processPackages [omnisearch]: Downloading https://files.pythonhosted.org/packages/ab/80/5e36dea907c8ee1e43be2d2cf000c9b8f1a6e714323edfc80e1502dc5084/omnisearch-0.0.1.tar.gz
+[2023-04-21 13:43:35] INFO root fetch - processPackages [soil]: executing diffoscope
+[2023-04-21 13:43:35] INFO root fetch - processPackages [soil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-1.0.0rc1.tar.gz tmp/soil-1.0.0rc2.tar.gz --markdown 20230421/s/soil/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-04-21 13:43:35] INFO root fetch - processPackages [geolink-formatter]: Start processing: cereslib
+[2023-04-21 13:43:35] INFO root fetch - main [MainThread]: End processing [geolink-formatter]: success
+[2023-04-21 13:43:36] INFO root fetch - processPackages [cereslib]: New version: [0.4.0rc1] Old Version: [0.3.6rc3]
+[2023-04-21 13:43:36] INFO root fetch - processPackages [IQM-Vis]: executing diffoscope
+[2023-04-21 13:43:36] INFO root fetch - processPackages [IQM-Vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IQM-VIS-0.2.5.8.tar.gz tmp/IQM-VIS-0.2.5.9.tar.gz --markdown 20230421/I/IQM-Vis/0.2.5.8-0.2.5.9/diff.md --exclude *.pyd
+[2023-04-21 13:43:36] INFO root fetch - processPackages [omnisearch]: Downloading https://files.pythonhosted.org/packages/e1/f3/64f7c5dc2eeb5ea7cfc3a8ff08f8ca9d609c073ba108b035abdfdf02cb58/omnisearch-0.0.2.tar.gz
+[2023-04-21 13:43:36] INFO root fetch - processPackages [cereslib]: executing diffoscope
+[2023-04-21 13:43:36] INFO root fetch - processPackages [cereslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cereslib-0.3.6rc3.tar.gz tmp/cereslib-0.4.0rc1.tar.gz --markdown 20230421/c/cereslib/0.3.6rc3-0.4.0rc1/diff.md --exclude *.pyd
+[2023-04-21 13:43:36] INFO root fetch - processPackages [omnisearch]: executing diffoscope
+[2023-04-21 13:43:36] INFO root fetch - processPackages [omnisearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnisearch-0.0.1.tar.gz tmp/omnisearch-0.0.2.tar.gz --markdown 20230421/o/omnisearch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-21 13:43:36] INFO root fetch - processPackages [otlmow-modelbuilder]: Start processing: perceval
+[2023-04-21 13:43:36] INFO root fetch - main [MainThread]: End processing [otlmow-modelbuilder]: success
+[2023-04-21 13:43:36] INFO root fetch - processPackages [perceval]: New version: [0.9.9] Old Version: [0.9.6]
+[2023-04-21 13:43:36] INFO root fetch - processPackages [perceval]: executing diffoscope
+[2023-04-21 13:43:36] INFO root fetch - processPackages [perceval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-0.9.6.tar.gz tmp/perceval-0.9.9.tar.gz --markdown 20230421/p/perceval/0.9.6-0.9.9/diff.md --exclude *.pyd
+[2023-04-21 13:43:37] INFO root fetch - processPackages [dfsjson]: Start processing: protypo
+[2023-04-21 13:43:37] INFO root fetch - main [MainThread]: End processing [dfsjson]: success
+[2023-04-21 13:43:37] INFO root fetch - processPackages [protypo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-21 13:43:37] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-21 13:43:37] INFO root fetch - processPackages [protypo]: Downloading https://files.pythonhosted.org/packages/37/9a/9645e16f1471dbb0158e055b4e643b23283bce56ee7e0fdbaac18a641b2e/protypo-0.1.0.tar.gz
+[2023-04-21 13:43:37] INFO root fetch - processPackages [protypo]: Downloading https://files.pythonhosted.org/packages/14/67/0b3bc04d9b04feb58c065fa51492694056e2142ea5351b7c93a1528dbfcc/protypo-0.1.1.tar.gz
+[2023-04-21 13:43:37] INFO root fetch - main [MainThread]: End processing [dedomenon]: success
+[2023-04-21 13:43:37] INFO root fetch - processPackages [protypo]: executing diffoscope
+[2023-04-21 13:43:37] INFO root fetch - processPackages [protypo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protypo-0.1.0.tar.gz tmp/protypo-0.1.1.tar.gz --markdown 20230421/p/protypo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-21 13:43:37] INFO root fetch - main [MainThread]: End processing [IQM-Vis]: success
+[2023-04-21 13:43:37] INFO root fetch - main [MainThread]: End processing [cereslib]: success
+[2023-04-21 13:43:37] INFO root fetch - main [MainThread]: End processing [omnisearch]: success
+[2023-04-21 13:43:38] INFO root fetch - main [MainThread]: End processing [protypo]: success
+[2023-04-21 13:43:39] INFO root fetch - main [MainThread]: End processing [camerahub]: success
+[2023-04-21 13:43:39] INFO root fetch - main [MainThread]: End processing [perceval]: success
+[2023-04-21 13:43:39] INFO root fetch - main [MainThread]: End processing [soil]: success
+[2023-04-21 13:43:39] INFO root fetch - main [MainThread]: End processing [ekonlpy]: success
+[2023-04-21 13:43:39] INFO root fetch - main [MainThread]: Store serial: [17802491]
