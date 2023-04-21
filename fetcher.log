@@ -7015,3 +7015,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 05:09:55] INFO root fetch - main [MainThread]: End processing [cirque-pinnacle]: success
 [2023-04-21 05:09:55] INFO root fetch - main [MainThread]: End processing [cirque-pinnacle]: success
 [2023-04-21 05:09:55] INFO root fetch - main [MainThread]: Store serial: [17798561]
+[2023-04-21 05:14:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17798561]
+[2023-04-21 05:15:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-21 05:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamindb
+[2023-04-21 05:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bingbong
+[2023-04-21 05:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-ecommerce-ext
+[2023-04-21 05:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GANDLF
+[2023-04-21 05:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-dns
+[2023-04-21 05:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-api-testka-dev
+[2023-04-21 05:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-nomad
+[2023-04-21 05:15:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-21 05:15:04] INFO root fetch - processPackages [bingbong]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-21 05:15:04] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230420] Old Version: [0.0.16.dev20230419]
+[2023-04-21 05:15:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-21 05:15:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.2.7.tar.gz tmp/fastapi_ecommerce_ext-0.2.8.tar.gz --markdown 20230421/f/fastapi-ecommerce-ext/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-21 05:15:04] INFO root fetch - processPackages [cdktf-cdktf-provider-nomad]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-04-21 05:15:04] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-04-21 05:15:04] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-04-21 05:15:04] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-04-21 05:15:04] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-04-21 05:15:04] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.1.8-py3-none-any.whl.zip tmp/bingbong-0.1.9-py3-none-any.whl.zip --markdown 20230421/b/bingbong/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-21 05:15:04] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-04-21 05:15:04] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230419.tar.gz tmp/GANDLF-0.0.16.dev20230420.tar.gz --markdown 20230421/G/GANDLF/0.0.16.dev20230419-0.0.16.dev20230420/diff.md --exclude *.pyd
+[2023-04-21 05:15:04] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/fe/ab/b6326ada7228ed4a07db1a70e7281297f2053fe85b7a113a9f421c8de70d/je_api_testka_dev-0.0.80.tar.gz
+[2023-04-21 05:15:04] INFO root fetch - processPackages [cdktf-cdktf-provider-nomad]: Downloading https://files.pythonhosted.org/packages/c1/8b/d43d22d56eeb39c118eac0b415ec8262fb4d7dba4df957643976b28b7b8c/cdktf-cdktf-provider-nomad-4.0.1.tar.gz
+[2023-04-21 05:15:04] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: Downloading https://files.pythonhosted.org/packages/aa/11/20acb9fc7234a2a6efb9e9650064488b3e46bcf7acb3be2448c20d527225/cdktf-cdktf-provider-dns-4.0.1.tar.gz
+[2023-04-21 05:15:04] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-04-21 05:15:04] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230421/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-04-21 05:15:04] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-04-21 05:15:04] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.80.tar.gz tmp/je_api_testka_dev-0.0.9.tar.gz --markdown 20230421/j/je-api-testka-dev/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-04-21 05:15:04] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: executing diffoscope
+[2023-04-21 05:15:04] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-dns-4.0.0.tar.gz tmp/cdktf-cdktf-provider-dns-4.0.1.tar.gz --markdown 20230421/c/cdktf-cdktf-provider-dns/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-04-21 05:15:04] INFO root fetch - processPackages [cdktf-cdktf-provider-nomad]: executing diffoscope
+[2023-04-21 05:15:04] INFO root fetch - processPackages [cdktf-cdktf-provider-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-nomad-4.0.0.tar.gz tmp/cdktf-cdktf-provider-nomad-4.0.1.tar.gz --markdown 20230421/c/cdktf-cdktf-provider-nomad/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-04-21 05:15:05] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-21 05:15:05] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-04-21 05:15:05] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-04-21 05:15:06] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-04-21 05:15:06] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-04-21 05:15:06] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-dns]: success
+[2023-04-21 05:15:07] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-nomad]: success
+[2023-04-21 05:15:07] INFO root fetch - main [MainThread]: Store serial: [17798580]
