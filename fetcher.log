@@ -8346,3 +8346,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-21 07:25:18] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-04-21 07:25:18] INFO root fetch - main [MainThread]: End processing [trops]: success
 [2023-04-21 07:25:18] INFO root fetch - main [MainThread]: Store serial: [17799392]
+[2023-04-21 07:30:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17799392]
+[2023-04-21 07:30:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-21 07:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DecisionTreeClassifier
+[2023-04-21 07:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dknovautils
+[2023-04-21 07:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sketchlib
+[2023-04-21 07:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: html2notion
+[2023-04-21 07:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metaphor-models
+[2023-04-21 07:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crazy-thursday
+[2023-04-21 07:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: toggler
+[2023-04-21 07:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MeUtils
+[2023-04-21 07:30:26] WARNING root fetch - processPackages [DecisionTreeClassifier]: Skipping, unable to determine old version
+[2023-04-21 07:30:26] INFO root fetch - main [MainThread]: End processing [DecisionTreeClassifier] error
+[2023-04-21 07:30:26] INFO root fetch - processPackages [metaphor-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-21 07:30:26] INFO root fetch - processPackages [toggler]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-21 07:30:26] INFO root fetch - processPackages [dknovautils]: New version: [0.0.3] Old Version: [0.0.25]
+[2023-04-21 07:30:26] INFO root fetch - processPackages [sketchlib]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-04-21 07:30:26] WARNING root fetch - processPackages [html2notion]: Skipping, unable to determine old version
+[2023-04-21 07:30:26] INFO root fetch - main [MainThread]: End processing [html2notion] error
+[2023-04-21 07:30:26] INFO root fetch - processPackages [MeUtils]: New version: [2023.4.6.14.28.33] Old Version: [2023.4.6.14.19.58]
+[2023-04-21 07:30:26] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-21 07:30:27] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-04-21 07:30:27] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.4.6.14.19.58.tar.gz tmp/MeUtils-2023.4.6.14.28.33.tar.gz --markdown 20230421/M/MeUtils/2023.4.6.14.19.58-2023.4.6.14.28.33/diff.md --exclude *.pyd
+[2023-04-21 07:30:27] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-21 07:30:27] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230421/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-21 07:30:27] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/e5/f1/d5125910c485203f92085bf45c907523b1420f5266526698fbc4c5a4b1ce/dknovautils-0.0.25.tar.gz
+[2023-04-21 07:30:27] INFO root fetch - processPackages [sketchlib]: Downloading https://files.pythonhosted.org/packages/6f/6c/119fd5faec6ce04958e7c4d931abe9e4a475ca80e19b35418234a345b684/sketchlib-0.0.0.tar.gz
+[2023-04-21 07:30:27] INFO root fetch - processPackages [toggler]: Downloading https://files.pythonhosted.org/packages/3a/f8/aaab1823c563e4359ee05c668bf7332aeb0299377ba7d2b1f8421a2efeb1/toggler-0.2.1.tar.gz
+[2023-04-21 07:30:27] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/74/c8/861ac19e980a9e86a231d993a5edbbe8c2ed5a3c7ec8a0d0202fc8ec34c7/metaphor-models-0.9.0.tar.gz
+[2023-04-21 07:30:27] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-04-21 07:30:27] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.0.25.tar.gz tmp/dknovautils-0.0.3.tar.gz --markdown 20230421/d/dknovautils/0.0.25-0.0.3/diff.md --exclude *.pyd
+[2023-04-21 07:30:27] INFO root fetch - processPackages [toggler]: executing diffoscope
+[2023-04-21 07:30:27] INFO root fetch - processPackages [toggler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toggler-0.2.0.tar.gz tmp/toggler-0.2.1.tar.gz --markdown 20230421/t/toggler/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-21 07:30:27] INFO root fetch - processPackages [sketchlib]: Downloading https://files.pythonhosted.org/packages/b7/06/b5c1ca4a42bb4bebe761159654393b224859ae98427fc40d7bb5baf410d5/sketchlib-0.0.1.tar.gz
+[2023-04-21 07:30:27] INFO root fetch - processPackages [sketchlib]: executing diffoscope
+[2023-04-21 07:30:27] INFO root fetch - processPackages [sketchlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sketchlib-0.0.0.tar.gz tmp/sketchlib-0.0.1.tar.gz --markdown 20230421/s/sketchlib/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-04-21 07:30:27] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/56/65/21a7865fd28d1a8651af865fd1ef807e93d934f8e69bf168c4bd764821d7/metaphor-models-0.9.1.tar.gz
+[2023-04-21 07:30:27] INFO root fetch - processPackages [metaphor-models]: executing diffoscope
+[2023-04-21 07:30:27] INFO root fetch - processPackages [metaphor-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230421:/home/abi/fetcher/20230421:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-models-0.9.0.tar.gz tmp/metaphor-models-0.9.1.tar.gz --markdown 20230421/m/metaphor-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-21 07:30:28] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-21 07:30:28] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-04-21 07:30:28] INFO root fetch - main [MainThread]: End processing [sketchlib]: success
+[2023-04-21 07:30:28] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
+[2023-04-21 07:30:28] INFO root fetch - main [MainThread]: End processing [toggler]: success
+[2023-04-21 07:30:29] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-04-21 07:30:29] INFO root fetch - main [MainThread]: Store serial: [17799418]
